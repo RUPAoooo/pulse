@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>WORLD PULSE — 世界の脈拍</title>
+<meta name="description" content="世界中の関心の動きを、ひとつの地図に映し出す。WORLD PULSE / 世界の脈拍">
+<meta name="color-scheme" content="dark">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/map.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<!-- loading ------------------------------------------------------------- -->
+<div id="loader" class="boot">
+  <div class="boot-dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+  <p class="mono boot-text" data-i18n="loading">データを読み込んでいます</p>
+</div>
+
+<!-- load failure -------------------------------------------------------- -->
+<div id="error" class="boot boot-error" hidden>
+  <p class="err-en">Trend data could not be loaded.</p>
+  <p class="err-ja" data-i18n="error.title">データを読み込めませんでした。</p>
+  <p class="mono err-hint" data-i18n="error.hint"></p>
+  <button type="button" id="error-retry" class="btn" data-i18n="error.retry">再読み込み</button>
+</div>
+
+<!-- app ----------------------------------------------------------------- -->
+<div id="app" hidden>
+
+  <header class="hdr">
+    <div class="brand">
+      <h1 class="brand-en">WORLD<span class="brand-sep">·</span>PULSE</h1>
+      <p class="brand-ja" data-i18n="app.nameJa">世界の脈拍</p>
+    </div>
+
+    <div class="hdr-tools">
+      <label class="sr-only" for="country-select" data-i18n="nav.pickCountry">国を検索して選ぶ</label>
+      <select id="country-select" class="mono country-select"></select>
+
+      <button type="button" id="links-toggle" class="btn btn-ghost mono"
+              aria-pressed="false" data-i18n="nav.links" data-i18n-title="nav.linksTitle">接続線</button>
+
+      <button type="button" id="world-now" class="btn btn-world mono"
+              data-i18n="nav.worldNow">WORLD NOW</button>
+
+      <div class="lang mono" role="group" data-i18n-label="nav.lang">
+        <button type="button" data-lang="ja">JP</button>
+        <span class="lang-sep">/</span>
+        <button type="button" data-lang="en">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="stage">
+    <div class="filter-rail">
+      <span class="mono rail-label" data-i18n="filter.category">カテゴリー</span>
+      <div id="filters" class="chips"></div>
+    </div>
+
+    <div id="map-wrap" class="map-wrap">
+      <svg id="map" class="world" role="img" data-i18n-label="a11y.map"></svg>
+      <div id="tooltip" class="tooltip" hidden aria-hidden="true"></div>
+      <p id="hint" class="hint mono"><span data-i18n="hint.select">国を選択</span></p>
+      <p class="stamp mono">UPDATED <b id="updated-stamp">—</b></p>
+    </div>
+  </main>
+
+  <footer class="tl" id="timeline"></footer>
+
+  <aside id="panel" class="panel" aria-live="polite"></aside>
+  <div id="modal" class="modal" hidden></div>
+</div>
+
+<!-- first view ---------------------------------------------------------- -->
+<div id="intro" class="intro" aria-hidden="true">
+  <p class="intro-en" data-i18n="intro.en">THE WORLD, RIGHT NOW.</p>
+  <p class="intro-ja" data-i18n="intro.ja">世界は今、何を見ているのか。</p>
+</div>
+
+<!-- module load failure (inline fallback; must work even if css/js are missing) -->
+<div id="bootfail" hidden style="position:fixed;inset:0;z-index:120;display:none;
+     flex-direction:column;align-items:center;justify-content:center;gap:.9rem;
+     background:#06090e;color:#e6ecf4;padding:1.5rem;text-align:center;
+     font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.9rem;line-height:1.9">
+  <p style="margin:0">アプリケーションを起動できませんでした。<br>必要なファイルが不足している可能性があります。</p>
+  <p style="margin:0;color:#8493a8">The application could not start.<br>Some required files may be missing.</p>
+  <p id="bootfail-detail" style="margin:0;color:#4d5a6d;font-size:.78rem"></p>
+</div>
+
+<script type="module" src="js/app.js"></script>
+
+<script>
+/* Fallback for the case where js/app.js — or anything it imports — never runs.
+   Deliberately a classic script with no dependencies: it has to survive a
+   missing stylesheet or a 404 on the module graph. */
+(function () {
+  var TIMEOUT = 8000;
+  var done = false;
+  var detail = '';
+
+  function fail() {
+    if (done || window.__WP_BOOTED__) return;
+    done = true;
+    var loader = document.getElementById('loader');
+    var intro = document.getElementById('intro');
+    if (loader) loader.style.display = 'none';
+    if (intro) intro.style.display = 'none';
+    var box = document.getElementById('bootfail');
+    if (!box) return;
+    box.hidden = false;
+    box.style.display = 'flex';
+    var d = document.getElementById('bootfail-detail');
+    if (d && detail) d.textContent = detail;
+  }
+
+  /* a 404 (or syntax error) anywhere in the module graph surfaces here */
+  window.addEventListener('error', function (e) {
+    var src = e.target && (e.target.src || e.target.href);
+    if (src) {
+      detail = src.replace(location.origin, '') + ' could not be loaded';
+      setTimeout(fail, 60);
+    }
+  }, true);
+
+  setTimeout(fail, TIMEOUT);
+})();
+</script>
+</body>
+</html>

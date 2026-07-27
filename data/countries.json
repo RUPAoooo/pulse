@@ -1,0 +1,1719 @@
+{
+ "note": "Country registry. `centroid` / `bbox` are grid coordinates of data/worldgrid.json, not geographic coordinates.",
+ "targets": [
+  "JP",
+  "US",
+  "GB",
+  "FR",
+  "DE",
+  "IT",
+  "ES",
+  "KR",
+  "CN",
+  "IN",
+  "BR",
+  "AU"
+ ],
+ "countries": [
+  {
+   "code": "AF",
+   "code3": "AFG",
+   "name": {
+    "ja": "アフガニスタン",
+    "en": "Afghanistan"
+   },
+   "tz": "Asia/Kabul",
+   "hasData": false,
+   "centroid": {
+    "x": 84.5,
+    "y": 15.5
+   },
+   "bbox": [
+    84,
+    15,
+    84,
+    15
+   ]
+  },
+  {
+   "code": "AO",
+   "code3": "AGO",
+   "name": {
+    "ja": "アンゴラ",
+    "en": "Angola"
+   },
+   "tz": "Africa/Luanda",
+   "hasData": false,
+   "centroid": {
+    "x": 66.0,
+    "y": 31.5
+   },
+   "bbox": [
+    64,
+    29,
+    67,
+    33
+   ]
+  },
+  {
+   "code": "AR",
+   "code3": "ARG",
+   "name": {
+    "ja": "アルゼンチン",
+    "en": "Argentina"
+   },
+   "tz": "America/Argentina/Buenos_Aires",
+   "hasData": false,
+   "centroid": {
+    "x": 39.04,
+    "y": 39.31
+   },
+   "bbox": [
+    37,
+    35,
+    42,
+    44
+   ]
+  },
+  {
+   "code": "AU",
+   "code3": "AUS",
+   "name": {
+    "ja": "オーストラリア",
+    "en": "Australia"
+   },
+   "tz": "Australia/Sydney",
+   "hasData": true,
+   "centroid": {
+    "x": 104.85,
+    "y": 36.46
+   },
+   "bbox": [
+    98,
+    32,
+    110,
+    42
+   ]
+  },
+  {
+   "code": "BD",
+   "code3": "BGD",
+   "name": {
+    "ja": "バングラデシュ",
+    "en": "Bangladesh"
+   },
+   "tz": "Asia/Dhaka",
+   "hasData": false,
+   "centroid": {
+    "x": 90.0,
+    "y": 19.5
+   },
+   "bbox": [
+    89,
+    19,
+    90,
+    19
+   ]
+  },
+  {
+   "code": "BO",
+   "code3": "BOL",
+   "name": {
+    "ja": "ボリビア",
+    "en": "Bolivia"
+   },
+   "tz": "America/La_Paz",
+   "hasData": false,
+   "centroid": {
+    "x": 38.75,
+    "y": 33.12
+   },
+   "bbox": [
+    37,
+    31,
+    40,
+    35
+   ]
+  },
+  {
+   "code": "BR",
+   "code3": "BRA",
+   "name": {
+    "ja": "ブラジル",
+    "en": "Brazil"
+   },
+   "tz": "America/Sao_Paulo",
+   "hasData": true,
+   "centroid": {
+    "x": 43.07,
+    "y": 30.9
+   },
+   "bbox": [
+    37,
+    26,
+    47,
+    36
+   ]
+  },
+  {
+   "code": "CA",
+   "code3": "CAN",
+   "name": {
+    "ja": "カナダ",
+    "en": "Canada"
+   },
+   "tz": "America/Toronto",
+   "hasData": false,
+   "centroid": {
+    "x": 26.85,
+    "y": 7.67
+   },
+   "bbox": [
+    17,
+    3,
+    40,
+    11
+   ]
+  },
+  {
+   "code": "CD",
+   "code3": "COD",
+   "name": {
+    "ja": "コンゴ民主共和国",
+    "en": "DR Congo"
+   },
+   "tz": "Africa/Kinshasa",
+   "hasData": false,
+   "centroid": {
+    "x": 67.62,
+    "y": 28.58
+   },
+   "bbox": [
+    64,
+    26,
+    69,
+    32
+   ]
+  },
+  {
+   "code": "CI",
+   "code3": "CIV",
+   "name": {
+    "ja": "コートジボワール",
+    "en": "Côte d'Ivoire"
+   },
+   "tz": "Africa/Abidjan",
+   "hasData": false,
+   "centroid": {
+    "x": 58.0,
+    "y": 25.5
+   },
+   "bbox": [
+    57,
+    24,
+    58,
+    26
+   ]
+  },
+  {
+   "code": "CL",
+   "code3": "CHL",
+   "name": {
+    "ja": "チリ",
+    "en": "Chile"
+   },
+   "tz": "America/Santiago",
+   "hasData": false,
+   "centroid": {
+    "x": 36.4,
+    "y": 40.9
+   },
+   "bbox": [
+    35,
+    36,
+    36,
+    44
+   ]
+  },
+  {
+   "code": "CM",
+   "code3": "CMR",
+   "name": {
+    "ja": "カメルーン",
+    "en": "Cameroon"
+   },
+   "tz": "Africa/Douala",
+   "hasData": false,
+   "centroid": {
+    "x": 64.83,
+    "y": 25.83
+   },
+   "bbox": [
+    63,
+    24,
+    65,
+    27
+   ]
+  },
+  {
+   "code": "CN",
+   "code3": "CHN",
+   "name": {
+    "ja": "中国",
+    "en": "China"
+   },
+   "tz": "Asia/Shanghai",
+   "hasData": true,
+   "centroid": {
+    "x": 93.77,
+    "y": 14.97
+   },
+   "bbox": [
+    84,
+    10,
+    104,
+    20
+   ]
+  },
+  {
+   "code": "CO",
+   "code3": "COL",
+   "name": {
+    "ja": "コロンビア",
+    "en": "Colombia"
+   },
+   "tz": "America/Bogota",
+   "hasData": false,
+   "centroid": {
+    "x": 36.5,
+    "y": 26.43
+   },
+   "bbox": [
+    34,
+    24,
+    37,
+    29
+   ]
+  },
+  {
+   "code": "CU",
+   "code3": "CUB",
+   "name": {
+    "ja": "キューバ",
+    "en": "Cuba"
+   },
+   "tz": "America/Havana",
+   "hasData": false,
+   "centroid": {
+    "x": 33.5,
+    "y": 20.83
+   },
+   "bbox": [
+    32,
+    20,
+    34,
+    21
+   ]
+  },
+  {
+   "code": "DE",
+   "code3": "DEU",
+   "name": {
+    "ja": "ドイツ",
+    "en": "Germany"
+   },
+   "tz": "Europe/Berlin",
+   "hasData": true,
+   "centroid": {
+    "x": 63.7,
+    "y": 10.9
+   },
+   "bbox": [
+    62,
+    10,
+    64,
+    11
+   ]
+  },
+  {
+   "code": "DK",
+   "code3": "DNK",
+   "name": {
+    "ja": "デンマーク",
+    "en": "Denmark"
+   },
+   "tz": "Europe/Copenhagen",
+   "hasData": false,
+   "centroid": {
+    "x": 63.5,
+    "y": 9.5
+   },
+   "bbox": [
+    63,
+    9,
+    63,
+    9
+   ]
+  },
+  {
+   "code": "DO",
+   "code3": "DOM",
+   "name": {
+    "ja": "ドミニカ共和国",
+    "en": "Dominican Republic"
+   },
+   "tz": "America/Santo_Domingo",
+   "hasData": false,
+   "centroid": {
+    "x": 36.5,
+    "y": 21.5
+   },
+   "bbox": [
+    36,
+    21,
+    36,
+    21
+   ]
+  },
+  {
+   "code": "DZ",
+   "code3": "DZA",
+   "name": {
+    "ja": "アルジェリア",
+    "en": "Algeria"
+   },
+   "tz": "Africa/Algiers",
+   "hasData": false,
+   "centroid": {
+    "x": 61.21,
+    "y": 19.21
+   },
+   "bbox": [
+    59,
+    16,
+    62,
+    21
+   ]
+  },
+  {
+   "code": "EC",
+   "code3": "ECU",
+   "name": {
+    "ja": "エクアドル",
+    "en": "Ecuador"
+   },
+   "tz": "America/Guayaquil",
+   "hasData": false,
+   "centroid": {
+    "x": 34.1,
+    "y": 28.7
+   },
+   "bbox": [
+    33,
+    27,
+    34,
+    29
+   ]
+  },
+  {
+   "code": "EG",
+   "code3": "EGY",
+   "name": {
+    "ja": "エジプト",
+    "en": "Egypt"
+   },
+   "tz": "Africa/Cairo",
+   "hasData": false,
+   "centroid": {
+    "x": 70.07,
+    "y": 19.21
+   },
+   "bbox": [
+    68,
+    17,
+    71,
+    20
+   ]
+  },
+  {
+   "code": "ES",
+   "code3": "ESP",
+   "name": {
+    "ja": "スペイン",
+    "en": "Spain"
+   },
+   "tz": "Europe/Madrid",
+   "hasData": true,
+   "centroid": {
+    "x": 59.36,
+    "y": 14.21
+   },
+   "bbox": [
+    58,
+    13,
+    60,
+    15
+   ]
+  },
+  {
+   "code": "ET",
+   "code3": "ETH",
+   "name": {
+    "ja": "エチオピア",
+    "en": "Ethiopia"
+   },
+   "tz": "Africa/Addis_Ababa",
+   "hasData": false,
+   "centroid": {
+    "x": 73.58,
+    "y": 25.42
+   },
+   "bbox": [
+    71,
+    23,
+    75,
+    26
+   ]
+  },
+  {
+   "code": "FI",
+   "code3": "FIN",
+   "name": {
+    "ja": "フィンランド",
+    "en": "Finland"
+   },
+   "tz": "Europe/Helsinki",
+   "hasData": false,
+   "centroid": {
+    "x": 69.3,
+    "y": 6.6
+   },
+   "bbox": [
+    67,
+    4,
+    70,
+    7
+   ]
+  },
+  {
+   "code": "FR",
+   "code3": "FRA",
+   "name": {
+    "ja": "フランス",
+    "en": "France"
+   },
+   "tz": "Europe/Paris",
+   "hasData": true,
+   "centroid": {
+    "x": 61.36,
+    "y": 12.36
+   },
+   "bbox": [
+    59,
+    11,
+    62,
+    13
+   ]
+  },
+  {
+   "code": "GB",
+   "code3": "GBR",
+   "name": {
+    "ja": "イギリス",
+    "en": "United Kingdom"
+   },
+   "tz": "Europe/London",
+   "hasData": true,
+   "centroid": {
+    "x": 59.17,
+    "y": 10.0
+   },
+   "bbox": [
+    58,
+    8,
+    60,
+    11
+   ]
+  },
+  {
+   "code": "GH",
+   "code3": "GHA",
+   "name": {
+    "ja": "ガーナ",
+    "en": "Ghana"
+   },
+   "tz": "Africa/Accra",
+   "hasData": false,
+   "centroid": {
+    "x": 60.1,
+    "y": 25.3
+   },
+   "bbox": [
+    59,
+    24,
+    60,
+    26
+   ]
+  },
+  {
+   "code": "GL",
+   "code3": "GRL",
+   "name": {
+    "ja": "グリーンランド",
+    "en": "Greenland"
+   },
+   "tz": "America/Nuuk",
+   "hasData": false,
+   "centroid": {
+    "x": 43.74,
+    "y": 4.31
+   },
+   "bbox": [
+    35,
+    0,
+    52,
+    8
+   ]
+  },
+  {
+   "code": "GR",
+   "code3": "GRC",
+   "name": {
+    "ja": "ギリシャ",
+    "en": "Greece"
+   },
+   "tz": "Europe/Athens",
+   "hasData": false,
+   "centroid": {
+    "x": 68.0,
+    "y": 15.0
+   },
+   "bbox": [
+    66,
+    14,
+    69,
+    16
+   ]
+  },
+  {
+   "code": "GT",
+   "code3": "GTM",
+   "name": {
+    "ja": "グアテマラ",
+    "en": "Guatemala"
+   },
+   "tz": "America/Guatemala",
+   "hasData": false,
+   "centroid": {
+    "x": 30.5,
+    "y": 23.5
+   },
+   "bbox": [
+    30,
+    23,
+    30,
+    23
+   ]
+  },
+  {
+   "code": "ID",
+   "code3": "IDN",
+   "name": {
+    "ja": "インドネシア",
+    "en": "Indonesia"
+   },
+   "tz": "Asia/Jakarta",
+   "hasData": false,
+   "centroid": {
+    "x": 99.73,
+    "y": 29.42
+   },
+   "bbox": [
+    94,
+    28,
+    106,
+    30
+   ]
+  },
+  {
+   "code": "IE",
+   "code3": "IRL",
+   "name": {
+    "ja": "アイルランド",
+    "en": "Ireland"
+   },
+   "tz": "Europe/Dublin",
+   "hasData": false,
+   "centroid": {
+    "x": 57.5,
+    "y": 10.0
+   },
+   "bbox": [
+    57,
+    9,
+    57,
+    10
+   ]
+  },
+  {
+   "code": "IN",
+   "code3": "IND",
+   "name": {
+    "ja": "インド",
+    "en": "India"
+   },
+   "tz": "Asia/Kolkata",
+   "hasData": true,
+   "centroid": {
+    "x": 86.46,
+    "y": 20.76
+   },
+   "bbox": [
+    83,
+    17,
+    89,
+    24
+   ]
+  },
+  {
+   "code": "IQ",
+   "code3": "IRQ",
+   "name": {
+    "ja": "イラク",
+    "en": "Iraq"
+   },
+   "tz": "Asia/Baghdad",
+   "hasData": false,
+   "centroid": {
+    "x": 74.83,
+    "y": 16.83
+   },
+   "bbox": [
+    73,
+    15,
+    75,
+    17
+   ]
+  },
+  {
+   "code": "IR",
+   "code3": "IRN",
+   "name": {
+    "ja": "イラン",
+    "en": "Iran"
+   },
+   "tz": "Asia/Tehran",
+   "hasData": false,
+   "centroid": {
+    "x": 78.5,
+    "y": 16.95
+   },
+   "bbox": [
+    76,
+    15,
+    80,
+    19
+   ]
+  },
+  {
+   "code": "IS",
+   "code3": "ISL",
+   "name": {
+    "ja": "アイスランド",
+    "en": "Iceland"
+   },
+   "tz": "Atlantic/Reykjavik",
+   "hasData": false,
+   "centroid": {
+    "x": 53.5,
+    "y": 6.5
+   },
+   "bbox": [
+    52,
+    6,
+    54,
+    6
+   ]
+  },
+  {
+   "code": "IT",
+   "code3": "ITA",
+   "name": {
+    "ja": "イタリア",
+    "en": "Italy"
+   },
+   "tz": "Europe/Rome",
+   "hasData": true,
+   "centroid": {
+    "x": 64.61,
+    "y": 13.72
+   },
+   "bbox": [
+    63,
+    12,
+    65,
+    15
+   ]
+  },
+  {
+   "code": "JP",
+   "code3": "JPN",
+   "name": {
+    "ja": "日本",
+    "en": "Japan"
+   },
+   "tz": "Asia/Tokyo",
+   "hasData": true,
+   "centroid": {
+    "x": 105.68,
+    "y": 14.59
+   },
+   "bbox": [
+    103,
+    12,
+    107,
+    17
+   ]
+  },
+  {
+   "code": "KE",
+   "code3": "KEN",
+   "name": {
+    "ja": "ケニア",
+    "en": "Kenya"
+   },
+   "tz": "Africa/Nairobi",
+   "hasData": false,
+   "centroid": {
+    "x": 72.5,
+    "y": 28.5
+   },
+   "bbox": [
+    71,
+    27,
+    73,
+    29
+   ]
+  },
+  {
+   "code": "KP",
+   "code3": "PRK",
+   "name": {
+    "ja": "北朝鮮",
+    "en": "North Korea"
+   },
+   "tz": "Asia/Pyongyang",
+   "hasData": false,
+   "centroid": {
+    "x": 102.5,
+    "y": 14.0
+   },
+   "bbox": [
+    101,
+    13,
+    103,
+    14
+   ]
+  },
+  {
+   "code": "KR",
+   "code3": "KOR",
+   "name": {
+    "ja": "韓国",
+    "en": "South Korea"
+   },
+   "tz": "Asia/Seoul",
+   "hasData": true,
+   "centroid": {
+    "x": 102.17,
+    "y": 15.83
+   },
+   "bbox": [
+    101,
+    15,
+    102,
+    16
+   ]
+  },
+  {
+   "code": "KZ",
+   "code3": "KAZ",
+   "name": {
+    "ja": "カザフスタン",
+    "en": "Kazakhstan"
+   },
+   "tz": "Asia/Almaty",
+   "hasData": false,
+   "centroid": {
+    "x": 81.24,
+    "y": 11.0
+   },
+   "bbox": [
+    75,
+    9,
+    88,
+    14
+   ]
+  },
+  {
+   "code": "LK",
+   "code3": "LKA",
+   "name": {
+    "ja": "スリランカ",
+    "en": "Sri Lanka"
+   },
+   "tz": "Asia/Colombo",
+   "hasData": false,
+   "centroid": {
+    "x": 87.0,
+    "y": 25.5
+   },
+   "bbox": [
+    86,
+    25,
+    87,
+    25
+   ]
+  },
+  {
+   "code": "LY",
+   "code3": "LBY",
+   "name": {
+    "ja": "リビア",
+    "en": "Libya"
+   },
+   "tz": "Africa/Tripoli",
+   "hasData": false,
+   "centroid": {
+    "x": 65.36,
+    "y": 19.77
+   },
+   "bbox": [
+    63,
+    17,
+    67,
+    21
+   ]
+  },
+  {
+   "code": "MA",
+   "code3": "MAR",
+   "name": {
+    "ja": "モロッコ",
+    "en": "Morocco"
+   },
+   "tz": "Africa/Casablanca",
+   "hasData": false,
+   "centroid": {
+    "x": 58.5,
+    "y": 17.93
+   },
+   "bbox": [
+    56,
+    16,
+    59,
+    18
+   ]
+  },
+  {
+   "code": "MG",
+   "code3": "MDG",
+   "name": {
+    "ja": "マダガスカル",
+    "en": "Madagascar"
+   },
+   "tz": "Indian/Antananarivo",
+   "hasData": false,
+   "centroid": {
+    "x": 75.7,
+    "y": 33.9
+   },
+   "bbox": [
+    75,
+    32,
+    76,
+    35
+   ]
+  },
+  {
+   "code": "ML",
+   "code3": "MLI",
+   "name": {
+    "ja": "マリ",
+    "en": "Mali"
+   },
+   "tz": "Africa/Bamako",
+   "hasData": false,
+   "centroid": {
+    "x": 58.03,
+    "y": 22.38
+   },
+   "bbox": [
+    56,
+    20,
+    60,
+    24
+   ]
+  },
+  {
+   "code": "MM",
+   "code3": "MMR",
+   "name": {
+    "ja": "ミャンマー",
+    "en": "Myanmar"
+   },
+   "tz": "Asia/Yangon",
+   "hasData": false,
+   "centroid": {
+    "x": 92.67,
+    "y": 21.22
+   },
+   "bbox": [
+    91,
+    18,
+    93,
+    24
+   ]
+  },
+  {
+   "code": "MN",
+   "code3": "MNG",
+   "name": {
+    "ja": "モンゴル",
+    "en": "Mongolia"
+   },
+   "tz": "Asia/Ulaanbaatar",
+   "hasData": false,
+   "centroid": {
+    "x": 94.61,
+    "y": 12.0
+   },
+   "bbox": [
+    89,
+    10,
+    99,
+    13
+   ]
+  },
+  {
+   "code": "MX",
+   "code3": "MEX",
+   "name": {
+    "ja": "メキシコ",
+    "en": "Mexico"
+   },
+   "tz": "America/Mexico_City",
+   "hasData": false,
+   "centroid": {
+    "x": 27.75,
+    "y": 21.62
+   },
+   "bbox": [
+    25,
+    20,
+    30,
+    22
+   ]
+  },
+  {
+   "code": "MY",
+   "code3": "MYS",
+   "name": {
+    "ja": "マレーシア",
+    "en": "Malaysia"
+   },
+   "tz": "Asia/Kuala_Lumpur",
+   "hasData": false,
+   "centroid": {
+    "x": 96.5,
+    "y": 27.5
+   },
+   "bbox": [
+    93,
+    27,
+    98,
+    27
+   ]
+  },
+  {
+   "code": "MZ",
+   "code3": "MOZ",
+   "name": {
+    "ja": "モザンビーク",
+    "en": "Mozambique"
+   },
+   "tz": "Africa/Maputo",
+   "hasData": false,
+   "centroid": {
+    "x": 71.64,
+    "y": 33.5
+   },
+   "bbox": [
+    70,
+    32,
+    72,
+    35
+   ]
+  },
+  {
+   "code": "NE",
+   "code3": "NER",
+   "name": {
+    "ja": "ニジェール",
+    "en": "Niger"
+   },
+   "tz": "Africa/Niamey",
+   "hasData": false,
+   "centroid": {
+    "x": 63.0,
+    "y": 22.5
+   },
+   "bbox": [
+    61,
+    22,
+    64,
+    22
+   ]
+  },
+  {
+   "code": "NG",
+   "code3": "NGA",
+   "name": {
+    "ja": "ナイジェリア",
+    "en": "Nigeria"
+   },
+   "tz": "Africa/Lagos",
+   "hasData": false,
+   "centroid": {
+    "x": 62.9,
+    "y": 24.9
+   },
+   "bbox": [
+    61,
+    23,
+    64,
+    26
+   ]
+  },
+  {
+   "code": "NO",
+   "code3": "NOR",
+   "name": {
+    "ja": "ノルウェー",
+    "en": "Norway"
+   },
+   "tz": "Europe/Oslo",
+   "hasData": false,
+   "centroid": {
+    "x": 65.79,
+    "y": 6.5
+   },
+   "bbox": [
+    62,
+    4,
+    69,
+    8
+   ]
+  },
+  {
+   "code": "NP",
+   "code3": "NPL",
+   "name": {
+    "ja": "ネパール",
+    "en": "Nepal"
+   },
+   "tz": "Asia/Kathmandu",
+   "hasData": false,
+   "centroid": {
+    "x": 89.0,
+    "y": 18.5
+   },
+   "bbox": [
+    88,
+    18,
+    89,
+    18
+   ]
+  },
+  {
+   "code": "NZ",
+   "code3": "NZL",
+   "name": {
+    "ja": "ニュージーランド",
+    "en": "New Zealand"
+   },
+   "tz": "Pacific/Auckland",
+   "hasData": false,
+   "centroid": {
+    "x": 117.75,
+    "y": 42.0
+   },
+   "bbox": [
+    116,
+    40,
+    118,
+    43
+   ]
+  },
+  {
+   "code": "PA",
+   "code3": "PAN",
+   "name": {
+    "ja": "パナマ",
+    "en": "Panama"
+   },
+   "tz": "America/Panama",
+   "hasData": false,
+   "centroid": {
+    "x": 34.0,
+    "y": 25.5
+   },
+   "bbox": [
+    33,
+    25,
+    34,
+    25
+   ]
+  },
+  {
+   "code": "PE",
+   "code3": "PER",
+   "name": {
+    "ja": "ペルー",
+    "en": "Peru"
+   },
+   "tz": "America/Lima",
+   "hasData": false,
+   "centroid": {
+    "x": 35.64,
+    "y": 30.79
+   },
+   "bbox": [
+    33,
+    28,
+    36,
+    33
+   ]
+  },
+  {
+   "code": "PG",
+   "code3": "PNG",
+   "name": {
+    "ja": "パプアニューギニア",
+    "en": "Papua New Guinea"
+   },
+   "tz": "Pacific/Port_Moresby",
+   "hasData": false,
+   "centroid": {
+    "x": 107.83,
+    "y": 30.17
+   },
+   "bbox": [
+    107,
+    29,
+    108,
+    30
+   ]
+  },
+  {
+   "code": "PH",
+   "code3": "PHL",
+   "name": {
+    "ja": "フィリピン",
+    "en": "Philippines"
+   },
+   "tz": "Asia/Manila",
+   "hasData": false,
+   "centroid": {
+    "x": 100.9,
+    "y": 23.9
+   },
+   "bbox": [
+    100,
+    22,
+    101,
+    25
+   ]
+  },
+  {
+   "code": "PK",
+   "code3": "PAK",
+   "name": {
+    "ja": "パキスタン",
+    "en": "Pakistan"
+   },
+   "tz": "Asia/Karachi",
+   "hasData": false,
+   "centroid": {
+    "x": 84.83,
+    "y": 18.5
+   },
+   "bbox": [
+    83,
+    15,
+    85,
+    19
+   ]
+  },
+  {
+   "code": "PL",
+   "code3": "POL",
+   "name": {
+    "ja": "ポーランド",
+    "en": "Poland"
+   },
+   "tz": "Europe/Warsaw",
+   "hasData": false,
+   "centroid": {
+    "x": 66.5,
+    "y": 11.0
+   },
+   "bbox": [
+    65,
+    10,
+    67,
+    11
+   ]
+  },
+  {
+   "code": "PT",
+   "code3": "PRT",
+   "name": {
+    "ja": "ポルトガル",
+    "en": "Portugal"
+   },
+   "tz": "Europe/Lisbon",
+   "hasData": false,
+   "centroid": {
+    "x": 57.5,
+    "y": 15.0
+   },
+   "bbox": [
+    57,
+    14,
+    57,
+    15
+   ]
+  },
+  {
+   "code": "PY",
+   "code3": "PRY",
+   "name": {
+    "ja": "パラグアイ",
+    "en": "Paraguay"
+   },
+   "tz": "America/Asuncion",
+   "hasData": false,
+   "centroid": {
+    "x": 40.5,
+    "y": 35.5
+   },
+   "bbox": [
+    39,
+    34,
+    41,
+    36
+   ]
+  },
+  {
+   "code": "RO",
+   "code3": "ROU",
+   "name": {
+    "ja": "ルーマニア",
+    "en": "Romania"
+   },
+   "tz": "Europe/Bucharest",
+   "hasData": false,
+   "centroid": {
+    "x": 68.0,
+    "y": 13.0
+   },
+   "bbox": [
+    67,
+    12,
+    68,
+    13
+   ]
+  },
+  {
+   "code": "RU",
+   "code3": "RUS",
+   "name": {
+    "ja": "ロシア",
+    "en": "Russia"
+   },
+   "tz": "Europe/Moscow",
+   "hasData": false,
+   "centroid": {
+    "x": 93.74,
+    "y": 6.71
+   },
+   "bbox": [
+    66,
+    2,
+    118,
+    13
+   ]
+  },
+  {
+   "code": "SA",
+   "code3": "SAU",
+   "name": {
+    "ja": "サウジアラビア",
+    "en": "Saudi Arabia"
+   },
+   "tz": "Asia/Riyadh",
+   "hasData": false,
+   "centroid": {
+    "x": 74.98,
+    "y": 19.41
+   },
+   "bbox": [
+    72,
+    17,
+    78,
+    22
+   ]
+  },
+  {
+   "code": "SD",
+   "code3": "SDN",
+   "name": {
+    "ja": "スーダン",
+    "en": "Sudan"
+   },
+   "tz": "Africa/Khartoum",
+   "hasData": false,
+   "centroid": {
+    "x": 70.11,
+    "y": 23.07
+   },
+   "bbox": [
+    67,
+    21,
+    72,
+    24
+   ]
+  },
+  {
+   "code": "SE",
+   "code3": "SWE",
+   "name": {
+    "ja": "スウェーデン",
+    "en": "Sweden"
+   },
+   "tz": "Europe/Stockholm",
+   "hasData": false,
+   "centroid": {
+    "x": 65.83,
+    "y": 8.17
+   },
+   "bbox": [
+    64,
+    6,
+    66,
+    9
+   ]
+  },
+  {
+   "code": "SN",
+   "code3": "SEN",
+   "name": {
+    "ja": "セネガル",
+    "en": "Senegal"
+   },
+   "tz": "Africa/Dakar",
+   "hasData": false,
+   "centroid": {
+    "x": 55.17,
+    "y": 22.83
+   },
+   "bbox": [
+    54,
+    22,
+    55,
+    23
+   ]
+  },
+  {
+   "code": "SY",
+   "code3": "SYR",
+   "name": {
+    "ja": "シリア",
+    "en": "Syria"
+   },
+   "tz": "Asia/Damascus",
+   "hasData": false,
+   "centroid": {
+    "x": 73.0,
+    "y": 16.5
+   },
+   "bbox": [
+    72,
+    16,
+    73,
+    16
+   ]
+  },
+  {
+   "code": "TD",
+   "code3": "TCD",
+   "name": {
+    "ja": "チャド",
+    "en": "Chad"
+   },
+   "tz": "Africa/Ndjamena",
+   "hasData": false,
+   "centroid": {
+    "x": 66.36,
+    "y": 23.93
+   },
+   "bbox": [
+    65,
+    22,
+    67,
+    25
+   ]
+  },
+  {
+   "code": "TH",
+   "code3": "THA",
+   "name": {
+    "ja": "タイ",
+    "en": "Thailand"
+   },
+   "tz": "Asia/Bangkok",
+   "hasData": false,
+   "centroid": {
+    "x": 94.12,
+    "y": 24.5
+   },
+   "bbox": [
+    92,
+    21,
+    94,
+    26
+   ]
+  },
+  {
+   "code": "TN",
+   "code3": "TUN",
+   "name": {
+    "ja": "チュニジア",
+    "en": "Tunisia"
+   },
+   "tz": "Africa/Tunis",
+   "hasData": false,
+   "centroid": {
+    "x": 63.5,
+    "y": 16.5
+   },
+   "bbox": [
+    63,
+    16,
+    63,
+    16
+   ]
+  },
+  {
+   "code": "TR",
+   "code3": "TUR",
+   "name": {
+    "ja": "トルコ",
+    "en": "Türkiye"
+   },
+   "tz": "Europe/Istanbul",
+   "hasData": false,
+   "centroid": {
+    "x": 71.79,
+    "y": 14.93
+   },
+   "bbox": [
+    70,
+    14,
+    73,
+    15
+   ]
+  },
+  {
+   "code": "TW",
+   "code3": "TWN",
+   "name": {
+    "ja": "台湾",
+    "en": "Taiwan"
+   },
+   "tz": "Asia/Taipei",
+   "hasData": false,
+   "centroid": {
+    "x": 100.5,
+    "y": 20.5
+   },
+   "bbox": [
+    100,
+    20,
+    100,
+    20
+   ]
+  },
+  {
+   "code": "TZ",
+   "code3": "TZA",
+   "name": {
+    "ja": "タンザニア",
+    "en": "Tanzania"
+   },
+   "tz": "Africa/Dar_es_Salaam",
+   "hasData": false,
+   "centroid": {
+    "x": 71.25,
+    "y": 30.5
+   },
+   "bbox": [
+    70,
+    28,
+    72,
+    31
+   ]
+  },
+  {
+   "code": "UA",
+   "code3": "UKR",
+   "name": {
+    "ja": "ウクライナ",
+    "en": "Ukraine"
+   },
+   "tz": "Europe/Kyiv",
+   "hasData": false,
+   "centroid": {
+    "x": 71.0,
+    "y": 11.0
+   },
+   "bbox": [
+    68,
+    10,
+    73,
+    11
+   ]
+  },
+  {
+   "code": "US",
+   "code3": "USA",
+   "name": {
+    "ja": "アメリカ",
+    "en": "United States"
+   },
+   "tz": "America/New_York",
+   "hasData": true,
+   "centroid": {
+    "x": 21.97,
+    "y": 12.05
+   },
+   "bbox": [
+    4,
+    4,
+    37,
+    21
+   ]
+  },
+  {
+   "code": "UY",
+   "code3": "URY",
+   "name": {
+    "ja": "ウルグアイ",
+    "en": "Uruguay"
+   },
+   "tz": "America/Montevideo",
+   "hasData": false,
+   "centroid": {
+    "x": 41.3,
+    "y": 38.9
+   },
+   "bbox": [
+    40,
+    38,
+    42,
+    39
+   ]
+  },
+  {
+   "code": "VE",
+   "code3": "VEN",
+   "name": {
+    "ja": "ベネズエラ",
+    "en": "Venezuela"
+   },
+   "tz": "America/Caracas",
+   "hasData": false,
+   "centroid": {
+    "x": 39.0,
+    "y": 26.0
+   },
+   "bbox": [
+    38,
+    24,
+    39,
+    27
+   ]
+  },
+  {
+   "code": "VN",
+   "code3": "VNM",
+   "name": {
+    "ja": "ベトナム",
+    "en": "Vietnam"
+   },
+   "tz": "Asia/Ho_Chi_Minh",
+   "hasData": false,
+   "centroid": {
+    "x": 95.5,
+    "y": 21.5
+   },
+   "bbox": [
+    94,
+    20,
+    96,
+    23
+   ]
+  },
+  {
+   "code": "ZA",
+   "code3": "ZAF",
+   "name": {
+    "ja": "南アフリカ",
+    "en": "South Africa"
+   },
+   "tz": "Africa/Johannesburg",
+   "hasData": false,
+   "centroid": {
+    "x": 67.74,
+    "y": 36.88
+   },
+   "bbox": [
+    65,
+    35,
+    70,
+    39
+   ]
+  },
+  {
+   "code": "ZW",
+   "code3": "ZWE",
+   "name": {
+    "ja": "ジンバブエ",
+    "en": "Zimbabwe"
+   },
+   "tz": "Africa/Harare",
+   "hasData": false,
+   "centroid": {
+    "x": 69.5,
+    "y": 34.0
+   },
+   "bbox": [
+    68,
+    33,
+    70,
+    34
+   ]
+  }
+ ]
+}
