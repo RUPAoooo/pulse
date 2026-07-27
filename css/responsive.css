@@ -101,3 +101,15 @@
   .filter-rail { padding-top: 6px; }
   .tl { padding: 6px 16px 8px; }
 }
+
+/* live-data badge: drops under the brand once the header gets tight */
+@media (max-width: 900px) {
+  .dmode { order: 3; flex-basis: 100%; }
+  .dm-warn { display: none; }
+}
+
+@media (max-width: 640px) {
+  .dmode { font-size: 9px; gap: 8px; }
+  .t-link { margin-left: 0; }
+  .t-stats { flex-wrap: wrap; row-gap: 6px; }
+}

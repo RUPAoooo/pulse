@@ -11,6 +11,9 @@ const FILES = {
   countries: 'data/countries.json',
   topics: 'data/topics.json',
   timeline: 'data/timeline.json',
+  status: 'data/update-status.json',
+  liveTopics: 'data/live-topics.json',
+  liveTimeline: 'data/live-timeline.json',
 };
 
 /* ------------------------------------------------------------------ loading */
@@ -22,17 +25,46 @@ async function getJSON(url) {
 }
 
 /**
- * Loads the sample files. Replace the body with API calls when the backend
- * exists — keep the returned keys (grid / countries / topics / timeline).
+ * Load order, as required by the brief:
+ *   1. live data written by the GitHub Actions pipeline
+ *   2. whatever that pipeline last managed to write
+ *   3. the bundled sample — only if live data has never arrived
+ *
+ * `update-status.json` is always present in the repo, so step 1 costs one
+ * small request and never a 404 in the console.
  */
 export async function fetchTrendData() {
-  const [grid, countries, topics, timeline] = await Promise.all([
+  const [grid, countries] = await Promise.all([
     getJSON(FILES.grid),
     getJSON(FILES.countries),
+  ]);
+
+  let status = null;
+  try {
+    status = await getJSON(FILES.status);
+  } catch {
+    status = null;                     // treat an unreadable status as "no live data"
+  }
+
+  if (status?.hasData) {
+    try {
+      const [topics, timeline] = await Promise.all([
+        getJSON(FILES.liveTopics),
+        getJSON(FILES.liveTimeline),
+      ]);
+      return { grid, countries, topics, timeline, status, mode: 'live' };
+    } catch (e) {
+      // Live files went missing or broke — fall through to the sample rather
+      // than showing nothing, but say so.
+      status = { ...status, hasData: false, liveError: e.message };
+    }
+  }
+
+  const [topics, timeline] = await Promise.all([
     getJSON(FILES.topics),
     getJSON(FILES.timeline),
   ]);
-  return { grid, countries, topics, timeline };
+  return { grid, countries, topics, timeline, status, mode: 'sample' };
 }
 
 /* ------------------------------------------------------------ normalisation */
@@ -92,12 +124,20 @@ export function normalizeTrendData(raw) {
       durationHours: t.durationHours ?? null,
       keywords: t.keywords ?? [],
       sources: t.sources ?? [],
+      /* live-data extras — absent in the sample, checked with `?.` everywhere */
+      kind: t.kind ?? null,            // 'NEWS' | 'WIKI'
+      url: t.url ?? null,
+      outlet: t.outlet ?? null,
+      publishedAt: t.publishedAt ?? null,
+      views: t.views ?? null,
+      rank: t.rank ?? null,
     }));
     if (!topics.length) continue;
     country.topics = topics;
     country.hasData = true;
     country.activityScore = Number(c.activityScore) || 0;
     country.risingCount = Number(c.risingCount) || 0;
+    country.wikiPerCountry = c.wikiPerCountry ?? null;
   }
 
   const frames = (raw.timeline?.frames ?? []).map((f) => ({
@@ -114,6 +154,9 @@ export function normalizeTrendData(raw) {
   };
 
   const model = {
+    mode: raw.mode === 'live' ? 'live' : 'sample',
+    status: raw.status ?? null,
+    wikiPerCountry: raw.topics?.wikiPerCountry !== false,
     updatedAt: raw.topics?.updatedAt ? new Date(raw.topics.updatedAt) : new Date(),
     countries,
     order: [...countries.keys()].sort(),

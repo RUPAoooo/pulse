@@ -1,0 +1,9 @@
+{
+ "updatedAt": null,
+ "status": "never",
+ "hasData": false,
+ "successfulCountries": [],
+ "failedCountries": [],
+ "errors": [],
+ "note": "No live fetch has run yet in this repository. The site falls back to the bundled sample data and labels it DEMO DATA. Run the 'Update WORLD PULSE data' workflow to replace this file."
+}

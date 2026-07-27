@@ -605,3 +605,100 @@ body.panel-open .stage { padding-right: var(--panel-w); }
     transition-duration: 0.001ms !important;
   }
 }
+
+/* ------------------------------------------------------------- live data --
+   Added for the real-data pipeline: the mode badge, source lines on topic
+   rows and the outbound links. Nothing above this rule was restyled. */
+
+.dmode {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex: 1 1 auto;
+  min-width: 0;
+  font-size: 9.5px;
+  letter-spacing: 0.16em;
+  color: var(--muted);
+}
+
+.dm-tag {
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  padding: 3px 8px;
+  border: 1px solid var(--line-2);
+  border-radius: 2px;
+  white-space: nowrap;
+}
+
+.dmode.is-live  .dm-tag { color: var(--glow);  border-color: rgba(156, 196, 255, 0.34); }
+.dmode.is-stale .dm-tag { color: var(--warm);  border-color: rgba(227, 169, 111, 0.34); }
+.dmode.is-demo  .dm-tag { color: var(--warm);  border-color: rgba(227, 169, 111, 0.34); }
+
+.dm-note {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  letter-spacing: 0.08em;
+}
+
+.dm-warn {
+  color: var(--warm);
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+}
+
+/* source line inside a topic row */
+.t-src {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  margin-top: 5px;
+  font-size: 10px;
+  color: var(--muted);
+  letter-spacing: 0.05em;
+}
+
+.t-outlet { color: var(--text); opacity: 0.72; }
+.t-when   { color: var(--dim); }
+
+/* outbound links */
+.t-link {
+  margin-left: auto;
+  color: var(--glow-soft);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  white-space: nowrap;
+}
+
+.t-link:hover,
+.t-link:focus-visible { color: var(--glow); border-bottom-color: currentColor; }
+
+.ext { margin-left: 4px; font-size: 0.9em; }
+
+.m-cta {
+  padding: 16px 26px 20px;
+  border-top: 1px solid var(--line);
+}
+
+.btn-open {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--glow);
+  border-color: rgba(156, 196, 255, 0.34);
+}
+
+.btn-open:hover { background: rgba(156, 196, 255, 0.07); }
+
+.m-cta .m-note { margin-top: 8px; }
+
+.sec-note {
+  margin: 0 0 10px;
+  font-size: 10px;
+  line-height: 1.7;
+  color: var(--warm);
+  opacity: 0.82;
+  letter-spacing: 0.04em;
+}
+
+.seg-source { margin-bottom: 8px; }

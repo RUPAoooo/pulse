@@ -39,6 +39,7 @@ const dom = {
   select: document.getElementById('country-select'),
   intro: document.getElementById('intro'),
   updated: document.getElementById('updated-stamp'),
+  dataMode: document.getElementById('data-mode'),
 };
 
 const state = {
@@ -239,7 +240,49 @@ function activityMap(frame) {
   return out;
 }
 
+/**
+ * Says plainly which data is on screen. Sample data must never be able to
+ * pass for live data, so the sample case is labelled loudest.
+ */
+function paintDataMode() {
+  const el = dom.dataMode;
+  if (!el) return;
+  const model = state.model;
+  el.textContent = '';
+  el.classList.remove('is-live', 'is-stale', 'is-demo');
+
+  if (model.mode !== 'live') {
+    el.classList.add('is-demo');
+    el.append(h('b', 'dm-tag', t('data.demo')));
+    el.append(h('span', 'dm-note', t('data.demoNote')));
+    return;
+  }
+
+  const at = model.status?.updatedAt ? new Date(model.status.updatedAt) : model.updatedAt;
+  const stale = Date.now() - at.getTime() > 3 * 3600 * 1000;
+  const stamp = new Intl.DateTimeFormat(locale(), {
+    year: 'numeric', month: 'long', day: 'numeric',
+    hour: '2-digit', minute: '2-digit', hour12: false,
+  }).format(at);
+
+  el.classList.add(stale ? 'is-stale' : 'is-live');
+  el.append(h('b', 'dm-tag', t(stale ? 'data.stale' : 'data.live')));
+  const sep = getLang() === 'ja' ? '：' : ': ';
+  el.append(h('span', 'dm-note', `${t(stale ? 'data.fetchedAt' : 'data.updatedAt')}${sep}${stamp}`));
+  if (model.status?.status === 'partial') {
+    el.append(h('span', 'dm-warn', t('data.partial')));
+  }
+}
+
+function h(tag, cls, text) {
+  const node = document.createElement(tag);
+  if (cls) node.className = cls;
+  if (text != null) node.textContent = text;
+  return node;
+}
+
 function render() {
+  paintDataMode();
   const ctx = context();
   const activity = activityMap(ctx.state);
   map.update(activity);

@@ -6,7 +6,9 @@ import { t, pick, locale } from './i18n.js';
 import {
   flagEmoji, activityHistory, countriesWithTopic, worldTopics, activityFromTopics,
 } from './data.js';
-import { filterTopics, renderScopeToggle, renderCategoryChips, getFilters } from './filters.js';
+import {
+  filterTopics, renderScopeToggle, renderCategoryChips, renderSourceToggle, getFilters,
+} from './filters.js';
 
 const STATUS_GLYPH = {
   emerging: '◦', rising: '▲', peak: '◆', stable: '—', declining: '▽',
@@ -44,6 +46,33 @@ function fmtStamp(date, tz) {
     timeZone: tz, month: '2-digit', day: '2-digit',
     hour: '2-digit', minute: '2-digit', hour12: false,
   }).format(date);
+}
+
+function fmtDateTime(iso) {
+  if (!iso) return '';
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return '';
+  return new Intl.DateTimeFormat(locale(), {
+    month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false,
+  }).format(d);
+}
+
+function fmtViews(n) {
+  return new Intl.NumberFormat(locale()).format(Number(n) || 0);
+}
+
+/** External link — always a real URL from the feed, never a placeholder. */
+function externalLink(url, label) {
+  const a = document.createElement('a');
+  a.className = 'mono t-link';
+  a.href = url;
+  a.target = '_blank';
+  a.rel = 'noopener noreferrer';
+  a.textContent = label;
+  a.title = t('topic.newTab');
+  a.append(h('span', 'ext', '\u2197'));
+  a.addEventListener('click', (e) => e.stopPropagation());
+  return a;
 }
 
 function statusTag(topic) {
@@ -110,10 +139,26 @@ function topicRow(topic, rank, handlers) {
   const summary = pick(topic.summary);
   if (summary) body.append(h('p', 't-sum', summary));
 
+  if (topic.kind === 'NEWS') {
+    const line = h('p', 'mono t-src');
+    if (topic.outlet) line.append(h('span', 't-outlet', topic.outlet));
+    const when = fmtDateTime(topic.publishedAt);
+    if (when) line.append(h('span', 't-when', when));
+    body.append(line);
+  } else if (topic.kind === 'WIKI') {
+    const line = h('p', 'mono t-src');
+    if (topic.rank) line.append(h('span', 't-outlet', `#${topic.rank}`));
+    if (topic.views != null) line.append(h('span', 't-when', `${fmtViews(topic.views)} ${t('topic.views')}`));
+    body.append(line);
+  }
+
   const stats = h('div', 'mono t-stats');
   stats.append(h('span', 't-score', `${t('topic.score')} ${topic.score}`));
   stats.append(h('span', `delta ${changeClass(topic.change)}`, fmtChange(topic.change)));
   stats.append(statusTag(topic));
+  if (topic.url) {
+    stats.append(externalLink(topic.url, topic.kind === 'WIKI' ? 'Wikipedia' : t('topic.openArticle')));
+  }
   body.append(stats);
 
   li.append(body);
@@ -178,12 +223,38 @@ export function createPanel({ root, onClose, onTopicOpen, onTopicHover }) {
 
   function controlsBlock() {
     const wrap = h('div', 'p-controls');
+    if (ctx?.model?.mode === 'live') {
+      const source = h('div', 'seg-group seg-source');
+      renderSourceToggle(source);
+      wrap.append(source);
+    }
     const scope = h('div', 'seg-group');
     renderScopeToggle(scope);
     const chips = h('div', 'chips chips-sm');
     renderCategoryChips(chips);
     wrap.append(scope, chips);
     return wrap;
+  }
+
+  /** One list, or — for live data with source=ALL — News and Wikipedia apart. */
+  function topicSections(entry, filtered) {
+    const live = ctx?.model?.mode === 'live';
+    const source = getFilters().source;
+    if (!live || source !== 'ALL') {
+      return [{ key: 'topics', title: t('panel.topics'), items: filtered, note: null }];
+    }
+    const news = filtered.filter((x) => x.kind === 'NEWS');
+    const wiki = filtered.filter((x) => x.kind === 'WIKI');
+    const perCountry = ctx.model.countries.get(entry.code)?.wikiPerCountry;
+    return [
+      { key: 'news', title: t('sec.news'), items: news, note: null },
+      {
+        key: 'wiki',
+        title: t('sec.wikipedia'),
+        items: wiki,
+        note: perCountry === false ? t('sec.wikiLangNote') : null,
+      },
+    ];
   }
 
   function renderCountry(code, context) {
@@ -253,24 +324,34 @@ export function createPanel({ root, onClose, onTopicOpen, onTopicHover }) {
     /* filters */
     root.append(controlsBlock());
 
-    /* topics */
-    const section = h('section', 'p-topics');
-    const head = h('div', 'sec-head');
-    head.append(h('h3', null, t('panel.topics')));
-    head.append(h('span', 'mono sec-count', `${Math.min(5, filtered.length)} / ${entry.topics.length}`));
-    section.append(head);
+    /* topics — one section, or News / Wikipedia side by side */
+    const sections = topicSections(entry, filtered);
+    const limit = sections.length > 1 ? 6 : 5;
+    let shownAny = false;
 
-    if (!filtered.length) {
-      section.append(h('p', 'p-none', t('panel.noTopics')));
-    } else {
-      const list = h('ol', 'topic-list');
-      filtered.slice(0, 5).forEach((topic, i) => {
-        list.append(topicRow(topic, i + 1, { onOpen: onTopicOpen, onHover: onTopicHover }));
-      });
-      section.append(list);
-      section.append(h('p', 'mono p-foot', t('topic.openHint')));
-    }
-    root.append(section);
+    sections.forEach((sec) => {
+      const section = h('section', 'p-topics');
+      const head = h('div', 'sec-head');
+      head.append(h('h3', null, sec.title));
+      head.append(h('span', 'mono sec-count',
+        `${Math.min(limit, sec.items.length)} / ${sec.items.length}`));
+      section.append(head);
+      if (sec.note) section.append(h('p', 'mono sec-note', sec.note));
+
+      if (!sec.items.length) {
+        section.append(h('p', 'p-none', t('panel.noTopics')));
+      } else {
+        shownAny = true;
+        const list = h('ol', 'topic-list');
+        sec.items.slice(0, limit).forEach((topic, i) => {
+          list.append(topicRow(topic, i + 1, { onOpen: onTopicOpen, onHover: onTopicHover }));
+        });
+        section.append(list);
+      }
+      root.append(section);
+    });
+
+    if (shownAny) root.append(h('p', 'mono p-foot', t('topic.openHint')));
     open();
   }
 
@@ -476,8 +557,12 @@ export function createModal({ root, onClose }) {
     const dd = h('dd');
     dd.append(statusTag(topic));
     stats.append(dd);
+    if (topic.kind === 'NEWS' && topic.outlet) add(t('topic.outlet'), topic.outlet);
+    if (topic.kind === 'NEWS' && topic.publishedAt) add(t('topic.published'), fmtDateTime(topic.publishedAt));
+    if (topic.kind === 'WIKI' && topic.rank != null) add(t('topic.wikiRank'), `#${topic.rank}`);
+    if (topic.kind === 'WIKI' && topic.views != null) add(t('topic.views'), fmtViews(topic.views), 'big');
     add(t('topic.origin'), `${flagEmoji(topic.origin)} ${pick(ctx.model.countries.get(topic.origin)?.name ?? topic.origin)}`);
-    if (topic.startedAt) {
+    if (topic.kind == null && topic.startedAt) {
       add(t('topic.started'), new Intl.DateTimeFormat(locale(), {
         month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false,
       }).format(new Date(topic.startedAt)));
@@ -486,6 +571,21 @@ export function createModal({ root, onClose }) {
       add(t('topic.duration'), `${topic.durationHours}${t('topic.hours')}`);
     }
     card.append(stats);
+
+    /* the real article, opened in a new tab */
+    if (topic.url) {
+      const cta = h('div', 'm-cta');
+      const a = document.createElement('a');
+      a.className = 'btn btn-open mono';
+      a.href = topic.url;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      a.textContent = topic.kind === 'WIKI' ? t('topic.openWiki') : t('topic.openArticle');
+      a.append(h('span', 'ext', '\u2197'));
+      cta.append(a);
+      cta.append(h('p', 'mono m-note', t('topic.newTab')));
+      card.append(cta);
+    }
 
     /* who is watching it right now */
     const watchers = countriesWithTopic(ctx.state, topic.id);
@@ -523,7 +623,7 @@ export function createModal({ root, onClose }) {
       card.append(block);
     }
 
-    card.append(h('p', 'mono m-note', t('topic.linkNote')));
+    if (!topic.url) card.append(h('p', 'mono m-note', t('topic.linkNote')));
 
     root.append(card);
     close$.focus();

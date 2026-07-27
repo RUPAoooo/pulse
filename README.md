@@ -37,7 +37,24 @@ world-pulse/
 ├─ assets/
 │  ├─ icons/favicon.svg
 │  └─ fonts/               （空。システムフォントで表示しています）
+├─ scripts/                実データ取得（Node.js。npmパッケージ不要）
+│  ├─ config.js            対象国・分類ルール・共通fetch
+│  ├─ fetch-wikimedia.js   Wikipedia閲覧数 → data/live-wikipedia.json
+│  ├─ fetch-news.js        ニュース → data/live-news.json
+│  └─ build-live-data.js   整形 → live-topics / live-timeline / update-status
+├─ .github/workflows/
+│  └─ update-data.yml      1時間ごと＋手動実行
 └─ README.md
+```
+
+`data/` には実データ用のファイルも生成されます。
+
+```text
+data/live-wikipedia.json   Wikimediaの取得結果（生）
+data/live-news.json        ニュースの取得結果（生）
+data/live-topics.json      画面が読む実データ（topics.jsonと同じ形）
+data/live-timeline.json    過去24時間のスナップショット
+data/update-status.json    取得状態。これだけは最初からリポジトリに入っています
 ```
 
 `js/` は役割ごとに分けてあります。`app.js` 以外のファイルはお互いを直接呼びません。
@@ -180,7 +197,60 @@ Node.js をお使いの場合は `npx serve` でも、VS Code をお使いの場
 
 ---
 
-## 7. 実APIに接続するときの変更箇所
+## 7. 実データ取得（GitHub Actions）
+
+APIキーは不要です。GitHub Secretsの設定もいりません。
+
+### 使用しているデータ元
+
+| 種類 | 取得元 | 備考 |
+|---|---|---|
+| Wikipedia | Wikimedia Pageviews API | `top-per-country` を優先し、失敗時は言語版の `top` に切り替えます |
+| ニュース | GDELT DOC 2.0 API | 媒体のURL・ドメイン・言語・日時をそのまま利用します |
+
+言語版にフォールバックした国では、パネルに「このデータは国別ではなく、言語版Wikipediaの閲覧傾向です」と表示されます。
+
+### 実行方法
+
+リポジトリの **Actions → Update WORLD PULSE data → Run workflow** で手動実行できます。以降は毎時7分に自動実行されます。
+
+処理の流れは Wikimedia取得 → ニュース取得 → 整形 → 変化があった場合のみコミット、です。前2つは `continue-on-error` にしてあるので、片方が落ちてももう片方の結果で更新されます。取得できなかった国はスキップされ、`data/update-status.json` に記録されます。
+
+**内容が前回と同一の場合は1バイトも書き込みません。** 無意味なコミットが毎時積み上がるのを防ぐためです。
+
+### 対象国を増やす
+
+`scripts/config.js` の `COUNTRIES` に1行足すだけです。
+
+```js
+{ code: 'IT', wiki: 'it.wikipedia', gdelt: 'IT', lang: 'italian' },
+```
+
+`gdelt` はFIPS 10-4の国コード（GDELTの `sourcecountry` が使う体系）で、ISOコードとは違うものがあります（イギリス=UK、ドイツ=GM、韓国=KS など）。地図側は `data/countries.json` が85か国分のコードを持っているので、そちらの変更は不要です。
+
+### 表示の優先順位
+
+```text
+1. 最新の実データ            → LIVE DATA
+2. 3時間以上前の実データ      → LAST AVAILABLE DATA
+3. 実データが一度もない場合    → DEMO DATA（サンプルデータ）
+```
+
+取得に失敗しても、前回正常に取得したJSONは削除も上書きもされません。
+
+### ローカルでの実行
+
+```bash
+node scripts/fetch-wikimedia.js
+node scripts/fetch-news.js
+node scripts/build-live-data.js
+```
+
+Node.js 18以降（標準の `fetch` を使うため）が必要です。npm installは不要です。
+
+---
+
+## 8. 実APIに接続するときの変更箇所
 
 変更するのは **`js/data.js` の2つの関数だけ**です。描画側（`map.js` / `panel.js` / `timeline.js`）は触りません。
 
@@ -215,7 +285,7 @@ APIのレスポンス形式が上記のサンプルと違う場合、その差�
 
 ---
 
-## 8. 主な関数
+## 9. 主な関数
 
 | 関数 | 場所 | 役割 |
 |---|---|---|
@@ -231,7 +301,7 @@ APIのレスポンス形式が上記のサンプルと違う場合、その差�
 
 ---
 
-## 9. 地図データについて
+## 10. 地図データについて
 
 **この地図は本プロジェクトのために自作した近似データです。第三者の地図データセットに由来しません。**
 
@@ -255,18 +325,20 @@ APIのレスポンス形式が上記のサンプルと違う場合、その差�
 
 ---
 
-## 10. 既知の制約
+## 11. 既知の制約
 
 - **国旗の絵文字は Windows では表示されません。** Windows は国旗絵文字のグリフを持たないため、Chrome / Edge では「JP」のような2文字の箱に見えます（Mac / iOS / Android / Firefox では正しく表示されます）。SVGアイコンへの差し替えを検討してください
 - Safari / iOS 実機での確認は行っていません
 - スマートフォンでは横長の地図を縦画面に収めるため、地図の上下に余白が出ます
-- 記事へのリンクはありません（サンプルデータのため）。話題の詳細に表示されるのは情報源の「種類」だけです
+- サンプルデータ表示中は記事へのリンクがありません（実データでは元記事が開きます）
+- 実データのカテゴリー分類はタイトルのキーワード照合のみで、外れることがあります。判定できないものは OTHER になります
+- 記事の要約・本文は取得していません（転載を避けるため、タイトルと公開情報のみ）
 - 地図のズーム・パンはできません
 - ブラウザストレージ（localStorage 等）は使用していません。表示言語は毎回ブラウザの設定から判定します
 
 ---
 
-## 11. アクセシビリティ
+## 12. アクセシビリティ
 
 - Tab キーで国を選択できます（フォーカス位置には破線が表示されます）
 - Esc でパネルとモーダルが閉じます
@@ -275,7 +347,7 @@ APIのレスポンス形式が上記のサンプルと違う場合、その差�
 
 ---
 
-## 12. ライセンス
+## 13. ライセンス
 
 コードと地図データ（`data/worldgrid.json`）はご自由にお使いください。
 
