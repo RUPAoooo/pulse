@@ -216,7 +216,30 @@ APIキーは不要です。GitHub Secretsの設定もいりません。
 
 処理の流れは Wikimedia取得 → ニュース取得 → 整形 → 変化があった場合のみコミット、です。前2つは `continue-on-error` にしてあるので、片方が落ちてももう片方の結果で更新されます。取得できなかった国はスキップされ、`data/update-status.json` に記録されます。
 
-**内容が前回と同一の場合は1バイトも書き込みません。** 無意味なコミットが毎時積み上がるのを防ぐためです。
+**内容が前回と同一の場合は topics/timeline を書き換えません。** ただし `data/update-status.json` は毎回更新されます（そのハートビートで「実行されたが内容に変化がなかった」ことが分かります）。
+
+### 取得状況の確認（update-status.json）
+
+`data/update-status.json` は取得が0件でも必ず更新されます。`status` は次のいずれかです。
+
+| status | 意味 |
+|---|---|
+| `success` | 対象国すべてで実データを生成 |
+| `partial` | 一部の国が失敗。成功した国だけで生成 |
+| `failed` | 入力はあったが使える実データが作れなかった。既存JSONは保持 |
+| `empty` | 取得結果ファイルが1つも無い。live-topics.jsonは未生成 |
+| `never` | このリポジトリでまだ一度も実行していない（初期状態） |
+
+`counts`（wikimediaItems / newsItems / countriesWithData / topicsGenerated）、`successfulCountries`、`failedCountries`、`errors`（国・取得元・メッセージ）も記録されます。
+
+### Actionsのログの見方
+
+緑チェックでも live JSON が出ない場合、Actions のログで次を順に見てください。
+
+- **Fetch Wikimedia / Fetch news** — 国ごとに `request: <URL>` → `status: 200` / `status: HTTP 404` → `items: N` が出ます。ここで全国 `FAILED` なら取得段階の問題です。
+- **Build live data** — `input files` の present/MISSING、`live-topics.json: YES / unchanged / NOT generating` を見れば、生成されたかどうかとその理由が分かります。
+- **Show generated files** — `ls -la data`、`git status --short`、`update-status.json` の中身がそのまま出ます。
+- **Commit only if something changed** — `staged changes` に何が上がったかが出ます。
 
 ### 対象国を増やす
 

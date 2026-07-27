@@ -75,9 +75,22 @@ function dedupe(articles, limit) {
 }
 
 async function fetchCountry(entry) {
-  const json = await getJSON(buildQuery(entry));
+  const url = buildQuery(entry);
+  process.stdout.write(`  ${entry.code} GDELT request: ${url}\n`);
+
+  let json;
+  try {
+    json = await getJSON(url);
+    process.stdout.write(`  ${entry.code} GDELT status: 200\n`);
+  } catch (e) {
+    // Surface the HTTP status (getText throws "HTTP nnn") before re-throwing.
+    process.stdout.write(`  ${entry.code} GDELT status: ${e.message}\n`);
+    throw e;
+  }
+
   const raw = Array.isArray(json?.articles) ? json.articles : null;
   if (!raw) throw new Error('no articles array in response');
+  process.stdout.write(`  ${entry.code} GDELT raw articles: ${raw.length}\n`);
 
   const shaped = raw.map((a) => ({
     title: String(a.title || '').trim(),
@@ -89,7 +102,8 @@ async function fetchCountry(entry) {
   })).filter((a) => a.title && a.url);
 
   const kept = dedupe(shaped, LIMITS.newsPerCountry);
-  if (!kept.length) throw new Error('all articles filtered out');
+  process.stdout.write(`  ${entry.code} GDELT after dedupe: ${kept.length}\n`);
+  if (!kept.length) throw new Error('all articles filtered out by dedupe');
 
   return {
     code: entry.code,
@@ -110,15 +124,19 @@ async function fetchCountry(entry) {
 async function run() {
   const countries = [];
   const failed = [];
+  let keptTotal = 0;
+
+  process.stdout.write(`News (GDELT): fetching ${COUNTRIES.length} countries\n`);
 
   for (const entry of COUNTRIES) {
     try {
       const result = await fetchCountry(entry);
+      keptTotal += result.articles.length;
       countries.push(result);
-      process.stdout.write(`news ${entry.code}: ${result.articles.length} articles\n`);
+      process.stdout.write(`  ${entry.code} GDELT items: ${result.articles.length} — OK\n`);
     } catch (e) {
       failed.push({ country: entry.code, source: 'news', message: e.message });
-      process.stdout.write(`news ${entry.code}: FAILED — ${e.message}\n`);
+      process.stdout.write(`  ${entry.code} GDELT: FAILED — ${e.message}\n`);
     }
     await new Promise((r) => setTimeout(r, 1200));   // be polite to GDELT
   }
@@ -129,24 +147,31 @@ async function run() {
     countries,
   };
 
+  const rel = path.relative(process.cwd(), OUT);
   if (countries.length) {
     fs.writeFileSync(OUT, `${JSON.stringify(payload, null, 1)}\n`);
-    process.stdout.write(`wrote ${path.relative(process.cwd(), OUT)}\n`);
+    process.stdout.write(`News wrote: ${rel} (${countries.length} countries, ${keptTotal} articles)\n`);
   } else {
-    process.stdout.write('news: nothing fetched, keeping previous file\n');
+    process.stdout.write(`News wrote: nothing — no country returned usable data; ${rel} left unchanged\n`);
   }
 
-  return { ok: countries.map((c) => c.code), failed };
+  process.stdout.write(
+    `News summary: ok=[${countries.map((c) => c.code).join(',')}] ` +
+    `failed=[${failed.map((f) => f.country).join(',')}]\n`,
+  );
+
+  return { ok: countries.map((c) => c.code), failed, items: keptTotal };
 }
 
 if (require.main === module) {
   run().then((r) => {
     fs.writeFileSync(path.join(__dirname, '.news-result.json'), JSON.stringify(r, null, 1));
+    process.stdout.write(`News wrote: scripts/.news-result.json\n`);
   }).catch((e) => {
-    process.stdout.write(`news: fatal — ${e.message}\n`);
+    process.stdout.write(`News: fatal — ${e.message}\n`);
     fs.writeFileSync(
       path.join(__dirname, '.news-result.json'),
-      JSON.stringify({ ok: [], failed: [{ country: '*', source: 'news', message: e.message }] }, null, 1),
+      JSON.stringify({ ok: [], failed: [{ country: '*', source: 'news', message: e.message }], items: 0 }, null, 1),
     );
   });
 }

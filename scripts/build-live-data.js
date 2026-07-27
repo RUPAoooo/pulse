@@ -240,57 +240,130 @@ function fingerprint(countries) {
   })))).digest('hex');
 }
 
+/** update-status.json is written on EVERY code path — this is the contract. */
+function writeStatus(status, message, extra = {}) {
+  const payload = {
+    updatedAt: new Date().toISOString(),
+    status,                         // 'success' | 'partial' | 'failed' | 'empty'
+    message,
+    hasData: Boolean(extra.hasData),
+    counts: {
+      wikimediaItems: extra.wikimediaItems ?? 0,
+      newsItems: extra.newsItems ?? 0,
+      countriesWithData: extra.countriesWithData ?? 0,
+      topicsGenerated: extra.topicsGenerated ?? 0,
+    },
+    successfulCountries: extra.successfulCountries ?? [],
+    failedCountries: extra.failedCountries ?? [],
+    errors: extra.errors ?? [],
+  };
+  fs.writeFileSync(F.status, `${JSON.stringify(payload, null, 1)}\n`);
+  process.stdout.write(`build wrote: ${path.relative(process.cwd(), F.status)} (status=${status})\n`);
+  return payload;
+}
+
 function run() {
-  const result = build();
   const nowISO = new Date().toISOString();
 
+  const wikiResult = readJSON(path.join(__dirname, '.wikimedia-result.json'), { ok: [], failed: [], items: 0 });
+  const newsResult = readJSON(path.join(__dirname, '.news-result.json'), { ok: [], failed: [], items: 0 });
+  const errors = [...(wikiResult.failed ?? []), ...(newsResult.failed ?? [])];
+  const attempted = COUNTRIES.map((c) => c.code);
+
+  /* what did the fetchers leave on disk? */
+  const newsRaw = readJSON(F.news);
+  const wikiRaw = readJSON(F.wiki);
+  process.stdout.write('build: input files ---------------------------------\n');
+  process.stdout.write(`  ${path.relative(process.cwd(), F.news)}: ${newsRaw ? 'present' : 'MISSING'}` +
+    `${newsRaw ? ` (${newsRaw.countries?.length ?? 0} countries)` : ''}\n`);
+  process.stdout.write(`  ${path.relative(process.cwd(), F.wiki)}: ${wikiRaw ? 'present' : 'MISSING'}` +
+    `${wikiRaw ? ` (${wikiRaw.countries?.length ?? 0} countries)` : ''}\n`);
+  process.stdout.write(`  wikimedia items fetched: ${wikiResult.items ?? 0}\n`);
+  process.stdout.write(`  news items fetched: ${newsResult.items ?? 0}\n`);
+
+  const result = build();
+
   if (!result.ok) {
-    process.stdout.write(`build: ${result.reason} — previous data left in place\n`);
+    // No usable input at all — say why, keep any previous live JSON in place.
+    const empty = !newsRaw && !wikiRaw;
+    writeStatus(
+      empty ? 'empty' : 'failed',
+      empty
+        ? 'No fetched input found (live-news.json and live-wikipedia.json are both missing). '
+          + 'Both fetchers returned zero countries, so no live-topics.json was generated.'
+        : `Input present but produced nothing usable: ${result.reason}. `
+          + 'Previous live JSON, if any, was left untouched.',
+      {
+        hasData: false,
+        wikimediaItems: wikiResult.items ?? 0,
+        newsItems: newsResult.items ?? 0,
+        countriesWithData: 0,
+        topicsGenerated: 0,
+        successfulCountries: [],
+        failedCountries: attempted,
+        errors,
+      },
+    );
+    process.stdout.write(`build: NOT generating live-topics.json — ${result.reason}\n`);
     return 0;
   }
-
-  const previous = readJSON(F.topics);
-  if (previous && previous.fingerprint === fingerprint(result.countries)) {
-    process.stdout.write('build: content identical to last run — nothing written\n');
-    return 0;
-  }
-
-  const wikiResult = readJSON(path.join(__dirname, '.wikimedia-result.json'), { ok: [], failed: [] });
-  const newsResult = readJSON(path.join(__dirname, '.news-result.json'), { ok: [], failed: [] });
 
   const successful = result.countries.map((c) => c.code);
-  const attempted = COUNTRIES.map((c) => c.code);
   const failedCountries = attempted.filter((c) => !successful.includes(c));
-  const errors = [...(wikiResult.failed ?? []), ...(newsResult.failed ?? [])];
-
+  const topicsGenerated = result.countries.reduce((n, c) => n + c.topics.length, 0);
   const perCountryWiki = result.countries.every((c) => c.wikiPerCountry !== false);
 
-  fs.writeFileSync(F.topics, `${JSON.stringify({
-    updatedAt: nowISO,
-    source: 'live',
-    fingerprint: fingerprint(result.countries),
-    wikiPerCountry: perCountryWiki,
-    newsSource: result.news?.source ?? null,
-    wikiSource: result.wiki?.source ?? null,
-    countries: result.countries,
-  }, null, 1)}\n`);
+  /* Skip re-writing topics/timeline when the content is byte-for-byte the same,
+     but STILL refresh status so update-status.json always reflects this run. */
+  const previous = readJSON(F.topics);
+  const identical = previous && previous.fingerprint === fingerprint(result.countries);
 
-  const { history, frames } = buildTimeline(result.countries, nowISO);
-  fs.writeFileSync(F.timeline, `${JSON.stringify({ ...history, frames }, null, 1)}\n`);
+  if (identical) {
+    process.stdout.write('build: live-topics.json content identical to last run — not rewriting it\n');
+  } else {
+    fs.writeFileSync(F.topics, `${JSON.stringify({
+      updatedAt: nowISO,
+      source: 'live',
+      fingerprint: fingerprint(result.countries),
+      wikiPerCountry: perCountryWiki,
+      newsSource: result.news?.source ?? null,
+      wikiSource: result.wiki?.source ?? null,
+      countries: result.countries,
+    }, null, 1)}\n`);
+    process.stdout.write(`build wrote: ${path.relative(process.cwd(), F.topics)} `
+      + `(${successful.length} countries, ${topicsGenerated} topics)\n`);
 
-  fs.writeFileSync(F.status, `${JSON.stringify({
-    updatedAt: nowISO,
-    status: failedCountries.length === 0 ? 'ok' : (successful.length ? 'partial' : 'failed'),
-    hasData: true,
-    successfulCountries: successful,
-    failedCountries,
-    errors,
-  }, null, 1)}\n`);
+    const { history, frames } = buildTimeline(result.countries, nowISO);
+    fs.writeFileSync(F.timeline, `${JSON.stringify({ ...history, frames }, null, 1)}\n`);
+    process.stdout.write(`build wrote: ${path.relative(process.cwd(), F.timeline)} (${frames.length} frames)\n`);
+  }
 
+  writeStatus(
+    failedCountries.length === 0 ? 'success' : 'partial',
+    failedCountries.length === 0
+      ? `Live data generated for all ${successful.length} countries.`
+      : `Live data generated for ${successful.length}/${attempted.length} countries; `
+        + `${failedCountries.join(', ')} failed and were skipped.`,
+    {
+      hasData: true,
+      wikimediaItems: wikiResult.items ?? 0,
+      newsItems: newsResult.items ?? 0,
+      countriesWithData: successful.length,
+      topicsGenerated,
+      successfulCountries: successful,
+      failedCountries,
+      errors,
+    },
+  );
+
+  process.stdout.write('build: generated files -----------------------------\n');
+  process.stdout.write(`  live-topics.json:   ${identical ? 'unchanged (identical)' : 'YES'}\n`);
+  process.stdout.write(`  live-wikipedia.json: ${wikiRaw ? 'YES (by fetch-wikimedia.js)' : 'NO'}\n`);
+  process.stdout.write(`  live-news.json:      ${newsRaw ? 'YES (by fetch-news.js)' : 'NO'}\n`);
+  process.stdout.write(`  live-timeline.json: ${identical ? 'unchanged' : 'YES'}\n`);
+  process.stdout.write('  update-status.json: YES\n');
   process.stdout.write(
-    `build: ${successful.length}/${attempted.length} countries, ` +
-    `${result.countries.reduce((n, c) => n + c.topics.length, 0)} topics, ` +
-    `${frames.length} timeline frames\n`,
+    `build: ${successful.length}/${attempted.length} countries, ${topicsGenerated} topics\n`,
   );
   return 0;
 }

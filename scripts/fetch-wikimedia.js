@@ -71,17 +71,23 @@ function shapeArticles(rawArticles, fallbackProject, limit) {
 
 async function topPerCountry(code, day) {
   const url = `${API}/top-per-country/${code}/all-access/${day.y}/${day.m}/${day.d}`;
+  process.stdout.write(`  ${code} Wikimedia request: ${url}\n`);
   const json = await getJSON(url);
   const articles = json?.items?.[0]?.articles;
+  process.stdout.write(`  ${code} Wikimedia status: 200 (per-country ${day.iso})\n`);
   if (!Array.isArray(articles) || !articles.length) throw new Error('no articles in response');
+  process.stdout.write(`  ${code} Wikimedia raw items: ${articles.length}\n`);
   return articles;
 }
 
 async function topPerProject(project, day) {
   const url = `${API}/top/${project}/all-access/${day.y}/${day.m}/${day.d}`;
+  process.stdout.write(`  ${project} Wikimedia request: ${url}\n`);
   const json = await getJSON(url);
   const articles = json?.items?.[0]?.articles;
+  process.stdout.write(`  ${project} Wikimedia status: 200 (per-project ${day.iso})\n`);
   if (!Array.isArray(articles) || !articles.length) throw new Error('no articles in response');
+  process.stdout.write(`  ${project} Wikimedia raw items: ${articles.length}\n`);
   return articles;
 }
 
@@ -126,19 +132,23 @@ async function fetchCountry(entry) {
 async function run() {
   const countries = [];
   const failed = [];
+  let rawItemTotal = 0;
+
+  process.stdout.write(`Wikimedia: fetching ${COUNTRIES.length} countries\n`);
 
   for (const entry of COUNTRIES) {
     try {
       const result = await fetchCountry(entry);
-      if (!result.articles.length) throw new Error('no usable articles');
+      if (!result.articles.length) throw new Error('no usable articles after filtering');
+      rawItemTotal += result.articles.length;
       countries.push(result);
       process.stdout.write(
-        `wiki ${entry.code}: ${result.articles.length} articles ` +
-        `(${result.perCountry ? 'per-country' : 'per-language'}, ${result.date})\n`,
+        `  ${entry.code} Wikimedia items: ${result.articles.length} ` +
+        `(${result.perCountry ? 'per-country' : 'per-language'}, ${result.date}) — OK\n`,
       );
     } catch (e) {
       failed.push({ country: entry.code, source: 'wikimedia', message: e.message });
-      process.stdout.write(`wiki ${entry.code}: FAILED — ${e.message}\n`);
+      process.stdout.write(`  ${entry.code} Wikimedia: FAILED — ${e.message}\n`);
     }
   }
 
@@ -148,15 +158,20 @@ async function run() {
     countries,
   };
 
+  const rel = path.relative(process.cwd(), OUT);
   if (countries.length) {
     fs.writeFileSync(OUT, `${JSON.stringify(payload, null, 1)}\n`);
-    process.stdout.write(`wrote ${path.relative(process.cwd(), OUT)}\n`);
+    process.stdout.write(`Wikimedia wrote: ${rel} (${countries.length} countries, ${rawItemTotal} articles)\n`);
   } else {
-    // Nothing usable — leave whatever was there last time untouched.
-    process.stdout.write('wiki: nothing fetched, keeping previous file\n');
+    process.stdout.write(`Wikimedia wrote: nothing — no country returned usable data; ${rel} left unchanged\n`);
   }
 
-  return { ok: countries.map((c) => c.code), failed };
+  process.stdout.write(
+    `Wikimedia summary: ok=[${countries.map((c) => c.code).join(',')}] ` +
+    `failed=[${failed.map((f) => f.country).join(',')}]\n`,
+  );
+
+  return { ok: countries.map((c) => c.code), failed, items: rawItemTotal };
 }
 
 if (require.main === module) {
@@ -165,11 +180,12 @@ if (require.main === module) {
       path.join(__dirname, '.wikimedia-result.json'),
       JSON.stringify(r, null, 1),
     );
+    process.stdout.write(`Wikimedia wrote: scripts/.wikimedia-result.json\n`);
   }).catch((e) => {
-    process.stdout.write(`wiki: fatal — ${e.message}\n`);
+    process.stdout.write(`Wikimedia: fatal — ${e.message}\n`);
     fs.writeFileSync(
       path.join(__dirname, '.wikimedia-result.json'),
-      JSON.stringify({ ok: [], failed: [{ country: '*', source: 'wikimedia', message: e.message }] }, null, 1),
+      JSON.stringify({ ok: [], failed: [{ country: '*', source: 'wikimedia', message: e.message }], items: 0 }, null, 1),
     );
   });
 }

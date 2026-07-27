@@ -1,9 +1,15 @@
 {
  "updatedAt": null,
  "status": "never",
+ "message": "No live fetch has run yet in this repository. The site falls back to the bundled sample data and labels it DEMO DATA. Run the 'Update WORLD PULSE data' workflow to replace this file.",
  "hasData": false,
+ "counts": {
+  "wikimediaItems": 0,
+  "newsItems": 0,
+  "countriesWithData": 0,
+  "topicsGenerated": 0
+ },
  "successfulCountries": [],
  "failedCountries": [],
- "errors": [],
- "note": "No live fetch has run yet in this repository. The site falls back to the bundled sample data and labels it DEMO DATA. Run the 'Update WORLD PULSE data' workflow to replace this file."
+ "errors": []
 }
