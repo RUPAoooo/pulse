@@ -1,7 +1,7 @@
 {
- "updatedAt": null,
- "status": "never",
- "message": "No live fetch has run yet in this repository. The site falls back to the bundled sample data and labels it DEMO DATA. Run the 'Update WORLD PULSE data' workflow to replace this file.",
+ "updatedAt": "2026-07-27T23:15:42.360Z",
+ "status": "empty",
+ "message": "No fetched input found (live-news.json and live-wikipedia.json are both missing). Both fetchers returned zero countries, so no live-topics.json was generated.",
  "hasData": false,
  "counts": {
   "wikimediaItems": 0,
@@ -10,6 +10,96 @@
   "topicsGenerated": 0
  },
  "successfulCountries": [],
- "failedCountries": [],
- "errors": []
+ "failedCountries": [
+  "JP",
+  "US",
+  "GB",
+  "FR",
+  "DE",
+  "KR",
+  "IN",
+  "AU"
+ ],
+ "errors": [
+  {
+   "country": "JP",
+   "source": "wikimedia",
+   "message": "per-project 2026-07-23: Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
+  },
+  {
+   "country": "US",
+   "source": "wikimedia",
+   "message": "per-project 2026-07-23: Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
+  },
+  {
+   "country": "GB",
+   "source": "wikimedia",
+   "message": "per-project 2026-07-23: Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
+  },
+  {
+   "country": "FR",
+   "source": "wikimedia",
+   "message": "per-project 2026-07-23: Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
+  },
+  {
+   "country": "DE",
+   "source": "wikimedia",
+   "message": "per-project 2026-07-23: Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
+  },
+  {
+   "country": "KR",
+   "source": "wikimedia",
+   "message": "per-project 2026-07-23: Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
+  },
+  {
+   "country": "IN",
+   "source": "wikimedia",
+   "message": "per-project 2026-07-23: Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
+  },
+  {
+   "country": "AU",
+   "source": "wikimedia",
+   "message": "per-project 2026-07-23: Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
+  },
+  {
+   "country": "JP",
+   "source": "news",
+   "message": "Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
+  },
+  {
+   "country": "US",
+   "source": "news",
+   "message": "Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
+  },
+  {
+   "country": "GB",
+   "source": "news",
+   "message": "Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
+  },
+  {
+   "country": "FR",
+   "source": "news",
+   "message": "Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
+  },
+  {
+   "country": "DE",
+   "source": "news",
+   "message": "Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
+  },
+  {
+   "country": "KR",
+   "source": "news",
+   "message": "Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
+  },
+  {
+   "country": "IN",
+   "source": "news",
+   "message": "Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
+  },
+  {
+   "country": "AU",
+   "source": "news",
+   "message": "Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
+  }
+ ]
 }
