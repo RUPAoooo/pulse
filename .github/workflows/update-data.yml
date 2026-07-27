@@ -1,0 +1,49 @@
+name: Update WORLD PULSE data
+
+on:
+  schedule:
+    - cron: '7 * * * *'      # hourly, off the hour to dodge the rush
+  workflow_dispatch:          # Actions tab → Run workflow
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'      # global fetch(); no npm install anywhere
+
+      # A failing source must not stop the run — each step reports and moves on.
+      - name: Fetch Wikimedia pageviews
+        continue-on-error: true
+        run: node scripts/fetch-wikimedia.js
+
+      - name: Fetch news (GDELT)
+        continue-on-error: true
+        run: node scripts/fetch-news.js
+
+      - name: Build live data
+        run: node scripts/build-live-data.js
+
+      - name: Commit only if something changed
+        run: |
+          git config user.name  "world-pulse-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/live-*.json data/update-status.json
+          if git diff --cached --quiet; then
+            echo "no data change — nothing to commit"
+          else
+            git commit -m "data: refresh $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
