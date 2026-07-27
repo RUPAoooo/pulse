@@ -1,105 +1,65 @@
 {
- "updatedAt": "2026-07-27T23:15:42.360Z",
- "status": "empty",
- "message": "No fetched input found (live-news.json and live-wikipedia.json are both missing). Both fetchers returned zero countries, so no live-topics.json was generated.",
- "hasData": false,
+ "updatedAt": "2026-07-27T23:32:09.512Z",
+ "status": "success",
+ "message": "Live data generated for all 8 countries.",
+ "hasData": true,
  "counts": {
-  "wikimediaItems": 0,
+  "wikimediaItems": 80,
   "newsItems": 0,
-  "countriesWithData": 0,
-  "topicsGenerated": 0
+  "countriesWithData": 8,
+  "topicsGenerated": 80
  },
- "successfulCountries": [],
- "failedCountries": [
-  "JP",
-  "US",
-  "GB",
-  "FR",
+ "successfulCountries": [
+  "AU",
   "DE",
-  "KR",
+  "FR",
+  "GB",
   "IN",
-  "AU"
+  "JP",
+  "KR",
+  "US"
  ],
+ "failedCountries": [],
  "errors": [
   {
    "country": "JP",
-   "source": "wikimedia",
-   "message": "per-project 2026-07-23: Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
-  },
-  {
-   "country": "US",
-   "source": "wikimedia",
-   "message": "per-project 2026-07-23: Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
-  },
-  {
-   "country": "GB",
-   "source": "wikimedia",
-   "message": "per-project 2026-07-23: Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
-  },
-  {
-   "country": "FR",
-   "source": "wikimedia",
-   "message": "per-project 2026-07-23: Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
-  },
-  {
-   "country": "DE",
-   "source": "wikimedia",
-   "message": "per-project 2026-07-23: Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
-  },
-  {
-   "country": "KR",
-   "source": "wikimedia",
-   "message": "per-project 2026-07-23: Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
-  },
-  {
-   "country": "IN",
-   "source": "wikimedia",
-   "message": "per-project 2026-07-23: Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
-  },
-  {
-   "country": "AU",
-   "source": "wikimedia",
-   "message": "per-project 2026-07-23: Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
-  },
-  {
-   "country": "JP",
    "source": "news",
-   "message": "Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
+   "message": "fetch failed"
   },
   {
    "country": "US",
    "source": "news",
-   "message": "Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
+   "message": "fetch failed"
   },
   {
    "country": "GB",
    "source": "news",
-   "message": "Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
+   "message": "fetch failed"
   },
   {
    "country": "FR",
    "source": "news",
-   "message": "Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
+   "message": "fetch failed"
   },
   {
    "country": "DE",
    "source": "news",
-   "message": "Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
+   "message": "fetch failed"
   },
   {
    "country": "KR",
    "source": "news",
-   "message": "Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
+   "message": "fetch failed"
   },
   {
    "country": "IN",
    "source": "news",
-   "message": "Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
+   "message": "HTTP 429"
   },
   {
    "country": "AU",
    "source": "news",
-   "message": "Cannot convert argument to a ByteString because the character at index 36 has a value of 8212 which is greater than 255."
+   "message": "HTTP 429"
   }
  ]
 }

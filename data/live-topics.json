@@ -1,0 +1,2674 @@
+{
+ "updatedAt": "2026-07-27T23:32:09.495Z",
+ "source": "live",
+ "fingerprint": "e19ba6c4b61573b3e1b850a2ba0aa04f191f3517",
+ "wikiPerCountry": true,
+ "newsSource": null,
+ "wikiSource": "Wikimedia Pageviews API",
+ "countries": [
+  {
+   "code": "AU",
+   "activityScore": 87,
+   "risingCount": 0,
+   "wikiPerCountry": true,
+   "wikiDate": "2026-07-26",
+   "topics": [
+    {
+     "id": "w-909799ec4d",
+     "kind": "WIKI",
+     "title": {
+      "ja": "The Odyssey (2026 film)",
+      "en": "The Odyssey (2026 film)"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "ENTERTAINMENT",
+     "score": 100,
+     "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
+     "views": 25100,
+     "rank": 1,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "GLOBAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "US",
+     "relatedCountries": [
+      "US",
+      "GB",
+      "IN",
+      "AU"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-bd4dad9cee",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Errol Spence Jr.",
+      "en": "Errol Spence Jr."
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 76,
+     "url": "https://en.wikipedia.org/wiki/Errol_Spence_Jr.",
+     "views": 19000,
+     "rank": 2,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "AU",
+     "relatedCountries": [
+      "AU"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-fa20836e80",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Tim Tszyu",
+      "en": "Tim Tszyu"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 55,
+     "url": "https://en.wikipedia.org/wiki/Tim_Tszyu",
+     "views": 13800,
+     "rank": 3,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "AU",
+     "relatedCountries": [
+      "AU"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-a021c096c2",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Odyssey",
+      "en": "Odyssey"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 49,
+     "url": "https://en.wikipedia.org/wiki/Odyssey",
+     "views": 12400,
+     "rank": 4,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "GLOBAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "AU",
+     "relatedCountries": [
+      "US",
+      "GB",
+      "AU"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-25fee78551",
+     "kind": "WIKI",
+     "title": {
+      "ja": "2026 Commonwealth Games",
+      "en": "2026 Commonwealth Games"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "ENTERTAINMENT",
+     "score": 41,
+     "url": "https://en.wikipedia.org/wiki/2026_Commonwealth_Games",
+     "views": 10400,
+     "rank": 5,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "GLOBAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "AU",
+     "relatedCountries": [
+      "IN",
+      "AU"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-8cca0ef8af",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Georgia Munro-Cook",
+      "en": "Georgia Munro-Cook"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 32,
+     "url": "https://en.wikipedia.org/wiki/Georgia_Munro-Cook",
+     "views": 8100,
+     "rank": 6,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "AU",
+     "relatedCountries": [
+      "AU"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-b610a23f74",
+     "kind": "WIKI",
+     "title": {
+      "ja": "David Jonsson",
+      "en": "David Jonsson"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://en.wikipedia.org/wiki/David_Jonsson",
+     "views": 7600,
+     "rank": 7,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "GLOBAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "US",
+     "relatedCountries": [
+      "US",
+      "GB",
+      "AU"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-8283bc093c",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Masters of the Universe (2026 film)",
+      "en": "Masters of the Universe (2026 film)"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "ENTERTAINMENT",
+     "score": 30,
+     "url": "https://en.wikipedia.org/wiki/Masters_of_the_Universe_(2026_film)",
+     "views": 6000,
+     "rank": 8,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "GLOBAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "US",
+     "relatedCountries": [
+      "US",
+      "AU"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-b8cac78d22",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Deaths in 2026",
+      "en": "Deaths in 2026"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
+     "views": 5900,
+     "rank": 9,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "GLOBAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "GB",
+     "relatedCountries": [
+      "GB",
+      "AU"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-b330122db8",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Christopher Nolan",
+      "en": "Christopher Nolan"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://en.wikipedia.org/wiki/Christopher_Nolan",
+     "views": 5800,
+     "rank": 10,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "GLOBAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "GB",
+     "relatedCountries": [
+      "GB",
+      "AU"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    }
+   ]
+  },
+  {
+   "code": "DE",
+   "activityScore": 89,
+   "risingCount": 0,
+   "wikiPerCountry": true,
+   "wikiDate": "2026-07-26",
+   "topics": [
+    {
+     "id": "w-e9e3fa4c98",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Steffen Bilger",
+      "en": "Steffen Bilger"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 100,
+     "url": "https://de.wikipedia.org/wiki/Steffen_Bilger",
+     "views": 58900,
+     "rank": 1,
+     "project": "de.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "DE",
+     "relatedCountries": [
+      "DE"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-23d42790b0",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Die Odyssee (2026)",
+      "en": "Die Odyssee (2026)"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 76,
+     "url": "https://de.wikipedia.org/wiki/Die_Odyssee_(2026)",
+     "views": 45000,
+     "rank": 2,
+     "project": "de.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "DE",
+     "relatedCountries": [
+      "DE"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-9c8356f7ee",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Christopher Street Day",
+      "en": "Christopher Street Day"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 65,
+     "url": "https://de.wikipedia.org/wiki/Christopher_Street_Day",
+     "views": 38400,
+     "rank": 3,
+     "project": "de.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "DE",
+     "relatedCountries": [
+      "DE"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-e385078a38",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Cookie (informatique)",
+      "en": "Cookie (informatique)"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 61,
+     "url": "https://fr.wikipedia.org/wiki/Cookie_(informatique)",
+     "views": 35900,
+     "rank": 4,
+     "project": "fr.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "DE",
+     "relatedCountries": [
+      "DE"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-a2e780aa8b",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Anschlag auf den Berliner Christopher Street Day 2026",
+      "en": "Anschlag auf den Berliner Christopher Street Day 2026"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 57,
+     "url": "https://de.wikipedia.org/wiki/Anschlag_auf_den_Berliner_Christopher_Street_Day_2026",
+     "views": 33500,
+     "rank": 5,
+     "project": "de.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "DE",
+     "relatedCountries": [
+      "DE"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-361ab6759f",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Fame – Der Weg zum Ruhm",
+      "en": "Fame – Der Weg zum Ruhm"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 57,
+     "url": "https://de.wikipedia.org/wiki/Fame_%E2%80%93_Der_Weg_zum_Ruhm",
+     "views": 33300,
+     "rank": 6,
+     "project": "de.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "DE",
+     "relatedCountries": [
+      "DE"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-fd69bd2c64",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Planet der Affen: New Kingdom",
+      "en": "Planet der Affen: New Kingdom"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 47,
+     "url": "https://de.wikipedia.org/wiki/Planet_der_Affen%3A_New_Kingdom",
+     "views": 27800,
+     "rank": 7,
+     "project": "de.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "DE",
+     "relatedCountries": [
+      "DE"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-5c081408fd",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Bordeaux",
+      "en": "Bordeaux"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 44,
+     "url": "https://de.wikipedia.org/wiki/Bordeaux",
+     "views": 25700,
+     "rank": 8,
+     "project": "de.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "DE",
+     "relatedCountries": [
+      "DE"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-420d98f9e4",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Liste der größten Auslegerbrücken",
+      "en": "Liste der größten Auslegerbrücken"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 43,
+     "url": "https://de.wikipedia.org/wiki/Liste_der_gr%C3%B6%C3%9Ften_Auslegerbr%C3%BCcken",
+     "views": 25400,
+     "rank": 9,
+     "project": "de.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "DE",
+     "relatedCountries": [
+      "DE"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-e2bd5db983",
+     "kind": "WIKI",
+     "title": {
+      "ja": "La traviata",
+      "en": "La traviata"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 41,
+     "url": "https://de.wikipedia.org/wiki/La_traviata",
+     "views": 24000,
+     "rank": 10,
+     "project": "de.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "DE",
+     "relatedCountries": [
+      "DE"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    }
+   ]
+  },
+  {
+   "code": "FR",
+   "activityScore": 96,
+   "risingCount": 0,
+   "wikiPerCountry": true,
+   "wikiDate": "2026-07-26",
+   "topics": [
+    {
+     "id": "w-825b35e127",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Mathieu van der Poel",
+      "en": "Mathieu van der Poel"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 100,
+     "url": "https://fr.wikipedia.org/wiki/Mathieu_van_der_Poel",
+     "views": 47800,
+     "rank": 1,
+     "project": "fr.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-d2d298e9f7",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Tadej Pogačar",
+      "en": "Tadej Pogačar"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 99,
+     "url": "https://fr.wikipedia.org/wiki/Tadej_Poga%C4%8Dar",
+     "views": 47300,
+     "rank": 2,
+     "project": "fr.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-c059c0f3d1",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Marie-Paule Belle",
+      "en": "Marie-Paule Belle"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 94,
+     "url": "https://fr.wikipedia.org/wiki/Marie-Paule_Belle",
+     "views": 44700,
+     "rank": 3,
+     "project": "fr.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-8b377c2bd5",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Spécial:Recherche",
+      "en": "Spécial:Recherche"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "SCIENCE",
+     "score": 70,
+     "url": "https://fr.wikipedia.org/wiki/Sp%C3%A9cial%3ARecherche",
+     "views": 33400,
+     "rank": 4,
+     "project": "fr.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-8bdad8ec59",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Fame (film, 1980)",
+      "en": "Fame (film, 1980)"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "ENTERTAINMENT",
+     "score": 62,
+     "url": "https://fr.wikipedia.org/wiki/Fame_(film%2C_1980)",
+     "views": 29600,
+     "rank": 5,
+     "project": "fr.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-23dbfbadf9",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Heureux Gagnants",
+      "en": "Heureux Gagnants"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 56,
+     "url": "https://fr.wikipedia.org/wiki/Heureux_Gagnants",
+     "views": 26900,
+     "rank": 6,
+     "project": "fr.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-e4612d93e2",
+     "kind": "WIKI",
+     "title": {
+      "ja": "L'Odyssée (film, 2026)",
+      "en": "L'Odyssée (film, 2026)"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "ENTERTAINMENT",
+     "score": 56,
+     "url": "https://fr.wikipedia.org/wiki/L'Odyss%C3%A9e_(film%2C_2026)",
+     "views": 26600,
+     "rank": 7,
+     "project": "fr.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-f858034146",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Bee Gees",
+      "en": "Bee Gees"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 50,
+     "url": "https://fr.wikipedia.org/wiki/Bee_Gees",
+     "views": 24100,
+     "rank": 8,
+     "project": "fr.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-9cd1c8b6c7",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Incendie de la forêt des Landes de 1949",
+      "en": "Incendie de la forêt des Landes de 1949"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 50,
+     "url": "https://fr.wikipedia.org/wiki/Incendie_de_la_for%C3%AAt_des_Landes_de_1949",
+     "views": 23700,
+     "rank": 9,
+     "project": "fr.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-72294e8bb4",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Yoann Offredo",
+      "en": "Yoann Offredo"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 49,
+     "url": "https://fr.wikipedia.org/wiki/Yoann_Offredo",
+     "views": 23200,
+     "rank": 10,
+     "project": "fr.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    }
+   ]
+  },
+  {
+   "code": "GB",
+   "activityScore": 87,
+   "risingCount": 0,
+   "wikiPerCountry": true,
+   "wikiDate": "2026-07-26",
+   "topics": [
+    {
+     "id": "w-909799ec4d",
+     "kind": "WIKI",
+     "title": {
+      "ja": "The Odyssey (2026 film)",
+      "en": "The Odyssey (2026 film)"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "ENTERTAINMENT",
+     "score": 100,
+     "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
+     "views": 76500,
+     "rank": 1,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "GLOBAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "US",
+     "relatedCountries": [
+      "US",
+      "GB",
+      "IN",
+      "AU"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-9f3783188b",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Janet Street-Porter",
+      "en": "Janet Street-Porter"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 74,
+     "url": "https://en.wikipedia.org/wiki/Janet_Street-Porter",
+     "views": 56300,
+     "rank": 2,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "GB",
+     "relatedCountries": [
+      "GB"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-b610a23f74",
+     "kind": "WIKI",
+     "title": {
+      "ja": "David Jonsson",
+      "en": "David Jonsson"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 62,
+     "url": "https://en.wikipedia.org/wiki/David_Jonsson",
+     "views": 47800,
+     "rank": 3,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "GLOBAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "US",
+     "relatedCountries": [
+      "US",
+      "GB",
+      "AU"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-90619c5c2e",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Andy Burnham",
+      "en": "Andy Burnham"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 52,
+     "url": "https://en.wikipedia.org/wiki/Andy_Burnham",
+     "views": 40100,
+     "rank": 4,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "GB",
+     "relatedCountries": [
+      "GB"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-05c36e606f",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Adam Peaty",
+      "en": "Adam Peaty"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 47,
+     "url": "https://en.wikipedia.org/wiki/Adam_Peaty",
+     "views": 35700,
+     "rank": 5,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "GB",
+     "relatedCountries": [
+      "GB"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-a021c096c2",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Odyssey",
+      "en": "Odyssey"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 44,
+     "url": "https://en.wikipedia.org/wiki/Odyssey",
+     "views": 33900,
+     "rank": 6,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "GLOBAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "AU",
+     "relatedCountries": [
+      "US",
+      "GB",
+      "AU"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-259f0b4a22",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Anthony Joshua",
+      "en": "Anthony Joshua"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 33,
+     "url": "https://en.wikipedia.org/wiki/Anthony_Joshua",
+     "views": 25000,
+     "rank": 7,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "GB",
+     "relatedCountries": [
+      "GB"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-0e40452ee5",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Ruth Madeley",
+      "en": "Ruth Madeley"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 32,
+     "url": "https://en.wikipedia.org/wiki/Ruth_Madeley",
+     "views": 24600,
+     "rank": 8,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "GB",
+     "relatedCountries": [
+      "GB"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-b330122db8",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Christopher Nolan",
+      "en": "Christopher Nolan"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://en.wikipedia.org/wiki/Christopher_Nolan",
+     "views": 20800,
+     "rank": 9,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "GLOBAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "GB",
+     "relatedCountries": [
+      "GB",
+      "AU"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-b8cac78d22",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Deaths in 2026",
+      "en": "Deaths in 2026"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
+     "views": 20800,
+     "rank": 10,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "GLOBAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "GB",
+     "relatedCountries": [
+      "GB",
+      "AU"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    }
+   ]
+  },
+  {
+   "code": "IN",
+   "activityScore": 76,
+   "risingCount": 0,
+   "wikiPerCountry": true,
+   "wikiDate": "2026-07-26",
+   "topics": [
+    {
+     "id": "w-d079ec2d49",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Pralhad Joshi",
+      "en": "Pralhad Joshi"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 100,
+     "url": "https://en.wikipedia.org/wiki/Pralhad_Joshi",
+     "views": 445100,
+     "rank": 1,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "IN",
+     "relatedCountries": [
+      "IN"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-a82aba0e18",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Jana Nayagan",
+      "en": "Jana Nayagan"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://en.wikipedia.org/wiki/Jana_Nayagan",
+     "views": 110800,
+     "rank": 2,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "IN",
+     "relatedCountries": [
+      "IN"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-909799ec4d",
+     "kind": "WIKI",
+     "title": {
+      "ja": "The Odyssey (2026 film)",
+      "en": "The Odyssey (2026 film)"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "ENTERTAINMENT",
+     "score": 30,
+     "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
+     "views": 103800,
+     "rank": 3,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "GLOBAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "US",
+     "relatedCountries": [
+      "US",
+      "GB",
+      "IN",
+      "AU"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-621b514b06",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Dharmendra Pradhan",
+      "en": "Dharmendra Pradhan"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://en.wikipedia.org/wiki/Dharmendra_Pradhan",
+     "views": 89700,
+     "rank": 4,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "IN",
+     "relatedCountries": [
+      "IN"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-25fee78551",
+     "kind": "WIKI",
+     "title": {
+      "ja": "2026 Commonwealth Games",
+      "en": "2026 Commonwealth Games"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "ENTERTAINMENT",
+     "score": 30,
+     "url": "https://en.wikipedia.org/wiki/2026_Commonwealth_Games",
+     "views": 88000,
+     "rank": 5,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "GLOBAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "AU",
+     "relatedCountries": [
+      "IN",
+      "AU"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-af507f148d",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Abhijeet Dipke",
+      "en": "Abhijeet Dipke"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://en.wikipedia.org/wiki/Abhijeet_Dipke",
+     "views": 81400,
+     "rank": 6,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "IN",
+     "relatedCountries": [
+      "IN"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-07d3ce04bd",
+     "kind": "WIKI",
+     "title": {
+      "ja": "India at the 2026 Commonwealth Games",
+      "en": "India at the 2026 Commonwealth Games"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "ENTERTAINMENT",
+     "score": 30,
+     "url": "https://en.wikipedia.org/wiki/India_at_the_2026_Commonwealth_Games",
+     "views": 80700,
+     "rank": 7,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "IN",
+     "relatedCountries": [
+      "IN"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-7c1ade9983",
+     "kind": "WIKI",
+     "title": {
+      "ja": "प्रह्लाद जोशी",
+      "en": "प्रह्लाद जोशी"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://hi.wikipedia.org/wiki/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B9%E0%A5%8D%E0%A4%B2%E0%A4%BE%E0%A4%A6_%E0%A4%9C%E0%A5%8B%E0%A4%B6%E0%A5%80",
+     "views": 65100,
+     "rank": 8,
+     "project": "hi.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "IN",
+     "relatedCountries": [
+      "IN"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-a5147d72e5",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Cockroach Janta Party",
+      "en": "Cockroach Janta Party"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "POLITICS",
+     "score": 30,
+     "url": "https://en.wikipedia.org/wiki/Cockroach_Janta_Party",
+     "views": 55600,
+     "rank": 9,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "IN",
+     "relatedCountries": [
+      "IN"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-66b27417d3",
+     "kind": "WIKI",
+     "title": {
+      "ja": ".xyz",
+      "en": ".xyz"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://en.wikipedia.org/wiki/.xyz",
+     "views": 43100,
+     "rank": 10,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "IN",
+     "relatedCountries": [
+      "IN"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    }
+   ]
+  },
+  {
+   "code": "JP",
+   "activityScore": 83,
+   "risingCount": 0,
+   "wikiPerCountry": true,
+   "wikiDate": "2026-07-26",
+   "topics": [
+    {
+     "id": "w-6ea8feed7e",
+     "kind": "WIKI",
+     "title": {
+      "ja": "VIVANT",
+      "en": "VIVANT"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 100,
+     "url": "https://ja.wikipedia.org/wiki/VIVANT",
+     "views": 169800,
+     "rank": 1,
+     "project": "ja.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "JP",
+     "relatedCountries": [
+      "JP"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-9d6beb741f",
+     "kind": "WIKI",
+     "title": {
+      "ja": "堺雅人",
+      "en": "堺雅人"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 58,
+     "url": "https://ja.wikipedia.org/wiki/%E5%A0%BA%E9%9B%85%E4%BA%BA",
+     "views": 98700,
+     "rank": 2,
+     "project": "ja.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "JP",
+     "relatedCountries": [
+      "JP"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-7622c5382e",
+     "kind": "WIKI",
+     "title": {
+      "ja": "羽柴与一郎",
+      "en": "羽柴与一郎"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 53,
+     "url": "https://ja.wikipedia.org/wiki/%E7%BE%BD%E6%9F%B4%E4%B8%8E%E4%B8%80%E9%83%8E",
+     "views": 89300,
+     "rank": 3,
+     "project": "ja.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "JP",
+     "relatedCountries": [
+      "JP"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-aaa6321c4e",
+     "kind": "WIKI",
+     "title": {
+      "ja": "ハナキリン",
+      "en": "ハナキリン"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 39,
+     "url": "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%8A%E3%82%AD%E3%83%AA%E3%83%B3",
+     "views": 66100,
+     "rank": 4,
+     "project": "ja.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "JP",
+     "relatedCountries": [
+      "JP"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-86fde882b2",
+     "kind": "WIKI",
+     "title": {
+      "ja": "相模原障害者施設殺傷事件",
+      "en": "相模原障害者施設殺傷事件"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 34,
+     "url": "https://ja.wikipedia.org/wiki/%E7%9B%B8%E6%A8%A1%E5%8E%9F%E9%9A%9C%E5%AE%B3%E8%80%85%E6%96%BD%E8%A8%AD%E6%AE%BA%E5%82%B7%E4%BA%8B%E4%BB%B6",
+     "views": 58500,
+     "rank": 5,
+     "project": "ja.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "JP",
+     "relatedCountries": [
+      "JP"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-5aa925d0ed",
+     "kind": "WIKI",
+     "title": {
+      "ja": "飯沼愛",
+      "en": "飯沼愛"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 33,
+     "url": "https://ja.wikipedia.org/wiki/%E9%A3%AF%E6%B2%BC%E6%84%9B",
+     "views": 56600,
+     "rank": 6,
+     "project": "ja.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "JP",
+     "relatedCountries": [
+      "JP"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-9cc8037e05",
+     "kind": "WIKI",
+     "title": {
+      "ja": "富栄ドラム",
+      "en": "富栄ドラム"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 32,
+     "url": "https://ja.wikipedia.org/wiki/%E5%AF%8C%E6%A0%84%E3%83%89%E3%83%A9%E3%83%A0",
+     "views": 54200,
+     "rank": 7,
+     "project": "ja.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "JP",
+     "relatedCountries": [
+      "JP"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-eedd1d9fda",
+     "kind": "WIKI",
+     "title": {
+      "ja": "安青錦新大",
+      "en": "安青錦新大"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 32,
+     "url": "https://ja.wikipedia.org/wiki/%E5%AE%89%E9%9D%92%E9%8C%A6%E6%96%B0%E5%A4%A7",
+     "views": 54000,
+     "rank": 8,
+     "project": "ja.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "JP",
+     "relatedCountries": [
+      "JP"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-0dde8259f8",
+     "kind": "WIKI",
+     "title": {
+      "ja": "豊臣秀長",
+      "en": "豊臣秀長"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://ja.wikipedia.org/wiki/%E8%B1%8A%E8%87%A3%E7%A7%80%E9%95%B7",
+     "views": 39500,
+     "rank": 9,
+     "project": "ja.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "JP",
+     "relatedCountries": [
+      "JP"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-6666c05e62",
+     "kind": "WIKI",
+     "title": {
+      "ja": "織田信孝",
+      "en": "織田信孝"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://ja.wikipedia.org/wiki/%E7%B9%94%E7%94%B0%E4%BF%A1%E5%AD%9D",
+     "views": 37000,
+     "rank": 10,
+     "project": "ja.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "JP",
+     "relatedCountries": [
+      "JP"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    }
+   ]
+  },
+  {
+   "code": "KR",
+   "activityScore": 82,
+   "risingCount": 0,
+   "wikiPerCountry": true,
+   "wikiDate": "2026-07-26",
+   "topics": [
+    {
+     "id": "w-d963ca6526",
+     "kind": "WIKI",
+     "title": {
+      "ja": "문화방송",
+      "en": "문화방송"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "CULTURE",
+     "score": 100,
+     "url": "https://ko.wikipedia.org/wiki/%EB%AC%B8%ED%99%94%EB%B0%A9%EC%86%A1",
+     "views": 19700,
+     "rank": 1,
+     "project": "ko.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "KR",
+     "relatedCountries": [
+      "KR"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-01a237c986",
+     "kind": "WIKI",
+     "title": {
+      "ja": "한국방송공사",
+      "en": "한국방송공사"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 52,
+     "url": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EB%B0%A9%EC%86%A1%EA%B3%B5%EC%82%AC",
+     "views": 10200,
+     "rank": 2,
+     "project": "ko.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "KR",
+     "relatedCountries": [
+      "KR"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-84dfeb147b",
+     "kind": "WIKI",
+     "title": {
+      "ja": "한국교육방송공사",
+      "en": "한국교육방송공사"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 50,
+     "url": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EA%B5%90%EC%9C%A1%EB%B0%A9%EC%86%A1%EA%B3%B5%EC%82%AC",
+     "views": 9800,
+     "rank": 3,
+     "project": "ko.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "KR",
+     "relatedCountries": [
+      "KR"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-06edf1691f",
+     "kind": "WIKI",
+     "title": {
+      "ja": "유튜브",
+      "en": "유튜브"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 42,
+     "url": "https://ko.wikipedia.org/wiki/%EC%9C%A0%ED%8A%9C%EB%B8%8C",
+     "views": 8200,
+     "rank": 4,
+     "project": "ko.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "KR",
+     "relatedCountries": [
+      "KR"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-fb1e500615",
+     "kind": "WIKI",
+     "title": {
+      "ja": "특수:검색",
+      "en": "특수:검색"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 33,
+     "url": "https://ko.wikipedia.org/wiki/%ED%8A%B9%EC%88%98%3A%EA%B2%80%EC%83%89",
+     "views": 6500,
+     "rank": 5,
+     "project": "ko.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "KR",
+     "relatedCountries": [
+      "KR"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-12ae417bd5",
+     "kind": "WIKI",
+     "title": {
+      "ja": "사랑이 온다 (드라마)",
+      "en": "사랑이 온다 (드라마)"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "ENTERTAINMENT",
+     "score": 30,
+     "url": "https://ko.wikipedia.org/wiki/%EC%82%AC%EB%9E%91%EC%9D%B4_%EC%98%A8%EB%8B%A4_(%EB%93%9C%EB%9D%BC%EB%A7%88)",
+     "views": 3200,
+     "rank": 6,
+     "project": "ko.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "KR",
+     "relatedCountries": [
+      "KR"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-8ed4db906c",
+     "kind": "WIKI",
+     "title": {
+      "ja": "서수민 (2007년)",
+      "en": "서수민 (2007년)"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://ko.wikipedia.org/wiki/%EC%84%9C%EC%88%98%EB%AF%BC_(2007%EB%85%84)",
+     "views": 3200,
+     "rank": 7,
+     "project": "ko.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "KR",
+     "relatedCountries": [
+      "KR"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-8e77e6c340",
+     "kind": "WIKI",
+     "title": {
+      "ja": "도희",
+      "en": "도희"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://ko.wikipedia.org/wiki/%EB%8F%84%ED%9D%AC",
+     "views": 2700,
+     "rank": 8,
+     "project": "ko.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "KR",
+     "relatedCountries": [
+      "KR"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-96e8915c33",
+     "kind": "WIKI",
+     "title": {
+      "ja": "신지은 (골프 선수)",
+      "en": "신지은 (골프 선수)"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://ko.wikipedia.org/wiki/%EC%8B%A0%EC%A7%80%EC%9D%80_(%EA%B3%A8%ED%94%84_%EC%84%A0%EC%88%98)",
+     "views": 2700,
+     "rank": 9,
+     "project": "ko.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "KR",
+     "relatedCountries": [
+      "KR"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-9bf5056e1c",
+     "kind": "WIKI",
+     "title": {
+      "ja": "박진영",
+      "en": "박진영"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://ko.wikipedia.org/wiki/%EB%B0%95%EC%A7%84%EC%98%81",
+     "views": 2600,
+     "rank": 10,
+     "project": "ko.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "KR",
+     "relatedCountries": [
+      "KR"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    }
+   ]
+  },
+  {
+   "code": "US",
+   "activityScore": 91,
+   "risingCount": 0,
+   "wikiPerCountry": true,
+   "wikiDate": "2026-07-26",
+   "topics": [
+    {
+     "id": "w-909799ec4d",
+     "kind": "WIKI",
+     "title": {
+      "ja": "The Odyssey (2026 film)",
+      "en": "The Odyssey (2026 film)"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "ENTERTAINMENT",
+     "score": 100,
+     "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
+     "views": 254400,
+     "rank": 1,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "GLOBAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "US",
+     "relatedCountries": [
+      "US",
+      "GB",
+      "IN",
+      "AU"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-00b2c1aa95",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Jackson Koivun",
+      "en": "Jackson Koivun"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 96,
+     "url": "https://en.wikipedia.org/wiki/Jackson_Koivun",
+     "views": 243500,
+     "rank": 2,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "US",
+     "relatedCountries": [
+      "US"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-b610a23f74",
+     "kind": "WIKI",
+     "title": {
+      "ja": "David Jonsson",
+      "en": "David Jonsson"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 72,
+     "url": "https://en.wikipedia.org/wiki/David_Jonsson",
+     "views": 184100,
+     "rank": 3,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "GLOBAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "US",
+     "relatedCountries": [
+      "US",
+      "GB",
+      "AU"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-a5228b887b",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Hafan",
+      "en": "Hafan"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 52,
+     "url": "https://cy.wikipedia.org/wiki/Hafan",
+     "views": 133100,
+     "rank": 4,
+     "project": "cy.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "US",
+     "relatedCountries": [
+      "US"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-a021c096c2",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Odyssey",
+      "en": "Odyssey"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 48,
+     "url": "https://en.wikipedia.org/wiki/Odyssey",
+     "views": 122900,
+     "rank": 5,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "GLOBAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "AU",
+     "relatedCountries": [
+      "US",
+      "GB",
+      "AU"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-8f462ab9c0",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Obsession (2025 film)",
+      "en": "Obsession (2025 film)"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "ENTERTAINMENT",
+     "score": 30,
+     "url": "https://en.wikipedia.org/wiki/Obsession_(2025_film)",
+     "views": 74300,
+     "rank": 6,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "US",
+     "relatedCountries": [
+      "US"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-67dcc2f0c9",
+     "kind": "WIKI",
+     "title": {
+      "ja": "MediaWiki",
+      "en": "MediaWiki"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://mediawiki.wikipedia.org/wiki/MediaWiki",
+     "views": 71000,
+     "rank": 7,
+     "project": "mediawiki",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "US",
+     "relatedCountries": [
+      "US"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-8283bc093c",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Masters of the Universe (2026 film)",
+      "en": "Masters of the Universe (2026 film)"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "ENTERTAINMENT",
+     "score": 30,
+     "url": "https://en.wikipedia.org/wiki/Masters_of_the_Universe_(2026_film)",
+     "views": 68700,
+     "rank": 8,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "GLOBAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "US",
+     "relatedCountries": [
+      "US",
+      "AU"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-9fc8ff9e83",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Jeff Bezos",
+      "en": "Jeff Bezos"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://en.wikipedia.org/wiki/Jeff_Bezos",
+     "views": 67100,
+     "rank": 9,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "US",
+     "relatedCountries": [
+      "US"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-b6311849e4",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Pagina principale",
+      "en": "Pagina principale"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://it.wikipedia.org/wiki/Pagina_principale",
+     "views": 66300,
+     "rank": 10,
+     "project": "it.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "US",
+     "relatedCountries": [
+      "US"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    }
+   ]
+  }
+ ]
+}
