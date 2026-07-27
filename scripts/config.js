@@ -25,7 +25,7 @@ const LIMITS = {
 };
 
 const USER_AGENT =
-  'WorldPulse/1.0 (https://github.com/ — static trend visualiser; contact via repository issues)';
+  'WorldPulse/1.0 (https://github.com/RUPAoooo/pulse - static trend visualiser; contact via repository issues)';
 
 /**
  * Deliberately crude keyword classification — no AI, no API.
