@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-28T12:13:10.932Z",
+ "fetchedAt": "2026-07-28T14:45:52.755Z",
  "source": "Wikimedia Pageviews API",
  "countries": [
   {
@@ -1350,71 +1350,71 @@
    "code": "TR",
    "perCountry": false,
    "project": "tr.wikipedia",
-   "date": "2026-07-26",
+   "date": "2026-07-27",
    "articles": [
     {
      "rank": 1,
      "title": "Anasayfa",
-     "views": 48495,
+     "views": 44529,
      "url": "https://tr.wikipedia.org/wiki/Anasayfa",
      "project": "tr.wikipedia",
      "category": "SCIENCE"
     },
     {
      "rank": 2,
-     "title": "FIVB Kadınlar Voleybol Milletler Ligi",
-     "views": 32940,
-     "url": "https://tr.wikipedia.org/wiki/FIVB_Kad%C4%B1nlar_Voleybol_Milletler_Ligi",
-     "project": "tr.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 3,
      "title": "Yeni Parti (2026)",
-     "views": 31119,
+     "views": 25026,
      "url": "https://tr.wikipedia.org/wiki/Yeni_Parti_(2026)",
      "project": "tr.wikipedia",
      "category": "BUSINESS"
     },
     {
-     "rank": 4,
-     "title": "Türkiye kadın millî voleybol takımı",
-     "views": 28662,
-     "url": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_kad%C4%B1n_mill%C3%AE_voleybol_tak%C4%B1m%C4%B1",
+     "rank": 3,
+     "title": "Özel:Ara",
+     "views": 19067,
+     "url": "https://tr.wikipedia.org/wiki/%C3%96zel%3AAra",
      "project": "tr.wikipedia",
      "category": "OTHER"
+    },
+    {
+     "rank": 4,
+     "title": "Seks ve Genç Kız (film)",
+     "views": 12814,
+     "url": "https://tr.wikipedia.org/wiki/Seks_ve_Gen%C3%A7_K%C4%B1z_(film)",
+     "project": "tr.wikipedia",
+     "category": "ENTERTAINMENT"
     },
     {
      "rank": 5,
-     "title": "Sinead Jack-Kısal",
-     "views": 26818,
-     "url": "https://tr.wikipedia.org/wiki/Sinead_Jack-K%C4%B1sal",
-     "project": "tr.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 6,
-     "title": "FIVB Dünya Sıralaması",
-     "views": 24318,
-     "url": "https://tr.wikipedia.org/wiki/FIVB_D%C3%BCnya_S%C4%B1ralamas%C4%B1",
-     "project": "tr.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 7,
      "title": "Melissa Vargas",
-     "views": 23772,
+     "views": 9435,
      "url": "https://tr.wikipedia.org/wiki/Melissa_Vargas",
      "project": "tr.wikipedia",
      "category": "OTHER"
     },
     {
-     "rank": 8,
-     "title": "2026 FIVB Kadınlar Voleybol Milletler Ligi",
-     "views": 18054,
-     "url": "https://tr.wikipedia.org/wiki/2026_FIVB_Kad%C4%B1nlar_Voleybol_Milletler_Ligi",
+     "rank": 6,
+     "title": "Türkiye kadın millî voleybol takımı",
+     "views": 8264,
+     "url": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_kad%C4%B1n_mill%C3%AE_voleybol_tak%C4%B1m%C4%B1",
      "project": "tr.wikipedia",
      "category": "OTHER"
+    },
+    {
+     "rank": 7,
+     "title": "FIVB Dünya Sıralaması",
+     "views": 7646,
+     "url": "https://tr.wikipedia.org/wiki/FIVB_D%C3%BCnya_S%C4%B1ralamas%C4%B1",
+     "project": "tr.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 8,
+     "title": "Odyssey (film)",
+     "views": 7394,
+     "url": "https://tr.wikipedia.org/wiki/Odyssey_(film)",
+     "project": "tr.wikipedia",
+     "category": "ENTERTAINMENT"
     }
    ]
   },

@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-07-28T12:19:55.382Z",
+ "updatedAt": "2026-07-28T14:49:08.066Z",
  "source": "live",
- "fingerprint": "5a0ea5a569d063a66fe712550fe9f9f58dba0328",
+ "fingerprint": "acb24ab6f8df99c6a63cea656f087ff1abbbac0e",
  "wikiPerCountry": false,
  "newsSource": "GDELT DOC 2.0 API",
  "wikiSource": "Wikimedia Pageviews API",
@@ -281,42 +281,11 @@
   },
   {
    "code": "AU",
-   "activityScore": 99,
+   "activityScore": 91,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
-    {
-     "id": "n-63e83efb12",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Not satire : The Utopia - style regulations holding Australia back from building homes",
-      "en": "Not satire : The Utopia - style regulations holding Australia back from building homes"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 100,
-     "url": "https://www.abc.net.au/news/2026-07-27/the-utopia-style-regulations-holding-back-new-homes/106963506",
-     "outlet": "abc.net.au",
-     "publishedAt": "2026-07-27T13:30:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AU",
-     "relatedCountries": [
-      "AU"
-     ],
-     "startedAt": "2026-07-27T13:30:00Z",
-     "durationHours": null
-    },
     {
      "id": "w-6d8fa4ae76",
      "kind": "WIKI",
@@ -349,99 +318,6 @@
       "NZ"
      ],
      "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "n-395402af38",
-     "kind": "NEWS",
-     "title": {
-      "ja": "WA , federal governments investigate potential for Perdaman oil refinery",
-      "en": "WA , federal governments investigate potential for Perdaman oil refinery"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "POLITICS",
-     "score": 96,
-     "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530",
-     "outlet": "abc.net.au",
-     "publishedAt": "2026-07-27T13:30:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AU",
-     "relatedCountries": [
-      "AU"
-     ],
-     "startedAt": "2026-07-27T13:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-7b9cd9fa65",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Secret files show horse meat , mouse fur detected in Australian food safety breaches",
-      "en": "Secret files show horse meat , mouse fur detected in Australian food safety breaches"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "CULTURE",
-     "score": 92,
-     "url": "https://www.abc.net.au/news/2026-07-28/horse-meat-detected-as-mince-in-food-safety-breaches/106936504",
-     "outlet": "abc.net.au",
-     "publishedAt": "2026-07-27T19:30:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AU",
-     "relatedCountries": [
-      "AU"
-     ],
-     "startedAt": "2026-07-27T19:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-fa50da8e30",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Homes and fortune Peter Brock left behind - realestate . com . au",
-      "en": "Homes and fortune Peter Brock left behind - realestate . com . au"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WORLD",
-     "score": 88,
-     "url": "https://www.realestate.com.au/news/homes-and-fortune-peter-brock-left-behind/",
-     "outlet": "realestate.com.au",
-     "publishedAt": "2026-07-28T01:00:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AU",
-     "relatedCountries": [
-      "AU"
-     ],
-     "startedAt": "2026-07-28T01:00:00Z",
      "durationHours": null
     },
     {
@@ -491,130 +367,6 @@
      "durationHours": null
     },
     {
-     "id": "n-92fd036436",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Property - mogul parents sue daughter to block secret $4 . 2m apartment sale",
-      "en": "Property - mogul parents sue daughter to block secret $4 . 2m apartment sale"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "CULTURE",
-     "score": 84,
-     "url": "https://www.realestate.com.au/news/propertymogul-parents-sue-daughter-to-block-secret-42m-apartment-sale/",
-     "outlet": "realestate.com.au",
-     "publishedAt": "2026-07-28T01:00:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AU",
-     "relatedCountries": [
-      "AU"
-     ],
-     "startedAt": "2026-07-28T01:00:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-7d60d81ccb",
-     "kind": "NEWS",
-     "title": {
-      "ja": "God help u : auctioneer reports  worst  day of his 30 - year career",
-      "en": "God help u : auctioneer reports  worst  day of his 30 - year career"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 80,
-     "url": "https://www.realestate.com.au/news/god-help-us-auctioneer-reports-worst-day-of-his-30year-career/",
-     "outlet": "realestate.com.au",
-     "publishedAt": "2026-07-27T20:30:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AU",
-     "relatedCountries": [
-      "AU"
-     ],
-     "startedAt": "2026-07-27T20:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-b73b7da57a",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Ministers meet ahead of a Labor spill",
-      "en": "Ministers meet ahead of a Labor spill"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "POLITICS",
-     "score": 76,
-     "url": "https://www.smh.com.au/politics/ministers-meet-ahead-of-a-labor-spill-20260728-p60j42.html",
-     "outlet": "smh.com.au",
-     "publishedAt": "2026-07-27T23:00:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AU",
-     "relatedCountries": [
-      "AU"
-     ],
-     "startedAt": "2026-07-27T23:00:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-8897f36c47",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Man rushed to Gold Coast hospital after being hit by bus at Burleigh Waters",
-      "en": "Man rushed to Gold Coast hospital after being hit by bus at Burleigh Waters"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 72,
-     "url": "https://www.smh.com.au/national/queensland/man-waiting-at-bus-stop-loses-arm-after-bus-crashes-into-shelter-20260728-p60j3g.html",
-     "outlet": "smh.com.au",
-     "publishedAt": "2026-07-27T23:00:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AU",
-     "relatedCountries": [
-      "AU"
-     ],
-     "startedAt": "2026-07-27T23:00:00Z",
-     "durationHours": null
-    },
-    {
      "id": "w-8cca0ef8af",
      "kind": "WIKI",
      "title": {
@@ -644,37 +396,6 @@
       "AU"
      ],
      "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "n-d7123f6a05",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Tell us where to look for her : US TV show host issues emotional plea to mother kidnappers",
-      "en": "Tell us where to look for her : US TV show host issues emotional plea to mother kidnappers"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "TECH",
-     "score": 68,
-     "url": "https://www.smh.com.au/world/tell-us-where-to-look-for-her-us-tv-show-host-issues-emotional-plea-to-mother-s-kidnappers-20260728-p60j3z.html",
-     "outlet": "smh.com.au",
-     "publishedAt": "2026-07-27T23:00:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AU",
-     "relatedCountries": [
-      "AU"
-     ],
-     "startedAt": "2026-07-27T23:00:00Z",
      "durationHours": null
     },
     {
@@ -1956,11 +1677,42 @@
   },
   {
    "code": "EG",
-   "activityScore": 77,
+   "activityScore": 99,
    "risingCount": 0,
    "wikiPerCountry": false,
    "wikiDate": "2026-07-27",
    "topics": [
+    {
+     "id": "n-b524c663e5",
+     "kind": "NEWS",
+     "title": {
+      "ja": "وظائف بمرتبات تصل لـ20 ألف جنيه .. قدم الآن",
+      "en": "وظائف بمرتبات تصل لـ20 ألف جنيه .. قدم الآن"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 100,
+     "url": "https://www.youm7.com/story/2026/7/28/%D9%88%D8%B8%D8%A7%D8%A6%D9%81-%D8%A8%D9%85%D8%B1%D8%AA%D8%A8%D8%A7%D8%AA-%D8%AA%D8%B5%D9%84-%D9%84%D9%8020-%D8%A3%D9%84%D9%81-%D8%AC%D9%86%D9%8A%D9%87-%D9%82%D8%AF%D9%85-%D8%A7%D9%84%D8%A2%D9%86/7494568",
+     "outlet": "youm7.com",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "Arabic",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "EG",
+     "relatedCountries": [
+      "EG"
+     ],
+     "startedAt": "2026-07-28T08:30:00Z",
+     "durationHours": null
+    },
     {
      "id": "w-cedda4b096",
      "kind": "WIKI",
@@ -1991,6 +1743,161 @@
       "EG"
      ],
      "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "n-865c83ad93",
+     "kind": "NEWS",
+     "title": {
+      "ja": "حبس 3 مسؤولين 4 أيام في واقعة غرق طفل بحمام السباحة بنادى بالبدرشين",
+      "en": "حبس 3 مسؤولين 4 أيام في واقعة غرق طفل بحمام السباحة بنادى بالبدرشين"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 96,
+     "url": "https://www.youm7.com/story/2026/7/28/%D8%AD%D8%A8%D8%B3-3-%D9%85%D8%B3%D8%A4%D9%88%D9%84%D9%8A%D9%86-4-%D8%A3%D9%8A%D8%A7%D9%85-%D9%81%D9%8A-%D9%88%D8%A7%D9%82%D8%B9%D8%A9-%D8%BA%D8%B1%D9%82-%D8%B7%D9%81%D9%84-%D8%A8%D8%AD%D9%85%D8%A7%D9%85/7495504",
+     "outlet": "youm7.com",
+     "publishedAt": "2026-07-28T09:45:00Z",
+     "language": "Arabic",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "EG",
+     "relatedCountries": [
+      "EG"
+     ],
+     "startedAt": "2026-07-28T09:45:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-9aa2dbf575",
+     "kind": "NEWS",
+     "title": {
+      "ja": "نيمار يقترب من الرحيل عن سانتوس - اليوم السابع",
+      "en": "نيمار يقترب من الرحيل عن سانتوس - اليوم السابع"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 92,
+     "url": "https://www.youm7.com/story/2026/7/28/%D9%86%D9%8A%D9%85%D8%A7%D8%B1-%D9%8A%D9%82%D8%AA%D8%B1%D8%A8-%D9%85%D9%86-%D8%A7%D9%84%D8%B1%D8%AD%D9%8A%D9%84-%D8%B9%D9%86-%D8%B3%D8%A7%D9%86%D8%AA%D9%88%D8%B3/7495347",
+     "outlet": "youm7.com",
+     "publishedAt": "2026-07-28T09:45:00Z",
+     "language": "Arabic",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "EG",
+     "relatedCountries": [
+      "EG"
+     ],
+     "startedAt": "2026-07-28T09:45:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-049ec4f389",
+     "kind": "NEWS",
+     "title": {
+      "ja": "القائم بأعمال وزير الثقافة يستعرض ترتيبات معرض العلمين للكتاب مع اتحاد الناشرين",
+      "en": "القائم بأعمال وزير الثقافة يستعرض ترتيبات معرض العلمين للكتاب مع اتحاد الناشرين"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 88,
+     "url": "https://www.elwatannews.com/news/details/8328153",
+     "outlet": "elwatannews.com",
+     "publishedAt": "2026-07-28T09:15:00Z",
+     "language": "Arabic",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "EG",
+     "relatedCountries": [
+      "EG"
+     ],
+     "startedAt": "2026-07-28T09:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-0014b898a7",
+     "kind": "NEWS",
+     "title": {
+      "ja": "نتيجة الثانوية العامة 2026 جاهزة والإعلان بات وشيكا .. التفاصيل الكاملة",
+      "en": "نتيجة الثانوية العامة 2026 جاهزة والإعلان بات وشيكا .. التفاصيل الكاملة"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 84,
+     "url": "https://www.elwatannews.com/news/details/8328075",
+     "outlet": "elwatannews.com",
+     "publishedAt": "2026-07-28T09:15:00Z",
+     "language": "Arabic",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "EG",
+     "relatedCountries": [
+      "EG"
+     ],
+     "startedAt": "2026-07-28T09:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-b2b76793db",
+     "kind": "NEWS",
+     "title": {
+      "ja": "الفنانة رباب طارق تعلن تفاصيل جنازة والدها",
+      "en": "الفنانة رباب طارق تعلن تفاصيل جنازة والدها"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 80,
+     "url": "https://www.elwatannews.com/news/details/8328083",
+     "outlet": "elwatannews.com",
+     "publishedAt": "2026-07-28T09:15:00Z",
+     "language": "Arabic",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "EG",
+     "relatedCountries": [
+      "EG"
+     ],
+     "startedAt": "2026-07-28T09:15:00Z",
      "durationHours": null
     },
     {
@@ -5582,42 +5489,11 @@
   },
   {
    "code": "NZ",
-   "activityScore": 99,
+   "activityScore": 92,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
-    {
-     "id": "n-cbdb85ba61",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Government to consider future of cost of living payment",
-      "en": "Government to consider future of cost of living payment"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "POLITICS",
-     "score": 100,
-     "url": "https://www.odt.co.nz/news/national/government-to-consider-future-of-cost-of-living-payment-j7vk1064",
-     "outlet": "odt.co.nz",
-     "publishedAt": "2026-07-28T00:15:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "NZ",
-     "relatedCountries": [
-      "NZ"
-     ],
-     "startedAt": "2026-07-28T00:15:00Z",
-     "durationHours": null
-    },
     {
      "id": "w-58ece5bafb",
      "kind": "WIKI",
@@ -5648,130 +5524,6 @@
       "NZ"
      ],
      "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "n-80f8ad944b",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Bus crash closes Glenorchy - Queenstown Road",
-      "en": "Bus crash closes Glenorchy - Queenstown Road"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 96,
-     "url": "https://www.odt.co.nz/otago/queenstown/bus-crash-closes-glenorchy-queenstown-road-taxkbb9m",
-     "outlet": "odt.co.nz",
-     "publishedAt": "2026-07-28T00:15:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "NZ",
-     "relatedCountries": [
-      "NZ"
-     ],
-     "startedAt": "2026-07-28T00:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-2a2dd8183d",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Baby missing after mother , toddler found dead off South Australia coast",
-      "en": "Baby missing after mother , toddler found dead off South Australia coast"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WORLD",
-     "score": 92,
-     "url": "https://www.odt.co.nz/news/australia/baby-missing-after-mother-toddler-found-dead-off-south-australia-coast-po7i7zl2",
-     "outlet": "odt.co.nz",
-     "publishedAt": "2026-07-28T00:15:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "NZ",
-     "relatedCountries": [
-      "NZ"
-     ],
-     "startedAt": "2026-07-28T00:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-92ded4ed28",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Another school lunch provider has gone under - 28 - Jul - 2026",
-      "en": "Another school lunch provider has gone under - 28 - Jul - 2026"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WORLD",
-     "score": 88,
-     "url": "https://home.nzcity.co.nz/news/article.aspx?id=450766&fm=psp,tsf",
-     "outlet": "home.nzcity.co.nz",
-     "publishedAt": "2026-07-27T19:00:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "NZ",
-     "relatedCountries": [
-      "NZ"
-     ],
-     "startedAt": "2026-07-27T19:00:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-83383d05d3",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Lack of child care creates skills shortages as bush mums leave work - 28 - Jul - 2026",
-      "en": "Lack of child care creates skills shortages as bush mums leave work - 28 - Jul - 2026"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 84,
-     "url": "https://home.nzcity.co.nz/news/article.aspx?id=450782&fm=psp,tst",
-     "outlet": "home.nzcity.co.nz",
-     "publishedAt": "2026-07-27T22:45:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "NZ",
-     "relatedCountries": [
-      "NZ"
-     ],
-     "startedAt": "2026-07-27T22:45:00Z",
      "durationHours": null
     },
     {
@@ -5818,37 +5570,6 @@
       "NZ"
      ],
      "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "n-ba3320d2b5",
-     "kind": "NEWS",
-     "title": {
-      "ja": "A pair of Christchurch youths are facing court following a ram raid in Riccarton early this morning - 28 - Jul - 2026",
-      "en": "A pair of Christchurch youths are facing court following a ram raid in Riccarton early this morning - 28 - Jul - 2026"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "TECH",
-     "score": 80,
-     "url": "https://home.nzcity.co.nz/news/article.aspx?id=450780",
-     "outlet": "home.nzcity.co.nz",
-     "publishedAt": "2026-07-27T22:45:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "NZ",
-     "relatedCountries": [
-      "NZ"
-     ],
-     "startedAt": "2026-07-27T22:45:00Z",
      "durationHours": null
     },
     {
@@ -6608,11 +6329,42 @@
   },
   {
    "code": "SE",
-   "activityScore": 80,
+   "activityScore": 99,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
+    {
+     "id": "n-dd92ff6ba6",
+     "kind": "NEWS",
+     "title": {
+      "ja": "En anhållen efter misstänkt mord i Uppsala",
+      "en": "En anhållen efter misstänkt mord i Uppsala"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 100,
+     "url": "https://www.aftonbladet.se/nyheter/a/0prW5A/en-anhallen-efter-misstankt-mord-i-uppsala",
+     "outlet": "aftonbladet.se",
+     "publishedAt": "2026-07-28T09:15:00Z",
+     "language": "Swedish",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "SE",
+     "relatedCountries": [
+      "SE"
+     ],
+     "startedAt": "2026-07-28T09:15:00Z",
+     "durationHours": null
+    },
     {
      "id": "w-195b6f8e83",
      "kind": "WIKI",
@@ -6643,6 +6395,285 @@
       "SE"
      ],
      "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "n-d91b42589b",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Tsunamivarning efter kraftig jordbävning i Japan",
+      "en": "Tsunamivarning efter kraftig jordbävning i Japan"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WEATHER",
+     "score": 96,
+     "url": "https://www.aftonbladet.se/nyheter/a/ExBvea/tsunamivarning-efter-kraftig-jordbavning-i-japan",
+     "outlet": "aftonbladet.se",
+     "publishedAt": "2026-07-28T09:15:00Z",
+     "language": "Swedish",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "SE",
+     "relatedCountries": [
+      "SE"
+     ],
+     "startedAt": "2026-07-28T09:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-4b2cbfcf5f",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Man livshotande skadad efter kollision",
+      "en": "Man livshotande skadad efter kollision"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 92,
+     "url": "https://www.aftonbladet.se/nyheter/a/Gx6O99/man-livshotande-skadad-efter-kollision",
+     "outlet": "aftonbladet.se",
+     "publishedAt": "2026-07-28T09:15:00Z",
+     "language": "Swedish",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "SE",
+     "relatedCountries": [
+      "SE"
+     ],
+     "startedAt": "2026-07-28T09:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-1d4b3f1930",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Vittnet om artisten :  Var djävulskt våldsam  | Nöje",
+      "en": "Vittnet om artisten :  Var djävulskt våldsam  | Nöje"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "CULTURE",
+     "score": 88,
+     "url": "https://www.expressen.se/noje/vittnet-om-artisten-var-djavulskt-valdsam/",
+     "outlet": "expressen.se",
+     "publishedAt": "2026-07-28T09:00:00Z",
+     "language": "Swedish",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "SE",
+     "relatedCountries": [
+      "SE"
+     ],
+     "startedAt": "2026-07-28T09:00:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-b7005cd69f",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Ville stoppa Håkan Hellström i SVT : s Allsång på Skansen",
+      "en": "Ville stoppa Håkan Hellström i SVT : s Allsång på Skansen"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 84,
+     "url": "https://www.expressen.se/noje/tv-och-streaming/ville-stoppa-hakan-hellstrom-i-svts-allsang-pa-skansen/",
+     "outlet": "expressen.se",
+     "publishedAt": "2026-07-28T09:00:00Z",
+     "language": "Swedish",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "SE",
+     "relatedCountries": [
+      "SE"
+     ],
+     "startedAt": "2026-07-28T09:00:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-d33b4944ad",
+     "kind": "NEWS",
+     "title": {
+      "ja": "SIMON MOSER : Vem skar bort Tunströms kuk ?",
+      "en": "SIMON MOSER : Vem skar bort Tunströms kuk ?"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 80,
+     "url": "https://www.expressen.se/kultur/vem-skar-bort-tunstroms-kuk/",
+     "outlet": "expressen.se",
+     "publishedAt": "2026-07-28T04:30:00Z",
+     "language": "Swedish",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "SE",
+     "relatedCountries": [
+      "SE"
+     ],
+     "startedAt": "2026-07-28T04:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-46d338448d",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Debatt om klimatkrisen splittrar i Spanien – Senaste nytt om väderläget i världen",
+      "en": "Debatt om klimatkrisen splittrar i Spanien – Senaste nytt om väderläget i världen"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 76,
+     "url": "https://www.svt.se/vader/vaderlaget-i-varlden-folj-senaste-nytt?inlagg=52e4588dfb6460a3f95977d986e52431",
+     "outlet": "svt.se",
+     "publishedAt": "2026-07-28T04:00:00Z",
+     "language": "Swedish",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "SE",
+     "relatedCountries": [
+      "SE"
+     ],
+     "startedAt": "2026-07-28T04:00:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-17af2edc2c",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Ryssland : Moskva under attack – Senaste nytt om kriget i Ukraina",
+      "en": "Ryssland : Moskva under attack – Senaste nytt om kriget i Ukraina"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WEATHER",
+     "score": 72,
+     "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=4c8442e5f28d0499fdf6d23e1cceb3aa",
+     "outlet": "svt.se",
+     "publishedAt": "2026-07-28T04:00:00Z",
+     "language": "Swedish",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "SE",
+     "relatedCountries": [
+      "SE"
+     ],
+     "startedAt": "2026-07-28T04:00:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-45c01a50ab",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Stenkastning och bränder på Västbanken – Senaste nytt om kriget i Gaza",
+      "en": "Stenkastning och bränder på Västbanken – Senaste nytt om kriget i Gaza"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "BUSINESS",
+     "score": 68,
+     "url": "https://www.svt.se/nyheter/utrikes/senaste-nytt-om-kriget-i-mellanostern?inlagg=834ee9673653a806b01699bca06c445b",
+     "outlet": "svt.se",
+     "publishedAt": "2026-07-28T04:00:00Z",
+     "language": "Swedish",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "SE",
+     "relatedCountries": [
+      "SE"
+     ],
+     "startedAt": "2026-07-28T04:00:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-26ff5e2827",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Ledare : Det finns bara en vinnare på L och SD : s kärleksaffär",
+      "en": "Ledare : Det finns bara en vinnare på L och SD : s kärleksaffär"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 64,
+     "url": "https://www.dn.se/ledare/detta-ar-anledningen-bakom-liberalernas-och-sverigedemokraternas-karleksaffar/",
+     "outlet": "dn.se",
+     "publishedAt": "2026-07-28T04:30:00Z",
+     "language": "Swedish",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "SE",
+     "relatedCountries": [
+      "SE"
+     ],
+     "startedAt": "2026-07-28T04:30:00Z",
      "durationHours": null
     },
     {
@@ -7461,42 +7492,11 @@
   },
   {
    "code": "TR",
-   "activityScore": 99,
-   "risingCount": 3,
+   "activityScore": 81,
+   "risingCount": 0,
    "wikiPerCountry": false,
-   "wikiDate": "2026-07-26",
+   "wikiDate": "2026-07-27",
    "topics": [
-    {
-     "id": "n-21018c3676",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Niğdede otomobilinden indi , kargo çalışanını darbetti",
-      "en": "Niğdede otomobilinden indi , kargo çalışanını darbetti"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 100,
-     "url": "https://www.ensonhaber.com/nigdede-otomobilinden-indi-kargo-calisanini-darbetti-h1552969",
-     "outlet": "ensonhaber.com",
-     "publishedAt": "2026-07-27T14:30:00Z",
-     "language": "Turkish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "TR",
-     "relatedCountries": [
-      "TR"
-     ],
-     "startedAt": "2026-07-27T14:30:00Z",
-     "durationHours": null
-    },
     {
      "id": "w-f33ae65c31",
      "kind": "WIKI",
@@ -7511,7 +7511,7 @@
      "category": "SCIENCE",
      "score": 100,
      "url": "https://tr.wikipedia.org/wiki/Anasayfa",
-     "views": 48495,
+     "views": 44529,
      "rank": 1,
      "project": "tr.wikipedia",
      "publishedAt": null,
@@ -7522,100 +7522,6 @@
      "scope": "LOCAL",
      "change": 0,
      "status": "peak",
-     "origin": "TR",
-     "relatedCountries": [
-      "TR"
-     ],
-     "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "n-f8ab83a1c6",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Netanyahunun uçağı UCMnin tutuklama kararına rağmen Avrupa ülkelerinin hava sahalarını kullandı",
-      "en": "Netanyahunun uçağı UCMnin tutuklama kararına rağmen Avrupa ülkelerinin hava sahalarını kullandı"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WORLD",
-     "score": 96,
-     "url": "https://www.ensonhaber.com/netanyahunun-ucagi-ucmnin-tutuklama-kararina-ragmen-avrupa-ulkelerinin-hava-sahalarini-kul-h1552966",
-     "outlet": "ensonhaber.com",
-     "publishedAt": "2026-07-27T14:30:00Z",
-     "language": "Turkish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "TR",
-     "relatedCountries": [
-      "TR"
-     ],
-     "startedAt": "2026-07-27T14:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-5204e4d6db",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Fernando Muslera : Futbolun bana bu kadar acı çektireceğini hiç düşünmemiştim",
-      "en": "Fernando Muslera : Futbolun bana bu kadar acı çektireceğini hiç düşünmemiştim"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WORLD",
-     "score": 92,
-     "url": "https://www.ensonhaber.com/fernando-muslera-futbolun-bana-bu-kadar-aci-cektirecegini-hic-dusunmemistim-h1552944",
-     "outlet": "ensonhaber.com",
-     "publishedAt": "2026-07-27T13:15:00Z",
-     "language": "Turkish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "TR",
-     "relatedCountries": [
-      "TR"
-     ],
-     "startedAt": "2026-07-27T13:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "w-89c216c7ce",
-     "kind": "WIKI",
-     "title": {
-      "ja": "FIVB Kadınlar Voleybol Milletler Ligi",
-      "en": "FIVB Kadınlar Voleybol Milletler Ligi"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 68,
-     "url": "https://tr.wikipedia.org/wiki/FIVB_Kad%C4%B1nlar_Voleybol_Milletler_Ligi",
-     "views": 32940,
-     "rank": 2,
-     "project": "tr.wikipedia",
-     "publishedAt": null,
-     "keywords": [],
-     "sources": [
-      "WIKIPEDIA"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
      "origin": "TR",
      "relatedCountries": [
       "TR"
@@ -7635,10 +7541,10 @@
       "en": ""
      },
      "category": "BUSINESS",
-     "score": 64,
+     "score": 56,
      "url": "https://tr.wikipedia.org/wiki/Yeni_Parti_(2026)",
-     "views": 31119,
-     "rank": 3,
+     "views": 25026,
+     "rank": 2,
      "project": "tr.wikipedia",
      "publishedAt": null,
      "keywords": [],
@@ -7646,7 +7552,7 @@
       "WIKIPEDIA"
      ],
      "scope": "LOCAL",
-     "change": 14.3,
+     "change": -12.5,
      "status": "stable",
      "origin": "TR",
      "relatedCountries": [
@@ -7656,53 +7562,21 @@
      "durationHours": null
     },
     {
-     "id": "w-9303a9c305",
+     "id": "w-50df3c257d",
      "kind": "WIKI",
      "title": {
-      "ja": "Türkiye kadın millî voleybol takımı",
-      "en": "Türkiye kadın millî voleybol takımı"
+      "ja": "Özel:Ara",
+      "en": "Özel:Ara"
      },
      "summary": {
       "ja": "",
       "en": ""
      },
      "category": "OTHER",
-     "score": 59,
-     "url": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_kad%C4%B1n_mill%C3%AE_voleybol_tak%C4%B1m%C4%B1",
-     "views": 28662,
-     "rank": 4,
-     "project": "tr.wikipedia",
-     "publishedAt": null,
-     "keywords": [],
-     "sources": [
-      "WIKIPEDIA"
-     ],
-     "scope": "LOCAL",
-     "change": 96.7,
-     "status": "rising",
-     "origin": "TR",
-     "relatedCountries": [
-      "TR"
-     ],
-     "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "w-8d472616a3",
-     "kind": "WIKI",
-     "title": {
-      "ja": "Sinead Jack-Kısal",
-      "en": "Sinead Jack-Kısal"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 55,
-     "url": "https://tr.wikipedia.org/wiki/Sinead_Jack-K%C4%B1sal",
-     "views": 26818,
-     "rank": 5,
+     "score": 43,
+     "url": "https://tr.wikipedia.org/wiki/%C3%96zel%3AAra",
+     "views": 19067,
+     "rank": 3,
      "project": "tr.wikipedia",
      "publishedAt": null,
      "keywords": [],
@@ -7720,21 +7594,21 @@
      "durationHours": null
     },
     {
-     "id": "w-8dba82780c",
+     "id": "w-5a8335ebce",
      "kind": "WIKI",
      "title": {
-      "ja": "FIVB Dünya Sıralaması",
-      "en": "FIVB Dünya Sıralaması"
+      "ja": "Seks ve Genç Kız (film)",
+      "en": "Seks ve Genç Kız (film)"
      },
      "summary": {
       "ja": "",
       "en": ""
      },
-     "category": "OTHER",
-     "score": 50,
-     "url": "https://tr.wikipedia.org/wiki/FIVB_D%C3%BCnya_S%C4%B1ralamas%C4%B1",
-     "views": 24318,
-     "rank": 6,
+     "category": "ENTERTAINMENT",
+     "score": 30,
+     "url": "https://tr.wikipedia.org/wiki/Seks_ve_Gen%C3%A7_K%C4%B1z_(film)",
+     "views": 12814,
+     "rank": 4,
      "project": "tr.wikipedia",
      "publishedAt": null,
      "keywords": [],
@@ -7742,8 +7616,8 @@
       "WIKIPEDIA"
      ],
      "scope": "LOCAL",
-     "change": 66.7,
-     "status": "rising",
+     "change": 0,
+     "status": "emerging",
      "origin": "TR",
      "relatedCountries": [
       "TR"
@@ -7763,10 +7637,10 @@
       "en": ""
      },
      "category": "OTHER",
-     "score": 49,
+     "score": 30,
      "url": "https://tr.wikipedia.org/wiki/Melissa_Vargas",
-     "views": 23772,
-     "rank": 7,
+     "views": 9435,
+     "rank": 5,
      "project": "tr.wikipedia",
      "publishedAt": null,
      "keywords": [],
@@ -7774,8 +7648,8 @@
       "WIKIPEDIA"
      ],
      "scope": "LOCAL",
-     "change": 63.3,
-     "status": "rising",
+     "change": -38.8,
+     "status": "declining",
      "origin": "TR",
      "relatedCountries": [
       "TR"
@@ -7784,20 +7658,84 @@
      "durationHours": null
     },
     {
-     "id": "w-5e8516ad02",
+     "id": "w-9303a9c305",
      "kind": "WIKI",
      "title": {
-      "ja": "2026 FIVB Kadınlar Voleybol Milletler Ligi",
-      "en": "2026 FIVB Kadınlar Voleybol Milletler Ligi"
+      "ja": "Türkiye kadın millî voleybol takımı",
+      "en": "Türkiye kadın millî voleybol takımı"
      },
      "summary": {
       "ja": "",
       "en": ""
      },
      "category": "OTHER",
-     "score": 37,
-     "url": "https://tr.wikipedia.org/wiki/2026_FIVB_Kad%C4%B1nlar_Voleybol_Milletler_Ligi",
-     "views": 18054,
+     "score": 30,
+     "url": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_kad%C4%B1n_mill%C3%AE_voleybol_tak%C4%B1m%C4%B1",
+     "views": 8264,
+     "rank": 6,
+     "project": "tr.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": -49.2,
+     "status": "declining",
+     "origin": "TR",
+     "relatedCountries": [
+      "TR"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-8dba82780c",
+     "kind": "WIKI",
+     "title": {
+      "ja": "FIVB Dünya Sıralaması",
+      "en": "FIVB Dünya Sıralaması"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://tr.wikipedia.org/wiki/FIVB_D%C3%BCnya_S%C4%B1ralamas%C4%B1",
+     "views": 7646,
+     "rank": 7,
+     "project": "tr.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": -40,
+     "status": "declining",
+     "origin": "TR",
+     "relatedCountries": [
+      "TR"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-132e198539",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Odyssey (film)",
+      "en": "Odyssey (film)"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "ENTERTAINMENT",
+     "score": 30,
+     "url": "https://tr.wikipedia.org/wiki/Odyssey_(film)",
+     "views": 7394,
      "rank": 8,
      "project": "tr.wikipedia",
      "publishedAt": null,
@@ -8091,42 +8029,11 @@
   },
   {
    "code": "US",
-   "activityScore": 99,
+   "activityScore": 83,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
-    {
-     "id": "n-d258311f6c",
-     "kind": "NEWS",
-     "title": {
-      "ja": "An energy company growing production and rewarding shareholders at the same time",
-      "en": "An energy company growing production and rewarding shareholders at the same time"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WORLD",
-     "score": 100,
-     "url": "https://finance.yahoo.com/energy/articles/energy-company-growing-production-rewarding-112145062.html",
-     "outlet": "finance.yahoo.com",
-     "publishedAt": "2026-07-27T12:15:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "US",
-     "relatedCountries": [
-      "US"
-     ],
-     "startedAt": "2026-07-27T12:15:00Z",
-     "durationHours": null
-    },
     {
      "id": "w-909799ec4d",
      "kind": "WIKI",
@@ -8171,161 +8078,6 @@
       "NZ"
      ],
      "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "n-80c9ea3f32",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Shein Q1 2026 loss : U . S . tariff impact before Hong Kong IPO",
-      "en": "Shein Q1 2026 loss : U . S . tariff impact before Hong Kong IPO"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "BUSINESS",
-     "score": 96,
-     "url": "https://finance.yahoo.com/economy/policy/articles/shein-q1-2026-loss-u-112609237.html",
-     "outlet": "finance.yahoo.com",
-     "publishedAt": "2026-07-27T12:15:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "US",
-     "relatedCountries": [
-      "US"
-     ],
-     "startedAt": "2026-07-27T12:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-6c78fd2746",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Nvidia Rumored $600 Billion OpenAI Deal Could Reignite Its Biggest AI Controversy",
-      "en": "Nvidia Rumored $600 Billion OpenAI Deal Could Reignite Its Biggest AI Controversy"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "TECH",
-     "score": 92,
-     "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-rumored-600-billion-openai-112031123.html",
-     "outlet": "finance.yahoo.com",
-     "publishedAt": "2026-07-27T12:15:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "US",
-     "relatedCountries": [
-      "US"
-     ],
-     "startedAt": "2026-07-27T12:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-36e416fea4",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Farmers battling  worst drought in 50 years",
-      "en": "Farmers battling  worst drought in 50 years"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WEATHER",
-     "score": 88,
-     "url": "https://www.yahoo.com/news/weather-news/articles/farmers-battling-worst-drought-50-114229392.html",
-     "outlet": "yahoo.com",
-     "publishedAt": "2026-07-27T12:15:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "US",
-     "relatedCountries": [
-      "US"
-     ],
-     "startedAt": "2026-07-27T12:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-23dcd31ffd",
-     "kind": "NEWS",
-     "title": {
-      "ja": "After Platner implosion , Maine Democrats rush toward new Senate nominee despite fresh warning signs",
-      "en": "After Platner implosion , Maine Democrats rush toward new Senate nominee despite fresh warning signs"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "TECH",
-     "score": 84,
-     "url": "https://www.yahoo.com/news/politics/articles/platner-implosion-maine-democrats-rush-090051249.html",
-     "outlet": "yahoo.com",
-     "publishedAt": "2026-07-27T12:15:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "US",
-     "relatedCountries": [
-      "US"
-     ],
-     "startedAt": "2026-07-27T12:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-1dbe92d77d",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Trump is set to defend his economic policies in Michigan , where new Canadian tariffs may sting",
-      "en": "Trump is set to defend his economic policies in Michigan , where new Canadian tariffs may sting"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "BUSINESS",
-     "score": 80,
-     "url": "https://www.yahoo.com/news/politics/articles/trump-set-defend-economic-policies-104718656.html",
-     "outlet": "yahoo.com",
-     "publishedAt": "2026-07-27T12:15:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "US",
-     "relatedCountries": [
-      "US"
-     ],
-     "startedAt": "2026-07-27T12:15:00Z",
      "durationHours": null
     },
     {
@@ -8559,42 +8311,11 @@
   },
   {
    "code": "VN",
-   "activityScore": 99,
+   "activityScore": 80,
    "risingCount": 0,
    "wikiPerCountry": false,
    "wikiDate": "2026-07-27",
    "topics": [
-    {
-     "id": "n-9612e71154",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Đại tướng Phan Văn Giang : Đưa sĩ quan quân đội chính quy về cấp xã",
-      "en": "Đại tướng Phan Văn Giang : Đưa sĩ quan quân đội chính quy về cấp xã"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 100,
-     "url": "https://vnexpress.net/dai-tuong-phan-van-giang-dua-si-quan-quan-doi-chinh-quy-ve-cap-xa-5102229.html",
-     "outlet": "vnexpress.net",
-     "publishedAt": "2026-07-27T14:30:00Z",
-     "language": "Vietnamese",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "VN",
-     "relatedCountries": [
-      "VN"
-     ],
-     "startedAt": "2026-07-27T14:30:00Z",
-     "durationHours": null
-    },
     {
      "id": "w-99fd6ca036",
      "kind": "WIKI",
@@ -8625,68 +8346,6 @@
       "VN"
      ],
      "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "n-446f351a68",
-     "kind": "NEWS",
-     "title": {
-      "ja": "10 . 000 liều vaccine cúm miễn phí cho thương bệnh binh - Báo VnExpress",
-      "en": "10 . 000 liều vaccine cúm miễn phí cho thương bệnh binh - Báo VnExpress"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "SCIENCE",
-     "score": 96,
-     "url": "https://vnexpress.net/10-000-lieu-vaccine-cum-mien-phi-cho-thuong-benh-binh-5102206.html",
-     "outlet": "vnexpress.net",
-     "publishedAt": "2026-07-27T14:30:00Z",
-     "language": "Vietnamese",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "VN",
-     "relatedCountries": [
-      "VN"
-     ],
-     "startedAt": "2026-07-27T14:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-9c01057c8f",
-     "kind": "NEWS",
-     "title": {
-      "ja": "[ Trực tiếp ] Indonesia - Campuchia",
-      "en": "[ Trực tiếp ] Indonesia - Campuchia"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 92,
-     "url": "https://vnexpress.net/indonesia-v-campuchia-5102177.html",
-     "outlet": "vnexpress.net",
-     "publishedAt": "2026-07-27T14:00:00Z",
-     "language": "Vietnamese",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "VN",
-     "relatedCountries": [
-      "VN"
-     ],
-     "startedAt": "2026-07-27T14:00:00Z",
      "durationHours": null
     },
     {
