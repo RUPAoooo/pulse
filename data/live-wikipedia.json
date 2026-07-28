@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-28T05:01:54.379Z",
+ "fetchedAt": "2026-07-28T05:51:19.099Z",
  "source": "Wikimedia Pageviews API",
  "countries": [
   {
@@ -942,71 +942,71 @@
    "code": "IT",
    "perCountry": true,
    "project": "it.wikipedia",
-   "date": "2026-07-26",
+   "date": "2026-07-27",
    "articles": [
     {
      "rank": 1,
      "title": "Pagina principale",
-     "views": 129300,
+     "views": 138000,
      "url": "https://it.wikipedia.org/wiki/Pagina_principale",
      "project": "it.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 2,
-     "title": "Odissea (film)",
-     "views": 75800,
-     "url": "https://it.wikipedia.org/wiki/Odissea_(film)",
-     "project": "it.wikipedia",
-     "category": "ENTERTAINMENT"
-    },
-    {
-     "rank": 3,
-     "title": "Odissea",
-     "views": 35000,
-     "url": "https://it.wikipedia.org/wiki/Odissea",
-     "project": "it.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 4,
-     "title": "Compagni di scuola (film)",
-     "views": 32100,
-     "url": "https://it.wikipedia.org/wiki/Compagni_di_scuola_(film)",
-     "project": "it.wikipedia",
-     "category": "ENTERTAINMENT"
-    },
-    {
-     "rank": 5,
      "title": "Cookie (informatique)",
-     "views": 28000,
+     "views": 59700,
      "url": "https://fr.wikipedia.org/wiki/Cookie_(informatique)",
      "project": "fr.wikipedia",
      "category": "OTHER"
     },
     {
-     "rank": 6,
-     "title": "Christopher Nolan",
-     "views": 20300,
-     "url": "https://it.wikipedia.org/wiki/Christopher_Nolan",
+     "rank": 3,
+     "title": "Odissea (film)",
+     "views": 52600,
+     "url": "https://it.wikipedia.org/wiki/Odissea_(film)",
+     "project": "it.wikipedia",
+     "category": "ENTERTAINMENT"
+    },
+    {
+     "rank": 4,
+     "title": "John Stones",
+     "views": 45600,
+     "url": "https://it.wikipedia.org/wiki/John_Stones",
      "project": "it.wikipedia",
      "category": "OTHER"
     },
     {
-     "rank": 7,
+     "rank": 5,
+     "title": "Odissea",
+     "views": 23600,
+     "url": "https://it.wikipedia.org/wiki/Odissea",
+     "project": "it.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 6,
      "title": "Andrea Pirlo",
-     "views": 17500,
+     "views": 22500,
      "url": "https://it.wikipedia.org/wiki/Andrea_Pirlo",
      "project": "it.wikipedia",
      "category": "OTHER"
     },
     {
-     "rank": 8,
-     "title": "Tadej Pogačar",
-     "views": 16300,
-     "url": "https://it.wikipedia.org/wiki/Tadej_Poga%C4%8Dar",
-     "project": "it.wikipedia",
+     "rank": 7,
+     "title": "Diamante Crispino",
+     "views": 21100,
+     "url": "https://en.wikipedia.org/wiki/Diamante_Crispino",
+     "project": "en.wikipedia",
      "category": "OTHER"
+    },
+    {
+     "rank": 8,
+     "title": "Una donna promettente",
+     "views": 17400,
+     "url": "https://it.wikipedia.org/wiki/Una_donna_promettente",
+     "project": "it.wikipedia",
+     "category": "WORLD"
     }
    ]
   },
@@ -2116,71 +2116,71 @@
   },
   {
    "code": "NZ",
-   "perCountry": true,
+   "perCountry": false,
    "project": "en.wikipedia",
    "date": "2026-07-27",
    "articles": [
     {
      "rank": 1,
-     "title": "Jim Hopkins",
-     "views": 3800,
-     "url": "https://en.wikipedia.org/wiki/Jim_Hopkins",
-     "project": "en.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 2,
      "title": "The Odyssey (2026 film)",
-     "views": 3200,
+     "views": 581815,
      "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
      "project": "en.wikipedia",
      "category": "ENTERTAINMENT"
     },
     {
-     "rank": 3,
-     "title": "Semisi Tupou Ta'eiloa",
-     "views": 3000,
-     "url": "https://en.wikipedia.org/wiki/Semisi_Tupou_Ta'eiloa",
-     "project": "en.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 4,
-     "title": "MasterChef Australia series 18",
-     "views": 2400,
-     "url": "https://en.wikipedia.org/wiki/MasterChef_Australia_series_18",
-     "project": "en.wikipedia",
-     "category": "ENTERTAINMENT"
-    },
-    {
-     "rank": 5,
+     "rank": 2,
      "title": "Bill Oddie",
-     "views": 2400,
+     "views": 341705,
      "url": "https://en.wikipedia.org/wiki/Bill_Oddie",
      "project": "en.wikipedia",
      "category": "POLITICS"
     },
     {
-     "rank": 6,
-     "title": "Cracroft Caverns",
-     "views": 2200,
-     "url": "https://en.wikipedia.org/wiki/Cracroft_Caverns",
+     "rank": 3,
+     "title": "Odyssey",
+     "views": 196939,
+     "url": "https://en.wikipedia.org/wiki/Odyssey",
      "project": "en.wikipedia",
      "category": "OTHER"
     },
     {
-     "rank": 7,
+     "rank": 4,
+     "title": ".xyz",
+     "views": 177973,
+     "url": "https://en.wikipedia.org/wiki/.xyz",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 5,
      "title": "2026 Commonwealth Games",
-     "views": 2000,
+     "views": 158021,
      "url": "https://en.wikipedia.org/wiki/2026_Commonwealth_Games",
      "project": "en.wikipedia",
      "category": "ENTERTAINMENT"
     },
     {
+     "rank": 6,
+     "title": "Deaths in 2026",
+     "views": 142478,
+     "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 7,
+     "title": "Graeme Garden",
+     "views": 129343,
+     "url": "https://en.wikipedia.org/wiki/Graeme_Garden",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
      "rank": 8,
-     "title": "Siale Lauaki",
-     "views": 1800,
-     "url": "https://en.wikipedia.org/wiki/Siale_Lauaki",
+     "title": "AEW Redemption",
+     "views": 128764,
+     "url": "https://en.wikipedia.org/wiki/AEW_Redemption",
      "project": "en.wikipedia",
      "category": "OTHER"
     }

@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-07-28T05:05:50.041Z",
+ "updatedAt": "2026-07-28T05:56:41.600Z",
  "source": "live",
- "fingerprint": "3a4e1a149e385b9208c26279b128f737a154a0c9",
+ "fingerprint": "1b2a17b038c69a71ffa7cff8b2a4c6782d1b0617",
  "wikiPerCountry": false,
  "newsSource": "GDELT DOC 2.0 API",
  "wikiSource": "Wikimedia Pageviews API",
@@ -281,42 +281,11 @@
   },
   {
    "code": "AU",
-   "activityScore": 99,
+   "activityScore": 91,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
-    {
-     "id": "n-8b4cd4ff3a",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Works begin at site of Hobart Macquarie Point stadium as proponent dismisses concerns over potential builder",
-      "en": "Works begin at site of Hobart Macquarie Point stadium as proponent dismisses concerns over potential builder"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "CULTURE",
-     "score": 100,
-     "url": "https://www.abc.net.au/news/2026-07-27/works-begins-hobart-mac-point-afl-stadium/106961410",
-     "outlet": "abc.net.au",
-     "publishedAt": "2026-07-27T05:15:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AU",
-     "relatedCountries": [
-      "AU"
-     ],
-     "startedAt": "2026-07-27T05:15:00Z",
-     "durationHours": null
-    },
     {
      "id": "w-6d8fa4ae76",
      "kind": "WIKI",
@@ -349,99 +318,6 @@
       "NZ"
      ],
      "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "n-5db5a64ee1",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Runaway train in NSW Hunter Valley  worst - case scenario  for rail safety",
-      "en": "Runaway train in NSW Hunter Valley  worst - case scenario  for rail safety"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WEATHER",
-     "score": 96,
-     "url": "https://www.abc.net.au/news/2026-07-27/runaway-train-in-nsw-hunter-valley-was-worst-case-scenario/106961418",
-     "outlet": "abc.net.au",
-     "publishedAt": "2026-07-27T05:15:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AU",
-     "relatedCountries": [
-      "AU"
-     ],
-     "startedAt": "2026-07-27T05:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-300c5c35f3",
-     "kind": "NEWS",
-     "title": {
-      "ja": "India  Cockroach  protests end after minister resigns",
-      "en": "India  Cockroach  protests end after minister resigns"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "POLITICS",
-     "score": 92,
-     "url": "https://www.abc.net.au/listen/programs/worldtoday/-india-s-cockroach-protests-end-after-minister-resigns/106962646",
-     "outlet": "abc.net.au",
-     "publishedAt": "2026-07-27T07:30:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AU",
-     "relatedCountries": [
-      "AU"
-     ],
-     "startedAt": "2026-07-27T07:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-6116ceb224",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Skywards Rail | Our Partners | Emirates Skywards Loyalty Programme",
-      "en": "Skywards Rail | Our Partners | Emirates Skywards Loyalty Programme"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "TECH",
-     "score": 88,
-     "url": "https://www.emirates.com/english/skywards/partners/skywards-rail/",
-     "outlet": "emirates.com",
-     "publishedAt": "2026-07-27T06:45:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AU",
-     "relatedCountries": [
-      "AU"
-     ],
-     "startedAt": "2026-07-27T06:45:00Z",
      "durationHours": null
     },
     {
@@ -491,130 +367,6 @@
      "durationHours": null
     },
     {
-     "id": "n-fa50da8e30",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Homes and fortune Peter Brock left behind - realestate . com . au",
-      "en": "Homes and fortune Peter Brock left behind - realestate . com . au"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WORLD",
-     "score": 84,
-     "url": "https://www.realestate.com.au/news/homes-and-fortune-peter-brock-left-behind/",
-     "outlet": "realestate.com.au",
-     "publishedAt": "2026-07-28T01:00:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AU",
-     "relatedCountries": [
-      "AU"
-     ],
-     "startedAt": "2026-07-28T01:00:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-92fd036436",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Property - mogul parents sue daughter to block secret $4 . 2m apartment sale",
-      "en": "Property - mogul parents sue daughter to block secret $4 . 2m apartment sale"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "CULTURE",
-     "score": 80,
-     "url": "https://www.realestate.com.au/news/propertymogul-parents-sue-daughter-to-block-secret-42m-apartment-sale/",
-     "outlet": "realestate.com.au",
-     "publishedAt": "2026-07-28T01:00:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AU",
-     "relatedCountries": [
-      "AU"
-     ],
-     "startedAt": "2026-07-28T01:00:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-7d60d81ccb",
-     "kind": "NEWS",
-     "title": {
-      "ja": "God help u : auctioneer reports  worst  day of his 30 - year career",
-      "en": "God help u : auctioneer reports  worst  day of his 30 - year career"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 76,
-     "url": "https://www.realestate.com.au/news/god-help-us-auctioneer-reports-worst-day-of-his-30year-career/",
-     "outlet": "realestate.com.au",
-     "publishedAt": "2026-07-27T20:30:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AU",
-     "relatedCountries": [
-      "AU"
-     ],
-     "startedAt": "2026-07-27T20:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-f8d4eb9d8e",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Protester claims Yarra Mayor Stephen Jolly punched her in the face as he celebrated council re - election at Ziggy Disco Lounge , Smith Street , Fitzroy",
-      "en": "Protester claims Yarra Mayor Stephen Jolly punched her in the face as he celebrated council re - election at Ziggy Disco Lounge , Smith Street , Fitzroy"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "TECH",
-     "score": 72,
-     "url": "https://www.smh.com.au/national/victoria/protester-claims-yarra-mayor-punched-her-in-the-face-as-he-celebrated-council-re-election-20260727-p60ix5.html",
-     "outlet": "smh.com.au",
-     "publishedAt": "2026-07-27T07:00:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AU",
-     "relatedCountries": [
-      "AU"
-     ],
-     "startedAt": "2026-07-27T07:00:00Z",
-     "durationHours": null
-    },
-    {
      "id": "w-8cca0ef8af",
      "kind": "WIKI",
      "title": {
@@ -644,68 +396,6 @@
       "AU"
      ],
      "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "n-a6303b3ba9",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Thirty years in my suburb , and Im no longer seen as a giant panda ; Im a local",
-      "en": "Thirty years in my suburb , and Im no longer seen as a giant panda ; Im a local"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 68,
-     "url": "https://www.smh.com.au/national/nsw/thirty-years-in-my-suburb-and-i-m-no-longer-seen-as-a-giant-panda-i-m-a-local-20260709-p60e3z.html",
-     "outlet": "smh.com.au",
-     "publishedAt": "2026-07-27T07:00:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AU",
-     "relatedCountries": [
-      "AU"
-     ],
-     "startedAt": "2026-07-27T07:00:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-565b6ace57",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Moonlight seeking revival of high - grade Qld gold targets",
-      "en": "Moonlight seeking revival of high - grade Qld gold targets"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 64,
-     "url": "https://www.smh.com.au/business/companies/moonlight-seeking-revival-of-high-grade-qld-gold-targets-20260727-p60ize.html",
-     "outlet": "smh.com.au",
-     "publishedAt": "2026-07-27T07:15:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AU",
-     "relatedCountries": [
-      "AU"
-     ],
-     "startedAt": "2026-07-27T07:15:00Z",
      "durationHours": null
     },
     {
@@ -797,7 +487,7 @@
      "scope": "GLOBAL",
      "change": 0,
      "status": "stable",
-     "origin": "NZ",
+     "origin": "AU",
      "relatedCountries": [
       "IN",
       "AU",
@@ -834,7 +524,8 @@
      "origin": "AU",
      "relatedCountries": [
       "GB",
-      "AU"
+      "AU",
+      "NZ"
      ],
      "startedAt": null,
      "durationHours": null
@@ -1045,7 +736,8 @@
       "ZA",
       "TH",
       "PH",
-      "SG"
+      "SG",
+      "NZ"
      ],
      "startedAt": null,
      "durationHours": null
@@ -1234,7 +926,8 @@
      "relatedCountries": [
       "US",
       "CA",
-      "PH"
+      "PH",
+      "NZ"
      ],
      "startedAt": null,
      "durationHours": null
@@ -1267,7 +960,8 @@
      "origin": "US",
      "relatedCountries": [
       "US",
-      "CA"
+      "CA",
+      "NZ"
      ],
      "startedAt": null,
      "durationHours": null
@@ -1294,12 +988,13 @@
      "sources": [
       "WIKIPEDIA"
      ],
-     "scope": "LOCAL",
+     "scope": "GLOBAL",
      "change": 0,
      "status": "stable",
      "origin": "CA",
      "relatedCountries": [
-      "CA"
+      "CA",
+      "NZ"
      ],
      "startedAt": null,
      "durationHours": null
@@ -1358,13 +1053,12 @@
      "sources": [
       "WIKIPEDIA"
      ],
-     "scope": "GLOBAL",
+     "scope": "LOCAL",
      "change": 0,
      "status": "stable",
      "origin": "CA",
      "relatedCountries": [
-      "CA",
-      "IT"
+      "CA"
      ],
      "startedAt": null,
      "durationHours": null
@@ -2513,8 +2207,7 @@
      "origin": "FR",
      "relatedCountries": [
       "FR",
-      "ES",
-      "IT"
+      "ES"
      ],
      "startedAt": null,
      "durationHours": null
@@ -2655,8 +2348,7 @@
      "origin": "FR",
      "relatedCountries": [
       "FR",
-      "ES",
-      "IT"
+      "ES"
      ],
      "startedAt": null,
      "durationHours": null
@@ -2860,7 +2552,8 @@
      "origin": "AU",
      "relatedCountries": [
       "GB",
-      "AU"
+      "AU",
+      "NZ"
      ],
      "startedAt": null,
      "durationHours": null
@@ -3629,11 +3322,42 @@
   },
   {
    "code": "IN",
-   "activityScore": 76,
+   "activityScore": 99,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-26",
    "topics": [
+    {
+     "id": "n-adbe36abb3",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Spider - Man Brand New Day : Zendaya and Tom Holland share sweet PDA moment during  Spider - Man : Brand New Day  interview | English Movie News",
+      "en": "Spider - Man Brand New Day : Zendaya and Tom Holland share sweet PDA moment during  Spider - Man : Brand New Day  interview | English Movie News"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "ENTERTAINMENT",
+     "score": 100,
+     "url": "https://timesofindia.indiatimes.com/entertainment/english/hollywood/news/zendaya-and-tom-holland-share-sweet-pda-moment-during-spider-man-brand-new-day-interview/articleshow/132654201.cms",
+     "outlet": "timesofindia.indiatimes.com",
+     "publishedAt": "2026-07-27T07:15:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "IN",
+     "relatedCountries": [
+      "IN"
+     ],
+     "startedAt": "2026-07-27T07:15:00Z",
+     "durationHours": null
+    },
     {
      "id": "w-d079ec2d49",
      "kind": "WIKI",
@@ -3664,6 +3388,192 @@
       "IN"
      ],
      "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "n-a0554c5b5b",
+     "kind": "NEWS",
+     "title": {
+      "ja": "A test of  Gen Z  conscience - The Times of India",
+      "en": "A test of  Gen Z  conscience - The Times of India"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 96,
+     "url": "https://timesofindia.indiatimes.com/toi-blogs/nation-notes/a-test-of-gen-zs-conscience/articleshow/132654062.cms",
+     "outlet": "timesofindia.indiatimes.com",
+     "publishedAt": "2026-07-27T07:15:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "IN",
+     "relatedCountries": [
+      "IN"
+     ],
+     "startedAt": "2026-07-27T07:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-21d50b8564",
+     "kind": "NEWS",
+     "title": {
+      "ja": "US energy cushion faces new stress test as Middle East risks rise again",
+      "en": "US energy cushion faces new stress test as Middle East risks rise again"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "TECH",
+     "score": 92,
+     "url": "https://economictimes.indiatimes.com/news/international/world-news/us-energy-cushion-faces-new-stress-test-as-middle-east-risks-rise-again/articleshow/132654252.cms",
+     "outlet": "economictimes.indiatimes.com",
+     "publishedAt": "2026-07-27T07:15:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "IN",
+     "relatedCountries": [
+      "IN"
+     ],
+     "startedAt": "2026-07-27T07:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-a13eadaa57",
+     "kind": "NEWS",
+     "title": {
+      "ja": "No huge budget : Actor Madhavan salutes Tamil Nadu IAS officer for turning 1200 abandoned borewells into rainwater harvesting units ; water level rises to 5 to 10 feet",
+      "en": "No huge budget : Actor Madhavan salutes Tamil Nadu IAS officer for turning 1200 abandoned borewells into rainwater harvesting units ; water level rises to 5 to 10 feet"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WEATHER",
+     "score": 88,
+     "url": "https://economictimes.indiatimes.com/magazines/panache/no-huge-budget-actor-madhavan-salutes-tamil-nadu-ias-officer-for-turning-1200-abandoned-borewells-into-rainwater-harvesting-units-water-level-rises-to-5-to-10-feet/articleshow/132654503.cms",
+     "outlet": "economictimes.indiatimes.com",
+     "publishedAt": "2026-07-27T07:15:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "IN",
+     "relatedCountries": [
+      "IN"
+     ],
+     "startedAt": "2026-07-27T07:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-e8cdc74d39",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Watering your plants at this time of day could do more harm than good",
+      "en": "Watering your plants at this time of day could do more harm than good"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 84,
+     "url": "https://timesofindia.indiatimes.com/life-style/home-garden/watering-your-plants-at-this-time-of-day-could-do-more-harm-than-good/photostory/132652734.cms",
+     "outlet": "timesofindia.indiatimes.com",
+     "publishedAt": "2026-07-27T07:15:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "IN",
+     "relatedCountries": [
+      "IN"
+     ],
+     "startedAt": "2026-07-27T07:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-6ff443eb5c",
+     "kind": "NEWS",
+     "title": {
+      "ja": "SC says Nilekani - led task force recommendations will be key to online NEET decision",
+      "en": "SC says Nilekani - led task force recommendations will be key to online NEET decision"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 80,
+     "url": "https://economictimes.indiatimes.com/industry/services/education/sc-says-nilekani-led-task-force-recommendations-will-be-key-to-online-neet-decision/articleshow/132654207.cms",
+     "outlet": "economictimes.indiatimes.com",
+     "publishedAt": "2026-07-27T07:00:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "IN",
+     "relatedCountries": [
+      "IN"
+     ],
+     "startedAt": "2026-07-27T07:00:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-49b4fdfdc5",
+     "kind": "NEWS",
+     "title": {
+      "ja": "US Airline Retrofitting : US Airlines to Receive $2 . 2 Billion for Altimeter Retrofits Amid 5G Interference Risks , ETTelecom",
+      "en": "US Airline Retrofitting : US Airlines to Receive $2 . 2 Billion for Altimeter Retrofits Amid 5G Interference Risks , ETTelecom"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "TECH",
+     "score": 76,
+     "url": "https://telecom.economictimes.indiatimes.com/news/portal-in-portal/satcom/us-airlines-to-receive-22-billion-for-altimeter-retrofits-amid-5g-interference-risks/132651320",
+     "outlet": "telecom.economictimes.indiatimes.com",
+     "publishedAt": "2026-07-27T07:00:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "IN",
+     "relatedCountries": [
+      "IN"
+     ],
+     "startedAt": "2026-07-27T07:00:00Z",
      "durationHours": null
     },
     {
@@ -3802,7 +3712,7 @@
      "scope": "GLOBAL",
      "change": 0,
      "status": "stable",
-     "origin": "NZ",
+     "origin": "AU",
      "relatedCountries": [
       "IN",
       "AU",
@@ -3911,10 +3821,10 @@
   },
   {
    "code": "IT",
-   "activityScore": 80,
+   "activityScore": 79,
    "risingCount": 1,
    "wikiPerCountry": true,
-   "wikiDate": "2026-07-26",
+   "wikiDate": "2026-07-27",
    "topics": [
     {
      "id": "w-b6311849e4",
@@ -3930,7 +3840,7 @@
      "category": "OTHER",
      "score": 100,
      "url": "https://it.wikipedia.org/wiki/Pagina_principale",
-     "views": 129300,
+     "views": 138000,
      "rank": 1,
      "project": "it.wikipedia",
      "publishedAt": null,
@@ -3950,6 +3860,38 @@
      "durationHours": null
     },
     {
+     "id": "w-e385078a38",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Cookie (informatique)",
+      "en": "Cookie (informatique)"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 43,
+     "url": "https://fr.wikipedia.org/wiki/Cookie_(informatique)",
+     "views": 59700,
+     "rank": 2,
+     "project": "fr.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 43.3,
+     "status": "rising",
+     "origin": "IT",
+     "relatedCountries": [
+      "IT"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
      "id": "w-32d17d38d0",
      "kind": "WIKI",
      "title": {
@@ -3961,10 +3903,10 @@
       "en": ""
      },
      "category": "ENTERTAINMENT",
-     "score": 59,
+     "score": 38,
      "url": "https://it.wikipedia.org/wiki/Odissea_(film)",
-     "views": 75800,
-     "rank": 2,
+     "views": 52600,
+     "rank": 3,
      "project": "it.wikipedia",
      "publishedAt": null,
      "keywords": [],
@@ -3972,8 +3914,40 @@
       "WIKIPEDIA"
      ],
      "scope": "LOCAL",
-     "change": 55.3,
-     "status": "rising",
+     "change": -35.6,
+     "status": "declining",
+     "origin": "IT",
+     "relatedCountries": [
+      "IT"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-319670e008",
+     "kind": "WIKI",
+     "title": {
+      "ja": "John Stones",
+      "en": "John Stones"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 33,
+     "url": "https://it.wikipedia.org/wiki/John_Stones",
+     "views": 45600,
+     "rank": 4,
+     "project": "it.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
      "origin": "IT",
      "relatedCountries": [
       "IT"
@@ -3995,8 +3969,8 @@
      "category": "OTHER",
      "score": 30,
      "url": "https://it.wikipedia.org/wiki/Odissea",
-     "views": 35000,
-     "rank": 3,
+     "views": 23600,
+     "rank": 5,
      "project": "it.wikipedia",
      "publishedAt": null,
      "keywords": [],
@@ -4008,103 +3982,6 @@
      "status": "stable",
      "origin": "IT",
      "relatedCountries": [
-      "IT"
-     ],
-     "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "w-8adbb07a16",
-     "kind": "WIKI",
-     "title": {
-      "ja": "Compagni di scuola (film)",
-      "en": "Compagni di scuola (film)"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "ENTERTAINMENT",
-     "score": 30,
-     "url": "https://it.wikipedia.org/wiki/Compagni_di_scuola_(film)",
-     "views": 32100,
-     "rank": 4,
-     "project": "it.wikipedia",
-     "publishedAt": null,
-     "keywords": [],
-     "sources": [
-      "WIKIPEDIA"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "IT",
-     "relatedCountries": [
-      "IT"
-     ],
-     "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "w-e385078a38",
-     "kind": "WIKI",
-     "title": {
-      "ja": "Cookie (informatique)",
-      "en": "Cookie (informatique)"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 30,
-     "url": "https://fr.wikipedia.org/wiki/Cookie_(informatique)",
-     "views": 28000,
-     "rank": 5,
-     "project": "fr.wikipedia",
-     "publishedAt": null,
-     "keywords": [],
-     "sources": [
-      "WIKIPEDIA"
-     ],
-     "scope": "LOCAL",
-     "change": -30.2,
-     "status": "declining",
-     "origin": "IT",
-     "relatedCountries": [
-      "IT"
-     ],
-     "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "w-b330122db8",
-     "kind": "WIKI",
-     "title": {
-      "ja": "Christopher Nolan",
-      "en": "Christopher Nolan"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 30,
-     "url": "https://it.wikipedia.org/wiki/Christopher_Nolan",
-     "views": 20300,
-     "rank": 6,
-     "project": "it.wikipedia",
-     "publishedAt": null,
-     "keywords": [],
-     "sources": [
-      "WIKIPEDIA"
-     ],
-     "scope": "GLOBAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "CA",
-     "relatedCountries": [
-      "CA",
       "IT"
      ],
      "startedAt": null,
@@ -4124,8 +4001,8 @@
      "category": "OTHER",
      "score": 30,
      "url": "https://it.wikipedia.org/wiki/Andrea_Pirlo",
-     "views": 17500,
-     "rank": 7,
+     "views": 22500,
+     "rank": 6,
      "project": "it.wikipedia",
      "publishedAt": null,
      "keywords": [],
@@ -4143,11 +4020,11 @@
      "durationHours": null
     },
     {
-     "id": "w-d2d298e9f7",
+     "id": "w-ef6e4bbdd6",
      "kind": "WIKI",
      "title": {
-      "ja": "Tadej Pogačar",
-      "en": "Tadej Pogačar"
+      "ja": "Diamante Crispino",
+      "en": "Diamante Crispino"
      },
      "summary": {
       "ja": "",
@@ -4155,8 +4032,40 @@
      },
      "category": "OTHER",
      "score": 30,
-     "url": "https://it.wikipedia.org/wiki/Tadej_Poga%C4%8Dar",
-     "views": 16300,
+     "url": "https://en.wikipedia.org/wiki/Diamante_Crispino",
+     "views": 21100,
+     "rank": 7,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "IT",
+     "relatedCountries": [
+      "IT"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-e305d83b0a",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Una donna promettente",
+      "en": "Una donna promettente"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 30,
+     "url": "https://it.wikipedia.org/wiki/Una_donna_promettente",
+     "views": 17400,
      "rank": 8,
      "project": "it.wikipedia",
      "publishedAt": null,
@@ -4164,13 +4073,11 @@
      "sources": [
       "WIKIPEDIA"
      ],
-     "scope": "GLOBAL",
+     "scope": "LOCAL",
      "change": 0,
      "status": "emerging",
-     "origin": "FR",
+     "origin": "IT",
      "relatedCountries": [
-      "FR",
-      "ES",
       "IT"
      ],
      "startedAt": null,
@@ -5166,42 +5073,11 @@
   },
   {
    "code": "NL",
-   "activityScore": 99,
+   "activityScore": 77,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
-    {
-     "id": "n-fec179c795",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Wekdienst 27 / 7 : Rechtszaak voorbereiden aanslag op prinsessen • Eerste criterium na Tour",
-      "en": "Wekdienst 27 / 7 : Rechtszaak voorbereiden aanslag op prinsessen • Eerste criterium na Tour"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 100,
-     "url": "https://nos.nl/artikel/2624580-wekdienst-27-7-rechtszaak-voorbereiden-aanslag-op-prinsessen-eerste-criterium-na-tour",
-     "outlet": "nos.nl",
-     "publishedAt": "2026-07-27T05:30:00Z",
-     "language": "Dutch",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "NL",
-     "relatedCountries": [
-      "NL"
-     ],
-     "startedAt": "2026-07-27T05:30:00Z",
-     "durationHours": null
-    },
     {
      "id": "w-0341a11fd2",
      "kind": "WIKI",
@@ -5232,285 +5108,6 @@
       "NL"
      ],
      "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "n-5448eb2637",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Doden en gewonden bij schietpartij op foodfestival Seattle",
-      "en": "Doden en gewonden bij schietpartij op foodfestival Seattle"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "CULTURE",
-     "score": 96,
-     "url": "https://nos.nl/artikel/2624581-doden-en-gewonden-bij-schietpartij-op-foodfestival-seattle",
-     "outlet": "nos.nl",
-     "publishedAt": "2026-07-27T05:30:00Z",
-     "language": "Dutch",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "NL",
-     "relatedCountries": [
-      "NL"
-     ],
-     "startedAt": "2026-07-27T05:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-bea34050b3",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Vermoedelijke dader aanslag Pride Berlijn mocht deradicaliseren in vrijheid",
-      "en": "Vermoedelijke dader aanslag Pride Berlijn mocht deradicaliseren in vrijheid"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 92,
-     "url": "https://nos.nl/artikel/2624582-vermoedelijke-dader-aanslag-pride-berlijn-mocht-deradicaliseren-in-vrijheid",
-     "outlet": "nos.nl",
-     "publishedAt": "2026-07-27T05:30:00Z",
-     "language": "Dutch",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "NL",
-     "relatedCountries": [
-      "NL"
-     ],
-     "startedAt": "2026-07-27T05:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-2805942ef5",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Tussen feest en protest : 30 jaar Pride in Amsterdam | Pride - special",
-      "en": "Tussen feest en protest : 30 jaar Pride in Amsterdam | Pride - special"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 88,
-     "url": "https://www.nrc.nl/nieuws/2026/07/27/tussen-feest-en-protest-30-jaar-pride-in-amsterdam-pride-special-a4933308",
-     "outlet": "nrc.nl",
-     "publishedAt": "2026-07-27T06:15:00Z",
-     "language": "Dutch",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "NL",
-     "relatedCountries": [
-      "NL"
-     ],
-     "startedAt": "2026-07-27T06:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-a1c0007100",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Vlak bij het nieuwe stroomstation in Middenmeer koopt Microsoft alvast een stuk grond",
-      "en": "Vlak bij het nieuwe stroomstation in Middenmeer koopt Microsoft alvast een stuk grond"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 84,
-     "url": "https://www.nrc.nl/nieuws/2026/07/27/vlakbij-het-nieuwe-stroomstation-in-middenmeer-koopt-microsoft-alvast-een-stuk-grond-a4933202",
-     "outlet": "nrc.nl",
-     "publishedAt": "2026-07-27T06:15:00Z",
-     "language": "Dutch",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "NL",
-     "relatedCountries": [
-      "NL"
-     ],
-     "startedAt": "2026-07-27T06:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-bd885e9b4e",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Column | Het trauma van de spotgoedkope busreis",
-      "en": "Column | Het trauma van de spotgoedkope busreis"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 80,
-     "url": "https://www.nrc.nl/nieuws/2026/07/26/het-trauma-van-de-spotgoedkope-busreis-a4933173",
-     "outlet": "nrc.nl",
-     "publishedAt": "2026-07-27T06:15:00Z",
-     "language": "Dutch",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "NL",
-     "relatedCountries": [
-      "NL"
-     ],
-     "startedAt": "2026-07-27T06:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-fb3606d911",
-     "kind": "NEWS",
-     "title": {
-      "ja": "GeenStijl : Pandjesprins Bernhard :  Alles is weg",
-      "en": "GeenStijl : Pandjesprins Bernhard :  Alles is weg"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 76,
-     "url": "https://www.geenstijl.nl/5191200/bernhard-alles-is-weg",
-     "outlet": "geenstijl.nl",
-     "publishedAt": "2026-07-27T11:30:00Z",
-     "language": "Dutch",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "NL",
-     "relatedCountries": [
-      "NL"
-     ],
-     "startedAt": "2026-07-27T11:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-150c27f446",
-     "kind": "NEWS",
-     "title": {
-      "ja": "GeenStijl : Millennials durven niet meer naar de tandarts",
-      "en": "GeenStijl : Millennials durven niet meer naar de tandarts"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "CULTURE",
-     "score": 72,
-     "url": "https://www.geenstijl.nl/5156984/breek-ons-de-bek-niet-open",
-     "outlet": "geenstijl.nl",
-     "publishedAt": "2026-07-27T20:45:00Z",
-     "language": "Dutch",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "NL",
-     "relatedCountries": [
-      "NL"
-     ],
-     "startedAt": "2026-07-27T20:45:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-11e8bd1b2f",
-     "kind": "NEWS",
-     "title": {
-      "ja": "GeenStijl : Steeds meer meterkasten in de fik door warmtepompen , zonnepanelen en laadpalen",
-      "en": "GeenStijl : Steeds meer meterkasten in de fik door warmtepompen , zonnepanelen en laadpalen"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WORLD",
-     "score": 68,
-     "url": "https://www.geenstijl.nl/5191205/meterkast",
-     "outlet": "geenstijl.nl",
-     "publishedAt": "2026-07-27T20:45:00Z",
-     "language": "Dutch",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "NL",
-     "relatedCountries": [
-      "NL"
-     ],
-     "startedAt": "2026-07-27T20:45:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-efc905162b",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Brug in Griekenland stortte drie jaar geleden in , maar toch rijden bewoners er massaal overheen",
-      "en": "Brug in Griekenland stortte drie jaar geleden in , maar toch rijden bewoners er massaal overheen"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 64,
-     "url": "https://drimble.nl/buitenlands-nieuws/107555544/brug-in-griekenland-stortte-drie-jaar-geleden-in-maar-toch-rijden-bewoners-er-massaal-overheen.html",
-     "outlet": "drimble.nl",
-     "publishedAt": "2026-07-27T05:15:00Z",
-     "language": "Dutch",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "NL",
-     "relatedCountries": [
-      "NL"
-     ],
-     "startedAt": "2026-07-27T05:15:00Z",
      "durationHours": null
     },
     {
@@ -5929,198 +5526,11 @@
   },
   {
    "code": "NZ",
-   "activityScore": 99,
-   "risingCount": 0,
-   "wikiPerCountry": true,
+   "activityScore": 80,
+   "risingCount": 1,
+   "wikiPerCountry": false,
    "wikiDate": "2026-07-27",
    "topics": [
-    {
-     "id": "n-33490ea130",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Aussie tourists fought with man urinating , waving genitals in public",
-      "en": "Aussie tourists fought with man urinating , waving genitals in public"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 100,
-     "url": "https://www.odt.co.nz/otago/queenstown/aussie-tourists-fought-with-man-urinating-waving-genitals-in-public-tz75xzp1",
-     "outlet": "odt.co.nz",
-     "publishedAt": "2026-07-27T06:30:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "peak",
-     "origin": "NZ",
-     "relatedCountries": [
-      "NZ"
-     ],
-     "startedAt": "2026-07-27T06:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "w-58ece5bafb",
-     "kind": "WIKI",
-     "title": {
-      "ja": "Jim Hopkins",
-      "en": "Jim Hopkins"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 100,
-     "url": "https://en.wikipedia.org/wiki/Jim_Hopkins",
-     "views": 3800,
-     "rank": 1,
-     "project": "en.wikipedia",
-     "publishedAt": null,
-     "keywords": [],
-     "sources": [
-      "WIKIPEDIA"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "peak",
-     "origin": "NZ",
-     "relatedCountries": [
-      "NZ"
-     ],
-     "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "n-cbdb85ba61",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Government to consider future of cost of living payment",
-      "en": "Government to consider future of cost of living payment"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "POLITICS",
-     "score": 96,
-     "url": "https://www.odt.co.nz/news/national/government-to-consider-future-of-cost-of-living-payment-j7vk1064",
-     "outlet": "odt.co.nz",
-     "publishedAt": "2026-07-28T00:15:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "peak",
-     "origin": "NZ",
-     "relatedCountries": [
-      "NZ"
-     ],
-     "startedAt": "2026-07-28T00:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-80f8ad944b",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Bus crash closes Glenorchy - Queenstown Road",
-      "en": "Bus crash closes Glenorchy - Queenstown Road"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 92,
-     "url": "https://www.odt.co.nz/otago/queenstown/bus-crash-closes-glenorchy-queenstown-road-taxkbb9m",
-     "outlet": "odt.co.nz",
-     "publishedAt": "2026-07-28T00:15:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "peak",
-     "origin": "NZ",
-     "relatedCountries": [
-      "NZ"
-     ],
-     "startedAt": "2026-07-28T00:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-4b271a5245",
-     "kind": "NEWS",
-     "title": {
-      "ja": "All Blacks coach Dave Rennie insists the door is not closed on DuPlessis Kirifi at test level - 27 - Jul - 2026",
-      "en": "All Blacks coach Dave Rennie insists the door is not closed on DuPlessis Kirifi at test level - 27 - Jul - 2026"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 88,
-     "url": "https://home.nzcity.co.nz/news/article.aspx?id=450760&fm=psp,tst",
-     "outlet": "home.nzcity.co.nz",
-     "publishedAt": "2026-07-27T07:15:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "peak",
-     "origin": "NZ",
-     "relatedCountries": [
-      "NZ"
-     ],
-     "startedAt": "2026-07-27T07:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-97e2114eac",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Five tasty pastas to snuggle up with - 27 - Jul - 2026 - NZ International news",
-      "en": "Five tasty pastas to snuggle up with - 27 - Jul - 2026 - NZ International news"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WORLD",
-     "score": 84,
-     "url": "https://home.nzcity.co.nz/news/article.aspx?id=450757",
-     "outlet": "home.nzcity.co.nz",
-     "publishedAt": "2026-07-27T07:15:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "stable",
-     "origin": "NZ",
-     "relatedCountries": [
-      "NZ"
-     ],
-     "startedAt": "2026-07-27T07:15:00Z",
-     "durationHours": null
-    },
     {
      "id": "w-909799ec4d",
      "kind": "WIKI",
@@ -6133,10 +5543,10 @@
       "en": ""
      },
      "category": "ENTERTAINMENT",
-     "score": 84,
+     "score": 100,
      "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
-     "views": 3200,
-     "rank": 2,
+     "views": 581815,
+     "rank": 1,
      "project": "en.wikipedia",
      "publishedAt": null,
      "keywords": [],
@@ -6144,8 +5554,8 @@
       "WIKIPEDIA"
      ],
      "scope": "GLOBAL",
-     "change": 0,
-     "status": "stable",
+     "change": 19,
+     "status": "rising",
      "origin": "US",
      "relatedCountries": [
       "US",
@@ -6168,101 +5578,6 @@
      "durationHours": null
     },
     {
-     "id": "n-ad461883f1",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Emma Roberts is married - 27 - Jul - 2026 - NZ Entertainment news",
-      "en": "Emma Roberts is married - 27 - Jul - 2026 - NZ Entertainment news"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "TECH",
-     "score": 80,
-     "url": "https://home.nzcity.co.nz/news/article.aspx?id=450702&fm=psp,tst",
-     "outlet": "home.nzcity.co.nz",
-     "publishedAt": "2026-07-27T07:15:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "stable",
-     "origin": "NZ",
-     "relatedCountries": [
-      "NZ"
-     ],
-     "startedAt": "2026-07-27T07:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "w-744416b3d7",
-     "kind": "WIKI",
-     "title": {
-      "ja": "Semisi Tupou Ta'eiloa",
-      "en": "Semisi Tupou Ta'eiloa"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 79,
-     "url": "https://en.wikipedia.org/wiki/Semisi_Tupou_Ta'eiloa",
-     "views": 3000,
-     "rank": 3,
-     "project": "en.wikipedia",
-     "publishedAt": null,
-     "keywords": [],
-     "sources": [
-      "WIKIPEDIA"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "stable",
-     "origin": "NZ",
-     "relatedCountries": [
-      "NZ"
-     ],
-     "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "w-e4cc1f4179",
-     "kind": "WIKI",
-     "title": {
-      "ja": "MasterChef Australia series 18",
-      "en": "MasterChef Australia series 18"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "ENTERTAINMENT",
-     "score": 63,
-     "url": "https://en.wikipedia.org/wiki/MasterChef_Australia_series_18",
-     "views": 2400,
-     "rank": 4,
-     "project": "en.wikipedia",
-     "publishedAt": null,
-     "keywords": [],
-     "sources": [
-      "WIKIPEDIA"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "stable",
-     "origin": "NZ",
-     "relatedCountries": [
-      "NZ"
-     ],
-     "startedAt": null,
-     "durationHours": null
-    },
-    {
      "id": "w-6d8fa4ae76",
      "kind": "WIKI",
      "title": {
@@ -6274,10 +5589,10 @@
       "en": ""
      },
      "category": "POLITICS",
-     "score": 63,
+     "score": 59,
      "url": "https://en.wikipedia.org/wiki/Bill_Oddie",
-     "views": 2400,
-     "rank": 5,
+     "views": 341705,
+     "rank": 2,
      "project": "en.wikipedia",
      "publishedAt": null,
      "keywords": [],
@@ -6285,7 +5600,7 @@
       "WIKIPEDIA"
      ],
      "scope": "GLOBAL",
-     "change": 0,
+     "change": -6.3,
      "status": "stable",
      "origin": "GB",
      "relatedCountries": [
@@ -6297,32 +5612,72 @@
      "durationHours": null
     },
     {
-     "id": "w-8e2faf4f59",
+     "id": "w-a021c096c2",
      "kind": "WIKI",
      "title": {
-      "ja": "Cracroft Caverns",
-      "en": "Cracroft Caverns"
+      "ja": "Odyssey",
+      "en": "Odyssey"
      },
      "summary": {
       "ja": "",
       "en": ""
      },
      "category": "OTHER",
-     "score": 58,
-     "url": "https://en.wikipedia.org/wiki/Cracroft_Caverns",
-     "views": 2200,
-     "rank": 6,
+     "score": 34,
+     "url": "https://en.wikipedia.org/wiki/Odyssey",
+     "views": 196939,
+     "rank": 3,
      "project": "en.wikipedia",
      "publishedAt": null,
      "keywords": [],
      "sources": [
       "WIKIPEDIA"
      ],
-     "scope": "LOCAL",
+     "scope": "GLOBAL",
      "change": 0,
-     "status": "stable",
-     "origin": "NZ",
+     "status": "emerging",
+     "origin": "US",
      "relatedCountries": [
+      "US",
+      "CA",
+      "PH",
+      "NZ"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-66b27417d3",
+     "kind": "WIKI",
+     "title": {
+      "ja": ".xyz",
+      "en": ".xyz"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 31,
+     "url": "https://en.wikipedia.org/wiki/.xyz",
+     "views": 177973,
+     "rank": 4,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "GLOBAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "SG",
+     "relatedCountries": [
+      "BR",
+      "ZA",
+      "TH",
+      "PH",
+      "SG",
       "NZ"
      ],
      "startedAt": null,
@@ -6340,10 +5695,10 @@
       "en": ""
      },
      "category": "ENTERTAINMENT",
-     "score": 53,
+     "score": 30,
      "url": "https://en.wikipedia.org/wiki/2026_Commonwealth_Games",
-     "views": 2000,
-     "rank": 7,
+     "views": 158021,
+     "rank": 5,
      "project": "en.wikipedia",
      "publishedAt": null,
      "keywords": [],
@@ -6351,9 +5706,9 @@
       "WIKIPEDIA"
      ],
      "scope": "GLOBAL",
-     "change": 0,
-     "status": "stable",
-     "origin": "NZ",
+     "change": -43.4,
+     "status": "declining",
+     "origin": "AU",
      "relatedCountries": [
       "IN",
       "AU",
@@ -6363,20 +5718,87 @@
      "durationHours": null
     },
     {
-     "id": "w-91a97104bc",
+     "id": "w-b8cac78d22",
      "kind": "WIKI",
      "title": {
-      "ja": "Siale Lauaki",
-      "en": "Siale Lauaki"
+      "ja": "Deaths in 2026",
+      "en": "Deaths in 2026"
      },
      "summary": {
       "ja": "",
       "en": ""
      },
      "category": "OTHER",
-     "score": 47,
-     "url": "https://en.wikipedia.org/wiki/Siale_Lauaki",
-     "views": 1800,
+     "score": 30,
+     "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
+     "views": 142478,
+     "rank": 6,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "GLOBAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "CA",
+     "relatedCountries": [
+      "CA",
+      "NZ"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-8978ebda2a",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Graeme Garden",
+      "en": "Graeme Garden"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://en.wikipedia.org/wiki/Graeme_Garden",
+     "views": 129343,
+     "rank": 7,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "GLOBAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "AU",
+     "relatedCountries": [
+      "GB",
+      "AU",
+      "NZ"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-15165417d4",
+     "kind": "WIKI",
+     "title": {
+      "ja": "AEW Redemption",
+      "en": "AEW Redemption"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://en.wikipedia.org/wiki/AEW_Redemption",
+     "views": 128764,
      "rank": 8,
      "project": "en.wikipedia",
      "publishedAt": null,
@@ -6384,11 +5806,13 @@
      "sources": [
       "WIKIPEDIA"
      ],
-     "scope": "LOCAL",
+     "scope": "GLOBAL",
      "change": 0,
-     "status": "stable",
-     "origin": "NZ",
+     "status": "emerging",
+     "origin": "US",
      "relatedCountries": [
+      "US",
+      "CA",
       "NZ"
      ],
      "startedAt": null,
@@ -6426,7 +5850,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "PH",
      "relatedCountries": [
       "PH"
@@ -6503,7 +5927,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "PH",
      "relatedCountries": [
       "PH"
@@ -6542,7 +5966,8 @@
       "ZA",
       "TH",
       "PH",
-      "SG"
+      "SG",
+      "NZ"
      ],
      "startedAt": null,
      "durationHours": null
@@ -6570,7 +5995,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "PH",
      "relatedCountries": [
       "PH"
@@ -6601,7 +6026,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "PH",
      "relatedCountries": [
       "PH"
@@ -6632,7 +6057,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "PH",
      "relatedCountries": [
       "PH"
@@ -6663,7 +6088,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "PH",
      "relatedCountries": [
       "PH"
@@ -6694,7 +6119,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "PH",
      "relatedCountries": [
       "PH"
@@ -6725,7 +6150,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "PH",
      "relatedCountries": [
       "PH"
@@ -6756,7 +6181,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "PH",
      "relatedCountries": [
       "PH"
@@ -6787,7 +6212,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "PH",
      "relatedCountries": [
       "PH"
@@ -6954,7 +6379,8 @@
      "relatedCountries": [
       "US",
       "CA",
-      "PH"
+      "PH",
+      "NZ"
      ],
      "startedAt": null,
      "durationHours": null
@@ -6998,42 +6424,11 @@
   },
   {
    "code": "PL",
-   "activityScore": 99,
+   "activityScore": 83,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
-    {
-     "id": "n-b6f653fcf6",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Rosną ceny paliw na Krymie . Mieszkańcy z kolejnymi zakazami",
-      "en": "Rosną ceny paliw na Krymie . Mieszkańcy z kolejnymi zakazami"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 100,
-     "url": "https://www.money.pl/gospodarka/rosna-ceny-paliw-na-krymie-mieszkancy-z-kolejnymi-zakazami-7311992823171424a.html",
-     "outlet": "money.pl",
-     "publishedAt": "2026-07-27T14:15:00Z",
-     "language": "Polish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "PL",
-     "relatedCountries": [
-      "PL"
-     ],
-     "startedAt": "2026-07-27T14:15:00Z",
-     "durationHours": null
-    },
     {
      "id": "w-80a8f8362e",
      "kind": "WIKI",
@@ -7064,285 +6459,6 @@
       "PL"
      ],
      "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "n-94ef21274f",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Szykuje strategię do 2030 r . Francuski bank liczy na odbudowę Ukrainy",
-      "en": "Szykuje strategię do 2030 r . Francuski bank liczy na odbudowę Ukrainy"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WEATHER",
-     "score": 96,
-     "url": "https://www.money.pl/finanse/szykuje-strategie-do-2030-r-francuski-bank-liczy-na-odbudowe-ukrainy-7311976073943392a.html",
-     "outlet": "money.pl",
-     "publishedAt": "2026-07-27T14:15:00Z",
-     "language": "Polish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "PL",
-     "relatedCountries": [
-      "PL"
-     ],
-     "startedAt": "2026-07-27T14:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-400455e5ba",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Są nowe tablice trwania życia . Dla emerytur oznacza to jedno",
-      "en": "Są nowe tablice trwania życia . Dla emerytur oznacza to jedno"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 92,
-     "url": "https://www.money.pl/finanse/emerytury-polakow-spadna-pokazali-nowe-tablice-dlugosci-zycia-7311996220295520a.html",
-     "outlet": "money.pl",
-     "publishedAt": "2026-07-27T14:15:00Z",
-     "language": "Polish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "PL",
-     "relatedCountries": [
-      "PL"
-     ],
-     "startedAt": "2026-07-27T14:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-461ebca17a",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Odpicowana Sylwia Szostak ładuje baterie na Ibizie u boku chłopaka i zachwyca fanów :  Przy WŁAŚCIWYM MĘŻCZYŹNIE kwitniesz  ( ZDJĘCIA )",
-      "en": "Odpicowana Sylwia Szostak ładuje baterie na Ibizie u boku chłopaka i zachwyca fanów :  Przy WŁAŚCIWYM MĘŻCZYŹNIE kwitniesz  ( ZDJĘCIA )"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 88,
-     "url": "https://www.pudelek.pl/odpicowana-sylwia-szostak-laduje-baterie-na-ibizie-u-boku-chlopaka-i-zachwyca-fanow-przy-wlasciwym-mezczyznie-kwitniesz-zdjecia-7311644132469120g",
-     "outlet": "pudelek.pl",
-     "publishedAt": "2026-07-27T05:15:00Z",
-     "language": "Polish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "PL",
-     "relatedCountries": [
-      "PL"
-     ],
-     "startedAt": "2026-07-27T05:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-4ab05e3044",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Kaczorowska wzruszająco napisała o byciu mamą . To usłyszała od partnera",
-      "en": "Kaczorowska wzruszająco napisała o byciu mamą . To usłyszała od partnera"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "CULTURE",
-     "score": 84,
-     "url": "https://www.pudelek.pl/agnieszka-kaczorowska-uczcila-7-urodziny-corki-bajkowym-przyjeciem-i-poruszajacymi-slowami-slysze-od-swojego-partnera-ze-jestem-cudowna-mama-7311977663478112a",
-     "outlet": "pudelek.pl",
-     "publishedAt": "2026-07-27T14:45:00Z",
-     "language": "Polish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "PL",
-     "relatedCountries": [
-      "PL"
-     ],
-     "startedAt": "2026-07-27T14:45:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-81bf19ee57",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Maciej Szczęsny po rozwodzie wziął ślub z młodszą o 26 lat Dominiką",
-      "en": "Maciej Szczęsny po rozwodzie wziął ślub z młodszą o 26 lat Dominiką"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 80,
-     "url": "https://www.pudelek.pl/ojciec-wojciecha-szczesnego-po-rozwodzie-ponownie-stanal-na-slubnym-kobiercu-z-druga-zona-dzieli-go-26-lat-co-o-niej-wiadomo-foto-7311945606084992a",
-     "outlet": "pudelek.pl",
-     "publishedAt": "2026-07-27T14:45:00Z",
-     "language": "Polish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "PL",
-     "relatedCountries": [
-      "PL"
-     ],
-     "startedAt": "2026-07-27T14:45:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-0e49f2b55a",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Pola Wiśniewska wymownie zareagowała .  Ja się uczę na błędach",
-      "en": "Pola Wiśniewska wymownie zareagowała .  Ja się uczę na błędach"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 76,
-     "url": "https://www.pomponik.pl/relacje-i-zwiazki/news-pola-wisniewska-dopiekla-michalowi-tym-razem-nie-gryzla-sie,nId,23520418",
-     "outlet": "pomponik.pl",
-     "publishedAt": "2026-07-27T14:00:00Z",
-     "language": "Polish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "PL",
-     "relatedCountries": [
-      "PL"
-     ],
-     "startedAt": "2026-07-27T14:00:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-b57d64e4d1",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Dominika Serowska marzy o karierze w telewizji . Chce połączyć ją ze swoją pasją",
-      "en": "Dominika Serowska marzy o karierze w telewizji . Chce połączyć ją ze swoją pasją"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 72,
-     "url": "https://www.pomponik.pl/plotki/news-dominika-serowska-ma-ambitne-plany-zawodowe-marzy-jej-sie-ka,nId,23520416",
-     "outlet": "pomponik.pl",
-     "publishedAt": "2026-07-27T14:00:00Z",
-     "language": "Polish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "PL",
-     "relatedCountries": [
-      "PL"
-     ],
-     "startedAt": "2026-07-27T14:00:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-20549b3f10",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Rusin niespodziewanie zabrała głos ws . Kujawy . Sama się nie spodziewała",
-      "en": "Rusin niespodziewanie zabrała głos ws . Kujawy . Sama się nie spodziewała"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 68,
-     "url": "https://www.pomponik.pl/plotki/news-dopiero-na-jaw-wyszla-tajemnica-kujawy-a-tu-takie-doniesieni,nId,23520290",
-     "outlet": "pomponik.pl",
-     "publishedAt": "2026-07-27T14:00:00Z",
-     "language": "Polish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "PL",
-     "relatedCountries": [
-      "PL"
-     ],
-     "startedAt": "2026-07-27T14:00:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-4088ea8e08",
-     "kind": "NEWS",
-     "title": {
-      "ja": "To nowy , smukły powerbank od Xiaomi . Ma wbudowany przewód",
-      "en": "To nowy , smukły powerbank od Xiaomi . Ma wbudowany przewód"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "BUSINESS",
-     "score": 64,
-     "url": "https://www.komputerswiat.pl/mobile/gadzety/to-nowy-smukly-powerbank-od-xiaomi-ma-wbudowany-przewod/wtm7mcy",
-     "outlet": "komputerswiat.pl",
-     "publishedAt": "2026-07-27T10:45:00Z",
-     "language": "Polish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "PL",
-     "relatedCountries": [
-      "PL"
-     ],
-     "startedAt": "2026-07-27T10:45:00Z",
      "durationHours": null
     },
     {
@@ -7892,7 +7008,8 @@
       "ZA",
       "TH",
       "PH",
-      "SG"
+      "SG",
+      "NZ"
      ],
      "startedAt": null,
      "durationHours": null
@@ -8309,7 +7426,8 @@
       "ZA",
       "TH",
       "PH",
-      "SG"
+      "SG",
+      "NZ"
      ],
      "startedAt": null,
      "durationHours": null
@@ -8488,7 +7606,7 @@
       "WIKIPEDIA"
      ],
      "scope": "LOCAL",
-     "change": -12.5,
+     "change": 0,
      "status": "stable",
      "origin": "TR",
      "relatedCountries": [
@@ -8521,7 +7639,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "TR",
      "relatedCountries": [
       "TR"
@@ -8553,7 +7671,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "TR",
      "relatedCountries": [
       "TR"
@@ -8584,8 +7702,8 @@
       "WIKIPEDIA"
      ],
      "scope": "LOCAL",
-     "change": -38.8,
-     "status": "declining",
+     "change": 0,
+     "status": "stable",
      "origin": "TR",
      "relatedCountries": [
       "TR"
@@ -8616,8 +7734,8 @@
       "WIKIPEDIA"
      ],
      "scope": "LOCAL",
-     "change": -49.2,
-     "status": "declining",
+     "change": 0,
+     "status": "stable",
      "origin": "TR",
      "relatedCountries": [
       "TR"
@@ -8648,8 +7766,8 @@
       "WIKIPEDIA"
      ],
      "scope": "LOCAL",
-     "change": -40,
-     "status": "declining",
+     "change": 0,
+     "status": "stable",
      "origin": "TR",
      "relatedCountries": [
       "TR"
@@ -8681,7 +7799,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "TR",
      "relatedCountries": [
       "TR"
@@ -9109,7 +8227,8 @@
      "relatedCountries": [
       "US",
       "CA",
-      "PH"
+      "PH",
+      "NZ"
      ],
      "startedAt": null,
      "durationHours": null
@@ -9142,7 +8261,8 @@
      "origin": "US",
      "relatedCountries": [
       "US",
-      "CA"
+      "CA",
+      "NZ"
      ],
      "startedAt": null,
      "durationHours": null
@@ -9512,11 +8632,42 @@
   },
   {
    "code": "ZA",
-   "activityScore": 81,
+   "activityScore": 99,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
+    {
+     "id": "n-a573e2df15",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Five killed , one wounded in early morning Cape Town shooting",
+      "en": "Five killed , one wounded in early morning Cape Town shooting"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 100,
+     "url": "https://www.news24.com/southafrica/crime-and-courts/five-killed-one-wounded-in-early-morning-cape-town-shooting-20260727-0400",
+     "outlet": "news24.com",
+     "publishedAt": "2026-07-27T08:15:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "ZA",
+     "relatedCountries": [
+      "ZA"
+     ],
+     "startedAt": "2026-07-27T08:15:00Z",
+     "durationHours": null
+    },
     {
      "id": "w-7cb9be8b08",
      "kind": "WIKI",
@@ -9547,6 +8698,285 @@
       "ZA"
      ],
      "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "n-6838c4e504",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Meet Africa first doctor to qualify in both paediatric and reconstructive surgery",
+      "en": "Meet Africa first doctor to qualify in both paediatric and reconstructive surgery"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 96,
+     "url": "https://www.news24.com/southafrica/good-news/meet-africas-first-doctor-to-qualify-in-both-paediatric-and-reconstructive-surgery-20260727-0491",
+     "outlet": "news24.com",
+     "publishedAt": "2026-07-27T13:00:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "ZA",
+     "relatedCountries": [
+      "ZA"
+     ],
+     "startedAt": "2026-07-27T13:00:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-91670c3030",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Trump pauses Iran strikes as officials worry about US arsenal depletion",
+      "en": "Trump pauses Iran strikes as officials worry about US arsenal depletion"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 92,
+     "url": "https://www.news24.com/world/trump-pauses-iran-strikes-as-officials-worry-about-us-arsenal-depletion-20260727-0312",
+     "outlet": "news24.com",
+     "publishedAt": "2026-07-27T08:15:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "ZA",
+     "relatedCountries": [
+      "ZA"
+     ],
+     "startedAt": "2026-07-27T08:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-f2744c900b",
+     "kind": "NEWS",
+     "title": {
+      "ja": "2026 - 07 - From NRF ratings to global honours : Wits celebrates research excellence",
+      "en": "2026 - 07 - From NRF ratings to global honours : Wits celebrates research excellence"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "SCIENCE",
+     "score": 88,
+     "url": "https://www.wits.ac.za/news/latest-news/research-news/2026/-2026-07/from-nrf-ratings-to-global-honours-wits-celebrates-research-excellence.html",
+     "outlet": "wits.ac.za",
+     "publishedAt": "2026-07-27T18:00:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "ZA",
+     "relatedCountries": [
+      "ZA"
+     ],
+     "startedAt": "2026-07-27T18:00:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-69191cfe0e",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Gunmen kill at least 30 in attack on Nigerian village",
+      "en": "Gunmen kill at least 30 in attack on Nigerian village"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 84,
+     "url": "https://www.timeslive.co.za/news/africa/2026-07-27-gunmen-kill-at-least-30-in-attack-on-nigerian-village/",
+     "outlet": "timeslive.co.za",
+     "publishedAt": "2026-07-27T14:00:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "ZA",
+     "relatedCountries": [
+      "ZA"
+     ],
+     "startedAt": "2026-07-27T14:00:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-4522e7b214",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Bafana Mahungela abandons plans to call expert witness in Kluyts murder trial",
+      "en": "Bafana Mahungela abandons plans to call expert witness in Kluyts murder trial"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 80,
+     "url": "https://www.timeslive.co.za/news/south-africa/2026-07-27-bafana-mahungela-abandons-plans-to-call-expert-witness-in-kluyts-murder-trial/",
+     "outlet": "timeslive.co.za",
+     "publishedAt": "2026-07-27T14:00:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "ZA",
+     "relatedCountries": [
+      "ZA"
+     ],
+     "startedAt": "2026-07-27T14:00:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-0bc6619cef",
+     "kind": "NEWS",
+     "title": {
+      "ja": "KZN health outraged after EMS crew  held hostage , forced to buy alcohol for armed gang",
+      "en": "KZN health outraged after EMS crew  held hostage , forced to buy alcohol for armed gang"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "SCIENCE",
+     "score": 76,
+     "url": "https://www.timeslive.co.za/news/south-africa/2026-07-27-kzn-health-outraged-after-ems-crew-held-hostage-forced-to-buy-alcohol-for-armed-gang/",
+     "outlet": "timeslive.co.za",
+     "publishedAt": "2026-07-27T14:00:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "ZA",
+     "relatedCountries": [
+      "ZA"
+     ],
+     "startedAt": "2026-07-27T14:00:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-41ef0ab587",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Matlala trial : Defence attacks credibility of State witness identification of accused Kekana",
+      "en": "Matlala trial : Defence attacks credibility of State witness identification of accused Kekana"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 72,
+     "url": "https://www.ewn.co.za/2026/07/27/matlala-trial-defence-attacks-credibility-of-state-witness-s-identification-of-accused-kekana",
+     "outlet": "ewn.co.za",
+     "publishedAt": "2026-07-27T10:45:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "ZA",
+     "relatedCountries": [
+      "ZA"
+     ],
+     "startedAt": "2026-07-27T10:45:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-f201f96719",
+     "kind": "NEWS",
+     "title": {
+      "ja": "At least 11 deaths recorded during several mass shootings in Western Cape",
+      "en": "At least 11 deaths recorded during several mass shootings in Western Cape"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 68,
+     "url": "https://www.ewn.co.za/2026/07/27/at-least-11-deaths-recorded-during-several-mass-shootings-in-western-cape",
+     "outlet": "ewn.co.za",
+     "publishedAt": "2026-07-27T10:45:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "ZA",
+     "relatedCountries": [
+      "ZA"
+     ],
+     "startedAt": "2026-07-27T10:45:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-aa1057c572",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Johnson defends IDAC probe into Crime Intelligence security clearance manipulation",
+      "en": "Johnson defends IDAC probe into Crime Intelligence security clearance manipulation"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 64,
+     "url": "https://www.ewn.co.za/2026/07/27/johnson-defends-idac-s-probe-into-crime-intelligence-security-clearance-manipulation",
+     "outlet": "ewn.co.za",
+     "publishedAt": "2026-07-27T10:45:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "ZA",
+     "relatedCountries": [
+      "ZA"
+     ],
+     "startedAt": "2026-07-27T10:45:00Z",
      "durationHours": null
     },
     {
@@ -9727,7 +9157,8 @@
       "ZA",
       "TH",
       "PH",
-      "SG"
+      "SG",
+      "NZ"
      ],
      "startedAt": null,
      "durationHours": null
