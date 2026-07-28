@@ -21,7 +21,8 @@
 
   --land:      #202c3d;   /* countries without data */
   --land-2:    #19222f;   /* land the trend feed does not cover */
-  --city:      #ffc07a;   /* night-side city lights, used nowhere else */
+  --city:      #ff9f45;   /* night-side city lights, used nowhere else */
+  --city-core: #ffe3b0;
   --dawn:      #ff9a52;   /* the low sun on the water */
   --violet:    #8f7ad8;
   --bloom:     #3d8ef0;
@@ -436,32 +437,36 @@ body.panel-open .tl { padding-right: calc(var(--panel-w) + 46px); }
 
 /* Flags: the emoji where the platform has the glyphs, a code chip where it
    does not (Windows). Both keep the same footprint so nothing shifts. */
-.flag { display: inline-flex; align-items: center; justify-content: center; line-height: 1; }
-
-.flag.is-chip {
-  --h: 210;
-  position: relative;
-  font-family: var(--mono);
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  border-radius: 3px;
-  border: 1px solid rgba(200, 224, 255, 0.32);
-  background:
-    linear-gradient(105deg,
-      hsl(var(--h) 62% 52% / 0.85) 0 38%,
-      hsl(calc(var(--h) + 40) 55% 34% / 0.85) 38% 100%);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.28), 0 1px 3px rgba(0, 0, 0, 0.5);
-  color: #fff;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.75);
-  padding: 0 4px;
-  min-width: 2.3em;
-  height: 1.55em;
-  font-size: 0.62em;
+.flag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  flex: none;
 }
 
-.p-flag.is-chip { font-size: 20px; border-radius: 6px; }
+.flag.is-unknown { color: var(--dim); }
+
+/* the drawn fallback: sized in em so every call site keeps its own scale */
+.flag.is-chip { width: 1.5em; height: 1em; }
+.flag-svg {
+  width: 100%; height: 100%;
+  display: block;
+  border-radius: 2px;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.55));
+}
+.flag-svg-code {
+  fill: rgba(255, 255, 255, 0.95);
+  font-family: var(--mono);
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-anchor: middle;
+}
+
+.p-flag.is-chip { width: 34px; height: 23px; }
 .flag-sm { font-size: 12px; }
-.flag-sm.is-chip { font-size: 8.5px; }
+.flag-sm.is-chip { width: 17px; height: 11.5px; }
 .mini-flags { display: inline-flex; gap: 4px; }
 .p-id-text { min-width: 0; }
 .p-name { font-size: 21px; font-weight: 350; letter-spacing: 0.03em; line-height: 1.2; }
@@ -871,7 +876,7 @@ body.panel-open .tl { padding-right: calc(var(--panel-w) + 46px); }
 .rank:hover { background: rgba(156, 196, 255, 0.04); }
 .r-index { font-size: 9px; color: var(--dim); }
 .r-flag { font-size: 13px; }
-.r-flag.is-chip { font-size: 8.5px; }
+.r-flag.is-chip { width: 19px; height: 13px; }
 .r-name { font-size: 12.5px; width: 34%; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .rank .meter { flex: 1; }
 .r-val { font-size: 10.5px; color: var(--muted); min-width: 22px; text-align: right; }
@@ -925,7 +930,7 @@ body.panel-open .tl { padding-right: calc(var(--panel-w) + 46px); }
 .watch { display: flex; align-items: center; gap: 11px; padding: 9px 0; border-bottom: 1px solid var(--line); }
 .watch:last-child { border-bottom: 0; }
 .w-flag { font-size: 13px; }
-.w-flag.is-chip { font-size: 8.5px; }
+.w-flag.is-chip { width: 19px; height: 13px; }
 .w-name { flex: 1; font-size: 12.5px; }
 .w-score { font-size: 10.5px; color: var(--muted); }
 

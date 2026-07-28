@@ -22,40 +22,69 @@ const CAT_MARK = {
 
 /* ------------------------------------------------------------------- flags */
 
+const FLAG_NS = 'http://www.w3.org/2000/svg';
+
 /* Windows ships no glyphs for regional-indicator pairs, so a flag emoji there
-   renders as two letter boxes. Measure once and fall back to a code chip. */
+   renders as two letter boxes. Measure once and fall back to a drawn chip. */
 let emojiFlags = null;
 function supportsFlagEmoji() {
   if (emojiFlags !== null) return emojiFlags;
   try {
     const c = document.createElement('canvas');
-    c.width = 32; c.height = 16;
+    c.width = 40; c.height = 20;
     const ctx = c.getContext('2d');
     if (!ctx) return (emojiFlags = false);
-    ctx.font = '14px sans-serif';
+    ctx.font = '16px sans-serif';
     const pair = ctx.measureText('\u{1F1EF}\u{1F1F5}').width;
     const single = ctx.measureText('\u{1F1EF}').width;
-    emojiFlags = pair < single * 1.6;
+    emojiFlags = pair > 0 && single > 0 && pair < single * 1.6;
   } catch {
     emojiFlags = false;
   }
   return emojiFlags;
 }
 
-/** A flag for a country code: the emoji where it renders, a code chip where it does not. */
+/** A small drawn flag: two bands whose hues come from the country code. */
+function drawnFlag(code) {
+  const cc = String(code || '??').toUpperCase().slice(0, 2);
+  const hue = (cc.charCodeAt(0) * 37 + (cc.charCodeAt(1) || 65) * 11) % 360;
+  const svg = document.createElementNS(FLAG_NS, 'svg');
+  svg.setAttribute('viewBox', '0 0 24 16');
+  svg.setAttribute('class', 'flag-svg');
+  svg.setAttribute('aria-hidden', 'true');
+  const bg = document.createElementNS(FLAG_NS, 'rect');
+  bg.setAttribute('width', '24'); bg.setAttribute('height', '16'); bg.setAttribute('rx', '2');
+  bg.setAttribute('fill', `hsl(${(hue + 40) % 360} 52% 34%)`);
+  const band = document.createElementNS(FLAG_NS, 'path');
+  band.setAttribute('d', 'M0 2a2 2 0 0 1 2-2h8L7 16H2a2 2 0 0 1-2-2Z');
+  band.setAttribute('fill', `hsl(${hue} 62% 52%)`);
+  const label = document.createElementNS(FLAG_NS, 'text');
+  label.setAttribute('x', '15.5'); label.setAttribute('y', '11.5');
+  label.setAttribute('class', 'flag-svg-code');
+  label.textContent = cc;
+  svg.append(bg, band, label);
+  return svg;
+}
+
+/**
+ * The flag for a country code. Always returns a visible node: the emoji where
+ * the platform has the glyphs, a drawn two-band chip where it does not.
+ */
 export function flagNode(code, cls = 'flag') {
   const span = h('span', cls);
-  span.dataset.code = code ?? '';
+  const cc = String(code || '').toUpperCase().slice(0, 2);
+  span.dataset.code = cc;
+  if (!/^[A-Z]{2}$/.test(cc)) {
+    span.classList.add('is-unknown');
+    span.textContent = '\u2691';                 // a plain pennant, never blank
+    return span;
+  }
   if (supportsFlagEmoji()) {
     span.classList.add('is-emoji');
-    span.textContent = flagEmoji(code);
+    span.textContent = flagEmoji(cc);
   } else {
     span.classList.add('is-chip');
-    span.textContent = String(code ?? '').slice(0, 2).toUpperCase();
-    /* a deterministic band colour keeps the chips distinguishable at a glance */
-    const cc = String(code ?? 'XX').toUpperCase();
-    const hue = ((cc.charCodeAt(0) * 37 + (cc.charCodeAt(1) || 0) * 11) % 360);
-    span.style.setProperty('--h', String(hue));
+    span.append(drawnFlag(cc));
   }
   return span;
 }

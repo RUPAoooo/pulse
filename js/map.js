@@ -120,7 +120,7 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
     id: 'wp-city', x: '-60%', y: '-60%', width: '220%', height: '220%',
     'color-interpolation-filters': 'sRGB',
   });
-  cityBlur.append(el('feGaussianBlur', { stdDeviation: '2.6' }));
+  cityBlur.append(el('feGaussianBlur', { stdDeviation: '1.5' }));
 
   defs.append(ocean, halo, daylight, warm, nightFill, vignette, atmo, dawn, violet, bloom, soften, cityBlur);
   svg.append(defs);
@@ -201,8 +201,8 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
     const glow = el('circle', { cx, cy, r: 60, fill: 'url(#wp-halo)', class: 'halo-glow' });
     const outer = el('circle', { cx, cy, r: 22, class: 'halo-outer' });
     const ring = el('circle', { cx, cy, r: 14, class: 'halo-ring' });
-    const core = el('circle', { cx, cy, r: 2.4, class: 'halo-core' });
-    const spark = el('circle', { cx, cy, r: 1.1, class: 'halo-spark' });
+    const core = el('circle', { cx, cy, r: 3.4, class: 'halo-core' });
+    const spark = el('circle', { cx, cy, r: 1.4, class: 'halo-spark' });
     g.append(glow, outer, ring, core, spark);
     haloLayer.append(g);
     halos.set(country.code, { g, glow, outer, ring, core, cx, cy });
@@ -259,10 +259,10 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
   const cities = CITIES.map(([lon, lat, weight], i) => {
     const { x, y } = project(lon, lat);
     const bloom = el('circle', {
-      class: 'city-bloom', cx: x, cy: y, r: (3.4 + weight * 5.2).toFixed(2),
+      class: 'city-bloom', cx: x, cy: y, r: (1.9 + weight * 2.3).toFixed(2),
     });
     const dot = el('circle', {
-      class: 'city', cx: x, cy: y, r: (1.15 + weight * 1.25).toFixed(2),
+      class: 'city', cx: x, cy: y, r: (0.55 + weight * 0.75).toFixed(2),
     });
     for (const node of [bloom, dot]) {
       node.style.setProperty('--w', weight.toFixed(2));
