@@ -24,6 +24,12 @@ function el(name, attrs = {}) {
   return node;
 }
 
+/** Deterministic 0-1 value from an integer — used to scatter the city sparks. */
+function hash(n) {
+  const x = Math.sin(n * 12.9898) * 43758.5453;
+  return x - Math.floor(x);
+}
+
 function stops(node, list) {
   for (const [offset, color, opacity] of list) {
     node.append(el('stop', { offset, 'stop-color': color, 'stop-opacity': opacity }));
@@ -120,7 +126,7 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
     id: 'wp-city', x: '-60%', y: '-60%', width: '220%', height: '220%',
     'color-interpolation-filters': 'sRGB',
   });
-  cityBlur.append(el('feGaussianBlur', { stdDeviation: '1.5' }));
+  cityBlur.append(el('feGaussianBlur', { stdDeviation: '1.8' }));
 
   defs.append(ocean, halo, daylight, warm, nightFill, vignette, atmo, dawn, violet, bloom, soften, cityBlur);
   svg.append(defs);
@@ -252,25 +258,56 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
   const nightEdge = el('path', { class: 'night-edge' });
   nightLayer.append(nightShape, nightEdge);
 
-  /* city lights — scenery only, never interactive */
+  /* City lights — scenery only, never interactive.
+     Each entry in CITIES is treated as a metro area rather than a single dot:
+     a handful of sub-pixel sparks are scattered around it with a deterministic
+     hash, so the result reads as a night view of an inhabited region instead
+     of as one more data marker. */
   const cityBloomGroup = el('g', { class: 'city-bloom-group', filter: 'url(#wp-city)' });
   const cityGroup = el('g', { class: 'city-group' });
   cityLayer.append(cityBloomGroup, cityGroup);
-  const cities = CITIES.map(([lon, lat, weight], i) => {
+
+  const TONES = ['t1', 't2', 't3'];
+  const cities = [];
+
+  CITIES.forEach(([lon, lat, weight], i) => {
     const { x, y } = project(lon, lat);
-    const bloom = el('circle', {
-      class: 'city-bloom', cx: x, cy: y, r: (1.9 + weight * 2.3).toFixed(2),
-    });
-    const dot = el('circle', {
-      class: 'city', cx: x, cy: y, r: (0.55 + weight * 0.75).toFixed(2),
-    });
-    for (const node of [bloom, dot]) {
-      node.style.setProperty('--w', weight.toFixed(2));
-      if (!reduceMotion.matches) node.style.animationDelay = `${(i % 9) * 0.9}s`;
+    const nodes = [];
+
+    /* one soft pool of light for the larger metro areas only */
+    if (weight >= 0.55) {
+      const bloom = el('circle', {
+        class: 'city-bloom', cx: x.toFixed(1), cy: y.toFixed(1),
+        r: (1.8 + weight * 2.6).toFixed(2),
+      });
+      bloom.style.setProperty('--w', weight.toFixed(2));
+      cityBloomGroup.append(bloom);
+      nodes.push(bloom);
     }
-    cityBloomGroup.append(bloom);
-    cityGroup.append(dot);
-    return { lon, lat, dot, bloom };
+
+    /* the sparks themselves: 2-5 per metro area, never on a grid */
+    const count = 1 + Math.round(weight * 3);
+    for (let k = 0; k < count; k += 1) {
+      const h1 = hash(i * 977 + k * 131);
+      const h2 = hash(i * 613 + k * 419);
+      const h3 = hash(i * 271 + k * 733);
+      const spread = 1.4 + weight * 4.2;
+      const angle = h1 * Math.PI * 2;
+      const dist = Math.sqrt(h2) * spread;
+      const spark = el('circle', {
+        class: `city city-${TONES[Math.floor(h3 * TONES.length) % TONES.length]}`,
+        cx: (x + Math.cos(angle) * dist).toFixed(2),
+        cy: (y + Math.sin(angle) * dist * 0.72).toFixed(2),
+        r: (0.45 + h3 * 0.75 + weight * 0.15).toFixed(2),
+      });
+      spark.style.setProperty('--w', weight.toFixed(2));
+      spark.style.setProperty('--o', (0.55 + h1 * 0.45).toFixed(2));
+      if (!reduceMotion.matches) spark.style.animationDelay = `${((i + k) % 11) * 0.85}s`;
+      cityGroup.append(spark);
+      nodes.push(spark);
+    }
+
+    cities.push({ lon, lat, nodes });
   });
 
   function paintDayNight() {
@@ -283,8 +320,7 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
     warmGlow.setAttribute('cy', sun.y);
     for (const c of cities) {
       const night = solarAltitude(c.lon, c.lat, sun) < 0.02;
-      c.dot.classList.toggle('is-night', night);
-      c.bloom.classList.toggle('is-night', night);
+      for (const node of c.nodes) node.classList.toggle('is-night', night);
     }
   }
   paintDayNight();

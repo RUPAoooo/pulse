@@ -21,8 +21,9 @@
 
   --land:      #202c3d;   /* countries without data */
   --land-2:    #19222f;   /* land the trend feed does not cover */
-  --city:      #ff9f45;   /* night-side city lights, used nowhere else */
-  --city-core: #ffe3b0;
+  --city-a:    #ffd18a;   /* night-side city sparks — three warm tones */
+  --city-b:    #ffb56a;
+  --city-c:    #fff1c8;
   --dawn:      #ff9a52;   /* the low sun on the water */
   --violet:    #8f7ad8;
   --bloom:     #3d8ef0;
@@ -433,7 +434,7 @@ body.panel-open .tl { padding-right: calc(var(--panel-w) + 46px); }
 }
 
 .p-id { display: flex; align-items: center; gap: 13px; min-width: 0; }
-.p-flag { font-size: 26px; line-height: 1; }
+.p-glyph { font-size: 26px; line-height: 1; color: var(--glow-2); }
 
 /* Flags: the emoji where the platform has the glyphs, a code chip where it
    does not (Windows). Both keep the same footprint so nothing shifts. */
@@ -441,32 +442,35 @@ body.panel-open .tl { padding-right: calc(var(--panel-w) + 46px); }
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  line-height: 1;
   flex: none;
+  width: 26px; height: 18px;          /* default; overridden per call site */
+  line-height: 1;
 }
 
-.flag.is-unknown { color: var(--dim); }
-
-/* the drawn fallback: sized in em so every call site keeps its own scale */
-.flag.is-chip { width: 1.5em; height: 1em; }
 .flag-svg {
   width: 100%; height: 100%;
   display: block;
-  border-radius: 2px;
-  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.55));
-}
-.flag-svg-code {
-  fill: rgba(255, 255, 255, 0.95);
-  font-family: var(--mono);
-  font-size: 8px;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  text-anchor: middle;
+  overflow: visible;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.6));
 }
 
-.p-flag.is-chip { width: 34px; height: 23px; }
-.flag-sm { font-size: 12px; }
-.flag-sm.is-chip { width: 17px; height: 11.5px; }
+.flag-code {
+  fill: #fff;
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-anchor: middle;
+  paint-order: stroke;
+  stroke: rgba(4, 8, 16, 0.55);
+  stroke-width: 2px;
+}
+
+/* per call site: the panel header wants a readable chip, lists want a hint */
+.p-flag { width: 36px; height: 25px; font-size: 0; }
+.tt-flag { width: 24px; height: 17px; }
+.r-flag, .w-flag { width: 21px; height: 15px; }
+.flag-sm { width: 18px; height: 13px; }
 .mini-flags { display: inline-flex; gap: 4px; }
 .p-id-text { min-width: 0; }
 .p-name { font-size: 21px; font-weight: 350; letter-spacing: 0.03em; line-height: 1.2; }
