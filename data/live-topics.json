@@ -1,49 +1,18 @@
 {
- "updatedAt": "2026-07-28T08:13:32.750Z",
+ "updatedAt": "2026-07-28T11:56:08.406Z",
  "source": "live",
- "fingerprint": "dc9db5d794240f387b50b37f206e95f685ac15c6",
+ "fingerprint": "cd415788a9269f35710795e224b660f43a7233fa",
  "wikiPerCountry": false,
  "newsSource": "GDELT DOC 2.0 API",
  "wikiSource": "Wikimedia Pageviews API",
  "countries": [
   {
    "code": "AR",
-   "activityScore": 99,
+   "activityScore": 87,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
-    {
-     "id": "n-bcbf508377",
-     "kind": "NEWS",
-     "title": {
-      "ja": "La Odisea  vuelve a conquistar fuera del cine : cómo el arte mostró las escenas más famosas de la película",
-      "en": "La Odisea  vuelve a conquistar fuera del cine : cómo el arte mostró las escenas más famosas de la película"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "ENTERTAINMENT",
-     "score": 100,
-     "url": "https://www.infobae.com/cultura/2026/07/27/la-odisea-vuelve-a-conquistar-fuera-del-cine-como-el-arte-mostro-las-escenas-mas-famosas-de-la-pelicula/",
-     "outlet": "infobae.com",
-     "publishedAt": "2026-07-27T08:30:00Z",
-     "language": "Spanish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AR",
-     "relatedCountries": [
-      "AR"
-     ],
-     "startedAt": "2026-07-27T08:30:00Z",
-     "durationHours": null
-    },
     {
      "id": "w-99a661139b",
      "kind": "WIKI",
@@ -74,68 +43,6 @@
       "AR"
      ],
      "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "n-82897d511d",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Un tiroteo durante un festival gastronómico en Seattle dejó al menos dos muertos , cinco heridos y un sospechoso detenido",
-      "en": "Un tiroteo durante un festival gastronómico en Seattle dejó al menos dos muertos , cinco heridos y un sospechoso detenido"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "CULTURE",
-     "score": 96,
-     "url": "https://www.infobae.com/estados-unidos/2026/07/27/un-tiroteo-durante-un-festival-gastronomico-en-seattle-dejo-al-menos-dos-muertos-cinco-heridos-y-un-sospechoso-detenido/",
-     "outlet": "infobae.com",
-     "publishedAt": "2026-07-27T08:30:00Z",
-     "language": "Spanish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AR",
-     "relatedCountries": [
-      "AR"
-     ],
-     "startedAt": "2026-07-27T08:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-648c6ae53e",
-     "kind": "NEWS",
-     "title": {
-      "ja": "The Washington Post volvió a destacar los resultados de la economía de Milei :  El renacimiento de Argentina continúa",
-      "en": "The Washington Post volvió a destacar los resultados de la economía de Milei :  El renacimiento de Argentina continúa"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 92,
-     "url": "https://www.infobae.com/wapo/2026/07/27/the-washington-post-volvio-a-destacar-los-resultados-de-la-economia-de-milei-el-renacimiento-de-argentina-continua/",
-     "outlet": "infobae.com",
-     "publishedAt": "2026-07-27T08:30:00Z",
-     "language": "Spanish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AR",
-     "relatedCountries": [
-      "AR"
-     ],
-     "startedAt": "2026-07-27T08:30:00Z",
      "durationHours": null
     },
     {
@@ -331,7 +238,8 @@
      "relatedCountries": [
       "BR",
       "AR",
-      "ZA"
+      "ZA",
+      "PH"
      ],
      "startedAt": null,
      "durationHours": null
@@ -658,11 +566,42 @@
   },
   {
    "code": "BR",
-   "activityScore": 96,
+   "activityScore": 99,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
+    {
+     "id": "n-f8e1b50951",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Comediante , ambientalista e referência da TV britânica , Bill Oddie morre aos 85 anos",
+      "en": "Comediante , ambientalista e referência da TV britânica , Bill Oddie morre aos 85 anos"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "POLITICS",
+     "score": 100,
+     "url": "https://noticiasdatv.uol.com.br/noticia/celebridades/comediante-ambientalista-e-referencia-da-tv-britanica-bill-oddie-morre-aos-85-anos-154525",
+     "outlet": "noticiasdatv.uol.com.br",
+     "publishedAt": "2026-07-27T12:15:00Z",
+     "language": "Portuguese",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "BR",
+     "relatedCountries": [
+      "BR"
+     ],
+     "startedAt": "2026-07-27T12:15:00Z",
+     "durationHours": null
+    },
     {
      "id": "w-822c947688",
      "kind": "WIKI",
@@ -698,6 +637,37 @@
      "durationHours": null
     },
     {
+     "id": "n-31c4c663a7",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Ebola : RD do Congo registra 1 . 000 novos casos em dez dias - 27 / 07 / 2026 - Equilíbrio e Saúde",
+      "en": "Ebola : RD do Congo registra 1 . 000 novos casos em dez dias - 27 / 07 / 2026 - Equilíbrio e Saúde"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 96,
+     "url": "https://www1.folha.uol.com.br/equilibrioesaude/2026/07/republica-democratica-do-congo-registra-1000-novos-casos-de-ebola-em-dez-dias.shtml",
+     "outlet": "folha.uol.com.br",
+     "publishedAt": "2026-07-27T12:15:00Z",
+     "language": "Portuguese",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "BR",
+     "relatedCountries": [
+      "BR"
+     ],
+     "startedAt": "2026-07-27T12:15:00Z",
+     "durationHours": null
+    },
+    {
      "id": "w-73d5e96e4d",
      "kind": "WIKI",
      "title": {
@@ -730,6 +700,37 @@
      "durationHours": null
     },
     {
+     "id": "n-e005fb8dd7",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Aeroporto de Salvador lança assistente virtual com IA generativa",
+      "en": "Aeroporto de Salvador lança assistente virtual com IA generativa"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 92,
+     "url": "https://aeromagazine.uol.com.br/artigo/salvador-bahia-airport-assistente-virtual-ia-generativa-atendimento-passageiros.html",
+     "outlet": "aeromagazine.uol.com.br",
+     "publishedAt": "2026-07-27T12:15:00Z",
+     "language": "Portuguese",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "BR",
+     "relatedCountries": [
+      "BR"
+     ],
+     "startedAt": "2026-07-27T12:15:00Z",
+     "durationHours": null
+    },
+    {
      "id": "w-044b0b750e",
      "kind": "WIKI",
      "title": {
@@ -758,9 +759,103 @@
      "relatedCountries": [
       "BR",
       "AR",
-      "ZA"
+      "ZA",
+      "PH"
      ],
      "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "n-6f957d0e58",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Ex - musa relembra sucesso dos anos 80 e reflete sobre a fama",
+      "en": "Ex - musa relembra sucesso dos anos 80 e reflete sobre a fama"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 88,
+     "url": "https://www.uol.com.br/splash/noticias/2026/07/27/ex-musa-relembra-sucesso-dos-anos-80-e-conta-que-nao-sente-saudade-da-fama.ghtm",
+     "outlet": "uol.com.br",
+     "publishedAt": "2026-07-27T12:15:00Z",
+     "language": "Portuguese",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "BR",
+     "relatedCountries": [
+      "BR"
+     ],
+     "startedAt": "2026-07-27T12:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-32e5540bcf",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Resort de luxo de 400 hectares poderá receber operaes dos eVTOL",
+      "en": "Resort de luxo de 400 hectares poderá receber operaes dos eVTOL"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 84,
+     "url": "https://aeromagazine.uol.com.br/artigo/vertical-aerospace-vic-properties-mobilidade-aerea-eletrica-portugal-pinheirinho.html",
+     "outlet": "aeromagazine.uol.com.br",
+     "publishedAt": "2026-07-27T12:15:00Z",
+     "language": "Portuguese",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "BR",
+     "relatedCountries": [
+      "BR"
+     ],
+     "startedAt": "2026-07-27T12:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-bf06d5c5b5",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Zé Felipe já foi citado por ex de Lara Jucá em música",
+      "en": "Zé Felipe já foi citado por ex de Lara Jucá em música"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 80,
+     "url": "https://www.uol.com.br/splash/noticias/2026/07/27/influencer-vista-com-ze-felipe-teve-termino-polemico-com-rapper-orochi.ghtm",
+     "outlet": "uol.com.br",
+     "publishedAt": "2026-07-27T12:15:00Z",
+     "language": "Portuguese",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "BR",
+     "relatedCountries": [
+      "BR"
+     ],
+     "startedAt": "2026-07-27T12:15:00Z",
      "durationHours": null
     },
     {
@@ -796,6 +891,130 @@
      "durationHours": null
     },
     {
+     "id": "n-846a2b9f33",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Motorista é detido por suspeita de embriaguez após acidente com feridos na PR - 218",
+      "en": "Motorista é detido por suspeita de embriaguez após acidente com feridos na PR - 218"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 76,
+     "url": "https://tnonline.uol.com.br/noticias/arapongas/motorista-e-detido-por-suspeita-de-embriaguez-apos-acidente-com-feridos-na-pr-218-1121205",
+     "outlet": "tnonline.uol.com.br",
+     "publishedAt": "2026-07-27T12:15:00Z",
+     "language": "Portuguese",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "BR",
+     "relatedCountries": [
+      "BR"
+     ],
+     "startedAt": "2026-07-27T12:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-04cb9621e4",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Homem é preso com motoneta adulterada em Arapongas",
+      "en": "Homem é preso com motoneta adulterada em Arapongas"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 72,
+     "url": "https://tnonline.uol.com.br/noticias/arapongas/homem-e-preso-com-motoneta-adulterada-em-arapongas-1121207",
+     "outlet": "tnonline.uol.com.br",
+     "publishedAt": "2026-07-27T12:15:00Z",
+     "language": "Portuguese",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "BR",
+     "relatedCountries": [
+      "BR"
+     ],
+     "startedAt": "2026-07-27T12:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-c9f93d7170",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Mulher de 62 anos morre após complicaes de pneumonia em Apucarana",
+      "en": "Mulher de 62 anos morre após complicaes de pneumonia em Apucarana"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 68,
+     "url": "https://tnonline.uol.com.br/noticias/apucarana/mulher-de-62-anos-morre-apos-complicacoes-de-pneumonia-em-apucarana-1121204",
+     "outlet": "tnonline.uol.com.br",
+     "publishedAt": "2026-07-27T12:15:00Z",
+     "language": "Portuguese",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "BR",
+     "relatedCountries": [
+      "BR"
+     ],
+     "startedAt": "2026-07-27T12:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-0c80e628c5",
+     "kind": "NEWS",
+     "title": {
+      "ja": "A Nobreza do Amor : Tonho flagra Alika com outro , e casamento fica por um fio",
+      "en": "A Nobreza do Amor : Tonho flagra Alika com outro , e casamento fica por um fio"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 64,
+     "url": "https://natelinha.uol.com.br/novelas/2026/07/27/a-nobreza-do-amor-tonho-flagra-alika-com-outro-e-casamento-fica-por-um-fio-245217.php",
+     "outlet": "natelinha.uol.com.br",
+     "publishedAt": "2026-07-27T12:15:00Z",
+     "language": "Portuguese",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "BR",
+     "relatedCountries": [
+      "BR"
+     ],
+     "startedAt": "2026-07-27T12:15:00Z",
+     "durationHours": null
+    },
+    {
      "id": "w-66b27417d3",
      "kind": "WIKI",
      "title": {
@@ -820,11 +1039,10 @@
      "scope": "GLOBAL",
      "change": 0,
      "status": "stable",
-     "origin": "PH",
+     "origin": "SG",
      "relatedCountries": [
       "BR",
       "ZA",
-      "NG",
       "TH",
       "PH",
       "SG"
@@ -1016,7 +1234,6 @@
      "relatedCountries": [
       "US",
       "CA",
-      "NO",
       "PH"
      ],
      "startedAt": null,
@@ -1502,42 +1719,11 @@
   },
   {
    "code": "DE",
-   "activityScore": 99,
+   "activityScore": 88,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
-    {
-     "id": "n-2732322280",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Rapper Prinz Pi beendet seine Karriere : » In den Steaming - Kosmos passt meine Musik einfach nicht «",
-      "en": "Rapper Prinz Pi beendet seine Karriere : » In den Steaming - Kosmos passt meine Musik einfach nicht «"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "TECH",
-     "score": 100,
-     "url": "https://www.spiegel.de/kultur/rapper-prinz-pi-beendet-seine-karriere-in-den-steaming-kosmos-passt-meine-musik-einfach-nicht-a-f7373c34-dfb8-4701-94b5-f1972bd8121d",
-     "outlet": "spiegel.de",
-     "publishedAt": "2026-07-27T14:00:00Z",
-     "language": "German",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "DE",
-     "relatedCountries": [
-      "DE"
-     ],
-     "startedAt": "2026-07-27T14:00:00Z",
-     "durationHours": null
-    },
     {
      "id": "w-344f28ff9a",
      "kind": "WIKI",
@@ -1572,223 +1758,6 @@
      "durationHours": null
     },
     {
-     "id": "n-594135ac2a",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Porsche baut weitere 5000 Stellen ab",
-      "en": "Porsche baut weitere 5000 Stellen ab"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 96,
-     "url": "https://www.spiegel.de/wirtschaft/unternehmen/porsche-baut-weitere-5000-stellen-ab-a-c7217215-0e12-4428-996f-cd2731779394",
-     "outlet": "spiegel.de",
-     "publishedAt": "2026-07-27T14:00:00Z",
-     "language": "German",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "DE",
-     "relatedCountries": [
-      "DE"
-     ],
-     "startedAt": "2026-07-27T14:00:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-7534a14630",
-     "kind": "NEWS",
-     "title": {
-      "ja": "2025 wurden deutlich weniger Minderjährige in Obhut genommen als im Vorjahr",
-      "en": "2025 wurden deutlich weniger Minderjährige in Obhut genommen als im Vorjahr"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 92,
-     "url": "https://www.spiegel.de/panorama/justiz/2025-wurden-deutlich-weniger-minderjaehrige-in-obhut-genommen-als-im-vorjahr-a-b7057f75-b858-4f0c-9f79-a44c53a04e0f",
-     "outlet": "spiegel.de",
-     "publishedAt": "2026-07-27T10:15:00Z",
-     "language": "German",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "DE",
-     "relatedCountries": [
-      "DE"
-     ],
-     "startedAt": "2026-07-27T10:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-5eea564910",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Hoppermann soll neue CDU - Generalsekretärin werden",
-      "en": "Hoppermann soll neue CDU - Generalsekretärin werden"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 88,
-     "url": "https://www.bild.de/politik/hoppermann-soll-neue-cdu-generalsekretaerin-werden-6a671ad6dc2b0bab191a7cbd",
-     "outlet": "bild.de",
-     "publishedAt": "2026-07-27T10:15:00Z",
-     "language": "German",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "DE",
-     "relatedCountries": [
-      "DE"
-     ],
-     "startedAt": "2026-07-27T10:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-15f7b10613",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Iran : Darum greift Donald Trump plötzlich die Mullahs nicht mehr an",
-      "en": "Iran : Darum greift Donald Trump plötzlich die Mullahs nicht mehr an"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 84,
-     "url": "https://www.bild.de/politik/ausland-und-internationales/iran-darum-greift-donald-trump-ploetzlich-die-mullahs-nicht-mehr-an-6a66fc69dc2b0bab191a7a7a",
-     "outlet": "bild.de",
-     "publishedAt": "2026-07-27T10:15:00Z",
-     "language": "German",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "DE",
-     "relatedCountries": [
-      "DE"
-     ],
-     "startedAt": "2026-07-27T10:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-2e3d064f49",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Roboter übernehmen bald jeden Beruf : Elon Musk : Niemand muss in Zukunft noch arbeiten",
-      "en": "Roboter übernehmen bald jeden Beruf : Elon Musk : Niemand muss in Zukunft noch arbeiten"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "TECH",
-     "score": 80,
-     "url": "https://www.bild.de/politik/roboter-uebernehmen-bald-jeden-beruf-elon-musk-niemand-muss-in-zukunft-noch-arbeiten-6a6709d836ccf40cc9c50eb5",
-     "outlet": "bild.de",
-     "publishedAt": "2026-07-27T10:15:00Z",
-     "language": "German",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "DE",
-     "relatedCountries": [
-      "DE"
-     ],
-     "startedAt": "2026-07-27T10:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-ada9e345e0",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Schauspieler Johannes Krisch ist tot : Bekannt aus  Tatort  und  SOKO",
-      "en": "Schauspieler Johannes Krisch ist tot : Bekannt aus  Tatort  und  SOKO"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WORLD",
-     "score": 76,
-     "url": "https://www.t-online.de/unterhaltung/stars/id_101361918/schauspieler-johannes-krisch-ist-tot-bekannt-aus-tatort-und-soko-.html",
-     "outlet": "t-online.de",
-     "publishedAt": "2026-07-27T12:15:00Z",
-     "language": "German",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "DE",
-     "relatedCountries": [
-      "DE"
-     ],
-     "startedAt": "2026-07-27T12:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-ae9f1010ba",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Spritpreise : Benzin und Diesel an den Tankstellen etwas günstiger",
-      "en": "Spritpreise : Benzin und Diesel an den Tankstellen etwas günstiger"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WORLD",
-     "score": 72,
-     "url": "https://www.t-online.de/mobilitaet/aktuelles/id_101361736/spritpreise-benzin-und-diesel-an-den-tankstellen-etwas-guenstiger.html",
-     "outlet": "t-online.de",
-     "publishedAt": "2026-07-27T12:15:00Z",
-     "language": "German",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "DE",
-     "relatedCountries": [
-      "DE"
-     ],
-     "startedAt": "2026-07-27T12:15:00Z",
-     "durationHours": null
-    },
-    {
      "id": "w-e9e3fa4c98",
      "kind": "WIKI",
      "title": {
@@ -1818,37 +1787,6 @@
       "DE"
      ],
      "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "n-0f5277b4da",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Annika Raßbach :  Bares für Rares - Star warnt vor Betrugsmasche",
-      "en": "Annika Raßbach :  Bares für Rares - Star warnt vor Betrugsmasche"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "ENTERTAINMENT",
-     "score": 68,
-     "url": "https://www.t-online.de/unterhaltung/tv/id_101361416/annika-rassbach-bares-fuer-rares-star-warnt-vor-betrugsmasche.html",
-     "outlet": "t-online.de",
-     "publishedAt": "2026-07-27T12:15:00Z",
-     "language": "German",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "DE",
-     "relatedCountries": [
-      "DE"
-     ],
-     "startedAt": "2026-07-27T12:15:00Z",
      "durationHours": null
     },
     {
@@ -2583,11 +2521,42 @@
   },
   {
    "code": "FR",
-   "activityScore": 89,
+   "activityScore": 99,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
+    {
+     "id": "n-bd7a2c2f0f",
+     "kind": "NEWS",
+     "title": {
+      "ja": "En pertes , Shein dévoile des faiblesses inattendues avant son entrée en Bourse",
+      "en": "En pertes , Shein dévoile des faiblesses inattendues avant son entrée en Bourse"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "TECH",
+     "score": 100,
+     "url": "https://www.lefigaro.fr/economie/en-pertes-shein-devoile-des-faiblesses-inattendues-avant-son-entree-en-bourse-20260727",
+     "outlet": "lefigaro.fr",
+     "publishedAt": "2026-07-27T22:00:00Z",
+     "language": "French",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": "2026-07-27T22:00:00Z",
+     "durationHours": null
+    },
     {
      "id": "w-8b377c2bd5",
      "kind": "WIKI",
@@ -2624,6 +2593,223 @@
      "durationHours": null
     },
     {
+     "id": "n-7a3ac34818",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Hongrie , Suède , Islande … Qui pourrait rejoindre encore la zone euro ?",
+      "en": "Hongrie , Suède , Islande … Qui pourrait rejoindre encore la zone euro ?"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "TECH",
+     "score": 96,
+     "url": "https://www.lefigaro.fr/conjoncture/hongrie-suede-islande-qui-pourrait-rejoindre-encore-la-zone-euro-20260727",
+     "outlet": "lefigaro.fr",
+     "publishedAt": "2026-07-27T22:00:00Z",
+     "language": "French",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": "2026-07-27T22:00:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-5783345e74",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Comment la France compte gérer son immobilier avec la création dune foncière de l  État",
+      "en": "Comment la France compte gérer son immobilier avec la création dune foncière de l  État"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 92,
+     "url": "https://www.lefigaro.fr/economie/comment-la-france-compte-gerer-son-immobilier-avec-la-creation-d-une-fonciere-de-l-etat-20260727",
+     "outlet": "lefigaro.fr",
+     "publishedAt": "2026-07-27T22:00:00Z",
+     "language": "French",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": "2026-07-27T22:00:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-3b11e7571b",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Les 12 travaux dAstérix sur W9 : il existe une incroyable et savoureuse connexion avec lunivers ... de The Witcher ! - Actus Ciné",
+      "en": "Les 12 travaux dAstérix sur W9 : il existe une incroyable et savoureuse connexion avec lunivers ... de The Witcher ! - Actus Ciné"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 88,
+     "url": "https://www.allocine.fr:443/article/fichearticle_gen_carticle=1000214274.html",
+     "outlet": "allocine.fr",
+     "publishedAt": "2026-07-27T21:15:00Z",
+     "language": "French",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": "2026-07-27T21:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-87bcfff004",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Quiz Cinéma : seuls les vrais fans de Spider - Man peuvent faire 15 / 15 !",
+      "en": "Quiz Cinéma : seuls les vrais fans de Spider - Man peuvent faire 15 / 15 !"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "TECH",
+     "score": 84,
+     "url": "https://www.allocine.fr:443/article/fichearticle_gen_carticle=1000214916.html",
+     "outlet": "allocine.fr",
+     "publishedAt": "2026-07-27T21:15:00Z",
+     "language": "French",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": "2026-07-27T21:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-916e61e373",
+     "kind": "NEWS",
+     "title": {
+      "ja": "8 , 9 millions dentrées : cest le plus gros succès cinéma au box - office France de 2025 et cest aussi le meilleur film de science - fiction de cette année - là !",
+      "en": "8 , 9 millions dentrées : cest le plus gros succès cinéma au box - office France de 2025 et cest aussi le meilleur film de science - fiction de cette année - là !"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "ENTERTAINMENT",
+     "score": 80,
+     "url": "https://www.allocine.fr:443/article/fichearticle_gen_carticle=1000213505.html",
+     "outlet": "allocine.fr",
+     "publishedAt": "2026-07-27T21:15:00Z",
+     "language": "French",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": "2026-07-27T21:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-7bb0d4e170",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Le pactole de Pogacar , la récolte de Carapaz et Pedersen : on fait le bilan des primes versées sur le Tour de France 2026",
+      "en": "Le pactole de Pogacar , la récolte de Carapaz et Pedersen : on fait le bilan des primes versées sur le Tour de France 2026"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "TECH",
+     "score": 76,
+     "url": "https://www.lequipe.fr/Cyclisme-sur-route/Actualites/Le-pactole-de-pogacar-la-recolte-de-carapaz-et-pedersen-on-fait-le-bilan-des-primes-versees-sur-le-tour-de-france-2026/1707304",
+     "outlet": "lequipe.fr",
+     "publishedAt": "2026-07-27T12:15:00Z",
+     "language": "French",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": "2026-07-27T12:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-b2f5dfe1bd",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Sébastien Ogier retrouve son copilote historique Julien Ingrassia à loccasion du Rallye de Finlande",
+      "en": "Sébastien Ogier retrouve son copilote historique Julien Ingrassia à loccasion du Rallye de Finlande"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 72,
+     "url": "https://www.lequipe.fr/Rallye/Actualites/Sebastien-ogier-retrouve-son-copilote-historique-julien-ingrassia-a-l-occasion-du-rallye-de-finlande/1707314",
+     "outlet": "lequipe.fr",
+     "publishedAt": "2026-07-27T12:15:00Z",
+     "language": "French",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": "2026-07-27T12:15:00Z",
+     "durationHours": null
+    },
+    {
      "id": "w-c794f81f99",
      "kind": "WIKI",
      "title": {
@@ -2656,6 +2842,37 @@
      "durationHours": null
     },
     {
+     "id": "n-47517ae208",
+     "kind": "NEWS",
+     "title": {
+      "ja": "« Il peut désormais sasseoir à la table des géants » : la presse internationale emballée par le cinquième triomphe de Tadej Pogacar sur le Tour de France",
+      "en": "« Il peut désormais sasseoir à la table des géants » : la presse internationale emballée par le cinquième triomphe de Tadej Pogacar sur le Tour de France"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "TECH",
+     "score": 68,
+     "url": "https://www.lequipe.fr/Cyclisme-sur-route/Actualites/-il-peut-desormais-etre-tutelaire-des-geants-la-presse-internationale-emballee-par-le-cinquieme-triomphe-de-tadej-pogacar-sur-le-tour-de-france/1707347",
+     "outlet": "lequipe.fr",
+     "publishedAt": "2026-07-27T12:15:00Z",
+     "language": "French",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": "2026-07-27T12:15:00Z",
+     "durationHours": null
+    },
+    {
      "id": "w-45f89e8f66",
      "kind": "WIKI",
      "title": {
@@ -2685,6 +2902,37 @@
       "FR"
      ],
      "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "n-36fbdfb062",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Claude Cowork pouvait fouiller tout votre Mac sans jamais demander la moindre permission",
+      "en": "Claude Cowork pouvait fouiller tout votre Mac sans jamais demander la moindre permission"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "TECH",
+     "score": 64,
+     "url": "https://www.01net.com/actualites/claude-cowork-pouvait-fouiller-tout-votre-mac-sans-jamais-demander-la-moindre-permission.html",
+     "outlet": "01net.com",
+     "publishedAt": "2026-07-27T13:00:00Z",
+     "language": "French",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": "2026-07-27T13:00:00Z",
      "durationHours": null
     },
     {
@@ -2852,11 +3100,42 @@
   },
   {
    "code": "GB",
-   "activityScore": 77,
+   "activityScore": 99,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
+    {
+     "id": "n-47bb2ee252",
+     "kind": "NEWS",
+     "title": {
+      "ja": "How  fire - generated thunderstorm make wildfires more deadly",
+      "en": "How  fire - generated thunderstorm make wildfires more deadly"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WEATHER",
+     "score": 100,
+     "url": "https://www.bbc.co.uk/news/articles/c2350xnl4j5o",
+     "outlet": "bbc.co.uk",
+     "publishedAt": "2026-07-27T12:15:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "GB",
+     "relatedCountries": [
+      "GB"
+     ],
+     "startedAt": "2026-07-27T12:15:00Z",
+     "durationHours": null
+    },
     {
      "id": "w-6d8fa4ae76",
      "kind": "WIKI",
@@ -2889,6 +3168,68 @@
       "NZ"
      ],
      "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "n-6ff7a264b1",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Man guilty of attempted murder after stabbing ex - partner in Carmarthen Park",
+      "en": "Man guilty of attempted murder after stabbing ex - partner in Carmarthen Park"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "CULTURE",
+     "score": 96,
+     "url": "https://www.bbc.co.uk/news/articles/ckg38md8k40o",
+     "outlet": "bbc.co.uk",
+     "publishedAt": "2026-07-27T13:15:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "GB",
+     "relatedCountries": [
+      "GB"
+     ],
+     "startedAt": "2026-07-27T13:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-1f881ca91c",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Anger , shock and grief - the aftermath of the attack on Berlin Pride",
+      "en": "Anger , shock and grief - the aftermath of the attack on Berlin Pride"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 92,
+     "url": "https://www.bbc.co.uk/news/articles/cy9wv74qje9o",
+     "outlet": "bbc.co.uk",
+     "publishedAt": "2026-07-27T13:30:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "GB",
+     "relatedCountries": [
+      "GB"
+     ],
+     "startedAt": "2026-07-27T13:30:00Z",
      "durationHours": null
     },
     {
@@ -3689,7 +4030,7 @@
   {
    "code": "IN",
    "activityScore": 95,
-   "risingCount": 4,
+   "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
@@ -3716,8 +4057,8 @@
       "WIKIPEDIA"
      ],
      "scope": "LOCAL",
-     "change": 233.3,
-     "status": "rising",
+     "change": 0,
+     "status": "peak",
      "origin": "IN",
      "relatedCountries": [
       "IN"
@@ -3748,8 +4089,8 @@
       "WIKIPEDIA"
      ],
      "scope": "GLOBAL",
-     "change": 216.7,
-     "status": "rising",
+     "change": 0,
+     "status": "peak",
      "origin": "IN",
      "relatedCountries": [
       "IN",
@@ -3782,8 +4123,8 @@
       "WIKIPEDIA"
      ],
      "scope": "GLOBAL",
-     "change": 170,
-     "status": "rising",
+     "change": 0,
+     "status": "stable",
      "origin": "IN",
      "relatedCountries": [
       "IN",
@@ -3815,8 +4156,8 @@
       "WIKIPEDIA"
      ],
      "scope": "GLOBAL",
-     "change": 166.7,
-     "status": "rising",
+     "change": 0,
+     "status": "stable",
      "origin": "US",
      "relatedCountries": [
       "US",
@@ -3861,8 +4202,8 @@
       "WIKIPEDIA"
      ],
      "scope": "LOCAL",
-     "change": -23,
-     "status": "declining",
+     "change": 0,
+     "status": "stable",
      "origin": "IN",
      "relatedCountries": [
       "IN"
@@ -3894,7 +4235,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "IN",
      "relatedCountries": [
       "IN"
@@ -3925,7 +4266,7 @@
       "WIKIPEDIA"
      ],
      "scope": "LOCAL",
-     "change": 13.3,
+     "change": 0,
      "status": "stable",
      "origin": "IN",
      "relatedCountries": [
@@ -3958,7 +4299,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "IN",
      "relatedCountries": [
       "IN"
@@ -4505,42 +4846,11 @@
   },
   {
    "code": "KR",
-   "activityScore": 99,
+   "activityScore": 80,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
-    {
-     "id": "n-5376436a89",
-     "kind": "NEWS",
-     "title": {
-      "ja": "히가시노 게이고",
-      "en": "히가시노 게이고"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 100,
-     "url": "https://terms.naver.com/entry.naver?docId=2078782&cid=44546&categoryId=44546",
-     "outlet": "terms.naver.com",
-     "publishedAt": "2026-07-28T05:45:00Z",
-     "language": "Korean",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "KR",
-     "relatedCountries": [
-      "KR"
-     ],
-     "startedAt": "2026-07-28T05:45:00Z",
-     "durationHours": null
-    },
     {
      "id": "w-d963ca6526",
      "kind": "WIKI",
@@ -4571,254 +4881,6 @@
       "KR"
      ],
      "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "n-c82a5c7c33",
-     "kind": "NEWS",
-     "title": {
-      "ja": "쿠팡 화재  꺼졌어도 시민 노출 기록은 남겨야 [ 왜냐면 ]",
-      "en": "쿠팡 화재  꺼졌어도 시민 노출 기록은 남겨야 [ 왜냐면 ]"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 96,
-     "url": "https://www.hani.co.kr/arti/opinion/because/1270211.html",
-     "outlet": "hani.co.kr",
-     "publishedAt": "2026-07-27T12:15:00Z",
-     "language": "Korean",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "KR",
-     "relatedCountries": [
-      "KR"
-     ],
-     "startedAt": "2026-07-27T12:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-c53ace7a59",
-     "kind": "NEWS",
-     "title": {
-      "ja": "국힘 윤리위 ,  징계정국  가동 … 권영진 · 조경태 · 진종오 징계 개시",
-      "en": "국힘 윤리위 ,  징계정국  가동 … 권영진 · 조경태 · 진종오 징계 개시"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 92,
-     "url": "https://www.hani.co.kr/arti/politics/politics_general/1270216.html",
-     "outlet": "hani.co.kr",
-     "publishedAt": "2026-07-27T12:15:00Z",
-     "language": "Korean",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "KR",
-     "relatedCountries": [
-      "KR"
-     ],
-     "startedAt": "2026-07-27T12:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-83c67a42fb",
-     "kind": "NEWS",
-     "title": {
-      "ja": "디아스포라  동포들이 붉은 유니폼을 입은 이유 [ 왜냐면 ]",
-      "en": "디아스포라  동포들이 붉은 유니폼을 입은 이유 [ 왜냐면 ]"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 88,
-     "url": "https://www.hani.co.kr/arti/opinion/because/1270213.html",
-     "outlet": "hani.co.kr",
-     "publishedAt": "2026-07-27T12:15:00Z",
-     "language": "Korean",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "KR",
-     "relatedCountries": [
-      "KR"
-     ],
-     "startedAt": "2026-07-27T12:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-d0f5c9e6ed",
-     "kind": "NEWS",
-     "title": {
-      "ja": "뚫어지도록 , 다시",
-      "en": "뚫어지도록 , 다시"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 84,
-     "url": "http://h21.hani.co.kr/arti/photo/story/59662.html",
-     "outlet": "h21.hani.co.kr",
-     "publishedAt": "2026-07-27T10:15:00Z",
-     "language": "Korean",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "KR",
-     "relatedCountries": [
-      "KR"
-     ],
-     "startedAt": "2026-07-27T10:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-9b7a210123",
-     "kind": "NEWS",
-     "title": {
-      "ja": "윤석열  선거법 위반  징역형 집유 … 확정 땐 국힘 397억 반환해야",
-      "en": "윤석열  선거법 위반  징역형 집유 … 확정 땐 국힘 397억 반환해야"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "POLITICS",
-     "score": 80,
-     "url": "http://h21.hani.co.kr/arti/society/society_general/59679.html",
-     "outlet": "h21.hani.co.kr",
-     "publishedAt": "2026-07-27T10:15:00Z",
-     "language": "Korean",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "KR",
-     "relatedCountries": [
-      "KR"
-     ],
-     "startedAt": "2026-07-27T10:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-7745963234",
-     "kind": "NEWS",
-     "title": {
-      "ja": "명태균의  황금폰 , 지나고 보니  판도라 상자  맞았다",
-      "en": "명태균의  황금폰 , 지나고 보니  판도라 상자  맞았다"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 76,
-     "url": "http://h21.hani.co.kr/arti/politics/politics_general/59670.html",
-     "outlet": "h21.hani.co.kr",
-     "publishedAt": "2026-07-28T00:30:00Z",
-     "language": "Korean",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "KR",
-     "relatedCountries": [
-      "KR"
-     ],
-     "startedAt": "2026-07-28T00:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-87393d53dc",
-     "kind": "NEWS",
-     "title": {
-      "ja": "[ 사설 ] 누수는 눈감고  N잡러  겨냥한 건보 개편",
-      "en": "[ 사설 ] 누수는 눈감고  N잡러  겨냥한 건보 개편"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 72,
-     "url": "https://www.mt.co.kr/opinion/2026/07/28/2026072712064133993",
-     "outlet": "mt.co.kr",
-     "publishedAt": "2026-07-28T01:15:00Z",
-     "language": "Korean",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "KR",
-     "relatedCountries": [
-      "KR"
-     ],
-     "startedAt": "2026-07-28T01:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-5b67378648",
-     "kind": "NEWS",
-     "title": {
-      "ja": "[ 사설 ] 송전망 지연 , AI · 반도체 전략 발목 잡는다",
-      "en": "[ 사설 ] 송전망 지연 , AI · 반도체 전략 발목 잡는다"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "TECH",
-     "score": 68,
-     "url": "https://www.mt.co.kr/opinion/2026/07/28/2026072716161745634",
-     "outlet": "mt.co.kr",
-     "publishedAt": "2026-07-27T20:45:00Z",
-     "language": "Korean",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "KR",
-     "relatedCountries": [
-      "KR"
-     ],
-     "startedAt": "2026-07-27T20:45:00Z",
      "durationHours": null
     },
     {
@@ -5049,11 +5111,42 @@
   },
   {
    "code": "MX",
-   "activityScore": 86,
+   "activityScore": 99,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
+    {
+     "id": "n-fbac5b365c",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Yalitza Aparicio revela por primera vez cómo vivió el éxito de Roma ocho años después",
+      "en": "Yalitza Aparicio revela por primera vez cómo vivió el éxito de Roma ocho años después"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 100,
+     "url": "https://www.sdpnoticias.com/espectaculos/famosos/yalitza-aparicio-revela-por-primera-vez-como-vivio-el-exito-de-roma-ocho-anos-despues/",
+     "outlet": "sdpnoticias.com",
+     "publishedAt": "2026-07-28T01:15:00Z",
+     "language": "Spanish",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "MX",
+     "relatedCountries": [
+      "MX"
+     ],
+     "startedAt": "2026-07-28T01:15:00Z",
+     "durationHours": null
+    },
     {
      "id": "w-6e07b31e76",
      "kind": "WIKI",
@@ -5084,6 +5177,68 @@
       "MX"
      ],
      "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "n-7baa3391ed",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Red de huachicol en Ramos Arizpe tendría vínculo con el caso Ernesto Ruffo",
+      "en": "Red de huachicol en Ramos Arizpe tendría vínculo con el caso Ernesto Ruffo"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 96,
+     "url": "https://www.sdpnoticias.com/estados/coahuila/red-de-huachicol-en-ramos-arizpe-tendria-vinculo-con-el-caso-ernesto-ruffo/",
+     "outlet": "sdpnoticias.com",
+     "publishedAt": "2026-07-28T01:15:00Z",
+     "language": "Spanish",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "MX",
+     "relatedCountries": [
+      "MX"
+     ],
+     "startedAt": "2026-07-28T01:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-3ee281debd",
+     "kind": "NEWS",
+     "title": {
+      "ja": "UNAM recibe pliego petitorio de aspirantes que piden repetir examen de admisión",
+      "en": "UNAM recibe pliego petitorio de aspirantes que piden repetir examen de admisión"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 92,
+     "url": "https://www.sdpnoticias.com/mexico/unam-recibe-pliego-petitorio-de-aspirantes-que-piden-repetir-examen-de-admision/",
+     "outlet": "sdpnoticias.com",
+     "publishedAt": "2026-07-28T01:15:00Z",
+     "language": "Spanish",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "MX",
+     "relatedCountries": [
+      "MX"
+     ],
+     "startedAt": "2026-07-28T01:15:00Z",
      "durationHours": null
     },
     {
@@ -5317,44 +5472,11 @@
   },
   {
    "code": "NG",
-   "activityScore": 86,
-   "risingCount": 1,
+   "activityScore": 88,
+   "risingCount": 2,
    "wikiPerCountry": true,
-   "wikiDate": "2026-07-26",
+   "wikiDate": "2026-07-27",
    "topics": [
-    {
-     "id": "w-b610a23f74",
-     "kind": "WIKI",
-     "title": {
-      "ja": "David Jonsson",
-      "en": "David Jonsson"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 100,
-     "url": "https://en.wikipedia.org/wiki/David_Jonsson",
-     "views": 3600,
-     "rank": 1,
-     "project": "en.wikipedia",
-     "publishedAt": null,
-     "keywords": [],
-     "sources": [
-      "WIKIPEDIA"
-     ],
-     "scope": "GLOBAL",
-     "change": 108.3,
-     "status": "rising",
-     "origin": "NG",
-     "relatedCountries": [
-      "NG",
-      "PH"
-     ],
-     "startedAt": null,
-     "durationHours": null
-    },
     {
      "id": "w-c73015ed2c",
      "kind": "WIKI",
@@ -5367,10 +5489,10 @@
       "en": ""
      },
      "category": "OTHER",
-     "score": 75,
+     "score": 100,
      "url": "https://en.wikipedia.org/wiki/Yan_Diomande",
-     "views": 2700,
-     "rank": 2,
+     "views": 2500,
+     "rank": 1,
      "project": "en.wikipedia",
      "publishedAt": null,
      "keywords": [],
@@ -5378,11 +5500,43 @@
       "WIKIPEDIA"
      ],
      "scope": "GLOBAL",
-     "change": -25,
-     "status": "declining",
+     "change": 33.3,
+     "status": "rising",
      "origin": "ES",
      "relatedCountries": [
       "ES",
+      "NG"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-8ef2afa7a5",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Danny Welbeck",
+      "en": "Danny Welbeck"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 72,
+     "url": "https://en.wikipedia.org/wiki/Danny_Welbeck",
+     "views": 1800,
+     "rank": 2,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "NG",
+     "relatedCountries": [
       "NG"
      ],
      "startedAt": null,
@@ -5400,9 +5554,9 @@
       "en": ""
      },
      "category": "ENTERTAINMENT",
-     "score": 56,
+     "score": 68,
      "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
-     "views": 2000,
+     "views": 1700,
      "rank": 3,
      "project": "en.wikipedia",
      "publishedAt": null,
@@ -5411,8 +5565,8 @@
       "WIKIPEDIA"
      ],
      "scope": "GLOBAL",
-     "change": -17.6,
-     "status": "declining",
+     "change": 21.4,
+     "status": "rising",
      "origin": "US",
      "relatedCountries": [
       "US",
@@ -5435,58 +5589,21 @@
      "durationHours": null
     },
     {
-     "id": "w-66b27417d3",
+     "id": "w-f3faa7271a",
      "kind": "WIKI",
      "title": {
-      "ja": ".xyz",
-      "en": ".xyz"
+      "ja": "XHamster",
+      "en": "XHamster"
      },
      "summary": {
       "ja": "",
       "en": ""
      },
      "category": "OTHER",
-     "score": 42,
-     "url": "https://en.wikipedia.org/wiki/.xyz",
-     "views": 1500,
+     "score": 56,
+     "url": "https://en.wikipedia.org/wiki/XHamster",
+     "views": 1400,
      "rank": 4,
-     "project": "en.wikipedia",
-     "publishedAt": null,
-     "keywords": [],
-     "sources": [
-      "WIKIPEDIA"
-     ],
-     "scope": "GLOBAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "PH",
-     "relatedCountries": [
-      "BR",
-      "ZA",
-      "NG",
-      "TH",
-      "PH",
-      "SG"
-     ],
-     "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "w-e34d743e21",
-     "kind": "WIKI",
-     "title": {
-      "ja": "Kristian Prenga",
-      "en": "Kristian Prenga"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 33,
-     "url": "https://en.wikipedia.org/wiki/Kristian_Prenga",
-     "views": 1200,
-     "rank": 5,
      "project": "en.wikipedia",
      "publishedAt": null,
      "keywords": [],
@@ -5496,6 +5613,38 @@
      "scope": "LOCAL",
      "change": 0,
      "status": "emerging",
+     "origin": "NG",
+     "relatedCountries": [
+      "NG"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-b610a23f74",
+     "kind": "WIKI",
+     "title": {
+      "ja": "David Jonsson",
+      "en": "David Jonsson"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 48,
+     "url": "https://en.wikipedia.org/wiki/David_Jonsson",
+     "views": 1200,
+     "rank": 5,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": -52,
+     "status": "declining",
      "origin": "NG",
      "relatedCountries": [
       "NG"
@@ -5780,7 +5929,7 @@
    "activityScore": 76,
    "risingCount": 0,
    "wikiPerCountry": true,
-   "wikiDate": "2026-07-26",
+   "wikiDate": "2026-07-27",
    "topics": [
     {
      "id": "w-4916ff9267",
@@ -5796,7 +5945,7 @@
      "category": "OTHER",
      "score": 100,
      "url": "https://no.wikipedia.org/wiki/Forside",
-     "views": 14600,
+     "views": 14200,
      "rank": 1,
      "project": "no.wikipedia",
      "publishedAt": null,
@@ -5807,6 +5956,38 @@
      "scope": "LOCAL",
      "change": 0,
      "status": "peak",
+     "origin": "NO",
+     "relatedCountries": [
+      "NO"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-d926ad8044",
+     "kind": "WIKI",
+     "title": {
+      "ja": "The Odyssey",
+      "en": "The Odyssey"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://no.wikipedia.org/wiki/The_Odyssey",
+     "views": 1900,
+     "rank": 2,
+     "project": "no.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "stable",
      "origin": "NO",
      "relatedCountries": [
       "NO"
@@ -5828,8 +6009,8 @@
      "category": "ENTERTAINMENT",
      "score": 30,
      "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
-     "views": 2100,
-     "rank": 2,
+     "views": 1800,
+     "rank": 3,
      "project": "en.wikipedia",
      "publishedAt": null,
      "keywords": [],
@@ -5861,38 +6042,6 @@
      "durationHours": null
     },
     {
-     "id": "w-d926ad8044",
-     "kind": "WIKI",
-     "title": {
-      "ja": "The Odyssey",
-      "en": "The Odyssey"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 30,
-     "url": "https://no.wikipedia.org/wiki/The_Odyssey",
-     "views": 1900,
-     "rank": 3,
-     "project": "no.wikipedia",
-     "publishedAt": null,
-     "keywords": [],
-     "sources": [
-      "WIKIPEDIA"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "stable",
-     "origin": "NO",
-     "relatedCountries": [
-      "NO"
-     ],
-     "startedAt": null,
-     "durationHours": null
-    },
-    {
      "id": "w-a33cbe7696",
      "kind": "WIKI",
      "title": {
@@ -5906,7 +6055,7 @@
      "category": "OTHER",
      "score": 30,
      "url": "https://no.wikipedia.org/wiki/Odysseen",
-     "views": 1800,
+     "views": 1700,
      "rank": 4,
      "project": "no.wikipedia",
      "publishedAt": null,
@@ -5925,11 +6074,11 @@
      "durationHours": null
     },
     {
-     "id": "w-0a92e9e0dd",
+     "id": "w-1d9841ae73",
      "kind": "WIKI",
      "title": {
-      "ja": "New Hampshire",
-      "en": "New Hampshire"
+      "ja": "Hebridene",
+      "en": "Hebridene"
      },
      "summary": {
       "ja": "",
@@ -5937,76 +6086,9 @@
      },
      "category": "OTHER",
      "score": 30,
-     "url": "https://en.wikipedia.org/wiki/New_Hampshire",
-     "views": 1800,
+     "url": "https://no.wikipedia.org/wiki/Hebridene",
+     "views": 1500,
      "rank": 5,
-     "project": "en.wikipedia",
-     "publishedAt": null,
-     "keywords": [],
-     "sources": [
-      "WIKIPEDIA"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "NO",
-     "relatedCountries": [
-      "NO"
-     ],
-     "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "w-a021c096c2",
-     "kind": "WIKI",
-     "title": {
-      "ja": "Odyssey",
-      "en": "Odyssey"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 30,
-     "url": "https://en.wikipedia.org/wiki/Odyssey",
-     "views": 1400,
-     "rank": 6,
-     "project": "en.wikipedia",
-     "publishedAt": null,
-     "keywords": [],
-     "sources": [
-      "WIKIPEDIA"
-     ],
-     "scope": "GLOBAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "US",
-     "relatedCountries": [
-      "US",
-      "CA",
-      "NO",
-      "PH"
-     ],
-     "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "w-ce80eed025",
-     "kind": "WIKI",
-     "title": {
-      "ja": "Robin Hood",
-      "en": "Robin Hood"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 30,
-     "url": "https://no.wikipedia.org/wiki/Robin_Hood",
-     "views": 1300,
-     "rank": 7,
      "project": "no.wikipedia",
      "publishedAt": null,
      "keywords": [],
@@ -6028,7 +6110,7 @@
   {
    "code": "NZ",
    "activityScore": 92,
-   "risingCount": 1,
+   "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
@@ -6056,7 +6138,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "NZ",
      "relatedCountries": [
       "NZ"
@@ -6087,8 +6169,8 @@
       "WIKIPEDIA"
      ],
      "scope": "GLOBAL",
-     "change": -16,
-     "status": "declining",
+     "change": 0,
+     "status": "stable",
      "origin": "US",
      "relatedCountries": [
       "US",
@@ -6134,7 +6216,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "NZ",
      "relatedCountries": [
       "NZ"
@@ -6166,7 +6248,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "NZ",
      "relatedCountries": [
       "NZ"
@@ -6197,7 +6279,7 @@
       "WIKIPEDIA"
      ],
      "scope": "GLOBAL",
-     "change": 6.8,
+     "change": 0,
      "status": "stable",
      "origin": "GB",
      "relatedCountries": [
@@ -6232,7 +6314,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "NZ",
      "relatedCountries": [
       "NZ"
@@ -6263,8 +6345,8 @@
       "WIKIPEDIA"
      ],
      "scope": "GLOBAL",
-     "change": 76.7,
-     "status": "rising",
+     "change": 0,
+     "status": "stable",
      "origin": "IN",
      "relatedCountries": [
       "IN",
@@ -6298,7 +6380,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "NZ",
      "relatedCountries": [
       "NZ"
@@ -6310,48 +6392,11 @@
   },
   {
    "code": "PH",
-   "activityScore": 79,
-   "risingCount": 0,
+   "activityScore": 89,
+   "risingCount": 2,
    "wikiPerCountry": true,
-   "wikiDate": "2026-07-26",
+   "wikiDate": "2026-07-27",
    "topics": [
-    {
-     "id": "w-66b27417d3",
-     "kind": "WIKI",
-     "title": {
-      "ja": ".xyz",
-      "en": ".xyz"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 100,
-     "url": "https://en.wikipedia.org/wiki/.xyz",
-     "views": 27700,
-     "rank": 1,
-     "project": "en.wikipedia",
-     "publishedAt": null,
-     "keywords": [],
-     "sources": [
-      "WIKIPEDIA"
-     ],
-     "scope": "GLOBAL",
-     "change": 6.4,
-     "status": "peak",
-     "origin": "PH",
-     "relatedCountries": [
-      "BR",
-      "ZA",
-      "NG",
-      "TH",
-      "PH",
-      "SG"
-     ],
-     "startedAt": null,
-     "durationHours": null
-    },
     {
      "id": "w-909799ec4d",
      "kind": "WIKI",
@@ -6364,10 +6409,10 @@
       "en": ""
      },
      "category": "ENTERTAINMENT",
-     "score": 55,
+     "score": 100,
      "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
-     "views": 15300,
-     "rank": 2,
+     "views": 12600,
+     "rank": 1,
      "project": "en.wikipedia",
      "publishedAt": null,
      "keywords": [],
@@ -6375,8 +6420,8 @@
       "WIKIPEDIA"
      ],
      "scope": "GLOBAL",
-     "change": -45,
-     "status": "declining",
+     "change": 81.8,
+     "status": "rising",
      "origin": "US",
      "relatedCountries": [
       "US",
@@ -6399,6 +6444,107 @@
      "durationHours": null
     },
     {
+     "id": "w-66b27417d3",
+     "kind": "WIKI",
+     "title": {
+      "ja": ".xyz",
+      "en": ".xyz"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 94,
+     "url": "https://en.wikipedia.org/wiki/.xyz",
+     "views": 11900,
+     "rank": 2,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "GLOBAL",
+     "change": -6,
+     "status": "peak",
+     "origin": "SG",
+     "relatedCountries": [
+      "BR",
+      "ZA",
+      "TH",
+      "PH",
+      "SG"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-ab0ddc029a",
+     "kind": "WIKI",
+     "title": {
+      "ja": "ChatGPT",
+      "en": "ChatGPT"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 57,
+     "url": "https://en.wikipedia.org/wiki/ChatGPT",
+     "views": 7200,
+     "rank": 3,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "GLOBAL",
+     "change": 90,
+     "status": "rising",
+     "origin": "BR",
+     "relatedCountries": [
+      "BR",
+      "PH"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-bec0fe81a8",
+     "kind": "WIKI",
+     "title": {
+      "ja": "2026 State of the Nation Address (Philippines)",
+      "en": "2026 State of the Nation Address (Philippines)"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 49,
+     "url": "https://en.wikipedia.org/wiki/2026_State_of_the_Nation_Address_(Philippines)",
+     "views": 6200,
+     "rank": 4,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "PH",
+     "relatedCountries": [
+      "PH"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
      "id": "w-91f9b3d429",
      "kind": "WIKI",
      "title": {
@@ -6412,8 +6558,8 @@
      "category": "OTHER",
      "score": 30,
      "url": "https://en.wikipedia.org/wiki/Agent_Kim_Reactivated",
-     "views": 6900,
-     "rank": 3,
+     "views": 3700,
+     "rank": 5,
      "project": "en.wikipedia",
      "publishedAt": null,
      "keywords": [],
@@ -6432,11 +6578,11 @@
      "durationHours": null
     },
     {
-     "id": "w-b610a23f74",
+     "id": "w-1d8cc43c60",
      "kind": "WIKI",
      "title": {
-      "ja": "David Jonsson",
-      "en": "David Jonsson"
+      "ja": "Pax Silica",
+      "en": "Pax Silica"
      },
      "summary": {
       "ja": "",
@@ -6444,54 +6590,20 @@
      },
      "category": "OTHER",
      "score": 30,
-     "url": "https://en.wikipedia.org/wiki/David_Jonsson",
-     "views": 5900,
-     "rank": 4,
+     "url": "https://en.wikipedia.org/wiki/Pax_Silica",
+     "views": 3400,
+     "rank": 6,
      "project": "en.wikipedia",
      "publishedAt": null,
      "keywords": [],
      "sources": [
       "WIKIPEDIA"
      ],
-     "scope": "GLOBAL",
+     "scope": "LOCAL",
      "change": 0,
      "status": "emerging",
-     "origin": "NG",
+     "origin": "PH",
      "relatedCountries": [
-      "NG",
-      "PH"
-     ],
-     "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "w-ab0ddc029a",
-     "kind": "WIKI",
-     "title": {
-      "ja": "ChatGPT",
-      "en": "ChatGPT"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 30,
-     "url": "https://en.wikipedia.org/wiki/ChatGPT",
-     "views": 4600,
-     "rank": 5,
-     "project": "en.wikipedia",
-     "publishedAt": null,
-     "keywords": [],
-     "sources": [
-      "WIKIPEDIA"
-     ],
-     "scope": "GLOBAL",
-     "change": -47.4,
-     "status": "declining",
-     "origin": "BR",
-     "relatedCountries": [
-      "BR",
       "PH"
      ],
      "startedAt": null,
@@ -6511,8 +6623,8 @@
      "category": "OTHER",
      "score": 30,
      "url": "https://en.wikipedia.org/wiki/Odyssey",
-     "views": 4200,
-     "rank": 6,
+     "views": 3100,
+     "rank": 7,
      "project": "en.wikipedia",
      "publishedAt": null,
      "keywords": [],
@@ -6526,18 +6638,17 @@
      "relatedCountries": [
       "US",
       "CA",
-      "NO",
       "PH"
      ],
      "startedAt": null,
      "durationHours": null
     },
     {
-     "id": "w-bd4dad9cee",
+     "id": "w-044b0b750e",
      "kind": "WIKI",
      "title": {
-      "ja": "Errol Spence Jr.",
-      "en": "Errol Spence Jr."
+      "ja": "特殊:近期變更",
+      "en": "特殊:近期變更"
      },
      "summary": {
       "ja": "",
@@ -6545,52 +6656,23 @@
      },
      "category": "OTHER",
      "score": 30,
-     "url": "https://en.wikipedia.org/wiki/Errol_Spence_Jr.",
-     "views": 4000,
-     "rank": 7,
-     "project": "en.wikipedia",
-     "publishedAt": null,
-     "keywords": [],
-     "sources": [
-      "WIKIPEDIA"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "PH",
-     "relatedCountries": [
-      "PH"
-     ],
-     "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "w-3cbc6d76a9",
-     "kind": "WIKI",
-     "title": {
-      "ja": "Someone, Someday",
-      "en": "Someone, Someday"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 30,
-     "url": "https://en.wikipedia.org/wiki/Someone%2C_Someday",
-     "views": 3600,
+     "url": "https://hak.wikipedia.org/wiki/%E7%89%B9%E6%AE%8A%3A%E8%BF%91%E6%9C%9F%E8%AE%8A%E6%9B%B4",
+     "views": 3100,
      "rank": 8,
-     "project": "en.wikipedia",
+     "project": "hak.wikipedia",
      "publishedAt": null,
      "keywords": [],
      "sources": [
       "WIKIPEDIA"
      ],
-     "scope": "LOCAL",
+     "scope": "GLOBAL",
      "change": 0,
      "status": "emerging",
-     "origin": "PH",
+     "origin": "BR",
      "relatedCountries": [
+      "BR",
+      "AR",
+      "ZA",
       "PH"
      ],
      "startedAt": null,
@@ -6895,7 +6977,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "SE",
      "relatedCountries": [
       "SE"
@@ -6958,7 +7040,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "SE",
      "relatedCountries": [
       "SE"
@@ -6989,7 +7071,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "SE",
      "relatedCountries": [
       "SE"
@@ -7020,6 +7102,37 @@
      ],
      "scope": "LOCAL",
      "change": 0,
+     "status": "peak",
+     "origin": "SE",
+     "relatedCountries": [
+      "SE"
+     ],
+     "startedAt": "2026-07-27T13:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-8e44d497f7",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Ställde ut döda människor – har avlidit | Världen",
+      "en": "Ställde ut döda människor – har avlidit | Världen"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 84,
+     "url": "https://www.expressen.se/nyheter/varlden/stallde-ut-doda-manniskor-har-avlidit/",
+     "outlet": "expressen.se",
+     "publishedAt": "2026-07-27T13:15:00Z",
+     "language": "Swedish",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
      "status": "emerging",
      "origin": "SE",
      "relatedCountries": [
@@ -7029,42 +7142,11 @@
      "durationHours": null
     },
     {
-     "id": "n-b20aed658a",
+     "id": "n-936da4ffd0",
      "kind": "NEWS",
      "title": {
-      "ja": "Ytterligare man som misstänktes för attacken i Berlin släppt",
-      "en": "Ytterligare man som misstänktes för attacken i Berlin släppt"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 84,
-     "url": "https://www.expressen.se/nyheter/expressen-direkt/?post=58f00dc5-e13a-4c03-84fc-f48d30383c56",
-     "outlet": "expressen.se",
-     "publishedAt": "2026-07-27T09:15:00Z",
-     "language": "Swedish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "SE",
-     "relatedCountries": [
-      "SE"
-     ],
-     "startedAt": "2026-07-27T09:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-c345c47b74",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Livmödrar opererades bort – utredning läggs ner",
-      "en": "Livmödrar opererades bort – utredning läggs ner"
+      "ja": "Bröderna Tate kvar i fängelse",
+      "en": "Bröderna Tate kvar i fängelse"
      },
      "summary": {
       "ja": "",
@@ -7072,9 +7154,9 @@
      },
      "category": "OTHER",
      "score": 80,
-     "url": "https://www.expressen.se/nyheter/expressen-direkt/?post=f127b50d-39d7-4252-988a-1f302a6678ee",
+     "url": "https://www.expressen.se/nyheter/expressen-direkt/?post=0fec165c-ab23-4c7e-8cbb-092f6a38445a",
      "outlet": "expressen.se",
-     "publishedAt": "2026-07-27T09:15:00Z",
+     "publishedAt": "2026-07-27T22:15:00Z",
      "language": "Swedish",
      "keywords": [],
      "sources": [
@@ -7087,7 +7169,7 @@
      "relatedCountries": [
       "SE"
      ],
-     "startedAt": "2026-07-27T09:15:00Z",
+     "startedAt": "2026-07-27T22:15:00Z",
      "durationHours": null
     },
     {
@@ -7113,7 +7195,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "SE",
      "relatedCountries": [
       "SE"
@@ -7122,21 +7204,21 @@
      "durationHours": null
     },
     {
-     "id": "n-381fde6449",
+     "id": "n-6b5fdc415d",
      "kind": "NEWS",
      "title": {
-      "ja": "Moské sattes i brand på ockuperade Västbanken – Senaste nytt om kriget i Gaza",
-      "en": "Moské sattes i brand på ockuperade Västbanken – Senaste nytt om kriget i Gaza"
+      "ja": "Debatt om klimatkrisen splittrar i Spanien – Väderläget i världen – följ senaste nytt",
+      "en": "Debatt om klimatkrisen splittrar i Spanien – Väderläget i världen – följ senaste nytt"
      },
      "summary": {
       "ja": "",
       "en": ""
      },
-     "category": "BUSINESS",
+     "category": "OTHER",
      "score": 72,
-     "url": "https://www.svt.se/nyheter/utrikes/senaste-nytt-om-kriget-i-mellanostern?inlagg=7f2ebf11eee150e439dae08bc0874e72",
+     "url": "https://www.svt.se/vader/varmebolja-i-europa-folj-senaste-nytt?inlagg=52e4588dfb6460a3f95977d986e52431",
      "outlet": "svt.se",
-     "publishedAt": "2026-07-27T09:30:00Z",
+     "publishedAt": "2026-07-27T23:30:00Z",
      "language": "Swedish",
      "keywords": [],
      "sources": [
@@ -7149,15 +7231,15 @@
      "relatedCountries": [
       "SE"
      ],
-     "startedAt": "2026-07-27T09:30:00Z",
+     "startedAt": "2026-07-27T23:30:00Z",
      "durationHours": null
     },
     {
-     "id": "n-a4cf8e5e84",
+     "id": "n-46d338448d",
      "kind": "NEWS",
      "title": {
-      "ja": "L : Ta bort föräldrars veto vid stödinsatser – Senaste nytt om valet 2026",
-      "en": "L : Ta bort föräldrars veto vid stödinsatser – Senaste nytt om valet 2026"
+      "ja": "Debatt om klimatkrisen splittrar i Spanien – Senaste nytt om väderläget i världen",
+      "en": "Debatt om klimatkrisen splittrar i Spanien – Senaste nytt om väderläget i världen"
      },
      "summary": {
       "ja": "",
@@ -7165,9 +7247,9 @@
      },
      "category": "OTHER",
      "score": 68,
-     "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026?inlagg=61feb05c1e96f70177fd8b20154081dc",
+     "url": "https://www.svt.se/vader/vaderlaget-i-varlden-folj-senaste-nytt?inlagg=52e4588dfb6460a3f95977d986e52431",
      "outlet": "svt.se",
-     "publishedAt": "2026-07-27T09:30:00Z",
+     "publishedAt": "2026-07-28T04:00:00Z",
      "language": "Swedish",
      "keywords": [],
      "sources": [
@@ -7180,7 +7262,7 @@
      "relatedCountries": [
       "SE"
      ],
-     "startedAt": "2026-07-27T09:30:00Z",
+     "startedAt": "2026-07-28T04:00:00Z",
      "durationHours": null
     },
     {
@@ -7457,11 +7539,10 @@
      "scope": "GLOBAL",
      "change": 0,
      "status": "peak",
-     "origin": "PH",
+     "origin": "SG",
      "relatedCountries": [
       "BR",
       "ZA",
-      "NG",
       "TH",
       "PH",
       "SG"
@@ -7875,11 +7956,10 @@
      "scope": "GLOBAL",
      "change": 0,
      "status": "stable",
-     "origin": "PH",
+     "origin": "SG",
      "relatedCountries": [
       "BR",
       "ZA",
-      "NG",
       "TH",
       "PH",
       "SG"
@@ -8682,7 +8762,6 @@
      "relatedCountries": [
       "US",
       "CA",
-      "NO",
       "PH"
      ],
      "startedAt": null,
@@ -9264,7 +9343,8 @@
      "relatedCountries": [
       "BR",
       "AR",
-      "ZA"
+      "ZA",
+      "PH"
      ],
      "startedAt": null,
      "durationHours": null
@@ -9294,11 +9374,10 @@
      "scope": "GLOBAL",
      "change": 0,
      "status": "stable",
-     "origin": "PH",
+     "origin": "SG",
      "relatedCountries": [
       "BR",
       "ZA",
-      "NG",
       "TH",
       "PH",
       "SG"

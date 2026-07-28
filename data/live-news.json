@@ -1,248 +1,308 @@
 {
- "fetchedAt": "2026-07-28T08:13:32.719Z",
+ "fetchedAt": "2026-07-28T11:56:08.358Z",
  "source": "GDELT DOC 2.0 API",
  "countries": [
   {
-   "code": "DE",
+   "code": "GB",
    "articles": [
     {
      "rank": 1,
-     "title": "Rapper Prinz Pi beendet seine Karriere : » In den Steaming - Kosmos passt meine Musik einfach nicht «",
-     "outlet": "spiegel.de",
-     "url": "https://www.spiegel.de/kultur/rapper-prinz-pi-beendet-seine-karriere-in-den-steaming-kosmos-passt-meine-musik-einfach-nicht-a-f7373c34-dfb8-4701-94b5-f1972bd8121d",
-     "publishedAt": "2026-07-27T14:00:00Z",
-     "language": "German",
-     "country": "DE",
-     "category": "TECH",
+     "title": "How  fire - generated thunderstorm make wildfires more deadly",
+     "outlet": "bbc.co.uk",
+     "url": "https://www.bbc.co.uk/news/articles/c2350xnl4j5o",
+     "publishedAt": "2026-07-27T12:15:00Z",
+     "language": "English",
+     "country": "GB",
+     "category": "WEATHER",
      "source": "GDELT"
     },
     {
      "rank": 2,
-     "title": "Porsche baut weitere 5000 Stellen ab",
-     "outlet": "spiegel.de",
-     "url": "https://www.spiegel.de/wirtschaft/unternehmen/porsche-baut-weitere-5000-stellen-ab-a-c7217215-0e12-4428-996f-cd2731779394",
-     "publishedAt": "2026-07-27T14:00:00Z",
-     "language": "German",
-     "country": "DE",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 3,
-     "title": "2025 wurden deutlich weniger Minderjährige in Obhut genommen als im Vorjahr",
-     "outlet": "spiegel.de",
-     "url": "https://www.spiegel.de/panorama/justiz/2025-wurden-deutlich-weniger-minderjaehrige-in-obhut-genommen-als-im-vorjahr-a-b7057f75-b858-4f0c-9f79-a44c53a04e0f",
-     "publishedAt": "2026-07-27T10:15:00Z",
-     "language": "German",
-     "country": "DE",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 4,
-     "title": "Hoppermann soll neue CDU - Generalsekretärin werden",
-     "outlet": "bild.de",
-     "url": "https://www.bild.de/politik/hoppermann-soll-neue-cdu-generalsekretaerin-werden-6a671ad6dc2b0bab191a7cbd",
-     "publishedAt": "2026-07-27T10:15:00Z",
-     "language": "German",
-     "country": "DE",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 5,
-     "title": "Iran : Darum greift Donald Trump plötzlich die Mullahs nicht mehr an",
-     "outlet": "bild.de",
-     "url": "https://www.bild.de/politik/ausland-und-internationales/iran-darum-greift-donald-trump-ploetzlich-die-mullahs-nicht-mehr-an-6a66fc69dc2b0bab191a7a7a",
-     "publishedAt": "2026-07-27T10:15:00Z",
-     "language": "German",
-     "country": "DE",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 6,
-     "title": "Roboter übernehmen bald jeden Beruf : Elon Musk : Niemand muss in Zukunft noch arbeiten",
-     "outlet": "bild.de",
-     "url": "https://www.bild.de/politik/roboter-uebernehmen-bald-jeden-beruf-elon-musk-niemand-muss-in-zukunft-noch-arbeiten-6a6709d836ccf40cc9c50eb5",
-     "publishedAt": "2026-07-27T10:15:00Z",
-     "language": "German",
-     "country": "DE",
-     "category": "TECH",
-     "source": "GDELT"
-    },
-    {
-     "rank": 7,
-     "title": "Schauspieler Johannes Krisch ist tot : Bekannt aus  Tatort  und  SOKO",
-     "outlet": "t-online.de",
-     "url": "https://www.t-online.de/unterhaltung/stars/id_101361918/schauspieler-johannes-krisch-ist-tot-bekannt-aus-tatort-und-soko-.html",
-     "publishedAt": "2026-07-27T12:15:00Z",
-     "language": "German",
-     "country": "DE",
-     "category": "WORLD",
-     "source": "GDELT"
-    },
-    {
-     "rank": 8,
-     "title": "Spritpreise : Benzin und Diesel an den Tankstellen etwas günstiger",
-     "outlet": "t-online.de",
-     "url": "https://www.t-online.de/mobilitaet/aktuelles/id_101361736/spritpreise-benzin-und-diesel-an-den-tankstellen-etwas-guenstiger.html",
-     "publishedAt": "2026-07-27T12:15:00Z",
-     "language": "German",
-     "country": "DE",
-     "category": "WORLD",
-     "source": "GDELT"
-    },
-    {
-     "rank": 9,
-     "title": "Annika Raßbach :  Bares für Rares - Star warnt vor Betrugsmasche",
-     "outlet": "t-online.de",
-     "url": "https://www.t-online.de/unterhaltung/tv/id_101361416/annika-rassbach-bares-fuer-rares-star-warnt-vor-betrugsmasche.html",
-     "publishedAt": "2026-07-27T12:15:00Z",
-     "language": "German",
-     "country": "DE",
-     "category": "ENTERTAINMENT",
-     "source": "GDELT"
-    }
-   ]
-  },
-  {
-   "code": "KR",
-   "articles": [
-    {
-     "rank": 1,
-     "title": "히가시노 게이고",
-     "outlet": "terms.naver.com",
-     "url": "https://terms.naver.com/entry.naver?docId=2078782&cid=44546&categoryId=44546",
-     "publishedAt": "2026-07-28T05:45:00Z",
-     "language": "Korean",
-     "country": "KR",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 2,
-     "title": "쿠팡 화재  꺼졌어도 시민 노출 기록은 남겨야 [ 왜냐면 ]",
-     "outlet": "hani.co.kr",
-     "url": "https://www.hani.co.kr/arti/opinion/because/1270211.html",
-     "publishedAt": "2026-07-27T12:15:00Z",
-     "language": "Korean",
-     "country": "KR",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 3,
-     "title": "국힘 윤리위 ,  징계정국  가동 … 권영진 · 조경태 · 진종오 징계 개시",
-     "outlet": "hani.co.kr",
-     "url": "https://www.hani.co.kr/arti/politics/politics_general/1270216.html",
-     "publishedAt": "2026-07-27T12:15:00Z",
-     "language": "Korean",
-     "country": "KR",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 4,
-     "title": "디아스포라  동포들이 붉은 유니폼을 입은 이유 [ 왜냐면 ]",
-     "outlet": "hani.co.kr",
-     "url": "https://www.hani.co.kr/arti/opinion/because/1270213.html",
-     "publishedAt": "2026-07-27T12:15:00Z",
-     "language": "Korean",
-     "country": "KR",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 5,
-     "title": "뚫어지도록 , 다시",
-     "outlet": "h21.hani.co.kr",
-     "url": "http://h21.hani.co.kr/arti/photo/story/59662.html",
-     "publishedAt": "2026-07-27T10:15:00Z",
-     "language": "Korean",
-     "country": "KR",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 6,
-     "title": "윤석열  선거법 위반  징역형 집유 … 확정 땐 국힘 397억 반환해야",
-     "outlet": "h21.hani.co.kr",
-     "url": "http://h21.hani.co.kr/arti/society/society_general/59679.html",
-     "publishedAt": "2026-07-27T10:15:00Z",
-     "language": "Korean",
-     "country": "KR",
-     "category": "POLITICS",
-     "source": "GDELT"
-    },
-    {
-     "rank": 7,
-     "title": "명태균의  황금폰 , 지나고 보니  판도라 상자  맞았다",
-     "outlet": "h21.hani.co.kr",
-     "url": "http://h21.hani.co.kr/arti/politics/politics_general/59670.html",
-     "publishedAt": "2026-07-28T00:30:00Z",
-     "language": "Korean",
-     "country": "KR",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 8,
-     "title": "[ 사설 ] 누수는 눈감고  N잡러  겨냥한 건보 개편",
-     "outlet": "mt.co.kr",
-     "url": "https://www.mt.co.kr/opinion/2026/07/28/2026072712064133993",
-     "publishedAt": "2026-07-28T01:15:00Z",
-     "language": "Korean",
-     "country": "KR",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 9,
-     "title": "[ 사설 ] 송전망 지연 , AI · 반도체 전략 발목 잡는다",
-     "outlet": "mt.co.kr",
-     "url": "https://www.mt.co.kr/opinion/2026/07/28/2026072716161745634",
-     "publishedAt": "2026-07-27T20:45:00Z",
-     "language": "Korean",
-     "country": "KR",
-     "category": "TECH",
-     "source": "GDELT"
-    }
-   ]
-  },
-  {
-   "code": "AR",
-   "articles": [
-    {
-     "rank": 1,
-     "title": "La Odisea  vuelve a conquistar fuera del cine : cómo el arte mostró las escenas más famosas de la película",
-     "outlet": "infobae.com",
-     "url": "https://www.infobae.com/cultura/2026/07/27/la-odisea-vuelve-a-conquistar-fuera-del-cine-como-el-arte-mostro-las-escenas-mas-famosas-de-la-pelicula/",
-     "publishedAt": "2026-07-27T08:30:00Z",
-     "language": "Spanish",
-     "country": "AR",
-     "category": "ENTERTAINMENT",
-     "source": "GDELT"
-    },
-    {
-     "rank": 2,
-     "title": "Un tiroteo durante un festival gastronómico en Seattle dejó al menos dos muertos , cinco heridos y un sospechoso detenido",
-     "outlet": "infobae.com",
-     "url": "https://www.infobae.com/estados-unidos/2026/07/27/un-tiroteo-durante-un-festival-gastronomico-en-seattle-dejo-al-menos-dos-muertos-cinco-heridos-y-un-sospechoso-detenido/",
-     "publishedAt": "2026-07-27T08:30:00Z",
-     "language": "Spanish",
-     "country": "AR",
+     "title": "Man guilty of attempted murder after stabbing ex - partner in Carmarthen Park",
+     "outlet": "bbc.co.uk",
+     "url": "https://www.bbc.co.uk/news/articles/ckg38md8k40o",
+     "publishedAt": "2026-07-27T13:15:00Z",
+     "language": "English",
+     "country": "GB",
      "category": "CULTURE",
      "source": "GDELT"
     },
     {
      "rank": 3,
-     "title": "The Washington Post volvió a destacar los resultados de la economía de Milei :  El renacimiento de Argentina continúa",
-     "outlet": "infobae.com",
-     "url": "https://www.infobae.com/wapo/2026/07/27/the-washington-post-volvio-a-destacar-los-resultados-de-la-economia-de-milei-el-renacimiento-de-argentina-continua/",
-     "publishedAt": "2026-07-27T08:30:00Z",
+     "title": "Anger , shock and grief - the aftermath of the attack on Berlin Pride",
+     "outlet": "bbc.co.uk",
+     "url": "https://www.bbc.co.uk/news/articles/cy9wv74qje9o",
+     "publishedAt": "2026-07-27T13:30:00Z",
+     "language": "English",
+     "country": "GB",
+     "category": "OTHER",
+     "source": "GDELT"
+    }
+   ]
+  },
+  {
+   "code": "FR",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "En pertes , Shein dévoile des faiblesses inattendues avant son entrée en Bourse",
+     "outlet": "lefigaro.fr",
+     "url": "https://www.lefigaro.fr/economie/en-pertes-shein-devoile-des-faiblesses-inattendues-avant-son-entree-en-bourse-20260727",
+     "publishedAt": "2026-07-27T22:00:00Z",
+     "language": "French",
+     "country": "FR",
+     "category": "TECH",
+     "source": "GDELT"
+    },
+    {
+     "rank": 2,
+     "title": "Hongrie , Suède , Islande … Qui pourrait rejoindre encore la zone euro ?",
+     "outlet": "lefigaro.fr",
+     "url": "https://www.lefigaro.fr/conjoncture/hongrie-suede-islande-qui-pourrait-rejoindre-encore-la-zone-euro-20260727",
+     "publishedAt": "2026-07-27T22:00:00Z",
+     "language": "French",
+     "country": "FR",
+     "category": "TECH",
+     "source": "GDELT"
+    },
+    {
+     "rank": 3,
+     "title": "Comment la France compte gérer son immobilier avec la création dune foncière de l  État",
+     "outlet": "lefigaro.fr",
+     "url": "https://www.lefigaro.fr/economie/comment-la-france-compte-gerer-son-immobilier-avec-la-creation-d-une-fonciere-de-l-etat-20260727",
+     "publishedAt": "2026-07-27T22:00:00Z",
+     "language": "French",
+     "country": "FR",
+     "category": "WORLD",
+     "source": "GDELT"
+    },
+    {
+     "rank": 4,
+     "title": "Les 12 travaux dAstérix sur W9 : il existe une incroyable et savoureuse connexion avec lunivers ... de The Witcher ! - Actus Ciné",
+     "outlet": "allocine.fr",
+     "url": "https://www.allocine.fr:443/article/fichearticle_gen_carticle=1000214274.html",
+     "publishedAt": "2026-07-27T21:15:00Z",
+     "language": "French",
+     "country": "FR",
+     "category": "WORLD",
+     "source": "GDELT"
+    },
+    {
+     "rank": 5,
+     "title": "Quiz Cinéma : seuls les vrais fans de Spider - Man peuvent faire 15 / 15 !",
+     "outlet": "allocine.fr",
+     "url": "https://www.allocine.fr:443/article/fichearticle_gen_carticle=1000214916.html",
+     "publishedAt": "2026-07-27T21:15:00Z",
+     "language": "French",
+     "country": "FR",
+     "category": "TECH",
+     "source": "GDELT"
+    },
+    {
+     "rank": 6,
+     "title": "8 , 9 millions dentrées : cest le plus gros succès cinéma au box - office France de 2025 et cest aussi le meilleur film de science - fiction de cette année - là !",
+     "outlet": "allocine.fr",
+     "url": "https://www.allocine.fr:443/article/fichearticle_gen_carticle=1000213505.html",
+     "publishedAt": "2026-07-27T21:15:00Z",
+     "language": "French",
+     "country": "FR",
+     "category": "ENTERTAINMENT",
+     "source": "GDELT"
+    },
+    {
+     "rank": 7,
+     "title": "Le pactole de Pogacar , la récolte de Carapaz et Pedersen : on fait le bilan des primes versées sur le Tour de France 2026",
+     "outlet": "lequipe.fr",
+     "url": "https://www.lequipe.fr/Cyclisme-sur-route/Actualites/Le-pactole-de-pogacar-la-recolte-de-carapaz-et-pedersen-on-fait-le-bilan-des-primes-versees-sur-le-tour-de-france-2026/1707304",
+     "publishedAt": "2026-07-27T12:15:00Z",
+     "language": "French",
+     "country": "FR",
+     "category": "TECH",
+     "source": "GDELT"
+    },
+    {
+     "rank": 8,
+     "title": "Sébastien Ogier retrouve son copilote historique Julien Ingrassia à loccasion du Rallye de Finlande",
+     "outlet": "lequipe.fr",
+     "url": "https://www.lequipe.fr/Rallye/Actualites/Sebastien-ogier-retrouve-son-copilote-historique-julien-ingrassia-a-l-occasion-du-rallye-de-finlande/1707314",
+     "publishedAt": "2026-07-27T12:15:00Z",
+     "language": "French",
+     "country": "FR",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 9,
+     "title": "« Il peut désormais sasseoir à la table des géants » : la presse internationale emballée par le cinquième triomphe de Tadej Pogacar sur le Tour de France",
+     "outlet": "lequipe.fr",
+     "url": "https://www.lequipe.fr/Cyclisme-sur-route/Actualites/-il-peut-desormais-etre-tutelaire-des-geants-la-presse-internationale-emballee-par-le-cinquieme-triomphe-de-tadej-pogacar-sur-le-tour-de-france/1707347",
+     "publishedAt": "2026-07-27T12:15:00Z",
+     "language": "French",
+     "country": "FR",
+     "category": "TECH",
+     "source": "GDELT"
+    },
+    {
+     "rank": 10,
+     "title": "Claude Cowork pouvait fouiller tout votre Mac sans jamais demander la moindre permission",
+     "outlet": "01net.com",
+     "url": "https://www.01net.com/actualites/claude-cowork-pouvait-fouiller-tout-votre-mac-sans-jamais-demander-la-moindre-permission.html",
+     "publishedAt": "2026-07-27T13:00:00Z",
+     "language": "French",
+     "country": "FR",
+     "category": "TECH",
+     "source": "GDELT"
+    }
+   ]
+  },
+  {
+   "code": "MX",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "Yalitza Aparicio revela por primera vez cómo vivió el éxito de Roma ocho años después",
+     "outlet": "sdpnoticias.com",
+     "url": "https://www.sdpnoticias.com/espectaculos/famosos/yalitza-aparicio-revela-por-primera-vez-como-vivio-el-exito-de-roma-ocho-anos-despues/",
+     "publishedAt": "2026-07-28T01:15:00Z",
      "language": "Spanish",
-     "country": "AR",
+     "country": "MX",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 2,
+     "title": "Red de huachicol en Ramos Arizpe tendría vínculo con el caso Ernesto Ruffo",
+     "outlet": "sdpnoticias.com",
+     "url": "https://www.sdpnoticias.com/estados/coahuila/red-de-huachicol-en-ramos-arizpe-tendria-vinculo-con-el-caso-ernesto-ruffo/",
+     "publishedAt": "2026-07-28T01:15:00Z",
+     "language": "Spanish",
+     "country": "MX",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 3,
+     "title": "UNAM recibe pliego petitorio de aspirantes que piden repetir examen de admisión",
+     "outlet": "sdpnoticias.com",
+     "url": "https://www.sdpnoticias.com/mexico/unam-recibe-pliego-petitorio-de-aspirantes-que-piden-repetir-examen-de-admision/",
+     "publishedAt": "2026-07-28T01:15:00Z",
+     "language": "Spanish",
+     "country": "MX",
+     "category": "WORLD",
+     "source": "GDELT"
+    }
+   ]
+  },
+  {
+   "code": "BR",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "Comediante , ambientalista e referência da TV britânica , Bill Oddie morre aos 85 anos",
+     "outlet": "noticiasdatv.uol.com.br",
+     "url": "https://noticiasdatv.uol.com.br/noticia/celebridades/comediante-ambientalista-e-referencia-da-tv-britanica-bill-oddie-morre-aos-85-anos-154525",
+     "publishedAt": "2026-07-27T12:15:00Z",
+     "language": "Portuguese",
+     "country": "BR",
+     "category": "POLITICS",
+     "source": "GDELT"
+    },
+    {
+     "rank": 2,
+     "title": "Ebola : RD do Congo registra 1 . 000 novos casos em dez dias - 27 / 07 / 2026 - Equilíbrio e Saúde",
+     "outlet": "folha.uol.com.br",
+     "url": "https://www1.folha.uol.com.br/equilibrioesaude/2026/07/republica-democratica-do-congo-registra-1000-novos-casos-de-ebola-em-dez-dias.shtml",
+     "publishedAt": "2026-07-27T12:15:00Z",
+     "language": "Portuguese",
+     "country": "BR",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 3,
+     "title": "Aeroporto de Salvador lança assistente virtual com IA generativa",
+     "outlet": "aeromagazine.uol.com.br",
+     "url": "https://aeromagazine.uol.com.br/artigo/salvador-bahia-airport-assistente-virtual-ia-generativa-atendimento-passageiros.html",
+     "publishedAt": "2026-07-27T12:15:00Z",
+     "language": "Portuguese",
+     "country": "BR",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 4,
+     "title": "Ex - musa relembra sucesso dos anos 80 e reflete sobre a fama",
+     "outlet": "uol.com.br",
+     "url": "https://www.uol.com.br/splash/noticias/2026/07/27/ex-musa-relembra-sucesso-dos-anos-80-e-conta-que-nao-sente-saudade-da-fama.ghtm",
+     "publishedAt": "2026-07-27T12:15:00Z",
+     "language": "Portuguese",
+     "country": "BR",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 5,
+     "title": "Resort de luxo de 400 hectares poderá receber operaes dos eVTOL",
+     "outlet": "aeromagazine.uol.com.br",
+     "url": "https://aeromagazine.uol.com.br/artigo/vertical-aerospace-vic-properties-mobilidade-aerea-eletrica-portugal-pinheirinho.html",
+     "publishedAt": "2026-07-27T12:15:00Z",
+     "language": "Portuguese",
+     "country": "BR",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 6,
+     "title": "Zé Felipe já foi citado por ex de Lara Jucá em música",
+     "outlet": "uol.com.br",
+     "url": "https://www.uol.com.br/splash/noticias/2026/07/27/influencer-vista-com-ze-felipe-teve-termino-polemico-com-rapper-orochi.ghtm",
+     "publishedAt": "2026-07-27T12:15:00Z",
+     "language": "Portuguese",
+     "country": "BR",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 7,
+     "title": "Motorista é detido por suspeita de embriaguez após acidente com feridos na PR - 218",
+     "outlet": "tnonline.uol.com.br",
+     "url": "https://tnonline.uol.com.br/noticias/arapongas/motorista-e-detido-por-suspeita-de-embriaguez-apos-acidente-com-feridos-na-pr-218-1121205",
+     "publishedAt": "2026-07-27T12:15:00Z",
+     "language": "Portuguese",
+     "country": "BR",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 8,
+     "title": "Homem é preso com motoneta adulterada em Arapongas",
+     "outlet": "tnonline.uol.com.br",
+     "url": "https://tnonline.uol.com.br/noticias/arapongas/homem-e-preso-com-motoneta-adulterada-em-arapongas-1121207",
+     "publishedAt": "2026-07-27T12:15:00Z",
+     "language": "Portuguese",
+     "country": "BR",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 9,
+     "title": "Mulher de 62 anos morre após complicaes de pneumonia em Apucarana",
+     "outlet": "tnonline.uol.com.br",
+     "url": "https://tnonline.uol.com.br/noticias/apucarana/mulher-de-62-anos-morre-apos-complicacoes-de-pneumonia-em-apucarana-1121204",
+     "publishedAt": "2026-07-27T12:15:00Z",
+     "language": "Portuguese",
+     "country": "BR",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 10,
+     "title": "A Nobreza do Amor : Tonho flagra Alika com outro , e casamento fica por um fio",
+     "outlet": "natelinha.uol.com.br",
+     "url": "https://natelinha.uol.com.br/novelas/2026/07/27/a-nobreza-do-amor-tonho-flagra-alika-com-outro-e-casamento-fica-por-um-fio-245217.php",
+     "publishedAt": "2026-07-27T12:15:00Z",
+     "language": "Portuguese",
+     "country": "BR",
      "category": "OTHER",
      "source": "GDELT"
     }
@@ -297,10 +357,10 @@
     },
     {
      "rank": 5,
-     "title": "Ytterligare man som misstänktes för attacken i Berlin släppt",
+     "title": "Ställde ut döda människor – har avlidit | Världen",
      "outlet": "expressen.se",
-     "url": "https://www.expressen.se/nyheter/expressen-direkt/?post=58f00dc5-e13a-4c03-84fc-f48d30383c56",
-     "publishedAt": "2026-07-27T09:15:00Z",
+     "url": "https://www.expressen.se/nyheter/varlden/stallde-ut-doda-manniskor-har-avlidit/",
+     "publishedAt": "2026-07-27T13:15:00Z",
      "language": "Swedish",
      "country": "SE",
      "category": "OTHER",
@@ -308,10 +368,10 @@
     },
     {
      "rank": 6,
-     "title": "Livmödrar opererades bort – utredning läggs ner",
+     "title": "Bröderna Tate kvar i fängelse",
      "outlet": "expressen.se",
-     "url": "https://www.expressen.se/nyheter/expressen-direkt/?post=f127b50d-39d7-4252-988a-1f302a6678ee",
-     "publishedAt": "2026-07-27T09:15:00Z",
+     "url": "https://www.expressen.se/nyheter/expressen-direkt/?post=0fec165c-ab23-4c7e-8cbb-092f6a38445a",
+     "publishedAt": "2026-07-27T22:15:00Z",
      "language": "Swedish",
      "country": "SE",
      "category": "OTHER",
@@ -330,21 +390,21 @@
     },
     {
      "rank": 8,
-     "title": "Moské sattes i brand på ockuperade Västbanken – Senaste nytt om kriget i Gaza",
+     "title": "Debatt om klimatkrisen splittrar i Spanien – Väderläget i världen – följ senaste nytt",
      "outlet": "svt.se",
-     "url": "https://www.svt.se/nyheter/utrikes/senaste-nytt-om-kriget-i-mellanostern?inlagg=7f2ebf11eee150e439dae08bc0874e72",
-     "publishedAt": "2026-07-27T09:30:00Z",
+     "url": "https://www.svt.se/vader/varmebolja-i-europa-folj-senaste-nytt?inlagg=52e4588dfb6460a3f95977d986e52431",
+     "publishedAt": "2026-07-27T23:30:00Z",
      "language": "Swedish",
      "country": "SE",
-     "category": "BUSINESS",
+     "category": "OTHER",
      "source": "GDELT"
     },
     {
      "rank": 9,
-     "title": "L : Ta bort föräldrars veto vid stödinsatser – Senaste nytt om valet 2026",
+     "title": "Debatt om klimatkrisen splittrar i Spanien – Senaste nytt om väderläget i världen",
      "outlet": "svt.se",
-     "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026?inlagg=61feb05c1e96f70177fd8b20154081dc",
-     "publishedAt": "2026-07-27T09:30:00Z",
+     "url": "https://www.svt.se/vader/vaderlaget-i-varlden-folj-senaste-nytt?inlagg=52e4588dfb6460a3f95977d986e52431",
+     "publishedAt": "2026-07-28T04:00:00Z",
      "language": "Swedish",
      "country": "SE",
      "category": "OTHER",

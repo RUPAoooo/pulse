@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-28T08:07:10.751Z",
+ "fetchedAt": "2026-07-28T11:52:42.955Z",
  "source": "Wikimedia Pageviews API",
  "countries": [
   {
@@ -1158,26 +1158,18 @@
    "code": "NO",
    "perCountry": true,
    "project": "no.wikipedia",
-   "date": "2026-07-26",
+   "date": "2026-07-27",
    "articles": [
     {
      "rank": 1,
      "title": "Forside",
-     "views": 14600,
+     "views": 14200,
      "url": "https://no.wikipedia.org/wiki/Forside",
      "project": "no.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 2,
-     "title": "The Odyssey (2026 film)",
-     "views": 2100,
-     "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
-     "project": "en.wikipedia",
-     "category": "ENTERTAINMENT"
-    },
-    {
-     "rank": 3,
      "title": "The Odyssey",
      "views": 1900,
      "url": "https://no.wikipedia.org/wiki/The_Odyssey",
@@ -1185,34 +1177,26 @@
      "category": "OTHER"
     },
     {
+     "rank": 3,
+     "title": "The Odyssey (2026 film)",
+     "views": 1800,
+     "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
+     "project": "en.wikipedia",
+     "category": "ENTERTAINMENT"
+    },
+    {
      "rank": 4,
      "title": "Odysseen",
-     "views": 1800,
+     "views": 1700,
      "url": "https://no.wikipedia.org/wiki/Odysseen",
      "project": "no.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 5,
-     "title": "New Hampshire",
-     "views": 1800,
-     "url": "https://en.wikipedia.org/wiki/New_Hampshire",
-     "project": "en.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 6,
-     "title": "Odyssey",
-     "views": 1400,
-     "url": "https://en.wikipedia.org/wiki/Odyssey",
-     "project": "en.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 7,
-     "title": "Robin Hood",
-     "views": 1300,
-     "url": "https://no.wikipedia.org/wiki/Robin_Hood",
+     "title": "Hebridene",
+     "views": 1500,
+     "url": "https://no.wikipedia.org/wiki/Hebridene",
      "project": "no.wikipedia",
      "category": "OTHER"
     }
@@ -1582,45 +1566,45 @@
    "code": "NG",
    "perCountry": true,
    "project": "en.wikipedia",
-   "date": "2026-07-26",
+   "date": "2026-07-27",
    "articles": [
     {
      "rank": 1,
-     "title": "David Jonsson",
-     "views": 3600,
-     "url": "https://en.wikipedia.org/wiki/David_Jonsson",
+     "title": "Yan Diomande",
+     "views": 2500,
+     "url": "https://en.wikipedia.org/wiki/Yan_Diomande",
      "project": "en.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 2,
-     "title": "Yan Diomande",
-     "views": 2700,
-     "url": "https://en.wikipedia.org/wiki/Yan_Diomande",
+     "title": "Danny Welbeck",
+     "views": 1800,
+     "url": "https://en.wikipedia.org/wiki/Danny_Welbeck",
      "project": "en.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 3,
      "title": "The Odyssey (2026 film)",
-     "views": 2000,
+     "views": 1700,
      "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
      "project": "en.wikipedia",
      "category": "ENTERTAINMENT"
     },
     {
      "rank": 4,
-     "title": ".xyz",
-     "views": 1500,
-     "url": "https://en.wikipedia.org/wiki/.xyz",
+     "title": "XHamster",
+     "views": 1400,
+     "url": "https://en.wikipedia.org/wiki/XHamster",
      "project": "en.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 5,
-     "title": "Kristian Prenga",
+     "title": "David Jonsson",
      "views": 1200,
-     "url": "https://en.wikipedia.org/wiki/Kristian_Prenga",
+     "url": "https://en.wikipedia.org/wiki/David_Jonsson",
      "project": "en.wikipedia",
      "category": "OTHER"
     }
@@ -1846,70 +1830,70 @@
    "code": "PH",
    "perCountry": true,
    "project": "en.wikipedia",
-   "date": "2026-07-26",
+   "date": "2026-07-27",
    "articles": [
     {
      "rank": 1,
-     "title": ".xyz",
-     "views": 27700,
-     "url": "https://en.wikipedia.org/wiki/.xyz",
-     "project": "en.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 2,
      "title": "The Odyssey (2026 film)",
-     "views": 15300,
+     "views": 12600,
      "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
      "project": "en.wikipedia",
      "category": "ENTERTAINMENT"
     },
     {
+     "rank": 2,
+     "title": ".xyz",
+     "views": 11900,
+     "url": "https://en.wikipedia.org/wiki/.xyz",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
      "rank": 3,
-     "title": "Agent Kim Reactivated",
-     "views": 6900,
-     "url": "https://en.wikipedia.org/wiki/Agent_Kim_Reactivated",
-     "project": "en.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 4,
-     "title": "David Jonsson",
-     "views": 5900,
-     "url": "https://en.wikipedia.org/wiki/David_Jonsson",
-     "project": "en.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 5,
      "title": "ChatGPT",
-     "views": 4600,
+     "views": 7200,
      "url": "https://en.wikipedia.org/wiki/ChatGPT",
      "project": "en.wikipedia",
      "category": "OTHER"
     },
     {
+     "rank": 4,
+     "title": "2026 State of the Nation Address (Philippines)",
+     "views": 6200,
+     "url": "https://en.wikipedia.org/wiki/2026_State_of_the_Nation_Address_(Philippines)",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 5,
+     "title": "Agent Kim Reactivated",
+     "views": 3700,
+     "url": "https://en.wikipedia.org/wiki/Agent_Kim_Reactivated",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
      "rank": 6,
-     "title": "Odyssey",
-     "views": 4200,
-     "url": "https://en.wikipedia.org/wiki/Odyssey",
+     "title": "Pax Silica",
+     "views": 3400,
+     "url": "https://en.wikipedia.org/wiki/Pax_Silica",
      "project": "en.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 7,
-     "title": "Errol Spence Jr.",
-     "views": 4000,
-     "url": "https://en.wikipedia.org/wiki/Errol_Spence_Jr.",
+     "title": "Odyssey",
+     "views": 3100,
+     "url": "https://en.wikipedia.org/wiki/Odyssey",
      "project": "en.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 8,
-     "title": "Someone, Someday",
-     "views": 3600,
-     "url": "https://en.wikipedia.org/wiki/Someone%2C_Someday",
-     "project": "en.wikipedia",
+     "title": "特殊:近期變更",
+     "views": 3100,
+     "url": "https://hak.wikipedia.org/wiki/%E7%89%B9%E6%AE%8A%3A%E8%BF%91%E6%9C%9F%E8%AE%8A%E6%9B%B4",
+     "project": "hak.wikipedia",
      "category": "OTHER"
     }
    ]
