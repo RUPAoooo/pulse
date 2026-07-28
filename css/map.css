@@ -110,7 +110,7 @@
 
 /* --------------------------------------------------------- day and night */
 
-.layer-day, .layer-night, .layer-city, .layer-label { pointer-events: none; }
+.layer-day, .layer-night, .city-lights-layer, .layer-label { pointer-events: none; }
 
 .daylight, .warmlight { mix-blend-mode: screen; }
 
@@ -127,29 +127,25 @@
    Scenery, not data. Sub-pixel warm sparks scattered in clusters, drawn below
    the country markers so they can never be mistaken for one. */
 
-.city {
+.city-light {
   --w: 0.7;
   --o: 0.8;
   fill: var(--city-a);
+  stroke: rgba(255, 187, 100, 0.28);
+  stroke-width: 0.32;
   opacity: calc(0.05 * var(--o));
   transition: opacity 1.4s var(--ease);
+  pointer-events: none;
+  vector-effect: non-scaling-stroke;
 }
 
-.city-t2 { fill: var(--city-b); }
-.city-t3 { fill: var(--city-c); }
+.city-light-t2 { fill: var(--city-b); }
+.city-light-t3 { fill: var(--city-c); }
 
-.city-bloom {
-  --w: 0.7;
-  fill: var(--city-b);
-  opacity: calc(0.02 + var(--w) * 0.02);
-  transition: opacity 1.4s var(--ease);
-}
-
-.city.is-night { opacity: calc((0.5 + var(--w) * 0.4) * var(--o)); }
-.city-bloom.is-night { opacity: calc(0.16 + var(--w) * 0.2); }
+.city-light.is-night { opacity: calc((0.48 + var(--w) * 0.38) * var(--o)); }
 
 @media (prefers-reduced-motion: no-preference) {
-  .city.is-night { animation: citybreath 11s var(--ease) infinite; }
+  .city-light.is-night { animation: citybreath 11s var(--ease) infinite; }
 }
 
 @keyframes citybreath {
@@ -157,7 +153,7 @@
   50%      { opacity: calc((0.62 + var(--w) * 0.38) * var(--o)); }
 }
 
-.layer-city { mix-blend-mode: screen; }
+.city-lights-layer { mix-blend-mode: screen; }
 
 /* ---------------------------------------------------------------- labels */
 
@@ -205,6 +201,7 @@
 .halo-spark { fill: #fff; opacity: calc(var(--a) * 0.85); }
 
 .halo.is-off { opacity: 0.1; }
+.halo.is-muted:not(.is-hover):not(.is-selected) { opacity: 0.16; }
 .halo.is-strong .halo-core { r: 4.2; }
 .halo.is-strong .halo-ring { opacity: calc(var(--a) * 0.58); }
 .halo.is-hover .halo-core { opacity: 1; }

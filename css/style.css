@@ -22,8 +22,8 @@
   --land:      #202c3d;   /* countries without data */
   --land-2:    #19222f;   /* land the trend feed does not cover */
   --city-a:    #ffd18a;   /* night-side city sparks — three warm tones */
-  --city-b:    #ffb56a;
-  --city-c:    #fff1c8;
+  --city-b:    #ffb564;
+  --city-c:    #fff1cf;
   --dawn:      #ff9a52;   /* the low sun on the water */
   --violet:    #8f7ad8;
   --bloom:     #3d8ef0;
@@ -436,38 +436,34 @@ body.panel-open .tl { padding-right: calc(var(--panel-w) + 46px); }
 .p-id { display: flex; align-items: center; gap: 13px; min-width: 0; }
 .p-glyph { font-size: 26px; line-height: 1; color: var(--glow-2); }
 
-/* Flags: the emoji where the platform has the glyphs, a code chip where it
-   does not (Windows). Both keep the same footprint so nothing shifts. */
+/* Local flag artwork is not bundled, so a stable ISO code chip is used. */
 .flag {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   flex: none;
   width: 26px; height: 18px;          /* default; overridden per call site */
+  box-sizing: border-box;
+  border: 1px solid rgba(182, 215, 255, 0.46);
+  border-radius: 3px;
+  background: linear-gradient(145deg, rgba(42, 67, 103, 0.92), rgba(10, 20, 36, 0.96));
+  box-shadow: inset 0 0 8px rgba(162, 207, 255, 0.08), 0 1px 3px rgba(0, 0, 0, 0.45);
   line-height: 1;
 }
 
-.flag-svg {
-  width: 100%; height: 100%;
-  display: block;
-  overflow: visible;
-  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.6));
-}
-
 .flag-code {
-  fill: #fff;
+  display: block;
+  color: #eaf4ff;
   font-family: var(--mono);
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 700;
-  letter-spacing: 0.02em;
-  text-anchor: middle;
-  paint-order: stroke;
-  stroke: rgba(4, 8, 16, 0.55);
-  stroke-width: 2px;
+  letter-spacing: 0.08em;
+  transform: translateX(0.04em);
 }
 
 /* per call site: the panel header wants a readable chip, lists want a hint */
 .p-flag { width: 36px; height: 25px; font-size: 0; }
+.p-flag .flag-code { font-size: 11px; }
 .tt-flag { width: 24px; height: 17px; }
 .r-flag, .w-flag { width: 21px; height: 15px; }
 .flag-sm { width: 18px; height: 13px; }

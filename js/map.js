@@ -122,13 +122,7 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
   });
   soften.append(el('feGaussianBlur', { stdDeviation: '7' }));
 
-  const cityBlur = el('filter', {
-    id: 'wp-city', x: '-60%', y: '-60%', width: '220%', height: '220%',
-    'color-interpolation-filters': 'sRGB',
-  });
-  cityBlur.append(el('feGaussianBlur', { stdDeviation: '1.8' }));
-
-  defs.append(ocean, halo, daylight, warm, nightFill, vignette, atmo, dawn, violet, bloom, soften, cityBlur);
+  defs.append(ocean, halo, daylight, warm, nightFill, vignette, atmo, dawn, violet, bloom, soften);
   svg.append(defs);
 
   /* The sea doubles as the hit-test backdrop for the whole canvas. */
@@ -146,8 +140,8 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
   const landLayer = el('g', { class: 'layer-land' });
   const lineLayer = el('g', { class: 'layer-line' });
   const nightLayer = el('g', { class: 'layer-night' });
-  const cityLayer = el('g', { class: 'layer-city' });
-  const haloLayer = el('g', { class: 'layer-halo' });
+  const cityLayer = el('g', { class: 'layer-city city-lights-layer' });
+  const haloLayer = el('g', { class: 'layer-halo country-pulse-layer' });
   const rippleLayer = el('g', { class: 'layer-ripple' });
   const linkLayer = el('g', { class: 'layer-links' });
   const labelLayer = el('g', { class: 'layer-label' });
@@ -203,11 +197,11 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
     if (!country.hasData) continue;
     const { cx, cy, bbox } = anchor(country);
 
-    const g = el('g', { class: 'halo', 'data-code': country.code });
+    const g = el('g', { class: 'halo country-pulse', 'data-code': country.code });
     const glow = el('circle', { cx, cy, r: 60, fill: 'url(#wp-halo)', class: 'halo-glow' });
     const outer = el('circle', { cx, cy, r: 22, class: 'halo-outer' });
     const ring = el('circle', { cx, cy, r: 14, class: 'halo-ring' });
-    const core = el('circle', { cx, cy, r: 3.4, class: 'halo-core' });
+    const core = el('circle', { cx, cy, r: 3.4, class: 'halo-core country-pulse-core' });
     const spark = el('circle', { cx, cy, r: 1.4, class: 'halo-spark' });
     g.append(glow, outer, ring, core, spark);
     haloLayer.append(g);
@@ -263,9 +257,8 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
      a handful of sub-pixel sparks are scattered around it with a deterministic
      hash, so the result reads as a night view of an inhabited region instead
      of as one more data marker. */
-  const cityBloomGroup = el('g', { class: 'city-bloom-group', filter: 'url(#wp-city)' });
-  const cityGroup = el('g', { class: 'city-group' });
-  cityLayer.append(cityBloomGroup, cityGroup);
+  const cityGroup = el('g', { class: 'city-light-clusters' });
+  cityLayer.append(cityGroup);
 
   const TONES = ['t1', 't2', 't3'];
   const cities = [];
@@ -274,31 +267,27 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
     const { x, y } = project(lon, lat);
     const nodes = [];
 
-    /* one soft pool of light for the larger metro areas only */
-    if (weight >= 0.55) {
-      const bloom = el('circle', {
-        class: 'city-bloom', cx: x.toFixed(1), cy: y.toFixed(1),
-        r: (1.8 + weight * 2.6).toFixed(2),
-      });
-      bloom.style.setProperty('--w', weight.toFixed(2));
-      cityBloomGroup.append(bloom);
-      nodes.push(bloom);
-    }
-
-    /* the sparks themselves: 2-5 per metro area, never on a grid */
-    const count = 1 + Math.round(weight * 3);
+    /* Tiered cluster sizes keep the whole layer below 300 particles while
+       making the largest metro areas read as genuine multi-light clusters. */
+    const fullCount = weight >= 0.98 ? 8
+      : weight >= 0.88 ? 5
+        : weight >= 0.68 ? 4
+          : weight >= 0.58 ? 3
+            : 2;
+    const count = coarse.matches ? Math.max(2, Math.ceil(fullCount * 0.58)) : fullCount;
     for (let k = 0; k < count; k += 1) {
       const h1 = hash(i * 977 + k * 131);
       const h2 = hash(i * 613 + k * 419);
       const h3 = hash(i * 271 + k * 733);
-      const spread = 1.4 + weight * 4.2;
+      const spread = 1.6 + weight * 5.2;
       const angle = h1 * Math.PI * 2;
       const dist = Math.sqrt(h2) * spread;
+      const bright = weight >= 0.98 && h3 > 0.82;
       const spark = el('circle', {
-        class: `city city-${TONES[Math.floor(h3 * TONES.length) % TONES.length]}`,
+        class: `city-light city-light-${TONES[Math.floor(h3 * TONES.length) % TONES.length]}`,
         cx: (x + Math.cos(angle) * dist).toFixed(2),
         cy: (y + Math.sin(angle) * dist * 0.72).toFixed(2),
-        r: (0.45 + h3 * 0.75 + weight * 0.15).toFixed(2),
+        r: (0.4 + h3 * 0.65 + (bright ? 0.35 : 0)).toFixed(2),
       });
       spark.style.setProperty('--w', weight.toFixed(2));
       spark.style.setProperty('--o', (0.55 + h1 * 0.45).toFixed(2));
@@ -398,11 +387,13 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
       .filter(([, v]) => v > 0)
       .sort((a, b) => b[1] - a[1]);
     const breathing = new Set(ranked.slice(0, coarse.matches ? 3 : 6).map(([c]) => c));
+    const visiblePulses = new Set(ranked.slice(0, coarse.matches ? 7 : 14).map(([c]) => c));
 
     for (const [code, h] of halos) {
       const a = activityByCode.get(code) ?? 0;
       const on = a > 0;
       h.g.classList.toggle('is-off', !on);
+      h.g.classList.toggle('is-muted', on && !visiblePulses.has(code));
       h.g.classList.toggle('is-strong', a >= 70);
       h.g.classList.toggle('is-breathing', on && breathing.has(code) && !reduceMotion.matches);
       h.g.style.setProperty('--a', (a / 100).toFixed(3));

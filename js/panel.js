@@ -22,48 +22,31 @@ const CAT_MARK = {
 
 /* ------------------------------------------------------------------- flags */
 
-const FLAG_NS = 'http://www.w3.org/2000/svg';
+const COUNTRY_CODE_ALIASES = Object.freeze({
+  UK: 'GB',
+  EL: 'GR',
+});
+
+/** Normalize the ISO alpha-2 codes shared by panel and tooltip flag chips. */
+export function normalizeCountryCode(code) {
+  const raw = String(code ?? '').trim().toUpperCase();
+  if (!raw) return '';
+  const normalized = COUNTRY_CODE_ALIASES[raw] ?? raw;
+  return /^[A-Z]{2}$/.test(normalized) ? normalized : '';
+}
 
 /**
- * A flag chip, drawn rather than typed. Emoji flags are unreliable — Windows
- * has no glyphs for regional-indicator pairs — so every flag here is a small
- * SVG: a two-band field whose hues come from the country code, with the code
- * itself printed on it. Always visible, never dependent on a font.
+ * A reliable country-code chip. There are no local flag assets in this project,
+ * and emoji flags are unreliable on Windows, so the alpha-2 fallback is always
+ * visible without a network request or a platform-specific glyph.
  */
 export function flagNode(code, cls = 'flag') {
-  const cc = /^[A-Za-z]{2}$/.test(String(code ?? '')) ? String(code).toUpperCase() : '--';
-  const span = h('span', cls);
+  const cc = normalizeCountryCode(code) || '--';
+  const span = h('span', `${cls} is-code`);
   span.dataset.code = cc;
-
-  const hue = cc === '--' ? 215 : (cc.charCodeAt(0) * 37 + cc.charCodeAt(1) * 11) % 360;
-  const svg = document.createElementNS(FLAG_NS, 'svg');
-  svg.setAttribute('viewBox', '0 0 26 18');
-  svg.setAttribute('class', 'flag-svg');
-  svg.setAttribute('aria-hidden', 'true');
-  svg.setAttribute('preserveAspectRatio', 'none');
-
-  const field = document.createElementNS(FLAG_NS, 'rect');
-  field.setAttribute('x', '0.5'); field.setAttribute('y', '0.5');
-  field.setAttribute('width', '25'); field.setAttribute('height', '17');
-  field.setAttribute('rx', '2.5');
-  field.setAttribute('fill', cc === '--' ? '#1b2636' : `hsl(${(hue + 38) % 360} 46% 26%)`);
-  field.setAttribute('stroke', 'rgba(214, 232, 255, 0.45)');
-  field.setAttribute('stroke-width', '1');
-
-  const band = document.createElementNS(FLAG_NS, 'path');
-  band.setAttribute('d', 'M1 3a2 2 0 0 1 2-2h5.6L6 17H3a2 2 0 0 1-2-2Z');
-  band.setAttribute('fill', cc === '--' ? '#33415a' : `hsl(${hue} 64% 55%)`);
-
-  const label = document.createElementNS(FLAG_NS, 'text');
-  label.setAttribute('x', '17'); label.setAttribute('y', '12.6');
-  label.setAttribute('class', 'flag-code');
-  label.textContent = cc;
-
-  svg.append(field, band, label);
-  span.append(svg);
-  const title = document.createElementNS(FLAG_NS, 'title');
-  title.textContent = cc;
-  svg.append(title);
+  span.setAttribute('role', 'img');
+  span.setAttribute('aria-label', cc === '--' ? 'Country code unavailable' : cc);
+  span.append(h('span', 'flag-code', cc));
   return span;
 }
 
@@ -516,6 +499,7 @@ export function createPanel({ root, onClose, onTopicOpen, onTopicHover }) {
   /* --------------------------------------------------------------- country */
 
   function renderCountry(code, context) {
+    code = normalizeCountryCode(code) || String(code ?? '').trim().toUpperCase();
     const sameCountry = currentCode === code;
     ctx = context;
     mode = 'country';
