@@ -42,7 +42,10 @@
   /* the atmosphere and the map's own glow are the two costly effects here */
   .map-wrap::before { filter: blur(16px); opacity: 0.7; }
   .world { filter: none; }
-  .city { display: none; }
+  .city, .city-bloom { display: none; }
+  .map-mist, .map-swirl { display: none; }
+  .coast-shadow, .coast-light { display: none; }
+  .coastline { filter: none; }
   .coastline { stroke-width: 0.8; }
   .borderline { stroke-dasharray: none; stroke: rgba(140, 176, 220, 0.12); }
 

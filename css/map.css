@@ -36,6 +36,22 @@
 .world.is-pointing { cursor: pointer; }
 
 .map-sea { }                       /* painted with the ocean gradient in map.js */
+
+/* Two static noise fields blurred into haze: a cool one across the whole sea
+   and a warm one that only reads on the lit side. Rendered once, never
+   animated, and both are switched off on small screens. */
+.map-mist {
+  pointer-events: none;
+  opacity: 0.45;
+  mix-blend-mode: screen;
+}
+
+.map-swirl {
+  pointer-events: none;
+  opacity: 0.3;
+  mix-blend-mode: screen;
+}
+
 .map-atmo { pointer-events: none; }
 .map-vignette { pointer-events: none; }
 
@@ -74,14 +90,37 @@
 
 .layer-line { pointer-events: none; }
 
-/* The coast is the brighter of the two: it is what gives the map its shape. */
+/* The coast is drawn three times — a dropped shadow, the line itself and a
+   thin highlight lifted a fraction upwards — so the land reads as sitting a
+   little above the water. */
+.coast-shadow {
+  fill: none;
+  stroke: rgba(2, 6, 16, 0.9);
+  stroke-width: 1.9;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  vector-effect: non-scaling-stroke;
+  transform: translateY(0.7px);
+}
+
 .coastline {
   fill: none;
-  stroke: rgba(168, 204, 250, 0.42);
+  stroke: rgba(168, 204, 250, 0.46);
   stroke-width: 0.6;
   stroke-linejoin: round;
   stroke-linecap: round;
   vector-effect: non-scaling-stroke;
+  filter: url(#wp-relief);
+}
+
+.coast-light {
+  fill: none;
+  stroke: rgba(226, 240, 255, 0.34);
+  stroke-width: 0.4;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  vector-effect: non-scaling-stroke;
+  transform: translateY(-0.45px);
 }
 
 /* Internal borders stay a hint, never a graphic in their own right. */
@@ -113,16 +152,26 @@
 
 .city {
   --w: 0.7;
-  fill: var(--city);
-  opacity: calc(0.05 + var(--w) * 0.05);
+  fill: #fff2d8;
+  opacity: calc(0.04 + var(--w) * 0.04);
   transition: opacity 1.4s var(--ease);
 }
 
-.city.is-night { opacity: calc(0.3 + var(--w) * 0.46); }
+.city-bloom {
+  --w: 0.7;
+  fill: var(--city);
+  opacity: 0;
+  transition: opacity 1.4s var(--ease);
+}
+
+.city.is-night { opacity: calc(0.34 + var(--w) * 0.5); }
+.city-bloom.is-night { opacity: calc(0.14 + var(--w) * 0.22); }
 
 @media (prefers-reduced-motion: no-preference) {
   .city.is-night { animation: citybreath 9s var(--ease) infinite; }
 }
+
+.layer-city { mix-blend-mode: screen; }
 
 @keyframes citybreath {
   0%, 100% { opacity: calc(0.22 + var(--w) * 0.34); }
@@ -349,6 +398,7 @@
 
 .tt-head { display: flex; align-items: center; gap: 9px; }
 .tt-flag { font-size: 15px; line-height: 1; }
+.tt-flag.is-chip { font-size: 9px; }
 .tt-name { font-size: 12.5px; }
 .tt-code { margin-left: auto; font-size: 8.5px; color: var(--dim); letter-spacing: 0.14em; }
 

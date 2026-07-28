@@ -14,7 +14,7 @@ import {
 } from './filters.js';
 import { renderWorldMap } from './map.js';
 import { renderTimeline } from './timeline.js';
-import { createPanel, createModal } from './panel.js';
+import { createPanel, createModal, flagNode } from './panel.js';
 
 /* Tells the inline fallback in index.html that the module graph resolved.
    Set before anything else can throw. */
@@ -398,7 +398,7 @@ function handleHover(code, pos) {
 
   const head = document.createElement('div');
   head.className = 'tt-head';
-  head.append(el('span', 'tt-flag', flagEmoji(code)));
+  head.append(flagNode(code, 'tt-flag flag'));
   head.append(el('span', 'tt-name', country ? pick(country.name) : code));
   head.append(el('span', 'mono tt-code', code));
   dom.tooltip.append(head);

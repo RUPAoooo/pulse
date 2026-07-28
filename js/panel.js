@@ -20,6 +20,41 @@ const CAT_MARK = {
   ENTERTAINMENT: 'EN', POLITICS: 'PO', BUSINESS: 'BZ', WEATHER: 'WX', OTHER: '··',
 };
 
+/* ------------------------------------------------------------------- flags */
+
+/* Windows ships no glyphs for regional-indicator pairs, so a flag emoji there
+   renders as two letter boxes. Measure once and fall back to a code chip. */
+let emojiFlags = null;
+function supportsFlagEmoji() {
+  if (emojiFlags !== null) return emojiFlags;
+  try {
+    const c = document.createElement('canvas');
+    c.width = 32; c.height = 16;
+    const ctx = c.getContext('2d');
+    if (!ctx) return (emojiFlags = false);
+    ctx.font = '14px sans-serif';
+    const pair = ctx.measureText('\u{1F1EF}\u{1F1F5}').width;
+    const single = ctx.measureText('\u{1F1EF}').width;
+    emojiFlags = pair < single * 1.6;
+  } catch {
+    emojiFlags = false;
+  }
+  return emojiFlags;
+}
+
+/** A flag for a country code: the emoji where it renders, a code chip where it does not. */
+export function flagNode(code, cls = 'flag') {
+  const span = h('span', cls);
+  span.dataset.code = code ?? '';
+  if (supportsFlagEmoji()) {
+    span.textContent = flagEmoji(code);
+  } else {
+    span.classList.add('is-chip');
+    span.textContent = String(code ?? '').slice(0, 2).toUpperCase();
+  }
+  return span;
+}
+
 /* ------------------------------------------------------------------ helpers */
 
 function h(tag, cls, text) {
@@ -154,6 +189,47 @@ function meter(value) {
   return wrap;
 }
 
+/**
+ * The little square to the left of a row. Nothing is fetched from an API:
+ * a news row asks the publisher's own site for its favicon, a Wikipedia row
+ * gets the Wikipedia mark, and anything that fails falls back to the category
+ * tile that was there before — so the layout never shifts.
+ */
+function thumbnail(topic) {
+  const box = h('span', 'mono t-thumb');
+  box.dataset.cat = topic.category;
+  box.setAttribute('aria-hidden', 'true');
+
+  const mark = h('span', 't-mark', CAT_MARK[topic.category] ?? '\u00b7\u00b7');
+  box.append(mark);
+
+  if (topic.kind === 'WIKI') {
+    box.classList.add('is-wiki');
+    mark.textContent = 'W';
+    return box;
+  }
+
+  if (topic.kind === 'NEWS' && topic.url) {
+    let origin = null;
+    try { origin = new URL(topic.url).origin; } catch { origin = null; }
+    if (origin) {
+      const img = document.createElement('img');
+      img.className = 't-favicon';
+      img.loading = 'lazy';
+      img.decoding = 'async';
+      img.alt = '';
+      img.referrerPolicy = 'no-referrer';
+      img.addEventListener('load', () => {
+        if (img.naturalWidth > 8) box.classList.add('has-icon');
+      });
+      img.addEventListener('error', () => img.remove());
+      img.src = `${origin}/favicon.ico`;
+      box.append(img);
+    }
+  }
+  return box;
+}
+
 /* -------------------------------------------------------------- topic rows */
 
 function topicRow(topic, rank, handlers) {
@@ -165,10 +241,7 @@ function topicRow(topic, rank, handlers) {
 
   li.append(h('span', 'mono t-rank', String(rank)));
 
-  const thumb = h('span', 'mono t-thumb', CAT_MARK[topic.category] ?? '··');
-  thumb.dataset.cat = topic.category;
-  thumb.setAttribute('aria-hidden', 'true');
-  li.append(thumb);
+  li.append(thumbnail(topic));
 
   const body = h('div', 't-body');
   body.append(h('h4', 't-title', pick(topic.title)));
@@ -257,7 +330,8 @@ export function createPanel({ root, onClose, onTopicOpen, onTopicHover }) {
     const head = h('header', 'p-head');
 
     const id = h('div', 'p-id');
-    if (flag) id.append(h('span', 'p-flag', flag));
+    if (flag === '\u25CD') id.append(h('span', 'p-flag', flag));
+    else if (flag) id.append(flagNode(flag, 'p-flag flag'));
     const box = h('div', 'p-id-text');
     box.append(h('h2', 'p-name', title));
     box.append(h('p', 'p-name-sub', sub));
@@ -431,7 +505,7 @@ export function createPanel({ root, onClose, onTopicOpen, onTopicHover }) {
     const tz = country?.tz ?? 'UTC';
 
     const { head, clockValue } = headerBar({
-      flag: flagEmoji(code),
+      flag: code,
       title: primary,
       sub: `${secondary} · ${code}${country?.code3 ? ` / ${country.code3}` : ''}`,
       clock: fmtClock(new Date(), tz),
@@ -622,7 +696,9 @@ export function createPanel({ root, onClose, onTopicOpen, onTopicHover }) {
       multi.forEach((agg) => {
         const li = h('li', 'mini');
         li.append(h('span', 'mini-name', pick(agg.topic.title)));
-        li.append(h('span', 'mini-flags', agg.codes.slice(0, 6).map(flagEmoji).join(' ')));
+        const flags = h('span', 'mini-flags');
+        agg.codes.slice(0, 6).forEach((c) => flags.append(flagNode(c, 'flag flag-sm')));
+        li.append(flags);
         li.append(h('span', `mono delta ${changeClass(agg.avgChange)}`, fmtChange(agg.avgChange)));
         ul.append(li);
       });
@@ -653,7 +729,7 @@ export function createPanel({ root, onClose, onTopicOpen, onTopicHover }) {
         li.setAttribute('role', 'button');
         li.dataset.code = row.code;
         li.append(h('span', 'mono r-index', String(i + 1).padStart(2, '0')));
-        li.append(h('span', 'r-flag', flagEmoji(row.code)));
+        li.append(flagNode(row.code, 'r-flag flag'));
         li.append(h('span', 'r-name', pick(ctx.model.countries.get(row.code)?.name ?? row.code)));
         li.append(meter(row.value));
         li.append(h('span', 'mono r-val', String(row.value)));
@@ -778,7 +854,11 @@ export function createModal({ root, onClose }) {
     if (topic.kind === 'NEWS' && topic.publishedAt) add(t('topic.published'), fmtDateTime(topic.publishedAt));
     if (topic.kind === 'WIKI' && topic.rank != null) add(t('topic.wikiRank'), `#${topic.rank}`);
     if (topic.kind === 'WIKI' && topic.views != null) add(t('topic.views'), fmtViews(topic.views), 'big');
-    add(t('topic.origin'), `${flagEmoji(topic.origin)} ${pick(ctx.model.countries.get(topic.origin)?.name ?? topic.origin)}`);
+    stats.append(h('dt', null, t('topic.origin')));
+    const originDd = h('dd');
+    originDd.append(flagNode(topic.origin, 'flag flag-sm'));
+    originDd.append(document.createTextNode(` ${pick(ctx.model.countries.get(topic.origin)?.name ?? topic.origin)}`));
+    stats.append(originDd);
     if (topic.kind == null && topic.startedAt) {
       add(t('topic.started'), new Intl.DateTimeFormat(locale(), {
         month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false,
@@ -812,7 +892,7 @@ export function createModal({ root, onClose }) {
       const ul = h('ul', 'watch-list');
       watchers.forEach((w) => {
         const li = h('li', 'watch');
-        li.append(h('span', 'w-flag', flagEmoji(w.code)));
+        li.append(flagNode(w.code, 'w-flag flag'));
         li.append(h('span', 'w-name', pick(ctx.model.countries.get(w.code)?.name ?? w.code)));
         li.append(h('span', 'mono w-score', String(w.score)));
         li.append(h('span', `mono delta ${changeClass(w.change)}`, fmtChange(w.change)));

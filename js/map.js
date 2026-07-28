@@ -89,6 +89,56 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
     ['100%', 'var(--atmo)', '0'],
   ]);
 
+  /* A slow, low-frequency noise field, blurred until it reads as mist rather
+     than as noise. Rendered once — it never animates. */
+  const mist = el('filter', {
+    id: 'wp-mist', x: '-8%', y: '-14%', width: '116%', height: '128%',
+    'color-interpolation-filters': 'linearRGB',
+  });
+  mist.append(el('feTurbulence', {
+    type: 'fractalNoise', baseFrequency: '0.0075 0.014', numOctaves: '3',
+    seed: '11', result: 'n',
+  }));
+  mist.append(el('feColorMatrix', {
+    in: 'n', type: 'matrix', result: 'm',
+    values: [
+      '0 0 0 0 0.18',
+      '0 0 0 0 0.42',
+      '0 0 0 0 0.85',
+      '1.45 0.9 0 0 -0.87',
+    ].join(' '),
+  }));
+  mist.append(el('feGaussianBlur', { in: 'm', stdDeviation: '11' }));
+
+  const swirl = el('filter', {
+    id: 'wp-swirl', x: '-10%', y: '-16%', width: '120%', height: '132%',
+    'color-interpolation-filters': 'linearRGB',
+  });
+  swirl.append(el('feTurbulence', {
+    type: 'fractalNoise', baseFrequency: '0.004 0.009', numOctaves: '2',
+    seed: '4', result: 'n',
+  }));
+  swirl.append(el('feColorMatrix', {
+    in: 'n', type: 'matrix', result: 'm',
+    values: [
+      '0 0 0 0 0.95',
+      '0 0 0 0 0.55',
+      '0 0 0 0 0.28',
+      '1.15 0.75 0 0 -1.02',
+    ].join(' '),
+  }));
+  swirl.append(el('feGaussianBlur', { in: 'm', stdDeviation: '16' }));
+
+  /* Coastline relief: the same path drawn twice, once pushed down as shadow. */
+  const relief = el('filter', {
+    id: 'wp-relief', x: '-4%', y: '-8%', width: '108%', height: '116%',
+    'color-interpolation-filters': 'sRGB',
+  });
+  relief.append(el('feDropShadow', {
+    dx: '0', dy: '0.9', stdDeviation: '1.1',
+    'flood-color': '#020610', 'flood-opacity': '0.85',
+  }));
+
   const soften = el('filter', {
     id: 'wp-soften', x: '-14%', y: '-34%', width: '128%', height: '168%',
     'color-interpolation-filters': 'sRGB',
@@ -99,13 +149,19 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
     id: 'wp-city', x: '-60%', y: '-60%', width: '220%', height: '220%',
     'color-interpolation-filters': 'sRGB',
   });
-  cityBlur.append(el('feGaussianBlur', { stdDeviation: '1.6' }));
+  cityBlur.append(el('feGaussianBlur', { stdDeviation: '2.2' }));
 
-  defs.append(ocean, halo, daylight, warm, nightFill, vignette, atmo, soften, cityBlur);
+  defs.append(ocean, halo, daylight, warm, nightFill, vignette, atmo, mist, swirl, relief, soften, cityBlur);
   svg.append(defs);
 
   /* The sea doubles as the hit-test backdrop for the whole canvas. */
   svg.append(el('rect', { class: 'map-sea', x: 0, y: 0, width: W, height: H, fill: 'url(#wp-ocean)' }));
+  svg.append(el('rect', {
+    class: 'map-mist', x: -40, y: -40, width: W + 80, height: H + 80, filter: 'url(#wp-mist)',
+  }));
+  svg.append(el('rect', {
+    class: 'map-swirl', x: -40, y: -40, width: W + 80, height: H + 80, filter: 'url(#wp-swirl)',
+  }));
   svg.append(el('rect', { class: 'map-atmo', x: 0, y: 0, width: W, height: H, fill: 'url(#wp-atmo)' }));
 
   const dayLayer = el('g', { class: 'layer-day' });
@@ -145,7 +201,11 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
   /* Coastline and internal borders are separate strokes so the coast can read
      brighter than a border without the two fighting each other. */
   if (geo.borders) lineLayer.append(el('path', { class: 'borderline', d: geo.borders }));
-  if (geo.coast) lineLayer.append(el('path', { class: 'coastline', d: geo.coast }));
+  if (geo.coast) {
+    lineLayer.append(el('path', { class: 'coast-shadow', d: geo.coast }));
+    lineLayer.append(el('path', { class: 'coastline', d: geo.coast }));
+    lineLayer.append(el('path', { class: 'coast-light', d: geo.coast }));
+  }
 
   /* A country too small for the 3-degree source grid has no polygon — fall
      back to the centroid recorded in data/countries.json so it still glows. */
@@ -225,17 +285,24 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
   nightLayer.append(nightShape, nightEdge);
 
   /* city lights — scenery only, never interactive */
-  const cityGroup = el('g', { class: 'city-group', filter: 'url(#wp-city)' });
-  cityLayer.append(cityGroup);
+  const cityBloomGroup = el('g', { class: 'city-bloom-group', filter: 'url(#wp-city)' });
+  const cityGroup = el('g', { class: 'city-group' });
+  cityLayer.append(cityBloomGroup, cityGroup);
   const cities = CITIES.map(([lon, lat, weight], i) => {
     const { x, y } = project(lon, lat);
-    const dot = el('circle', {
-      class: 'city', cx: x, cy: y, r: (0.9 + weight * 1.1).toFixed(2),
+    const bloom = el('circle', {
+      class: 'city-bloom', cx: x, cy: y, r: (2.6 + weight * 3.4).toFixed(2),
     });
-    dot.style.setProperty('--w', weight.toFixed(2));
-    if (!reduceMotion.matches) dot.style.animationDelay = `${(i % 9) * 0.9}s`;
+    const dot = el('circle', {
+      class: 'city', cx: x, cy: y, r: (0.75 + weight * 0.95).toFixed(2),
+    });
+    for (const node of [bloom, dot]) {
+      node.style.setProperty('--w', weight.toFixed(2));
+      if (!reduceMotion.matches) node.style.animationDelay = `${(i % 9) * 0.9}s`;
+    }
+    cityBloomGroup.append(bloom);
     cityGroup.append(dot);
-    return { lon, lat, dot };
+    return { lon, lat, dot, bloom };
   });
 
   function paintDayNight() {
@@ -247,7 +314,9 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
     warmGlow.setAttribute('cx', sun.x);
     warmGlow.setAttribute('cy', sun.y);
     for (const c of cities) {
-      c.dot.classList.toggle('is-night', solarAltitude(c.lon, c.lat, sun) < 0.02);
+      const night = solarAltitude(c.lon, c.lat, sun) < 0.02;
+      c.dot.classList.toggle('is-night', night);
+      c.bloom.classList.toggle('is-night', night);
     }
   }
   paintDayNight();
