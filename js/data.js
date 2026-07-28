@@ -158,6 +158,8 @@ export function normalizeTrendData(raw) {
       deg: raw.geo?.meta?.deg ?? 3,
       cell: raw.geo?.meta?.cell ?? 10,
     },
+    coast: raw.geo?.coast ?? '',
+    borders: raw.geo?.borders ?? '',
     countries: raw.geo?.countries ?? [],
   };
 

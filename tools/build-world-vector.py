@@ -21,7 +21,7 @@ GRID = os.path.join(REPO, 'data', 'worldgrid.json')
 OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(REPO, 'data', 'world-vector.json')
 
 CELL = 10.0          # svg units per 3-degree grid cell (matches map.js)
-SUB = 8              # raster subdivisions per grid cell -> 0.375 deg
+SUB = 12             # raster subdivisions per grid cell -> 0.25 deg
 LON_MIN, LAT_MAX, DEG = -180.0, 84.0, 3.0
 
 grid = json.load(open(GRID))
@@ -117,19 +117,47 @@ def cid(c):
         index[c] = len(codes); codes.append(c)
     return index[c]
 
-RAD = 2
-offsets = sorted(((dx, dy) for dx in range(-RAD, RAD + 1) for dy in range(-RAD, RAD + 1)),
-                 key=lambda o: o[0] * o[0] + o[1] * o[1])
+RAD = 3
+offsets = [(dx, dy) for dx in range(-RAD, RAD + 1) for dy in range(-RAD, RAD + 1)]
+
+
+def jitter(gx, gy):
+    """Deterministic nudge for a cell centre, so the partition is not a lattice."""
+    hx = ((gx * 73856093) ^ (gy * 19349663)) & 0xffff
+    hy = ((gx * 83492791) ^ (gy * 50331653)) & 0xffff
+    return (hx / 0xffff - 0.5) * 0.72, (hy / 0xffff - 0.5) * 0.72
+
+
+# Each land cell goes to the nearest nudged cell centre — a Voronoi partition.
+# A plain lattice Voronoi would reproduce the 3-degree grid exactly, which
+# reads as pixel steps; the nudge turns those steps into slanted lines.
+site_x = np.full((ROWS, COLS), np.nan)
+site_y = np.full((ROWS, COLS), np.nan)
+site_c = np.full((ROWS, COLS), -1, dtype=np.int16)
+for (gx0, gy0), code0 in cellcode.items():
+    if not code0 or not (0 <= gx0 < COLS and 0 <= gy0 < ROWS):
+        continue
+    jx0, jy0 = jitter(gx0, gy0)
+    site_x[gy0, gx0] = gx0 + 0.5 + jx0
+    site_y[gy0, gx0] = gy0 + 0.5 + jy0
+    site_c[gy0, gx0] = cid(code0)
+
 ys, xs = np.nonzero(land)
-for j, i in zip(ys, xs):
-    gx, gy = i // SUB, j // SUB
-    code = cellcode.get((gx, gy))
-    if not code:
-        for dx, dy in offsets:
-            c = cellcode.get((gx + dx, gy + dy))
-            if c:
-                code = c; break
-    owner[j, i] = cid(code or '')
+gxa, gya = xs // SUB, ys // SUB
+pxa, pya = (xs + 0.5) / SUB, (ys + 0.5) / SUB
+best = np.full(xs.shape, -1, dtype=np.int16)
+bestd = np.full(xs.shape, 1e9)
+for dx, dy in offsets:
+    ax, ay = gxa + dx, gya + dy
+    inside = (ax >= 0) & (ax < COLS) & (ay >= 0) & (ay < ROWS)
+    axc, ayc = np.clip(ax, 0, COLS - 1), np.clip(ay, 0, ROWS - 1)
+    cc = site_c[ayc, axc]
+    d2 = (site_x[ayc, axc] - pxa) ** 2 + (site_y[ayc, axc] - pya) ** 2
+    upd = inside & (cc >= 0) & (d2 < bestd)
+    bestd[upd] = d2[upd]
+    best[upd] = cc[upd]
+owner[ys, xs] = np.where(best >= 0, best, 0)
+
 print('codes', len(codes))
 
 # ------------------------------------------------ region outlines
@@ -205,16 +233,93 @@ def rdp_closed(p, eps):
     if far < 2 or far > len(p) - 2: return p
     return rdp_open(p[:far + 1], eps)[:-1] + rdp_open(p[far:] + [p[0]], eps)[:-1]
 
-def path_of(loops, eps=0.45):
+def path_of(loops, eps=0.55):
     d = []
     for loop in loops:
         pts = loop[:-1] if loop[0] == loop[-1] else loop
         if len(pts) < 4: continue
-        pts = chaikin(pts, 2)          # rounds the raster staircase, not the shape
+        pts = chaikin(pts, 3)          # rounds the raster staircase, not the shape
         pts = rdp_closed(pts, eps)
         if len(pts) < 3: continue
         d.append('M' + 'L'.join(f'{x:.1f} {y:.1f}' for x, y in pts) + 'Z')
     return ''.join(d)
+
+# ------------------------------------------------- coast / border lines
+# Every unit edge between a land cell and its neighbour is classified once:
+# touching the sea makes it coastline, touching another country makes it a
+# border. They are emitted globally rather than per country, so a shared
+# border is stored once instead of twice.
+def chain(seg):
+    """Links directed unit edges into the longest runs we can make."""
+    runs = []
+    while seg:
+        start = next(iter(seg))
+        run = [start]
+        cur = start
+        while True:
+            nxt = seg.get(cur)
+            if not nxt:
+                break
+            n = nxt.pop()
+            if not nxt:
+                del seg[cur]
+            run.append(n)
+            cur = n
+            if cur == start:
+                break
+        if len(run) > 3:
+            runs.append(run)
+    return runs
+
+
+def chaikin_open(p, it=2):
+    for _ in range(it):
+        q = [p[0]]
+        for k in range(len(p) - 1):
+            a, b = p[k], p[k + 1]
+            q.append((a[0] * 0.75 + b[0] * 0.25, a[1] * 0.75 + b[1] * 0.25))
+            q.append((a[0] * 0.25 + b[0] * 0.75, a[1] * 0.25 + b[1] * 0.75))
+        q.append(p[-1])
+        p = q
+    return p
+
+
+def line_paths():
+    coast, border = {}, {}
+    ys_, xs_ = np.nonzero(land)
+    for j, i in zip(ys_, xs_):
+        me = owner[j, i]
+        x0, y0, x1, y1 = i * PX, j * PX, (i + 1) * PX, (j + 1) * PX
+        sides = ((-1, 0, (x0, y0), (x1, y0)), (0, 1, (x1, y0), (x1, y1)),
+                 (1, 0, (x1, y1), (x0, y1)), (0, -1, (x0, y1), (x0, y0)))
+        for dj, di, a, b in sides:
+            nj, ni = j + dj, i + di
+            if nj < 0 or nj >= H or ni < 0 or ni >= W or not land[nj, ni]:
+                coast.setdefault(a, []).append(b)
+            elif owner[nj, ni] != me and (dj + di) > 0:
+                border.setdefault(a, []).append(b)
+    return chain(coast), chain(border)
+
+
+def polyline_path(runs, eps=0.4):
+    out = []
+    for run in runs:
+        closed = run[0] == run[-1]
+        pts = run[:-1] if closed else run
+        if len(pts) < 4:
+            continue
+        pts = chaikin(pts, 2) if closed else chaikin_open(pts, 2)
+        pts = rdp_closed(pts, eps) if closed else rdp_open(pts, eps)
+        if len(pts) < 2:
+            continue
+        out.append('M' + 'L'.join(f'{x:.1f} {y:.1f}' for x, y in pts) + ('Z' if closed else ''))
+    return ''.join(out)
+
+
+coast_runs, border_runs = line_paths()
+coast_d = polyline_path(coast_runs, 0.6)
+border_d = polyline_path(border_runs, 0.9)
+print('coast runs', len(coast_runs), 'border runs', len(border_runs))
 
 out_countries = []
 areas = {}
@@ -248,6 +353,8 @@ doc = {
         'width': COLS * CELL, 'height': ROWS * CELL,
         'lonMin': LON_MIN, 'latMax': LAT_MAX, 'deg': DEG, 'cell': CELL,
     },
+    'coast': coast_d,
+    'borders': border_d,
     'countries': out_countries,
 }
 json.dump(doc, open(OUT, 'w'), separators=(',', ':'))

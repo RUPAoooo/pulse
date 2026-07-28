@@ -83,6 +83,12 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
     ['100%', 'var(--sea-3)', '0.78'],
   ]);
 
+  const atmo = stops(el('radialGradient', { id: 'wp-atmo', cx: '50%', cy: '48%', r: '58%' }), [
+    ['0%', 'var(--atmo)', '0.16'],
+    ['55%', 'var(--atmo)', '0.07'],
+    ['100%', 'var(--atmo)', '0'],
+  ]);
+
   const soften = el('filter', {
     id: 'wp-soften', x: '-14%', y: '-34%', width: '128%', height: '168%',
     'color-interpolation-filters': 'sRGB',
@@ -95,14 +101,16 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
   });
   cityBlur.append(el('feGaussianBlur', { stdDeviation: '1.6' }));
 
-  defs.append(ocean, halo, daylight, warm, nightFill, vignette, soften, cityBlur);
+  defs.append(ocean, halo, daylight, warm, nightFill, vignette, atmo, soften, cityBlur);
   svg.append(defs);
 
   /* The sea doubles as the hit-test backdrop for the whole canvas. */
   svg.append(el('rect', { class: 'map-sea', x: 0, y: 0, width: W, height: H, fill: 'url(#wp-ocean)' }));
+  svg.append(el('rect', { class: 'map-atmo', x: 0, y: 0, width: W, height: H, fill: 'url(#wp-atmo)' }));
 
   const dayLayer = el('g', { class: 'layer-day' });
   const landLayer = el('g', { class: 'layer-land' });
+  const lineLayer = el('g', { class: 'layer-line' });
   const nightLayer = el('g', { class: 'layer-night' });
   const cityLayer = el('g', { class: 'layer-city' });
   const haloLayer = el('g', { class: 'layer-halo' });
@@ -110,7 +118,7 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
   const linkLayer = el('g', { class: 'layer-links' });
   const labelLayer = el('g', { class: 'layer-label' });
   const hitLayer = el('g', { class: 'layer-hit' });
-  svg.append(dayLayer, landLayer, nightLayer, cityLayer, haloLayer, rippleLayer,
+  svg.append(dayLayer, landLayer, lineLayer, nightLayer, cityLayer, haloLayer, rippleLayer,
     linkLayer, labelLayer, hitLayer);
   svg.append(el('rect', {
     class: 'map-vignette', x: 0, y: 0, width: W, height: H, fill: 'url(#wp-vignette)',
@@ -133,6 +141,11 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
     }
     landLayer.append(path);
   }
+
+  /* Coastline and internal borders are separate strokes so the coast can read
+     brighter than a border without the two fighting each other. */
+  if (geo.borders) lineLayer.append(el('path', { class: 'borderline', d: geo.borders }));
+  if (geo.coast) lineLayer.append(el('path', { class: 'coastline', d: geo.coast }));
 
   /* A country too small for the 3-degree source grid has no polygon — fall
      back to the centroid recorded in data/countries.json so it still glows. */

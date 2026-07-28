@@ -39,6 +39,13 @@
 @media (max-width: 680px) {
   body { font-size: 13.5px; }
 
+  /* the atmosphere and the map's own glow are the two costly effects here */
+  .map-wrap::before { filter: blur(16px); opacity: 0.7; }
+  .world { filter: none; }
+  .city { display: none; }
+  .coastline { stroke-width: 0.8; }
+  .borderline { stroke-dasharray: none; stroke: rgba(140, 176, 220, 0.12); }
+
   .hdr { padding: 15px var(--gut) 10px; }
   .brand-en { font-size: 21px; letter-spacing: 0.1em; }
   .brand-ja { font-size: 9.5px; letter-spacing: 0.3em; margin-top: 6px; }
