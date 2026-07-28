@@ -31,6 +31,14 @@ export function subsolarPoint(date = new Date()) {
   return { lon, lat: declination };
 }
 
+/** Sine of the sun's altitude at a point — negative means the point is dark. */
+export function solarAltitude(lon, lat, sun) {
+  const phi = lat * RAD;
+  const dec = sun.lat * RAD;
+  const hour = (lon - sun.lon) * RAD;
+  return Math.sin(phi) * Math.sin(dec) + Math.cos(phi) * Math.cos(dec) * Math.cos(hour);
+}
+
 /**
  * Builds the geometry the map needs.
  *  - `night` : SVG path covering the unlit half of the world

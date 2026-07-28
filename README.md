@@ -26,6 +26,7 @@ world-pulse/
 │  ├─ data.js              data/ の構造を知る唯一のファイル。API化の窓口
 │  ├─ map.js               地図の描画・ホバー判定・脈動・波紋・接続線・昼夜
 │  ├─ daynight.js          太陽直下点と昼夜境界の計算（外部API不要）
+│  ├─ citylights.js        夜側に灯す都市光の座標（43地点。表示専用）
 │  ├─ panel.js             国別詳細パネル / WORLD NOW / トピック詳細モーダル
 │  ├─ filters.js           カテゴリーとGLOBAL/LOCALの絞り込み状態
 │  ├─ timeline.js          24時間スクラバー
@@ -34,7 +35,7 @@ world-pulse/
 │  ├─ world-vector.json    画面が描く世界地図（国別ベクターパス。第10節参照）
 │  ├─ worldgrid.json       国の割り当てに使う3度グリッド（地図の生成元データ）
 │  ├─ countries.json       国コード・国名・タイムゾーン・地図上の重心
-│  ├─ topics.json          現在（NOW）の話題データ
+│  ├─ topics.json          現在（NOW）の話題データ（サンプル32か国）
 │  └─ timeline.json        3 / 6 / 12 / 24時間前のスコア履歴
 ├─ assets/
 │  ├─ icons/favicon.svg
@@ -177,7 +178,7 @@ Node.js をお使いの場合は `npx serve` でも、VS Code をお使いの場
 
 ## 5. 国を追加する
 
-対象国は現在12か国（JP / US / GB / FR / DE / IT / ES / KR / CN / IN / BR / AU）です。地図自体は85か国分のドットを持っているので、たとえばカナダ（CA）を追加する場合：
+実データの取得対象は31か国です（`data/countries.json` の `targets` と `scripts/config.js` の `COUNTRIES` が一致している必要があります）。地図自体は89か国分の形状を持っているので、たとえばペルー（PE）を追加する場合：
 
 1. `data/countries.json` の `targets` 配列に `"CA"` を足す
 2. 同ファイルの `countries` 配列から `CA` の項目を探し、`hasData` を `true` にする
@@ -254,7 +255,37 @@ APIキーは不要です。GitHub Secretsの設定もいりません。
 { code: 'IT', wiki: 'it.wikipedia', gdelt: 'IT', lang: 'italian' },
 ```
 
-`gdelt` はFIPS 10-4の国コード（GDELTの `sourcecountry` が使う体系）で、ISOコードとは違うものがあります（イギリス=UK、ドイツ=GM、韓国=KS など）。地図側は `data/countries.json` が85か国分のコードを持っているので、そちらの変更は不要です。
+`gdelt` はFIPS 10-4の国コード（GDELTの `sourcecountry` が使う体系）で、ISOコードとは違うものがあります。**特に紛らわしいもの**：
+
+| ISO | 国 | GDELT |
+|----|----|----|
+| GB | イギリス | `UK` |
+| DE | ドイツ | `GM` |
+| KR | 韓国 | `KS` |
+| AU | オーストラリア | `AS` |
+| ES | スペイン | `SP` |
+| SE | スウェーデン | `SW` |
+| CH | スイス | `SZ` |
+| TR | トルコ | `TU` |
+| ZA | 南アフリカ | `SF` |
+| NG | ナイジェリア | `NI`（`NG` はニジェール） |
+| SG | シンガポール | `SN`（`SG` はセネガル） |
+| VN | ベトナム | `VM` |
+| PH | フィリピン | `RP` |
+
+正しい値は <http://data.gdeltproject.org/api/v2/guides/LOOKUP-COUNTRIES.TXT>、`lang` は <http://data.gdeltproject.org/api/v2/guides/LOOKUP-LANGUAGES.TXT> で確認できます。確認できない国は追加せず、`config.js` の末尾にコメントで「未確認」として残してあります。
+
+`data/countries.json` に無いコードを足した場合は、そちらにも国を追加してください（地図に載らない国は発光マーカーだけで表示されます）。
+
+### 国別の取得状況
+
+`data/update-status.json` の `countryStatus` に、対象国ごとの結果が1行ずつ入ります。
+
+```json
+"NG": { "news": 0, "wiki": 0, "wikiPerCountry": null, "state": "failed", "errors": ["HTTP 429", "HTTP 404"] }
+```
+
+`state` は `ok` / `news-only` / `wiki-only` / `failed` のいずれかです。画面はこれを読んで、データが無い国をクリックしたときに理由（対象外・取得失敗・片方のソースのみ）を表示します。Actionsのログにも同じ表が出ます。
 
 ### 表示の優先順位
 
@@ -375,6 +406,9 @@ python3 tools/build-world-vector.py data/world-vector.json
 - 記事の要約・本文は取得していません（転載を避けるため、タイトルと公開情報のみ）
 - 地図のズーム・パンはできません
 - 昼夜境界は均時差を含む簡易計算です。数分程度の誤差があります（表示用途では問題ありません）
+- 都市光は固定座標の装飾です。実際の明かりの量とは関係ありません
+- シンガポールと香港は3度グリッドに収まらないため、地図上のポリゴンを持ちません（発光マーカーのみ）
+- 中国とロシアはGDELTの取得条件を確認できていないため、対象国に入れていません
 - ブラウザストレージ（localStorage 等）は使用していません。表示言語は毎回ブラウザの設定から判定します
 
 ---

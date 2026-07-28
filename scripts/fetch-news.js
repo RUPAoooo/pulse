@@ -124,6 +124,7 @@ async function fetchCountry(entry) {
 async function run() {
   const countries = [];
   const failed = [];
+  const perCountry = {};              // code -> { items } or { items: 0, error }
   let keptTotal = 0;
 
   process.stdout.write(`News (GDELT): fetching ${COUNTRIES.length} countries\n`);
@@ -133,12 +134,14 @@ async function run() {
       const result = await fetchCountry(entry);
       keptTotal += result.articles.length;
       countries.push(result);
+      perCountry[entry.code] = { items: result.articles.length };
       process.stdout.write(`  ${entry.code} GDELT items: ${result.articles.length} — OK\n`);
     } catch (e) {
       failed.push({ country: entry.code, source: 'news', message: e.message });
+      perCountry[entry.code] = { items: 0, error: e.message };
       process.stdout.write(`  ${entry.code} GDELT: FAILED — ${e.message}\n`);
     }
-    await new Promise((r) => setTimeout(r, 1200));   // be polite to GDELT
+    await new Promise((r) => setTimeout(r, LIMITS.newsDelayMs ?? 900));   // be polite to GDELT
   }
 
   const payload = {
@@ -160,7 +163,7 @@ async function run() {
     `failed=[${failed.map((f) => f.country).join(',')}]\n`,
   );
 
-  return { ok: countries.map((c) => c.code), failed, items: keptTotal };
+  return { ok: countries.map((c) => c.code), failed, items: keptTotal, perCountry };
 }
 
 if (require.main === module) {
@@ -171,7 +174,7 @@ if (require.main === module) {
     process.stdout.write(`News: fatal — ${e.message}\n`);
     fs.writeFileSync(
       path.join(__dirname, '.news-result.json'),
-      JSON.stringify({ ok: [], failed: [{ country: '*', source: 'news', message: e.message }], items: 0 }, null, 1),
+      JSON.stringify({ ok: [], failed: [{ country: '*', source: 'news', message: e.message }], items: 0, perCountry: {} }, null, 1),
     );
   });
 }

@@ -18,8 +18,9 @@ const { COUNTRIES, LIMITS, classify, getJSON } = require('./config');
 const OUT = path.join(__dirname, '..', 'data', 'live-wikipedia.json');
 const API = 'https://wikimedia.org/api/rest_v1/metrics/pageviews';
 
-/* Pageviews data lands with a lag, so walk back a few days until one answers. */
-const LOOKBACK_DAYS = 4;
+/* Pageviews data lands with a lag, so walk back a few days until one answers.
+   Kept short: with 31 countries every extra day costs 31 more requests. */
+const LOOKBACK_DAYS = LIMITS.wikiLookbackDays ?? 3;
 
 function ymd(daysAgo) {
   const d = new Date(Date.now() - daysAgo * 86400000);
@@ -132,6 +133,7 @@ async function fetchCountry(entry) {
 async function run() {
   const countries = [];
   const failed = [];
+  const perCountry = {};              // code -> { items, perCountry, date }
   let rawItemTotal = 0;
 
   process.stdout.write(`Wikimedia: fetching ${COUNTRIES.length} countries\n`);
@@ -142,14 +144,21 @@ async function run() {
       if (!result.articles.length) throw new Error('no usable articles after filtering');
       rawItemTotal += result.articles.length;
       countries.push(result);
+      perCountry[entry.code] = {
+        items: result.articles.length,
+        perCountry: result.perCountry,
+        date: result.date,
+      };
       process.stdout.write(
         `  ${entry.code} Wikimedia items: ${result.articles.length} ` +
         `(${result.perCountry ? 'per-country' : 'per-language'}, ${result.date}) — OK\n`,
       );
     } catch (e) {
       failed.push({ country: entry.code, source: 'wikimedia', message: e.message });
+      perCountry[entry.code] = { items: 0, error: e.message };
       process.stdout.write(`  ${entry.code} Wikimedia: FAILED — ${e.message}\n`);
     }
+    await new Promise((r) => setTimeout(r, LIMITS.wikiDelayMs ?? 250));
   }
 
   const payload = {
@@ -171,7 +180,7 @@ async function run() {
     `failed=[${failed.map((f) => f.country).join(',')}]\n`,
   );
 
-  return { ok: countries.map((c) => c.code), failed, items: rawItemTotal };
+  return { ok: countries.map((c) => c.code), failed, items: rawItemTotal, perCountry };
 }
 
 if (require.main === module) {
@@ -185,7 +194,7 @@ if (require.main === module) {
     process.stdout.write(`Wikimedia: fatal — ${e.message}\n`);
     fs.writeFileSync(
       path.join(__dirname, '.wikimedia-result.json'),
-      JSON.stringify({ ok: [], failed: [{ country: '*', source: 'wikimedia', message: e.message }], items: 0 }, null, 1),
+      JSON.stringify({ ok: [], failed: [{ country: '*', source: 'wikimedia', message: e.message }], items: 0, perCountry: {} }, null, 1),
     );
   });
 }

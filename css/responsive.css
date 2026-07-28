@@ -72,6 +72,7 @@
   .tl-readout { display: none; }
   .tl-wave { height: 54px; }
   .tl-slider { height: 54px; }
+  .clabel { font-size: 11px; }
 
   /* the panel becomes a sheet */
   .panel {
@@ -94,6 +95,9 @@
   .score-v { font-size: 36px; }
   .p-tabs, .p-topics, .p-block { padding-left: 18px; padding-right: 18px; }
   .p-metrics { margin: 18px 18px 0; grid-template-columns: repeat(2, 1fr); row-gap: 18px; }
+  .p-analytics { margin: 18px 18px 0; padding: 16px 14px 14px; }
+  .an-grid { grid-template-columns: repeat(2, 1fr); row-gap: 14px; }
+  .p-source-note { margin-left: 18px; margin-right: 18px; }
   .p-more { width: calc(100% - 36px); margin-left: 18px; margin-right: 18px; }
   .p-foot { padding-left: 18px; padding-right: 18px; }
   .p-empty { padding: 32px 18px; }

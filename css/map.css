@@ -19,59 +19,97 @@
 
 .world.is-pointing { cursor: pointer; }
 
-.map-bg { fill: transparent; }
+.map-sea { }                       /* painted with the ocean gradient in map.js */
+.map-vignette { pointer-events: none; }
 
 /* ------------------------------------------------------------------ land */
 
 .country {
   --a: 0;
   fill: var(--land);
-  stroke: rgba(140, 172, 214, 0.13);
-  stroke-width: 0.45;
+  stroke: rgba(150, 184, 228, 0.16);
+  stroke-width: 0.4;
   stroke-linejoin: round;
   vector-effect: non-scaling-stroke;
   transition: fill-opacity 0.9s var(--ease), opacity 0.9s var(--ease), stroke 0.3s var(--ease);
 }
 
-.country.uncharted { fill: var(--land-2); stroke: rgba(140, 172, 214, 0.08); }
+.country.uncharted { fill: var(--land-2); stroke: rgba(150, 184, 228, 0.09); }
 
 /* Activity is painted as light on the water-dark background, so a quiet
    country lands on almost exactly the same tone as one without data. */
 .country.has-data {
   fill: var(--glow);
-  fill-opacity: calc(0.13 + var(--a) * 0.74);
+  fill-opacity: calc(0.16 + var(--a) * 0.76);
 }
 
 .country.is-hover {
-  stroke: rgba(180, 210, 255, 0.45);
+  stroke: rgba(190, 218, 255, 0.55);
   stroke-width: 0.9;
 }
-.country.has-data.is-hover { fill-opacity: calc(0.3 + var(--a) * 0.66); }
-.country:not(.has-data).is-hover { fill: #2b3849; }
+.country.has-data.is-hover { fill-opacity: calc(0.34 + var(--a) * 0.64); }
+.country:not(.has-data).is-hover { fill: #2f3e53; }
 
 .country.is-selected {
-  stroke: rgba(215, 232, 255, 0.75);
-  stroke-width: 1.1;
+  stroke: rgba(225, 239, 255, 0.9);
+  stroke-width: 1.2;
 }
-.country.has-data.is-selected { fill: var(--glow-2); fill-opacity: calc(0.36 + var(--a) * 0.6); }
+.country.has-data.is-selected { fill: var(--glow-2); fill-opacity: calc(0.4 + var(--a) * 0.58); }
 
-.world.has-selection .country.has-data:not(.is-selected) { opacity: 0.7; }
+.world.has-selection .country.has-data:not(.is-selected) { opacity: 0.72; }
 
 /* --------------------------------------------------------- day and night */
 
-.layer-day, .layer-night { pointer-events: none; }
+.layer-day, .layer-night, .layer-city, .layer-label { pointer-events: none; }
 
-.daylight { mix-blend-mode: screen; }
+.daylight, .warmlight { mix-blend-mode: screen; }
 
 .night { pointer-events: none; }
 
 .night-edge {
   fill: none;
-  stroke: rgba(150, 190, 245, 0.16);
-  stroke-width: 0.7;
+  stroke: rgba(158, 198, 255, 0.22);
+  stroke-width: 0.6;
   vector-effect: non-scaling-stroke;
-  pointer-events: none;
 }
+
+/* ------------------------------------------------------------ city lights */
+
+.city {
+  --w: 0.7;
+  fill: var(--city);
+  opacity: calc(0.05 + var(--w) * 0.05);
+  transition: opacity 1.4s var(--ease);
+}
+
+.city.is-night { opacity: calc(0.26 + var(--w) * 0.42); }
+
+@media (prefers-reduced-motion: no-preference) {
+  .city.is-night { animation: citybreath 9s var(--ease) infinite; }
+}
+
+@keyframes citybreath {
+  0%, 100% { opacity: calc(0.22 + var(--w) * 0.34); }
+  50%      { opacity: calc(0.3 + var(--w) * 0.5); }
+}
+
+/* ---------------------------------------------------------------- labels */
+
+.clabel {
+  fill: var(--label);
+  stroke: rgba(3, 6, 12, 0.85);
+  stroke-width: 2.4;
+  paint-order: stroke;
+  font-family: var(--sans);
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  text-anchor: middle;
+  opacity: 0;
+  transition: opacity 0.6s var(--ease);
+}
+
+.clabel.is-on { opacity: 0.72; }
+.clabel.is-strong { opacity: 1; fill: #fff; }
 
 /* ------------------------------------------------------- halo and pulse */
 
@@ -80,14 +118,32 @@
 .halo { --a: 0; }
 .halo circle { transition: opacity 0.9s var(--ease); }
 
-.halo-glow { opacity: calc(var(--a) * 0.9); }
-.halo-ring { fill: none; stroke: var(--glow); stroke-width: 0.55; opacity: calc(var(--a) * 0.34); vector-effect: non-scaling-stroke; }
-.halo-core { fill: var(--glow-2); opacity: calc(0.2 + var(--a) * 0.72); }
+.halo-glow { opacity: calc(0.18 + var(--a) * 0.62); }
+.halo-outer {
+  fill: none; stroke: var(--glow); stroke-width: 0.3;
+  opacity: 0; vector-effect: non-scaling-stroke;
+}
+.halo.is-strong .halo-outer { opacity: calc(var(--a) * 0.2); }
+.halo-ring {
+  fill: none; stroke: var(--glow); stroke-width: 0.5;
+  opacity: calc(var(--a) * 0.34); vector-effect: non-scaling-stroke;
+}
+.halo-core {
+  fill: var(--glow-2);
+  opacity: calc(0.24 + var(--a) * 0.76);
+  filter: drop-shadow(0 0 3px rgba(180, 214, 255, 0.9));
+}
+.halo-spark { fill: #fff; opacity: calc(var(--a) * 0.85); }
 
 .halo.is-off { opacity: 0.1; }
+.halo.is-strong .halo-core { r: 3.1; }
+.halo.is-strong .halo-ring { opacity: calc(var(--a) * 0.58); }
 .halo.is-hover .halo-core { opacity: 1; }
-.halo.is-hover .halo-ring { opacity: 0.6; }
-.halo.is-selected .halo-ring { opacity: 0.85; stroke-width: 0.9; }
+.halo.is-hover .halo-glow { opacity: calc(0.35 + var(--a) * 0.65); }
+.halo.is-hover .halo-ring { opacity: 0.7; }
+.halo.is-hover .halo-outer { opacity: 0.4; }
+.halo.is-selected .halo-ring { opacity: 0.9; stroke-width: 0.9; }
+.halo.is-selected .halo-outer { opacity: 0.5; }
 .halo.is-selected .halo-core { fill: #fff; opacity: 1; }
 
 .halo.is-breathing .halo-glow { animation: breathe 9s var(--ease) infinite; }
@@ -113,38 +169,51 @@
 
 .ripple {
   fill: none;
-  stroke: var(--glow);
-  stroke-width: 0.6;
+  stroke: var(--glow-2);
+  stroke-width: 0.7;
   vector-effect: non-scaling-stroke;
   transform-box: fill-box;
   transform-origin: center;
-  animation: ripple 3.4s var(--ease) forwards;
+  animation: ripple 3.6s var(--ease) forwards;
 }
 
+.ripple-2 { stroke: var(--glow); stroke-width: 0.5; animation-duration: 3.2s; }
+
 @keyframes ripple {
-  0%   { opacity: 0.45; transform: scale(0.35); }
-  100% { opacity: 0;    transform: scale(4.4); }
+  0%   { opacity: 0.55; transform: scale(0.3); }
+  60%  { opacity: 0.18; }
+  100% { opacity: 0;    transform: scale(4.6); }
 }
 
 /* ----------------------------------------------------------------- links */
 
 .layer-links { pointer-events: none; }
 
-.link {
+.link-under {
   fill: none;
   stroke: var(--glow);
-  stroke-width: 0.6;
-  stroke-dasharray: 2.5 7;
+  stroke-width: 1.6;
   vector-effect: non-scaling-stroke;
-  opacity: 0.42;
-  animation: linkfade 0.8s var(--ease) both, linkflow 3.4s linear infinite;
+  opacity: 0.07;
+  animation: linkfade 0.9s var(--ease) both;
 }
 
-.link-end { fill: var(--glow-2); opacity: 0.8; }
+.link {
+  fill: none;
+  stroke: var(--glow-2);
+  stroke-width: 0.55;
+  stroke-dasharray: 2 8;
+  stroke-linecap: round;
+  vector-effect: non-scaling-stroke;
+  opacity: 0.5;
+  animation: linkfade 0.8s var(--ease) both, linkflow 3.6s linear infinite;
+}
+
+.link-end { fill: var(--glow-2); opacity: 0.85; filter: drop-shadow(0 0 2px rgba(180, 214, 255, 0.9)); }
 .link-origin { fill: none; stroke: var(--warm); stroke-width: 0.8; opacity: 0.85; vector-effect: non-scaling-stroke; }
 
-@keyframes linkfade { from { opacity: 0; } to { opacity: 0.42; } }
-@keyframes linkflow { to { stroke-dashoffset: -19; } }
+@keyframes linkfade { from { opacity: 0; } }
+@keyframes linkflow { to { stroke-dashoffset: -20; } }
 
 /* ------------------------------------------------------- pointer targets */
 

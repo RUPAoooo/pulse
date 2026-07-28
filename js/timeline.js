@@ -44,13 +44,20 @@ export function renderTimeline({ container, frames, onChange }) {
     class: 'tl-wave', viewBox: '0 0 1000 90', preserveAspectRatio: 'none',
     'aria-hidden': 'true',
   });
+  const area = svgEl('path', { class: 'tl-area' });
+  const trace = svgEl('path', { class: 'tl-trace' });
   const columns = svgEl('g', { class: 'tl-cols' });
   const baseline = svgEl('line', { class: 'tl-base', x1: 0, y1: 78, x2: 1000, y2: 78 });
+  const nowMark = svgEl('g', { class: 'tl-now' });
+  nowMark.append(
+    svgEl('line', { class: 'tl-now-line', x1: 1000, y1: 4, x2: 1000, y2: 78 }),
+    svgEl('circle', { class: 'tl-now-dot', cx: 1000, cy: 78, r: 2.6 }),
+  );
   const cursor = svgEl('g', { class: 'tl-cursor' });
   const cursorLine = svgEl('line', { class: 'tl-cursor-line', y1: 6, y2: 78 });
   const cursorDot = svgEl('circle', { class: 'tl-cursor-dot', r: 4.5, cy: 6 });
   cursor.append(cursorLine, cursorDot);
-  plot.append(columns, baseline, cursor);
+  plot.append(area, trace, columns, baseline, nowMark, cursor);
 
   const slider = document.createElement('input');
   slider.type = 'range';
@@ -79,7 +86,11 @@ export function renderTimeline({ container, frames, onChange }) {
 
   /* -------------------------------------------------------------- drawing */
 
-  /** One dot column per frame; height follows how loud the world was then. */
+  /**
+   * A dot column per frame, with a soft trace drawn through the column tops.
+   * With only one frame of history the trace collapses to a flat line rather
+   * than breaking, which is what a freshly-deployed repository will show.
+   */
   function drawWave() {
     columns.textContent = '';
     const values = ordered.map((f) => {
@@ -90,11 +101,13 @@ export function renderTimeline({ container, frames, onChange }) {
     });
     const peak = Math.max(40, ...values);
     const n = Math.max(1, values.length - 1);
+    const pts = [];
 
     values.forEach((v, i) => {
-      const x = (i / n) * 1000;
+      const x = values.length === 1 ? 1000 : (i / n) * 1000;
       const strength = Math.max(0.06, v / peak);
       const lit = Math.max(1, Math.round(strength * COLUMN_DOTS));
+      pts.push([x, 78 - (lit - 1) * 10]);
       for (let k = 0; k < COLUMN_DOTS; k += 1) {
         const y = 78 - k * 10;
         const on = k < lit;
@@ -105,6 +118,11 @@ export function renderTimeline({ container, frames, onChange }) {
         }));
       }
     });
+
+    if (pts.length === 1) pts.unshift([0, pts[0][1]]);
+    const line = pts.map(([x, y], i) => `${i ? 'L' : 'M'}${x.toFixed(1)} ${y.toFixed(1)}`).join('');
+    trace.setAttribute('d', line);
+    area.setAttribute('d', `${line}L${pts[pts.length - 1][0].toFixed(1)} 78L${pts[0][0].toFixed(1)} 78Z`);
   }
 
   function selectByHours(hours) {

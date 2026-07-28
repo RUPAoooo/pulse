@@ -240,6 +240,37 @@ function fingerprint(countries) {
   })))).digest('hex');
 }
 
+/**
+ * Per-country outcome, so the UI can say *why* a country is empty instead of
+ * just "no data". One row per attempted country, whatever happened.
+ *   news / wiki  items kept from each source (0 = that source gave nothing)
+ *   wikiPerCountry  true = real per-country data, false = language edition
+ *   state        'ok' | 'news-only' | 'wiki-only' | 'failed'
+ */
+function buildCountryStatus(wikiResult, newsResult, successful) {
+  const out = {};
+  const ok = new Set(successful);
+  for (const { code } of COUNTRIES) {
+    const w = wikiResult.perCountry?.[code] ?? {};
+    const n = newsResult.perCountry?.[code] ?? {};
+    const news = n.items ?? 0;
+    const wiki = w.items ?? 0;
+    let state = 'failed';
+    if (ok.has(code) && news && wiki) state = 'ok';
+    else if (ok.has(code) && news) state = 'news-only';
+    else if (ok.has(code) && wiki) state = 'wiki-only';
+    out[code] = {
+      news,
+      wiki,
+      wikiPerCountry: wiki ? w.perCountry !== false : null,
+      wikiDate: w.date ?? null,
+      state,
+      errors: [n.error, w.error].filter(Boolean),
+    };
+  }
+  return out;
+}
+
 /** update-status.json is written on EVERY code path — this is the contract. */
 function writeStatus(status, message, extra = {}) {
   const payload = {
@@ -247,14 +278,17 @@ function writeStatus(status, message, extra = {}) {
     status,                         // 'success' | 'partial' | 'failed' | 'empty'
     message,
     hasData: Boolean(extra.hasData),
+    targets: COUNTRIES.map((c) => c.code),
     counts: {
       wikimediaItems: extra.wikimediaItems ?? 0,
       newsItems: extra.newsItems ?? 0,
       countriesWithData: extra.countriesWithData ?? 0,
       topicsGenerated: extra.topicsGenerated ?? 0,
+      countriesAttempted: COUNTRIES.length,
     },
     successfulCountries: extra.successfulCountries ?? [],
     failedCountries: extra.failedCountries ?? [],
+    countryStatus: extra.countryStatus ?? {},
     errors: extra.errors ?? [],
   };
   fs.writeFileSync(F.status, `${JSON.stringify(payload, null, 1)}\n`);
@@ -301,6 +335,7 @@ function run() {
         topicsGenerated: 0,
         successfulCountries: [],
         failedCountries: attempted,
+        countryStatus: buildCountryStatus(wikiResult, newsResult, []),
         errors,
       },
     );
@@ -352,6 +387,7 @@ function run() {
       topicsGenerated,
       successfulCountries: successful,
       failedCountries,
+      countryStatus: buildCountryStatus(wikiResult, newsResult, successful),
       errors,
     },
   );
@@ -365,9 +401,11 @@ function run() {
   process.stdout.write(
     `build: ${successful.length}/${attempted.length} countries, ${topicsGenerated} topics\n`,
   );
+  process.stdout.write(`build: ok=[${successful.join(',')}]\n`);
+  process.stdout.write(`build: failed=[${failedCountries.join(',')}]\n`);
   return 0;
 }
 
 if (require.main === module) process.exitCode = run();
 
-module.exports = { build, buildTimeline, activityFromScores, statusFor, fingerprint };
+module.exports = { build, buildTimeline, activityFromScores, statusFor, fingerprint, buildCountryStatus };

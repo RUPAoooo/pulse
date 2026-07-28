@@ -55,7 +55,7 @@ function fmtDate(date, tz) {
 
 function fmtStamp(date, tz) {
   return new Intl.DateTimeFormat(locale(), {
-    timeZone: tz, month: '2-digit', day: '2-digit',
+    ...(tz ? { timeZone: tz } : {}), month: '2-digit', day: '2-digit',
     hour: '2-digit', minute: '2-digit', hour12: false,
   }).format(date);
 }
@@ -126,6 +126,24 @@ function sparkline(values, cls = 'spark') {
   dot.setAttribute('class', 'spark-dot');
   svg.append(dot);
   return svg;
+}
+
+/* ------------------------------------------------------- fetch analytics */
+
+/** What the last pipeline run managed for one country, in plain words. */
+function countryNote(ctx, code) {
+  if (ctx.model.mode !== 'live') return { key: 'nodata.sample', detail: null };
+  const status = ctx.model.status ?? {};
+  const targets = status.targets ?? ctx.model.targets ?? [];
+  if (targets.length && !targets.includes(code)) return { key: 'nodata.notTarget', detail: null };
+  const cs = status.countryStatus?.[code];
+  if (!cs) return { key: 'nodata.empty', detail: null };
+  if (cs.state === 'news-only') return { key: 'nodata.newsOnly', detail: null };
+  if (cs.state === 'wiki-only') return { key: 'nodata.wikiOnly', detail: null };
+  if (cs.state === 'failed') {
+    return { key: 'nodata.failed', detail: (cs.errors ?? []).join(' / ') || null };
+  }
+  return { key: 'nodata.empty', detail: null };
 }
 
 function meter(value) {
@@ -289,6 +307,90 @@ export function createPanel({ root, onClose, onTopicOpen, onTopicHover }) {
     return cell;
   }
 
+  /**
+   * The pipeline's own numbers — never derived from the sample data, because
+   * sample data must not be able to pass for a live fetch.
+   */
+  function analyticsBlock() {
+    const live = ctx?.model?.mode === 'live';
+    const status = ctx?.model?.status ?? {};
+    const box = h('section', 'p-analytics');
+
+    const head = h('div', 'sec-head');
+    head.append(h('h3', null, t('an.title')));
+    if (live) {
+      const state = status.status ?? 'success';
+      head.append(h('span', `mono an-state is-${state}`, t(`state.${state}`) || state));
+    } else {
+      head.append(h('span', 'mono an-state is-none', t('an.noLive')));
+    }
+    box.append(head);
+
+    if (!live) {
+      box.append(h('p', 'mono an-empty', t('an.noLiveNote')));
+      return box;
+    }
+
+    const news = Number(status.counts?.newsItems) || 0;
+    const wiki = Number(status.counts?.wikimediaItems) || 0;
+    const total = news + wiki;
+
+    const grid = h('div', 'an-grid');
+    grid.append(metricCell('NEWS', String(news), t('metric.unitItems')));
+    grid.append(metricCell('WIKIPEDIA', String(wiki), t('metric.unitItems')));
+    grid.append(metricCell(t('an.coverage'),
+      `${status.counts?.countriesWithData ?? 0}/${status.counts?.countriesAttempted ?? (status.targets?.length ?? 0)}`,
+      t('nodata.targets')));
+    box.append(grid);
+
+    /* source mix */
+    const ratio = h('div', 'an-ratio');
+    ratio.append(h('span', 'mono an-k', t('an.ratio')));
+    const bar = h('div', 'ratio-bar');
+    const a = h('i', 'r-news');
+    a.style.setProperty('--v', total ? (news / total).toFixed(3) : '0.5');
+    const b = h('i', 'r-wiki');
+    b.style.setProperty('--v', total ? (wiki / total).toFixed(3) : '0.5');
+    bar.append(a, b);
+    ratio.append(bar);
+    const key = h('div', 'mono ratio-key');
+    key.append(h('span', 'k-news', `NEWS ${total ? Math.round((news / total) * 100) : 0}%`));
+    key.append(h('span', 'k-wiki', `WIKIPEDIA ${total ? Math.round((wiki / total) * 100) : 0}%`));
+    ratio.append(key);
+    box.append(ratio);
+
+    /* top three categories across everything on screen */
+    const counts = new Map();
+    for (const entry of ctx.state.values()) {
+      for (const topic of filterTopics(entry.topics)) {
+        counts.set(topic.category, (counts.get(topic.category) ?? 0) + 1);
+      }
+    }
+    const top = [...counts.entries()].sort((x, y) => y[1] - x[1]).slice(0, 3);
+    if (top.length) {
+      const most = top[0][1] || 1;
+      const list = h('ul', 'an-cats');
+      list.append(h('li', 'mono an-k', t('an.cats')));
+      top.forEach(([cat, n]) => {
+        const li = h('li', 'an-cat');
+        li.append(h('span', 'c-name', t(`cat.${cat}`)));
+        const m = meter(Math.round((n / most) * 100));
+        li.append(m);
+        li.append(h('span', 'mono c-n', String(n)));
+        list.append(li);
+      });
+      box.append(list);
+    }
+
+    const foot = h('div', 'mono an-foot');
+    const at = status.updatedAt ? new Date(status.updatedAt) : ctx.model.updatedAt;
+    foot.append(h('span', null, `${t('an.updated')} ${fmtStamp(at)}`));
+    const failed = status.failedCountries ?? [];
+    if (failed.length) foot.append(h('span', 'an-failed', `${t('state.failed')} ${failed.join(' ')}`));
+    box.append(foot);
+    return box;
+  }
+
   function metricsBlock(topics) {
     const live = ctx?.model?.mode === 'live';
     const grid = h('section', 'p-metrics');
@@ -345,10 +447,17 @@ export function createPanel({ root, onClose, onTopicOpen, onTopicHover }) {
     }
 
     if (!country || !entry?.hasData) {
+      const note = countryNote(ctx, code);
       const empty = h('div', 'p-empty');
       empty.append(h('p', 'empty-title', t('panel.noData')));
-      empty.append(h('p', 'empty-note', t('panel.noDataNote')));
+      empty.append(h('p', 'empty-note', t(note.key)));
+      if (note.detail) empty.append(h('p', 'mono empty-detail', note.detail));
+      if (ctx.model.mode === 'live' && ctx.model.status?.updatedAt) {
+        empty.append(h('p', 'mono empty-detail',
+          `${t('nodata.lastTry')} ${fmtStamp(new Date(ctx.model.status.updatedAt), tz)}`));
+      }
       root.append(empty);
+      root.append(analyticsBlock());
       open();
       return;
     }
@@ -426,7 +535,12 @@ export function createPanel({ root, onClose, onTopicOpen, onTopicHover }) {
     }
 
     /* ---- aggregate metrics ---------------------------------------------- */
+    const partial = countryNote(ctx, code);
+    if (partial.key === 'nodata.newsOnly' || partial.key === 'nodata.wikiOnly') {
+      root.append(h('p', 'mono p-source-note', t(partial.key)));
+    }
     root.append(metricsBlock(filtered));
+    root.append(analyticsBlock());
     root.append(h('p', 'mono p-foot',
       `${t('panel.updated')} ${fmtStamp(ctx.frameDate, tz)} · ${t('topic.openHint')}`));
     open();
@@ -586,6 +700,7 @@ export function createPanel({ root, onClose, onTopicOpen, onTopicHover }) {
 
     const all = [...ctx.state.values()].flatMap((e) => filterTopics(e.topics));
     root.append(metricsBlock(all));
+    root.append(analyticsBlock());
 
     open();
   }

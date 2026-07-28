@@ -1,8 +1,167 @@
 {
  "updatedAt": "2026-07-27T08:00:00+09:00",
  "source": "sample",
- "note": "Fictional sample data for the WORLD PULSE prototype.",
+ "note": "Fictional sample data for the WORLD PULSE prototype. Nothing here is real: it exists so the interface has something to show before the live pipeline has ever run, and it is always labelled DEMO DATA.",
  "countries": [
+  {
+   "code": "AR",
+   "activityScore": 80,
+   "risingCount": 2,
+   "topics": [
+    {
+     "id": "l-ar-research",
+     "title": {
+      "ja": "大学の研究発表",
+      "en": "A university research result"
+     },
+     "summary": {
+      "ja": "国内の研究機関による発表が取り上げられています。",
+      "en": "A result from a national research institute is being picked up."
+     },
+     "category": "SCIENCE",
+     "scope": "LOCAL",
+     "score": 84,
+     "change": 4.5,
+     "status": "stable",
+     "origin": "AR",
+     "relatedCountries": [
+      "AR"
+     ],
+     "startedAt": null,
+     "durationHours": 36,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "g-heatwave",
+     "title": {
+      "ja": "記録的な猛暑",
+      "en": "Record heat"
+     },
+     "summary": {
+      "ja": "広い範囲で気温が平年を上回り、暑さへの備えに関心が集まっています。",
+      "en": "Temperatures are running well above normal across a wide band, driving interest in heat safety."
+     },
+     "category": "WEATHER",
+     "scope": "GLOBAL",
+     "score": 74,
+     "change": 44.3,
+     "status": "emerging",
+     "origin": "ES",
+     "relatedCountries": [
+      "AR",
+      "ES",
+      "FR",
+      "GB",
+      "IT",
+      "NG",
+      "TH"
+     ],
+     "startedAt": "2026-07-25T17:00:00Z",
+     "durationHours": 30,
+     "keywords": [
+      "heat",
+      "temperature",
+      "summer"
+     ],
+     "sources": [
+      "NEWS",
+      "SEARCH"
+     ]
+    },
+    {
+     "id": "g-rail",
+     "title": {
+      "ja": "高速鉄道の新路線構想",
+      "en": "Plans for a new high-speed rail line"
+     },
+     "summary": {
+      "ja": "新しい路線計画の発表を受け、各国の同種計画にも関心が向いています。",
+      "en": "A new line proposal has renewed interest in comparable projects elsewhere."
+     },
+     "category": "BUSINESS",
+     "scope": "GLOBAL",
+     "score": 74,
+     "change": 42.3,
+     "status": "emerging",
+     "origin": "CN",
+     "relatedCountries": [
+      "AR",
+      "CN",
+      "ES",
+      "IN",
+      "TW",
+      "VN",
+      "ZA"
+     ],
+     "startedAt": "2026-07-26T01:00:00Z",
+     "durationHours": 22,
+     "keywords": [
+      "rail",
+      "infrastructure",
+      "transport"
+     ],
+     "sources": [
+      "NEWS",
+      "SEARCH"
+     ]
+    },
+    {
+     "id": "l-ar-prices",
+     "title": {
+      "ja": "通貨と物価の動き",
+      "en": "Currency and prices"
+     },
+     "summary": {
+      "ja": "為替と生活必需品の価格の動きが注目されています。",
+      "en": "Movements in the exchange rate and everyday prices are being watched."
+     },
+     "category": "BUSINESS",
+     "scope": "LOCAL",
+     "score": 66,
+     "change": -1.5,
+     "status": "stable",
+     "origin": "AR",
+     "relatedCountries": [
+      "AR"
+     ],
+     "startedAt": null,
+     "durationHours": 12,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "l-ar-digital",
+     "title": {
+      "ja": "公共サービスのデジタル化",
+      "en": "Digital public services"
+     },
+     "summary": {
+      "ja": "行政手続きのオンライン化が段階的に進んでいます。",
+      "en": "Administrative procedures are moving online step by step."
+     },
+     "category": "TECH",
+     "scope": "LOCAL",
+     "score": 50,
+     "change": -15.1,
+     "status": "declining",
+     "origin": "AR",
+     "relatedCountries": [
+      "AR"
+     ],
+     "startedAt": null,
+     "durationHours": 24,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    }
+   ]
+  },
   {
    "code": "AU",
    "activityScore": 66,
@@ -26,10 +185,8 @@
      "origin": "AU",
      "relatedCountries": [
       "AU",
-      "JP",
-      "US",
-      "BR",
-      "GB"
+      "EG",
+      "PH"
      ],
      "startedAt": "2026-07-26T05:00:00Z",
      "durationHours": 18,
@@ -123,18 +280,14 @@
      "status": "rising",
      "origin": "FR",
      "relatedCountries": [
+      "AU",
+      "CH",
       "FR",
       "GB",
-      "US",
-      "JP",
-      "BR",
-      "AU",
-      "IT",
-      "ES",
-      "DE",
-      "KR",
-      "CN",
-      "IN"
+      "NG",
+      "NZ",
+      "SE",
+      "TW"
      ],
      "startedAt": "2026-07-26T09:00:00Z",
      "durationHours": 14,
@@ -326,12 +479,12 @@
      "status": "rising",
      "origin": "GB",
      "relatedCountries": [
-      "GB",
-      "US",
       "BR",
-      "JP",
-      "ES",
-      "AU"
+      "GB",
+      "HK",
+      "ID",
+      "PL",
+      "ZA"
      ],
      "startedAt": "2026-07-26T15:00:00Z",
      "durationHours": 8,
@@ -392,15 +545,12 @@
      "status": "declining",
      "origin": "US",
      "relatedCountries": [
-      "US",
-      "GB",
-      "FR",
-      "JP",
-      "KR",
       "BR",
       "ES",
-      "IT",
-      "AU"
+      "MX",
+      "NL",
+      "SG",
+      "US"
      ],
      "startedAt": "2026-07-26T03:00:00Z",
      "durationHours": 20,
@@ -477,6 +627,327 @@
    ]
   },
   {
+   "code": "CA",
+   "activityScore": 78,
+   "risingCount": 4,
+   "topics": [
+    {
+     "id": "g-game-update",
+     "title": {
+      "ja": "人気ゲームの大型アップデート",
+      "en": "Major update for a popular game"
+     },
+     "summary": {
+      "ja": "大型アップデートの配信開始とともに、攻略や不具合の話題が増えています。",
+      "en": "A large update went live, lifting talk of new content and early issues."
+     },
+     "category": "ENTERTAINMENT",
+     "scope": "GLOBAL",
+     "score": 82,
+     "change": 21.4,
+     "status": "rising",
+     "origin": "KR",
+     "relatedCountries": [
+      "CA",
+      "JP",
+      "KR",
+      "MX",
+      "NO",
+      "SE",
+      "SG",
+      "TR"
+     ],
+     "startedAt": "2026-07-26T12:00:00Z",
+     "durationHours": 11,
+     "keywords": [
+      "game",
+      "update",
+      "patch"
+     ],
+     "sources": [
+      "SOCIAL",
+      "SEARCH"
+     ]
+    },
+    {
+     "id": "g-climate-forum",
+     "title": {
+      "ja": "国際気候フォーラム",
+      "en": "International climate forum"
+     },
+     "summary": {
+      "ja": "各国の研究者が集まる会議が開かれ、発表内容が広く共有されています。",
+      "en": "A conference of researchers from many countries is sharing its findings widely."
+     },
+     "category": "WORLD",
+     "scope": "GLOBAL",
+     "score": 81,
+     "change": 30.6,
+     "status": "emerging",
+     "origin": "DE",
+     "relatedCountries": [
+      "CA",
+      "DE",
+      "HK",
+      "NZ",
+      "TH",
+      "TR"
+     ],
+     "startedAt": "2026-07-25T21:00:00Z",
+     "durationHours": 26,
+     "keywords": [
+      "climate",
+      "forum",
+      "research"
+     ],
+     "sources": [
+      "NEWS",
+      "WIKIPEDIA"
+     ]
+    },
+    {
+     "id": "l-ca-weather",
+     "title": {
+      "ja": "季節外れの天候",
+      "en": "Unseasonal weather"
+     },
+     "summary": {
+      "ja": "平年と異なる天候が続き、注意が呼びかけられています。",
+      "en": "Unusual conditions are continuing and warnings have been issued."
+     },
+     "category": "WEATHER",
+     "scope": "LOCAL",
+     "score": 68,
+     "change": 21.8,
+     "status": "rising",
+     "origin": "CA",
+     "relatedCountries": [
+      "CA"
+     ],
+     "startedAt": null,
+     "durationHours": 6,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "l-ca-league",
+     "title": {
+      "ja": "国内リーグの首位争い",
+      "en": "Title race in the domestic league"
+     },
+     "summary": {
+      "ja": "終盤戦に入り、上位チームの差が縮まっています。",
+      "en": "The gap between the top clubs is narrowing as the season closes."
+     },
+     "category": "SPORTS",
+     "scope": "LOCAL",
+     "score": 65,
+     "change": 23.8,
+     "status": "rising",
+     "origin": "CA",
+     "relatedCountries": [
+      "CA"
+     ],
+     "startedAt": null,
+     "durationHours": 6,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "l-ca-digital",
+     "title": {
+      "ja": "公共サービスのデジタル化",
+      "en": "Digital public services"
+     },
+     "summary": {
+      "ja": "行政手続きのオンライン化が段階的に進んでいます。",
+      "en": "Administrative procedures are moving online step by step."
+     },
+     "category": "TECH",
+     "scope": "LOCAL",
+     "score": 53,
+     "change": -5.6,
+     "status": "stable",
+     "origin": "CA",
+     "relatedCountries": [
+      "CA"
+     ],
+     "startedAt": null,
+     "durationHours": 18,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "CH",
+   "activityScore": 82,
+   "risingCount": 2,
+   "topics": [
+    {
+     "id": "g-world-games",
+     "title": {
+      "ja": "国際スポーツ大会の開幕",
+      "en": "International games open"
+     },
+     "summary": {
+      "ja": "総合競技大会の開幕に合わせ、各国で関連する話題が広がっています。",
+      "en": "The opening of a multi-sport event is spreading interest across participating countries."
+     },
+     "category": "SPORTS",
+     "scope": "GLOBAL",
+     "score": 89,
+     "change": 42.1,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "AU",
+      "CH",
+      "FR",
+      "GB",
+      "NG",
+      "NZ",
+      "SE",
+      "TW"
+     ],
+     "startedAt": "2026-07-26T09:00:00Z",
+     "durationHours": 14,
+     "keywords": [
+      "games",
+      "opening",
+      "athletes"
+     ],
+     "sources": [
+      "NEWS",
+      "SOCIAL",
+      "SEARCH"
+     ]
+    },
+    {
+     "id": "g-ai-model",
+     "title": {
+      "ja": "生成AIの新モデル",
+      "en": "New generative AI model"
+     },
+     "summary": {
+      "ja": "複数の国で新しいAIモデルに関する検索と報道が同時に増えています。",
+      "en": "Search and coverage for a new AI model are climbing in several countries at once."
+     },
+     "category": "TECH",
+     "scope": "GLOBAL",
+     "score": 75,
+     "change": -6.4,
+     "status": "stable",
+     "origin": "US",
+     "relatedCountries": [
+      "CH",
+      "EG",
+      "IN",
+      "JP",
+      "PH",
+      "US",
+      "VN"
+     ],
+     "startedAt": "2026-07-26T17:00:00Z",
+     "durationHours": 6,
+     "keywords": [
+      "AI",
+      "model",
+      "research"
+     ],
+     "sources": [
+      "NEWS",
+      "WIKIPEDIA",
+      "SEARCH"
+     ]
+    },
+    {
+     "id": "l-ch-drama",
+     "title": {
+      "ja": "話題のドラマシリーズ",
+      "en": "A drama series everyone is watching"
+     },
+     "summary": {
+      "ja": "配信が始まったシリーズの反響が広がっています。",
+      "en": "A newly released series is drawing a wide response."
+     },
+     "category": "ENTERTAINMENT",
+     "scope": "LOCAL",
+     "score": 75,
+     "change": 1.9,
+     "status": "stable",
+     "origin": "CH",
+     "relatedCountries": [
+      "CH"
+     ],
+     "startedAt": null,
+     "durationHours": 6,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "l-ch-prices",
+     "title": {
+      "ja": "通貨と物価の動き",
+      "en": "Currency and prices"
+     },
+     "summary": {
+      "ja": "為替と生活必需品の価格の動きが注目されています。",
+      "en": "Movements in the exchange rate and everyday prices are being watched."
+     },
+     "category": "BUSINESS",
+     "scope": "LOCAL",
+     "score": 57,
+     "change": -13.7,
+     "status": "stable",
+     "origin": "CH",
+     "relatedCountries": [
+      "CH"
+     ],
+     "startedAt": null,
+     "durationHours": 24,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "l-ch-league",
+     "title": {
+      "ja": "国内リーグの首位争い",
+      "en": "Title race in the domestic league"
+     },
+     "summary": {
+      "ja": "終盤戦に入り、上位チームの差が縮まっています。",
+      "en": "The gap between the top clubs is narrowing as the season closes."
+     },
+     "category": "SPORTS",
+     "scope": "LOCAL",
+     "score": 54,
+     "change": 34.4,
+     "status": "emerging",
+     "origin": "CH",
+     "relatedCountries": [
+      "CH"
+     ],
+     "startedAt": null,
+     "durationHours": 18,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    }
+   ]
+  },
+  {
    "code": "CN",
    "activityScore": 80,
    "risingCount": 5,
@@ -498,11 +969,13 @@
      "status": "peak",
      "origin": "CN",
      "relatedCountries": [
+      "AR",
       "CN",
-      "IN",
       "ES",
-      "FR",
-      "JP"
+      "IN",
+      "TW",
+      "VN",
+      "ZA"
      ],
      "startedAt": "2026-07-26T01:00:00Z",
      "durationHours": 22,
@@ -564,12 +1037,10 @@
      "status": "rising",
      "origin": "DE",
      "relatedCountries": [
-      "DE",
-      "US",
       "CN",
-      "JP",
-      "GB",
-      "FR"
+      "DE",
+      "PL",
+      "VN"
      ],
      "startedAt": "2026-07-26T10:00:00Z",
      "durationHours": 13,
@@ -693,11 +1164,11 @@
      "status": "emerging",
      "origin": "JP",
      "relatedCountries": [
+      "CN",
+      "ID",
       "JP",
       "KR",
-      "CN",
-      "TW",
-      "PH"
+      "SE"
      ],
      "startedAt": "2026-07-26T18:00:00Z",
      "durationHours": 5,
@@ -735,12 +1206,10 @@
      "status": "rising",
      "origin": "DE",
      "relatedCountries": [
-      "DE",
-      "US",
       "CN",
-      "JP",
-      "GB",
-      "FR"
+      "DE",
+      "PL",
+      "VN"
      ],
      "startedAt": "2026-07-26T10:00:00Z",
      "durationHours": 13,
@@ -771,16 +1240,12 @@
      "status": "peak",
      "origin": "DE",
      "relatedCountries": [
+      "CA",
       "DE",
-      "FR",
-      "GB",
-      "US",
-      "JP",
-      "BR",
-      "IN",
-      "AU",
-      "IT",
-      "ES"
+      "HK",
+      "NZ",
+      "TH",
+      "TR"
      ],
      "startedAt": "2026-07-25T21:00:00Z",
      "durationHours": 26,
@@ -842,13 +1307,12 @@
      "status": "stable",
      "origin": "KR",
      "relatedCountries": [
-      "KR",
-      "US",
-      "JP",
       "DE",
-      "CN",
-      "IN",
-      "TW"
+      "KR",
+      "NG",
+      "NL",
+      "NO",
+      "US"
      ],
      "startedAt": "2026-07-26T07:00:00Z",
      "durationHours": 16,
@@ -957,6 +1421,189 @@
    ]
   },
   {
+   "code": "EG",
+   "activityScore": 83,
+   "risingCount": 3,
+   "topics": [
+    {
+     "id": "l-eg-research",
+     "title": {
+      "ja": "大学の研究発表",
+      "en": "A university research result"
+     },
+     "summary": {
+      "ja": "国内の研究機関による発表が取り上げられています。",
+      "en": "A result from a national research institute is being picked up."
+     },
+     "category": "SCIENCE",
+     "scope": "LOCAL",
+     "score": 86,
+     "change": -5.6,
+     "status": "peak",
+     "origin": "EG",
+     "relatedCountries": [
+      "EG"
+     ],
+     "startedAt": null,
+     "durationHours": 36,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "g-ocean",
+     "title": {
+      "ja": "深海探査プロジェクト",
+      "en": "Deep-sea exploration project"
+     },
+     "summary": {
+      "ja": "深海の連続観測が始まり、公開された映像が国をまたいで共有されています。",
+      "en": "A continuous deep-sea survey has begun and its footage is being shared across borders."
+     },
+     "category": "SCIENCE",
+     "scope": "GLOBAL",
+     "score": 80,
+     "change": 28.6,
+     "status": "rising",
+     "origin": "AU",
+     "relatedCountries": [
+      "AU",
+      "EG",
+      "PH"
+     ],
+     "startedAt": "2026-07-26T05:00:00Z",
+     "durationHours": 18,
+     "keywords": [
+      "ocean",
+      "deep sea",
+      "survey"
+     ],
+     "sources": [
+      "NEWS",
+      "WIKIPEDIA",
+      "SOCIAL"
+     ]
+    },
+    {
+     "id": "l-eg-league",
+     "title": {
+      "ja": "国内リーグの首位争い",
+      "en": "Title race in the domestic league"
+     },
+     "summary": {
+      "ja": "終盤戦に入り、上位チームの差が縮まっています。",
+      "en": "The gap between the top clubs is narrowing as the season closes."
+     },
+     "category": "SPORTS",
+     "scope": "LOCAL",
+     "score": 80,
+     "change": 12.4,
+     "status": "stable",
+     "origin": "EG",
+     "relatedCountries": [
+      "EG"
+     ],
+     "startedAt": null,
+     "durationHours": 36,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "g-ai-model",
+     "title": {
+      "ja": "生成AIの新モデル",
+      "en": "New generative AI model"
+     },
+     "summary": {
+      "ja": "複数の国で新しいAIモデルに関する検索と報道が同時に増えています。",
+      "en": "Search and coverage for a new AI model are climbing in several countries at once."
+     },
+     "category": "TECH",
+     "scope": "GLOBAL",
+     "score": 72,
+     "change": 42.7,
+     "status": "emerging",
+     "origin": "US",
+     "relatedCountries": [
+      "CH",
+      "EG",
+      "IN",
+      "JP",
+      "PH",
+      "US",
+      "VN"
+     ],
+     "startedAt": "2026-07-26T17:00:00Z",
+     "durationHours": 6,
+     "keywords": [
+      "AI",
+      "model",
+      "research"
+     ],
+     "sources": [
+      "NEWS",
+      "WIKIPEDIA",
+      "SEARCH"
+     ]
+    },
+    {
+     "id": "l-eg-festival",
+     "title": {
+      "ja": "地域の伝統行事",
+      "en": "A regional tradition"
+     },
+     "summary": {
+      "ja": "各地の行事の様子が共有され、話題になっています。",
+      "en": "Scenes from local events are being shared widely."
+     },
+     "category": "CULTURE",
+     "scope": "LOCAL",
+     "score": 63,
+     "change": -13.2,
+     "status": "stable",
+     "origin": "EG",
+     "relatedCountries": [
+      "EG"
+     ],
+     "startedAt": null,
+     "durationHours": 12,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "l-eg-digital",
+     "title": {
+      "ja": "公共サービスのデジタル化",
+      "en": "Digital public services"
+     },
+     "summary": {
+      "ja": "行政手続きのオンライン化が段階的に進んでいます。",
+      "en": "Administrative procedures are moving online step by step."
+     },
+     "category": "TECH",
+     "scope": "LOCAL",
+     "score": 57,
+     "change": 15.9,
+     "status": "rising",
+     "origin": "EG",
+     "relatedCountries": [
+      "EG"
+     ],
+     "startedAt": null,
+     "durationHours": 12,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    }
+   ]
+  },
+  {
    "code": "ES",
    "activityScore": 75,
    "risingCount": 3,
@@ -978,13 +1625,13 @@
      "status": "peak",
      "origin": "ES",
      "relatedCountries": [
+      "AR",
       "ES",
-      "IT",
       "FR",
-      "IN",
-      "JP",
-      "US",
-      "GB"
+      "GB",
+      "IT",
+      "NG",
+      "TH"
      ],
      "startedAt": "2026-07-25T17:00:00Z",
      "durationHours": 30,
@@ -1108,15 +1755,12 @@
      "status": "declining",
      "origin": "US",
      "relatedCountries": [
-      "US",
-      "GB",
-      "FR",
-      "JP",
-      "KR",
       "BR",
       "ES",
-      "IT",
-      "AU"
+      "MX",
+      "NL",
+      "SG",
+      "US"
      ],
      "startedAt": "2026-07-26T03:00:00Z",
      "durationHours": 20,
@@ -1177,11 +1821,13 @@
      "status": "emerging",
      "origin": "CN",
      "relatedCountries": [
+      "AR",
       "CN",
-      "IN",
       "ES",
-      "FR",
-      "JP"
+      "IN",
+      "TW",
+      "VN",
+      "ZA"
      ],
      "startedAt": "2026-07-26T01:00:00Z",
      "durationHours": 22,
@@ -1219,18 +1865,14 @@
      "status": "peak",
      "origin": "FR",
      "relatedCountries": [
+      "AU",
+      "CH",
       "FR",
       "GB",
-      "US",
-      "JP",
-      "BR",
-      "AU",
-      "IT",
-      "ES",
-      "DE",
-      "KR",
-      "CN",
-      "IN"
+      "NG",
+      "NZ",
+      "SE",
+      "TW"
      ],
      "startedAt": "2026-07-26T09:00:00Z",
      "durationHours": 14,
@@ -1293,13 +1935,13 @@
      "status": "rising",
      "origin": "ES",
      "relatedCountries": [
+      "AR",
       "ES",
-      "IT",
       "FR",
-      "IN",
-      "JP",
-      "US",
-      "GB"
+      "GB",
+      "IT",
+      "NG",
+      "TH"
      ],
      "startedAt": "2026-07-25T17:00:00Z",
      "durationHours": 30,
@@ -1361,12 +2003,10 @@
      "status": "stable",
      "origin": "IT",
      "relatedCountries": [
-      "IT",
       "FR",
-      "ES",
-      "GB",
-      "JP",
-      "US"
+      "ID",
+      "IT",
+      "NZ"
      ],
      "startedAt": "2026-07-25T07:00:00Z",
      "durationHours": 40,
@@ -1466,12 +2106,12 @@
      "status": "peak",
      "origin": "GB",
      "relatedCountries": [
-      "GB",
-      "US",
       "BR",
-      "JP",
-      "ES",
-      "AU"
+      "GB",
+      "HK",
+      "ID",
+      "PL",
+      "ZA"
      ],
      "startedAt": "2026-07-26T15:00:00Z",
      "durationHours": 8,
@@ -1502,18 +2142,14 @@
      "status": "rising",
      "origin": "FR",
      "relatedCountries": [
+      "AU",
+      "CH",
       "FR",
       "GB",
-      "US",
-      "JP",
-      "BR",
-      "AU",
-      "IT",
-      "ES",
-      "DE",
-      "KR",
-      "CN",
-      "IN"
+      "NG",
+      "NZ",
+      "SE",
+      "TW"
      ],
      "startedAt": "2026-07-26T09:00:00Z",
      "durationHours": 14,
@@ -1607,13 +2243,13 @@
      "status": "rising",
      "origin": "ES",
      "relatedCountries": [
+      "AR",
       "ES",
-      "IT",
       "FR",
-      "IN",
-      "JP",
-      "US",
-      "GB"
+      "GB",
+      "IT",
+      "NG",
+      "TH"
      ],
      "startedAt": "2026-07-25T17:00:00Z",
      "durationHours": 30,
@@ -1722,6 +2358,405 @@
    ]
   },
   {
+   "code": "HK",
+   "activityScore": 80,
+   "risingCount": 1,
+   "topics": [
+    {
+     "id": "l-hk-drama",
+     "title": {
+      "ja": "話題のドラマシリーズ",
+      "en": "A drama series everyone is watching"
+     },
+     "summary": {
+      "ja": "配信が始まったシリーズの反響が広がっています。",
+      "en": "A newly released series is drawing a wide response."
+     },
+     "category": "ENTERTAINMENT",
+     "scope": "LOCAL",
+     "score": 84,
+     "change": 8.3,
+     "status": "stable",
+     "origin": "HK",
+     "relatedCountries": [
+      "HK"
+     ],
+     "startedAt": null,
+     "durationHours": 18,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "l-hk-budget",
+     "title": {
+      "ja": "議会の予算審議",
+      "en": "Budget debate in parliament"
+     },
+     "summary": {
+      "ja": "来年度予算をめぐる審議が続き、関心が高まっています。",
+      "en": "Debate over next year’s budget is drawing steady attention."
+     },
+     "category": "POLITICS",
+     "scope": "LOCAL",
+     "score": 74,
+     "change": 6.5,
+     "status": "stable",
+     "origin": "HK",
+     "relatedCountries": [
+      "HK"
+     ],
+     "startedAt": null,
+     "durationHours": 24,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "l-hk-festival",
+     "title": {
+      "ja": "地域の伝統行事",
+      "en": "A regional tradition"
+     },
+     "summary": {
+      "ja": "各地の行事の様子が共有され、話題になっています。",
+      "en": "Scenes from local events are being shared widely."
+     },
+     "category": "CULTURE",
+     "scope": "LOCAL",
+     "score": 71,
+     "change": 36.3,
+     "status": "emerging",
+     "origin": "HK",
+     "relatedCountries": [
+      "HK"
+     ],
+     "startedAt": null,
+     "durationHours": 36,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "g-music-stream",
+     "title": {
+      "ja": "大型音楽イベントの同時配信",
+      "en": "Live-streamed music festival"
+     },
+     "summary": {
+      "ja": "野外音楽イベントの配信が始まり、時差を越えて視聴が続いています。",
+      "en": "An open-air festival stream is being watched across time zones."
+     },
+     "category": "CULTURE",
+     "scope": "GLOBAL",
+     "score": 68,
+     "change": 4.3,
+     "status": "stable",
+     "origin": "GB",
+     "relatedCountries": [
+      "BR",
+      "GB",
+      "HK",
+      "ID",
+      "PL",
+      "ZA"
+     ],
+     "startedAt": "2026-07-26T15:00:00Z",
+     "durationHours": 8,
+     "keywords": [
+      "music",
+      "festival",
+      "stream"
+     ],
+     "sources": [
+      "SOCIAL",
+      "NEWS"
+     ]
+    },
+    {
+     "id": "g-climate-forum",
+     "title": {
+      "ja": "国際気候フォーラム",
+      "en": "International climate forum"
+     },
+     "summary": {
+      "ja": "各国の研究者が集まる会議が開かれ、発表内容が広く共有されています。",
+      "en": "A conference of researchers from many countries is sharing its findings widely."
+     },
+     "category": "WORLD",
+     "scope": "GLOBAL",
+     "score": 56,
+     "change": -2.8,
+     "status": "stable",
+     "origin": "DE",
+     "relatedCountries": [
+      "CA",
+      "DE",
+      "HK",
+      "NZ",
+      "TH",
+      "TR"
+     ],
+     "startedAt": "2026-07-25T21:00:00Z",
+     "durationHours": 26,
+     "keywords": [
+      "climate",
+      "forum",
+      "research"
+     ],
+     "sources": [
+      "NEWS",
+      "WIKIPEDIA"
+     ]
+    },
+    {
+     "id": "l-hk-prices",
+     "title": {
+      "ja": "通貨と物価の動き",
+      "en": "Currency and prices"
+     },
+     "summary": {
+      "ja": "為替と生活必需品の価格の動きが注目されています。",
+      "en": "Movements in the exchange rate and everyday prices are being watched."
+     },
+     "category": "BUSINESS",
+     "scope": "LOCAL",
+     "score": 50,
+     "change": -1.7,
+     "status": "stable",
+     "origin": "HK",
+     "relatedCountries": [
+      "HK"
+     ],
+     "startedAt": null,
+     "durationHours": 18,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "ID",
+   "activityScore": 85,
+   "risingCount": 3,
+   "topics": [
+    {
+     "id": "g-biennale",
+     "title": {
+      "ja": "国際芸術ビエンナーレ",
+      "en": "International art biennale"
+     },
+     "summary": {
+      "ja": "国際的な美術展が会期に入り、出展作品の話題が各国に広がっています。",
+      "en": "An international art exhibition has opened and talk of its works is spreading."
+     },
+     "category": "CULTURE",
+     "scope": "GLOBAL",
+     "score": 86,
+     "change": 20.4,
+     "status": "rising",
+     "origin": "IT",
+     "relatedCountries": [
+      "FR",
+      "ID",
+      "IT",
+      "NZ"
+     ],
+     "startedAt": "2026-07-25T07:00:00Z",
+     "durationHours": 40,
+     "keywords": [
+      "art",
+      "exhibition",
+      "biennale"
+     ],
+     "sources": [
+      "NEWS",
+      "WIKIPEDIA"
+     ]
+    },
+    {
+     "id": "l-id-budget",
+     "title": {
+      "ja": "議会の予算審議",
+      "en": "Budget debate in parliament"
+     },
+     "summary": {
+      "ja": "来年度予算をめぐる審議が続き、関心が高まっています。",
+      "en": "Debate over next year’s budget is drawing steady attention."
+     },
+     "category": "POLITICS",
+     "scope": "LOCAL",
+     "score": 86,
+     "change": 23.0,
+     "status": "rising",
+     "origin": "ID",
+     "relatedCountries": [
+      "ID"
+     ],
+     "startedAt": null,
+     "durationHours": 36,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "l-id-league",
+     "title": {
+      "ja": "国内リーグの首位争い",
+      "en": "Title race in the domestic league"
+     },
+     "summary": {
+      "ja": "終盤戦に入り、上位チームの差が縮まっています。",
+      "en": "The gap between the top clubs is narrowing as the season closes."
+     },
+     "category": "SPORTS",
+     "scope": "LOCAL",
+     "score": 81,
+     "change": -8.8,
+     "status": "stable",
+     "origin": "ID",
+     "relatedCountries": [
+      "ID"
+     ],
+     "startedAt": null,
+     "durationHours": 36,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "l-id-weather",
+     "title": {
+      "ja": "季節外れの天候",
+      "en": "Unseasonal weather"
+     },
+     "summary": {
+      "ja": "平年と異なる天候が続き、注意が呼びかけられています。",
+      "en": "Unusual conditions are continuing and warnings have been issued."
+     },
+     "category": "WEATHER",
+     "scope": "LOCAL",
+     "score": 81,
+     "change": 8.6,
+     "status": "stable",
+     "origin": "ID",
+     "relatedCountries": [
+      "ID"
+     ],
+     "startedAt": null,
+     "durationHours": 24,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "g-music-stream",
+     "title": {
+      "ja": "大型音楽イベントの同時配信",
+      "en": "Live-streamed music festival"
+     },
+     "summary": {
+      "ja": "野外音楽イベントの配信が始まり、時差を越えて視聴が続いています。",
+      "en": "An open-air festival stream is being watched across time zones."
+     },
+     "category": "CULTURE",
+     "scope": "GLOBAL",
+     "score": 70,
+     "change": 34.4,
+     "status": "emerging",
+     "origin": "GB",
+     "relatedCountries": [
+      "BR",
+      "GB",
+      "HK",
+      "ID",
+      "PL",
+      "ZA"
+     ],
+     "startedAt": "2026-07-26T15:00:00Z",
+     "durationHours": 8,
+     "keywords": [
+      "music",
+      "festival",
+      "stream"
+     ],
+     "sources": [
+      "SOCIAL",
+      "NEWS"
+     ]
+    },
+    {
+     "id": "l-id-digital",
+     "title": {
+      "ja": "公共サービスのデジタル化",
+      "en": "Digital public services"
+     },
+     "summary": {
+      "ja": "行政手続きのオンライン化が段階的に進んでいます。",
+      "en": "Administrative procedures are moving online step by step."
+     },
+     "category": "TECH",
+     "scope": "LOCAL",
+     "score": 62,
+     "change": 13.3,
+     "status": "stable",
+     "origin": "ID",
+     "relatedCountries": [
+      "ID"
+     ],
+     "startedAt": null,
+     "durationHours": 24,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "g-typhoon",
+     "title": {
+      "ja": "大型台風への警戒",
+      "en": "Warnings for a large typhoon"
+     },
+     "summary": {
+      "ja": "進路予想の更新に合わせて、交通と備えに関する検索が増えています。",
+      "en": "Updated track forecasts are driving searches about transport and preparation."
+     },
+     "category": "WEATHER",
+     "scope": "GLOBAL",
+     "score": 57,
+     "change": -1.6,
+     "status": "stable",
+     "origin": "JP",
+     "relatedCountries": [
+      "CN",
+      "ID",
+      "JP",
+      "KR",
+      "SE"
+     ],
+     "startedAt": "2026-07-26T18:00:00Z",
+     "durationHours": 5,
+     "keywords": [
+      "typhoon",
+      "forecast",
+      "warning"
+     ],
+     "sources": [
+      "NEWS",
+      "SEARCH"
+     ]
+    }
+   ]
+  },
+  {
    "code": "IN",
    "activityScore": 88,
    "risingCount": 4,
@@ -1805,14 +2840,13 @@
      "status": "rising",
      "origin": "US",
      "relatedCountries": [
-      "US",
-      "JP",
-      "KR",
-      "FR",
-      "DE",
+      "CH",
+      "EG",
       "IN",
-      "GB",
-      "CN"
+      "JP",
+      "PH",
+      "US",
+      "VN"
      ],
      "startedAt": "2026-07-26T17:00:00Z",
      "durationHours": 6,
@@ -1875,13 +2909,10 @@
      "status": "rising",
      "origin": "US",
      "relatedCountries": [
-      "US",
-      "JP",
       "IN",
-      "FR",
-      "DE",
-      "GB",
-      "CN"
+      "JP",
+      "TW",
+      "US"
      ],
      "startedAt": "2026-07-26T14:00:00Z",
      "durationHours": 9,
@@ -1943,11 +2974,13 @@
      "status": "stable",
      "origin": "CN",
      "relatedCountries": [
+      "AR",
       "CN",
-      "IN",
       "ES",
-      "FR",
-      "JP"
+      "IN",
+      "TW",
+      "VN",
+      "ZA"
      ],
      "startedAt": "2026-07-26T01:00:00Z",
      "durationHours": 22,
@@ -1985,12 +3018,10 @@
      "status": "peak",
      "origin": "IT",
      "relatedCountries": [
-      "IT",
       "FR",
-      "ES",
-      "GB",
-      "JP",
-      "US"
+      "ID",
+      "IT",
+      "NZ"
      ],
      "startedAt": "2026-07-25T07:00:00Z",
      "durationHours": 40,
@@ -2021,13 +3052,13 @@
      "status": "rising",
      "origin": "ES",
      "relatedCountries": [
+      "AR",
       "ES",
-      "IT",
       "FR",
-      "IN",
-      "JP",
-      "US",
-      "GB"
+      "GB",
+      "IT",
+      "NG",
+      "TH"
      ],
      "startedAt": "2026-07-25T17:00:00Z",
      "durationHours": 30,
@@ -2188,14 +3219,13 @@
      "status": "rising",
      "origin": "US",
      "relatedCountries": [
-      "US",
-      "JP",
-      "KR",
-      "FR",
-      "DE",
+      "CH",
+      "EG",
       "IN",
-      "GB",
-      "CN"
+      "JP",
+      "PH",
+      "US",
+      "VN"
      ],
      "startedAt": "2026-07-26T17:00:00Z",
      "durationHours": 6,
@@ -2258,11 +3288,11 @@
      "status": "emerging",
      "origin": "JP",
      "relatedCountries": [
+      "CN",
+      "ID",
       "JP",
       "KR",
-      "CN",
-      "TW",
-      "PH"
+      "SE"
      ],
      "startedAt": "2026-07-26T18:00:00Z",
      "durationHours": 5,
@@ -2324,12 +3354,14 @@
      "status": "stable",
      "origin": "KR",
      "relatedCountries": [
-      "KR",
+      "CA",
       "JP",
-      "US",
-      "BR",
-      "DE",
-      "CN"
+      "KR",
+      "MX",
+      "NO",
+      "SE",
+      "SG",
+      "TR"
      ],
      "startedAt": "2026-07-26T12:00:00Z",
      "durationHours": 11,
@@ -2360,13 +3392,10 @@
      "status": "declining",
      "origin": "US",
      "relatedCountries": [
-      "US",
-      "JP",
       "IN",
-      "FR",
-      "DE",
-      "GB",
-      "CN"
+      "JP",
+      "TW",
+      "US"
      ],
      "startedAt": "2026-07-26T14:00:00Z",
      "durationHours": 9,
@@ -2496,12 +3525,14 @@
      "status": "peak",
      "origin": "KR",
      "relatedCountries": [
-      "KR",
+      "CA",
       "JP",
-      "US",
-      "BR",
-      "DE",
-      "CN"
+      "KR",
+      "MX",
+      "NO",
+      "SE",
+      "SG",
+      "TR"
      ],
      "startedAt": "2026-07-26T12:00:00Z",
      "durationHours": 11,
@@ -2532,13 +3563,12 @@
      "status": "rising",
      "origin": "KR",
      "relatedCountries": [
-      "KR",
-      "US",
-      "JP",
       "DE",
-      "CN",
-      "IN",
-      "TW"
+      "KR",
+      "NG",
+      "NL",
+      "NO",
+      "US"
      ],
      "startedAt": "2026-07-26T07:00:00Z",
      "durationHours": 16,
@@ -2631,11 +3661,11 @@
      "status": "emerging",
      "origin": "JP",
      "relatedCountries": [
+      "CN",
+      "ID",
       "JP",
       "KR",
-      "CN",
-      "TW",
-      "PH"
+      "SE"
      ],
      "startedAt": "2026-07-26T18:00:00Z",
      "durationHours": 5,
@@ -2713,6 +3743,2234 @@
    ]
   },
   {
+   "code": "MX",
+   "activityScore": 74,
+   "risingCount": 0,
+   "topics": [
+    {
+     "id": "l-mx-prices",
+     "title": {
+      "ja": "通貨と物価の動き",
+      "en": "Currency and prices"
+     },
+     "summary": {
+      "ja": "為替と生活必需品の価格の動きが注目されています。",
+      "en": "Movements in the exchange rate and everyday prices are being watched."
+     },
+     "category": "BUSINESS",
+     "scope": "LOCAL",
+     "score": 78,
+     "change": -13.7,
+     "status": "stable",
+     "origin": "MX",
+     "relatedCountries": [
+      "MX"
+     ],
+     "startedAt": null,
+     "durationHours": 24,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "g-film-premiere",
+     "title": {
+      "ja": "新作映画の世界同時公開",
+      "en": "Simultaneous worldwide film release"
+     },
+     "summary": {
+      "ja": "同じ作品が各国で同時に公開され、上映初日の話題が重なっています。",
+      "en": "A single title opened in many countries at once, stacking opening-day chatter."
+     },
+     "category": "ENTERTAINMENT",
+     "scope": "GLOBAL",
+     "score": 73,
+     "change": -5.0,
+     "status": "stable",
+     "origin": "US",
+     "relatedCountries": [
+      "BR",
+      "ES",
+      "MX",
+      "NL",
+      "SG",
+      "US"
+     ],
+     "startedAt": "2026-07-26T03:00:00Z",
+     "durationHours": 20,
+     "keywords": [
+      "film",
+      "premiere",
+      "cinema"
+     ],
+     "sources": [
+      "NEWS",
+      "SOCIAL"
+     ]
+    },
+    {
+     "id": "l-mx-research",
+     "title": {
+      "ja": "大学の研究発表",
+      "en": "A university research result"
+     },
+     "summary": {
+      "ja": "国内の研究機関による発表が取り上げられています。",
+      "en": "A result from a national research institute is being picked up."
+     },
+     "category": "SCIENCE",
+     "scope": "LOCAL",
+     "score": 71,
+     "change": 12.9,
+     "status": "stable",
+     "origin": "MX",
+     "relatedCountries": [
+      "MX"
+     ],
+     "startedAt": null,
+     "durationHours": 24,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "g-game-update",
+     "title": {
+      "ja": "人気ゲームの大型アップデート",
+      "en": "Major update for a popular game"
+     },
+     "summary": {
+      "ja": "大型アップデートの配信開始とともに、攻略や不具合の話題が増えています。",
+      "en": "A large update went live, lifting talk of new content and early issues."
+     },
+     "category": "ENTERTAINMENT",
+     "scope": "GLOBAL",
+     "score": 58,
+     "change": -11.6,
+     "status": "stable",
+     "origin": "KR",
+     "relatedCountries": [
+      "CA",
+      "JP",
+      "KR",
+      "MX",
+      "NO",
+      "SE",
+      "SG",
+      "TR"
+     ],
+     "startedAt": "2026-07-26T12:00:00Z",
+     "durationHours": 11,
+     "keywords": [
+      "game",
+      "update",
+      "patch"
+     ],
+     "sources": [
+      "SOCIAL",
+      "SEARCH"
+     ]
+    },
+    {
+     "id": "l-mx-league",
+     "title": {
+      "ja": "国内リーグの首位争い",
+      "en": "Title race in the domestic league"
+     },
+     "summary": {
+      "ja": "終盤戦に入り、上位チームの差が縮まっています。",
+      "en": "The gap between the top clubs is narrowing as the season closes."
+     },
+     "category": "SPORTS",
+     "scope": "LOCAL",
+     "score": 58,
+     "change": -8.6,
+     "status": "stable",
+     "origin": "MX",
+     "relatedCountries": [
+      "MX"
+     ],
+     "startedAt": null,
+     "durationHours": 12,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "NG",
+   "activityScore": 85,
+   "risingCount": 4,
+   "topics": [
+    {
+     "id": "l-ng-festival",
+     "title": {
+      "ja": "地域の伝統行事",
+      "en": "A regional tradition"
+     },
+     "summary": {
+      "ja": "各地の行事の様子が共有され、話題になっています。",
+      "en": "Scenes from local events are being shared widely."
+     },
+     "category": "CULTURE",
+     "scope": "LOCAL",
+     "score": 86,
+     "change": 33.2,
+     "status": "emerging",
+     "origin": "NG",
+     "relatedCountries": [
+      "NG"
+     ],
+     "startedAt": null,
+     "durationHours": 18,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "l-ng-digital",
+     "title": {
+      "ja": "公共サービスのデジタル化",
+      "en": "Digital public services"
+     },
+     "summary": {
+      "ja": "行政手続きのオンライン化が段階的に進んでいます。",
+      "en": "Administrative procedures are moving online step by step."
+     },
+     "category": "TECH",
+     "scope": "LOCAL",
+     "score": 85,
+     "change": 18.4,
+     "status": "rising",
+     "origin": "NG",
+     "relatedCountries": [
+      "NG"
+     ],
+     "startedAt": null,
+     "durationHours": 12,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "g-chip-market",
+     "title": {
+      "ja": "半導体投資の再編",
+      "en": "Chip investment reshuffle"
+     },
+     "summary": {
+      "ja": "製造投資の見直しが伝えられ、関連産業の動向に注目が集まっています。",
+      "en": "Reported changes to manufacturing investment are drawing attention to the wider supply chain."
+     },
+     "category": "BUSINESS",
+     "scope": "GLOBAL",
+     "score": 84,
+     "change": 6.0,
+     "status": "stable",
+     "origin": "KR",
+     "relatedCountries": [
+      "DE",
+      "KR",
+      "NG",
+      "NL",
+      "NO",
+      "US"
+     ],
+     "startedAt": "2026-07-26T07:00:00Z",
+     "durationHours": 16,
+     "keywords": [
+      "semiconductor",
+      "investment",
+      "industry"
+     ],
+     "sources": [
+      "NEWS",
+      "SEARCH"
+     ]
+    },
+    {
+     "id": "l-ng-weather",
+     "title": {
+      "ja": "季節外れの天候",
+      "en": "Unseasonal weather"
+     },
+     "summary": {
+      "ja": "平年と異なる天候が続き、注意が呼びかけられています。",
+      "en": "Unusual conditions are continuing and warnings have been issued."
+     },
+     "category": "WEATHER",
+     "scope": "LOCAL",
+     "score": 82,
+     "change": 37.9,
+     "status": "emerging",
+     "origin": "NG",
+     "relatedCountries": [
+      "NG"
+     ],
+     "startedAt": null,
+     "durationHours": 18,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "g-world-games",
+     "title": {
+      "ja": "国際スポーツ大会の開幕",
+      "en": "International games open"
+     },
+     "summary": {
+      "ja": "総合競技大会の開幕に合わせ、各国で関連する話題が広がっています。",
+      "en": "The opening of a multi-sport event is spreading interest across participating countries."
+     },
+     "category": "SPORTS",
+     "scope": "GLOBAL",
+     "score": 80,
+     "change": 3.3,
+     "status": "stable",
+     "origin": "FR",
+     "relatedCountries": [
+      "AU",
+      "CH",
+      "FR",
+      "GB",
+      "NG",
+      "NZ",
+      "SE",
+      "TW"
+     ],
+     "startedAt": "2026-07-26T09:00:00Z",
+     "durationHours": 14,
+     "keywords": [
+      "games",
+      "opening",
+      "athletes"
+     ],
+     "sources": [
+      "NEWS",
+      "SOCIAL",
+      "SEARCH"
+     ]
+    },
+    {
+     "id": "l-ng-league",
+     "title": {
+      "ja": "国内リーグの首位争い",
+      "en": "Title race in the domestic league"
+     },
+     "summary": {
+      "ja": "終盤戦に入り、上位チームの差が縮まっています。",
+      "en": "The gap between the top clubs is narrowing as the season closes."
+     },
+     "category": "SPORTS",
+     "scope": "LOCAL",
+     "score": 77,
+     "change": 15.0,
+     "status": "rising",
+     "origin": "NG",
+     "relatedCountries": [
+      "NG"
+     ],
+     "startedAt": null,
+     "durationHours": 24,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "g-heatwave",
+     "title": {
+      "ja": "記録的な猛暑",
+      "en": "Record heat"
+     },
+     "summary": {
+      "ja": "広い範囲で気温が平年を上回り、暑さへの備えに関心が集まっています。",
+      "en": "Temperatures are running well above normal across a wide band, driving interest in heat safety."
+     },
+     "category": "WEATHER",
+     "scope": "GLOBAL",
+     "score": 55,
+     "change": 1.3,
+     "status": "stable",
+     "origin": "ES",
+     "relatedCountries": [
+      "AR",
+      "ES",
+      "FR",
+      "GB",
+      "IT",
+      "NG",
+      "TH"
+     ],
+     "startedAt": "2026-07-25T17:00:00Z",
+     "durationHours": 30,
+     "keywords": [
+      "heat",
+      "temperature",
+      "summer"
+     ],
+     "sources": [
+      "NEWS",
+      "SEARCH"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "NL",
+   "activityScore": 87,
+   "risingCount": 3,
+   "topics": [
+    {
+     "id": "g-film-premiere",
+     "title": {
+      "ja": "新作映画の世界同時公開",
+      "en": "Simultaneous worldwide film release"
+     },
+     "summary": {
+      "ja": "同じ作品が各国で同時に公開され、上映初日の話題が重なっています。",
+      "en": "A single title opened in many countries at once, stacking opening-day chatter."
+     },
+     "category": "ENTERTAINMENT",
+     "scope": "GLOBAL",
+     "score": 94,
+     "change": 1.8,
+     "status": "peak",
+     "origin": "US",
+     "relatedCountries": [
+      "BR",
+      "ES",
+      "MX",
+      "NL",
+      "SG",
+      "US"
+     ],
+     "startedAt": "2026-07-26T03:00:00Z",
+     "durationHours": 20,
+     "keywords": [
+      "film",
+      "premiere",
+      "cinema"
+     ],
+     "sources": [
+      "NEWS",
+      "SOCIAL"
+     ]
+    },
+    {
+     "id": "l-nl-research",
+     "title": {
+      "ja": "大学の研究発表",
+      "en": "A university research result"
+     },
+     "summary": {
+      "ja": "国内の研究機関による発表が取り上げられています。",
+      "en": "A result from a national research institute is being picked up."
+     },
+     "category": "SCIENCE",
+     "scope": "LOCAL",
+     "score": 87,
+     "change": 12.4,
+     "status": "peak",
+     "origin": "NL",
+     "relatedCountries": [
+      "NL"
+     ],
+     "startedAt": null,
+     "durationHours": 18,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "l-nl-drama",
+     "title": {
+      "ja": "話題のドラマシリーズ",
+      "en": "A drama series everyone is watching"
+     },
+     "summary": {
+      "ja": "配信が始まったシリーズの反響が広がっています。",
+      "en": "A newly released series is drawing a wide response."
+     },
+     "category": "ENTERTAINMENT",
+     "scope": "LOCAL",
+     "score": 78,
+     "change": 10.4,
+     "status": "stable",
+     "origin": "NL",
+     "relatedCountries": [
+      "NL"
+     ],
+     "startedAt": null,
+     "durationHours": 12,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "l-nl-league",
+     "title": {
+      "ja": "国内リーグの首位争い",
+      "en": "Title race in the domestic league"
+     },
+     "summary": {
+      "ja": "終盤戦に入り、上位チームの差が縮まっています。",
+      "en": "The gap between the top clubs is narrowing as the season closes."
+     },
+     "category": "SPORTS",
+     "scope": "LOCAL",
+     "score": 59,
+     "change": 28.5,
+     "status": "rising",
+     "origin": "NL",
+     "relatedCountries": [
+      "NL"
+     ],
+     "startedAt": null,
+     "durationHours": 12,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "g-chip-market",
+     "title": {
+      "ja": "半導体投資の再編",
+      "en": "Chip investment reshuffle"
+     },
+     "summary": {
+      "ja": "製造投資の見直しが伝えられ、関連産業の動向に注目が集まっています。",
+      "en": "Reported changes to manufacturing investment are drawing attention to the wider supply chain."
+     },
+     "category": "BUSINESS",
+     "scope": "GLOBAL",
+     "score": 58,
+     "change": 30.2,
+     "status": "emerging",
+     "origin": "KR",
+     "relatedCountries": [
+      "DE",
+      "KR",
+      "NG",
+      "NL",
+      "NO",
+      "US"
+     ],
+     "startedAt": "2026-07-26T07:00:00Z",
+     "durationHours": 16,
+     "keywords": [
+      "semiconductor",
+      "investment",
+      "industry"
+     ],
+     "sources": [
+      "NEWS",
+      "SEARCH"
+     ]
+    },
+    {
+     "id": "l-nl-digital",
+     "title": {
+      "ja": "公共サービスのデジタル化",
+      "en": "Digital public services"
+     },
+     "summary": {
+      "ja": "行政手続きのオンライン化が段階的に進んでいます。",
+      "en": "Administrative procedures are moving online step by step."
+     },
+     "category": "TECH",
+     "scope": "LOCAL",
+     "score": 48,
+     "change": 22.2,
+     "status": "rising",
+     "origin": "NL",
+     "relatedCountries": [
+      "NL"
+     ],
+     "startedAt": null,
+     "durationHours": 6,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "NO",
+   "activityScore": 87,
+   "risingCount": 1,
+   "topics": [
+    {
+     "id": "g-game-update",
+     "title": {
+      "ja": "人気ゲームの大型アップデート",
+      "en": "Major update for a popular game"
+     },
+     "summary": {
+      "ja": "大型アップデートの配信開始とともに、攻略や不具合の話題が増えています。",
+      "en": "A large update went live, lifting talk of new content and early issues."
+     },
+     "category": "ENTERTAINMENT",
+     "scope": "GLOBAL",
+     "score": 94,
+     "change": -10.3,
+     "status": "peak",
+     "origin": "KR",
+     "relatedCountries": [
+      "CA",
+      "JP",
+      "KR",
+      "MX",
+      "NO",
+      "SE",
+      "SG",
+      "TR"
+     ],
+     "startedAt": "2026-07-26T12:00:00Z",
+     "durationHours": 11,
+     "keywords": [
+      "game",
+      "update",
+      "patch"
+     ],
+     "sources": [
+      "SOCIAL",
+      "SEARCH"
+     ]
+    },
+    {
+     "id": "l-no-festival",
+     "title": {
+      "ja": "地域の伝統行事",
+      "en": "A regional tradition"
+     },
+     "summary": {
+      "ja": "各地の行事の様子が共有され、話題になっています。",
+      "en": "Scenes from local events are being shared widely."
+     },
+     "category": "CULTURE",
+     "scope": "LOCAL",
+     "score": 82,
+     "change": 14.6,
+     "status": "stable",
+     "origin": "NO",
+     "relatedCountries": [
+      "NO"
+     ],
+     "startedAt": null,
+     "durationHours": 12,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "g-chip-market",
+     "title": {
+      "ja": "半導体投資の再編",
+      "en": "Chip investment reshuffle"
+     },
+     "summary": {
+      "ja": "製造投資の見直しが伝えられ、関連産業の動向に注目が集まっています。",
+      "en": "Reported changes to manufacturing investment are drawing attention to the wider supply chain."
+     },
+     "category": "BUSINESS",
+     "scope": "GLOBAL",
+     "score": 73,
+     "change": -0.2,
+     "status": "stable",
+     "origin": "KR",
+     "relatedCountries": [
+      "DE",
+      "KR",
+      "NG",
+      "NL",
+      "NO",
+      "US"
+     ],
+     "startedAt": "2026-07-26T07:00:00Z",
+     "durationHours": 16,
+     "keywords": [
+      "semiconductor",
+      "investment",
+      "industry"
+     ],
+     "sources": [
+      "NEWS",
+      "SEARCH"
+     ]
+    },
+    {
+     "id": "l-no-prices",
+     "title": {
+      "ja": "通貨と物価の動き",
+      "en": "Currency and prices"
+     },
+     "summary": {
+      "ja": "為替と生活必需品の価格の動きが注目されています。",
+      "en": "Movements in the exchange rate and everyday prices are being watched."
+     },
+     "category": "BUSINESS",
+     "scope": "LOCAL",
+     "score": 69,
+     "change": 34.8,
+     "status": "emerging",
+     "origin": "NO",
+     "relatedCountries": [
+      "NO"
+     ],
+     "startedAt": null,
+     "durationHours": 24,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "l-no-league",
+     "title": {
+      "ja": "国内リーグの首位争い",
+      "en": "Title race in the domestic league"
+     },
+     "summary": {
+      "ja": "終盤戦に入り、上位チームの差が縮まっています。",
+      "en": "The gap between the top clubs is narrowing as the season closes."
+     },
+     "category": "SPORTS",
+     "scope": "LOCAL",
+     "score": 56,
+     "change": -7.3,
+     "status": "stable",
+     "origin": "NO",
+     "relatedCountries": [
+      "NO"
+     ],
+     "startedAt": null,
+     "durationHours": 18,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "NZ",
+   "activityScore": 88,
+   "risingCount": 4,
+   "topics": [
+    {
+     "id": "g-climate-forum",
+     "title": {
+      "ja": "国際気候フォーラム",
+      "en": "International climate forum"
+     },
+     "summary": {
+      "ja": "各国の研究者が集まる会議が開かれ、発表内容が広く共有されています。",
+      "en": "A conference of researchers from many countries is sharing its findings widely."
+     },
+     "category": "WORLD",
+     "scope": "GLOBAL",
+     "score": 93,
+     "change": 22.6,
+     "status": "rising",
+     "origin": "DE",
+     "relatedCountries": [
+      "CA",
+      "DE",
+      "HK",
+      "NZ",
+      "TH",
+      "TR"
+     ],
+     "startedAt": "2026-07-25T21:00:00Z",
+     "durationHours": 26,
+     "keywords": [
+      "climate",
+      "forum",
+      "research"
+     ],
+     "sources": [
+      "NEWS",
+      "WIKIPEDIA"
+     ]
+    },
+    {
+     "id": "g-biennale",
+     "title": {
+      "ja": "国際芸術ビエンナーレ",
+      "en": "International art biennale"
+     },
+     "summary": {
+      "ja": "国際的な美術展が会期に入り、出展作品の話題が各国に広がっています。",
+      "en": "An international art exhibition has opened and talk of its works is spreading."
+     },
+     "category": "CULTURE",
+     "scope": "GLOBAL",
+     "score": 89,
+     "change": 22.1,
+     "status": "rising",
+     "origin": "IT",
+     "relatedCountries": [
+      "FR",
+      "ID",
+      "IT",
+      "NZ"
+     ],
+     "startedAt": "2026-07-25T07:00:00Z",
+     "durationHours": 40,
+     "keywords": [
+      "art",
+      "exhibition",
+      "biennale"
+     ],
+     "sources": [
+      "NEWS",
+      "WIKIPEDIA"
+     ]
+    },
+    {
+     "id": "l-nz-budget",
+     "title": {
+      "ja": "議会の予算審議",
+      "en": "Budget debate in parliament"
+     },
+     "summary": {
+      "ja": "来年度予算をめぐる審議が続き、関心が高まっています。",
+      "en": "Debate over next year’s budget is drawing steady attention."
+     },
+     "category": "POLITICS",
+     "scope": "LOCAL",
+     "score": 76,
+     "change": 9.7,
+     "status": "stable",
+     "origin": "NZ",
+     "relatedCountries": [
+      "NZ"
+     ],
+     "startedAt": null,
+     "durationHours": 36,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "g-world-games",
+     "title": {
+      "ja": "国際スポーツ大会の開幕",
+      "en": "International games open"
+     },
+     "summary": {
+      "ja": "総合競技大会の開幕に合わせ、各国で関連する話題が広がっています。",
+      "en": "The opening of a multi-sport event is spreading interest across participating countries."
+     },
+     "category": "SPORTS",
+     "scope": "GLOBAL",
+     "score": 73,
+     "change": -2.7,
+     "status": "stable",
+     "origin": "FR",
+     "relatedCountries": [
+      "AU",
+      "CH",
+      "FR",
+      "GB",
+      "NG",
+      "NZ",
+      "SE",
+      "TW"
+     ],
+     "startedAt": "2026-07-26T09:00:00Z",
+     "durationHours": 14,
+     "keywords": [
+      "games",
+      "opening",
+      "athletes"
+     ],
+     "sources": [
+      "NEWS",
+      "SOCIAL",
+      "SEARCH"
+     ]
+    },
+    {
+     "id": "l-nz-festival",
+     "title": {
+      "ja": "地域の伝統行事",
+      "en": "A regional tradition"
+     },
+     "summary": {
+      "ja": "各地の行事の様子が共有され、話題になっています。",
+      "en": "Scenes from local events are being shared widely."
+     },
+     "category": "CULTURE",
+     "scope": "LOCAL",
+     "score": 56,
+     "change": 21.7,
+     "status": "rising",
+     "origin": "NZ",
+     "relatedCountries": [
+      "NZ"
+     ],
+     "startedAt": null,
+     "durationHours": 12,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "l-nz-weather",
+     "title": {
+      "ja": "季節外れの天候",
+      "en": "Unseasonal weather"
+     },
+     "summary": {
+      "ja": "平年と異なる天候が続き、注意が呼びかけられています。",
+      "en": "Unusual conditions are continuing and warnings have been issued."
+     },
+     "category": "WEATHER",
+     "scope": "LOCAL",
+     "score": 55,
+     "change": 35.6,
+     "status": "emerging",
+     "origin": "NZ",
+     "relatedCountries": [
+      "NZ"
+     ],
+     "startedAt": null,
+     "durationHours": 24,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "l-nz-drama",
+     "title": {
+      "ja": "話題のドラマシリーズ",
+      "en": "A drama series everyone is watching"
+     },
+     "summary": {
+      "ja": "配信が始まったシリーズの反響が広がっています。",
+      "en": "A newly released series is drawing a wide response."
+     },
+     "category": "ENTERTAINMENT",
+     "scope": "LOCAL",
+     "score": 49,
+     "change": -19.7,
+     "status": "declining",
+     "origin": "NZ",
+     "relatedCountries": [
+      "NZ"
+     ],
+     "startedAt": null,
+     "durationHours": 12,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "PH",
+   "activityScore": 75,
+   "risingCount": 2,
+   "topics": [
+    {
+     "id": "g-ai-model",
+     "title": {
+      "ja": "生成AIの新モデル",
+      "en": "New generative AI model"
+     },
+     "summary": {
+      "ja": "複数の国で新しいAIモデルに関する検索と報道が同時に増えています。",
+      "en": "Search and coverage for a new AI model are climbing in several countries at once."
+     },
+     "category": "TECH",
+     "scope": "GLOBAL",
+     "score": 78,
+     "change": 30.2,
+     "status": "emerging",
+     "origin": "US",
+     "relatedCountries": [
+      "CH",
+      "EG",
+      "IN",
+      "JP",
+      "PH",
+      "US",
+      "VN"
+     ],
+     "startedAt": "2026-07-26T17:00:00Z",
+     "durationHours": 6,
+     "keywords": [
+      "AI",
+      "model",
+      "research"
+     ],
+     "sources": [
+      "NEWS",
+      "WIKIPEDIA",
+      "SEARCH"
+     ]
+    },
+    {
+     "id": "l-ph-digital",
+     "title": {
+      "ja": "公共サービスのデジタル化",
+      "en": "Digital public services"
+     },
+     "summary": {
+      "ja": "行政手続きのオンライン化が段階的に進んでいます。",
+      "en": "Administrative procedures are moving online step by step."
+     },
+     "category": "TECH",
+     "scope": "LOCAL",
+     "score": 73,
+     "change": -7.4,
+     "status": "stable",
+     "origin": "PH",
+     "relatedCountries": [
+      "PH"
+     ],
+     "startedAt": null,
+     "durationHours": 6,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "l-ph-research",
+     "title": {
+      "ja": "大学の研究発表",
+      "en": "A university research result"
+     },
+     "summary": {
+      "ja": "国内の研究機関による発表が取り上げられています。",
+      "en": "A result from a national research institute is being picked up."
+     },
+     "category": "SCIENCE",
+     "scope": "LOCAL",
+     "score": 70,
+     "change": 9.9,
+     "status": "stable",
+     "origin": "PH",
+     "relatedCountries": [
+      "PH"
+     ],
+     "startedAt": null,
+     "durationHours": 24,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "g-ocean",
+     "title": {
+      "ja": "深海探査プロジェクト",
+      "en": "Deep-sea exploration project"
+     },
+     "summary": {
+      "ja": "深海の連続観測が始まり、公開された映像が国をまたいで共有されています。",
+      "en": "A continuous deep-sea survey has begun and its footage is being shared across borders."
+     },
+     "category": "SCIENCE",
+     "scope": "GLOBAL",
+     "score": 67,
+     "change": 44.8,
+     "status": "emerging",
+     "origin": "AU",
+     "relatedCountries": [
+      "AU",
+      "EG",
+      "PH"
+     ],
+     "startedAt": "2026-07-26T05:00:00Z",
+     "durationHours": 18,
+     "keywords": [
+      "ocean",
+      "deep sea",
+      "survey"
+     ],
+     "sources": [
+      "NEWS",
+      "WIKIPEDIA",
+      "SOCIAL"
+     ]
+    },
+    {
+     "id": "l-ph-festival",
+     "title": {
+      "ja": "地域の伝統行事",
+      "en": "A regional tradition"
+     },
+     "summary": {
+      "ja": "各地の行事の様子が共有され、話題になっています。",
+      "en": "Scenes from local events are being shared widely."
+     },
+     "category": "CULTURE",
+     "scope": "LOCAL",
+     "score": 62,
+     "change": 3.0,
+     "status": "stable",
+     "origin": "PH",
+     "relatedCountries": [
+      "PH"
+     ],
+     "startedAt": null,
+     "durationHours": 36,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "l-ph-league",
+     "title": {
+      "ja": "国内リーグの首位争い",
+      "en": "Title race in the domestic league"
+     },
+     "summary": {
+      "ja": "終盤戦に入り、上位チームの差が縮まっています。",
+      "en": "The gap between the top clubs is narrowing as the season closes."
+     },
+     "category": "SPORTS",
+     "scope": "LOCAL",
+     "score": 59,
+     "change": -14.2,
+     "status": "stable",
+     "origin": "PH",
+     "relatedCountries": [
+      "PH"
+     ],
+     "startedAt": null,
+     "durationHours": 18,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "PL",
+   "activityScore": 74,
+   "risingCount": 2,
+   "topics": [
+    {
+     "id": "l-pl-research",
+     "title": {
+      "ja": "大学の研究発表",
+      "en": "A university research result"
+     },
+     "summary": {
+      "ja": "国内の研究機関による発表が取り上げられています。",
+      "en": "A result from a national research institute is being picked up."
+     },
+     "category": "SCIENCE",
+     "scope": "LOCAL",
+     "score": 78,
+     "change": -9.7,
+     "status": "stable",
+     "origin": "PL",
+     "relatedCountries": [
+      "PL"
+     ],
+     "startedAt": null,
+     "durationHours": 36,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "g-quantum",
+     "title": {
+      "ja": "量子計算の新記録",
+      "en": "New record in quantum computing"
+     },
+     "summary": {
+      "ja": "計算実験の結果が公開され、専門メディアと一般報道の両方で扱われています。",
+      "en": "Results from a computing experiment are being covered by both trade and general media."
+     },
+     "category": "SCIENCE",
+     "scope": "GLOBAL",
+     "score": 70,
+     "change": -10.3,
+     "status": "stable",
+     "origin": "DE",
+     "relatedCountries": [
+      "CN",
+      "DE",
+      "PL",
+      "VN"
+     ],
+     "startedAt": "2026-07-26T10:00:00Z",
+     "durationHours": 13,
+     "keywords": [
+      "quantum",
+      "computing",
+      "record"
+     ],
+     "sources": [
+      "NEWS",
+      "WIKIPEDIA"
+     ]
+    },
+    {
+     "id": "g-music-stream",
+     "title": {
+      "ja": "大型音楽イベントの同時配信",
+      "en": "Live-streamed music festival"
+     },
+     "summary": {
+      "ja": "野外音楽イベントの配信が始まり、時差を越えて視聴が続いています。",
+      "en": "An open-air festival stream is being watched across time zones."
+     },
+     "category": "CULTURE",
+     "scope": "GLOBAL",
+     "score": 67,
+     "change": 39.7,
+     "status": "emerging",
+     "origin": "GB",
+     "relatedCountries": [
+      "BR",
+      "GB",
+      "HK",
+      "ID",
+      "PL",
+      "ZA"
+     ],
+     "startedAt": "2026-07-26T15:00:00Z",
+     "durationHours": 8,
+     "keywords": [
+      "music",
+      "festival",
+      "stream"
+     ],
+     "sources": [
+      "SOCIAL",
+      "NEWS"
+     ]
+    },
+    {
+     "id": "l-pl-digital",
+     "title": {
+      "ja": "公共サービスのデジタル化",
+      "en": "Digital public services"
+     },
+     "summary": {
+      "ja": "行政手続きのオンライン化が段階的に進んでいます。",
+      "en": "Administrative procedures are moving online step by step."
+     },
+     "category": "TECH",
+     "scope": "LOCAL",
+     "score": 65,
+     "change": -4.8,
+     "status": "stable",
+     "origin": "PL",
+     "relatedCountries": [
+      "PL"
+     ],
+     "startedAt": null,
+     "durationHours": 24,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "l-pl-drama",
+     "title": {
+      "ja": "話題のドラマシリーズ",
+      "en": "A drama series everyone is watching"
+     },
+     "summary": {
+      "ja": "配信が始まったシリーズの反響が広がっています。",
+      "en": "A newly released series is drawing a wide response."
+     },
+     "category": "ENTERTAINMENT",
+     "scope": "LOCAL",
+     "score": 64,
+     "change": 17.7,
+     "status": "rising",
+     "origin": "PL",
+     "relatedCountries": [
+      "PL"
+     ],
+     "startedAt": null,
+     "durationHours": 24,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "l-pl-festival",
+     "title": {
+      "ja": "地域の伝統行事",
+      "en": "A regional tradition"
+     },
+     "summary": {
+      "ja": "各地の行事の様子が共有され、話題になっています。",
+      "en": "Scenes from local events are being shared widely."
+     },
+     "category": "CULTURE",
+     "scope": "LOCAL",
+     "score": 63,
+     "change": 7.5,
+     "status": "stable",
+     "origin": "PL",
+     "relatedCountries": [
+      "PL"
+     ],
+     "startedAt": null,
+     "durationHours": 6,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "SE",
+   "activityScore": 75,
+   "risingCount": 2,
+   "topics": [
+    {
+     "id": "g-game-update",
+     "title": {
+      "ja": "人気ゲームの大型アップデート",
+      "en": "Major update for a popular game"
+     },
+     "summary": {
+      "ja": "大型アップデートの配信開始とともに、攻略や不具合の話題が増えています。",
+      "en": "A large update went live, lifting talk of new content and early issues."
+     },
+     "category": "ENTERTAINMENT",
+     "scope": "GLOBAL",
+     "score": 82,
+     "change": 17.5,
+     "status": "rising",
+     "origin": "KR",
+     "relatedCountries": [
+      "CA",
+      "JP",
+      "KR",
+      "MX",
+      "NO",
+      "SE",
+      "SG",
+      "TR"
+     ],
+     "startedAt": "2026-07-26T12:00:00Z",
+     "durationHours": 11,
+     "keywords": [
+      "game",
+      "update",
+      "patch"
+     ],
+     "sources": [
+      "SOCIAL",
+      "SEARCH"
+     ]
+    },
+    {
+     "id": "l-se-drama",
+     "title": {
+      "ja": "話題のドラマシリーズ",
+      "en": "A drama series everyone is watching"
+     },
+     "summary": {
+      "ja": "配信が始まったシリーズの反響が広がっています。",
+      "en": "A newly released series is drawing a wide response."
+     },
+     "category": "ENTERTAINMENT",
+     "scope": "LOCAL",
+     "score": 67,
+     "change": -9.6,
+     "status": "stable",
+     "origin": "SE",
+     "relatedCountries": [
+      "SE"
+     ],
+     "startedAt": null,
+     "durationHours": 12,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "g-typhoon",
+     "title": {
+      "ja": "大型台風への警戒",
+      "en": "Warnings for a large typhoon"
+     },
+     "summary": {
+      "ja": "進路予想の更新に合わせて、交通と備えに関する検索が増えています。",
+      "en": "Updated track forecasts are driving searches about transport and preparation."
+     },
+     "category": "WEATHER",
+     "scope": "GLOBAL",
+     "score": 61,
+     "change": -12.8,
+     "status": "stable",
+     "origin": "JP",
+     "relatedCountries": [
+      "CN",
+      "ID",
+      "JP",
+      "KR",
+      "SE"
+     ],
+     "startedAt": "2026-07-26T18:00:00Z",
+     "durationHours": 5,
+     "keywords": [
+      "typhoon",
+      "forecast",
+      "warning"
+     ],
+     "sources": [
+      "NEWS",
+      "SEARCH"
+     ]
+    },
+    {
+     "id": "g-world-games",
+     "title": {
+      "ja": "国際スポーツ大会の開幕",
+      "en": "International games open"
+     },
+     "summary": {
+      "ja": "総合競技大会の開幕に合わせ、各国で関連する話題が広がっています。",
+      "en": "The opening of a multi-sport event is spreading interest across participating countries."
+     },
+     "category": "SPORTS",
+     "scope": "GLOBAL",
+     "score": 60,
+     "change": 0.9,
+     "status": "stable",
+     "origin": "FR",
+     "relatedCountries": [
+      "AU",
+      "CH",
+      "FR",
+      "GB",
+      "NG",
+      "NZ",
+      "SE",
+      "TW"
+     ],
+     "startedAt": "2026-07-26T09:00:00Z",
+     "durationHours": 14,
+     "keywords": [
+      "games",
+      "opening",
+      "athletes"
+     ],
+     "sources": [
+      "NEWS",
+      "SOCIAL",
+      "SEARCH"
+     ]
+    },
+    {
+     "id": "l-se-festival",
+     "title": {
+      "ja": "地域の伝統行事",
+      "en": "A regional tradition"
+     },
+     "summary": {
+      "ja": "各地の行事の様子が共有され、話題になっています。",
+      "en": "Scenes from local events are being shared widely."
+     },
+     "category": "CULTURE",
+     "scope": "LOCAL",
+     "score": 56,
+     "change": 21.0,
+     "status": "rising",
+     "origin": "SE",
+     "relatedCountries": [
+      "SE"
+     ],
+     "startedAt": null,
+     "durationHours": 18,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "l-se-prices",
+     "title": {
+      "ja": "通貨と物価の動き",
+      "en": "Currency and prices"
+     },
+     "summary": {
+      "ja": "為替と生活必需品の価格の動きが注目されています。",
+      "en": "Movements in the exchange rate and everyday prices are being watched."
+     },
+     "category": "BUSINESS",
+     "scope": "LOCAL",
+     "score": 54,
+     "change": -4.0,
+     "status": "stable",
+     "origin": "SE",
+     "relatedCountries": [
+      "SE"
+     ],
+     "startedAt": null,
+     "durationHours": 18,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "SG",
+   "activityScore": 87,
+   "risingCount": 3,
+   "topics": [
+    {
+     "id": "g-film-premiere",
+     "title": {
+      "ja": "新作映画の世界同時公開",
+      "en": "Simultaneous worldwide film release"
+     },
+     "summary": {
+      "ja": "同じ作品が各国で同時に公開され、上映初日の話題が重なっています。",
+      "en": "A single title opened in many countries at once, stacking opening-day chatter."
+     },
+     "category": "ENTERTAINMENT",
+     "scope": "GLOBAL",
+     "score": 92,
+     "change": 44.4,
+     "status": "emerging",
+     "origin": "US",
+     "relatedCountries": [
+      "BR",
+      "ES",
+      "MX",
+      "NL",
+      "SG",
+      "US"
+     ],
+     "startedAt": "2026-07-26T03:00:00Z",
+     "durationHours": 20,
+     "keywords": [
+      "film",
+      "premiere",
+      "cinema"
+     ],
+     "sources": [
+      "NEWS",
+      "SOCIAL"
+     ]
+    },
+    {
+     "id": "l-sg-festival",
+     "title": {
+      "ja": "地域の伝統行事",
+      "en": "A regional tradition"
+     },
+     "summary": {
+      "ja": "各地の行事の様子が共有され、話題になっています。",
+      "en": "Scenes from local events are being shared widely."
+     },
+     "category": "CULTURE",
+     "scope": "LOCAL",
+     "score": 83,
+     "change": 28.1,
+     "status": "rising",
+     "origin": "SG",
+     "relatedCountries": [
+      "SG"
+     ],
+     "startedAt": null,
+     "durationHours": 12,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "l-sg-research",
+     "title": {
+      "ja": "大学の研究発表",
+      "en": "A university research result"
+     },
+     "summary": {
+      "ja": "国内の研究機関による発表が取り上げられています。",
+      "en": "A result from a national research institute is being picked up."
+     },
+     "category": "SCIENCE",
+     "scope": "LOCAL",
+     "score": 78,
+     "change": 4.0,
+     "status": "stable",
+     "origin": "SG",
+     "relatedCountries": [
+      "SG"
+     ],
+     "startedAt": null,
+     "durationHours": 24,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "g-game-update",
+     "title": {
+      "ja": "人気ゲームの大型アップデート",
+      "en": "Major update for a popular game"
+     },
+     "summary": {
+      "ja": "大型アップデートの配信開始とともに、攻略や不具合の話題が増えています。",
+      "en": "A large update went live, lifting talk of new content and early issues."
+     },
+     "category": "ENTERTAINMENT",
+     "scope": "GLOBAL",
+     "score": 74,
+     "change": -4.0,
+     "status": "stable",
+     "origin": "KR",
+     "relatedCountries": [
+      "CA",
+      "JP",
+      "KR",
+      "MX",
+      "NO",
+      "SE",
+      "SG",
+      "TR"
+     ],
+     "startedAt": "2026-07-26T12:00:00Z",
+     "durationHours": 11,
+     "keywords": [
+      "game",
+      "update",
+      "patch"
+     ],
+     "sources": [
+      "SOCIAL",
+      "SEARCH"
+     ]
+    },
+    {
+     "id": "l-sg-league",
+     "title": {
+      "ja": "国内リーグの首位争い",
+      "en": "Title race in the domestic league"
+     },
+     "summary": {
+      "ja": "終盤戦に入り、上位チームの差が縮まっています。",
+      "en": "The gap between the top clubs is narrowing as the season closes."
+     },
+     "category": "SPORTS",
+     "scope": "LOCAL",
+     "score": 74,
+     "change": 17.1,
+     "status": "rising",
+     "origin": "SG",
+     "relatedCountries": [
+      "SG"
+     ],
+     "startedAt": null,
+     "durationHours": 36,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "l-sg-weather",
+     "title": {
+      "ja": "季節外れの天候",
+      "en": "Unseasonal weather"
+     },
+     "summary": {
+      "ja": "平年と異なる天候が続き、注意が呼びかけられています。",
+      "en": "Unusual conditions are continuing and warnings have been issued."
+     },
+     "category": "WEATHER",
+     "scope": "LOCAL",
+     "score": 64,
+     "change": -13.4,
+     "status": "stable",
+     "origin": "SG",
+     "relatedCountries": [
+      "SG"
+     ],
+     "startedAt": null,
+     "durationHours": 24,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "TH",
+   "activityScore": 86,
+   "risingCount": 2,
+   "topics": [
+    {
+     "id": "g-heatwave",
+     "title": {
+      "ja": "記録的な猛暑",
+      "en": "Record heat"
+     },
+     "summary": {
+      "ja": "広い範囲で気温が平年を上回り、暑さへの備えに関心が集まっています。",
+      "en": "Temperatures are running well above normal across a wide band, driving interest in heat safety."
+     },
+     "category": "WEATHER",
+     "scope": "GLOBAL",
+     "score": 91,
+     "change": -13.9,
+     "status": "peak",
+     "origin": "ES",
+     "relatedCountries": [
+      "AR",
+      "ES",
+      "FR",
+      "GB",
+      "IT",
+      "NG",
+      "TH"
+     ],
+     "startedAt": "2026-07-25T17:00:00Z",
+     "durationHours": 30,
+     "keywords": [
+      "heat",
+      "temperature",
+      "summer"
+     ],
+     "sources": [
+      "NEWS",
+      "SEARCH"
+     ]
+    },
+    {
+     "id": "l-th-weather",
+     "title": {
+      "ja": "季節外れの天候",
+      "en": "Unseasonal weather"
+     },
+     "summary": {
+      "ja": "平年と異なる天候が続き、注意が呼びかけられています。",
+      "en": "Unusual conditions are continuing and warnings have been issued."
+     },
+     "category": "WEATHER",
+     "scope": "LOCAL",
+     "score": 81,
+     "change": 14.0,
+     "status": "stable",
+     "origin": "TH",
+     "relatedCountries": [
+      "TH"
+     ],
+     "startedAt": null,
+     "durationHours": 24,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "g-climate-forum",
+     "title": {
+      "ja": "国際気候フォーラム",
+      "en": "International climate forum"
+     },
+     "summary": {
+      "ja": "各国の研究者が集まる会議が開かれ、発表内容が広く共有されています。",
+      "en": "A conference of researchers from many countries is sharing its findings widely."
+     },
+     "category": "WORLD",
+     "scope": "GLOBAL",
+     "score": 76,
+     "change": 29.1,
+     "status": "rising",
+     "origin": "DE",
+     "relatedCountries": [
+      "CA",
+      "DE",
+      "HK",
+      "NZ",
+      "TH",
+      "TR"
+     ],
+     "startedAt": "2026-07-25T21:00:00Z",
+     "durationHours": 26,
+     "keywords": [
+      "climate",
+      "forum",
+      "research"
+     ],
+     "sources": [
+      "NEWS",
+      "WIKIPEDIA"
+     ]
+    },
+    {
+     "id": "l-th-league",
+     "title": {
+      "ja": "国内リーグの首位争い",
+      "en": "Title race in the domestic league"
+     },
+     "summary": {
+      "ja": "終盤戦に入り、上位チームの差が縮まっています。",
+      "en": "The gap between the top clubs is narrowing as the season closes."
+     },
+     "category": "SPORTS",
+     "scope": "LOCAL",
+     "score": 71,
+     "change": -20.9,
+     "status": "declining",
+     "origin": "TH",
+     "relatedCountries": [
+      "TH"
+     ],
+     "startedAt": null,
+     "durationHours": 36,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "l-th-digital",
+     "title": {
+      "ja": "公共サービスのデジタル化",
+      "en": "Digital public services"
+     },
+     "summary": {
+      "ja": "行政手続きのオンライン化が段階的に進んでいます。",
+      "en": "Administrative procedures are moving online step by step."
+     },
+     "category": "TECH",
+     "scope": "LOCAL",
+     "score": 64,
+     "change": 28.9,
+     "status": "rising",
+     "origin": "TH",
+     "relatedCountries": [
+      "TH"
+     ],
+     "startedAt": null,
+     "durationHours": 36,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "TR",
+   "activityScore": 84,
+   "risingCount": 2,
+   "topics": [
+    {
+     "id": "g-game-update",
+     "title": {
+      "ja": "人気ゲームの大型アップデート",
+      "en": "Major update for a popular game"
+     },
+     "summary": {
+      "ja": "大型アップデートの配信開始とともに、攻略や不具合の話題が増えています。",
+      "en": "A large update went live, lifting talk of new content and early issues."
+     },
+     "category": "ENTERTAINMENT",
+     "scope": "GLOBAL",
+     "score": 91,
+     "change": 28.1,
+     "status": "rising",
+     "origin": "KR",
+     "relatedCountries": [
+      "CA",
+      "JP",
+      "KR",
+      "MX",
+      "NO",
+      "SE",
+      "SG",
+      "TR"
+     ],
+     "startedAt": "2026-07-26T12:00:00Z",
+     "durationHours": 11,
+     "keywords": [
+      "game",
+      "update",
+      "patch"
+     ],
+     "sources": [
+      "SOCIAL",
+      "SEARCH"
+     ]
+    },
+    {
+     "id": "l-tr-weather",
+     "title": {
+      "ja": "季節外れの天候",
+      "en": "Unseasonal weather"
+     },
+     "summary": {
+      "ja": "平年と異なる天候が続き、注意が呼びかけられています。",
+      "en": "Unusual conditions are continuing and warnings have been issued."
+     },
+     "category": "WEATHER",
+     "scope": "LOCAL",
+     "score": 79,
+     "change": -2.2,
+     "status": "stable",
+     "origin": "TR",
+     "relatedCountries": [
+      "TR"
+     ],
+     "startedAt": null,
+     "durationHours": 24,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "l-tr-digital",
+     "title": {
+      "ja": "公共サービスのデジタル化",
+      "en": "Digital public services"
+     },
+     "summary": {
+      "ja": "行政手続きのオンライン化が段階的に進んでいます。",
+      "en": "Administrative procedures are moving online step by step."
+     },
+     "category": "TECH",
+     "scope": "LOCAL",
+     "score": 75,
+     "change": 15.2,
+     "status": "rising",
+     "origin": "TR",
+     "relatedCountries": [
+      "TR"
+     ],
+     "startedAt": null,
+     "durationHours": 18,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "g-climate-forum",
+     "title": {
+      "ja": "国際気候フォーラム",
+      "en": "International climate forum"
+     },
+     "summary": {
+      "ja": "各国の研究者が集まる会議が開かれ、発表内容が広く共有されています。",
+      "en": "A conference of researchers from many countries is sharing its findings widely."
+     },
+     "category": "WORLD",
+     "scope": "GLOBAL",
+     "score": 58,
+     "change": -2.1,
+     "status": "stable",
+     "origin": "DE",
+     "relatedCountries": [
+      "CA",
+      "DE",
+      "HK",
+      "NZ",
+      "TH",
+      "TR"
+     ],
+     "startedAt": "2026-07-25T21:00:00Z",
+     "durationHours": 26,
+     "keywords": [
+      "climate",
+      "forum",
+      "research"
+     ],
+     "sources": [
+      "NEWS",
+      "WIKIPEDIA"
+     ]
+    },
+    {
+     "id": "l-tr-prices",
+     "title": {
+      "ja": "通貨と物価の動き",
+      "en": "Currency and prices"
+     },
+     "summary": {
+      "ja": "為替と生活必需品の価格の動きが注目されています。",
+      "en": "Movements in the exchange rate and everyday prices are being watched."
+     },
+     "category": "BUSINESS",
+     "scope": "LOCAL",
+     "score": 57,
+     "change": 4.5,
+     "status": "stable",
+     "origin": "TR",
+     "relatedCountries": [
+      "TR"
+     ],
+     "startedAt": null,
+     "durationHours": 18,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "TW",
+   "activityScore": 82,
+   "risingCount": 3,
+   "topics": [
+    {
+     "id": "l-tw-prices",
+     "title": {
+      "ja": "通貨と物価の動き",
+      "en": "Currency and prices"
+     },
+     "summary": {
+      "ja": "為替と生活必需品の価格の動きが注目されています。",
+      "en": "Movements in the exchange rate and everyday prices are being watched."
+     },
+     "category": "BUSINESS",
+     "scope": "LOCAL",
+     "score": 86,
+     "change": 17.0,
+     "status": "rising",
+     "origin": "TW",
+     "relatedCountries": [
+      "TW"
+     ],
+     "startedAt": null,
+     "durationHours": 24,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "l-tw-digital",
+     "title": {
+      "ja": "公共サービスのデジタル化",
+      "en": "Digital public services"
+     },
+     "summary": {
+      "ja": "行政手続きのオンライン化が段階的に進んでいます。",
+      "en": "Administrative procedures are moving online step by step."
+     },
+     "category": "TECH",
+     "scope": "LOCAL",
+     "score": 79,
+     "change": 1.4,
+     "status": "stable",
+     "origin": "TW",
+     "relatedCountries": [
+      "TW"
+     ],
+     "startedAt": null,
+     "durationHours": 36,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "l-tw-drama",
+     "title": {
+      "ja": "話題のドラマシリーズ",
+      "en": "A drama series everyone is watching"
+     },
+     "summary": {
+      "ja": "配信が始まったシリーズの反響が広がっています。",
+      "en": "A newly released series is drawing a wide response."
+     },
+     "category": "ENTERTAINMENT",
+     "scope": "LOCAL",
+     "score": 76,
+     "change": 1.0,
+     "status": "stable",
+     "origin": "TW",
+     "relatedCountries": [
+      "TW"
+     ],
+     "startedAt": null,
+     "durationHours": 18,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "g-deep-space",
+     "title": {
+      "ja": "探査機の着陸成功",
+      "en": "Probe lands on a distant moon"
+     },
+     "summary": {
+      "ja": "長期の宇宙探査ミッションが着陸段階に入り、観測画像が公開されています。",
+      "en": "A long-running space mission has reached its landing phase and released first images."
+     },
+     "category": "SCIENCE",
+     "scope": "GLOBAL",
+     "score": 70,
+     "change": 5.1,
+     "status": "stable",
+     "origin": "US",
+     "relatedCountries": [
+      "IN",
+      "JP",
+      "TW",
+      "US"
+     ],
+     "startedAt": "2026-07-26T14:00:00Z",
+     "durationHours": 9,
+     "keywords": [
+      "space",
+      "probe",
+      "landing"
+     ],
+     "sources": [
+      "NEWS",
+      "WIKIPEDIA"
+     ]
+    },
+    {
+     "id": "g-rail",
+     "title": {
+      "ja": "高速鉄道の新路線構想",
+      "en": "Plans for a new high-speed rail line"
+     },
+     "summary": {
+      "ja": "新しい路線計画の発表を受け、各国の同種計画にも関心が向いています。",
+      "en": "A new line proposal has renewed interest in comparable projects elsewhere."
+     },
+     "category": "BUSINESS",
+     "scope": "GLOBAL",
+     "score": 67,
+     "change": 18.5,
+     "status": "rising",
+     "origin": "CN",
+     "relatedCountries": [
+      "AR",
+      "CN",
+      "ES",
+      "IN",
+      "TW",
+      "VN",
+      "ZA"
+     ],
+     "startedAt": "2026-07-26T01:00:00Z",
+     "durationHours": 22,
+     "keywords": [
+      "rail",
+      "infrastructure",
+      "transport"
+     ],
+     "sources": [
+      "NEWS",
+      "SEARCH"
+     ]
+    },
+    {
+     "id": "g-world-games",
+     "title": {
+      "ja": "国際スポーツ大会の開幕",
+      "en": "International games open"
+     },
+     "summary": {
+      "ja": "総合競技大会の開幕に合わせ、各国で関連する話題が広がっています。",
+      "en": "The opening of a multi-sport event is spreading interest across participating countries."
+     },
+     "category": "SPORTS",
+     "scope": "GLOBAL",
+     "score": 65,
+     "change": 21.6,
+     "status": "rising",
+     "origin": "FR",
+     "relatedCountries": [
+      "AU",
+      "CH",
+      "FR",
+      "GB",
+      "NG",
+      "NZ",
+      "SE",
+      "TW"
+     ],
+     "startedAt": "2026-07-26T09:00:00Z",
+     "durationHours": 14,
+     "keywords": [
+      "games",
+      "opening",
+      "athletes"
+     ],
+     "sources": [
+      "NEWS",
+      "SOCIAL",
+      "SEARCH"
+     ]
+    },
+    {
+     "id": "l-tw-league",
+     "title": {
+      "ja": "国内リーグの首位争い",
+      "en": "Title race in the domestic league"
+     },
+     "summary": {
+      "ja": "終盤戦に入り、上位チームの差が縮まっています。",
+      "en": "The gap between the top clubs is narrowing as the season closes."
+     },
+     "category": "SPORTS",
+     "scope": "LOCAL",
+     "score": 60,
+     "change": 11.1,
+     "status": "stable",
+     "origin": "TW",
+     "relatedCountries": [
+      "TW"
+     ],
+     "startedAt": null,
+     "durationHours": 36,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    }
+   ]
+  },
+  {
    "code": "US",
    "activityScore": 94,
    "risingCount": 3,
@@ -2734,14 +5992,13 @@
      "status": "peak",
      "origin": "US",
      "relatedCountries": [
-      "US",
-      "JP",
-      "KR",
-      "FR",
-      "DE",
+      "CH",
+      "EG",
       "IN",
-      "GB",
-      "CN"
+      "JP",
+      "PH",
+      "US",
+      "VN"
      ],
      "startedAt": "2026-07-26T17:00:00Z",
      "durationHours": 6,
@@ -2773,15 +6030,12 @@
      "status": "rising",
      "origin": "US",
      "relatedCountries": [
-      "US",
-      "GB",
-      "FR",
-      "JP",
-      "KR",
       "BR",
       "ES",
-      "IT",
-      "AU"
+      "MX",
+      "NL",
+      "SG",
+      "US"
      ],
      "startedAt": "2026-07-26T03:00:00Z",
      "durationHours": 20,
@@ -2843,13 +6097,10 @@
      "status": "peak",
      "origin": "US",
      "relatedCountries": [
-      "US",
-      "JP",
       "IN",
-      "FR",
-      "DE",
-      "GB",
-      "CN"
+      "JP",
+      "TW",
+      "US"
      ],
      "startedAt": "2026-07-26T14:00:00Z",
      "durationHours": 9,
@@ -2880,13 +6131,12 @@
      "status": "rising",
      "origin": "KR",
      "relatedCountries": [
-      "KR",
-      "US",
-      "JP",
       "DE",
-      "CN",
-      "IN",
-      "TW"
+      "KR",
+      "NG",
+      "NL",
+      "NO",
+      "US"
      ],
      "startedAt": "2026-07-26T07:00:00Z",
      "durationHours": 16,
@@ -2990,6 +6240,358 @@
      "sources": [
       "NEWS",
       "SOCIAL"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "VN",
+   "activityScore": 77,
+   "risingCount": 5,
+   "topics": [
+    {
+     "id": "g-ai-model",
+     "title": {
+      "ja": "生成AIの新モデル",
+      "en": "New generative AI model"
+     },
+     "summary": {
+      "ja": "複数の国で新しいAIモデルに関する検索と報道が同時に増えています。",
+      "en": "Search and coverage for a new AI model are climbing in several countries at once."
+     },
+     "category": "TECH",
+     "scope": "GLOBAL",
+     "score": 84,
+     "change": -11.3,
+     "status": "stable",
+     "origin": "US",
+     "relatedCountries": [
+      "CH",
+      "EG",
+      "IN",
+      "JP",
+      "PH",
+      "US",
+      "VN"
+     ],
+     "startedAt": "2026-07-26T17:00:00Z",
+     "durationHours": 6,
+     "keywords": [
+      "AI",
+      "model",
+      "research"
+     ],
+     "sources": [
+      "NEWS",
+      "WIKIPEDIA",
+      "SEARCH"
+     ]
+    },
+    {
+     "id": "g-quantum",
+     "title": {
+      "ja": "量子計算の新記録",
+      "en": "New record in quantum computing"
+     },
+     "summary": {
+      "ja": "計算実験の結果が公開され、専門メディアと一般報道の両方で扱われています。",
+      "en": "Results from a computing experiment are being covered by both trade and general media."
+     },
+     "category": "SCIENCE",
+     "scope": "GLOBAL",
+     "score": 64,
+     "change": 24.1,
+     "status": "rising",
+     "origin": "DE",
+     "relatedCountries": [
+      "CN",
+      "DE",
+      "PL",
+      "VN"
+     ],
+     "startedAt": "2026-07-26T10:00:00Z",
+     "durationHours": 13,
+     "keywords": [
+      "quantum",
+      "computing",
+      "record"
+     ],
+     "sources": [
+      "NEWS",
+      "WIKIPEDIA"
+     ]
+    },
+    {
+     "id": "l-vn-budget",
+     "title": {
+      "ja": "議会の予算審議",
+      "en": "Budget debate in parliament"
+     },
+     "summary": {
+      "ja": "来年度予算をめぐる審議が続き、関心が高まっています。",
+      "en": "Debate over next year’s budget is drawing steady attention."
+     },
+     "category": "POLITICS",
+     "scope": "LOCAL",
+     "score": 63,
+     "change": 20.0,
+     "status": "rising",
+     "origin": "VN",
+     "relatedCountries": [
+      "VN"
+     ],
+     "startedAt": null,
+     "durationHours": 18,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "g-rail",
+     "title": {
+      "ja": "高速鉄道の新路線構想",
+      "en": "Plans for a new high-speed rail line"
+     },
+     "summary": {
+      "ja": "新しい路線計画の発表を受け、各国の同種計画にも関心が向いています。",
+      "en": "A new line proposal has renewed interest in comparable projects elsewhere."
+     },
+     "category": "BUSINESS",
+     "scope": "GLOBAL",
+     "score": 61,
+     "change": 26.0,
+     "status": "rising",
+     "origin": "CN",
+     "relatedCountries": [
+      "AR",
+      "CN",
+      "ES",
+      "IN",
+      "TW",
+      "VN",
+      "ZA"
+     ],
+     "startedAt": "2026-07-26T01:00:00Z",
+     "durationHours": 22,
+     "keywords": [
+      "rail",
+      "infrastructure",
+      "transport"
+     ],
+     "sources": [
+      "NEWS",
+      "SEARCH"
+     ]
+    },
+    {
+     "id": "l-vn-drama",
+     "title": {
+      "ja": "話題のドラマシリーズ",
+      "en": "A drama series everyone is watching"
+     },
+     "summary": {
+      "ja": "配信が始まったシリーズの反響が広がっています。",
+      "en": "A newly released series is drawing a wide response."
+     },
+     "category": "ENTERTAINMENT",
+     "scope": "LOCAL",
+     "score": 50,
+     "change": 22.0,
+     "status": "rising",
+     "origin": "VN",
+     "relatedCountries": [
+      "VN"
+     ],
+     "startedAt": null,
+     "durationHours": 6,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "l-vn-festival",
+     "title": {
+      "ja": "地域の伝統行事",
+      "en": "A regional tradition"
+     },
+     "summary": {
+      "ja": "各地の行事の様子が共有され、話題になっています。",
+      "en": "Scenes from local events are being shared widely."
+     },
+     "category": "CULTURE",
+     "scope": "LOCAL",
+     "score": 47,
+     "change": 36.0,
+     "status": "emerging",
+     "origin": "VN",
+     "relatedCountries": [
+      "VN"
+     ],
+     "startedAt": null,
+     "durationHours": 6,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "ZA",
+   "activityScore": 86,
+   "risingCount": 1,
+   "topics": [
+    {
+     "id": "g-music-stream",
+     "title": {
+      "ja": "大型音楽イベントの同時配信",
+      "en": "Live-streamed music festival"
+     },
+     "summary": {
+      "ja": "野外音楽イベントの配信が始まり、時差を越えて視聴が続いています。",
+      "en": "An open-air festival stream is being watched across time zones."
+     },
+     "category": "CULTURE",
+     "scope": "GLOBAL",
+     "score": 94,
+     "change": 5.7,
+     "status": "peak",
+     "origin": "GB",
+     "relatedCountries": [
+      "BR",
+      "GB",
+      "HK",
+      "ID",
+      "PL",
+      "ZA"
+     ],
+     "startedAt": "2026-07-26T15:00:00Z",
+     "durationHours": 8,
+     "keywords": [
+      "music",
+      "festival",
+      "stream"
+     ],
+     "sources": [
+      "SOCIAL",
+      "NEWS"
+     ]
+    },
+    {
+     "id": "l-za-budget",
+     "title": {
+      "ja": "議会の予算審議",
+      "en": "Budget debate in parliament"
+     },
+     "summary": {
+      "ja": "来年度予算をめぐる審議が続き、関心が高まっています。",
+      "en": "Debate over next year’s budget is drawing steady attention."
+     },
+     "category": "POLITICS",
+     "scope": "LOCAL",
+     "score": 88,
+     "change": 35.6,
+     "status": "emerging",
+     "origin": "ZA",
+     "relatedCountries": [
+      "ZA"
+     ],
+     "startedAt": null,
+     "durationHours": 6,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "g-rail",
+     "title": {
+      "ja": "高速鉄道の新路線構想",
+      "en": "Plans for a new high-speed rail line"
+     },
+     "summary": {
+      "ja": "新しい路線計画の発表を受け、各国の同種計画にも関心が向いています。",
+      "en": "A new line proposal has renewed interest in comparable projects elsewhere."
+     },
+     "category": "BUSINESS",
+     "scope": "GLOBAL",
+     "score": 68,
+     "change": -0.3,
+     "status": "stable",
+     "origin": "CN",
+     "relatedCountries": [
+      "AR",
+      "CN",
+      "ES",
+      "IN",
+      "TW",
+      "VN",
+      "ZA"
+     ],
+     "startedAt": "2026-07-26T01:00:00Z",
+     "durationHours": 22,
+     "keywords": [
+      "rail",
+      "infrastructure",
+      "transport"
+     ],
+     "sources": [
+      "NEWS",
+      "SEARCH"
+     ]
+    },
+    {
+     "id": "l-za-festival",
+     "title": {
+      "ja": "地域の伝統行事",
+      "en": "A regional tradition"
+     },
+     "summary": {
+      "ja": "各地の行事の様子が共有され、話題になっています。",
+      "en": "Scenes from local events are being shared widely."
+     },
+     "category": "CULTURE",
+     "scope": "LOCAL",
+     "score": 56,
+     "change": 14.5,
+     "status": "stable",
+     "origin": "ZA",
+     "relatedCountries": [
+      "ZA"
+     ],
+     "startedAt": null,
+     "durationHours": 6,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
+     ]
+    },
+    {
+     "id": "l-za-research",
+     "title": {
+      "ja": "大学の研究発表",
+      "en": "A university research result"
+     },
+     "summary": {
+      "ja": "国内の研究機関による発表が取り上げられています。",
+      "en": "A result from a national research institute is being picked up."
+     },
+     "category": "SCIENCE",
+     "scope": "LOCAL",
+     "score": 51,
+     "change": 9.4,
+     "status": "stable",
+     "origin": "ZA",
+     "relatedCountries": [
+      "ZA"
+     ],
+     "startedAt": null,
+     "durationHours": 12,
+     "keywords": [],
+     "sources": [
+      "SAMPLE"
      ]
     }
    ]

@@ -4,8 +4,20 @@
  * data/countries.json already knows the code — it carries 85 of them).
  */
 
+/**
+ * Target countries.
+ *
+ *   code   ISO 3166-1 alpha-2 — must also exist in data/countries.json
+ *   wiki   Wikipedia project used when Wikimedia has no per-country data
+ *   gdelt  GDELT `sourcecountry` value (FIPS 10-4, verified against
+ *          data.gdeltproject.org/api/v2/guides/LOOKUP-COUNTRIES.TXT)
+ *   lang   GDELT `sourcelang` value (LOOKUP-LANGUAGES.TXT)
+ *
+ * Watch the FIPS codes: they are NOT ISO. NG is Niger, SG is Senegal,
+ * CH is China — hence NI, SN and SZ below.
+ */
 const COUNTRIES = [
-  // code  wiki project        GDELT sourcecountry (FIPS 10-4) / language
+  /* --- the original eight ------------------------------------------- */
   { code: 'JP', wiki: 'ja.wikipedia', gdelt: 'JA', lang: 'japanese' },
   { code: 'US', wiki: 'en.wikipedia', gdelt: 'US', lang: 'english' },
   { code: 'GB', wiki: 'en.wikipedia', gdelt: 'UK', lang: 'english' },
@@ -14,14 +26,58 @@ const COUNTRIES = [
   { code: 'KR', wiki: 'ko.wikipedia', gdelt: 'KS', lang: 'korean' },
   { code: 'IN', wiki: 'en.wikipedia', gdelt: 'IN', lang: 'english' },
   { code: 'AU', wiki: 'en.wikipedia', gdelt: 'AS', lang: 'english' },
+
+  /* --- Americas ------------------------------------------------------ */
+  { code: 'CA', wiki: 'en.wikipedia', gdelt: 'CA', lang: 'english' },
+  { code: 'MX', wiki: 'es.wikipedia', gdelt: 'MX', lang: 'spanish' },
+  { code: 'BR', wiki: 'pt.wikipedia', gdelt: 'BR', lang: 'portuguese' },
+  { code: 'AR', wiki: 'es.wikipedia', gdelt: 'AR', lang: 'spanish' },
+
+  /* --- Europe -------------------------------------------------------- */
+  { code: 'ES', wiki: 'es.wikipedia', gdelt: 'SP', lang: 'spanish' },
+  { code: 'IT', wiki: 'it.wikipedia', gdelt: 'IT', lang: 'italian' },
+  { code: 'NL', wiki: 'nl.wikipedia', gdelt: 'NL', lang: 'dutch' },
+  { code: 'SE', wiki: 'sv.wikipedia', gdelt: 'SW', lang: 'swedish' },
+  { code: 'NO', wiki: 'no.wikipedia', gdelt: 'NO', lang: 'norwegian' },
+  { code: 'PL', wiki: 'pl.wikipedia', gdelt: 'PL', lang: 'polish' },
+  { code: 'CH', wiki: 'de.wikipedia', gdelt: 'SZ', lang: 'german' },
+  { code: 'TR', wiki: 'tr.wikipedia', gdelt: 'TU', lang: 'turkish' },
+
+  /* --- Africa and the Middle East ------------------------------------ */
+  { code: 'ZA', wiki: 'en.wikipedia', gdelt: 'SF', lang: 'english' },
+  { code: 'EG', wiki: 'ar.wikipedia', gdelt: 'EG', lang: 'arabic' },
+  { code: 'NG', wiki: 'en.wikipedia', gdelt: 'NI', lang: 'english' },
+
+  /* --- Asia and Oceania ---------------------------------------------- */
+  { code: 'ID', wiki: 'id.wikipedia', gdelt: 'ID', lang: 'indonesian' },
+  { code: 'TH', wiki: 'th.wikipedia', gdelt: 'TH', lang: 'thai' },
+  { code: 'VN', wiki: 'vi.wikipedia', gdelt: 'VM', lang: 'vietnamese' },
+  { code: 'PH', wiki: 'en.wikipedia', gdelt: 'RP', lang: 'english' },
+  { code: 'SG', wiki: 'en.wikipedia', gdelt: 'SN', lang: 'english' },
+  { code: 'TW', wiki: 'zh.wikipedia', gdelt: 'TW', lang: 'chinese' },
+  { code: 'HK', wiki: 'zh.wikipedia', gdelt: 'HK', lang: 'chinese' },
+  { code: 'NZ', wiki: 'en.wikipedia', gdelt: 'NZ', lang: 'english' },
+
+  /* Not added — no GDELT sourcecountry value could be confirmed, or the
+     country has no usable single-language press for this query shape:
+       未確認: CN (China, FIPS "CH" collides with the ISO code for
+               Switzerland in this table and GDELT coverage is sparse)
+       未確認: RU (FIPS "RS"; russian coverage is dominated by aggregators)
+     Add them here once the codes have been checked against a live query. */
 ];
 
+
 const LIMITS = {
-  newsPerCountry: 12,     // kept after dedupe
-  wikiPerCountry: 10,
+  newsPerCountry: 10,     // kept after dedupe
+  wikiPerCountry: 8,
   maxPerDomain: 3,        // stops one outlet owning the list
   historyHours: 25,       // rolling window kept in live-timeline.json
   requestTimeoutMs: 20000,
+  /* Pacing. With ~31 countries these keep one run comfortably inside the
+     workflow timeout while staying polite to both APIs. */
+  newsDelayMs: 900,
+  wikiDelayMs: 250,
+  wikiLookbackDays: 3,
 };
 
 const USER_AGENT =

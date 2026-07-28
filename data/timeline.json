@@ -10,6 +10,32 @@
    },
    "shortLabel": "NOW",
    "countries": {
+    "AR": {
+     "activityScore": 78,
+     "risingCount": 2,
+     "topics": {
+      "l-ar-research": {
+       "score": 82,
+       "change": 4.5
+      },
+      "g-heatwave": {
+       "score": 72,
+       "change": 44.3
+      },
+      "g-rail": {
+       "score": 72,
+       "change": 42.3
+      },
+      "l-ar-prices": {
+       "score": 64,
+       "change": -1.5
+      },
+      "l-ar-digital": {
+       "score": 49,
+       "change": -15.1
+      }
+     }
+    },
     "AU": {
      "activityScore": 66,
      "risingCount": 4,
@@ -78,6 +104,58 @@
       }
      }
     },
+    "CA": {
+     "activityScore": 72,
+     "risingCount": 4,
+     "topics": {
+      "g-game-update": {
+       "score": 75,
+       "change": 21.4
+      },
+      "g-climate-forum": {
+       "score": 74,
+       "change": 30.6
+      },
+      "l-ca-weather": {
+       "score": 62,
+       "change": 21.8
+      },
+      "l-ca-league": {
+       "score": 60,
+       "change": 23.8
+      },
+      "l-ca-digital": {
+       "score": 49,
+       "change": -5.6
+      }
+     }
+    },
+    "CH": {
+     "activityScore": 85,
+     "risingCount": 2,
+     "topics": {
+      "g-world-games": {
+       "score": 92,
+       "change": 42.1
+      },
+      "g-ai-model": {
+       "score": 78,
+       "change": -6.4
+      },
+      "l-ch-drama": {
+       "score": 78,
+       "change": 1.9
+      },
+      "l-ch-prices": {
+       "score": 59,
+       "change": -13.7
+      },
+      "l-ch-league": {
+       "score": 56,
+       "change": 34.4
+      }
+     }
+    },
     "CN": {
      "activityScore": 80,
      "risingCount": 5,
@@ -143,6 +221,36 @@
       "de-book-market": {
        "score": 38,
        "change": -13.6
+      }
+     }
+    },
+    "EG": {
+     "activityScore": 79,
+     "risingCount": 3,
+     "topics": {
+      "l-eg-research": {
+       "score": 82,
+       "change": -5.6
+      },
+      "g-ocean": {
+       "score": 77,
+       "change": 28.6
+      },
+      "l-eg-league": {
+       "score": 77,
+       "change": 12.4
+      },
+      "g-ai-model": {
+       "score": 69,
+       "change": 42.7
+      },
+      "l-eg-festival": {
+       "score": 60,
+       "change": -13.2
+      },
+      "l-eg-digital": {
+       "score": 55,
+       "change": 15.9
       }
      }
     },
@@ -249,6 +357,70 @@
       "gb-athletics": {
        "score": 44,
        "change": -17.0
+      }
+     }
+    },
+    "HK": {
+     "activityScore": 81,
+     "risingCount": 1,
+     "topics": {
+      "l-hk-drama": {
+       "score": 85,
+       "change": 8.3
+      },
+      "l-hk-budget": {
+       "score": 75,
+       "change": 6.5
+      },
+      "l-hk-festival": {
+       "score": 72,
+       "change": 36.3
+      },
+      "g-music-stream": {
+       "score": 69,
+       "change": 4.3
+      },
+      "g-climate-forum": {
+       "score": 57,
+       "change": -2.8
+      },
+      "l-hk-prices": {
+       "score": 50,
+       "change": -1.7
+      }
+     }
+    },
+    "ID": {
+     "activityScore": 83,
+     "risingCount": 3,
+     "topics": {
+      "g-biennale": {
+       "score": 84,
+       "change": 20.4
+      },
+      "l-id-budget": {
+       "score": 84,
+       "change": 23.0
+      },
+      "l-id-league": {
+       "score": 79,
+       "change": -8.8
+      },
+      "l-id-weather": {
+       "score": 79,
+       "change": 8.6
+      },
+      "g-music-stream": {
+       "score": 68,
+       "change": 34.4
+      },
+      "l-id-digital": {
+       "score": 60,
+       "change": 13.3
+      },
+      "g-typhoon": {
+       "score": 55,
+       "change": -1.6
       }
      }
     },
@@ -392,6 +564,362 @@
       }
      }
     },
+    "MX": {
+     "activityScore": 76,
+     "risingCount": 0,
+     "topics": {
+      "l-mx-prices": {
+       "score": 80,
+       "change": -13.7
+      },
+      "g-film-premiere": {
+       "score": 75,
+       "change": -5.0
+      },
+      "l-mx-research": {
+       "score": 73,
+       "change": 12.9
+      },
+      "g-game-update": {
+       "score": 59,
+       "change": -11.6
+      },
+      "l-mx-league": {
+       "score": 59,
+       "change": -8.6
+      }
+     }
+    },
+    "NG": {
+     "activityScore": 80,
+     "risingCount": 4,
+     "topics": {
+      "l-ng-festival": {
+       "score": 81,
+       "change": 33.2
+      },
+      "l-ng-digital": {
+       "score": 80,
+       "change": 18.4
+      },
+      "g-chip-market": {
+       "score": 79,
+       "change": 6.0
+      },
+      "l-ng-weather": {
+       "score": 77,
+       "change": 37.9
+      },
+      "g-world-games": {
+       "score": 75,
+       "change": 3.3
+      },
+      "l-ng-league": {
+       "score": 72,
+       "change": 15.0
+      },
+      "g-heatwave": {
+       "score": 52,
+       "change": 1.3
+      }
+     }
+    },
+    "NL": {
+     "activityScore": 80,
+     "risingCount": 3,
+     "topics": {
+      "g-film-premiere": {
+       "score": 86,
+       "change": 1.8
+      },
+      "l-nl-research": {
+       "score": 79,
+       "change": 12.4
+      },
+      "l-nl-drama": {
+       "score": 71,
+       "change": 10.4
+      },
+      "l-nl-league": {
+       "score": 54,
+       "change": 28.5
+      },
+      "g-chip-market": {
+       "score": 53,
+       "change": 30.2
+      },
+      "l-nl-digital": {
+       "score": 44,
+       "change": 22.2
+      }
+     }
+    },
+    "NO": {
+     "activityScore": 88,
+     "risingCount": 1,
+     "topics": {
+      "g-game-update": {
+       "score": 95,
+       "change": -10.3
+      },
+      "l-no-festival": {
+       "score": 83,
+       "change": 14.6
+      },
+      "g-chip-market": {
+       "score": 74,
+       "change": -0.2
+      },
+      "l-no-prices": {
+       "score": 70,
+       "change": 34.8
+      },
+      "l-no-league": {
+       "score": 57,
+       "change": -7.3
+      }
+     }
+    },
+    "NZ": {
+     "activityScore": 83,
+     "risingCount": 4,
+     "topics": {
+      "g-climate-forum": {
+       "score": 87,
+       "change": 22.6
+      },
+      "g-biennale": {
+       "score": 83,
+       "change": 22.1
+      },
+      "l-nz-budget": {
+       "score": 71,
+       "change": 9.7
+      },
+      "g-world-games": {
+       "score": 68,
+       "change": -2.7
+      },
+      "l-nz-festival": {
+       "score": 52,
+       "change": 21.7
+      },
+      "l-nz-weather": {
+       "score": 51,
+       "change": 35.6
+      },
+      "l-nz-drama": {
+       "score": 46,
+       "change": -19.7
+      }
+     }
+    },
+    "PH": {
+     "activityScore": 77,
+     "risingCount": 2,
+     "topics": {
+      "g-ai-model": {
+       "score": 80,
+       "change": 30.2
+      },
+      "l-ph-digital": {
+       "score": 75,
+       "change": -7.4
+      },
+      "l-ph-research": {
+       "score": 72,
+       "change": 9.9
+      },
+      "g-ocean": {
+       "score": 69,
+       "change": 44.8
+      },
+      "l-ph-festival": {
+       "score": 64,
+       "change": 3.0
+      },
+      "l-ph-league": {
+       "score": 61,
+       "change": -14.2
+      }
+     }
+    },
+    "PL": {
+     "activityScore": 79,
+     "risingCount": 2,
+     "topics": {
+      "l-pl-research": {
+       "score": 83,
+       "change": -9.7
+      },
+      "g-quantum": {
+       "score": 75,
+       "change": -10.3
+      },
+      "g-music-stream": {
+       "score": 71,
+       "change": 39.7
+      },
+      "l-pl-digital": {
+       "score": 69,
+       "change": -4.8
+      },
+      "l-pl-drama": {
+       "score": 68,
+       "change": 17.7
+      },
+      "l-pl-festival": {
+       "score": 67,
+       "change": 7.5
+      }
+     }
+    },
+    "SE": {
+     "activityScore": 69,
+     "risingCount": 2,
+     "topics": {
+      "g-game-update": {
+       "score": 75,
+       "change": 17.5
+      },
+      "l-se-drama": {
+       "score": 61,
+       "change": -9.6
+      },
+      "g-typhoon": {
+       "score": 56,
+       "change": -12.8
+      },
+      "g-world-games": {
+       "score": 55,
+       "change": 0.9
+      },
+      "l-se-festival": {
+       "score": 51,
+       "change": 21.0
+      },
+      "l-se-prices": {
+       "score": 49,
+       "change": -4.0
+      }
+     }
+    },
+    "SG": {
+     "activityScore": 89,
+     "risingCount": 3,
+     "topics": {
+      "g-film-premiere": {
+       "score": 94,
+       "change": 44.4
+      },
+      "l-sg-festival": {
+       "score": 85,
+       "change": 28.1
+      },
+      "l-sg-research": {
+       "score": 79,
+       "change": 4.0
+      },
+      "g-game-update": {
+       "score": 75,
+       "change": -4.0
+      },
+      "l-sg-league": {
+       "score": 75,
+       "change": 17.1
+      },
+      "l-sg-weather": {
+       "score": 65,
+       "change": -13.4
+      }
+     }
+    },
+    "TH": {
+     "activityScore": 80,
+     "risingCount": 2,
+     "topics": {
+      "g-heatwave": {
+       "score": 85,
+       "change": -13.9
+      },
+      "l-th-weather": {
+       "score": 76,
+       "change": 14.0
+      },
+      "g-climate-forum": {
+       "score": 71,
+       "change": 29.1
+      },
+      "l-th-league": {
+       "score": 67,
+       "change": -20.9
+      },
+      "l-th-digital": {
+       "score": 60,
+       "change": 28.9
+      }
+     }
+    },
+    "TR": {
+     "activityScore": 90,
+     "risingCount": 2,
+     "topics": {
+      "g-game-update": {
+       "score": 97,
+       "change": 28.1
+      },
+      "l-tr-weather": {
+       "score": 84,
+       "change": -2.2
+      },
+      "l-tr-digital": {
+       "score": 80,
+       "change": 15.2
+      },
+      "g-climate-forum": {
+       "score": 62,
+       "change": -2.1
+      },
+      "l-tr-prices": {
+       "score": 60,
+       "change": 4.5
+      }
+     }
+    },
+    "TW": {
+     "activityScore": 78,
+     "risingCount": 3,
+     "topics": {
+      "l-tw-prices": {
+       "score": 81,
+       "change": 17.0
+      },
+      "l-tw-digital": {
+       "score": 75,
+       "change": 1.4
+      },
+      "l-tw-drama": {
+       "score": 72,
+       "change": 1.0
+      },
+      "g-deep-space": {
+       "score": 66,
+       "change": 5.1
+      },
+      "g-rail": {
+       "score": 63,
+       "change": 18.5
+      },
+      "g-world-games": {
+       "score": 61,
+       "change": 21.6
+      },
+      "l-tw-league": {
+       "score": 57,
+       "change": 11.1
+      }
+     }
+    },
     "US": {
      "activityScore": 94,
      "risingCount": 3,
@@ -429,6 +957,62 @@
        "change": -17.9
       }
      }
+    },
+    "VN": {
+     "activityScore": 75,
+     "risingCount": 5,
+     "topics": {
+      "g-ai-model": {
+       "score": 82,
+       "change": -11.3
+      },
+      "g-quantum": {
+       "score": 63,
+       "change": 24.1
+      },
+      "l-vn-budget": {
+       "score": 62,
+       "change": 20.0
+      },
+      "g-rail": {
+       "score": 60,
+       "change": 26.0
+      },
+      "l-vn-drama": {
+       "score": 49,
+       "change": 22.0
+      },
+      "l-vn-festival": {
+       "score": 46,
+       "change": 36.0
+      }
+     }
+    },
+    "ZA": {
+     "activityScore": 86,
+     "risingCount": 1,
+     "topics": {
+      "g-music-stream": {
+       "score": 94,
+       "change": 5.7
+      },
+      "l-za-budget": {
+       "score": 88,
+       "change": 35.6
+      },
+      "g-rail": {
+       "score": 68,
+       "change": -0.3
+      },
+      "l-za-festival": {
+       "score": 56,
+       "change": 14.5
+      },
+      "l-za-research": {
+       "score": 51,
+       "change": 9.4
+      }
+     }
     }
    }
   },
@@ -440,6 +1024,32 @@
    },
    "shortLabel": "3H",
    "countries": {
+    "AR": {
+     "activityScore": 69,
+     "risingCount": 2,
+     "topics": {
+      "l-ar-research": {
+       "score": 72,
+       "change": 4.3
+      },
+      "g-heatwave": {
+       "score": 64,
+       "change": 42.0
+      },
+      "g-rail": {
+       "score": 64,
+       "change": 40.1
+      },
+      "l-ar-prices": {
+       "score": 57,
+       "change": -1.4
+      },
+      "l-ar-digital": {
+       "score": 43,
+       "change": -14.3
+      }
+     }
+    },
     "AU": {
      "activityScore": 60,
      "risingCount": 5,
@@ -508,6 +1118,58 @@
       }
      }
     },
+    "CA": {
+     "activityScore": 79,
+     "risingCount": 4,
+     "topics": {
+      "g-game-update": {
+       "score": 83,
+       "change": 20.3
+      },
+      "g-climate-forum": {
+       "score": 82,
+       "change": 29.0
+      },
+      "l-ca-weather": {
+       "score": 69,
+       "change": 20.7
+      },
+      "l-ca-league": {
+       "score": 66,
+       "change": 22.6
+      },
+      "l-ca-digital": {
+       "score": 54,
+       "change": -5.3
+      }
+     }
+    },
+    "CH": {
+     "activityScore": 81,
+     "risingCount": 2,
+     "topics": {
+      "g-world-games": {
+       "score": 87,
+       "change": 40.0
+      },
+      "g-ai-model": {
+       "score": 74,
+       "change": -6.1
+      },
+      "l-ch-drama": {
+       "score": 74,
+       "change": 1.8
+      },
+      "l-ch-prices": {
+       "score": 56,
+       "change": -13.0
+      },
+      "l-ch-league": {
+       "score": 53,
+       "change": 32.6
+      }
+     }
+    },
     "CN": {
      "activityScore": 73,
      "risingCount": 6,
@@ -573,6 +1235,36 @@
       "de-book-market": {
        "score": 44,
        "change": -22.8
+      }
+     }
+    },
+    "EG": {
+     "activityScore": 82,
+     "risingCount": 3,
+     "topics": {
+      "l-eg-research": {
+       "score": 85,
+       "change": -5.3
+      },
+      "g-ocean": {
+       "score": 79,
+       "change": 27.1
+      },
+      "l-eg-league": {
+       "score": 79,
+       "change": 11.8
+      },
+      "g-ai-model": {
+       "score": 71,
+       "change": 40.5
+      },
+      "l-eg-festival": {
+       "score": 62,
+       "change": -12.5
+      },
+      "l-eg-digital": {
+       "score": 56,
+       "change": 15.1
       }
      }
     },
@@ -679,6 +1371,70 @@
       "gb-athletics": {
        "score": 53,
        "change": -13.1
+      }
+     }
+    },
+    "HK": {
+     "activityScore": 79,
+     "risingCount": 1,
+     "topics": {
+      "l-hk-drama": {
+       "score": 83,
+       "change": 7.9
+      },
+      "l-hk-budget": {
+       "score": 73,
+       "change": 6.2
+      },
+      "l-hk-festival": {
+       "score": 70,
+       "change": 34.4
+      },
+      "g-music-stream": {
+       "score": 67,
+       "change": 4.1
+      },
+      "g-climate-forum": {
+       "score": 55,
+       "change": -2.7
+      },
+      "l-hk-prices": {
+       "score": 49,
+       "change": -1.6
+      }
+     }
+    },
+    "ID": {
+     "activityScore": 79,
+     "risingCount": 3,
+     "topics": {
+      "g-biennale": {
+       "score": 80,
+       "change": 19.4
+      },
+      "l-id-budget": {
+       "score": 80,
+       "change": 21.8
+      },
+      "l-id-league": {
+       "score": 75,
+       "change": -8.4
+      },
+      "l-id-weather": {
+       "score": 75,
+       "change": 8.2
+      },
+      "g-music-stream": {
+       "score": 65,
+       "change": 32.6
+      },
+      "l-id-digital": {
+       "score": 58,
+       "change": 12.6
+      },
+      "g-typhoon": {
+       "score": 53,
+       "change": -1.5
       }
      }
     },
@@ -822,6 +1578,362 @@
       }
      }
     },
+    "MX": {
+     "activityScore": 75,
+     "risingCount": 0,
+     "topics": {
+      "l-mx-prices": {
+       "score": 79,
+       "change": -13.0
+      },
+      "g-film-premiere": {
+       "score": 74,
+       "change": -4.7
+      },
+      "l-mx-research": {
+       "score": 72,
+       "change": 12.2
+      },
+      "g-game-update": {
+       "score": 59,
+       "change": -11.0
+      },
+      "l-mx-league": {
+       "score": 59,
+       "change": -8.2
+      }
+     }
+    },
+    "NG": {
+     "activityScore": 76,
+     "risingCount": 3,
+     "topics": {
+      "l-ng-festival": {
+       "score": 77,
+       "change": 31.5
+      },
+      "l-ng-digital": {
+       "score": 76,
+       "change": 17.5
+      },
+      "g-chip-market": {
+       "score": 75,
+       "change": 5.7
+      },
+      "l-ng-weather": {
+       "score": 74,
+       "change": 36.0
+      },
+      "g-world-games": {
+       "score": 72,
+       "change": 3.1
+      },
+      "l-ng-league": {
+       "score": 69,
+       "change": 14.2
+      },
+      "g-heatwave": {
+       "score": 49,
+       "change": 1.2
+      }
+     }
+    },
+    "NL": {
+     "activityScore": 89,
+     "risingCount": 3,
+     "topics": {
+      "g-film-premiere": {
+       "score": 96,
+       "change": 1.7
+      },
+      "l-nl-research": {
+       "score": 89,
+       "change": 11.8
+      },
+      "l-nl-drama": {
+       "score": 80,
+       "change": 9.9
+      },
+      "l-nl-league": {
+       "score": 60,
+       "change": 27.0
+      },
+      "g-chip-market": {
+       "score": 59,
+       "change": 28.7
+      },
+      "l-nl-digital": {
+       "score": 49,
+       "change": 21.1
+      }
+     }
+    },
+    "NO": {
+     "activityScore": 76,
+     "risingCount": 1,
+     "topics": {
+      "g-game-update": {
+       "score": 82,
+       "change": -9.8
+      },
+      "l-no-festival": {
+       "score": 72,
+       "change": 13.9
+      },
+      "g-chip-market": {
+       "score": 64,
+       "change": -0.2
+      },
+      "l-no-prices": {
+       "score": 61,
+       "change": 33.0
+      },
+      "l-no-league": {
+       "score": 49,
+       "change": -6.9
+      }
+     }
+    },
+    "NZ": {
+     "activityScore": 84,
+     "risingCount": 4,
+     "topics": {
+      "g-climate-forum": {
+       "score": 88,
+       "change": 21.4
+      },
+      "g-biennale": {
+       "score": 84,
+       "change": 21.0
+      },
+      "l-nz-budget": {
+       "score": 72,
+       "change": 9.2
+      },
+      "g-world-games": {
+       "score": 69,
+       "change": -2.6
+      },
+      "l-nz-festival": {
+       "score": 53,
+       "change": 20.6
+      },
+      "l-nz-weather": {
+       "score": 52,
+       "change": 33.8
+      },
+      "l-nz-drama": {
+       "score": 46,
+       "change": -18.7
+      }
+     }
+    },
+    "PH": {
+     "activityScore": 65,
+     "risingCount": 2,
+     "topics": {
+      "g-ai-model": {
+       "score": 67,
+       "change": 28.7
+      },
+      "l-ph-digital": {
+       "score": 63,
+       "change": -7.0
+      },
+      "l-ph-research": {
+       "score": 60,
+       "change": 9.4
+      },
+      "g-ocean": {
+       "score": 58,
+       "change": 42.5
+      },
+      "l-ph-festival": {
+       "score": 54,
+       "change": 2.8
+      },
+      "l-ph-league": {
+       "score": 51,
+       "change": -13.5
+      }
+     }
+    },
+    "PL": {
+     "activityScore": 69,
+     "risingCount": 2,
+     "topics": {
+      "l-pl-research": {
+       "score": 72,
+       "change": -9.2
+      },
+      "g-quantum": {
+       "score": 64,
+       "change": -9.8
+      },
+      "g-music-stream": {
+       "score": 62,
+       "change": 37.7
+      },
+      "l-pl-digital": {
+       "score": 60,
+       "change": -4.6
+      },
+      "l-pl-drama": {
+       "score": 59,
+       "change": 16.8
+      },
+      "l-pl-festival": {
+       "score": 58,
+       "change": 7.1
+      }
+     }
+    },
+    "SE": {
+     "activityScore": 66,
+     "risingCount": 2,
+     "topics": {
+      "g-game-update": {
+       "score": 72,
+       "change": 16.6
+      },
+      "l-se-drama": {
+       "score": 59,
+       "change": -9.1
+      },
+      "g-typhoon": {
+       "score": 53,
+       "change": -12.1
+      },
+      "g-world-games": {
+       "score": 52,
+       "change": 0.9
+      },
+      "l-se-festival": {
+       "score": 49,
+       "change": 19.9
+      },
+      "l-se-prices": {
+       "score": 47,
+       "change": -3.8
+      }
+     }
+    },
+    "SG": {
+     "activityScore": 84,
+     "risingCount": 3,
+     "topics": {
+      "g-film-premiere": {
+       "score": 88,
+       "change": 42.1
+      },
+      "l-sg-festival": {
+       "score": 80,
+       "change": 26.7
+      },
+      "l-sg-research": {
+       "score": 75,
+       "change": 3.8
+      },
+      "g-game-update": {
+       "score": 71,
+       "change": -3.8
+      },
+      "l-sg-league": {
+       "score": 71,
+       "change": 16.2
+      },
+      "l-sg-weather": {
+       "score": 61,
+       "change": -12.7
+      }
+     }
+    },
+    "TH": {
+     "activityScore": 76,
+     "risingCount": 2,
+     "topics": {
+      "g-heatwave": {
+       "score": 80,
+       "change": -13.2
+      },
+      "l-th-weather": {
+       "score": 71,
+       "change": 13.3
+      },
+      "g-climate-forum": {
+       "score": 67,
+       "change": 27.6
+      },
+      "l-th-league": {
+       "score": 63,
+       "change": -19.8
+      },
+      "l-th-digital": {
+       "score": 56,
+       "change": 27.4
+      }
+     }
+    },
+    "TR": {
+     "activityScore": 78,
+     "risingCount": 1,
+     "topics": {
+      "g-game-update": {
+       "score": 84,
+       "change": 26.7
+      },
+      "l-tr-weather": {
+       "score": 73,
+       "change": -2.1
+      },
+      "l-tr-digital": {
+       "score": 69,
+       "change": 14.4
+      },
+      "g-climate-forum": {
+       "score": 53,
+       "change": -2.0
+      },
+      "l-tr-prices": {
+       "score": 52,
+       "change": 4.3
+      }
+     }
+    },
+    "TW": {
+     "activityScore": 83,
+     "risingCount": 3,
+     "topics": {
+      "l-tw-prices": {
+       "score": 87,
+       "change": 16.1
+      },
+      "l-tw-digital": {
+       "score": 80,
+       "change": 1.3
+      },
+      "l-tw-drama": {
+       "score": 77,
+       "change": 0.9
+      },
+      "g-deep-space": {
+       "score": 71,
+       "change": 4.8
+      },
+      "g-rail": {
+       "score": 68,
+       "change": 17.6
+      },
+      "g-world-games": {
+       "score": 66,
+       "change": 20.5
+      },
+      "l-tw-league": {
+       "score": 61,
+       "change": 10.5
+      }
+     }
+    },
     "US": {
      "activityScore": 81,
      "risingCount": 3,
@@ -859,6 +1971,62 @@
        "change": -16.2
       }
      }
+    },
+    "VN": {
+     "activityScore": 74,
+     "risingCount": 5,
+     "topics": {
+      "g-ai-model": {
+       "score": 81,
+       "change": -10.7
+      },
+      "g-quantum": {
+       "score": 62,
+       "change": 22.9
+      },
+      "l-vn-budget": {
+       "score": 61,
+       "change": 19.0
+      },
+      "g-rail": {
+       "score": 59,
+       "change": 24.7
+      },
+      "l-vn-drama": {
+       "score": 48,
+       "change": 20.9
+      },
+      "l-vn-festival": {
+       "score": 46,
+       "change": 34.2
+      }
+     }
+    },
+    "ZA": {
+     "activityScore": 87,
+     "risingCount": 1,
+     "topics": {
+      "g-music-stream": {
+       "score": 95,
+       "change": 5.4
+      },
+      "l-za-budget": {
+       "score": 89,
+       "change": 33.8
+      },
+      "g-rail": {
+       "score": 69,
+       "change": -0.3
+      },
+      "l-za-festival": {
+       "score": 56,
+       "change": 13.8
+      },
+      "l-za-research": {
+       "score": 51,
+       "change": 8.9
+      }
+     }
     }
    }
   },
@@ -870,6 +2038,32 @@
    },
    "shortLabel": "6H",
    "countries": {
+    "AR": {
+     "activityScore": 75,
+     "risingCount": 2,
+     "topics": {
+      "l-ar-research": {
+       "score": 79,
+       "change": 4.0
+      },
+      "g-heatwave": {
+       "score": 69,
+       "change": 39.8
+      },
+      "g-rail": {
+       "score": 69,
+       "change": 38.0
+      },
+      "l-ar-prices": {
+       "score": 62,
+       "change": -1.3
+      },
+      "l-ar-digital": {
+       "score": 47,
+       "change": -13.6
+      }
+     }
+    },
     "AU": {
      "activityScore": 54,
      "risingCount": 5,
@@ -938,6 +2132,58 @@
       }
      }
     },
+    "CA": {
+     "activityScore": 71,
+     "risingCount": 4,
+     "topics": {
+      "g-game-update": {
+       "score": 74,
+       "change": 19.2
+      },
+      "g-climate-forum": {
+       "score": 73,
+       "change": 27.5
+      },
+      "l-ca-weather": {
+       "score": 62,
+       "change": 19.6
+      },
+      "l-ca-league": {
+       "score": 59,
+       "change": 21.4
+      },
+      "l-ca-digital": {
+       "score": 48,
+       "change": -5.0
+      }
+     }
+    },
+    "CH": {
+     "activityScore": 69,
+     "risingCount": 2,
+     "topics": {
+      "g-world-games": {
+       "score": 75,
+       "change": 37.8
+      },
+      "g-ai-model": {
+       "score": 63,
+       "change": -5.7
+      },
+      "l-ch-drama": {
+       "score": 63,
+       "change": 1.7
+      },
+      "l-ch-prices": {
+       "score": 48,
+       "change": -12.3
+      },
+      "l-ch-league": {
+       "score": 45,
+       "change": 30.9
+      }
+     }
+    },
     "CN": {
      "activityScore": 61,
      "risingCount": 6,
@@ -1003,6 +2249,36 @@
       "de-book-market": {
        "score": 57,
        "change": -3.4
+      }
+     }
+    },
+    "EG": {
+     "activityScore": 69,
+     "risingCount": 2,
+     "topics": {
+      "l-eg-research": {
+       "score": 71,
+       "change": -5.0
+      },
+      "g-ocean": {
+       "score": 66,
+       "change": 25.7
+      },
+      "l-eg-league": {
+       "score": 66,
+       "change": 11.1
+      },
+      "g-ai-model": {
+       "score": 59,
+       "change": 38.3
+      },
+      "l-eg-festival": {
+       "score": 52,
+       "change": -11.9
+      },
+      "l-eg-digital": {
+       "score": 47,
+       "change": 14.3
       }
      }
     },
@@ -1109,6 +2385,70 @@
       "gb-athletics": {
        "score": 61,
        "change": -16.4
+      }
+     }
+    },
+    "HK": {
+     "activityScore": 66,
+     "risingCount": 1,
+     "topics": {
+      "l-hk-drama": {
+       "score": 70,
+       "change": 7.5
+      },
+      "l-hk-budget": {
+       "score": 62,
+       "change": 5.8
+      },
+      "l-hk-festival": {
+       "score": 59,
+       "change": 32.6
+      },
+      "g-music-stream": {
+       "score": 57,
+       "change": 3.9
+      },
+      "g-climate-forum": {
+       "score": 47,
+       "change": -2.5
+      },
+      "l-hk-prices": {
+       "score": 42,
+       "change": -1.5
+      }
+     }
+    },
+    "ID": {
+     "activityScore": 81,
+     "risingCount": 3,
+     "topics": {
+      "g-biennale": {
+       "score": 82,
+       "change": 18.3
+      },
+      "l-id-budget": {
+       "score": 82,
+       "change": 20.7
+      },
+      "l-id-league": {
+       "score": 77,
+       "change": -7.9
+      },
+      "l-id-weather": {
+       "score": 77,
+       "change": 7.7
+      },
+      "g-music-stream": {
+       "score": 67,
+       "change": 30.9
+      },
+      "l-id-digital": {
+       "score": 59,
+       "change": 11.9
+      },
+      "g-typhoon": {
+       "score": 54,
+       "change": -1.4
       }
      }
     },
@@ -1252,6 +2592,362 @@
       }
      }
     },
+    "MX": {
+     "activityScore": 70,
+     "risingCount": 0,
+     "topics": {
+      "l-mx-prices": {
+       "score": 73,
+       "change": -12.3
+      },
+      "g-film-premiere": {
+       "score": 68,
+       "change": -4.5
+      },
+      "l-mx-research": {
+       "score": 66,
+       "change": 11.6
+      },
+      "g-game-update": {
+       "score": 54,
+       "change": -10.4
+      },
+      "l-mx-league": {
+       "score": 54,
+       "change": -7.7
+      }
+     }
+    },
+    "NG": {
+     "activityScore": 82,
+     "risingCount": 3,
+     "topics": {
+      "l-ng-festival": {
+       "score": 83,
+       "change": 29.8
+      },
+      "l-ng-digital": {
+       "score": 82,
+       "change": 16.5
+      },
+      "g-chip-market": {
+       "score": 81,
+       "change": 5.4
+      },
+      "l-ng-weather": {
+       "score": 79,
+       "change": 34.0
+      },
+      "g-world-games": {
+       "score": 77,
+       "change": 3.0
+      },
+      "l-ng-league": {
+       "score": 74,
+       "change": 13.5
+      },
+      "g-heatwave": {
+       "score": 53,
+       "change": 1.2
+      }
+     }
+    },
+    "NL": {
+     "activityScore": 73,
+     "risingCount": 3,
+     "topics": {
+      "g-film-premiere": {
+       "score": 79,
+       "change": 1.6
+      },
+      "l-nl-research": {
+       "score": 73,
+       "change": 11.1
+      },
+      "l-nl-drama": {
+       "score": 65,
+       "change": 9.3
+      },
+      "l-nl-league": {
+       "score": 49,
+       "change": 25.6
+      },
+      "g-chip-market": {
+       "score": 48,
+       "change": 27.1
+      },
+      "l-nl-digital": {
+       "score": 40,
+       "change": 19.9
+      }
+     }
+    },
+    "NO": {
+     "activityScore": 85,
+     "risingCount": 1,
+     "topics": {
+      "g-game-update": {
+       "score": 91,
+       "change": -9.2
+      },
+      "l-no-festival": {
+       "score": 79,
+       "change": 13.1
+      },
+      "g-chip-market": {
+       "score": 71,
+       "change": -0.2
+      },
+      "l-no-prices": {
+       "score": 67,
+       "change": 31.3
+      },
+      "l-no-league": {
+       "score": 54,
+       "change": -6.6
+      }
+     }
+    },
+    "NZ": {
+     "activityScore": 79,
+     "risingCount": 4,
+     "topics": {
+      "g-climate-forum": {
+       "score": 83,
+       "change": 20.3
+      },
+      "g-biennale": {
+       "score": 80,
+       "change": 19.8
+      },
+      "l-nz-budget": {
+       "score": 68,
+       "change": 8.7
+      },
+      "g-world-games": {
+       "score": 65,
+       "change": -2.4
+      },
+      "l-nz-festival": {
+       "score": 50,
+       "change": 19.5
+      },
+      "l-nz-weather": {
+       "score": 49,
+       "change": 32.0
+      },
+      "l-nz-drama": {
+       "score": 44,
+       "change": -17.7
+      }
+     }
+    },
+    "PH": {
+     "activityScore": 67,
+     "risingCount": 2,
+     "topics": {
+      "g-ai-model": {
+       "score": 69,
+       "change": 27.1
+      },
+      "l-ph-digital": {
+       "score": 65,
+       "change": -6.6
+      },
+      "l-ph-research": {
+       "score": 62,
+       "change": 8.9
+      },
+      "g-ocean": {
+       "score": 59,
+       "change": 40.2
+      },
+      "l-ph-festival": {
+       "score": 55,
+       "change": 2.7
+      },
+      "l-ph-league": {
+       "score": 52,
+       "change": -12.8
+      }
+     }
+    },
+    "PL": {
+     "activityScore": 66,
+     "risingCount": 2,
+     "topics": {
+      "l-pl-research": {
+       "score": 69,
+       "change": -8.7
+      },
+      "g-quantum": {
+       "score": 62,
+       "change": -9.2
+      },
+      "g-music-stream": {
+       "score": 60,
+       "change": 35.7
+      },
+      "l-pl-digital": {
+       "score": 58,
+       "change": -4.3
+      },
+      "l-pl-drama": {
+       "score": 57,
+       "change": 15.9
+      },
+      "l-pl-festival": {
+       "score": 56,
+       "change": 6.7
+      }
+     }
+    },
+    "SE": {
+     "activityScore": 70,
+     "risingCount": 2,
+     "topics": {
+      "g-game-update": {
+       "score": 76,
+       "change": 15.7
+      },
+      "l-se-drama": {
+       "score": 62,
+       "change": -8.6
+      },
+      "g-typhoon": {
+       "score": 56,
+       "change": -11.5
+      },
+      "g-world-games": {
+       "score": 55,
+       "change": 0.8
+      },
+      "l-se-festival": {
+       "score": 52,
+       "change": 18.9
+      },
+      "l-se-prices": {
+       "score": 50,
+       "change": -3.6
+      }
+     }
+    },
+    "SG": {
+     "activityScore": 78,
+     "risingCount": 3,
+     "topics": {
+      "g-film-premiere": {
+       "score": 82,
+       "change": 39.9
+      },
+      "l-sg-festival": {
+       "score": 74,
+       "change": 25.2
+      },
+      "l-sg-research": {
+       "score": 70,
+       "change": 3.6
+      },
+      "g-game-update": {
+       "score": 66,
+       "change": -3.6
+      },
+      "l-sg-league": {
+       "score": 66,
+       "change": 15.4
+      },
+      "l-sg-weather": {
+       "score": 57,
+       "change": -12.0
+      }
+     }
+    },
+    "TH": {
+     "activityScore": 75,
+     "risingCount": 2,
+     "topics": {
+      "g-heatwave": {
+       "score": 79,
+       "change": -12.5
+      },
+      "l-th-weather": {
+       "score": 70,
+       "change": 12.6
+      },
+      "g-climate-forum": {
+       "score": 66,
+       "change": 26.1
+      },
+      "l-th-league": {
+       "score": 62,
+       "change": -18.8
+      },
+      "l-th-digital": {
+       "score": 56,
+       "change": 26.0
+      }
+     }
+    },
+    "TR": {
+     "activityScore": 80,
+     "risingCount": 1,
+     "topics": {
+      "g-game-update": {
+       "score": 86,
+       "change": 25.2
+      },
+      "l-tr-weather": {
+       "score": 75,
+       "change": -2.0
+      },
+      "l-tr-digital": {
+       "score": 71,
+       "change": 13.6
+      },
+      "g-climate-forum": {
+       "score": 55,
+       "change": -1.9
+      },
+      "l-tr-prices": {
+       "score": 54,
+       "change": 4.0
+      }
+     }
+    },
+    "TW": {
+     "activityScore": 68,
+     "risingCount": 3,
+     "topics": {
+      "l-tw-prices": {
+       "score": 71,
+       "change": 15.3
+      },
+      "l-tw-digital": {
+       "score": 65,
+       "change": 1.3
+      },
+      "l-tw-drama": {
+       "score": 62,
+       "change": 0.9
+      },
+      "g-deep-space": {
+       "score": 58,
+       "change": 4.6
+      },
+      "g-rail": {
+       "score": 55,
+       "change": 16.6
+      },
+      "g-world-games": {
+       "score": 53,
+       "change": 19.4
+      },
+      "l-tw-league": {
+       "score": 49,
+       "change": 10.0
+      }
+     }
+    },
     "US": {
      "activityScore": 78,
      "risingCount": 5,
@@ -1289,6 +2985,62 @@
        "change": -4.8
       }
      }
+    },
+    "VN": {
+     "activityScore": 74,
+     "risingCount": 5,
+     "topics": {
+      "g-ai-model": {
+       "score": 81,
+       "change": -10.1
+      },
+      "g-quantum": {
+       "score": 61,
+       "change": 21.6
+      },
+      "l-vn-budget": {
+       "score": 60,
+       "change": 18.0
+      },
+      "g-rail": {
+       "score": 59,
+       "change": 23.3
+      },
+      "l-vn-drama": {
+       "score": 48,
+       "change": 19.8
+      },
+      "l-vn-festival": {
+       "score": 45,
+       "change": 32.3
+      }
+     }
+    },
+    "ZA": {
+     "activityScore": 83,
+     "risingCount": 1,
+     "topics": {
+      "g-music-stream": {
+       "score": 90,
+       "change": 5.1
+      },
+      "l-za-budget": {
+       "score": 85,
+       "change": 32.0
+      },
+      "g-rail": {
+       "score": 65,
+       "change": -0.3
+      },
+      "l-za-festival": {
+       "score": 54,
+       "change": 13.0
+      },
+      "l-za-research": {
+       "score": 49,
+       "change": 8.4
+      }
+     }
     }
    }
   },
@@ -1300,6 +3052,32 @@
    },
    "shortLabel": "12H",
    "countries": {
+    "AR": {
+     "activityScore": 58,
+     "risingCount": 2,
+     "topics": {
+      "l-ar-research": {
+       "score": 61,
+       "change": 3.6
+      },
+      "g-heatwave": {
+       "score": 53,
+       "change": 35.3
+      },
+      "g-rail": {
+       "score": 53,
+       "change": 33.7
+      },
+      "l-ar-prices": {
+       "score": 48,
+       "change": -1.2
+      },
+      "l-ar-digital": {
+       "score": 36,
+       "change": -12.0
+      }
+     }
+    },
     "AU": {
      "activityScore": 51,
      "risingCount": 6,
@@ -1368,6 +3146,58 @@
       }
      }
     },
+    "CA": {
+     "activityScore": 61,
+     "risingCount": 4,
+     "topics": {
+      "g-game-update": {
+       "score": 64,
+       "change": 17.0
+      },
+      "g-climate-forum": {
+       "score": 63,
+       "change": 24.4
+      },
+      "l-ca-weather": {
+       "score": 53,
+       "change": 17.4
+      },
+      "l-ca-league": {
+       "score": 51,
+       "change": 18.9
+      },
+      "l-ca-digital": {
+       "score": 41,
+       "change": -4.5
+      }
+     }
+    },
+    "CH": {
+     "activityScore": 61,
+     "risingCount": 2,
+     "topics": {
+      "g-world-games": {
+       "score": 66,
+       "change": 33.5
+      },
+      "g-ai-model": {
+       "score": 56,
+       "change": -5.1
+      },
+      "l-ch-drama": {
+       "score": 56,
+       "change": 1.5
+      },
+      "l-ch-prices": {
+       "score": 42,
+       "change": -10.9
+      },
+      "l-ch-league": {
+       "score": 40,
+       "change": 27.4
+      }
+     }
+    },
     "CN": {
      "activityScore": 51,
      "risingCount": 6,
@@ -1433,6 +3263,36 @@
       "de-book-market": {
        "score": 59,
        "change": 22.9
+      }
+     }
+    },
+    "EG": {
+     "activityScore": 64,
+     "risingCount": 2,
+     "topics": {
+      "l-eg-research": {
+       "score": 66,
+       "change": -4.5
+      },
+      "g-ocean": {
+       "score": 61,
+       "change": 22.8
+      },
+      "l-eg-league": {
+       "score": 61,
+       "change": 9.9
+      },
+      "g-ai-model": {
+       "score": 55,
+       "change": 34.0
+      },
+      "l-eg-festival": {
+       "score": 48,
+       "change": -10.5
+      },
+      "l-eg-digital": {
+       "score": 43,
+       "change": 12.7
       }
      }
     },
@@ -1539,6 +3399,70 @@
       "gb-athletics": {
        "score": 73,
        "change": 19.7
+      }
+     }
+    },
+    "HK": {
+     "activityScore": 63,
+     "risingCount": 1,
+     "topics": {
+      "l-hk-drama": {
+       "score": 66,
+       "change": 6.6
+      },
+      "l-hk-budget": {
+       "score": 58,
+       "change": 5.2
+      },
+      "l-hk-festival": {
+       "score": 56,
+       "change": 28.9
+      },
+      "g-music-stream": {
+       "score": 54,
+       "change": 3.4
+      },
+      "g-climate-forum": {
+       "score": 44,
+       "change": -2.2
+      },
+      "l-hk-prices": {
+       "score": 39,
+       "change": -1.4
+      }
+     }
+    },
+    "ID": {
+     "activityScore": 71,
+     "risingCount": 3,
+     "topics": {
+      "g-biennale": {
+       "score": 72,
+       "change": 16.2
+      },
+      "l-id-budget": {
+       "score": 72,
+       "change": 18.3
+      },
+      "l-id-league": {
+       "score": 68,
+       "change": -7.0
+      },
+      "l-id-weather": {
+       "score": 68,
+       "change": 6.8
+      },
+      "g-music-stream": {
+       "score": 59,
+       "change": 27.4
+      },
+      "l-id-digital": {
+       "score": 52,
+       "change": 10.6
+      },
+      "g-typhoon": {
+       "score": 48,
+       "change": -1.3
       }
      }
     },
@@ -1682,6 +3606,362 @@
       }
      }
     },
+    "MX": {
+     "activityScore": 63,
+     "risingCount": 0,
+     "topics": {
+      "l-mx-prices": {
+       "score": 66,
+       "change": -10.9
+      },
+      "g-film-premiere": {
+       "score": 62,
+       "change": -4.0
+      },
+      "l-mx-research": {
+       "score": 60,
+       "change": 10.3
+      },
+      "g-game-update": {
+       "score": 49,
+       "change": -9.2
+      },
+      "l-mx-league": {
+       "score": 49,
+       "change": -6.8
+      }
+     }
+    },
+    "NG": {
+     "activityScore": 65,
+     "risingCount": 2,
+     "topics": {
+      "l-ng-festival": {
+       "score": 66,
+       "change": 26.4
+      },
+      "l-ng-digital": {
+       "score": 65,
+       "change": 14.6
+      },
+      "g-chip-market": {
+       "score": 65,
+       "change": 4.8
+      },
+      "l-ng-weather": {
+       "score": 63,
+       "change": 30.2
+      },
+      "g-world-games": {
+       "score": 62,
+       "change": 2.6
+      },
+      "l-ng-league": {
+       "score": 59,
+       "change": 11.9
+      },
+      "g-heatwave": {
+       "score": 42,
+       "change": 1.0
+      }
+     }
+    },
+    "NL": {
+     "activityScore": 69,
+     "risingCount": 3,
+     "topics": {
+      "g-film-premiere": {
+       "score": 74,
+       "change": 1.4
+      },
+      "l-nl-research": {
+       "score": 69,
+       "change": 9.9
+      },
+      "l-nl-drama": {
+       "score": 62,
+       "change": 8.3
+      },
+      "l-nl-league": {
+       "score": 47,
+       "change": 22.7
+      },
+      "g-chip-market": {
+       "score": 46,
+       "change": 24.0
+      },
+      "l-nl-digital": {
+       "score": 38,
+       "change": 17.7
+      }
+     }
+    },
+    "NO": {
+     "activityScore": 69,
+     "risingCount": 1,
+     "topics": {
+      "g-game-update": {
+       "score": 74,
+       "change": -8.2
+      },
+      "l-no-festival": {
+       "score": 65,
+       "change": 11.6
+      },
+      "g-chip-market": {
+       "score": 58,
+       "change": -0.2
+      },
+      "l-no-prices": {
+       "score": 55,
+       "change": 27.7
+      },
+      "l-no-league": {
+       "score": 44,
+       "change": -5.8
+      }
+     }
+    },
+    "NZ": {
+     "activityScore": 71,
+     "risingCount": 4,
+     "topics": {
+      "g-climate-forum": {
+       "score": 75,
+       "change": 18.0
+      },
+      "g-biennale": {
+       "score": 72,
+       "change": 17.6
+      },
+      "l-nz-budget": {
+       "score": 61,
+       "change": 7.7
+      },
+      "g-world-games": {
+       "score": 59,
+       "change": -2.1
+      },
+      "l-nz-festival": {
+       "score": 45,
+       "change": 17.3
+      },
+      "l-nz-weather": {
+       "score": 44,
+       "change": 28.3
+      },
+      "l-nz-drama": {
+       "score": 39,
+       "change": -15.7
+      }
+     }
+    },
+    "PH": {
+     "activityScore": 62,
+     "risingCount": 2,
+     "topics": {
+      "g-ai-model": {
+       "score": 64,
+       "change": 24.0
+      },
+      "l-ph-digital": {
+       "score": 59,
+       "change": -5.9
+      },
+      "l-ph-research": {
+       "score": 57,
+       "change": 7.9
+      },
+      "g-ocean": {
+       "score": 55,
+       "change": 35.7
+      },
+      "l-ph-festival": {
+       "score": 51,
+       "change": 2.4
+      },
+      "l-ph-league": {
+       "score": 48,
+       "change": -11.3
+      }
+     }
+    },
+    "PL": {
+     "activityScore": 58,
+     "risingCount": 1,
+     "topics": {
+      "l-pl-research": {
+       "score": 61,
+       "change": -7.7
+      },
+      "g-quantum": {
+       "score": 55,
+       "change": -8.2
+      },
+      "g-music-stream": {
+       "score": 53,
+       "change": 31.6
+      },
+      "l-pl-digital": {
+       "score": 51,
+       "change": -3.8
+      },
+      "l-pl-drama": {
+       "score": 50,
+       "change": 14.1
+      },
+      "l-pl-festival": {
+       "score": 50,
+       "change": 6.0
+      }
+     }
+    },
+    "SE": {
+     "activityScore": 58,
+     "risingCount": 1,
+     "topics": {
+      "g-game-update": {
+       "score": 63,
+       "change": 13.9
+      },
+      "l-se-drama": {
+       "score": 51,
+       "change": -7.6
+      },
+      "g-typhoon": {
+       "score": 47,
+       "change": -10.2
+      },
+      "g-world-games": {
+       "score": 46,
+       "change": 0.7
+      },
+      "l-se-festival": {
+       "score": 43,
+       "change": 16.7
+      },
+      "l-se-prices": {
+       "score": 41,
+       "change": -3.2
+      }
+     }
+    },
+    "SG": {
+     "activityScore": 69,
+     "risingCount": 2,
+     "topics": {
+      "g-film-premiere": {
+       "score": 73,
+       "change": 35.3
+      },
+      "l-sg-festival": {
+       "score": 66,
+       "change": 22.4
+      },
+      "l-sg-research": {
+       "score": 62,
+       "change": 3.2
+      },
+      "g-game-update": {
+       "score": 59,
+       "change": -3.2
+      },
+      "l-sg-league": {
+       "score": 59,
+       "change": 13.6
+      },
+      "l-sg-weather": {
+       "score": 51,
+       "change": -10.7
+      }
+     }
+    },
+    "TH": {
+     "activityScore": 66,
+     "risingCount": 2,
+     "topics": {
+      "g-heatwave": {
+       "score": 70,
+       "change": -11.1
+      },
+      "l-th-weather": {
+       "score": 62,
+       "change": 11.1
+      },
+      "g-climate-forum": {
+       "score": 59,
+       "change": 23.2
+      },
+      "l-th-league": {
+       "score": 55,
+       "change": -16.6
+      },
+      "l-th-digital": {
+       "score": 49,
+       "change": 23.0
+      }
+     }
+    },
+    "TR": {
+     "activityScore": 67,
+     "risingCount": 1,
+     "topics": {
+      "g-game-update": {
+       "score": 72,
+       "change": 22.4
+      },
+      "l-tr-weather": {
+       "score": 63,
+       "change": -1.8
+      },
+      "l-tr-digital": {
+       "score": 59,
+       "change": 12.1
+      },
+      "g-climate-forum": {
+       "score": 46,
+       "change": -1.7
+      },
+      "l-tr-prices": {
+       "score": 45,
+       "change": 3.6
+      }
+     }
+    },
+    "TW": {
+     "activityScore": 60,
+     "risingCount": 1,
+     "topics": {
+      "l-tw-prices": {
+       "score": 63,
+       "change": 13.5
+      },
+      "l-tw-digital": {
+       "score": 58,
+       "change": 1.1
+      },
+      "l-tw-drama": {
+       "score": 56,
+       "change": 0.8
+      },
+      "g-deep-space": {
+       "score": 51,
+       "change": 4.1
+      },
+      "g-rail": {
+       "score": 49,
+       "change": 14.7
+      },
+      "g-world-games": {
+       "score": 48,
+       "change": 17.2
+      },
+      "l-tw-league": {
+       "score": 44,
+       "change": 8.8
+      }
+     }
+    },
     "US": {
      "activityScore": 78,
      "risingCount": 6,
@@ -1719,6 +3999,62 @@
        "change": 16.7
       }
      }
+    },
+    "VN": {
+     "activityScore": 64,
+     "risingCount": 5,
+     "topics": {
+      "g-ai-model": {
+       "score": 70,
+       "change": -9.0
+      },
+      "g-quantum": {
+       "score": 53,
+       "change": 19.2
+      },
+      "l-vn-budget": {
+       "score": 52,
+       "change": 15.9
+      },
+      "g-rail": {
+       "score": 51,
+       "change": 20.7
+      },
+      "l-vn-drama": {
+       "score": 42,
+       "change": 17.5
+      },
+      "l-vn-festival": {
+       "score": 39,
+       "change": 28.7
+      }
+     }
+    },
+    "ZA": {
+     "activityScore": 61,
+     "risingCount": 1,
+     "topics": {
+      "g-music-stream": {
+       "score": 67,
+       "change": 4.5
+      },
+      "l-za-budget": {
+       "score": 63,
+       "change": 28.3
+      },
+      "g-rail": {
+       "score": 49,
+       "change": -0.2
+      },
+      "l-za-festival": {
+       "score": 40,
+       "change": 11.5
+      },
+      "l-za-research": {
+       "score": 37,
+       "change": 7.5
+      }
+     }
     }
    }
   },
@@ -1730,6 +4066,32 @@
    },
    "shortLabel": "24H",
    "countries": {
+    "AR": {
+     "activityScore": 47,
+     "risingCount": 2,
+     "topics": {
+      "l-ar-research": {
+       "score": 50,
+       "change": 2.7
+      },
+      "g-heatwave": {
+       "score": 44,
+       "change": 26.2
+      },
+      "g-rail": {
+       "score": 44,
+       "change": 25.0
+      },
+      "l-ar-prices": {
+       "score": 39,
+       "change": -0.9
+      },
+      "l-ar-digital": {
+       "score": 30,
+       "change": -8.9
+      }
+     }
+    },
     "AU": {
      "activityScore": 42,
      "risingCount": 6,
@@ -1798,6 +4160,58 @@
       }
      }
     },
+    "CA": {
+     "activityScore": 43,
+     "risingCount": 1,
+     "topics": {
+      "g-game-update": {
+       "score": 45,
+       "change": 12.7
+      },
+      "g-climate-forum": {
+       "score": 44,
+       "change": 18.1
+      },
+      "l-ca-weather": {
+       "score": 37,
+       "change": 12.9
+      },
+      "l-ca-league": {
+       "score": 36,
+       "change": 14.1
+      },
+      "l-ca-digital": {
+       "score": 29,
+       "change": -3.3
+      }
+     }
+    },
+    "CH": {
+     "activityScore": 52,
+     "risingCount": 2,
+     "topics": {
+      "g-world-games": {
+       "score": 56,
+       "change": 24.9
+      },
+      "g-ai-model": {
+       "score": 47,
+       "change": -3.8
+      },
+      "l-ch-drama": {
+       "score": 47,
+       "change": 1.1
+      },
+      "l-ch-prices": {
+       "score": 36,
+       "change": -8.1
+      },
+      "l-ch-league": {
+       "score": 34,
+       "change": 20.4
+      }
+     }
+    },
     "CN": {
      "activityScore": 45,
      "risingCount": 6,
@@ -1863,6 +4277,36 @@
       "de-book-market": {
        "score": 48,
        "change": 26.3
+      }
+     }
+    },
+    "EG": {
+     "activityScore": 45,
+     "risingCount": 2,
+     "topics": {
+      "l-eg-research": {
+       "score": 46,
+       "change": -3.3
+      },
+      "g-ocean": {
+       "score": 43,
+       "change": 16.9
+      },
+      "l-eg-league": {
+       "score": 43,
+       "change": 7.3
+      },
+      "g-ai-model": {
+       "score": 39,
+       "change": 25.3
+      },
+      "l-eg-festival": {
+       "score": 34,
+       "change": -7.8
+      },
+      "l-eg-digital": {
+       "score": 31,
+       "change": 9.4
       }
      }
     },
@@ -1969,6 +4413,70 @@
       "gb-athletics": {
        "score": 61,
        "change": 27.1
+      }
+     }
+    },
+    "HK": {
+     "activityScore": 43,
+     "risingCount": 1,
+     "topics": {
+      "l-hk-drama": {
+       "score": 45,
+       "change": 4.9
+      },
+      "l-hk-budget": {
+       "score": 40,
+       "change": 3.8
+      },
+      "l-hk-festival": {
+       "score": 38,
+       "change": 21.5
+      },
+      "g-music-stream": {
+       "score": 36,
+       "change": 2.5
+      },
+      "g-climate-forum": {
+       "score": 30,
+       "change": -1.7
+      },
+      "l-hk-prices": {
+       "score": 27,
+       "change": -1.0
+      }
+     }
+    },
+    "ID": {
+     "activityScore": 48,
+     "risingCount": 1,
+     "topics": {
+      "g-biennale": {
+       "score": 49,
+       "change": 12.1
+      },
+      "l-id-budget": {
+       "score": 49,
+       "change": 13.6
+      },
+      "l-id-league": {
+       "score": 46,
+       "change": -5.2
+      },
+      "l-id-weather": {
+       "score": 46,
+       "change": 5.1
+      },
+      "g-music-stream": {
+       "score": 40,
+       "change": 20.4
+      },
+      "l-id-digital": {
+       "score": 35,
+       "change": 7.9
+      },
+      "g-typhoon": {
+       "score": 32,
+       "change": -0.9
       }
      }
     },
@@ -2112,6 +4620,362 @@
       }
      }
     },
+    "MX": {
+     "activityScore": 45,
+     "risingCount": 0,
+     "topics": {
+      "l-mx-prices": {
+       "score": 47,
+       "change": -8.1
+      },
+      "g-film-premiere": {
+       "score": 44,
+       "change": -3.0
+      },
+      "l-mx-research": {
+       "score": 43,
+       "change": 7.6
+      },
+      "g-game-update": {
+       "score": 35,
+       "change": -6.9
+      },
+      "l-mx-league": {
+       "score": 35,
+       "change": -5.1
+      }
+     }
+    },
+    "NG": {
+     "activityScore": 46,
+     "risingCount": 2,
+     "topics": {
+      "l-ng-festival": {
+       "score": 46,
+       "change": 19.7
+      },
+      "l-ng-digital": {
+       "score": 45,
+       "change": 10.9
+      },
+      "g-chip-market": {
+       "score": 45,
+       "change": 3.6
+      },
+      "l-ng-weather": {
+       "score": 44,
+       "change": 22.4
+      },
+      "g-world-games": {
+       "score": 43,
+       "change": 2.0
+      },
+      "l-ng-league": {
+       "score": 41,
+       "change": 8.9
+      },
+      "g-heatwave": {
+       "score": 29,
+       "change": 0.8
+      }
+     }
+    },
+    "NL": {
+     "activityScore": 52,
+     "risingCount": 2,
+     "topics": {
+      "g-film-premiere": {
+       "score": 56,
+       "change": 1.1
+      },
+      "l-nl-research": {
+       "score": 52,
+       "change": 7.3
+      },
+      "l-nl-drama": {
+       "score": 47,
+       "change": 6.2
+      },
+      "l-nl-league": {
+       "score": 35,
+       "change": 16.9
+      },
+      "g-chip-market": {
+       "score": 35,
+       "change": 17.9
+      },
+      "l-nl-digital": {
+       "score": 29,
+       "change": 13.1
+      }
+     }
+    },
+    "NO": {
+     "activityScore": 50,
+     "risingCount": 1,
+     "topics": {
+      "g-game-update": {
+       "score": 54,
+       "change": -6.1
+      },
+      "l-no-festival": {
+       "score": 47,
+       "change": 8.6
+      },
+      "g-chip-market": {
+       "score": 42,
+       "change": -0.1
+      },
+      "l-no-prices": {
+       "score": 40,
+       "change": 20.6
+      },
+      "l-no-league": {
+       "score": 32,
+       "change": -4.3
+      }
+     }
+    },
+    "NZ": {
+     "activityScore": 48,
+     "risingCount": 1,
+     "topics": {
+      "g-climate-forum": {
+       "score": 50,
+       "change": 13.4
+      },
+      "g-biennale": {
+       "score": 48,
+       "change": 13.1
+      },
+      "l-nz-budget": {
+       "score": 41,
+       "change": 5.7
+      },
+      "g-world-games": {
+       "score": 40,
+       "change": -1.6
+      },
+      "l-nz-festival": {
+       "score": 30,
+       "change": 12.8
+      },
+      "l-nz-weather": {
+       "score": 30,
+       "change": 21.1
+      },
+      "l-nz-drama": {
+       "score": 27,
+       "change": -11.7
+      }
+     }
+    },
+    "PH": {
+     "activityScore": 45,
+     "risingCount": 2,
+     "topics": {
+      "g-ai-model": {
+       "score": 47,
+       "change": 17.9
+      },
+      "l-ph-digital": {
+       "score": 44,
+       "change": -4.4
+      },
+      "l-ph-research": {
+       "score": 42,
+       "change": 5.9
+      },
+      "g-ocean": {
+       "score": 40,
+       "change": 26.5
+      },
+      "l-ph-festival": {
+       "score": 37,
+       "change": 1.8
+      },
+      "l-ph-league": {
+       "score": 35,
+       "change": -8.4
+      }
+     }
+    },
+    "PL": {
+     "activityScore": 43,
+     "risingCount": 1,
+     "topics": {
+      "l-pl-research": {
+       "score": 45,
+       "change": -5.7
+      },
+      "g-quantum": {
+       "score": 40,
+       "change": -6.1
+      },
+      "g-music-stream": {
+       "score": 38,
+       "change": 23.5
+      },
+      "l-pl-digital": {
+       "score": 37,
+       "change": -2.8
+      },
+      "l-pl-drama": {
+       "score": 37,
+       "change": 10.5
+      },
+      "l-pl-festival": {
+       "score": 36,
+       "change": 4.4
+      }
+     }
+    },
+    "SE": {
+     "activityScore": 46,
+     "risingCount": 0,
+     "topics": {
+      "g-game-update": {
+       "score": 50,
+       "change": 10.4
+      },
+      "l-se-drama": {
+       "score": 41,
+       "change": -5.7
+      },
+      "g-typhoon": {
+       "score": 38,
+       "change": -7.6
+      },
+      "g-world-games": {
+       "score": 37,
+       "change": 0.5
+      },
+      "l-se-festival": {
+       "score": 34,
+       "change": 12.4
+      },
+      "l-se-prices": {
+       "score": 33,
+       "change": -2.4
+      }
+     }
+    },
+    "SG": {
+     "activityScore": 51,
+     "risingCount": 2,
+     "topics": {
+      "g-film-premiere": {
+       "score": 54,
+       "change": 26.3
+      },
+      "l-sg-festival": {
+       "score": 49,
+       "change": 16.6
+      },
+      "l-sg-research": {
+       "score": 46,
+       "change": 2.4
+      },
+      "g-game-update": {
+       "score": 43,
+       "change": -2.4
+      },
+      "l-sg-league": {
+       "score": 43,
+       "change": 10.1
+      },
+      "l-sg-weather": {
+       "score": 38,
+       "change": -7.9
+      }
+     }
+    },
+    "TH": {
+     "activityScore": 51,
+     "risingCount": 2,
+     "topics": {
+      "g-heatwave": {
+       "score": 54,
+       "change": -8.2
+      },
+      "l-th-weather": {
+       "score": 48,
+       "change": 8.3
+      },
+      "g-climate-forum": {
+       "score": 45,
+       "change": 17.2
+      },
+      "l-th-league": {
+       "score": 42,
+       "change": -12.4
+      },
+      "l-th-digital": {
+       "score": 38,
+       "change": 17.1
+      }
+     }
+    },
+    "TR": {
+     "activityScore": 46,
+     "risingCount": 1,
+     "topics": {
+      "g-game-update": {
+       "score": 50,
+       "change": 16.6
+      },
+      "l-tr-weather": {
+       "score": 44,
+       "change": -1.3
+      },
+      "l-tr-digital": {
+       "score": 42,
+       "change": 9.0
+      },
+      "g-climate-forum": {
+       "score": 32,
+       "change": -1.2
+      },
+      "l-tr-prices": {
+       "score": 32,
+       "change": 2.7
+      }
+     }
+    },
+    "TW": {
+     "activityScore": 46,
+     "risingCount": 0,
+     "topics": {
+      "l-tw-prices": {
+       "score": 48,
+       "change": 10.1
+      },
+      "l-tw-digital": {
+       "score": 44,
+       "change": 0.8
+      },
+      "l-tw-drama": {
+       "score": 42,
+       "change": 0.6
+      },
+      "g-deep-space": {
+       "score": 39,
+       "change": 3.0
+      },
+      "g-rail": {
+       "score": 37,
+       "change": 11.0
+      },
+      "g-world-games": {
+       "score": 36,
+       "change": 12.8
+      },
+      "l-tw-league": {
+       "score": 33,
+       "change": 6.6
+      }
+     }
+    },
     "US": {
      "activityScore": 65,
      "risingCount": 5,
@@ -2147,6 +5011,62 @@
       "us-cross-ride": {
        "score": 72,
        "change": 30.9
+      }
+     }
+    },
+    "VN": {
+     "activityScore": 47,
+     "risingCount": 2,
+     "topics": {
+      "g-ai-model": {
+       "score": 51,
+       "change": -6.7
+      },
+      "g-quantum": {
+       "score": 39,
+       "change": 14.3
+      },
+      "l-vn-budget": {
+       "score": 38,
+       "change": 11.8
+      },
+      "g-rail": {
+       "score": 37,
+       "change": 15.4
+      },
+      "l-vn-drama": {
+       "score": 30,
+       "change": 13.0
+      },
+      "l-vn-festival": {
+       "score": 29,
+       "change": 21.3
+      }
+     }
+    },
+    "ZA": {
+     "activityScore": 53,
+     "risingCount": 1,
+     "topics": {
+      "g-music-stream": {
+       "score": 58,
+       "change": 3.4
+      },
+      "l-za-budget": {
+       "score": 54,
+       "change": 21.1
+      },
+      "g-rail": {
+       "score": 42,
+       "change": -0.2
+      },
+      "l-za-festival": {
+       "score": 35,
+       "change": 8.6
+      },
+      "l-za-research": {
+       "score": 32,
+       "change": 5.6
       }
      }
     }

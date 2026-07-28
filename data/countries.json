@@ -1,18 +1,37 @@
 {
- "note": "Country registry. `centroid` / `bbox` are grid coordinates of data/worldgrid.json, not geographic coordinates.",
+ "note": "国コード・国名・タイムゾーン・地図上の重心。targets は実データ取得の対象国。SG と HK は3度グリッドでは表現できないため地図上のポリゴンを持たず、重心の発光マーカーだけで表示されます。",
  "targets": [
   "JP",
   "US",
   "GB",
   "FR",
   "DE",
-  "IT",
-  "ES",
   "KR",
-  "CN",
   "IN",
+  "AU",
+  "CA",
+  "MX",
   "BR",
-  "AU"
+  "AR",
+  "ES",
+  "IT",
+  "NL",
+  "SE",
+  "NO",
+  "PL",
+  "CH",
+  "TR",
+  "ZA",
+  "EG",
+  "NG",
+  "ID",
+  "TH",
+  "VN",
+  "PH",
+  "SG",
+  "TW",
+  "HK",
+  "NZ"
  ],
  "countries": [
   {
@@ -193,6 +212,26 @@
     26,
     69,
     32
+   ]
+  },
+  {
+   "code": "CH",
+   "code3": "CHE",
+   "name": {
+    "ja": "スイス",
+    "en": "Switzerland"
+   },
+   "tz": "Europe/Zurich",
+   "hasData": false,
+   "centroid": {
+    "x": 62.73,
+    "y": 12.4
+   },
+   "bbox": [
+    61,
+    12,
+    63,
+    12
    ]
   },
   {
@@ -613,6 +652,26 @@
     23,
     30,
     23
+   ]
+  },
+  {
+   "code": "HK",
+   "code3": "HKG",
+   "name": {
+    "ja": "香港",
+    "en": "Hong Kong"
+   },
+   "tz": "Asia/Hong_Kong",
+   "hasData": false,
+   "centroid": {
+    "x": 98.06,
+    "y": 20.56
+   },
+   "bbox": [
+    98,
+    20,
+    98,
+    20
    ]
   },
   {
@@ -1096,6 +1155,26 @@
    ]
   },
   {
+   "code": "NL",
+   "code3": "NLD",
+   "name": {
+    "ja": "オランダ",
+    "en": "Netherlands"
+   },
+   "tz": "Europe/Amsterdam",
+   "hasData": false,
+   "centroid": {
+    "x": 61.9,
+    "y": 10.6
+   },
+   "bbox": [
+    61,
+    10,
+    62,
+    11
+   ]
+  },
+  {
    "code": "NO",
    "code3": "NOR",
    "name": {
@@ -1413,6 +1492,26 @@
     6,
     66,
     9
+   ]
+  },
+  {
+   "code": "SG",
+   "code3": "SGP",
+   "name": {
+    "ja": "シンガポール",
+    "en": "Singapore"
+   },
+   "tz": "Asia/Singapore",
+   "hasData": false,
+   "centroid": {
+    "x": 94.61,
+    "y": 27.55
+   },
+   "bbox": [
+    94,
+    27,
+    94,
+    27
    ]
   },
   {

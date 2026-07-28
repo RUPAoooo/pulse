@@ -8,12 +8,15 @@
  *
  * Rendering never touches topic data — `update()` receives finished numbers.
  */
-import { terminator } from './daynight.js';
+import { terminator, solarAltitude } from './daynight.js';
+import { CITIES } from './citylights.js';
 
 const NS = 'http://www.w3.org/2000/svg';
 const DAYNIGHT_MS = 90_000;          // the terminator barely moves; 90 s is plenty
+const MAX_LINKS = 5;
 
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+const coarse = window.matchMedia('(max-width: 680px)');
 
 function el(name, attrs = {}) {
   const node = document.createElementNS(NS, name);
@@ -21,10 +24,22 @@ function el(name, attrs = {}) {
   return node;
 }
 
+function stops(node, list) {
+  for (const [offset, color, opacity] of list) {
+    node.append(el('stop', { offset, 'stop-color': color, 'stop-opacity': opacity }));
+  }
+  return node;
+}
+
 export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
   const meta = geo.meta;
   const W = meta.width;
   const H = meta.height;
+  const project = (lon, lat) => ({
+    x: (lon - meta.lonMin) / meta.deg * meta.cell,
+    y: (meta.latMax - lat) / meta.deg * meta.cell,
+  });
+
   svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
   svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
   svg.textContent = '';
@@ -32,49 +47,74 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
   /* ------------------------------------------------------------------ defs */
   const defs = el('defs');
 
-  const halo = el('radialGradient', { id: 'wp-halo', cx: '50%', cy: '50%', r: '50%' });
-  halo.append(
-    el('stop', { offset: '0%', 'stop-color': 'var(--glow)', 'stop-opacity': '0.5' }),
-    el('stop', { offset: '45%', 'stop-color': 'var(--glow)', 'stop-opacity': '0.13' }),
-    el('stop', { offset: '100%', 'stop-color': 'var(--glow)', 'stop-opacity': '0' }),
-  );
+  const ocean = stops(el('radialGradient', { id: 'wp-ocean', cx: '50%', cy: '42%', r: '78%' }), [
+    ['0%', 'var(--sea-1)', '1'],
+    ['58%', 'var(--sea-2)', '1'],
+    ['100%', 'var(--sea-3)', '1'],
+  ]);
 
-  const daylight = el('radialGradient', { id: 'wp-daylight', cx: '50%', cy: '50%', r: '50%' });
-  daylight.append(
-    el('stop', { offset: '0%', 'stop-color': 'var(--day)', 'stop-opacity': '0.20' }),
-    el('stop', { offset: '60%', 'stop-color': 'var(--day)', 'stop-opacity': '0.05' }),
-    el('stop', { offset: '100%', 'stop-color': 'var(--day)', 'stop-opacity': '0' }),
-  );
+  const halo = stops(el('radialGradient', { id: 'wp-halo', cx: '50%', cy: '50%', r: '50%' }), [
+    ['0%', 'var(--glow)', '0.62'],
+    ['30%', 'var(--glow)', '0.20'],
+    ['70%', 'var(--glow)', '0.04'],
+    ['100%', 'var(--glow)', '0'],
+  ]);
 
-  const nightFill = el('linearGradient', {
-    id: 'wp-night', x1: '0', y1: '0', x2: '0', y2: '1',
-  });
-  nightFill.append(
-    el('stop', { offset: '0%', 'stop-color': 'var(--night)', 'stop-opacity': '0.30' }),
-    el('stop', { offset: '100%', 'stop-color': 'var(--night)', 'stop-opacity': '0.72' }),
-  );
+  const daylight = stops(el('radialGradient', { id: 'wp-daylight', cx: '50%', cy: '50%', r: '50%' }), [
+    ['0%', 'var(--day)', '0.20'],
+    ['55%', 'var(--day)', '0.05'],
+    ['100%', 'var(--day)', '0'],
+  ]);
+
+  const warm = stops(el('radialGradient', { id: 'wp-warm', cx: '50%', cy: '50%', r: '50%' }), [
+    ['0%', 'var(--warm-light)', '0.16'],
+    ['48%', 'var(--warm-light)', '0.05'],
+    ['100%', 'var(--warm-light)', '0'],
+  ]);
+
+  const nightFill = stops(el('linearGradient', { id: 'wp-night', x1: '0', y1: '0', x2: '0', y2: '1' }), [
+    ['0%', 'var(--night)', '0.42'],
+    ['100%', 'var(--night)', '0.80'],
+  ]);
+
+  const vignette = stops(el('radialGradient', { id: 'wp-vignette', cx: '50%', cy: '48%', r: '72%' }), [
+    ['0%', '#000', '0'],
+    ['62%', '#000', '0'],
+    ['100%', 'var(--sea-3)', '0.78'],
+  ]);
 
   const soften = el('filter', {
-    id: 'wp-soften', x: '-12%', y: '-30%', width: '124%', height: '160%',
+    id: 'wp-soften', x: '-14%', y: '-34%', width: '128%', height: '168%',
     'color-interpolation-filters': 'sRGB',
   });
-  soften.append(el('feGaussianBlur', { stdDeviation: '6' }));
+  soften.append(el('feGaussianBlur', { stdDeviation: '7' }));
 
-  defs.append(halo, daylight, nightFill, soften);
+  const cityBlur = el('filter', {
+    id: 'wp-city', x: '-60%', y: '-60%', width: '220%', height: '220%',
+    'color-interpolation-filters': 'sRGB',
+  });
+  cityBlur.append(el('feGaussianBlur', { stdDeviation: '1.6' }));
+
+  defs.append(ocean, halo, daylight, warm, nightFill, vignette, soften, cityBlur);
   svg.append(defs);
 
-  /* An SVG root only receives pointer events where something is painted, so the
-     whole canvas gets a backdrop to hit-test against. */
-  svg.append(el('rect', { class: 'map-bg', x: 0, y: 0, width: W, height: H }));
+  /* The sea doubles as the hit-test backdrop for the whole canvas. */
+  svg.append(el('rect', { class: 'map-sea', x: 0, y: 0, width: W, height: H, fill: 'url(#wp-ocean)' }));
 
   const dayLayer = el('g', { class: 'layer-day' });
   const landLayer = el('g', { class: 'layer-land' });
   const nightLayer = el('g', { class: 'layer-night' });
+  const cityLayer = el('g', { class: 'layer-city' });
   const haloLayer = el('g', { class: 'layer-halo' });
-  const linkLayer = el('g', { class: 'layer-links' });
   const rippleLayer = el('g', { class: 'layer-ripple' });
+  const linkLayer = el('g', { class: 'layer-links' });
+  const labelLayer = el('g', { class: 'layer-label' });
   const hitLayer = el('g', { class: 'layer-hit' });
-  svg.append(dayLayer, landLayer, nightLayer, haloLayer, rippleLayer, linkLayer, hitLayer);
+  svg.append(dayLayer, landLayer, nightLayer, cityLayer, haloLayer, rippleLayer,
+    linkLayer, labelLayer, hitLayer);
+  svg.append(el('rect', {
+    class: 'map-vignette', x: 0, y: 0, width: W, height: H, fill: 'url(#wp-vignette)',
+  }));
 
   /* ------------------------------------------------------------------ land */
   const shapes = new Map();          // code -> <path>
@@ -94,8 +134,8 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
     landLayer.append(path);
   }
 
-  /* Countries the vector file does not cover still need a position for their
-     halo — fall back to the centroid recorded in data/countries.json. */
+  /* A country too small for the 3-degree source grid has no polygon — fall
+     back to the centroid recorded in data/countries.json so it still glows. */
   function anchor(country) {
     const b = bounds.get(country.code);
     if (b) return b;
@@ -107,9 +147,10 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
     return { cx, cy, bbox: [bb[0], bb[1], bb[2] + meta.cell, bb[3] + meta.cell] };
   }
 
-  /* ------------------------------------------------- halos + keyboard hits */
+  /* ------------------------------------------- halos, labels, keyboard hits */
   const halos = new Map();
   const hits = new Map();
+  const labels = new Map();
 
   for (const country of countries.values()) {
     if (!country.hasData) continue;
@@ -117,11 +158,17 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
 
     const g = el('g', { class: 'halo', 'data-code': country.code });
     const glow = el('circle', { cx, cy, r: 60, fill: 'url(#wp-halo)', class: 'halo-glow' });
+    const outer = el('circle', { cx, cy, r: 22, class: 'halo-outer' });
     const ring = el('circle', { cx, cy, r: 14, class: 'halo-ring' });
     const core = el('circle', { cx, cy, r: 2.4, class: 'halo-core' });
-    g.append(glow, ring, core);
+    const spark = el('circle', { cx, cy, r: 1.1, class: 'halo-spark' });
+    g.append(glow, outer, ring, core, spark);
     haloLayer.append(g);
-    halos.set(country.code, { g, glow, ring, core, cx, cy });
+    halos.set(country.code, { g, glow, outer, ring, core, cx, cy });
+
+    const label = el('text', { class: 'clabel', x: cx, y: cy + 17, 'paint-order': 'stroke' });
+    labelLayer.append(label);
+    labels.set(country.code, label);
 
     const pad = 5;
     const hit = el('rect', {
@@ -152,16 +199,31 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
 
     /* A small country is hard to hit by its outline alone, so its marker is
        clickable too. */
-    const dot = el('circle', { class: 'hit-dot', cx, cy, r: 11, 'data-code': country.code });
-    hitLayer.append(dot);
+    hitLayer.append(el('circle', { class: 'hit-dot', cx, cy, r: 11, 'data-code': country.code }));
   }
 
   /* --------------------------------------------------------- day and night */
-  const dayGlow = el('circle', { class: 'daylight', r: W * 0.34, fill: 'url(#wp-daylight)' });
-  dayLayer.append(dayGlow);
+  const dayGlow = el('circle', { class: 'daylight', r: W * 0.32, fill: 'url(#wp-daylight)' });
+  const warmGlow = el('circle', { class: 'warmlight', r: W * 0.5, fill: 'url(#wp-warm)' });
+  dayLayer.append(warmGlow, dayGlow);
+
   const nightShape = el('path', { class: 'night', fill: 'url(#wp-night)', filter: 'url(#wp-soften)' });
   const nightEdge = el('path', { class: 'night-edge' });
   nightLayer.append(nightShape, nightEdge);
+
+  /* city lights — scenery only, never interactive */
+  const cityGroup = el('g', { class: 'city-group', filter: 'url(#wp-city)' });
+  cityLayer.append(cityGroup);
+  const cities = CITIES.map(([lon, lat, weight], i) => {
+    const { x, y } = project(lon, lat);
+    const dot = el('circle', {
+      class: 'city', cx: x, cy: y, r: (0.9 + weight * 1.1).toFixed(2),
+    });
+    dot.style.setProperty('--w', weight.toFixed(2));
+    if (!reduceMotion.matches) dot.style.animationDelay = `${(i % 9) * 0.9}s`;
+    cityGroup.append(dot);
+    return { lon, lat, dot };
+  });
 
   function paintDayNight() {
     const { night, sun } = terminator(meta, new Date());
@@ -169,6 +231,11 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
     nightEdge.setAttribute('d', night);
     dayGlow.setAttribute('cx', sun.x);
     dayGlow.setAttribute('cy', sun.y);
+    warmGlow.setAttribute('cx', sun.x);
+    warmGlow.setAttribute('cy', sun.y);
+    for (const c of cities) {
+      c.dot.classList.toggle('is-night', solarAltitude(c.lon, c.lat, sun) < 0.02);
+    }
   }
   paintDayNight();
   const dayNightTimer = window.setInterval(() => {
@@ -178,13 +245,28 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
   /* --------------------------------------------------------------- pointer */
   let hoverCode = null;
   let selectedCode = null;
+  let labelText = new Map();         // code -> country name in the current language
+  let labelShow = new Set();         // codes app.js decided are worth naming
+
+  function paintLabels() {
+    for (const [code, node] of labels) {
+      const text = labelText.get(code);
+      if (text && node.textContent !== text) node.textContent = text;
+      const forced = code === hoverCode || code === selectedCode;
+      const on = Boolean(node.textContent) && (labelShow.has(code) || forced);
+      node.classList.toggle('is-on', on);
+      node.classList.toggle('is-strong', forced);
+    }
+  }
 
   function paintHover() {
     landLayer.querySelectorAll('.country.is-hover').forEach((p) => p.classList.remove('is-hover'));
     haloLayer.querySelectorAll('.halo.is-hover').forEach((p) => p.classList.remove('is-hover'));
-    if (!hoverCode) return;
-    shapes.get(hoverCode)?.classList.add('is-hover');
-    halos.get(hoverCode)?.g.classList.add('is-hover');
+    if (hoverCode) {
+      shapes.get(hoverCode)?.classList.add('is-hover');
+      halos.get(hoverCode)?.g.classList.add('is-hover');
+    }
+    paintLabels();
   }
 
   /** Country under the pointer — land shape, or the marker of a small country. */
@@ -229,35 +311,61 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
     const ranked = [...activityByCode.entries()]
       .filter(([, v]) => v > 0)
       .sort((a, b) => b[1] - a[1]);
-    const breathing = new Set(ranked.slice(0, 5).map(([c]) => c));
+    const breathing = new Set(ranked.slice(0, coarse.matches ? 3 : 6).map(([c]) => c));
 
     for (const [code, h] of halos) {
       const a = activityByCode.get(code) ?? 0;
       const on = a > 0;
       h.g.classList.toggle('is-off', !on);
+      h.g.classList.toggle('is-strong', a >= 70);
       h.g.classList.toggle('is-breathing', on && breathing.has(code) && !reduceMotion.matches);
       h.g.style.setProperty('--a', (a / 100).toFixed(3));
-      h.glow.setAttribute('r', 30 + a * 0.5);
-      h.ring.setAttribute('r', 8 + a * 0.08);
+      h.glow.setAttribute('r', 17 + a * 0.45);
+      h.outer.setAttribute('r', 11 + a * 0.14);
+      h.ring.setAttribute('r', 5.5 + a * 0.055);
     }
+    paintLabels();
+  }
+
+  /**
+   * app.js owns the wording (language) and the shortlist; the map only draws.
+   *   texts   Map<code, name>   every country that has a name to show
+   *   show    Iterable<code>    the shortlist visible without hovering
+   */
+  function setLabels(texts, show) {
+    labelText = texts instanceof Map ? texts : new Map(texts);
+    labelShow = new Set(show ?? []);
+    paintLabels();
   }
 
   /* -------------------------------------------------------------- ripples */
-  function ripple(code) {
+  function ripple(code, strong = false) {
     if (reduceMotion.matches) return;
     const h = halos.get(code);
     if (!h) return;
-    const c = el('circle', { cx: h.cx, cy: h.cy, r: 8, class: 'ripple' });
-    rippleLayer.append(c);
-    window.setTimeout(() => c.remove(), 3600);
+    const make = (cls, delay) => {
+      const c = el('circle', { cx: h.cx, cy: h.cy, r: 8, class: cls });
+      if (delay) c.style.animationDelay = `${delay}ms`;
+      rippleLayer.append(c);
+      window.setTimeout(() => c.remove(), 3800 + delay);
+    };
+    make('ripple', 0);
+    if (strong) make('ripple ripple-2', 900);   // a second ring for a loud country
   }
 
   /* ---------------------------------------------------------------- links */
   function showLinks(originCode, codes) {
     linkLayer.textContent = '';
-    const from = halos.get(originCode) ?? halos.get(codes?.[0]);
+    const list = (codes ?? []).filter((c) => halos.has(c));
+    if (list.length < 2) return;                 // a link needs two ends
+    const from = halos.get(originCode) ?? halos.get(list[0]);
     if (!from) return;
-    const targets = (codes ?? []).filter((c) => c !== originCode && halos.has(c));
+    const targets = list
+      .filter((c) => c !== (originCode ?? list[0]))
+      .sort((a, b) => (lastActivity.get(b) ?? 0) - (lastActivity.get(a) ?? 0))
+      .slice(0, MAX_LINKS);
+    if (!targets.length) return;
+
     targets.forEach((code, i) => {
       const to = halos.get(code);
       const mx = (from.cx + to.cx) / 2;
@@ -265,16 +373,15 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
       const dx = to.cx - from.cx;
       const dy = to.cy - from.cy;
       const dist = Math.hypot(dx, dy) || 1;
-      const bend = Math.min(96, dist * 0.19);
+      const bend = Math.min(104, dist * 0.21);
       const cx = mx - (dy / dist) * bend;
       const cy = my + (dx / dist) * bend;
-      const path = el('path', {
-        class: 'link',
-        d: `M ${from.cx} ${from.cy} Q ${cx} ${cy} ${to.cx} ${to.cy}`,
-      });
-      if (!reduceMotion.matches) path.style.animationDelay = `${i * 90}ms`;
+      const d = `M ${from.cx} ${from.cy} Q ${cx} ${cy} ${to.cx} ${to.cy}`;
+      linkLayer.append(el('path', { class: 'link-under', d }));
+      const path = el('path', { class: 'link', d });
+      if (!reduceMotion.matches) path.style.animationDelay = `${i * 110}ms`;
       linkLayer.append(path);
-      linkLayer.append(el('circle', { class: 'link-end', cx: to.cx, cy: to.cy, r: 2.6 }));
+      linkLayer.append(el('circle', { class: 'link-end', cx: to.cx, cy: to.cy, r: 2.4 }));
     });
     linkLayer.append(el('circle', { class: 'link-origin', cx: from.cx, cy: from.cy, r: 4 }));
   }
@@ -289,9 +396,11 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
     landLayer.querySelectorAll('.country.is-selected').forEach((p) => p.classList.remove('is-selected'));
     haloLayer.querySelectorAll('.halo.is-selected').forEach((p) => p.classList.remove('is-selected'));
     svg.classList.toggle('has-selection', Boolean(code));
-    if (!code) return;
-    shapes.get(code)?.classList.add('is-selected');
-    halos.get(code)?.g.classList.add('is-selected');
+    if (code) {
+      shapes.get(code)?.classList.add('is-selected');
+      halos.get(code)?.g.classList.add('is-selected');
+    }
+    paintLabels();
   }
 
   function focusCountry(code) {
@@ -317,7 +426,7 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
 
   return {
     update, ripple, showLinks, clearLinks, setSelected, focusCountry, setLabel,
-    centroidClientPos, destroy,
+    setLabels, centroidClientPos, destroy,
     get selected() { return selectedCode; },
     get activity() { return lastActivity; },
     prefersReducedMotion: () => reduceMotion.matches,

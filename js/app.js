@@ -302,11 +302,30 @@ function h(tag, cls, text) {
   return node;
 }
 
+/** At most eight names on the map at once, plus whatever is hovered/selected. */
+const MAX_LABELS = 8;
+
+function paintLabels(activity) {
+  const texts = new Map();
+  for (const [code] of activity) {
+    const country = state.model.countries.get(code);
+    if (country) texts.set(code, pick(country.name));
+  }
+  const show = [...activity.entries()]
+    .filter(([, v]) => v > 0)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, MAX_LABELS)
+    .map(([code]) => code);
+  if (state.selected && !show.includes(state.selected)) show.push(state.selected);
+  map.setLabels(texts, show);
+}
+
 function render() {
   paintDataMode();
   const ctx = context();
   const activity = activityMap(ctx.state);
   map.update(activity);
+  paintLabels(activity);
 
   for (const [code, value] of activity) {
     const country = state.model.countries.get(code);
@@ -448,12 +467,12 @@ function startRipples() {
     const candidates = [...ctx.state.values()]
       .filter((e) => e.hasData && filterTopics(e.topics).some((x) => x.status === 'emerging' || x.status === 'rising'))
       .sort((a, b) => b.activityScore - a.activityScore)
-      .slice(0, 6);
+      .slice(0, 8);
     if (!candidates.length) return;
     const pick$ = candidates[Math.floor(Math.random() * candidates.length)];
-    map.ripple(pick$.code);
-    if (state.selected) map.ripple(state.selected);
-  }, 4200);
+    map.ripple(pick$.code, pick$.activityScore >= 75);
+    if (state.selected) map.ripple(state.selected, false);
+  }, 3600);
 }
 
 /* ------------------------------------------------------------------ intro */
