@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-28T15:56:39.364Z",
+ "fetchedAt": "2026-07-28T20:38:31.034Z",
  "source": "Wikimedia Pageviews API",
  "countries": [
   {
@@ -1158,18 +1158,26 @@
    "code": "NO",
    "perCountry": true,
    "project": "no.wikipedia",
-   "date": "2026-07-27",
+   "date": "2026-07-26",
    "articles": [
     {
      "rank": 1,
      "title": "Forside",
-     "views": 14200,
+     "views": 14600,
      "url": "https://no.wikipedia.org/wiki/Forside",
      "project": "no.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 2,
+     "title": "The Odyssey (2026 film)",
+     "views": 2100,
+     "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
+     "project": "en.wikipedia",
+     "category": "ENTERTAINMENT"
+    },
+    {
+     "rank": 3,
      "title": "The Odyssey",
      "views": 1900,
      "url": "https://no.wikipedia.org/wiki/The_Odyssey",
@@ -1177,26 +1185,34 @@
      "category": "OTHER"
     },
     {
-     "rank": 3,
-     "title": "The Odyssey (2026 film)",
-     "views": 1800,
-     "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
-     "project": "en.wikipedia",
-     "category": "ENTERTAINMENT"
-    },
-    {
      "rank": 4,
      "title": "Odysseen",
-     "views": 1700,
+     "views": 1800,
      "url": "https://no.wikipedia.org/wiki/Odysseen",
      "project": "no.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 5,
-     "title": "Hebridene",
-     "views": 1500,
-     "url": "https://no.wikipedia.org/wiki/Hebridene",
+     "title": "New Hampshire",
+     "views": 1800,
+     "url": "https://en.wikipedia.org/wiki/New_Hampshire",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 6,
+     "title": "Odyssey",
+     "views": 1400,
+     "url": "https://en.wikipedia.org/wiki/Odyssey",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 7,
+     "title": "Robin Hood",
+     "views": 1300,
+     "url": "https://no.wikipedia.org/wiki/Robin_Hood",
      "project": "no.wikipedia",
      "category": "OTHER"
     }
@@ -1350,71 +1366,71 @@
    "code": "TR",
    "perCountry": false,
    "project": "tr.wikipedia",
-   "date": "2026-07-27",
+   "date": "2026-07-26",
    "articles": [
     {
      "rank": 1,
      "title": "Anasayfa",
-     "views": 44529,
+     "views": 48495,
      "url": "https://tr.wikipedia.org/wiki/Anasayfa",
      "project": "tr.wikipedia",
      "category": "SCIENCE"
     },
     {
      "rank": 2,
+     "title": "FIVB Kadınlar Voleybol Milletler Ligi",
+     "views": 32940,
+     "url": "https://tr.wikipedia.org/wiki/FIVB_Kad%C4%B1nlar_Voleybol_Milletler_Ligi",
+     "project": "tr.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 3,
      "title": "Yeni Parti (2026)",
-     "views": 25026,
+     "views": 31119,
      "url": "https://tr.wikipedia.org/wiki/Yeni_Parti_(2026)",
      "project": "tr.wikipedia",
      "category": "BUSINESS"
     },
     {
-     "rank": 3,
-     "title": "Özel:Ara",
-     "views": 19067,
-     "url": "https://tr.wikipedia.org/wiki/%C3%96zel%3AAra",
-     "project": "tr.wikipedia",
-     "category": "OTHER"
-    },
-    {
      "rank": 4,
-     "title": "Seks ve Genç Kız (film)",
-     "views": 12814,
-     "url": "https://tr.wikipedia.org/wiki/Seks_ve_Gen%C3%A7_K%C4%B1z_(film)",
-     "project": "tr.wikipedia",
-     "category": "ENTERTAINMENT"
-    },
-    {
-     "rank": 5,
-     "title": "Melissa Vargas",
-     "views": 9435,
-     "url": "https://tr.wikipedia.org/wiki/Melissa_Vargas",
-     "project": "tr.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 6,
      "title": "Türkiye kadın millî voleybol takımı",
-     "views": 8264,
+     "views": 28662,
      "url": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_kad%C4%B1n_mill%C3%AE_voleybol_tak%C4%B1m%C4%B1",
      "project": "tr.wikipedia",
      "category": "OTHER"
     },
     {
-     "rank": 7,
+     "rank": 5,
+     "title": "Sinead Jack-Kısal",
+     "views": 26818,
+     "url": "https://tr.wikipedia.org/wiki/Sinead_Jack-K%C4%B1sal",
+     "project": "tr.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 6,
      "title": "FIVB Dünya Sıralaması",
-     "views": 7646,
+     "views": 24318,
      "url": "https://tr.wikipedia.org/wiki/FIVB_D%C3%BCnya_S%C4%B1ralamas%C4%B1",
      "project": "tr.wikipedia",
      "category": "OTHER"
     },
     {
-     "rank": 8,
-     "title": "Odyssey (film)",
-     "views": 7394,
-     "url": "https://tr.wikipedia.org/wiki/Odyssey_(film)",
+     "rank": 7,
+     "title": "Melissa Vargas",
+     "views": 23772,
+     "url": "https://tr.wikipedia.org/wiki/Melissa_Vargas",
      "project": "tr.wikipedia",
-     "category": "ENTERTAINMENT"
+     "category": "OTHER"
+    },
+    {
+     "rank": 8,
+     "title": "2026 FIVB Kadınlar Voleybol Milletler Ligi",
+     "views": 18054,
+     "url": "https://tr.wikipedia.org/wiki/2026_FIVB_Kad%C4%B1nlar_Voleybol_Milletler_Ligi",
+     "project": "tr.wikipedia",
+     "category": "OTHER"
     }
    ]
   },
@@ -1902,12 +1918,12 @@
    "code": "SG",
    "perCountry": true,
    "project": "en.wikipedia",
-   "date": "2026-07-26",
+   "date": "2026-07-27",
    "articles": [
     {
      "rank": 1,
      "title": ".xyz",
-     "views": 30200,
+     "views": 32400,
      "url": "https://en.wikipedia.org/wiki/.xyz",
      "project": "en.wikipedia",
      "category": "OTHER"
@@ -1915,56 +1931,56 @@
     {
      "rank": 2,
      "title": "The Odyssey (2026 film)",
-     "views": 9800,
+     "views": 8500,
      "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
      "project": "en.wikipedia",
      "category": "ENTERTAINMENT"
     },
     {
      "rank": 3,
-     "title": "Agent Kim Reactivated",
-     "views": 4600,
-     "url": "https://en.wikipedia.org/wiki/Agent_Kim_Reactivated",
+     "title": "Streamwaves",
+     "views": 7000,
+     "url": "https://en.wikipedia.org/wiki/Streamwaves",
      "project": "en.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 4,
-     "title": "Tham Luang cave rescue",
-     "views": 3700,
-     "url": "https://en.wikipedia.org/wiki/Tham_Luang_cave_rescue",
-     "project": "en.wikipedia",
+     "title": "東野圭吾",
+     "views": 4700,
+     "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E9%87%8E%E5%9C%AD%E5%90%BE",
+     "project": "zh.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 5,
-     "title": "wiki.phtml",
-     "views": 3400,
-     "url": "https://de.wikipedia.org/wiki/wiki.phtml",
-     "project": "de.wikipedia",
-     "category": "OTHER"
+     "title": "2026 ASEAN Championship",
+     "views": 2900,
+     "url": "https://en.wikipedia.org/wiki/2026_ASEAN_Championship",
+     "project": "en.wikipedia",
+     "category": "SPORTS"
     },
     {
      "rank": 6,
-     "title": "David Jonsson",
-     "views": 3200,
-     "url": "https://en.wikipedia.org/wiki/David_Jonsson",
+     "title": "Agent Kim Reactivated",
+     "views": 2500,
+     "url": "https://en.wikipedia.org/wiki/Agent_Kim_Reactivated",
      "project": "en.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 7,
-     "title": "Thirteen Lives",
-     "views": 3200,
-     "url": "https://en.wikipedia.org/wiki/Thirteen_Lives",
+     "title": "ASEAN Championship",
+     "views": 2000,
+     "url": "https://en.wikipedia.org/wiki/ASEAN_Championship",
      "project": "en.wikipedia",
-     "category": "OTHER"
+     "category": "SPORTS"
     },
     {
      "rank": 8,
-     "title": "Odyssey",
-     "views": 2500,
-     "url": "https://en.wikipedia.org/wiki/Odyssey",
+     "title": "Jana Nayagan",
+     "views": 2000,
+     "url": "https://en.wikipedia.org/wiki/Jana_Nayagan",
      "project": "en.wikipedia",
      "category": "OTHER"
     }

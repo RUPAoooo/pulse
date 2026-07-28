@@ -1,49 +1,18 @@
 {
- "updatedAt": "2026-07-28T15:59:19.679Z",
+ "updatedAt": "2026-07-28T20:45:07.181Z",
  "source": "live",
- "fingerprint": "389d0ff9eb2e5c073557feb7c0907ec16358125e",
+ "fingerprint": "105a803541c16a8d7f45df098b42768045040ae6",
  "wikiPerCountry": false,
  "newsSource": "GDELT DOC 2.0 API",
  "wikiSource": "Wikimedia Pageviews API",
  "countries": [
   {
    "code": "AR",
-   "activityScore": 99,
+   "activityScore": 87,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
-    {
-     "id": "n-8975d3d3d2",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Netanyahu se reúne con Trump en la Casa Blanca para abordar la guerra con Irán , Gaza y el acuerdo de seguridad con Líbano",
-      "en": "Netanyahu se reúne con Trump en la Casa Blanca para abordar la guerra con Irán , Gaza y el acuerdo de seguridad con Líbano"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 100,
-     "url": "https://www.infobae.com/america/mundo/2026/07/28/netanyahu-se-reune-con-trump-en-la-casa-blanca-para-abordar-la-guerra-con-iran-gaza-y-el-acuerdo-de-seguridad-con-libano/",
-     "outlet": "infobae.com",
-     "publishedAt": "2026-07-28T07:30:00Z",
-     "language": "Spanish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AR",
-     "relatedCountries": [
-      "AR"
-     ],
-     "startedAt": "2026-07-28T07:30:00Z",
-     "durationHours": null
-    },
     {
      "id": "w-99a661139b",
      "kind": "WIKI",
@@ -74,68 +43,6 @@
       "AR"
      ],
      "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "n-af7dbd75ee",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Zelensky se reúne con Trump en Washington para reforzar el apoyo de Estados Unidos frente a Rusia en plena escalada militar",
-      "en": "Zelensky se reúne con Trump en Washington para reforzar el apoyo de Estados Unidos frente a Rusia en plena escalada militar"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WORLD",
-     "score": 96,
-     "url": "https://www.infobae.com/america/mundo/2026/07/28/zelensky-se-reune-con-trump-en-washington-para-reforzar-el-apoyo-de-estados-unidos-frente-a-rusia-en-plena-escalada-militar/",
-     "outlet": "infobae.com",
-     "publishedAt": "2026-07-28T07:30:00Z",
-     "language": "Spanish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AR",
-     "relatedCountries": [
-      "AR"
-     ],
-     "startedAt": "2026-07-28T07:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-3903728bef",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Un terremoto de magnitud 7 , 1 golpeó el suroeste de Japón : las autoridades levantaron la alerta de tsunami",
-      "en": "Un terremoto de magnitud 7 , 1 golpeó el suroeste de Japón : las autoridades levantaron la alerta de tsunami"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WEATHER",
-     "score": 92,
-     "url": "https://www.infobae.com/america/mundo/2026/07/28/un-terremoto-de-magnitud-71-sacudio-el-suroeste-de-japon-las-autoridades-emitieron-una-alerta-de-tsunami/",
-     "outlet": "infobae.com",
-     "publishedAt": "2026-07-28T09:45:00Z",
-     "language": "Spanish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AR",
-     "relatedCountries": [
-      "AR"
-     ],
-     "startedAt": "2026-07-28T09:45:00Z",
      "durationHours": null
     },
     {
@@ -374,11 +281,42 @@
   },
   {
    "code": "AU",
-   "activityScore": 91,
+   "activityScore": 99,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
+    {
+     "id": "n-5942c16449",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Pauline Hanson reveals Gina Rinehart paid for Italy flights and Dolce & Gabbana show",
+      "en": "Pauline Hanson reveals Gina Rinehart paid for Italy flights and Dolce & Gabbana show"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "TECH",
+     "score": 100,
+     "url": "https://www.abc.net.au/news/2026-07-28/hanson-reveals-rinehart-paid-for-italy-trip/106968518",
+     "outlet": "abc.net.au",
+     "publishedAt": "2026-07-28T09:15:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "AU",
+     "relatedCountries": [
+      "AU"
+     ],
+     "startedAt": "2026-07-28T09:15:00Z",
+     "durationHours": null
+    },
     {
      "id": "w-6d8fa4ae76",
      "kind": "WIKI",
@@ -411,6 +349,99 @@
       "NZ"
      ],
      "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "n-f9819b88ee",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Ben Carroll walks into the top job just four months out from Victoria election",
+      "en": "Ben Carroll walks into the top job just four months out from Victoria election"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "POLITICS",
+     "score": 96,
+     "url": "https://www.abc.net.au/news/2026-07-28/ben-carroll-vic-labor-premier-analysis/106966210",
+     "outlet": "abc.net.au",
+     "publishedAt": "2026-07-28T09:15:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "AU",
+     "relatedCountries": [
+      "AU"
+     ],
+     "startedAt": "2026-07-28T09:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-90d1e7333e",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Green energy funding snub for renewable - powered Bell Bay Aluminium smelter",
+      "en": "Green energy funding snub for renewable - powered Bell Bay Aluminium smelter"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 92,
+     "url": "https://www.abc.net.au/news/2026-07-28/no-green-energy-funding-for-rio-tinto-bell-bay-smelter/106966502",
+     "outlet": "abc.net.au",
+     "publishedAt": "2026-07-28T04:30:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "AU",
+     "relatedCountries": [
+      "AU"
+     ],
+     "startedAt": "2026-07-28T04:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-bbc3fb5266",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Property sector puts Ben Carroll on notice over Allan  damaging  reforms",
+      "en": "Property sector puts Ben Carroll on notice over Allan  damaging  reforms"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 88,
+     "url": "https://www.realestate.com.au/news/property-sector-puts-ben-carroll-on-notice-over-allans-damaging-reforms/",
+     "outlet": "realestate.com.au",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "AU",
+     "relatedCountries": [
+      "AU"
+     ],
+     "startedAt": "2026-07-28T08:30:00Z",
      "durationHours": null
     },
     {
@@ -460,6 +491,130 @@
      "durationHours": null
     },
     {
+     "id": "n-c608261b9e",
+     "kind": "NEWS",
+     "title": {
+      "ja": "The $74k loan saving a 10 - minute check just uncovered",
+      "en": "The $74k loan saving a 10 - minute check just uncovered"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 84,
+     "url": "https://www.realestate.com.au/news/the-74k-loan-saving-a-10minute-check-just-uncovered/",
+     "outlet": "realestate.com.au",
+     "publishedAt": "2026-07-28T05:00:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "AU",
+     "relatedCountries": [
+      "AU"
+     ],
+     "startedAt": "2026-07-28T05:00:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-fa50da8e30",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Homes and fortune Peter Brock left behind - realestate . com . au",
+      "en": "Homes and fortune Peter Brock left behind - realestate . com . au"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 80,
+     "url": "https://www.realestate.com.au/news/homes-and-fortune-peter-brock-left-behind/",
+     "outlet": "realestate.com.au",
+     "publishedAt": "2026-07-28T01:00:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "AU",
+     "relatedCountries": [
+      "AU"
+     ],
+     "startedAt": "2026-07-28T01:00:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-e218a290ea",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Divided Liberals need a coalition with themselves , not One Nation",
+      "en": "Divided Liberals need a coalition with themselves , not One Nation"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 76,
+     "url": "https://www.smh.com.au/national/nsw/divided-liberals-need-a-coalition-with-themselves-not-one-nation-20260728-p60j61.html",
+     "outlet": "smh.com.au",
+     "publishedAt": "2026-07-28T09:15:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "AU",
+     "relatedCountries": [
+      "AU"
+     ],
+     "startedAt": "2026-07-28T09:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-46682b5474",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Coronial inquest to probe death of cheerleader",
+      "en": "Coronial inquest to probe death of cheerleader"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 72,
+     "url": "https://www.smh.com.au/national/coronial-inquest-to-probe-death-of-cheerleader-20260728-p60jec.html",
+     "outlet": "smh.com.au",
+     "publishedAt": "2026-07-28T09:15:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "AU",
+     "relatedCountries": [
+      "AU"
+     ],
+     "startedAt": "2026-07-28T09:15:00Z",
+     "durationHours": null
+    },
+    {
      "id": "w-8cca0ef8af",
      "kind": "WIKI",
      "title": {
@@ -489,6 +644,37 @@
       "AU"
      ],
      "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "n-76b155a5fb",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Moira Deeming resigns from Victorian Liberal Party",
+      "en": "Moira Deeming resigns from Victorian Liberal Party"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "POLITICS",
+     "score": 68,
+     "url": "https://www.smh.com.au/national/moira-deeming-resigns-from-victorian-liberal-party-20260728-p60jea.html",
+     "outlet": "smh.com.au",
+     "publishedAt": "2026-07-28T09:15:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "AU",
+     "relatedCountries": [
+      "AU"
+     ],
+     "startedAt": "2026-07-28T09:15:00Z",
      "durationHours": null
     },
     {
@@ -1017,8 +1203,8 @@
      "relatedCountries": [
       "US",
       "CA",
-      "PH",
-      "SG"
+      "NO",
+      "PH"
      ],
      "startedAt": null,
      "durationHours": null
@@ -1503,42 +1689,11 @@
   },
   {
    "code": "DE",
-   "activityScore": 99,
+   "activityScore": 88,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
-    {
-     "id": "n-88f3ba1d85",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Deutschland spricht 2026 : Tausende diskutieren über Politik und Gesellschaft",
-      "en": "Deutschland spricht 2026 : Tausende diskutieren über Politik und Gesellschaft"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WORLD",
-     "score": 100,
-     "url": "https://www.spiegel.de/backstage/deutschland-spricht-2026-tausende-diskutieren-ueber-politik-und-gesellschaft-a-d52e6703-4c17-4ea4-a60f-d181d53c0338",
-     "outlet": "spiegel.de",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "German",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "DE",
-     "relatedCountries": [
-      "DE"
-     ],
-     "startedAt": "2026-07-28T08:30:00Z",
-     "durationHours": null
-    },
     {
      "id": "w-344f28ff9a",
      "kind": "WIKI",
@@ -1573,223 +1728,6 @@
      "durationHours": null
     },
     {
-     "id": "n-9e83950cbb",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Deutschland spricht 2026 : Melden Sie sich hier an",
-      "en": "Deutschland spricht 2026 : Melden Sie sich hier an"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 96,
-     "url": "https://www.spiegel.de/backstage/deutschland-spricht-2026-melden-sie-sich-hier-an-a-43c53415-ff81-43c7-b5a1-472a66ffcb9b",
-     "outlet": "spiegel.de",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "German",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "DE",
-     "relatedCountries": [
-      "DE"
-     ],
-     "startedAt": "2026-07-28T08:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-fedbe1fd4b",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Iran : Zwei weitere Hinrichtungen nach Massenprotesten im Januar",
-      "en": "Iran : Zwei weitere Hinrichtungen nach Massenprotesten im Januar"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WORLD",
-     "score": 92,
-     "url": "https://www.spiegel.de/ausland/iran-zwei-weitere-hinrichtungen-nach-massenprotesten-im-januar-a-8c157354-11c9-4412-a2a9-b743589daab2",
-     "outlet": "spiegel.de",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "German",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "DE",
-     "relatedCountries": [
-      "DE"
-     ],
-     "startedAt": "2026-07-28T08:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-189f2eb126",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Katzen putzen sich gegenseitig : Ist das wirklich ein Liebesbeweis ?",
-      "en": "Katzen putzen sich gegenseitig : Ist das wirklich ein Liebesbeweis ?"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 88,
-     "url": "https://www.bild.de/leben-wissen/haustiere/katzen-putzen-sich-gegenseitig-ist-das-wirklich-ein-liebesbeweis-6a608dd6ea7bf3843138ab6e",
-     "outlet": "bild.de",
-     "publishedAt": "2026-07-28T07:30:00Z",
-     "language": "German",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "DE",
-     "relatedCountries": [
-      "DE"
-     ],
-     "startedAt": "2026-07-28T07:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-ddb803c440",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Martenstein : Auch Köln ist für Hape Kerkeling nicht sicher",
-      "en": "Martenstein : Auch Köln ist für Hape Kerkeling nicht sicher"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "CULTURE",
-     "score": 84,
-     "url": "https://www.bild.de/politik/meinung-kommentare-kolumnen/martenstein-auch-koeln-ist-fuer-hape-kerkeling-nicht-sicher-6a67558e8405ab7d4b7164f8",
-     "outlet": "bild.de",
-     "publishedAt": "2026-07-28T07:30:00Z",
-     "language": "German",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "DE",
-     "relatedCountries": [
-      "DE"
-     ],
-     "startedAt": "2026-07-28T07:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-7d18d0f7eb",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Star - Moderatorin Guthrie spricht zu Entführern ihrer Mutter : „ Ich flehe euch an ! | Unterhaltung",
-      "en": "Star - Moderatorin Guthrie spricht zu Entführern ihrer Mutter : „ Ich flehe euch an ! | Unterhaltung"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "ENTERTAINMENT",
-     "score": 80,
-     "url": "https://www.bild.de/unterhaltung/stars-und-leute/star-moderatorin-guthrie-spricht-zu-entfuehrern-ihrer-mutter-ich-flehe-euch-an-6a682493a17ee9f1dfd80f99",
-     "outlet": "bild.de",
-     "publishedAt": "2026-07-28T07:30:00Z",
-     "language": "German",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "DE",
-     "relatedCountries": [
-      "DE"
-     ],
-     "startedAt": "2026-07-28T07:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-d1ed9790fa",
-     "kind": "NEWS",
-     "title": {
-      "ja": "CSD - Anschlag in Berlin : Dobrindt fordert Präventivhaft und Fußfesseln",
-      "en": "CSD - Anschlag in Berlin : Dobrindt fordert Präventivhaft und Fußfesseln"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WORLD",
-     "score": 76,
-     "url": "https://www.t-online.de/nachrichten/deutschland/innenpolitik/id_101362954/csd-anschlag-in-berlin-dobrindt-fordert-praeventivhaft-und-fussfesseln.html",
-     "outlet": "t-online.de",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "German",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "DE",
-     "relatedCountries": [
-      "DE"
-     ],
-     "startedAt": "2026-07-28T08:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-2e4cc66556",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Hitzefalle Wohnmobil : Diese Tricks helfen Campern bei hohen Temperaturen",
-      "en": "Hitzefalle Wohnmobil : Diese Tricks helfen Campern bei hohen Temperaturen"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 72,
-     "url": "https://www.t-online.de/mobilitaet/wohnmobile/id_101269190/hitzefalle-wohnmobil-diese-tricks-helfen-campern-bei-hohen-temperaturen.html",
-     "outlet": "t-online.de",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "German",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "DE",
-     "relatedCountries": [
-      "DE"
-     ],
-     "startedAt": "2026-07-28T08:30:00Z",
-     "durationHours": null
-    },
-    {
      "id": "w-e9e3fa4c98",
      "kind": "WIKI",
      "title": {
@@ -1819,37 +1757,6 @@
       "DE"
      ],
      "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "n-a4f4538cc1",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Iran - Krieg aktuell : Trumps Rückhalt für Iran - Krieg schwindet in den united states",
-      "en": "Iran - Krieg aktuell : Trumps Rückhalt für Iran - Krieg schwindet in den united states"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WORLD",
-     "score": 68,
-     "url": "https://www.t-online.de/nachrichten/ausland/krisen/id_101351188/iran-krieg-aktuell-trumps-rueckhalt-fuer-iran-krieg-schwindet-in-den-usa.html",
-     "outlet": "t-online.de",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "German",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "DE",
-     "relatedCountries": [
-      "DE"
-     ],
-     "startedAt": "2026-07-28T08:30:00Z",
      "durationHours": null
     },
     {
@@ -3355,6 +3262,7 @@
      "origin": "JP",
      "relatedCountries": [
       "JP",
+      "SG",
       "TW",
       "HK"
      ],
@@ -3594,11 +3502,42 @@
   },
   {
    "code": "ID",
-   "activityScore": 85,
+   "activityScore": 99,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
+    {
+     "id": "n-3ca31eca7f",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Tabligh Akbar di Masjid Raya Singkawang Perkuat Ukhuwah dan Toleransi dalam Bingkai NKRI",
+      "en": "Tabligh Akbar di Masjid Raya Singkawang Perkuat Ukhuwah dan Toleransi dalam Bingkai NKRI"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "TECH",
+     "score": 100,
+     "url": "https://pontianak.tribunnews.com/kalbar/1180600/tabligh-akbar-di-masjid-raya-singkawang-perkuat-ukhuwah-dan-toleransi-dalam-bingkai-nkri",
+     "outlet": "pontianak.tribunnews.com",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "Indonesian",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "ID",
+     "relatedCountries": [
+      "ID"
+     ],
+     "startedAt": "2026-07-28T08:30:00Z",
+     "durationHours": null
+    },
     {
      "id": "w-8de3593d09",
      "kind": "WIKI",
@@ -3632,6 +3571,254 @@
      "durationHours": null
     },
     {
+     "id": "n-ce6b48e9b0",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Bombana Menerima Dana Transfer ke Daerah 2026 Rp 355 Miliar , DAU Terbesar",
+      "en": "Bombana Menerima Dana Transfer ke Daerah 2026 Rp 355 Miliar , DAU Terbesar"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 96,
+     "url": "https://batam.tribunnews.com/news/690964/bombana-menerima-dana-transfer-ke-daerah-2026-rp-355-miliar-dau-terbesar",
+     "outlet": "batam.tribunnews.com",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "Indonesian",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "ID",
+     "relatedCountries": [
+      "ID"
+     ],
+     "startedAt": "2026-07-28T08:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-b7e7e8f57c",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Chat Lodewyk Pusung ke Istri Jadi Bukti Kejagung soal Peran Eks Wakil Kepala BGN dalam Korupsi MBG",
+      "en": "Chat Lodewyk Pusung ke Istri Jadi Bukti Kejagung soal Peran Eks Wakil Kepala BGN dalam Korupsi MBG"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 92,
+     "url": "https://www.tribunnews.com/nasional/7860391/chat-lodewyk-pusung-ke-istri-jadi-bukti-kejagung-soal-peran-eks-wakil-kepala-bgn-dalam-korupsi-mbg",
+     "outlet": "tribunnews.com",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "Indonesian",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "ID",
+     "relatedCountries": [
+      "ID"
+     ],
+     "startedAt": "2026-07-28T08:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-761f093f90",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Sosok NA , Siswi SD di Padang Diduga Korban Bullying Meninggal di Hari Ultah , Minta Kue Cokelat",
+      "en": "Sosok NA , Siswi SD di Padang Diduga Korban Bullying Meninggal di Hari Ultah , Minta Kue Cokelat"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 88,
+     "url": "https://www.tribunnews.com/regional/7860385/sosok-na-siswi-sd-di-padang-diduga-korban-bullying-meninggal-di-hari-ultah-minta-kue-cokelat",
+     "outlet": "tribunnews.com",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "Indonesian",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "ID",
+     "relatedCountries": [
+      "ID"
+     ],
+     "startedAt": "2026-07-28T08:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-83cd6b04cb",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Chord Gitar Minang Timur - Atta Music feat Juan Reza , Cantik Manis Pipi Congka Adoh",
+      "en": "Chord Gitar Minang Timur - Atta Music feat Juan Reza , Cantik Manis Pipi Congka Adoh"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "ENTERTAINMENT",
+     "score": 84,
+     "url": "https://batam.tribunnews.com/musik/690970/chord-gitar-minang-timur-atta-music-feat-juan-reza-cantik-manis-pipi-congka-adoh",
+     "outlet": "batam.tribunnews.com",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "Indonesian",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "ID",
+     "relatedCountries": [
+      "ID"
+     ],
+     "startedAt": "2026-07-28T08:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-f80e353849",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Prediksi Skor Aston Villa vs Real Sociedad :  Head - to - head dan Statistik di Persiapan Pramusim",
+      "en": "Prediksi Skor Aston Villa vs Real Sociedad :  Head - to - head dan Statistik di Persiapan Pramusim"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 80,
+     "url": "https://jambi.tribunnews.com/superball/1201284/prediksi-skor-aston-villa-vs-real-sociedadhead-to-head-dan-statistik-di-persiapan-pramusim",
+     "outlet": "jambi.tribunnews.com",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "Indonesian",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "ID",
+     "relatedCountries": [
+      "ID"
+     ],
+     "startedAt": "2026-07-28T08:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-dde1d819cf",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Kota Bau - bau Dikucuri Dana Transfer ke Daerah 2026 Rp 312 Miliar , DAU Terbesar",
+      "en": "Kota Bau - bau Dikucuri Dana Transfer ke Daerah 2026 Rp 312 Miliar , DAU Terbesar"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 76,
+     "url": "https://batam.tribunnews.com/news/690957/kota-bau-bau-dikucuri-dana-transfer-ke-daerah-2026-rp-312-miliar-dau-terbesar",
+     "outlet": "batam.tribunnews.com",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "Indonesian",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "ID",
+     "relatedCountries": [
+      "ID"
+     ],
+     "startedAt": "2026-07-28T08:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-34999e0b2c",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Diputusin , Pria di Depok Aniaya Mantan Kekasih Sampai Mengancam :  Lo Tahu Kan Gue Orangnya !",
+      "en": "Diputusin , Pria di Depok Aniaya Mantan Kekasih Sampai Mengancam :  Lo Tahu Kan Gue Orangnya !"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "TECH",
+     "score": 72,
+     "url": "https://jakarta.tribunnews.com/bodetabek/439461/diputusin-pria-di-depok-aniaya-mantan-kekasih-sampai-mengancam-lo-tahu-kan-gue-orangnya",
+     "outlet": "jakarta.tribunnews.com",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "Indonesian",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "ID",
+     "relatedCountries": [
+      "ID"
+     ],
+     "startedAt": "2026-07-28T08:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-a8735c04ef",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Legislator PDIP Desak Pemerintah Pusat Cairkan DBH Jakarta , Sebut Anggaran Komisi D Defisit Rp 1 , 5 T",
+      "en": "Legislator PDIP Desak Pemerintah Pusat Cairkan DBH Jakarta , Sebut Anggaran Komisi D Defisit Rp 1 , 5 T"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "TECH",
+     "score": 68,
+     "url": "https://jakarta.tribunnews.com/jakarta/439467/legislator-pdip-desak-pemerintah-pusat-cairkan-dbh-jakarta-sebut-anggaran-komisi-d-defisit-rp-15-t",
+     "outlet": "jakarta.tribunnews.com",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "Indonesian",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "ID",
+     "relatedCountries": [
+      "ID"
+     ],
+     "startedAt": "2026-07-28T08:30:00Z",
+     "durationHours": null
+    },
+    {
      "id": "w-d9776f05a5",
      "kind": "WIKI",
      "title": {
@@ -3661,6 +3848,37 @@
       "ID"
      ],
      "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "n-b8238ead47",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Kantor Terbuat dari Peti Kemas di Penjaringan Jakut Kebakaran , Kerugian Capai Rp 60 Juta",
+      "en": "Kantor Terbuat dari Peti Kemas di Penjaringan Jakut Kebakaran , Kerugian Capai Rp 60 Juta"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "TECH",
+     "score": 64,
+     "url": "https://jakarta.tribunnews.com/jakarta/439463/kantor-terbuat-dari-peti-kemas-di-penjaringan-jakut-kebakaran-kerugian-capai-rp-60-juta",
+     "outlet": "jakarta.tribunnews.com",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "Indonesian",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "ID",
+     "relatedCountries": [
+      "ID"
+     ],
+     "startedAt": "2026-07-28T08:30:00Z",
      "durationHours": null
     },
     {
@@ -3749,12 +3967,13 @@
      "sources": [
       "WIKIPEDIA"
      ],
-     "scope": "LOCAL",
+     "scope": "GLOBAL",
      "change": 0,
      "status": "stable",
      "origin": "ID",
      "relatedCountries": [
-      "ID"
+      "ID",
+      "SG"
      ],
      "startedAt": null,
      "durationHours": null
@@ -3966,12 +4185,13 @@
      "sources": [
       "WIKIPEDIA"
      ],
-     "scope": "LOCAL",
+     "scope": "GLOBAL",
      "change": 0,
      "status": "stable",
      "origin": "IN",
      "relatedCountries": [
-      "IN"
+      "IN",
+      "SG"
      ],
      "startedAt": null,
      "durationHours": null
@@ -4448,7 +4668,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "JP",
      "relatedCountries": [
       "JP"
@@ -4484,6 +4704,7 @@
      "origin": "JP",
      "relatedCountries": [
       "JP",
+      "SG",
       "TW",
       "HK"
      ],
@@ -4513,7 +4734,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "JP",
      "relatedCountries": [
       "JP"
@@ -4544,7 +4765,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "JP",
      "relatedCountries": [
       "JP"
@@ -4575,7 +4796,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "JP",
      "relatedCountries": [
       "JP"
@@ -4606,7 +4827,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "JP",
      "relatedCountries": [
       "JP"
@@ -4637,7 +4858,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "JP",
      "relatedCountries": [
       "JP"
@@ -4668,7 +4889,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "JP",
      "relatedCountries": [
       "JP"
@@ -4699,7 +4920,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "JP",
      "relatedCountries": [
       "JP"
@@ -4730,7 +4951,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "JP",
      "relatedCountries": [
       "JP"
@@ -5232,42 +5453,11 @@
   },
   {
    "code": "MX",
-   "activityScore": 99,
+   "activityScore": 86,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
-    {
-     "id": "n-8db4bff2d6",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Vozinha enfrenta inesperado problema en Colo Colo : no podría usar su apodo en la camiseta",
-      "en": "Vozinha enfrenta inesperado problema en Colo Colo : no podría usar su apodo en la camiseta"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 100,
-     "url": "https://www.sdpnoticias.com/deportes/vozinha-enfrenta-inesperado-problema-en-colo-colo-no-podria-usar-su-apodo-en-la-camiseta/",
-     "outlet": "sdpnoticias.com",
-     "publishedAt": "2026-07-28T02:45:00Z",
-     "language": "Spanish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "MX",
-     "relatedCountries": [
-      "MX"
-     ],
-     "startedAt": "2026-07-28T02:45:00Z",
-     "durationHours": null
-    },
     {
      "id": "w-6e07b31e76",
      "kind": "WIKI",
@@ -5298,68 +5488,6 @@
       "MX"
      ],
      "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "n-455db33165",
-     "kind": "NEWS",
-     "title": {
-      "ja": "¿ Quién fue Samara Colina Borja ? Activista feminista de Guanajuato",
-      "en": "¿ Quién fue Samara Colina Borja ? Activista feminista de Guanajuato"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 96,
-     "url": "https://www.sdpnoticias.com/estados/quien-fue-samara-colina-borja-activista-feminista-de-guanajuato/",
-     "outlet": "sdpnoticias.com",
-     "publishedAt": "2026-07-28T02:45:00Z",
-     "language": "Spanish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "MX",
-     "relatedCountries": [
-      "MX"
-     ],
-     "startedAt": "2026-07-28T02:45:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-d97b6ce37d",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Reportan nuevo conato de incendio en la Refinería Olmeca de Dos Bocas",
-      "en": "Reportan nuevo conato de incendio en la Refinería Olmeca de Dos Bocas"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WORLD",
-     "score": 92,
-     "url": "https://www.sdpnoticias.com/estados/reportan-nuevo-conato-de-incendio-en-la-refineria-olmeca-de-dos-bocas/",
-     "outlet": "sdpnoticias.com",
-     "publishedAt": "2026-07-28T02:45:00Z",
-     "language": "Spanish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "MX",
-     "relatedCountries": [
-      "MX"
-     ],
-     "startedAt": "2026-07-28T02:45:00Z",
      "durationHours": null
     },
     {
@@ -5763,13 +5891,12 @@
      "sources": [
       "WIKIPEDIA"
      ],
-     "scope": "GLOBAL",
+     "scope": "LOCAL",
      "change": 0,
      "status": "stable",
      "origin": "NG",
      "relatedCountries": [
-      "NG",
-      "SG"
+      "NG"
      ],
      "startedAt": null,
      "durationHours": null
@@ -6051,7 +6178,7 @@
    "activityScore": 76,
    "risingCount": 0,
    "wikiPerCountry": true,
-   "wikiDate": "2026-07-27",
+   "wikiDate": "2026-07-26",
    "topics": [
     {
      "id": "w-4916ff9267",
@@ -6067,7 +6194,7 @@
      "category": "OTHER",
      "score": 100,
      "url": "https://no.wikipedia.org/wiki/Forside",
-     "views": 14200,
+     "views": 14600,
      "rank": 1,
      "project": "no.wikipedia",
      "publishedAt": null,
@@ -6078,38 +6205,6 @@
      "scope": "LOCAL",
      "change": 0,
      "status": "peak",
-     "origin": "NO",
-     "relatedCountries": [
-      "NO"
-     ],
-     "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "w-d926ad8044",
-     "kind": "WIKI",
-     "title": {
-      "ja": "The Odyssey",
-      "en": "The Odyssey"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 30,
-     "url": "https://no.wikipedia.org/wiki/The_Odyssey",
-     "views": 1900,
-     "rank": 2,
-     "project": "no.wikipedia",
-     "publishedAt": null,
-     "keywords": [],
-     "sources": [
-      "WIKIPEDIA"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "stable",
      "origin": "NO",
      "relatedCountries": [
       "NO"
@@ -6131,8 +6226,8 @@
      "category": "ENTERTAINMENT",
      "score": 30,
      "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
-     "views": 1800,
-     "rank": 3,
+     "views": 2100,
+     "rank": 2,
      "project": "en.wikipedia",
      "publishedAt": null,
      "keywords": [],
@@ -6164,6 +6259,38 @@
      "durationHours": null
     },
     {
+     "id": "w-d926ad8044",
+     "kind": "WIKI",
+     "title": {
+      "ja": "The Odyssey",
+      "en": "The Odyssey"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://no.wikipedia.org/wiki/The_Odyssey",
+     "views": 1900,
+     "rank": 3,
+     "project": "no.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "stable",
+     "origin": "NO",
+     "relatedCountries": [
+      "NO"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
      "id": "w-a33cbe7696",
      "kind": "WIKI",
      "title": {
@@ -6177,7 +6304,7 @@
      "category": "OTHER",
      "score": 30,
      "url": "https://no.wikipedia.org/wiki/Odysseen",
-     "views": 1700,
+     "views": 1800,
      "rank": 4,
      "project": "no.wikipedia",
      "publishedAt": null,
@@ -6196,11 +6323,11 @@
      "durationHours": null
     },
     {
-     "id": "w-1d9841ae73",
+     "id": "w-0a92e9e0dd",
      "kind": "WIKI",
      "title": {
-      "ja": "Hebridene",
-      "en": "Hebridene"
+      "ja": "New Hampshire",
+      "en": "New Hampshire"
      },
      "summary": {
       "ja": "",
@@ -6208,9 +6335,76 @@
      },
      "category": "OTHER",
      "score": 30,
-     "url": "https://no.wikipedia.org/wiki/Hebridene",
-     "views": 1500,
+     "url": "https://en.wikipedia.org/wiki/New_Hampshire",
+     "views": 1800,
      "rank": 5,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "NO",
+     "relatedCountries": [
+      "NO"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-a021c096c2",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Odyssey",
+      "en": "Odyssey"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://en.wikipedia.org/wiki/Odyssey",
+     "views": 1400,
+     "rank": 6,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "GLOBAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "US",
+     "relatedCountries": [
+      "US",
+      "CA",
+      "NO",
+      "PH"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-ce80eed025",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Robin Hood",
+      "en": "Robin Hood"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://no.wikipedia.org/wiki/Robin_Hood",
+     "views": 1300,
+     "rank": 7,
      "project": "no.wikipedia",
      "publishedAt": null,
      "keywords": [],
@@ -6219,7 +6413,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "stable",
+     "status": "emerging",
      "origin": "NO",
      "relatedCountries": [
       "NO"
@@ -6231,11 +6425,42 @@
   },
   {
    "code": "NZ",
-   "activityScore": 92,
+   "activityScore": 99,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
+    {
+     "id": "n-ac53cb55e3",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Support groups call on police to review former officer other cases after damning review",
+      "en": "Support groups call on police to review former officer other cases after damning review"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 100,
+     "url": "https://www.odt.co.nz/news/national/support-groups-call-on-police-to-review-former-officers-other-cases-after-damning-review-totgacom",
+     "outlet": "odt.co.nz",
+     "publishedAt": "2026-07-28T09:00:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "NZ",
+     "relatedCountries": [
+      "NZ"
+     ],
+     "startedAt": "2026-07-28T09:00:00Z",
+     "durationHours": null
+    },
     {
      "id": "w-58ece5bafb",
      "kind": "WIKI",
@@ -6266,6 +6491,130 @@
       "NZ"
      ],
      "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "n-c14a1f522c",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Giving back to the rescue chopper service that saved their lives",
+      "en": "Giving back to the rescue chopper service that saved their lives"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 96,
+     "url": "https://www.odt.co.nz/canterbury/christchurch/giving-back-to-the-rescue-chopper-service-that-saved-their-lives-uabic804",
+     "outlet": "odt.co.nz",
+     "publishedAt": "2026-07-28T04:30:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "NZ",
+     "relatedCountries": [
+      "NZ"
+     ],
+     "startedAt": "2026-07-28T04:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-cf66d93333",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Dunedin mosh pit poo  the size of a shoe  goes international",
+      "en": "Dunedin mosh pit poo  the size of a shoe  goes international"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 92,
+     "url": "https://www.odt.co.nz/news/dunedin/dunedin-mosh-pit-poo-the-size-of-a-shoe-goes-international-b2jsnkoj",
+     "outlet": "odt.co.nz",
+     "publishedAt": "2026-07-28T04:30:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "NZ",
+     "relatedCountries": [
+      "NZ"
+     ],
+     "startedAt": "2026-07-28T04:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-bcdbb7998e",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Jenny Mollen has admitted she  severely depressed  following her split from husband Jason Biggs - 28 - Jul - 2026",
+      "en": "Jenny Mollen has admitted she  severely depressed  following her split from husband Jason Biggs - 28 - Jul - 2026"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 88,
+     "url": "https://home.nzcity.co.nz/news/article.aspx?id=450735&fm=psp,tst",
+     "outlet": "home.nzcity.co.nz",
+     "publishedAt": "2026-07-28T07:30:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "NZ",
+     "relatedCountries": [
+      "NZ"
+     ],
+     "startedAt": "2026-07-28T07:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-e11476201f",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Oprah Winfrey name was changed when she was a child because  nobody knew how to spell it  - 28 - Jul - 2026",
+      "en": "Oprah Winfrey name was changed when she was a child because  nobody knew how to spell it  - 28 - Jul - 2026"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 84,
+     "url": "https://home.nzcity.co.nz/news/article.aspx?id=450739&fm=psp,tst",
+     "outlet": "home.nzcity.co.nz",
+     "publishedAt": "2026-07-28T09:30:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "NZ",
+     "relatedCountries": [
+      "NZ"
+     ],
+     "startedAt": "2026-07-28T09:30:00Z",
      "durationHours": null
     },
     {
@@ -6312,6 +6661,37 @@
       "NZ"
      ],
      "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "n-c38262976b",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Success - for Supercar first New Zealand double - header weekends - 28 - Jul - 2026",
+      "en": "Success - for Supercar first New Zealand double - header weekends - 28 - Jul - 2026"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 80,
+     "url": "https://home.nzcity.co.nz/news/article.aspx?id=450840&fm=psp,tsf",
+     "outlet": "home.nzcity.co.nz",
+     "publishedAt": "2026-07-28T09:45:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "NZ",
+     "relatedCountries": [
+      "NZ"
+     ],
+     "startedAt": "2026-07-28T09:45:00Z",
      "durationHours": null
     },
     {
@@ -6760,8 +7140,8 @@
      "relatedCountries": [
       "US",
       "CA",
-      "PH",
-      "SG"
+      "NO",
+      "PH"
      ],
      "startedAt": null,
      "durationHours": null
@@ -7353,11 +7733,42 @@
   },
   {
    "code": "SG",
-   "activityScore": 77,
+   "activityScore": 99,
    "risingCount": 0,
    "wikiPerCountry": true,
-   "wikiDate": "2026-07-26",
+   "wikiDate": "2026-07-27",
    "topics": [
+    {
+     "id": "n-685f7e29bc",
+     "kind": "NEWS",
+     "title": {
+      "ja": "ABSD deadline for large en bloc projects extended",
+      "en": "ABSD deadline for large en bloc projects extended"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 100,
+     "url": "https://www.straitstimes.com/singapore/absd-deadline-for-large-en-bloc-projects-extended-to-facilitate-redevelopment",
+     "outlet": "straitstimes.com",
+     "publishedAt": "2026-07-28T10:45:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "SG",
+     "relatedCountries": [
+      "SG"
+     ],
+     "startedAt": "2026-07-28T10:45:00Z",
+     "durationHours": null
+    },
     {
      "id": "w-66b27417d3",
      "kind": "WIKI",
@@ -7372,7 +7783,7 @@
      "category": "OTHER",
      "score": 100,
      "url": "https://en.wikipedia.org/wiki/.xyz",
-     "views": 30200,
+     "views": 32400,
      "rank": 1,
      "project": "en.wikipedia",
      "publishedAt": null,
@@ -7395,6 +7806,161 @@
      "durationHours": null
     },
     {
+     "id": "n-dfd6ebf111",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Shooting stars set to streak across Singapore sky on July 29 and 30",
+      "en": "Shooting stars set to streak across Singapore sky on July 29 and 30"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "ENTERTAINMENT",
+     "score": 96,
+     "url": "https://www.straitstimes.com/singapore/shooting-stars-set-to-streak-across-singapore-sky-on-july-29-30",
+     "outlet": "straitstimes.com",
+     "publishedAt": "2026-07-28T06:15:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "SG",
+     "relatedCountries": [
+      "SG"
+     ],
+     "startedAt": "2026-07-28T06:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-51e98d75f4",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Peru Fujimori takes power , extending Latin America rightward tilt",
+      "en": "Peru Fujimori takes power , extending Latin America rightward tilt"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 92,
+     "url": "https://www.straitstimes.com/world/perus-fujimori-takes-power-extending-latin-americas-rightward-tilt",
+     "outlet": "straitstimes.com",
+     "publishedAt": "2026-07-28T10:45:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "SG",
+     "relatedCountries": [
+      "SG"
+     ],
+     "startedAt": "2026-07-28T10:45:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-5f27eae276",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Southern , central China brace for flood risk after typhoon",
+      "en": "Southern , central China brace for flood risk after typhoon"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WEATHER",
+     "score": 88,
+     "url": "https://www.asiaone.com/china/southern-central-china-brace-flood-risk-after-typhoon",
+     "outlet": "asiaone.com",
+     "publishedAt": "2026-07-28T10:45:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "SG",
+     "relatedCountries": [
+      "SG"
+     ],
+     "startedAt": "2026-07-28T10:45:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-777e675b1b",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Myanmar national to be charged for donating money to facilitate terror acts in Gaza",
+      "en": "Myanmar national to be charged for donating money to facilitate terror acts in Gaza"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 84,
+     "url": "https://www.asiaone.com/singapore/myanmar-man-terrorism-financing-charged-mha-isd",
+     "outlet": "asiaone.com",
+     "publishedAt": "2026-07-28T10:45:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "SG",
+     "relatedCountries": [
+      "SG"
+     ],
+     "startedAt": "2026-07-28T10:45:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-5343dad0e7",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Suspicious item found at Eunos multi - storey car park , police and SCDF called in",
+      "en": "Suspicious item found at Eunos multi - storey car park , police and SCDF called in"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 80,
+     "url": "https://www.asiaone.com/singapore/suspicious-eunos-multi-storey-car-park-police-scdf-diana-pang",
+     "outlet": "asiaone.com",
+     "publishedAt": "2026-07-28T10:45:00Z",
+     "language": "English",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "SG",
+     "relatedCountries": [
+      "SG"
+     ],
+     "startedAt": "2026-07-28T10:45:00Z",
+     "durationHours": null
+    },
+    {
      "id": "w-909799ec4d",
      "kind": "WIKI",
      "title": {
@@ -7406,9 +7972,9 @@
       "en": ""
      },
      "category": "ENTERTAINMENT",
-     "score": 32,
+     "score": 30,
      "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
-     "views": 9800,
+     "views": 8500,
      "rank": 2,
      "project": "en.wikipedia",
      "publishedAt": null,
@@ -7417,7 +7983,7 @@
       "WIKIPEDIA"
      ],
      "scope": "GLOBAL",
-     "change": 6.7,
+     "change": -6.2,
      "status": "stable",
      "origin": "US",
      "relatedCountries": [
@@ -7441,6 +8007,106 @@
      "durationHours": null
     },
     {
+     "id": "w-50aa2fe209",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Streamwaves",
+      "en": "Streamwaves"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://en.wikipedia.org/wiki/Streamwaves",
+     "views": 7000,
+     "rank": 3,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "SG",
+     "relatedCountries": [
+      "SG"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-8c085ceb19",
+     "kind": "WIKI",
+     "title": {
+      "ja": "東野圭吾",
+      "en": "東野圭吾"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E9%87%8E%E5%9C%AD%E5%90%BE",
+     "views": 4700,
+     "rank": 4,
+     "project": "zh.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "GLOBAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "JP",
+     "relatedCountries": [
+      "JP",
+      "SG",
+      "TW",
+      "HK"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-111dca77ec",
+     "kind": "WIKI",
+     "title": {
+      "ja": "2026 ASEAN Championship",
+      "en": "2026 ASEAN Championship"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "SPORTS",
+     "score": 30,
+     "url": "https://en.wikipedia.org/wiki/2026_ASEAN_Championship",
+     "views": 2900,
+     "rank": 5,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "GLOBAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "ID",
+     "relatedCountries": [
+      "ID",
+      "SG"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
      "id": "w-91f9b3d429",
      "kind": "WIKI",
      "title": {
@@ -7454,8 +8120,8 @@
      "category": "OTHER",
      "score": 30,
      "url": "https://en.wikipedia.org/wiki/Agent_Kim_Reactivated",
-     "views": 4600,
-     "rank": 3,
+     "views": 2500,
+     "rank": 6,
      "project": "en.wikipedia",
      "publishedAt": null,
      "keywords": [],
@@ -7474,117 +8140,20 @@
      "durationHours": null
     },
     {
-     "id": "w-e40586c301",
+     "id": "w-4cf11fe9ad",
      "kind": "WIKI",
      "title": {
-      "ja": "Tham Luang cave rescue",
-      "en": "Tham Luang cave rescue"
+      "ja": "ASEAN Championship",
+      "en": "ASEAN Championship"
      },
      "summary": {
       "ja": "",
       "en": ""
      },
-     "category": "OTHER",
+     "category": "SPORTS",
      "score": 30,
-     "url": "https://en.wikipedia.org/wiki/Tham_Luang_cave_rescue",
-     "views": 3700,
-     "rank": 4,
-     "project": "en.wikipedia",
-     "publishedAt": null,
-     "keywords": [],
-     "sources": [
-      "WIKIPEDIA"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "SG",
-     "relatedCountries": [
-      "SG"
-     ],
-     "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "w-9aae6a6b71",
-     "kind": "WIKI",
-     "title": {
-      "ja": "wiki.phtml",
-      "en": "wiki.phtml"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 30,
-     "url": "https://de.wikipedia.org/wiki/wiki.phtml",
-     "views": 3400,
-     "rank": 5,
-     "project": "de.wikipedia",
-     "publishedAt": null,
-     "keywords": [],
-     "sources": [
-      "WIKIPEDIA"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "SG",
-     "relatedCountries": [
-      "SG"
-     ],
-     "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "w-b610a23f74",
-     "kind": "WIKI",
-     "title": {
-      "ja": "David Jonsson",
-      "en": "David Jonsson"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 30,
-     "url": "https://en.wikipedia.org/wiki/David_Jonsson",
-     "views": 3200,
-     "rank": 6,
-     "project": "en.wikipedia",
-     "publishedAt": null,
-     "keywords": [],
-     "sources": [
-      "WIKIPEDIA"
-     ],
-     "scope": "GLOBAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "NG",
-     "relatedCountries": [
-      "NG",
-      "SG"
-     ],
-     "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "w-e959d86928",
-     "kind": "WIKI",
-     "title": {
-      "ja": "Thirteen Lives",
-      "en": "Thirteen Lives"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 30,
-     "url": "https://en.wikipedia.org/wiki/Thirteen_Lives",
-     "views": 3200,
+     "url": "https://en.wikipedia.org/wiki/ASEAN_Championship",
+     "views": 2000,
      "rank": 7,
      "project": "en.wikipedia",
      "publishedAt": null,
@@ -7603,11 +8172,11 @@
      "durationHours": null
     },
     {
-     "id": "w-a021c096c2",
+     "id": "w-a82aba0e18",
      "kind": "WIKI",
      "title": {
-      "ja": "Odyssey",
-      "en": "Odyssey"
+      "ja": "Jana Nayagan",
+      "en": "Jana Nayagan"
      },
      "summary": {
       "ja": "",
@@ -7615,8 +8184,8 @@
      },
      "category": "OTHER",
      "score": 30,
-     "url": "https://en.wikipedia.org/wiki/Odyssey",
-     "views": 2500,
+     "url": "https://en.wikipedia.org/wiki/Jana_Nayagan",
+     "views": 2000,
      "rank": 8,
      "project": "en.wikipedia",
      "publishedAt": null,
@@ -7627,11 +8196,9 @@
      "scope": "GLOBAL",
      "change": 0,
      "status": "emerging",
-     "origin": "US",
+     "origin": "IN",
      "relatedCountries": [
-      "US",
-      "CA",
-      "PH",
+      "IN",
       "SG"
      ],
      "startedAt": null,
@@ -7641,42 +8208,11 @@
   },
   {
    "code": "TH",
-   "activityScore": 99,
+   "activityScore": 89,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
-    {
-     "id": "n-705c23a2ae",
-     "kind": "NEWS",
-     "title": {
-      "ja": "HENRY First Dates จีบซ้ำซ้ำ เฮนรี่จำไม่ได้ เรื่องย่อหนังไทยรีเมก 50 First Dates",
-      "en": "HENRY First Dates จีบซ้ำซ้ำ เฮนรี่จำไม่ได้ เรื่องย่อหนังไทยรีเมก 50 First Dates"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 100,
-     "url": "https://movie.kapook.com/view302688.html",
-     "outlet": "movie.kapook.com",
-     "publishedAt": "2026-07-28T09:30:00Z",
-     "language": "Thai",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "TH",
-     "relatedCountries": [
-      "TH"
-     ],
-     "startedAt": "2026-07-28T09:30:00Z",
-     "durationHours": null
-    },
     {
      "id": "w-19851504e7",
      "kind": "WIKI",
@@ -7707,99 +8243,6 @@
       "TH"
      ],
      "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "n-4e710b9f9a",
-     "kind": "NEWS",
-     "title": {
-      "ja": "เก็บถาด KFC ดราม่าสนั่น เจอด่าแรง สันดาน กินเหมือนหมูหมา ควรเก็บเองไหม ?",
-      "en": "เก็บถาด KFC ดราม่าสนั่น เจอด่าแรง สันดาน กินเหมือนหมูหมา ควรเก็บเองไหม ?"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 96,
-     "url": "https://hilight.kapook.com/view/254319",
-     "outlet": "hilight.kapook.com",
-     "publishedAt": "2026-07-28T05:45:00Z",
-     "language": "Thai",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "TH",
-     "relatedCountries": [
-      "TH"
-     ],
-     "startedAt": "2026-07-28T05:45:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-a707a1ddb1",
-     "kind": "NEWS",
-     "title": {
-      "ja": "ดูดวงรายวัน 28 กรกฎาคม 2569",
-      "en": "ดูดวงรายวัน 28 กรกฎาคม 2569"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 92,
-     "url": "https://horoscope.kapook.com/view302762.html",
-     "outlet": "horoscope.kapook.com",
-     "publishedAt": "2026-07-28T02:15:00Z",
-     "language": "Thai",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "TH",
-     "relatedCountries": [
-      "TH"
-     ],
-     "startedAt": "2026-07-28T02:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-17b17c54ab",
-     "kind": "NEWS",
-     "title": {
-      "ja": "วิธีใช้เครื่องฟอกอากาศให้ได้ผล ลด PM2 . 5 ไม่ใช่แค่เปิดทิ้งไว้",
-      "en": "วิธีใช้เครื่องฟอกอากาศให้ได้ผล ลด PM2 . 5 ไม่ใช่แค่เปิดทิ้งไว้"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 88,
-     "url": "https://home.kapook.com/view302711.html",
-     "outlet": "home.kapook.com",
-     "publishedAt": "2026-07-28T02:15:00Z",
-     "language": "Thai",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "TH",
-     "relatedCountries": [
-      "TH"
-     ],
-     "startedAt": "2026-07-28T02:15:00Z",
      "durationHours": null
     },
     {
@@ -7835,68 +8278,6 @@
      "durationHours": null
     },
     {
-     "id": "n-8158501340",
-     "kind": "NEWS",
-     "title": {
-      "ja": "eSIM คืออะไร ? วิธีใช้ eSIM สำหรับเที่ยวต่างประเทศ พร้อมคู่มือมือใหม่ก่อนเดินทาง",
-      "en": "eSIM คืออะไร ? วิธีใช้ eSIM สำหรับเที่ยวต่างประเทศ พร้อมคู่มือมือใหม่ก่อนเดินทาง"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 84,
-     "url": "https://travel.kapook.com/view302745.html",
-     "outlet": "travel.kapook.com",
-     "publishedAt": "2026-07-28T02:15:00Z",
-     "language": "Thai",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "TH",
-     "relatedCountries": [
-      "TH"
-     ],
-     "startedAt": "2026-07-28T02:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-d0ff53b589",
-     "kind": "NEWS",
-     "title": {
-      "ja": "อาหารกลางวันเด็ก แม่ระบายค่าเทอม 2 หมื่น ค่าอาหารแยก ทำไมได้ของแบบนี้",
-      "en": "อาหารกลางวันเด็ก แม่ระบายค่าเทอม 2 หมื่น ค่าอาหารแยก ทำไมได้ของแบบนี้"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 80,
-     "url": "https://hilight.kapook.com/view/254320",
-     "outlet": "hilight.kapook.com",
-     "publishedAt": "2026-07-28T09:30:00Z",
-     "language": "Thai",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "TH",
-     "relatedCountries": [
-      "TH"
-     ],
-     "startedAt": "2026-07-28T09:30:00Z",
-     "durationHours": null
-    },
-    {
      "id": "w-7425e8c27d",
      "kind": "WIKI",
      "title": {
@@ -7926,130 +8307,6 @@
       "TH"
      ],
      "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "n-829e363052",
-     "kind": "NEWS",
-     "title": {
-      "ja": "น้องโพธิ์ ลูกดารา ป่วยเข้าโรงพยาบาล เป็นเคสหายาก 5 %",
-      "en": "น้องโพธิ์ ลูกดารา ป่วยเข้าโรงพยาบาล เป็นเคสหายาก 5 %"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 76,
-     "url": "https://women.kapook.com/view302767.html",
-     "outlet": "women.kapook.com",
-     "publishedAt": "2026-07-28T09:30:00Z",
-     "language": "Thai",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "TH",
-     "relatedCountries": [
-      "TH"
-     ],
-     "startedAt": "2026-07-28T09:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-31fecb1bd8",
-     "kind": "NEWS",
-     "title": {
-      "ja": "ไวรัล อดีตผัวเมีย ร้องไห้ กอดกันหย่าหน้าอำเภอ พบ ฝ่ายชายขับรถกลับบ้าน ร้องไห้ไปด้วย",
-      "en": "ไวรัล อดีตผัวเมีย ร้องไห้ กอดกันหย่าหน้าอำเภอ พบ ฝ่ายชายขับรถกลับบ้าน ร้องไห้ไปด้วย"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 72,
-     "url": "https://hilight.kapook.com/view/214694",
-     "outlet": "hilight.kapook.com",
-     "publishedAt": "2026-07-28T09:30:00Z",
-     "language": "Thai",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "TH",
-     "relatedCountries": [
-      "TH"
-     ],
-     "startedAt": "2026-07-28T09:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-5e6d589be0",
-     "kind": "NEWS",
-     "title": {
-      "ja": "นก อุษณีย์ เซอร์ไพรส์คุกเข่าขอ ม่วย นิธิตรา แต่งงาน กลางเทศกาลดอกไม้ไฟญี่ปุ่น",
-      "en": "นก อุษณีย์ เซอร์ไพรส์คุกเข่าขอ ม่วย นิธิตรา แต่งงาน กลางเทศกาลดอกไม้ไฟญี่ปุ่น"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 68,
-     "url": "https://women.kapook.com/view302766.html",
-     "outlet": "women.kapook.com",
-     "publishedAt": "2026-07-28T09:30:00Z",
-     "language": "Thai",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "TH",
-     "relatedCountries": [
-      "TH"
-     ],
-     "startedAt": "2026-07-28T09:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-b79839330b",
-     "kind": "NEWS",
-     "title": {
-      "ja": "สุนารี ราชสีมา เข้าโรงพยาบาล ปวดท้องอย่างหนัก ก่อนส่องกล้องเจอสิ่งผิดปกติ",
-      "en": "สุนารี ราชสีมา เข้าโรงพยาบาล ปวดท้องอย่างหนัก ก่อนส่องกล้องเจอสิ่งผิดปกติ"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 64,
-     "url": "https://women.kapook.com/view302764.html",
-     "outlet": "women.kapook.com",
-     "publishedAt": "2026-07-28T05:45:00Z",
-     "language": "Thai",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "TH",
-     "relatedCountries": [
-      "TH"
-     ],
-     "startedAt": "2026-07-28T05:45:00Z",
      "durationHours": null
     },
     {
@@ -8235,9 +8492,9 @@
   {
    "code": "TR",
    "activityScore": 99,
-   "risingCount": 0,
+   "risingCount": 3,
    "wikiPerCountry": false,
-   "wikiDate": "2026-07-27",
+   "wikiDate": "2026-07-26",
    "topics": [
     {
      "id": "n-617d8d9ae7",
@@ -8262,7 +8519,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "TR",
      "relatedCountries": [
       "TR"
@@ -8284,7 +8541,7 @@
      "category": "SCIENCE",
      "score": 100,
      "url": "https://tr.wikipedia.org/wiki/Anasayfa",
-     "views": 44529,
+     "views": 48495,
      "rank": 1,
      "project": "tr.wikipedia",
      "publishedAt": null,
@@ -8325,7 +8582,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "TR",
      "relatedCountries": [
       "TR"
@@ -8356,12 +8613,44 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "TR",
      "relatedCountries": [
       "TR"
      ],
      "startedAt": "2026-07-28T08:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "w-89c216c7ce",
+     "kind": "WIKI",
+     "title": {
+      "ja": "FIVB Kadınlar Voleybol Milletler Ligi",
+      "en": "FIVB Kadınlar Voleybol Milletler Ligi"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 68,
+     "url": "https://tr.wikipedia.org/wiki/FIVB_Kad%C4%B1nlar_Voleybol_Milletler_Ligi",
+     "views": 32940,
+     "rank": 2,
+     "project": "tr.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "TR",
+     "relatedCountries": [
+      "TR"
+     ],
+     "startedAt": null,
      "durationHours": null
     },
     {
@@ -8376,41 +8665,9 @@
       "en": ""
      },
      "category": "BUSINESS",
-     "score": 56,
+     "score": 64,
      "url": "https://tr.wikipedia.org/wiki/Yeni_Parti_(2026)",
-     "views": 25026,
-     "rank": 2,
-     "project": "tr.wikipedia",
-     "publishedAt": null,
-     "keywords": [],
-     "sources": [
-      "WIKIPEDIA"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "stable",
-     "origin": "TR",
-     "relatedCountries": [
-      "TR"
-     ],
-     "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "w-50df3c257d",
-     "kind": "WIKI",
-     "title": {
-      "ja": "Özel:Ara",
-      "en": "Özel:Ara"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 43,
-     "url": "https://tr.wikipedia.org/wiki/%C3%96zel%3AAra",
-     "views": 19067,
+     "views": 31119,
      "rank": 3,
      "project": "tr.wikipedia",
      "publishedAt": null,
@@ -8419,71 +8676,7 @@
       "WIKIPEDIA"
      ],
      "scope": "LOCAL",
-     "change": 0,
-     "status": "stable",
-     "origin": "TR",
-     "relatedCountries": [
-      "TR"
-     ],
-     "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "w-5a8335ebce",
-     "kind": "WIKI",
-     "title": {
-      "ja": "Seks ve Genç Kız (film)",
-      "en": "Seks ve Genç Kız (film)"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "ENTERTAINMENT",
-     "score": 30,
-     "url": "https://tr.wikipedia.org/wiki/Seks_ve_Gen%C3%A7_K%C4%B1z_(film)",
-     "views": 12814,
-     "rank": 4,
-     "project": "tr.wikipedia",
-     "publishedAt": null,
-     "keywords": [],
-     "sources": [
-      "WIKIPEDIA"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "stable",
-     "origin": "TR",
-     "relatedCountries": [
-      "TR"
-     ],
-     "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "w-2c38fd5604",
-     "kind": "WIKI",
-     "title": {
-      "ja": "Melissa Vargas",
-      "en": "Melissa Vargas"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 30,
-     "url": "https://tr.wikipedia.org/wiki/Melissa_Vargas",
-     "views": 9435,
-     "rank": 5,
-     "project": "tr.wikipedia",
-     "publishedAt": null,
-     "keywords": [],
-     "sources": [
-      "WIKIPEDIA"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
+     "change": 14.3,
      "status": "stable",
      "origin": "TR",
      "relatedCountries": [
@@ -8504,10 +8697,42 @@
       "en": ""
      },
      "category": "OTHER",
-     "score": 30,
+     "score": 59,
      "url": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_kad%C4%B1n_mill%C3%AE_voleybol_tak%C4%B1m%C4%B1",
-     "views": 8264,
-     "rank": 6,
+     "views": 28662,
+     "rank": 4,
+     "project": "tr.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 96.7,
+     "status": "rising",
+     "origin": "TR",
+     "relatedCountries": [
+      "TR"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-8d472616a3",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Sinead Jack-Kısal",
+      "en": "Sinead Jack-Kısal"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 55,
+     "url": "https://tr.wikipedia.org/wiki/Sinead_Jack-K%C4%B1sal",
+     "views": 26818,
+     "rank": 5,
      "project": "tr.wikipedia",
      "publishedAt": null,
      "keywords": [],
@@ -8516,7 +8741,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "stable",
+     "status": "emerging",
      "origin": "TR",
      "relatedCountries": [
       "TR"
@@ -8536,10 +8761,10 @@
       "en": ""
      },
      "category": "OTHER",
-     "score": 30,
+     "score": 50,
      "url": "https://tr.wikipedia.org/wiki/FIVB_D%C3%BCnya_S%C4%B1ralamas%C4%B1",
-     "views": 7646,
-     "rank": 7,
+     "views": 24318,
+     "rank": 6,
      "project": "tr.wikipedia",
      "publishedAt": null,
      "keywords": [],
@@ -8547,8 +8772,8 @@
       "WIKIPEDIA"
      ],
      "scope": "LOCAL",
-     "change": 0,
-     "status": "stable",
+     "change": 66.7,
+     "status": "rising",
      "origin": "TR",
      "relatedCountries": [
       "TR"
@@ -8557,20 +8782,52 @@
      "durationHours": null
     },
     {
-     "id": "w-132e198539",
+     "id": "w-2c38fd5604",
      "kind": "WIKI",
      "title": {
-      "ja": "Odyssey (film)",
-      "en": "Odyssey (film)"
+      "ja": "Melissa Vargas",
+      "en": "Melissa Vargas"
      },
      "summary": {
       "ja": "",
       "en": ""
      },
-     "category": "ENTERTAINMENT",
-     "score": 30,
-     "url": "https://tr.wikipedia.org/wiki/Odyssey_(film)",
-     "views": 7394,
+     "category": "OTHER",
+     "score": 49,
+     "url": "https://tr.wikipedia.org/wiki/Melissa_Vargas",
+     "views": 23772,
+     "rank": 7,
+     "project": "tr.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 63.3,
+     "status": "rising",
+     "origin": "TR",
+     "relatedCountries": [
+      "TR"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-5e8516ad02",
+     "kind": "WIKI",
+     "title": {
+      "ja": "2026 FIVB Kadınlar Voleybol Milletler Ligi",
+      "en": "2026 FIVB Kadınlar Voleybol Milletler Ligi"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 37,
+     "url": "https://tr.wikipedia.org/wiki/2026_FIVB_Kad%C4%B1nlar_Voleybol_Milletler_Ligi",
+     "views": 18054,
      "rank": 8,
      "project": "tr.wikipedia",
      "publishedAt": null,
@@ -8580,7 +8837,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "stable",
+     "status": "emerging",
      "origin": "TR",
      "relatedCountries": [
       "TR"
@@ -8625,6 +8882,7 @@
      "origin": "JP",
      "relatedCountries": [
       "JP",
+      "SG",
       "TW",
       "HK"
      ],
@@ -9007,8 +9265,8 @@
      "relatedCountries": [
       "US",
       "CA",
-      "PH",
-      "SG"
+      "NO",
+      "PH"
      ],
      "startedAt": null,
      "durationHours": null
@@ -9146,11 +9404,42 @@
   },
   {
    "code": "VN",
-   "activityScore": 80,
+   "activityScore": 99,
    "risingCount": 0,
    "wikiPerCountry": false,
    "wikiDate": "2026-07-27",
    "topics": [
+    {
+     "id": "n-a33c401291",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Nhập viện cấp cứu sau khi uống thuốc  ba đời  thải độc gan",
+      "en": "Nhập viện cấp cứu sau khi uống thuốc  ba đời  thải độc gan"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 100,
+     "url": "https://vnexpress.net/nhap-vien-cap-cuu-sau-khi-uong-thuoc-ba-doi-thai-doc-gan-5101845.html",
+     "outlet": "vnexpress.net",
+     "publishedAt": "2026-07-28T07:30:00Z",
+     "language": "Vietnamese",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "VN",
+     "relatedCountries": [
+      "VN"
+     ],
+     "startedAt": "2026-07-28T07:30:00Z",
+     "durationHours": null
+    },
     {
      "id": "w-99fd6ca036",
      "kind": "WIKI",
@@ -9181,6 +9470,68 @@
       "VN"
      ],
      "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "n-938c951c13",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Camera ghi cảnh xe ben lao vào tiệm mắt kính ở TP HCM",
+      "en": "Camera ghi cảnh xe ben lao vào tiệm mắt kính ở TP HCM"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 96,
+     "url": "https://vnexpress.net/camera-ghi-canh-xe-ben-lao-vao-tiem-mat-kinh-o-tp-hcm-5102433.html",
+     "outlet": "vnexpress.net",
+     "publishedAt": "2026-07-28T07:30:00Z",
+     "language": "Vietnamese",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "VN",
+     "relatedCountries": [
+      "VN"
+     ],
+     "startedAt": "2026-07-28T07:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-20981d137f",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Gần 400 học viên khóa AI đầu tiên của Vingroup được tuyển dụng",
+      "en": "Gần 400 học viên khóa AI đầu tiên của Vingroup được tuyển dụng"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "TECH",
+     "score": 92,
+     "url": "https://vnexpress.net/gan-400-hoc-vien-khoa-ai-dau-tien-cua-vingroup-duoc-tuyen-dung-5102464.html",
+     "outlet": "vnexpress.net",
+     "publishedAt": "2026-07-28T07:30:00Z",
+     "language": "Vietnamese",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "VN",
+     "relatedCountries": [
+      "VN"
+     ],
+     "startedAt": "2026-07-28T07:30:00Z",
      "durationHours": null
     },
     {
