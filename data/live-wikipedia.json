@@ -1,41 +1,41 @@
 {
- "fetchedAt": "2026-07-28T00:36:24.972Z",
+ "fetchedAt": "2026-07-28T02:13:47.731Z",
  "source": "Wikimedia Pageviews API",
  "countries": [
   {
    "code": "JP",
    "perCountry": true,
    "project": "ja.wikipedia",
-   "date": "2026-07-26",
+   "date": "2026-07-27",
    "articles": [
     {
      "rank": 1,
-     "title": "VIVANT",
-     "views": 169800,
-     "url": "https://ja.wikipedia.org/wiki/VIVANT",
+     "title": "東野圭吾",
+     "views": 978400,
+     "url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E9%87%8E%E5%9C%AD%E5%90%BE",
      "project": "ja.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 2,
-     "title": "堺雅人",
-     "views": 98700,
-     "url": "https://ja.wikipedia.org/wiki/%E5%A0%BA%E9%9B%85%E4%BA%BA",
+     "title": "VIVANT",
+     "views": 95300,
+     "url": "https://ja.wikipedia.org/wiki/VIVANT",
      "project": "ja.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 3,
-     "title": "羽柴与一郎",
-     "views": 89300,
-     "url": "https://ja.wikipedia.org/wiki/%E7%BE%BD%E6%9F%B4%E4%B8%8E%E4%B8%80%E9%83%8E",
+     "title": "白夜行",
+     "views": 57800,
+     "url": "https://ja.wikipedia.org/wiki/%E7%99%BD%E5%A4%9C%E8%A1%8C",
      "project": "ja.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 4,
      "title": "ハナキリン",
-     "views": 66100,
+     "views": 51300,
      "url": "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%8A%E3%82%AD%E3%83%AA%E3%83%B3",
      "project": "ja.wikipedia",
      "category": "OTHER"
@@ -43,48 +43,32 @@
     {
      "rank": 5,
      "title": "相模原障害者施設殺傷事件",
-     "views": 58500,
+     "views": 44300,
      "url": "https://ja.wikipedia.org/wiki/%E7%9B%B8%E6%A8%A1%E5%8E%9F%E9%9A%9C%E5%AE%B3%E8%80%85%E6%96%BD%E8%A8%AD%E6%AE%BA%E5%82%B7%E4%BA%8B%E4%BB%B6",
      "project": "ja.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 6,
-     "title": "飯沼愛",
-     "views": 56600,
-     "url": "https://ja.wikipedia.org/wiki/%E9%A3%AF%E6%B2%BC%E6%84%9B",
+     "title": "徳原恵梨",
+     "views": 43400,
+     "url": "https://ja.wikipedia.org/wiki/%E5%BE%B3%E5%8E%9F%E6%81%B5%E6%A2%A8",
      "project": "ja.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 7,
-     "title": "富栄ドラム",
-     "views": 54200,
-     "url": "https://ja.wikipedia.org/wiki/%E5%AF%8C%E6%A0%84%E3%83%89%E3%83%A9%E3%83%A0",
+     "title": "赤星憲広",
+     "views": 43000,
+     "url": "https://ja.wikipedia.org/wiki/%E8%B5%A4%E6%98%9F%E6%86%B2%E5%BA%83",
      "project": "ja.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 8,
-     "title": "安青錦新大",
-     "views": 54000,
-     "url": "https://ja.wikipedia.org/wiki/%E5%AE%89%E9%9D%92%E9%8C%A6%E6%96%B0%E5%A4%A7",
-     "project": "ja.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 9,
-     "title": "豊臣秀長",
-     "views": 39500,
-     "url": "https://ja.wikipedia.org/wiki/%E8%B1%8A%E8%87%A3%E7%A7%80%E9%95%B7",
-     "project": "ja.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 10,
-     "title": "織田信孝",
-     "views": 37000,
-     "url": "https://ja.wikipedia.org/wiki/%E7%B9%94%E7%94%B0%E4%BF%A1%E5%AD%9D",
+     "title": "みいちゃんと山田さん",
+     "views": 41600,
+     "url": "https://ja.wikipedia.org/wiki/%E3%81%BF%E3%81%84%E3%81%A1%E3%82%83%E3%82%93%E3%81%A8%E5%B1%B1%E7%94%B0%E3%81%95%E3%82%93",
      "project": "ja.wikipedia",
      "category": "OTHER"
     }
@@ -94,86 +78,70 @@
    "code": "US",
    "perCountry": true,
    "project": "en.wikipedia",
-   "date": "2026-07-26",
+   "date": "2026-07-27",
    "articles": [
     {
      "rank": 1,
      "title": "The Odyssey (2026 film)",
-     "views": 254400,
+     "views": 218000,
      "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
      "project": "en.wikipedia",
      "category": "ENTERTAINMENT"
     },
     {
      "rank": 2,
-     "title": "Jackson Koivun",
-     "views": 243500,
-     "url": "https://en.wikipedia.org/wiki/Jackson_Koivun",
-     "project": "en.wikipedia",
-     "category": "WORLD"
-    },
-    {
-     "rank": 3,
-     "title": "David Jonsson",
-     "views": 184100,
-     "url": "https://en.wikipedia.org/wiki/David_Jonsson",
-     "project": "en.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 4,
      "title": "Hafan",
-     "views": 133100,
+     "views": 131200,
      "url": "https://cy.wikipedia.org/wiki/Hafan",
      "project": "cy.wikipedia",
      "category": "OTHER"
     },
     {
-     "rank": 5,
+     "rank": 3,
+     "title": "Jeff Bezos",
+     "views": 101900,
+     "url": "https://en.wikipedia.org/wiki/Jeff_Bezos",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 4,
      "title": "Odyssey",
-     "views": 122900,
+     "views": 95700,
      "url": "https://en.wikipedia.org/wiki/Odyssey",
      "project": "en.wikipedia",
      "category": "OTHER"
     },
     {
-     "rank": 6,
-     "title": "Obsession (2025 film)",
-     "views": 74300,
-     "url": "https://en.wikipedia.org/wiki/Obsession_(2025_film)",
+     "rank": 5,
+     "title": "AEW Redemption",
+     "views": 80000,
+     "url": "https://en.wikipedia.org/wiki/AEW_Redemption",
      "project": "en.wikipedia",
-     "category": "ENTERTAINMENT"
+     "category": "OTHER"
+    },
+    {
+     "rank": 6,
+     "title": "Jackson Koivun",
+     "views": 78500,
+     "url": "https://en.wikipedia.org/wiki/Jackson_Koivun",
+     "project": "en.wikipedia",
+     "category": "WORLD"
     },
     {
      "rank": 7,
      "title": "MediaWiki",
-     "views": 71000,
+     "views": 71300,
      "url": "https://mediawiki.wikipedia.org/wiki/MediaWiki",
      "project": "mediawiki",
      "category": "OTHER"
     },
     {
      "rank": 8,
-     "title": "Masters of the Universe (2026 film)",
-     "views": 68700,
-     "url": "https://en.wikipedia.org/wiki/Masters_of_the_Universe_(2026_film)",
+     "title": "Eric Bieniemy",
+     "views": 70800,
+     "url": "https://en.wikipedia.org/wiki/Eric_Bieniemy",
      "project": "en.wikipedia",
-     "category": "ENTERTAINMENT"
-    },
-    {
-     "rank": 9,
-     "title": "Jeff Bezos",
-     "views": 67100,
-     "url": "https://en.wikipedia.org/wiki/Jeff_Bezos",
-     "project": "en.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 10,
-     "title": "Pagina principale",
-     "views": 66300,
-     "url": "https://it.wikipedia.org/wiki/Pagina_principale",
-     "project": "it.wikipedia",
      "category": "OTHER"
     }
    ]
@@ -182,85 +150,69 @@
    "code": "GB",
    "perCountry": true,
    "project": "en.wikipedia",
-   "date": "2026-07-26",
+   "date": "2026-07-25",
    "articles": [
     {
      "rank": 1,
      "title": "The Odyssey (2026 film)",
-     "views": 76500,
+     "views": 69900,
      "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
      "project": "en.wikipedia",
      "category": "ENTERTAINMENT"
     },
     {
      "rank": 2,
-     "title": "Janet Street-Porter",
-     "views": 56300,
-     "url": "https://en.wikipedia.org/wiki/Janet_Street-Porter",
-     "project": "en.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 3,
-     "title": "David Jonsson",
-     "views": 47800,
-     "url": "https://en.wikipedia.org/wiki/David_Jonsson",
-     "project": "en.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 4,
      "title": "Andy Burnham",
-     "views": 40100,
+     "views": 37600,
      "url": "https://en.wikipedia.org/wiki/Andy_Burnham",
      "project": "en.wikipedia",
      "category": "OTHER"
     },
     {
-     "rank": 5,
-     "title": "Adam Peaty",
-     "views": 35700,
-     "url": "https://en.wikipedia.org/wiki/Adam_Peaty",
-     "project": "en.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 6,
+     "rank": 3,
      "title": "Odyssey",
-     "views": 33900,
+     "views": 30300,
      "url": "https://en.wikipedia.org/wiki/Odyssey",
      "project": "en.wikipedia",
      "category": "OTHER"
     },
     {
-     "rank": 7,
+     "rank": 4,
+     "title": "Kristian Prenga",
+     "views": 30100,
+     "url": "https://en.wikipedia.org/wiki/Kristian_Prenga",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 5,
+     "title": "Bonnie Tyler",
+     "views": 28000,
+     "url": "https://en.wikipedia.org/wiki/Bonnie_Tyler",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 6,
      "title": "Anthony Joshua",
-     "views": 25000,
+     "views": 27300,
      "url": "https://en.wikipedia.org/wiki/Anthony_Joshua",
      "project": "en.wikipedia",
      "category": "OTHER"
     },
     {
+     "rank": 7,
+     "title": "Michael Sheen",
+     "views": 27100,
+     "url": "https://en.wikipedia.org/wiki/Michael_Sheen",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
      "rank": 8,
-     "title": "Ruth Madeley",
-     "views": 24600,
-     "url": "https://en.wikipedia.org/wiki/Ruth_Madeley",
-     "project": "en.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 9,
-     "title": "Christopher Nolan",
-     "views": 20800,
-     "url": "https://en.wikipedia.org/wiki/Christopher_Nolan",
-     "project": "en.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 10,
-     "title": "Deaths in 2026",
-     "views": 20800,
-     "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
+     "title": "Adam Peaty",
+     "views": 25400,
+     "url": "https://en.wikipedia.org/wiki/Adam_Peaty",
      "project": "en.wikipedia",
      "category": "OTHER"
     }
@@ -270,85 +222,69 @@
    "code": "FR",
    "perCountry": true,
    "project": "fr.wikipedia",
-   "date": "2026-07-26",
+   "date": "2026-07-27",
    "articles": [
     {
      "rank": 1,
-     "title": "Mathieu van der Poel",
-     "views": 47800,
-     "url": "https://fr.wikipedia.org/wiki/Mathieu_van_der_Poel",
-     "project": "fr.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 2,
-     "title": "Tadej Pogačar",
-     "views": 47300,
-     "url": "https://fr.wikipedia.org/wiki/Tadej_Poga%C4%8Dar",
-     "project": "fr.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 3,
-     "title": "Marie-Paule Belle",
-     "views": 44700,
-     "url": "https://fr.wikipedia.org/wiki/Marie-Paule_Belle",
-     "project": "fr.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 4,
      "title": "Spécial:Recherche",
-     "views": 33400,
+     "views": 34600,
      "url": "https://fr.wikipedia.org/wiki/Sp%C3%A9cial%3ARecherche",
      "project": "fr.wikipedia",
      "category": "SCIENCE"
     },
     {
-     "rank": 5,
-     "title": "Fame (film, 1980)",
-     "views": 29600,
-     "url": "https://fr.wikipedia.org/wiki/Fame_(film%2C_1980)",
-     "project": "fr.wikipedia",
-     "category": "ENTERTAINMENT"
-    },
-    {
-     "rank": 6,
-     "title": "Heureux Gagnants",
-     "views": 26900,
-     "url": "https://fr.wikipedia.org/wiki/Heureux_Gagnants",
+     "rank": 2,
+     "title": "Les Compères",
+     "views": 24300,
+     "url": "https://fr.wikipedia.org/wiki/Les_Comp%C3%A8res",
      "project": "fr.wikipedia",
      "category": "OTHER"
     },
     {
-     "rank": 7,
+     "rank": 3,
+     "title": "Duel au soleil",
+     "views": 23100,
+     "url": "https://fr.wikipedia.org/wiki/Duel_au_soleil",
+     "project": "fr.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 4,
+     "title": "Tadej Pogačar",
+     "views": 21700,
+     "url": "https://fr.wikipedia.org/wiki/Tadej_Poga%C4%8Dar",
+     "project": "fr.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 5,
      "title": "L'Odyssée (film, 2026)",
-     "views": 26600,
+     "views": 19800,
      "url": "https://fr.wikipedia.org/wiki/L'Odyss%C3%A9e_(film%2C_2026)",
      "project": "fr.wikipedia",
      "category": "ENTERTAINMENT"
     },
     {
+     "rank": 6,
+     "title": "Stéphane Bierry",
+     "views": 18700,
+     "url": "https://fr.wikipedia.org/wiki/St%C3%A9phane_Bierry",
+     "project": "fr.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 7,
+     "title": "Sophie Brocas",
+     "views": 16600,
+     "url": "https://fr.wikipedia.org/wiki/Sophie_Brocas",
+     "project": "fr.wikipedia",
+     "category": "OTHER"
+    },
+    {
      "rank": 8,
-     "title": "Bee Gees",
-     "views": 24100,
-     "url": "https://fr.wikipedia.org/wiki/Bee_Gees",
-     "project": "fr.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 9,
-     "title": "Incendie de la forêt des Landes de 1949",
-     "views": 23700,
-     "url": "https://fr.wikipedia.org/wiki/Incendie_de_la_for%C3%AAt_des_Landes_de_1949",
-     "project": "fr.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 10,
-     "title": "Yoann Offredo",
-     "views": 23200,
-     "url": "https://fr.wikipedia.org/wiki/Yoann_Offredo",
+     "title": "Yan Diomandé",
+     "views": 16200,
+     "url": "https://fr.wikipedia.org/wiki/Yan_Diomand%C3%A9",
      "project": "fr.wikipedia",
      "category": "OTHER"
     }
@@ -358,85 +294,69 @@
    "code": "DE",
    "perCountry": true,
    "project": "de.wikipedia",
-   "date": "2026-07-26",
+   "date": "2026-07-27",
    "articles": [
     {
      "rank": 1,
+     "title": "Gunther von Hagens",
+     "views": 68600,
+     "url": "https://de.wikipedia.org/wiki/Gunther_von_Hagens",
+     "project": "de.wikipedia",
+     "category": "WORLD"
+    },
+    {
+     "rank": 2,
      "title": "Steffen Bilger",
-     "views": 58900,
+     "views": 49100,
      "url": "https://de.wikipedia.org/wiki/Steffen_Bilger",
      "project": "de.wikipedia",
      "category": "OTHER"
     },
     {
-     "rank": 2,
-     "title": "Die Odyssee (2026)",
-     "views": 45000,
-     "url": "https://de.wikipedia.org/wiki/Die_Odyssee_(2026)",
-     "project": "de.wikipedia",
-     "category": "OTHER"
-    },
-    {
      "rank": 3,
-     "title": "Christopher Street Day",
-     "views": 38400,
-     "url": "https://de.wikipedia.org/wiki/Christopher_Street_Day",
+     "title": "Franziska Hoppermann",
+     "views": 45800,
+     "url": "https://de.wikipedia.org/wiki/Franziska_Hoppermann",
      "project": "de.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 4,
-     "title": "Cookie (informatique)",
-     "views": 35900,
-     "url": "https://fr.wikipedia.org/wiki/Cookie_(informatique)",
-     "project": "fr.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 5,
-     "title": "Anschlag auf den Berliner Christopher Street Day 2026",
-     "views": 33500,
-     "url": "https://de.wikipedia.org/wiki/Anschlag_auf_den_Berliner_Christopher_Street_Day_2026",
+     "title": "Johannes Krisch",
+     "views": 37400,
+     "url": "https://de.wikipedia.org/wiki/Johannes_Krisch",
      "project": "de.wikipedia",
      "category": "OTHER"
     },
     {
+     "rank": 5,
+     "title": "Die leisen und die großen Töne",
+     "views": 36200,
+     "url": "https://de.wikipedia.org/wiki/Die_leisen_und_die_gro%C3%9Fen_T%C3%B6ne",
+     "project": "de.wikipedia",
+     "category": "WORLD"
+    },
+    {
      "rank": 6,
-     "title": "Fame – Der Weg zum Ruhm",
-     "views": 33300,
-     "url": "https://de.wikipedia.org/wiki/Fame_%E2%80%93_Der_Weg_zum_Ruhm",
+     "title": "Die Odyssee (2026)",
+     "views": 35500,
+     "url": "https://de.wikipedia.org/wiki/Die_Odyssee_(2026)",
      "project": "de.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 7,
-     "title": "Planet der Affen: New Kingdom",
-     "views": 27800,
-     "url": "https://de.wikipedia.org/wiki/Planet_der_Affen%3A_New_Kingdom",
-     "project": "de.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 8,
-     "title": "Bordeaux",
-     "views": 25700,
-     "url": "https://de.wikipedia.org/wiki/Bordeaux",
-     "project": "de.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 9,
      "title": "Liste der größten Auslegerbrücken",
-     "views": 25400,
+     "views": 25200,
      "url": "https://de.wikipedia.org/wiki/Liste_der_gr%C3%B6%C3%9Ften_Auslegerbr%C3%BCcken",
      "project": "de.wikipedia",
      "category": "OTHER"
     },
     {
-     "rank": 10,
-     "title": "La traviata",
-     "views": 24000,
-     "url": "https://de.wikipedia.org/wiki/La_traviata",
+     "rank": 8,
+     "title": "Anschlag auf den Berliner Christopher Street Day 2026",
+     "views": 24300,
+     "url": "https://de.wikipedia.org/wiki/Anschlag_auf_den_Berliner_Christopher_Street_Day_2026",
      "project": "de.wikipedia",
      "category": "OTHER"
     }
@@ -446,12 +366,12 @@
    "code": "KR",
    "perCountry": true,
    "project": "ko.wikipedia",
-   "date": "2026-07-26",
+   "date": "2026-07-27",
    "articles": [
     {
      "rank": 1,
      "title": "문화방송",
-     "views": 19700,
+     "views": 21900,
      "url": "https://ko.wikipedia.org/wiki/%EB%AC%B8%ED%99%94%EB%B0%A9%EC%86%A1",
      "project": "ko.wikipedia",
      "category": "CULTURE"
@@ -459,7 +379,7 @@
     {
      "rank": 2,
      "title": "한국방송공사",
-     "views": 10200,
+     "views": 10300,
      "url": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EB%B0%A9%EC%86%A1%EA%B3%B5%EC%82%AC",
      "project": "ko.wikipedia",
      "category": "OTHER"
@@ -467,64 +387,48 @@
     {
      "rank": 3,
      "title": "한국교육방송공사",
-     "views": 9800,
+     "views": 9000,
      "url": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EA%B5%90%EC%9C%A1%EB%B0%A9%EC%86%A1%EA%B3%B5%EC%82%AC",
      "project": "ko.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 4,
-     "title": "유튜브",
-     "views": 8200,
-     "url": "https://ko.wikipedia.org/wiki/%EC%9C%A0%ED%8A%9C%EB%B8%8C",
-     "project": "ko.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 5,
      "title": "특수:검색",
-     "views": 6500,
+     "views": 8200,
      "url": "https://ko.wikipedia.org/wiki/%ED%8A%B9%EC%88%98%3A%EA%B2%80%EC%83%89",
      "project": "ko.wikipedia",
      "category": "OTHER"
     },
     {
+     "rank": 5,
+     "title": "히가시노 게이고",
+     "views": 4800,
+     "url": "https://ko.wikipedia.org/wiki/%ED%9E%88%EA%B0%80%EC%8B%9C%EB%85%B8_%EA%B2%8C%EC%9D%B4%EA%B3%A0",
+     "project": "ko.wikipedia",
+     "category": "OTHER"
+    },
+    {
      "rank": 6,
-     "title": "사랑이 온다 (드라마)",
-     "views": 3200,
-     "url": "https://ko.wikipedia.org/wiki/%EC%82%AC%EB%9E%91%EC%9D%B4_%EC%98%A8%EB%8B%A4_(%EB%93%9C%EB%9D%BC%EB%A7%88)",
+     "title": "List of S&P 500 companies",
+     "views": 3800,
+     "url": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 7,
+     "title": "장은숙 (가수)",
+     "views": 2700,
+     "url": "https://ko.wikipedia.org/wiki/%EC%9E%A5%EC%9D%80%EC%88%99_(%EA%B0%80%EC%88%98)",
      "project": "ko.wikipedia",
      "category": "ENTERTAINMENT"
     },
     {
-     "rank": 7,
-     "title": "서수민 (2007년)",
-     "views": 3200,
-     "url": "https://ko.wikipedia.org/wiki/%EC%84%9C%EC%88%98%EB%AF%BC_(2007%EB%85%84)",
-     "project": "ko.wikipedia",
-     "category": "OTHER"
-    },
-    {
      "rank": 8,
-     "title": "도희",
-     "views": 2700,
-     "url": "https://ko.wikipedia.org/wiki/%EB%8F%84%ED%9D%AC",
-     "project": "ko.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 9,
-     "title": "신지은 (골프 선수)",
-     "views": 2700,
-     "url": "https://ko.wikipedia.org/wiki/%EC%8B%A0%EC%A7%80%EC%9D%80_(%EA%B3%A8%ED%94%84_%EC%84%A0%EC%88%98)",
-     "project": "ko.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 10,
-     "title": "박진영",
-     "views": 2600,
-     "url": "https://ko.wikipedia.org/wiki/%EB%B0%95%EC%A7%84%EC%98%81",
+     "title": "별사랑",
+     "views": 2300,
+     "url": "https://ko.wikipedia.org/wiki/%EB%B3%84%EC%82%AC%EB%9E%91",
      "project": "ko.wikipedia",
      "category": "OTHER"
     }
@@ -599,22 +503,6 @@
      "url": "https://hi.wikipedia.org/wiki/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B9%E0%A5%8D%E0%A4%B2%E0%A4%BE%E0%A4%A6_%E0%A4%9C%E0%A5%8B%E0%A4%B6%E0%A5%80",
      "project": "hi.wikipedia",
      "category": "OTHER"
-    },
-    {
-     "rank": 9,
-     "title": "Cockroach Janta Party",
-     "views": 55600,
-     "url": "https://en.wikipedia.org/wiki/Cockroach_Janta_Party",
-     "project": "en.wikipedia",
-     "category": "POLITICS"
-    },
-    {
-     "rank": 10,
-     "title": ".xyz",
-     "views": 43100,
-     "url": "https://en.wikipedia.org/wiki/.xyz",
-     "project": "en.wikipedia",
-     "category": "OTHER"
     }
    ]
   },
@@ -622,87 +510,1679 @@
    "code": "AU",
    "perCountry": true,
    "project": "en.wikipedia",
-   "date": "2026-07-26",
+   "date": "2026-07-27",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "Bill Oddie",
+     "views": 22100,
+     "url": "https://en.wikipedia.org/wiki/Bill_Oddie",
+     "project": "en.wikipedia",
+     "category": "POLITICS"
+    },
+    {
+     "rank": 2,
+     "title": "The Odyssey (2026 film)",
+     "views": 18800,
+     "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
+     "project": "en.wikipedia",
+     "category": "ENTERTAINMENT"
+    },
+    {
+     "rank": 3,
+     "title": "Georgia Munro-Cook",
+     "views": 15500,
+     "url": "https://en.wikipedia.org/wiki/Georgia_Munro-Cook",
+     "project": "en.wikipedia",
+     "category": "WORLD"
+    },
+    {
+     "rank": 4,
+     "title": "Ben Carroll",
+     "views": 13700,
+     "url": "https://en.wikipedia.org/wiki/Ben_Carroll",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 5,
+     "title": "Jacinta Allan",
+     "views": 11500,
+     "url": "https://en.wikipedia.org/wiki/Jacinta_Allan",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 6,
+     "title": "2026 Commonwealth Games",
+     "views": 10100,
+     "url": "https://en.wikipedia.org/wiki/2026_Commonwealth_Games",
+     "project": "en.wikipedia",
+     "category": "ENTERTAINMENT"
+    },
+    {
+     "rank": 7,
+     "title": "Graeme Garden",
+     "views": 10000,
+     "url": "https://en.wikipedia.org/wiki/Graeme_Garden",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 8,
+     "title": "The Goodies",
+     "views": 8500,
+     "url": "https://en.wikipedia.org/wiki/The_Goodies",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    }
+   ]
+  },
+  {
+   "code": "CA",
+   "perCountry": true,
+   "project": "en.wikipedia",
+   "date": "2026-07-27",
    "articles": [
     {
      "rank": 1,
      "title": "The Odyssey (2026 film)",
-     "views": 25100,
+     "views": 34000,
      "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
      "project": "en.wikipedia",
      "category": "ENTERTAINMENT"
     },
     {
      "rank": 2,
-     "title": "Errol Spence Jr.",
-     "views": 19000,
-     "url": "https://en.wikipedia.org/wiki/Errol_Spence_Jr.",
-     "project": "en.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 3,
-     "title": "Tim Tszyu",
-     "views": 13800,
-     "url": "https://en.wikipedia.org/wiki/Tim_Tszyu",
-     "project": "en.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 4,
      "title": "Odyssey",
-     "views": 12400,
+     "views": 15000,
      "url": "https://en.wikipedia.org/wiki/Odyssey",
      "project": "en.wikipedia",
      "category": "OTHER"
     },
     {
+     "rank": 3,
+     "title": "AEW Redemption",
+     "views": 11900,
+     "url": "https://en.wikipedia.org/wiki/AEW_Redemption",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 4,
+     "title": "Deaths in 2026",
+     "views": 10100,
+     "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
      "rank": 5,
-     "title": "2026 Commonwealth Games",
-     "views": 10400,
-     "url": "https://en.wikipedia.org/wiki/2026_Commonwealth_Games",
+     "title": "Gordie Howe",
+     "views": 8800,
+     "url": "https://en.wikipedia.org/wiki/Gordie_Howe",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 6,
+     "title": "Christopher Nolan",
+     "views": 7900,
+     "url": "https://en.wikipedia.org/wiki/Christopher_Nolan",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 7,
+     "title": "Obsession (2025 film)",
+     "views": 6200,
+     "url": "https://en.wikipedia.org/wiki/Obsession_(2025_film)",
      "project": "en.wikipedia",
      "category": "ENTERTAINMENT"
     },
     {
-     "rank": 6,
-     "title": "Georgia Munro-Cook",
-     "views": 8100,
-     "url": "https://en.wikipedia.org/wiki/Georgia_Munro-Cook",
+     "rank": 8,
+     "title": "House of the Dragon season 3",
+     "views": 6200,
+     "url": "https://en.wikipedia.org/wiki/House_of_the_Dragon_season_3",
      "project": "en.wikipedia",
+     "category": "OTHER"
+    }
+   ]
+  },
+  {
+   "code": "MX",
+   "perCountry": true,
+   "project": "es.wikipedia",
+   "date": "2026-07-27",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "Gema Garoa",
+     "views": 20300,
+     "url": "https://es.wikipedia.org/wiki/Gema_Garoa",
+     "project": "es.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 2,
+     "title": "La Odisea (película de 2026)",
+     "views": 13900,
+     "url": "https://es.wikipedia.org/wiki/La_Odisea_(pel%C3%ADcula_de_2026)",
+     "project": "es.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 3,
+     "title": "Mariana Ochoa",
+     "views": 11200,
+     "url": "https://es.wikipedia.org/wiki/Mariana_Ochoa",
+     "project": "es.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 4,
+     "title": "Arantza Ruiz",
+     "views": 11200,
+     "url": "https://es.wikipedia.org/wiki/Arantza_Ruiz",
+     "project": "es.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 5,
+     "title": "Ximena Herrera",
+     "views": 9200,
+     "url": "https://es.wikipedia.org/wiki/Ximena_Herrera",
+     "project": "es.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 6,
+     "title": "Odisea",
+     "views": 7900,
+     "url": "https://es.wikipedia.org/wiki/Odisea",
+     "project": "es.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 7,
+     "title": "Cynthia Klitbo",
+     "views": 7300,
+     "url": "https://es.wikipedia.org/wiki/Cynthia_Klitbo",
+     "project": "es.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 8,
+     "title": "Alejandro Ruiz Márquez",
+     "views": 6800,
+     "url": "https://es.wikipedia.org/wiki/Alejandro_Ruiz_M%C3%A1rquez",
+     "project": "es.wikipedia",
+     "category": "OTHER"
+    }
+   ]
+  },
+  {
+   "code": "BR",
+   "perCountry": true,
+   "project": "pt.wikipedia",
+   "date": "2026-07-27",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "ⴰⵎⵥⵍⵉ:RecentChanges",
+     "views": 15700,
+     "url": "https://zgh.wikipedia.org/wiki/%E2%B4%B0%E2%B5%8E%E2%B5%A5%E2%B5%8D%E2%B5%89%3ARecentChanges",
+     "project": "zgh.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 2,
+     "title": "Assassinato de Marcos Matsunaga",
+     "views": 15000,
+     "url": "https://pt.wikipedia.org/wiki/Assassinato_de_Marcos_Matsunaga",
+     "project": "pt.wikipedia",
+     "category": "WORLD"
+    },
+    {
+     "rank": 3,
+     "title": "特殊:近期變更",
+     "views": 14500,
+     "url": "https://hak.wikipedia.org/wiki/%E7%89%B9%E6%AE%8A%3A%E8%BF%91%E6%9C%9F%E8%AE%8A%E6%9B%B4",
+     "project": "hak.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 4,
+     "title": "Filip Krovinović",
+     "views": 12600,
+     "url": "https://pt.wikipedia.org/wiki/Filip_Krovinovi%C4%87",
+     "project": "pt.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 5,
+     "title": ".xyz",
+     "views": 9300,
+     "url": "https://en.wikipedia.org/wiki/.xyz",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 6,
+     "title": "ChatGPT",
+     "views": 9200,
+     "url": "https://en.wikipedia.org/wiki/ChatGPT",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 7,
+     "title": "Odisseia",
+     "views": 7100,
+     "url": "https://pt.wikipedia.org/wiki/Odisseia",
+     "project": "pt.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 8,
+     "title": "Spécial:Recherche",
+     "views": 6800,
+     "url": "https://fr.wikibooks.org/wiki/Sp%C3%A9cial%3ARecherche",
+     "project": "fr.wikibooks",
+     "category": "SCIENCE"
+    }
+   ]
+  },
+  {
+   "code": "AR",
+   "perCountry": true,
+   "project": "es.wikipedia",
+   "date": "2026-07-27",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "Radio AM 750",
+     "views": 12600,
+     "url": "https://es.wikipedia.org/wiki/Radio_AM_750",
+     "project": "es.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 2,
+     "title": "La Odisea (película de 2026)",
+     "views": 9600,
+     "url": "https://es.wikipedia.org/wiki/La_Odisea_(pel%C3%ADcula_de_2026)",
+     "project": "es.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 3,
+     "title": "Álvaro Montero",
+     "views": 9000,
+     "url": "https://es.wikipedia.org/wiki/%C3%81lvaro_Montero",
+     "project": "es.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 4,
+     "title": "Deportivo Riestra",
+     "views": 4900,
+     "url": "https://es.wikipedia.org/wiki/Deportivo_Riestra",
+     "project": "es.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 5,
+     "title": "José Ignacio de Mendiguren",
+     "views": 4500,
+     "url": "https://es.wikipedia.org/wiki/Jos%C3%A9_Ignacio_de_Mendiguren",
+     "project": "es.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 6,
+     "title": "ⴰⵎⵥⵍⵉ:RecentChanges",
+     "views": 3900,
+     "url": "https://zgh.wikipedia.org/wiki/%E2%B4%B0%E2%B5%8E%E2%B5%A5%E2%B5%8D%E2%B5%89%3ARecentChanges",
+     "project": "zgh.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 7,
+     "title": "特殊:近期變更",
+     "views": 3800,
+     "url": "https://hak.wikipedia.org/wiki/%E7%89%B9%E6%AE%8A%3A%E8%BF%91%E6%9C%9F%E8%AE%8A%E6%9B%B4",
+     "project": "hak.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 8,
+     "title": "Odisea",
+     "views": 3800,
+     "url": "https://es.wikipedia.org/wiki/Odisea",
+     "project": "es.wikipedia",
+     "category": "OTHER"
+    }
+   ]
+  },
+  {
+   "code": "ES",
+   "perCountry": true,
+   "project": "es.wikipedia",
+   "date": "2026-07-27",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "Yan Diomande",
+     "views": 28200,
+     "url": "https://es.wikipedia.org/wiki/Yan_Diomande",
+     "project": "es.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 2,
+     "title": "Balanegra",
+     "views": 20100,
+     "url": "https://es.wikipedia.org/wiki/Balanegra",
+     "project": "es.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 3,
+     "title": "La Odisea (película de 2026)",
+     "views": 16500,
+     "url": "https://es.wikipedia.org/wiki/La_Odisea_(pel%C3%ADcula_de_2026)",
+     "project": "es.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 4,
+     "title": "Zumárraga",
+     "views": 15000,
+     "url": "https://es.wikipedia.org/wiki/Zum%C3%A1rraga",
+     "project": "es.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 5,
+     "title": "The Long, Hot Summer",
+     "views": 10900,
+     "url": "https://es.wikipedia.org/wiki/The_Long%2C_Hot_Summer",
+     "project": "es.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 6,
+     "title": "Joanne Woodward",
+     "views": 10100,
+     "url": "https://es.wikipedia.org/wiki/Joanne_Woodward",
+     "project": "es.wikipedia",
      "category": "WORLD"
     },
     {
      "rank": 7,
+     "title": "Garbiñe Muguruza",
+     "views": 9500,
+     "url": "https://es.wikipedia.org/wiki/Garbi%C3%B1e_Muguruza",
+     "project": "es.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 8,
+     "title": "Tadej Pogačar",
+     "views": 9300,
+     "url": "https://es.wikipedia.org/wiki/Tadej_Poga%C4%8Dar",
+     "project": "es.wikipedia",
+     "category": "OTHER"
+    }
+   ]
+  },
+  {
+   "code": "IT",
+   "perCountry": true,
+   "project": "it.wikipedia",
+   "date": "2026-07-26",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "Pagina principale",
+     "views": 129300,
+     "url": "https://it.wikipedia.org/wiki/Pagina_principale",
+     "project": "it.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 2,
+     "title": "Odissea (film)",
+     "views": 75800,
+     "url": "https://it.wikipedia.org/wiki/Odissea_(film)",
+     "project": "it.wikipedia",
+     "category": "ENTERTAINMENT"
+    },
+    {
+     "rank": 3,
+     "title": "Odissea",
+     "views": 35000,
+     "url": "https://it.wikipedia.org/wiki/Odissea",
+     "project": "it.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 4,
+     "title": "Compagni di scuola (film)",
+     "views": 32100,
+     "url": "https://it.wikipedia.org/wiki/Compagni_di_scuola_(film)",
+     "project": "it.wikipedia",
+     "category": "ENTERTAINMENT"
+    },
+    {
+     "rank": 5,
+     "title": "Cookie (informatique)",
+     "views": 28000,
+     "url": "https://fr.wikipedia.org/wiki/Cookie_(informatique)",
+     "project": "fr.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 6,
+     "title": "Christopher Nolan",
+     "views": 20300,
+     "url": "https://it.wikipedia.org/wiki/Christopher_Nolan",
+     "project": "it.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 7,
+     "title": "Andrea Pirlo",
+     "views": 17500,
+     "url": "https://it.wikipedia.org/wiki/Andrea_Pirlo",
+     "project": "it.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 8,
+     "title": "Tadej Pogačar",
+     "views": 16300,
+     "url": "https://it.wikipedia.org/wiki/Tadej_Poga%C4%8Dar",
+     "project": "it.wikipedia",
+     "category": "OTHER"
+    }
+   ]
+  },
+  {
+   "code": "NL",
+   "perCountry": true,
+   "project": "nl.wikipedia",
+   "date": "2026-07-27",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "Hoofdpagina",
+     "views": 42700,
+     "url": "https://nl.wikipedia.org/wiki/Hoofdpagina",
+     "project": "nl.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 2,
+     "title": "Spécial:Recherche",
+     "views": 14400,
+     "url": "https://fr.wikipedia.org/wiki/Sp%C3%A9cial%3ARecherche",
+     "project": "fr.wikipedia",
+     "category": "SCIENCE"
+    },
+    {
+     "rank": 3,
+     "title": "Заглавная страница",
+     "views": 11300,
+     "url": "https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0",
+     "project": "ru.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 4,
+     "title": "Mathieu van der Poel",
+     "views": 9100,
+     "url": "https://nl.wikipedia.org/wiki/Mathieu_van_der_Poel",
+     "project": "nl.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 5,
+     "title": "The Odyssey (2026)",
+     "views": 8100,
+     "url": "https://nl.wikipedia.org/wiki/The_Odyssey_(2026)",
+     "project": "nl.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 6,
+     "title": "Bernhard van Oranje-Nassau, Van Vollenhoven",
+     "views": 6800,
+     "url": "https://nl.wikipedia.org/wiki/Bernhard_van_Oranje-Nassau%2C_Van_Vollenhoven",
+     "project": "nl.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 7,
+     "title": "Tolu Arokodare",
+     "views": 6400,
+     "url": "https://nl.wikipedia.org/wiki/Tolu_Arokodare",
+     "project": "nl.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 8,
+     "title": "Dušan Tadić",
+     "views": 5400,
+     "url": "https://nl.wikipedia.org/wiki/Du%C5%A1an_Tadi%C4%87",
+     "project": "nl.wikipedia",
+     "category": "OTHER"
+    }
+   ]
+  },
+  {
+   "code": "SE",
+   "perCountry": true,
+   "project": "sv.wikipedia",
+   "date": "2026-07-27",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "Svärtan",
+     "views": 8800,
+     "url": "https://sv.wikipedia.org/wiki/Sv%C3%A4rtan",
+     "project": "sv.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 2,
+     "title": "Ebba Årsjö",
+     "views": 5200,
+     "url": "https://sv.wikipedia.org/wiki/Ebba_%C3%85rsj%C3%B6",
+     "project": "sv.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 3,
+     "title": "The Odyssey (film, 2026)",
+     "views": 3000,
+     "url": "https://sv.wikipedia.org/wiki/The_Odyssey_(film%2C_2026)",
+     "project": "sv.wikipedia",
+     "category": "ENTERTAINMENT"
+    },
+    {
+     "rank": 4,
+     "title": "The Odyssey (2026 film)",
+     "views": 2800,
+     "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
+     "project": "en.wikipedia",
+     "category": "ENTERTAINMENT"
+    },
+    {
+     "rank": 5,
+     "title": "Odysséen",
+     "views": 2600,
+     "url": "https://sv.wikipedia.org/wiki/Odyss%C3%A9en",
+     "project": "sv.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 6,
+     "title": "Заглавная страница",
+     "views": 2300,
+     "url": "https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0",
+     "project": "ru.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 7,
+     "title": "Glenn Hysén",
+     "views": 2200,
+     "url": "https://sv.wikipedia.org/wiki/Glenn_Hys%C3%A9n",
+     "project": "sv.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 8,
+     "title": "Opinionsundersökningar inför riksdagsvalet i Sverige 2026",
+     "views": 2200,
+     "url": "https://sv.wikipedia.org/wiki/Opinionsunders%C3%B6kningar_inf%C3%B6r_riksdagsvalet_i_Sverige_2026",
+     "project": "sv.wikipedia",
+     "category": "WORLD"
+    }
+   ]
+  },
+  {
+   "code": "NO",
+   "perCountry": true,
+   "project": "no.wikipedia",
+   "date": "2026-07-27",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "Forside",
+     "views": 14200,
+     "url": "https://no.wikipedia.org/wiki/Forside",
+     "project": "no.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 2,
+     "title": "The Odyssey",
+     "views": 1900,
+     "url": "https://no.wikipedia.org/wiki/The_Odyssey",
+     "project": "no.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 3,
+     "title": "The Odyssey (2026 film)",
+     "views": 1800,
+     "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
+     "project": "en.wikipedia",
+     "category": "ENTERTAINMENT"
+    },
+    {
+     "rank": 4,
+     "title": "Odysseen",
+     "views": 1700,
+     "url": "https://no.wikipedia.org/wiki/Odysseen",
+     "project": "no.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 5,
+     "title": "Hebridene",
+     "views": 1500,
+     "url": "https://no.wikipedia.org/wiki/Hebridene",
+     "project": "no.wikipedia",
+     "category": "OTHER"
+    }
+   ]
+  },
+  {
+   "code": "PL",
+   "perCountry": true,
+   "project": "pl.wikipedia",
+   "date": "2026-07-27",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "Pablo Escobar",
+     "views": 13100,
+     "url": "https://pl.wikipedia.org/wiki/Pablo_Escobar",
+     "project": "pl.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 2,
+     "title": "Ireneusz Raś",
+     "views": 6700,
+     "url": "https://pl.wikipedia.org/wiki/Ireneusz_Ra%C5%9B",
+     "project": "pl.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 3,
+     "title": "Marcin Ociepa",
+     "views": 6500,
+     "url": "https://pl.wikipedia.org/wiki/Marcin_Ociepa",
+     "project": "pl.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 4,
+     "title": "Grzegorz Lorek",
+     "views": 5800,
+     "url": "https://pl.wikipedia.org/wiki/Grzegorz_Lorek",
+     "project": "pl.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 5,
+     "title": "Ryszard Riedel",
+     "views": 5700,
+     "url": "https://pl.wikipedia.org/wiki/Ryszard_Riedel",
+     "project": "pl.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 6,
+     "title": "Odyseja (film 2026)",
+     "views": 5500,
+     "url": "https://pl.wikipedia.org/wiki/Odyseja_(film_2026)",
+     "project": "pl.wikipedia",
+     "category": "ENTERTAINMENT"
+    },
+    {
+     "rank": 7,
+     "title": "Заглавная страница",
+     "views": 5000,
+     "url": "https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0",
+     "project": "ru.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 8,
+     "title": "Mateusz Morawiecki",
+     "views": 4900,
+     "url": "https://pl.wikipedia.org/wiki/Mateusz_Morawiecki",
+     "project": "pl.wikipedia",
+     "category": "OTHER"
+    }
+   ]
+  },
+  {
+   "code": "CH",
+   "perCountry": true,
+   "project": "de.wikipedia",
+   "date": "2026-07-27",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "Die Odyssee (2026)",
+     "views": 3000,
+     "url": "https://de.wikipedia.org/wiki/Die_Odyssee_(2026)",
+     "project": "de.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 2,
+     "title": "Pagina principale",
+     "views": 3000,
+     "url": "https://it.wikipedia.org/wiki/Pagina_principale",
+     "project": "it.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 3,
+     "title": "Gunther von Hagens",
+     "views": 2300,
+     "url": "https://de.wikipedia.org/wiki/Gunther_von_Hagens",
+     "project": "de.wikipedia",
+     "category": "WORLD"
+    },
+    {
+     "rank": 4,
+     "title": "Johannes Krisch",
+     "views": 2200,
+     "url": "https://de.wikipedia.org/wiki/Johannes_Krisch",
+     "project": "de.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 5,
+     "title": "Christopher Street Day",
+     "views": 2200,
+     "url": "https://de.wikipedia.org/wiki/Christopher_Street_Day",
+     "project": "de.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 6,
+     "title": "The Odyssey (2026 film)",
+     "views": 1800,
+     "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
+     "project": "en.wikipedia",
+     "category": "ENTERTAINMENT"
+    },
+    {
+     "rank": 7,
+     "title": "Claudia Lässer",
+     "views": 1600,
+     "url": "https://de.wikipedia.org/wiki/Claudia_L%C3%A4sser",
+     "project": "de.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 8,
+     "title": "Odyssee",
+     "views": 1200,
+     "url": "https://de.wikipedia.org/wiki/Odyssee",
+     "project": "de.wikipedia",
+     "category": "OTHER"
+    }
+   ]
+  },
+  {
+   "code": "TR",
+   "perCountry": false,
+   "project": "tr.wikipedia",
+   "date": "2026-07-26",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "Anasayfa",
+     "views": 48495,
+     "url": "https://tr.wikipedia.org/wiki/Anasayfa",
+     "project": "tr.wikipedia",
+     "category": "SCIENCE"
+    },
+    {
+     "rank": 2,
+     "title": "FIVB Kadınlar Voleybol Milletler Ligi",
+     "views": 32940,
+     "url": "https://tr.wikipedia.org/wiki/FIVB_Kad%C4%B1nlar_Voleybol_Milletler_Ligi",
+     "project": "tr.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 3,
+     "title": "Yeni Parti (2026)",
+     "views": 31119,
+     "url": "https://tr.wikipedia.org/wiki/Yeni_Parti_(2026)",
+     "project": "tr.wikipedia",
+     "category": "BUSINESS"
+    },
+    {
+     "rank": 4,
+     "title": "Türkiye kadın millî voleybol takımı",
+     "views": 28662,
+     "url": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_kad%C4%B1n_mill%C3%AE_voleybol_tak%C4%B1m%C4%B1",
+     "project": "tr.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 5,
+     "title": "Sinead Jack-Kısal",
+     "views": 26818,
+     "url": "https://tr.wikipedia.org/wiki/Sinead_Jack-K%C4%B1sal",
+     "project": "tr.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 6,
+     "title": "FIVB Dünya Sıralaması",
+     "views": 24318,
+     "url": "https://tr.wikipedia.org/wiki/FIVB_D%C3%BCnya_S%C4%B1ralamas%C4%B1",
+     "project": "tr.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 7,
+     "title": "Melissa Vargas",
+     "views": 23772,
+     "url": "https://tr.wikipedia.org/wiki/Melissa_Vargas",
+     "project": "tr.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 8,
+     "title": "2026 FIVB Kadınlar Voleybol Milletler Ligi",
+     "views": 18054,
+     "url": "https://tr.wikipedia.org/wiki/2026_FIVB_Kad%C4%B1nlar_Voleybol_Milletler_Ligi",
+     "project": "tr.wikipedia",
+     "category": "OTHER"
+    }
+   ]
+  },
+  {
+   "code": "ZA",
+   "perCountry": true,
+   "project": "en.wikipedia",
+   "date": "2026-07-27",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "Sebastian Pedersen",
+     "views": 7700,
+     "url": "https://en.wikipedia.org/wiki/Sebastian_Pedersen",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 2,
+     "title": "Women's Africa Cup of Nations",
+     "views": 4900,
+     "url": "https://en.wikipedia.org/wiki/Women's_Africa_Cup_of_Nations",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 3,
+     "title": "The Odyssey (2026 film)",
+     "views": 2900,
+     "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
+     "project": "en.wikipedia",
+     "category": "ENTERTAINMENT"
+    },
+    {
+     "rank": 4,
+     "title": "ⴰⵎⵥⵍⵉ:RecentChanges",
+     "views": 2500,
+     "url": "https://zgh.wikipedia.org/wiki/%E2%B4%B0%E2%B5%8E%E2%B5%A5%E2%B5%8D%E2%B5%89%3ARecentChanges",
+     "project": "zgh.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 5,
+     "title": "特殊:近期變更",
+     "views": 2400,
+     "url": "https://hak.wikipedia.org/wiki/%E7%89%B9%E6%AE%8A%3A%E8%BF%91%E6%9C%9F%E8%AE%8A%E6%9B%B4",
+     "project": "hak.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 6,
+     "title": ".xyz",
+     "views": 2100,
+     "url": "https://en.wikipedia.org/wiki/.xyz",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 7,
+     "title": "Sogndal Fotball",
+     "views": 1500,
+     "url": "https://en.wikipedia.org/wiki/Sogndal_Fotball",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 8,
+     "title": "Spécial:Recherche",
+     "views": 1300,
+     "url": "https://fr.wikibooks.org/wiki/Sp%C3%A9cial%3ARecherche",
+     "project": "fr.wikibooks",
+     "category": "SCIENCE"
+    }
+   ]
+  },
+  {
+   "code": "EG",
+   "perCountry": false,
+   "project": "ar.wikipedia",
+   "date": "2026-07-26",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "الصفحة الرئيسة",
+     "views": 59249,
+     "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9_%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D8%A9",
+     "project": "ar.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 2,
+     "title": "خاص:بحث",
+     "views": 19680,
+     "url": "https://ar.wikipedia.org/wiki/%D8%AE%D8%A7%D8%B5%3A%D8%A8%D8%AD%D8%AB",
+     "project": "ar.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 3,
+     "title": "ملف:Elissa - August 24, 2012 (2).jpg",
+     "views": 11054,
+     "url": "https://ar.wikipedia.org/wiki/%D9%85%D9%84%D9%81%3AElissa_-_August_24%2C_2012_(2).jpg",
+     "project": "ar.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 4,
+     "title": "يان ديوماندي",
+     "views": 7820,
+     "url": "https://ar.wikipedia.org/wiki/%D9%8A%D8%A7%D9%86_%D8%AF%D9%8A%D9%88%D9%85%D8%A7%D9%86%D8%AF%D9%8A",
+     "project": "ar.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 5,
+     "title": "الأوديسة (فلم 2026)",
+     "views": 6249,
+     "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%A3%D9%88%D8%AF%D9%8A%D8%B3%D8%A9_(%D9%81%D9%84%D9%85_2026)",
+     "project": "ar.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 6,
+     "title": "في السابعة عشرة",
+     "views": 6102,
+     "url": "https://ar.wikipedia.org/wiki/%D9%81%D9%8A_%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D8%B9%D8%A9_%D8%B9%D8%B4%D8%B1%D8%A9",
+     "project": "ar.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 7,
+     "title": "تصنيف:أفلام إثارة جنسية أمريكية",
+     "views": 4300,
+     "url": "https://ar.wikipedia.org/wiki/%D8%AA%D8%B5%D9%86%D9%8A%D9%81%3A%D8%A3%D9%81%D9%84%D8%A7%D9%85_%D8%A5%D8%AB%D8%A7%D8%B1%D8%A9_%D8%AC%D9%86%D8%B3%D9%8A%D8%A9_%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%D8%A9",
+     "project": "ar.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 8,
+     "title": "رؤى الصبان",
+     "views": 4018,
+     "url": "https://ar.wikipedia.org/wiki/%D8%B1%D8%A4%D9%89_%D8%A7%D9%84%D8%B5%D8%A8%D8%A7%D9%86",
+     "project": "ar.wikipedia",
+     "category": "OTHER"
+    }
+   ]
+  },
+  {
+   "code": "NG",
+   "perCountry": true,
+   "project": "en.wikipedia",
+   "date": "2026-07-27",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "Yan Diomande",
+     "views": 2500,
+     "url": "https://en.wikipedia.org/wiki/Yan_Diomande",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 2,
+     "title": "Danny Welbeck",
+     "views": 1800,
+     "url": "https://en.wikipedia.org/wiki/Danny_Welbeck",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 3,
+     "title": "The Odyssey (2026 film)",
+     "views": 1700,
+     "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
+     "project": "en.wikipedia",
+     "category": "ENTERTAINMENT"
+    },
+    {
+     "rank": 4,
+     "title": "XHamster",
+     "views": 1400,
+     "url": "https://en.wikipedia.org/wiki/XHamster",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 5,
      "title": "David Jonsson",
-     "views": 7600,
+     "views": 1200,
      "url": "https://en.wikipedia.org/wiki/David_Jonsson",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    }
+   ]
+  },
+  {
+   "code": "ID",
+   "perCountry": true,
+   "project": "id.wikipedia",
+   "date": "2026-07-27",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "Halaman Utama",
+     "views": 28000,
+     "url": "https://id.wikipedia.org/wiki/Halaman_Utama",
+     "project": "id.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 2,
+     "title": "Destry Damayanti",
+     "views": 18300,
+     "url": "https://id.wikipedia.org/wiki/Destry_Damayanti",
+     "project": "id.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 3,
+     "title": "Yandex",
+     "views": 15600,
+     "url": "https://en.wikipedia.org/wiki/Yandex",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 4,
+     "title": "Perry Warjiyo",
+     "views": 13300,
+     "url": "https://id.wikipedia.org/wiki/Perry_Warjiyo",
+     "project": "id.wikipedia",
+     "category": "WORLD"
+    },
+    {
+     "rank": 5,
+     "title": "2026 ASEAN Championship",
+     "views": 9200,
+     "url": "https://en.wikipedia.org/wiki/2026_ASEAN_Championship",
+     "project": "en.wikipedia",
+     "category": "SPORTS"
+    },
+    {
+     "rank": 6,
+     "title": "Piala Presiden 2026",
+     "views": 8500,
+     "url": "https://id.wikipedia.org/wiki/Piala_Presiden_2026",
+     "project": "id.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 7,
+     "title": "The Odyssey (2026 film)",
+     "views": 7000,
+     "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
+     "project": "en.wikipedia",
+     "category": "ENTERTAINMENT"
+    },
+    {
+     "rank": 8,
+     "title": "Indonesia national football team",
+     "views": 5400,
+     "url": "https://en.wikipedia.org/wiki/Indonesia_national_football_team",
+     "project": "en.wikipedia",
+     "category": "SPORTS"
+    }
+   ]
+  },
+  {
+   "code": "TH",
+   "perCountry": true,
+   "project": "th.wikipedia",
+   "date": "2026-07-27",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "หน้าหลัก",
+     "views": 11100,
+     "url": "https://th.wikipedia.org/wiki/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81",
+     "project": "th.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 2,
+     "title": "องค์การกระจายเสียงและแพร่ภาพสาธารณะแห่งประเทศไทย",
+     "views": 9500,
+     "url": "https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%81%E0%B8%9E%E0%B8%A3%E0%B9%88%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AA%E0%B8%B2%E0%B8%98%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B8%B0%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2",
+     "project": "th.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 3,
+     "title": "พระบาทสมเด็จพระวชิรเกล้าเจ้าอยู่หัว",
+     "views": 8700,
+     "url": "https://th.wikipedia.org/wiki/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B2%E0%B8%97%E0%B8%AA%E0%B8%A1%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%88%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A7%E0%B8%8A%E0%B8%B4%E0%B8%A3%E0%B9%80%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%A2%E0%B8%B9%E0%B9%88%E0%B8%AB%E0%B8%B1%E0%B8%A7",
+     "project": "th.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 4,
+     "title": "วันอาสาฬหบูชา",
+     "views": 4700,
+     "url": "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%AA%E0%B8%B2%E0%B8%AC%E0%B8%AB%E0%B8%9A%E0%B8%B9%E0%B8%8A%E0%B8%B2",
+     "project": "th.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 5,
+     "title": ".xyz",
+     "views": 3000,
+     "url": "https://en.wikipedia.org/wiki/.xyz",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 6,
+     "title": "พิเศษ:ค้นหา",
+     "views": 2600,
+     "url": "https://th.wikipedia.org/wiki/%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9%3A%E0%B8%84%E0%B9%89%E0%B8%99%E0%B8%AB%E0%B8%B2",
+     "project": "th.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 7,
+     "title": "The Odyssey (2026 film)",
+     "views": 2200,
+     "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
+     "project": "en.wikipedia",
+     "category": "ENTERTAINMENT"
+    },
+    {
+     "rank": 8,
+     "title": "หี",
+     "views": 1900,
+     "url": "https://th.wikipedia.org/wiki/%E0%B8%AB%E0%B8%B5",
+     "project": "th.wikipedia",
+     "category": "OTHER"
+    }
+   ]
+  },
+  {
+   "code": "VN",
+   "perCountry": false,
+   "project": "vi.wikipedia",
+   "date": "2026-07-26",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "Trang Chính",
+     "views": 86041,
+     "url": "https://vi.wikipedia.org/wiki/Trang_Ch%C3%ADnh",
+     "project": "vi.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 2,
+     "title": "Đặc biệt:Tìm kiếm",
+     "views": 39107,
+     "url": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%B7c_bi%E1%BB%87t%3AT%C3%ACm_ki%E1%BA%BFm",
+     "project": "vi.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 3,
+     "title": "Đài Truyền hình Kỹ thuật số VTC",
+     "views": 9406,
+     "url": "https://vi.wikipedia.org/wiki/%C4%90%C3%A0i_Truy%E1%BB%81n_h%C3%ACnh_K%E1%BB%B9_thu%E1%BA%ADt_s%E1%BB%91_VTC",
+     "project": "vi.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 4,
+     "title": "Bảng xếp hạng bóng đá nam FIFA",
+     "views": 4087,
+     "url": "https://vi.wikipedia.org/wiki/B%E1%BA%A3ng_x%E1%BA%BFp_h%E1%BA%A1ng_b%C3%B3ng_%C4%91%C3%A1_nam_FIFA",
+     "project": "vi.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 5,
+     "title": "Lê Thị Riêng",
+     "views": 3577,
+     "url": "https://vi.wikipedia.org/wiki/L%C3%AA_Th%E1%BB%8B_Ri%C3%AAng",
+     "project": "vi.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 6,
+     "title": "The Odyssey",
+     "views": 3212,
+     "url": "https://vi.wikipedia.org/wiki/The_Odyssey",
+     "project": "vi.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 7,
+     "title": "Giải vô địch bóng đá ASEAN 2026",
+     "views": 3203,
+     "url": "https://vi.wikipedia.org/wiki/Gi%E1%BA%A3i_v%C3%B4_%C4%91%E1%BB%8Bch_b%C3%B3ng_%C4%91%C3%A1_ASEAN_2026",
+     "project": "vi.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 8,
+     "title": "Đặc biệt:Thay đổi gần đây",
+     "views": 2872,
+     "url": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%B7c_bi%E1%BB%87t%3AThay_%C4%91%E1%BB%95i_g%E1%BA%A7n_%C4%91%C3%A2y",
+     "project": "vi.wikipedia",
+     "category": "OTHER"
+    }
+   ]
+  },
+  {
+   "code": "PH",
+   "perCountry": true,
+   "project": "en.wikipedia",
+   "date": "2026-07-27",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "The Odyssey (2026 film)",
+     "views": 12600,
+     "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
+     "project": "en.wikipedia",
+     "category": "ENTERTAINMENT"
+    },
+    {
+     "rank": 2,
+     "title": ".xyz",
+     "views": 11900,
+     "url": "https://en.wikipedia.org/wiki/.xyz",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 3,
+     "title": "ChatGPT",
+     "views": 7200,
+     "url": "https://en.wikipedia.org/wiki/ChatGPT",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 4,
+     "title": "2026 State of the Nation Address (Philippines)",
+     "views": 6200,
+     "url": "https://en.wikipedia.org/wiki/2026_State_of_the_Nation_Address_(Philippines)",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 5,
+     "title": "Agent Kim Reactivated",
+     "views": 3700,
+     "url": "https://en.wikipedia.org/wiki/Agent_Kim_Reactivated",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 6,
+     "title": "Pax Silica",
+     "views": 3400,
+     "url": "https://en.wikipedia.org/wiki/Pax_Silica",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 7,
+     "title": "Odyssey",
+     "views": 3100,
+     "url": "https://en.wikipedia.org/wiki/Odyssey",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 8,
+     "title": "特殊:近期變更",
+     "views": 3100,
+     "url": "https://hak.wikipedia.org/wiki/%E7%89%B9%E6%AE%8A%3A%E8%BF%91%E6%9C%9F%E8%AE%8A%E6%9B%B4",
+     "project": "hak.wikipedia",
+     "category": "OTHER"
+    }
+   ]
+  },
+  {
+   "code": "SG",
+   "perCountry": true,
+   "project": "en.wikipedia",
+   "date": "2026-07-27",
+   "articles": [
+    {
+     "rank": 1,
+     "title": ".xyz",
+     "views": 32400,
+     "url": "https://en.wikipedia.org/wiki/.xyz",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 2,
+     "title": "The Odyssey (2026 film)",
+     "views": 8500,
+     "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
+     "project": "en.wikipedia",
+     "category": "ENTERTAINMENT"
+    },
+    {
+     "rank": 3,
+     "title": "Streamwaves",
+     "views": 7000,
+     "url": "https://en.wikipedia.org/wiki/Streamwaves",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 4,
+     "title": "東野圭吾",
+     "views": 4700,
+     "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E9%87%8E%E5%9C%AD%E5%90%BE",
+     "project": "zh.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 5,
+     "title": "2026 ASEAN Championship",
+     "views": 2900,
+     "url": "https://en.wikipedia.org/wiki/2026_ASEAN_Championship",
+     "project": "en.wikipedia",
+     "category": "SPORTS"
+    },
+    {
+     "rank": 6,
+     "title": "Agent Kim Reactivated",
+     "views": 2500,
+     "url": "https://en.wikipedia.org/wiki/Agent_Kim_Reactivated",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 7,
+     "title": "ASEAN Championship",
+     "views": 2000,
+     "url": "https://en.wikipedia.org/wiki/ASEAN_Championship",
+     "project": "en.wikipedia",
+     "category": "SPORTS"
+    },
+    {
+     "rank": 8,
+     "title": "Jana Nayagan",
+     "views": 2000,
+     "url": "https://en.wikipedia.org/wiki/Jana_Nayagan",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    }
+   ]
+  },
+  {
+   "code": "TW",
+   "perCountry": true,
+   "project": "zh.wikipedia",
+   "date": "2026-07-27",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "東野圭吾",
+     "views": 67100,
+     "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E9%87%8E%E5%9C%AD%E5%90%BE",
+     "project": "zh.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 2,
+     "title": "王凱 (台灣藝人)",
+     "views": 42000,
+     "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%87%B1_(%E5%8F%B0%E7%81%A3%E8%97%9D%E4%BA%BA)",
+     "project": "zh.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 3,
+     "title": "金特務：本色回歸",
+     "views": 25900,
+     "url": "https://zh.wikipedia.org/wiki/%E9%87%91%E7%89%B9%E5%8B%99%EF%BC%9A%E6%9C%AC%E8%89%B2%E5%9B%9E%E6%AD%B8",
+     "project": "zh.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 4,
+     "title": "奧德賽 (電影)",
+     "views": 23100,
+     "url": "https://zh.wikipedia.org/wiki/%E5%A5%A7%E5%BE%B7%E8%B3%BD_(%E9%9B%BB%E5%BD%B1)",
+     "project": "zh.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 5,
+     "title": "王凱 (中國大陸演員)",
+     "views": 10500,
+     "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%87%B1_(%E4%B8%AD%E5%9C%8B%E5%A4%A7%E9%99%B8%E6%BC%94%E5%93%A1)",
+     "project": "zh.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 6,
+     "title": "陽岱鋼",
+     "views": 8000,
+     "url": "https://zh.wikipedia.org/wiki/%E9%99%BD%E5%B2%B1%E9%8B%BC",
+     "project": "zh.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 7,
+     "title": "鬼謎東宮",
+     "views": 7800,
+     "url": "https://zh.wikipedia.org/wiki/%E9%AC%BC%E8%AC%8E%E6%9D%B1%E5%AE%AE",
+     "project": "zh.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 8,
+     "title": "蘇志燮",
+     "views": 7000,
+     "url": "https://zh.wikipedia.org/wiki/%E8%98%87%E5%BF%97%E7%87%AE",
+     "project": "zh.wikipedia",
+     "category": "OTHER"
+    }
+   ]
+  },
+  {
+   "code": "HK",
+   "perCountry": false,
+   "project": "zh.wikipedia",
+   "date": "2026-07-26",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "王凱 (台灣藝人)",
+     "views": 124040,
+     "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%87%B1_(%E5%8F%B0%E7%81%A3%E8%97%9D%E4%BA%BA)",
+     "project": "zh.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 2,
+     "title": "金特務：本色回歸",
+     "views": 60977,
+     "url": "https://zh.wikipedia.org/wiki/%E9%87%91%E7%89%B9%E5%8B%99%EF%BC%9A%E6%9C%AC%E8%89%B2%E5%9B%9E%E6%AD%B8",
+     "project": "zh.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 3,
+     "title": "奧德賽 (電影)",
+     "views": 45847,
+     "url": "https://zh.wikipedia.org/wiki/%E5%A5%A7%E5%BE%B7%E8%B3%BD_(%E9%9B%BB%E5%BD%B1)",
+     "project": "zh.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 4,
+     "title": "王凱 (中國大陸演員)",
+     "views": 45075,
+     "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%87%B1_(%E4%B8%AD%E5%9C%8B%E5%A4%A7%E9%99%B8%E6%BC%94%E5%93%A1)",
+     "project": "zh.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 5,
+     "title": "黄宝欣",
+     "views": 19184,
+     "url": "https://zh.wikipedia.org/wiki/%E9%BB%84%E5%AE%9D%E6%AC%A3",
+     "project": "zh.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 6,
+     "title": "中年好聲音4",
+     "views": 18689,
+     "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%B9%B4%E5%A5%BD%E8%81%B2%E9%9F%B34",
+     "project": "zh.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 7,
+     "title": "王虹 (數學家)",
+     "views": 17711,
+     "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%99%B9_(%E6%95%B8%E5%AD%B8%E5%AE%B6)",
+     "project": "zh.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 8,
+     "title": "鬼謎東宮",
+     "views": 17335,
+     "url": "https://zh.wikipedia.org/wiki/%E9%AC%BC%E8%AC%8E%E6%9D%B1%E5%AE%AE",
+     "project": "zh.wikipedia",
+     "category": "OTHER"
+    }
+   ]
+  },
+  {
+   "code": "NZ",
+   "perCountry": false,
+   "project": "en.wikipedia",
+   "date": "2026-07-26",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "The Odyssey (2026 film)",
+     "views": 676433,
+     "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
+     "project": "en.wikipedia",
+     "category": "ENTERTAINMENT"
+    },
+    {
+     "rank": 2,
+     "title": "Pralhad Joshi",
+     "views": 481040,
+     "url": "https://en.wikipedia.org/wiki/Pralhad_Joshi",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 3,
+     "title": ".xyz",
+     "views": 380564,
+     "url": "https://en.wikipedia.org/wiki/.xyz",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 4,
+     "title": "David Jonsson",
+     "views": 340693,
+     "url": "https://en.wikipedia.org/wiki/David_Jonsson",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 5,
+     "title": "Jackson Koivun",
+     "views": 279349,
+     "url": "https://en.wikipedia.org/wiki/Jackson_Koivun",
+     "project": "en.wikipedia",
+     "category": "WORLD"
+    },
+    {
+     "rank": 6,
+     "title": "Odyssey",
+     "views": 252730,
+     "url": "https://en.wikipedia.org/wiki/Odyssey",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 7,
+     "title": "Jana Nayagan",
+     "views": 145948,
+     "url": "https://en.wikipedia.org/wiki/Jana_Nayagan",
      "project": "en.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 8,
      "title": "Masters of the Universe (2026 film)",
-     "views": 6000,
+     "views": 140883,
      "url": "https://en.wikipedia.org/wiki/Masters_of_the_Universe_(2026_film)",
      "project": "en.wikipedia",
      "category": "ENTERTAINMENT"
-    },
-    {
-     "rank": 9,
-     "title": "Deaths in 2026",
-     "views": 5900,
-     "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
-     "project": "en.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 10,
-     "title": "Christopher Nolan",
-     "views": 5800,
-     "url": "https://en.wikipedia.org/wiki/Christopher_Nolan",
-     "project": "en.wikipedia",
-     "category": "OTHER"
     }
    ]
   }
