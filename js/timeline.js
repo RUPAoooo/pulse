@@ -1,8 +1,26 @@
 /**
- * timeline.js — the 24-hour scrubber under the map.
- * Emits an offset in hours (0 = now); it never re-renders anything itself.
+ * timeline.js — the 24-hour scrubber under the map, drawn as an activity
+ * waveform. It emits an offset in hours (0 = now) and never re-renders
+ * anything itself.
  */
 import { t, pick, locale, getLang } from './i18n.js';
+
+const NS = 'http://www.w3.org/2000/svg';
+const TICKS = [24, 12, 6, 3, 0];
+const COLUMN_DOTS = 7;
+
+function svgEl(name, attrs = {}) {
+  const node = document.createElementNS(NS, name);
+  for (const [k, v] of Object.entries(attrs)) node.setAttribute(k, String(v));
+  return node;
+}
+
+function h(tag, cls, text) {
+  const node = document.createElement(tag);
+  if (cls) node.className = cls;
+  if (text != null) node.textContent = text;
+  return node;
+}
 
 export function renderTimeline({ container, frames, onChange }) {
   // oldest on the left, now on the right
@@ -11,16 +29,28 @@ export function renderTimeline({ container, frames, onChange }) {
 
   container.textContent = '';
 
-  const head = document.createElement('div');
-  head.className = 'tl-head';
-  const label = document.createElement('span');
-  label.className = 'tl-label';
-  const readout = document.createElement('span');
-  readout.className = 'tl-readout mono';
-  head.append(label, readout);
+  const panel = h('div', 'tl-panel');
 
-  const row = document.createElement('div');
-  row.className = 'tl-row';
+  /* ------------------------------------------------------------- captions */
+  const side = h('div', 'tl-side');
+  const title = h('p', 'tl-title');
+  const sub = h('p', 'tl-sub');
+  const readout = h('p', 'mono tl-readout');
+  side.append(title, sub, readout);
+
+  /* ---------------------------------------------------------------- chart */
+  const chart = h('div', 'tl-chart');
+  const plot = svgEl('svg', {
+    class: 'tl-wave', viewBox: '0 0 1000 90', preserveAspectRatio: 'none',
+    'aria-hidden': 'true',
+  });
+  const columns = svgEl('g', { class: 'tl-cols' });
+  const baseline = svgEl('line', { class: 'tl-base', x1: 0, y1: 78, x2: 1000, y2: 78 });
+  const cursor = svgEl('g', { class: 'tl-cursor' });
+  const cursorLine = svgEl('line', { class: 'tl-cursor-line', y1: 6, y2: 78 });
+  const cursorDot = svgEl('circle', { class: 'tl-cursor-dot', r: 4.5, cy: 6 });
+  cursor.append(cursorLine, cursorDot);
+  plot.append(columns, baseline, cursor);
 
   const slider = document.createElement('input');
   slider.type = 'range';
@@ -30,22 +60,60 @@ export function renderTimeline({ container, frames, onChange }) {
   slider.value = String(index);
   slider.className = 'tl-slider';
 
-  const marks = document.createElement('div');
-  marks.className = 'tl-marks';
-  const buttons = ordered.map((frame, i) => {
-    const b = document.createElement('button');
+  const marks = h('div', 'tl-marks');
+  const markButtons = TICKS.map((hours) => {
+    const b = h('button', 'mono tl-mark');
     b.type = 'button';
-    b.className = 'tl-mark';
-    b.dataset.index = String(i);
-    b.addEventListener('click', () => select(i));
+    b.dataset.hours = String(hours);
+    b.style.left = `${(1 - hours / 24) * 100}%`;
+    b.addEventListener('click', () => selectByHours(hours));
     marks.append(b);
     return b;
   });
 
-  row.append(slider, marks);
-  container.append(head, row);
+  chart.append(plot, slider, marks);
+  panel.append(side, chart);
+  container.append(panel);
 
   slider.addEventListener('input', () => select(Number(slider.value)));
+
+  /* -------------------------------------------------------------- drawing */
+
+  /** One dot column per frame; height follows how loud the world was then. */
+  function drawWave() {
+    columns.textContent = '';
+    const values = ordered.map((f) => {
+      const list = Object.values(f.countries ?? {});
+      if (!list.length) return 0;
+      const sum = list.reduce((acc, c) => acc + (Number(c.activityScore) || 0), 0);
+      return sum / list.length;
+    });
+    const peak = Math.max(40, ...values);
+    const n = Math.max(1, values.length - 1);
+
+    values.forEach((v, i) => {
+      const x = (i / n) * 1000;
+      const strength = Math.max(0.06, v / peak);
+      const lit = Math.max(1, Math.round(strength * COLUMN_DOTS));
+      for (let k = 0; k < COLUMN_DOTS; k += 1) {
+        const y = 78 - k * 10;
+        const on = k < lit;
+        columns.append(svgEl('circle', {
+          class: `tl-dot${on ? ' is-on' : ''}`,
+          cx: x.toFixed(1), cy: y, r: on ? 1.7 : 1.1,
+          style: `--i:${i};--k:${k}`,
+        }));
+      }
+    });
+  }
+
+  function selectByHours(hours) {
+    let best = 0;
+    ordered.forEach((f, i) => {
+      if (Math.abs(f.offsetHours - hours) < Math.abs(ordered[best].offsetHours - hours)) best = i;
+    });
+    select(best);
+  }
 
   function select(i, silent = false) {
     index = Math.max(0, Math.min(ordered.length - 1, i));
@@ -56,16 +124,29 @@ export function renderTimeline({ container, frames, onChange }) {
 
   function paint() {
     const frame = ordered[index];
-    label.textContent = t('time.label');
+    title.textContent = t('time.title');
+    sub.textContent = t('time.sub');
     slider.setAttribute('aria-label', t('time.label'));
     slider.setAttribute('aria-valuetext', pick(frame.label));
-    buttons.forEach((b, i) => {
-      const f = ordered[i];
-      b.textContent = getLang() === 'ja' && f.offsetHours === 0 ? t('time.now') : f.shortLabel;
-      const on = i === index;
+
+    const n = Math.max(1, ordered.length - 1);
+    const x = (index / n) * 1000;
+    cursorLine.setAttribute('x1', x.toFixed(1));
+    cursorLine.setAttribute('x2', x.toFixed(1));
+    cursorDot.setAttribute('cx', x.toFixed(1));
+
+    columns.querySelectorAll('.tl-dot').forEach((dot) => {
+      dot.classList.toggle('is-here', Number(dot.style.getPropertyValue('--i')) === index);
+    });
+
+    markButtons.forEach((b) => {
+      const hours = Number(b.dataset.hours);
+      b.textContent = hours === 0
+        ? (getLang() === 'ja' ? t('time.now') : 'NOW')
+        : `${hours}H`;
+      const on = Math.abs(ordered[index].offsetHours - hours) < 1.5;
       b.classList.toggle('is-on', on);
       b.setAttribute('aria-pressed', String(on));
-      b.setAttribute('aria-label', pick(f.label));
     });
   }
 
@@ -76,6 +157,7 @@ export function renderTimeline({ container, frames, onChange }) {
     readout.textContent = `${t('time.viewing')}  ${fmt.format(date)}`;
   }
 
+  drawWave();
   paint();
 
   return {

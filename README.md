@@ -19,18 +19,20 @@ world-pulse/
 ├─ index.html              画面の骨組みと空のコンテナ
 ├─ css/
 │  ├─ style.css            配色トークン、ヘッダー、パネル、モーダル、タイムライン
-│  ├─ map.css              地図のドット、発光、波紋、接続線、ツールチップ
-│  └─ responsive.css       1180 / 900 / 640 / 380px のブレイクポイント
+│  ├─ map.css              地図の陸地、昼夜、発光、波紋、接続線、凡例、ツールチップ
+│  └─ responsive.css       1440 / 1180 / 980 / 680 / 380px のブレイクポイント
 ├─ js/
 │  ├─ app.js               全体の統合。状態を持つのはこのファイルだけ
 │  ├─ data.js              data/ の構造を知る唯一のファイル。API化の窓口
-│  ├─ map.js               地図の描画・ホバー判定・脈動・波紋・接続線
+│  ├─ map.js               地図の描画・ホバー判定・脈動・波紋・接続線・昼夜
+│  ├─ daynight.js          太陽直下点と昼夜境界の計算（外部API不要）
 │  ├─ panel.js             国別詳細パネル / WORLD NOW / トピック詳細モーダル
 │  ├─ filters.js           カテゴリーとGLOBAL/LOCALの絞り込み状態
 │  ├─ timeline.js          24時間スクラバー
 │  └─ i18n.js              日本語・英語の文言辞書
 ├─ data/
-│  ├─ worldgrid.json       世界地図のドット座標（自作。第9節参照）
+│  ├─ world-vector.json    画面が描く世界地図（国別ベクターパス。第10節参照）
+│  ├─ worldgrid.json       国の割り当てに使う3度グリッド（地図の生成元データ）
 │  ├─ countries.json       国コード・国名・タイムゾーン・地図上の重心
 │  ├─ topics.json          現在（NOW）の話題データ
 │  └─ timeline.json        3 / 6 / 12 / 24時間前のスコア履歴
@@ -42,6 +44,9 @@ world-pulse/
 │  ├─ fetch-wikimedia.js   Wikipedia閲覧数 → data/live-wikipedia.json
 │  ├─ fetch-news.js        ニュース → data/live-news.json
 │  └─ build-live-data.js   整形 → live-topics / live-timeline / update-status
+├─ tools/                  地図の再生成用（サイトの動作には不要）
+│  ├─ build-world-vector.py  world-vector.json を作り直すスクリプト（Python 3 + numpy）
+│  └─ land-110m.json       Natural Earth 1:110m の陸地（パブリックドメイン）
 ├─ .github/workflows/
 │  └─ update-data.yml      1時間ごと＋手動実行
 └─ README.md
@@ -179,7 +184,7 @@ Node.js をお使いの場合は `npx serve` でも、VS Code をお使いの場
 3. `data/topics.json` の `countries` 配列に `{"code": "CA", "activityScore": …, "topics": [ … ]}` を足す
 4. `data/timeline.json` の各フレームの `countries` に `"CA"` を足す（省略した場合、その時刻では「データなし」の扱いになります）
 
-地図に存在しない国を足したい場合は、`data/worldgrid.json` の `cells` に `[列, 行, "国コード"]` を追加します。座標系は第9節を参照してください。`countries.json` の `centroid`（`{x, y}` = 列・行）は、ツールチップと接続線の位置に使われるので合わせて設定します。
+地図に存在しない国を足したい場合は、`data/worldgrid.json` の `cells` に `[列, 行, "国コード"]` を追加し、`python3 tools/build-world-vector.py data/world-vector.json` で地図を作り直します。座標系は第10節を参照してください。`countries.json` の `centroid`（`{x, y}` = 列・行）は、地図に載っていない国の発光位置に使われるので合わせて設定します。
 
 **国名の翻訳を忘れないでください。** `countries.json` の `name` に `ja` と `en` の両方が必要です。
 
@@ -290,7 +295,7 @@ export async function fetchTrendData() {
 }
 ```
 
-地図の形状（`grid`）は動かないデータなので、APIに載せず `data/worldgrid.json` のままにしておくのが現実的です。
+地図の形状（`geo`）は動かないデータなので、APIに載せず `data/world-vector.json` のままにしておくのが現実的です。
 
 ### `normalizeTrendData()`
 
@@ -326,25 +331,37 @@ APIのレスポンス形式が上記のサンプルと違う場合、その差�
 
 ## 10. 地図データについて
 
-**この地図は本プロジェクトのために自作した近似データです。第三者の地図データセットに由来しません。**
+画面が読むのは `data/world-vector.json` です。国ごとに1本のSVGパスが入っていて、`js/map.js` はそれをそのまま描きます。座標はあらかじめ投影済みなので、実行時の投影計算はありません（約73KB）。
 
-制作環境が外部ネットワークに接続できなかったため、Natural Earth などの既存GeoJSONを使わず、緯度経度で手書きした大陸の輪郭をラスタライズして作りました。
+```json
+{
+  "meta": { "width": 1200, "height": 480, "lonMin": -180, "latMax": 84, "deg": 3, "cell": 10 },
+  "countries": [
+    { "code": "JP", "d": "M...Z", "cx": 1053.8, "cy": 143.9, "bbox": [...], "area": 502 }
+  ]
+}
+```
 
-- 正距円筒図法（equirectangular）
-- 3度四方のセル、120列 × 48行
+- 正距円筒図法。`x = (経度 + 180) / 3 * 10`、`y = (84 - 緯度) / 3 * 10`
 - 範囲は北緯84度から南緯60度（南極大陸は含みません）
-- 陸地1,674セル、うち1,641セルに85か国のISOコードを割り当て
-- `cells` の形式は `[列, 行, "国コード"]`。列は西端（-180度）から、行は北端（84度）から数えます
+- `code` が空文字のパスは「トレンドデータの対象外の陸地」です
+- `countries.json` の `centroid` は同じ座標系（列・行）なので、そのまま使い続けられます
+
+### 出どころと再生成
+
+海岸線は **Natural Earth 1:110m の land**（パブリックドメイン）を TopoJSON から取り出したものです（`tools/land-110m.json`）。国の割り当ては本プロジェクトの `data/worldgrid.json`（3度グリッド）を細分化して行っています。`tools/` はサイトの動作には使いません。
+
+再生成するには次を実行します。
+
+```bash
+python3 tools/build-world-vector.py data/world-vector.json
+```
 
 ### 精度の限界
 
-かなり粗い近似です。実用に耐える精度ではありません。
-
-- 韓国は3セル、オランダやベルギーのような小国は1〜2セルしかありません
-- 国境は緯度経度の矩形で割り当てているため、境界付近のセルは実際の国と食い違う箇所があります
-- 島嶼国の多くは表現されていません
-
-**正確な地図が必要な場合は、[Natural Earth](https://www.naturalearthdata.com/)（パブリックドメイン）などのデータに差し替えてください。** その場合の変更範囲は `data/worldgrid.json` と `js/map.js` の描画部分のみです。`map.js` は「セルの集合を描く」以外の前提を持っていないので、ポリゴン描画に変えるのであればこのファイルを書き換えることになります。
+- 海岸線は1:110mの精度です。世界全体を1画面で見る用途には十分ですが、拡大には向きません
+- 国境は3度グリッドから起こしているため、内陸の境界は実際より直線的です（海岸線は実データ）
+- 小さな島嶼国の多くは表現されていません
 
 ---
 
@@ -357,6 +374,7 @@ APIのレスポンス形式が上記のサンプルと違う場合、その差�
 - 実データのカテゴリー分類はタイトルのキーワード照合のみで、外れることがあります。判定できないものは OTHER になります
 - 記事の要約・本文は取得していません（転載を避けるため、タイトルと公開情報のみ）
 - 地図のズーム・パンはできません
+- 昼夜境界は均時差を含む簡易計算です。数分程度の誤差があります（表示用途では問題ありません）
 - ブラウザストレージ（localStorage 等）は使用していません。表示言語は毎回ブラウザの設定から判定します
 
 ---
@@ -372,7 +390,7 @@ APIのレスポンス形式が上記のサンプルと違う場合、その差�
 
 ## 13. ライセンス
 
-コードと地図データ（`data/worldgrid.json`）はご自由にお使いください。
+コードはご自由にお使いください。`data/world-vector.json` の海岸線は Natural Earth（パブリックドメイン）に由来します。
 
 `data/` 内の話題データはすべて架空のサンプルであり、実在の出来事とは関係ありません。実データに差し替える際は、利用するAPIやデータソースの利用規約をご確認ください。
 

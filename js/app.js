@@ -93,7 +93,7 @@ function build() {
 
   map = renderWorldMap({
     svg: dom.map,
-    grid: model.grid,
+    geo: model.geo,
     countries: model.countries,
     onHover: handleHover,
     onSelect: selectCountry,
@@ -177,6 +177,19 @@ function build() {
 
   render();
   startRipples();
+  openFirstCountry();
+}
+
+/** On a wide screen the detail panel is part of the composition, so open one. */
+function openFirstCountry() {
+  if (!window.matchMedia('(min-width: 900px)').matches) return;
+  const frame = getFrameState(state.model, 0);
+  const preferred = ['JP', 'US', 'GB'].find((c) => frame.get(c)?.hasData);
+  const busiest = [...frame.values()]
+    .filter((e) => e.hasData)
+    .sort((a, b) => b.activityScore - a.activityScore)[0]?.code;
+  const code = preferred ?? busiest;
+  if (code) selectCountry(code);
 }
 
 function buildCountrySelect() {
@@ -253,7 +266,7 @@ function paintDataMode() {
 
   if (model.mode !== 'live') {
     el.classList.add('is-demo');
-    el.append(h('b', 'dm-tag', t('data.demo')));
+    el.append(badge(t('data.demo')));
     el.append(h('span', 'dm-note', t('data.demoNote')));
     return;
   }
@@ -266,12 +279,20 @@ function paintDataMode() {
   }).format(at);
 
   el.classList.add(stale ? 'is-stale' : 'is-live');
-  el.append(h('b', 'dm-tag', t(stale ? 'data.stale' : 'data.live')));
+  el.append(badge(t(stale ? 'data.stale' : 'data.live')));
   const sep = getLang() === 'ja' ? '：' : ': ';
   el.append(h('span', 'dm-note', `${t(stale ? 'data.fetchedAt' : 'data.updatedAt')}${sep}${stamp}`));
   if (model.status?.status === 'partial') {
     el.append(h('span', 'dm-warn', t('data.partial')));
   }
+}
+
+/** The LIVE DATA / DEMO DATA pill, with its little status light. */
+function badge(label) {
+  const tag = h('b', 'dm-tag');
+  tag.append(h('i', 'dm-dot'));
+  tag.append(document.createTextNode(label));
+  return tag;
 }
 
 function h(tag, cls, text) {
@@ -460,6 +481,9 @@ function debounce(fn, ms) {
   };
 }
 
-window.addEventListener('beforeunload', () => window.clearInterval(rippleTimer));
+window.addEventListener('beforeunload', () => {
+  window.clearInterval(rippleTimer);
+  map?.destroy?.();
+});
 
 boot();

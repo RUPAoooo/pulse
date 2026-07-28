@@ -1,65 +1,15 @@
 {
- "updatedAt": "2026-07-27T23:32:09.512Z",
- "status": "success",
- "message": "Live data generated for all 8 countries.",
- "hasData": true,
+ "updatedAt": null,
+ "status": "never",
+ "message": "No live fetch has run yet in this repository. The site falls back to the bundled sample data and labels it DEMO DATA. Run the 'Update WORLD PULSE data' workflow to replace this file.",
+ "hasData": false,
  "counts": {
-  "wikimediaItems": 80,
+  "wikimediaItems": 0,
   "newsItems": 0,
-  "countriesWithData": 8,
-  "topicsGenerated": 80
+  "countriesWithData": 0,
+  "topicsGenerated": 0
  },
- "successfulCountries": [
-  "AU",
-  "DE",
-  "FR",
-  "GB",
-  "IN",
-  "JP",
-  "KR",
-  "US"
- ],
+ "successfulCountries": [],
  "failedCountries": [],
- "errors": [
-  {
-   "country": "JP",
-   "source": "news",
-   "message": "fetch failed"
-  },
-  {
-   "country": "US",
-   "source": "news",
-   "message": "fetch failed"
-  },
-  {
-   "country": "GB",
-   "source": "news",
-   "message": "fetch failed"
-  },
-  {
-   "country": "FR",
-   "source": "news",
-   "message": "fetch failed"
-  },
-  {
-   "country": "DE",
-   "source": "news",
-   "message": "fetch failed"
-  },
-  {
-   "country": "KR",
-   "source": "news",
-   "message": "fetch failed"
-  },
-  {
-   "country": "IN",
-   "source": "news",
-   "message": "HTTP 429"
-  },
-  {
-   "country": "AU",
-   "source": "news",
-   "message": "HTTP 429"
-  }
- ]
+ "errors": []
 }

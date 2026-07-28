@@ -32,22 +32,13 @@
 
   <header class="hdr">
     <div class="brand">
-      <h1 class="brand-en">WORLD<span class="brand-sep">·</span>PULSE</h1>
+      <h1 class="brand-en">WORLD PULSE</h1>
       <p class="brand-ja" data-i18n="app.nameJa">世界の脈拍</p>
     </div>
+    <p class="brand-copy mono" data-i18n="intro.en">THE WORLD, RIGHT NOW.</p>
 
-    <div id="data-mode" class="mono dmode" aria-live="polite"></div>
-
-    <div class="hdr-tools">
-      <label class="sr-only" for="country-select" data-i18n="nav.pickCountry">国を検索して選ぶ</label>
-      <select id="country-select" class="mono country-select"></select>
-
-      <button type="button" id="links-toggle" class="btn btn-ghost mono"
-              aria-pressed="false" data-i18n="nav.links" data-i18n-title="nav.linksTitle">接続線</button>
-
-      <button type="button" id="world-now" class="btn btn-world mono"
-              data-i18n="nav.worldNow">WORLD NOW</button>
-
+    <div class="hdr-right">
+      <div id="data-mode" class="mono dmode" aria-live="polite"></div>
       <div class="lang mono" role="group" data-i18n-label="nav.lang">
         <button type="button" data-lang="ja">JP</button>
         <span class="lang-sep">/</span>
@@ -57,14 +48,43 @@
   </header>
 
   <main class="stage">
-    <div class="filter-rail">
-      <span class="mono rail-label" data-i18n="filter.category">カテゴリー</span>
-      <div id="filters" class="chips"></div>
+
+    <div class="rail">
+      <div class="rail-left">
+        <span class="mono rail-label" data-i18n="filter.category">カテゴリー</span>
+        <div id="filters" class="chips"></div>
+      </div>
+      <div class="rail-right">
+        <label class="sr-only" for="country-select" data-i18n="nav.pickCountry">国を検索して選ぶ</label>
+        <select id="country-select" class="mono country-select"></select>
+        <button type="button" id="links-toggle" class="btn btn-ghost mono"
+                aria-pressed="false" data-i18n="nav.links" data-i18n-title="nav.linksTitle">接続線</button>
+        <button type="button" id="world-now" class="btn btn-world mono"
+                data-i18n="nav.worldNow">WORLD NOW</button>
+      </div>
     </div>
 
     <div id="map-wrap" class="map-wrap">
       <svg id="map" class="world" role="img" data-i18n-label="a11y.map"></svg>
       <div id="tooltip" class="tooltip" hidden aria-hidden="true"></div>
+
+      <!-- legend ------------------------------------------------------- -->
+      <div class="legend" aria-hidden="true">
+        <p class="legend-title" data-i18n="legend.title">グローバル・アテンション</p>
+        <div class="legend-scale">
+          <div class="legend-bars"><i></i><i></i><i></i><i></i></div>
+          <div class="mono legend-ends">
+            <span data-i18n="legend.high">高</span>
+            <span data-i18n="legend.low">低</span>
+          </div>
+        </div>
+        <ul class="legend-keys">
+          <li><span class="lk lk-dot" aria-hidden="true"></span><span data-i18n="legend.active">アクティブな国・地域</span></li>
+          <li><span class="lk lk-arc" aria-hidden="true"></span><span data-i18n="legend.spread">トピックの広がり</span></li>
+          <li><span class="lk lk-night" aria-hidden="true"></span><span data-i18n="legend.night">夜の側</span></li>
+        </ul>
+      </div>
+
       <p id="hint" class="hint mono"><span data-i18n="hint.select">国を選択</span></p>
       <p class="stamp mono">UPDATED <b id="updated-stamp">—</b></p>
     </div>
@@ -85,7 +105,7 @@
 <!-- module load failure (inline fallback; must work even if css/js are missing) -->
 <div id="bootfail" hidden style="position:fixed;inset:0;z-index:120;display:none;
      flex-direction:column;align-items:center;justify-content:center;gap:.9rem;
-     background:#06090e;color:#e6ecf4;padding:1.5rem;text-align:center;
+     background:#04070c;color:#e6ecf4;padding:1.5rem;text-align:center;
      font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.9rem;line-height:1.9">
   <p style="margin:0">アプリケーションを起動できませんでした。<br>必要なファイルが不足している可能性があります。</p>
   <p style="margin:0;color:#8493a8">The application could not start.<br>Some required files may be missing.</p>

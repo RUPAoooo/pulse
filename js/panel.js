@@ -7,11 +7,17 @@ import {
   flagEmoji, activityHistory, countriesWithTopic, worldTopics, activityFromTopics,
 } from './data.js';
 import {
-  filterTopics, renderScopeToggle, renderCategoryChips, renderSourceToggle, getFilters,
+  filterTopics, renderScopeToggle, renderSourceToggle, getFilters,
 } from './filters.js';
 
 const STATUS_GLYPH = {
   emerging: '◦', rising: '▲', peak: '◆', stable: '—', declining: '▽',
+};
+
+/* Two-letter tile shown in place of an image thumbnail — no external assets. */
+const CAT_MARK = {
+  WORLD: 'WD', TECH: 'AI', CULTURE: 'CU', SPORTS: 'SP', SCIENCE: 'SC',
+  ENTERTAINMENT: 'EN', POLITICS: 'PO', BUSINESS: 'BZ', WEATHER: 'WX', OTHER: '··',
 };
 
 /* ------------------------------------------------------------------ helpers */
@@ -34,10 +40,16 @@ function changeClass(change) {
   return 'flat';
 }
 
-function fmtClock(date, tz, withSeconds = true) {
+function fmtClock(date, tz, withSeconds = false) {
   return new Intl.DateTimeFormat(locale(), {
     timeZone: tz, hour: '2-digit', minute: '2-digit',
     ...(withSeconds ? { second: '2-digit' } : {}), hour12: false,
+  }).format(date);
+}
+
+function fmtDate(date, tz) {
+  return new Intl.DateTimeFormat(locale(), {
+    timeZone: tz, year: 'numeric', month: 'short', day: 'numeric', weekday: 'short',
   }).format(date);
 }
 
@@ -61,6 +73,13 @@ function fmtViews(n) {
   return new Intl.NumberFormat(locale()).format(Number(n) || 0);
 }
 
+function fmtCompact(n) {
+  const v = Number(n) || 0;
+  if (v >= 1e6) return `${(v / 1e6).toFixed(2)}M`;
+  if (v >= 1e3) return `${(v / 1e3).toFixed(1)}K`;
+  return String(Math.round(v));
+}
+
 /** External link — always a real URL from the feed, never a placeholder. */
 function externalLink(url, label) {
   const a = document.createElement('a');
@@ -70,7 +89,7 @@ function externalLink(url, label) {
   a.rel = 'noopener noreferrer';
   a.textContent = label;
   a.title = t('topic.newTab');
-  a.append(h('span', 'ext', '\u2197'));
+  a.append(h('span', 'ext', '↗'));
   a.addEventListener('click', (e) => e.stopPropagation());
   return a;
 }
@@ -82,7 +101,7 @@ function statusTag(topic) {
   return span;
 }
 
-function sparkline(values) {
+function sparkline(values, cls = 'spark') {
   const w = 120;
   const hgt = 30;
   const max = Math.max(60, ...values);
@@ -93,7 +112,7 @@ function sparkline(values) {
   });
   const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
   svg.setAttribute('viewBox', `0 0 ${w} ${hgt}`);
-  svg.setAttribute('class', 'spark');
+  svg.setAttribute('class', cls);
   svg.setAttribute('aria-hidden', 'true');
   svg.setAttribute('preserveAspectRatio', 'none');
   const line = document.createElementNS('http://www.w3.org/2000/svg', 'polyline');
@@ -126,7 +145,12 @@ function topicRow(topic, rank, handlers) {
   li.dataset.id = topic.id;
   li.dataset.scope = topic.scope;
 
-  li.append(h('span', 'mono t-rank', String(rank).padStart(2, '0')));
+  li.append(h('span', 'mono t-rank', String(rank)));
+
+  const thumb = h('span', 'mono t-thumb', CAT_MARK[topic.category] ?? '··');
+  thumb.dataset.cat = topic.category;
+  thumb.setAttribute('aria-hidden', 'true');
+  li.append(thumb);
 
   const body = h('div', 't-body');
   body.append(h('h4', 't-title', pick(topic.title)));
@@ -136,32 +160,35 @@ function topicRow(topic, rank, handlers) {
   tags.append(h('span', `tag tag-scope scope-${topic.scope}`, topic.scope));
   body.append(tags);
 
-  const summary = pick(topic.summary);
-  if (summary) body.append(h('p', 't-sum', summary));
-
   if (topic.kind === 'NEWS') {
     const line = h('p', 'mono t-src');
     if (topic.outlet) line.append(h('span', 't-outlet', topic.outlet));
     const when = fmtDateTime(topic.publishedAt);
     if (when) line.append(h('span', 't-when', when));
+    if (topic.url) line.append(externalLink(topic.url, t('topic.openArticle')));
     body.append(line);
   } else if (topic.kind === 'WIKI') {
     const line = h('p', 'mono t-src');
     if (topic.rank) line.append(h('span', 't-outlet', `#${topic.rank}`));
     if (topic.views != null) line.append(h('span', 't-when', `${fmtViews(topic.views)} ${t('topic.views')}`));
+    if (topic.url) line.append(externalLink(topic.url, 'Wikipedia'));
     body.append(line);
+  } else {
+    const summary = pick(topic.summary);
+    if (summary) body.append(h('p', 't-sum', summary));
   }
-
-  const stats = h('div', 'mono t-stats');
-  stats.append(h('span', 't-score', `${t('topic.score')} ${topic.score}`));
-  stats.append(h('span', `delta ${changeClass(topic.change)}`, fmtChange(topic.change)));
-  stats.append(statusTag(topic));
-  if (topic.url) {
-    stats.append(externalLink(topic.url, topic.kind === 'WIKI' ? 'Wikipedia' : t('topic.openArticle')));
-  }
-  body.append(stats);
 
   li.append(body);
+
+  const side = h('div', 't-side');
+  side.append(statusTag(topic));
+  const delta = h('span', `mono delta ${changeClass(topic.change)}`, fmtChange(topic.change));
+  delta.append(h('i', 'arrow', topic.change >= 0 ? '↗' : '↘'));
+  side.append(delta);
+  const bar = meter(topic.score);
+  bar.classList.add('meter-sm');
+  side.append(bar);
+  li.append(side);
 
   li.addEventListener('click', () => handlers.onOpen?.(topic));
   li.addEventListener('keydown', (e) => {
@@ -181,6 +208,7 @@ export function createPanel({ root, onClose, onTopicOpen, onTopicHover }) {
   let currentCode = null;
   let ctx = null;
   let clockTimer = null;
+  let expanded = false;
 
   root.setAttribute('aria-hidden', 'true');
 
@@ -188,6 +216,7 @@ export function createPanel({ root, onClose, onTopicOpen, onTopicHover }) {
     if (!mode) return;
     mode = null;
     currentCode = null;
+    expanded = false;
     stopClock();
     root.classList.remove('is-open');
     root.setAttribute('aria-hidden', 'true');
@@ -204,13 +233,29 @@ export function createPanel({ root, onClose, onTopicOpen, onTopicHover }) {
     if (clockTimer) { window.clearInterval(clockTimer); clockTimer = null; }
   }
 
-  function headerBar(titleText, subText, flag) {
+  /* ---------------------------------------------------------------- header */
+
+  function headerBar({ flag, title, sub, clock, date }) {
     const head = h('header', 'p-head');
-    if (flag) head.append(h('span', 'p-flag', flag));
-    const box = h('div', 'p-head-text');
-    box.append(h('div', 'mono p-eyebrow', subText));
-    box.append(h('h2', 'p-name', titleText));
-    head.append(box);
+
+    const id = h('div', 'p-id');
+    if (flag) id.append(h('span', 'p-flag', flag));
+    const box = h('div', 'p-id-text');
+    box.append(h('h2', 'p-name', title));
+    box.append(h('p', 'p-name-sub', sub));
+    id.append(box);
+    head.append(id);
+
+    let clockValue = null;
+    if (clock) {
+      const time = h('div', 'p-time');
+      time.append(h('span', 'mono p-time-k', t('panel.localTime')));
+      clockValue = h('b', 'mono p-time-v', clock);
+      time.append(clockValue);
+      time.append(h('span', 'p-time-d', date));
+      head.append(time);
+    }
+
     const btn = h('button', 'p-close');
     btn.type = 'button';
     btn.setAttribute('aria-label', t('panel.close'));
@@ -218,22 +263,173 @@ export function createPanel({ root, onClose, onTopicOpen, onTopicHover }) {
     btn.textContent = '×';
     btn.addEventListener('click', close);
     head.append(btn);
-    return head;
+    return { head, clockValue };
   }
 
-  function controlsBlock() {
-    const wrap = h('div', 'p-controls');
-    if (ctx?.model?.mode === 'live') {
-      const source = h('div', 'seg-group seg-source');
-      renderSourceToggle(source);
-      wrap.append(source);
+  /** ALL / NEWS / WIKIPEDIA for live data, ALL / GLOBAL / LOCAL for the sample. */
+  function tabsBlock() {
+    const live = ctx?.model?.mode === 'live';
+    const wrap = h('nav', 'p-tabs');
+    const bar = h('div', 'seg-group seg-tabs');
+    if (live) renderSourceToggle(bar); else renderScopeToggle(bar);
+    wrap.append(bar);
+    if (live) {
+      const sub = h('div', 'seg-group seg-sub');
+      renderScopeToggle(sub);
+      wrap.append(sub);
     }
-    const scope = h('div', 'seg-group');
-    renderScopeToggle(scope);
-    const chips = h('div', 'chips chips-sm');
-    renderCategoryChips(chips);
-    wrap.append(scope, chips);
     return wrap;
+  }
+
+  function metricCell(key, value, note) {
+    const cell = h('div', 'metric');
+    cell.append(h('span', 'mono metric-k', key));
+    cell.append(h('b', 'mono metric-v', value));
+    if (note) cell.append(h('span', 'mono metric-n', note));
+    return cell;
+  }
+
+  function metricsBlock(topics) {
+    const live = ctx?.model?.mode === 'live';
+    const grid = h('section', 'p-metrics');
+    const rising = topics.filter((x) => x.change >= 15).length;
+    const global = topics.filter((x) => x.scope === 'GLOBAL').length;
+
+    if (live) {
+      const news = topics.filter((x) => x.kind === 'NEWS').length;
+      const views = topics.reduce((a, x) => a + (Number(x.views) || 0), 0);
+      grid.append(metricCell(t('metric.news'), String(news), t('metric.unitItems')));
+      grid.append(metricCell(t('metric.wikiViews'), fmtCompact(views), t('metric.unitViews')));
+    } else {
+      grid.append(metricCell(t('metric.topics'), String(topics.length), t('metric.unitItems')));
+      grid.append(metricCell(t('metric.local'), String(topics.length - global), t('metric.unitItems')));
+    }
+    grid.append(metricCell(t('metric.rising'), String(rising), t('metric.unitItems')));
+    grid.append(metricCell(t('metric.global'), String(global), t('metric.unitItems')));
+    return grid;
+  }
+
+  /* --------------------------------------------------------------- country */
+
+  function renderCountry(code, context) {
+    const sameCountry = currentCode === code;
+    ctx = context;
+    mode = 'country';
+    currentCode = code;
+    if (!sameCountry) expanded = false;
+    stopClock();
+    root.textContent = '';
+    root.scrollTop = sameCountry ? root.scrollTop : 0;
+
+    const country = ctx.model.countries.get(code);
+    const entry = ctx.state.get(code);
+    const names = country?.name ?? { ja: code, en: code };
+    const primary = pick(names);
+    const secondary = names.en === primary ? (names.ja ?? code) : (names.en ?? code);
+    const tz = country?.tz ?? 'UTC';
+
+    const { head, clockValue } = headerBar({
+      flag: flagEmoji(code),
+      title: primary,
+      sub: `${secondary} · ${code}${country?.code3 ? ` / ${country.code3}` : ''}`,
+      clock: fmtClock(new Date(), tz),
+      date: fmtDate(new Date(), tz),
+    });
+    root.append(head);
+
+    if (clockValue) {
+      clockTimer = window.setInterval(() => {
+        if (!clockValue.isConnected) return stopClock();
+        clockValue.textContent = fmtClock(new Date(), tz);
+      }, 1000);
+    }
+
+    if (!country || !entry?.hasData) {
+      const empty = h('div', 'p-empty');
+      empty.append(h('p', 'empty-title', t('panel.noData')));
+      empty.append(h('p', 'empty-note', t('panel.noDataNote')));
+      root.append(empty);
+      open();
+      return;
+    }
+
+    /* ---- score + 24 h change ------------------------------------------- */
+    const filtered = filterTopics(entry.topics);
+    const filters = getFilters();
+    const isAll = filters.category === 'ALL' && filters.scope === 'ALL' && filters.source === 'ALL';
+    const activity = isAll ? entry.activityScore : activityFromTopics(filtered);
+
+    const history = activityHistory(ctx.model, code);
+    const first = history.find((p) => p.value > 0)?.value ?? 0;
+    const change = first ? ((activity - first) / first) * 100 : 0;
+
+    const score = h('section', 'p-score');
+
+    const main = h('div', 'score-main');
+    main.append(h('span', 'mono score-k', t('panel.activity')));
+    const num = h('div', 'score-num');
+    num.append(h('b', 'mono score-v', String(activity)));
+    num.append(h('span', 'mono score-max', '/100'));
+    main.append(num);
+    main.append(meter(activity));
+    score.append(main);
+
+    const side = h('div', 'score-side');
+    side.append(h('span', 'mono score-k', t('panel.change24')));
+    const deltaRow = h('div', 'score-delta');
+    deltaRow.append(h('b', `mono delta ${changeClass(change)}`, fmtChange(change)));
+    deltaRow.append(h('i', `arrow ${changeClass(change)}`, change >= 0 ? '↗' : '↘'));
+    side.append(deltaRow);
+    side.append(sparkline(history.map((p) => p.value)));
+    score.append(side);
+
+    root.append(score);
+
+    /* ---- tabs ----------------------------------------------------------- */
+    root.append(tabsBlock());
+
+    /* ---- topics --------------------------------------------------------- */
+    const sections = topicSections(entry, filtered);
+    const limit = expanded ? 50 : (sections.length > 1 ? 4 : 6);
+
+    sections.forEach((sec) => {
+      const section = h('section', 'p-topics');
+      const shead = h('div', 'sec-head');
+      shead.append(h('h3', null, sec.title));
+      shead.append(h('span', 'mono sec-count',
+        `${Math.min(limit, sec.items.length)} / ${sec.items.length}`));
+      section.append(shead);
+      if (sec.note) section.append(h('p', 'mono sec-note', sec.note));
+
+      if (!sec.items.length) {
+        section.append(h('p', 'p-none', t('panel.noTopics')));
+      } else {
+        const list = h('ol', 'topic-list');
+        sec.items.slice(0, limit).forEach((topic, i) => {
+          list.append(topicRow(topic, i + 1, { onOpen: onTopicOpen, onHover: onTopicHover }));
+        });
+        section.append(list);
+      }
+      root.append(section);
+    });
+
+    const total = sections.reduce((a, s) => a + s.items.length, 0);
+    if (total > limit || expanded) {
+      const more = h('button', 'mono p-more', expanded ? t('panel.showLess') : t('panel.showAll'));
+      more.type = 'button';
+      more.append(h('span', 'chev', expanded ? '‹' : '›'));
+      more.addEventListener('click', () => {
+        expanded = !expanded;
+        renderCountry(code, ctx);
+      });
+      root.append(more);
+    }
+
+    /* ---- aggregate metrics ---------------------------------------------- */
+    root.append(metricsBlock(filtered));
+    root.append(h('p', 'mono p-foot',
+      `${t('panel.updated')} ${fmtStamp(ctx.frameDate, tz)} · ${t('topic.openHint')}`));
+    open();
   }
 
   /** One list, or — for live data with source=ALL — News and Wikipedia apart. */
@@ -241,7 +437,7 @@ export function createPanel({ root, onClose, onTopicOpen, onTopicHover }) {
     const live = ctx?.model?.mode === 'live';
     const source = getFilters().source;
     if (!live || source !== 'ALL') {
-      return [{ key: 'topics', title: t('panel.topics'), items: filtered, note: null }];
+      return [{ key: 'topics', title: t('panel.trendTopics'), items: filtered, note: null }];
     }
     const news = filtered.filter((x) => x.kind === 'NEWS');
     const wiki = filtered.filter((x) => x.kind === 'WIKI');
@@ -257,103 +453,7 @@ export function createPanel({ root, onClose, onTopicOpen, onTopicHover }) {
     ];
   }
 
-  function renderCountry(code, context) {
-    ctx = context;
-    mode = 'country';
-    currentCode = code;
-    stopClock();
-    root.textContent = '';
-
-    const country = ctx.model.countries.get(code);
-    const entry = ctx.state.get(code);
-    const name = country ? pick(country.name) : code;
-
-    root.append(headerBar(name, `${code}${country?.code3 ? ` · ${country.code3}` : ''}`, flagEmoji(code)));
-
-    if (!country || !entry?.hasData) {
-      const empty = h('div', 'p-empty');
-      empty.append(h('p', 'empty-title', t('panel.noData')));
-      empty.append(h('p', 'empty-note', t('panel.noDataNote')));
-      root.append(empty);
-      open();
-      return;
-    }
-
-    /* clock + data time */
-    const meta = h('div', 'mono p-meta');
-    const clockCell = h('div', 'meta-cell');
-    clockCell.append(h('span', 'meta-k', t('panel.localTime')));
-    const clockValue = h('b', 'meta-v', fmtClock(new Date(), country.tz));
-    clockCell.append(clockValue);
-    const updCell = h('div', 'meta-cell');
-    updCell.append(h('span', 'meta-k', t('panel.updated')));
-    updCell.append(h('b', 'meta-v', fmtStamp(ctx.frameDate, country.tz)));
-    meta.append(clockCell, updCell);
-    root.append(meta);
-    clockTimer = window.setInterval(() => {
-      if (!clockValue.isConnected) return stopClock();
-      clockValue.textContent = fmtClock(new Date(), country.tz);
-    }, 1000);
-
-    /* activity */
-    const filtered = filterTopics(entry.topics);
-    const filters = getFilters();
-    const isAll = filters.category === 'ALL' && filters.scope === 'ALL';
-    const activity = isAll ? entry.activityScore : activityFromTopics(filtered);
-
-    const act = h('section', 'p-activity');
-    act.append(h('div', 'mono act-num', String(activity)));
-    const side = h('div', 'act-side');
-    side.append(h('div', 'act-label', t('panel.activity')));
-    side.append(meter(activity));
-    const rising = filtered.filter((x) => x.change >= 15).length;
-    side.append(h('div', 'mono act-rising', `${t('panel.rising')} ${rising}`));
-    act.append(side);
-    root.append(act);
-
-    /* 24 h history */
-    const history = activityHistory(ctx.model, code);
-    const spark = h('section', 'p-spark');
-    spark.append(h('div', 'mono s-label', t('panel.change24')));
-    spark.append(sparkline(history.map((p) => p.value)));
-    const axis = h('div', 'mono s-axis');
-    axis.append(h('span', null, '24H'), h('span', null, t('time.now')));
-    spark.append(axis);
-    root.append(spark);
-
-    /* filters */
-    root.append(controlsBlock());
-
-    /* topics — one section, or News / Wikipedia side by side */
-    const sections = topicSections(entry, filtered);
-    const limit = sections.length > 1 ? 6 : 5;
-    let shownAny = false;
-
-    sections.forEach((sec) => {
-      const section = h('section', 'p-topics');
-      const head = h('div', 'sec-head');
-      head.append(h('h3', null, sec.title));
-      head.append(h('span', 'mono sec-count',
-        `${Math.min(limit, sec.items.length)} / ${sec.items.length}`));
-      section.append(head);
-      if (sec.note) section.append(h('p', 'mono sec-note', sec.note));
-
-      if (!sec.items.length) {
-        section.append(h('p', 'p-none', t('panel.noTopics')));
-      } else {
-        shownAny = true;
-        const list = h('ol', 'topic-list');
-        sec.items.slice(0, limit).forEach((topic, i) => {
-          list.append(topicRow(topic, i + 1, { onOpen: onTopicOpen, onHover: onTopicHover }));
-        });
-        section.append(list);
-      }
-      root.append(section);
-    });
-
-    if (shownAny) root.append(h('p', 'mono p-foot', t('topic.openHint')));
-    open();
-  }
+  /* ------------------------------------------------------------ world now */
 
   function renderWorld(context) {
     ctx = context;
@@ -362,18 +462,16 @@ export function createPanel({ root, onClose, onTopicOpen, onTopicHover }) {
     stopClock();
     root.textContent = '';
 
-    root.append(headerBar(t('world.title'), t('world.subtitle'), '◍'));
+    const { head } = headerBar({
+      flag: '◍',
+      title: t('world.title'),
+      sub: t('world.subtitle'),
+      clock: fmtClock(new Date(), undefined),
+      date: fmtDate(new Date(), undefined),
+    });
+    root.append(head);
 
-    const meta = h('div', 'mono p-meta');
-    const cell = h('div', 'meta-cell');
-    cell.append(h('span', 'meta-k', t('panel.updated')));
-    cell.append(h('b', 'meta-v', new Intl.DateTimeFormat(locale(), {
-      month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false,
-    }).format(ctx.frameDate)));
-    meta.append(cell);
-    root.append(meta);
-
-    root.append(controlsBlock());
+    root.append(tabsBlock());
 
     const aggregates = worldTopics(ctx.state, (topic) => filterTopics([topic]).length > 0);
 
@@ -381,16 +479,17 @@ export function createPanel({ root, onClose, onTopicOpen, onTopicHover }) {
     const s1 = h('section', 'p-topics');
     const h1 = h('div', 'sec-head');
     h1.append(h('h3', null, t('world.top')));
+    h1.append(h('span', 'mono sec-count', String(aggregates.length)));
     s1.append(h1);
     if (!aggregates.length) {
       s1.append(h('p', 'p-none', t('world.none')));
     } else {
       const list = h('ol', 'topic-list');
-      aggregates.slice(0, 5).forEach((agg, i) => {
+      aggregates.slice(0, 6).forEach((agg, i) => {
         const row = topicRow({ ...agg.topic, score: agg.avgScore, change: agg.avgChange },
           i + 1, { onOpen: onTopicOpen, onHover: onTopicHover });
-        row.querySelector('.t-stats').append(
-          h('span', 'reach', `${agg.countryCount} ${t('world.countries')}`),
+        row.querySelector('.t-tags').append(
+          h('span', 'tag reach', `${agg.countryCount} ${t('world.countries')}`),
         );
         list.append(row);
       });
@@ -409,8 +508,7 @@ export function createPanel({ root, onClose, onTopicOpen, onTopicHover }) {
       multi.forEach((agg) => {
         const li = h('li', 'mini');
         li.append(h('span', 'mini-name', pick(agg.topic.title)));
-        const flags = h('span', 'mini-flags', agg.codes.slice(0, 6).map(flagEmoji).join(' '));
-        li.append(flags);
+        li.append(h('span', 'mini-flags', agg.codes.slice(0, 6).map(flagEmoji).join(' ')));
         li.append(h('span', `mono delta ${changeClass(agg.avgChange)}`, fmtChange(agg.avgChange)));
         ul.append(li);
       });
@@ -429,7 +527,7 @@ export function createPanel({ root, onClose, onTopicOpen, onTopicHover }) {
       })
       .filter((e) => e.value > 0)
       .sort((a, b) => b.value - a.value)
-      .slice(0, 5);
+      .slice(0, 6);
 
     if (active.length) {
       const s3 = h('section', 'p-block');
@@ -485,6 +583,9 @@ export function createPanel({ root, onClose, onTopicOpen, onTopicHover }) {
       s4.append(ul);
       root.append(s4);
     }
+
+    const all = [...ctx.state.values()].flatMap((e) => filterTopics(e.topics));
+    root.append(metricsBlock(all));
 
     open();
   }
@@ -544,7 +645,8 @@ export function createModal({ root, onClose }) {
     head.append(close$);
     card.append(head);
 
-    card.append(h('p', 'm-summary', pick(topic.summary)));
+    const summary = pick(topic.summary);
+    if (summary) card.append(h('p', 'm-summary', summary));
 
     const stats = h('dl', 'mono m-stats');
     const add = (k, v, cls) => {
@@ -581,7 +683,7 @@ export function createModal({ root, onClose }) {
       a.target = '_blank';
       a.rel = 'noopener noreferrer';
       a.textContent = topic.kind === 'WIKI' ? t('topic.openWiki') : t('topic.openArticle');
-      a.append(h('span', 'ext', '\u2197'));
+      a.append(h('span', 'ext', '↗'));
       cta.append(a);
       cta.append(h('p', 'mono m-note', t('topic.newTab')));
       card.append(cta);

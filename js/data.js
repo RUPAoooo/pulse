@@ -7,7 +7,7 @@
  */
 
 const FILES = {
-  grid: 'data/worldgrid.json',
+  geo: 'data/world-vector.json',
   countries: 'data/countries.json',
   topics: 'data/topics.json',
   timeline: 'data/timeline.json',
@@ -34,8 +34,8 @@ async function getJSON(url) {
  * small request and never a 404 in the console.
  */
 export async function fetchTrendData() {
-  const [grid, countries] = await Promise.all([
-    getJSON(FILES.grid),
+  const [geo, countries] = await Promise.all([
+    getJSON(FILES.geo),
     getJSON(FILES.countries),
   ]);
 
@@ -52,7 +52,7 @@ export async function fetchTrendData() {
         getJSON(FILES.liveTopics),
         getJSON(FILES.liveTimeline),
       ]);
-      return { grid, countries, topics, timeline, status, mode: 'live' };
+      return { geo, countries, topics, timeline, status, mode: 'live' };
     } catch (e) {
       // Live files went missing or broke — fall through to the sample rather
       // than showing nothing, but say so.
@@ -64,7 +64,7 @@ export async function fetchTrendData() {
     getJSON(FILES.topics),
     getJSON(FILES.timeline),
   ]);
-  return { grid, countries, topics, timeline, status, mode: 'sample' };
+  return { geo, countries, topics, timeline, status, mode: 'sample' };
 }
 
 /* ------------------------------------------------------------ normalisation */
@@ -147,10 +147,18 @@ export function normalizeTrendData(raw) {
     countries: f.countries ?? {},
   })).sort((a, b) => a.offsetHours - b.offsetHours);
 
-  const grid = {
-    cols: raw.grid?.meta?.cols ?? 120,
-    rows: raw.grid?.meta?.rows ?? 48,
-    cells: raw.grid?.cells ?? [],
+  /* The vector map is pre-projected; its meta is the single source of truth
+     for the coordinate space the centroids in countries.json live in. */
+  const geo = {
+    meta: {
+      width: raw.geo?.meta?.width ?? 1200,
+      height: raw.geo?.meta?.height ?? 480,
+      lonMin: raw.geo?.meta?.lonMin ?? -180,
+      latMax: raw.geo?.meta?.latMax ?? 84,
+      deg: raw.geo?.meta?.deg ?? 3,
+      cell: raw.geo?.meta?.cell ?? 10,
+    },
+    countries: raw.geo?.countries ?? [],
   };
 
   const model = {
@@ -162,7 +170,7 @@ export function normalizeTrendData(raw) {
     order: [...countries.keys()].sort(),
     targets: raw.countries?.targets ?? [...countries.values()].filter((c) => c.hasData).map((c) => c.code),
     frames: frames.length ? frames : [{ offsetHours: 0, label: { ja: '現在', en: 'NOW' }, shortLabel: 'NOW', countries: {} }],
-    grid,
+    geo,
     warnings,
   };
   return model;

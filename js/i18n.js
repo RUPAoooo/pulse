@@ -123,6 +123,9 @@ const DICT = {
   'world.none':        { ja: '該当する話題はありません', en: 'Nothing matches this filter.' },
 
   'time.label':        { ja: '時刻',              en: 'Timeline' },
+  'time.title':        { ja: 'グローバル・アクティビティ タイムライン',
+                         en: 'Global activity timeline' },
+  'time.sub':          { ja: '世界の関心の推移',    en: 'How the world\u2019s attention moved' },
   'time.now':          { ja: '現在',              en: 'NOW' },
   'time.viewing':      { ja: '表示中の時刻',      en: 'Viewing' },
   'time.ago':          { ja: '時間前',            en: 'h ago' },
@@ -135,6 +138,26 @@ const DICT = {
   'error.retry':       { ja: '再読み込み',        en: 'Reload' },
   'error.partial':     { ja: '一部の国のデータを読み込めませんでした。',
                          en: 'Some country data could not be loaded.' },
+
+  'legend.title':      { ja: 'グローバル・アテンション', en: 'Global attention' },
+  'legend.high':       { ja: '高',                en: 'High' },
+  'legend.low':        { ja: '低',                en: 'Low' },
+  'legend.active':     { ja: 'アクティブな国・地域', en: 'Active country / region' },
+  'legend.spread':     { ja: 'トピックの広がり',    en: 'How a topic spreads' },
+  'legend.night':      { ja: '夜の側',            en: 'Night side' },
+
+  'panel.trendTopics': { ja: 'トレンドトピック',    en: 'Trending topics' },
+  'panel.showAll':     { ja: 'すべてのトレンドを見る', en: 'See all trends' },
+  'panel.showLess':    { ja: '表示を戻す',          en: 'Show fewer' },
+
+  'metric.news':       { ja: 'ニュース件数',        en: 'News items' },
+  'metric.wikiViews':  { ja: 'Wikipedia閲覧数',    en: 'Wikipedia views' },
+  'metric.rising':     { ja: '上昇中',            en: 'Rising' },
+  'metric.global':     { ja: 'GLOBAL話題',        en: 'Global topics' },
+  'metric.local':      { ja: 'LOCAL話題',         en: 'Local topics' },
+  'metric.topics':     { ja: '話題の総数',         en: 'Topics' },
+  'metric.unitItems':  { ja: '件',                en: 'items' },
+  'metric.unitViews':  { ja: '24H',               en: '24H' },
 
   'a11y.map':          { ja: '世界地図。国を選ぶとその国の話題が開きます。',
                          en: 'World map. Choose a country to open its topics.' },
