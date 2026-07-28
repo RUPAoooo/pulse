@@ -1,18 +1,49 @@
 {
- "updatedAt": "2026-07-28T14:49:08.066Z",
+ "updatedAt": "2026-07-28T15:59:19.679Z",
  "source": "live",
- "fingerprint": "acb24ab6f8df99c6a63cea656f087ff1abbbac0e",
+ "fingerprint": "389d0ff9eb2e5c073557feb7c0907ec16358125e",
  "wikiPerCountry": false,
  "newsSource": "GDELT DOC 2.0 API",
  "wikiSource": "Wikimedia Pageviews API",
  "countries": [
   {
    "code": "AR",
-   "activityScore": 87,
+   "activityScore": 99,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
+    {
+     "id": "n-8975d3d3d2",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Netanyahu se reúne con Trump en la Casa Blanca para abordar la guerra con Irán , Gaza y el acuerdo de seguridad con Líbano",
+      "en": "Netanyahu se reúne con Trump en la Casa Blanca para abordar la guerra con Irán , Gaza y el acuerdo de seguridad con Líbano"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 100,
+     "url": "https://www.infobae.com/america/mundo/2026/07/28/netanyahu-se-reune-con-trump-en-la-casa-blanca-para-abordar-la-guerra-con-iran-gaza-y-el-acuerdo-de-seguridad-con-libano/",
+     "outlet": "infobae.com",
+     "publishedAt": "2026-07-28T07:30:00Z",
+     "language": "Spanish",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "AR",
+     "relatedCountries": [
+      "AR"
+     ],
+     "startedAt": "2026-07-28T07:30:00Z",
+     "durationHours": null
+    },
     {
      "id": "w-99a661139b",
      "kind": "WIKI",
@@ -43,6 +74,68 @@
       "AR"
      ],
      "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "n-af7dbd75ee",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Zelensky se reúne con Trump en Washington para reforzar el apoyo de Estados Unidos frente a Rusia en plena escalada militar",
+      "en": "Zelensky se reúne con Trump en Washington para reforzar el apoyo de Estados Unidos frente a Rusia en plena escalada militar"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 96,
+     "url": "https://www.infobae.com/america/mundo/2026/07/28/zelensky-se-reune-con-trump-en-washington-para-reforzar-el-apoyo-de-estados-unidos-frente-a-rusia-en-plena-escalada-militar/",
+     "outlet": "infobae.com",
+     "publishedAt": "2026-07-28T07:30:00Z",
+     "language": "Spanish",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "AR",
+     "relatedCountries": [
+      "AR"
+     ],
+     "startedAt": "2026-07-28T07:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-3903728bef",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Un terremoto de magnitud 7 , 1 golpeó el suroeste de Japón : las autoridades levantaron la alerta de tsunami",
+      "en": "Un terremoto de magnitud 7 , 1 golpeó el suroeste de Japón : las autoridades levantaron la alerta de tsunami"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WEATHER",
+     "score": 92,
+     "url": "https://www.infobae.com/america/mundo/2026/07/28/un-terremoto-de-magnitud-71-sacudio-el-suroeste-de-japon-las-autoridades-emitieron-una-alerta-de-tsunami/",
+     "outlet": "infobae.com",
+     "publishedAt": "2026-07-28T09:45:00Z",
+     "language": "Spanish",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "AR",
+     "relatedCountries": [
+      "AR"
+     ],
+     "startedAt": "2026-07-28T09:45:00Z",
      "durationHours": null
     },
     {
@@ -924,7 +1017,8 @@
      "relatedCountries": [
       "US",
       "CA",
-      "PH"
+      "PH",
+      "SG"
      ],
      "startedAt": null,
      "durationHours": null
@@ -1409,11 +1503,42 @@
   },
   {
    "code": "DE",
-   "activityScore": 88,
+   "activityScore": 99,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
+    {
+     "id": "n-88f3ba1d85",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Deutschland spricht 2026 : Tausende diskutieren über Politik und Gesellschaft",
+      "en": "Deutschland spricht 2026 : Tausende diskutieren über Politik und Gesellschaft"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 100,
+     "url": "https://www.spiegel.de/backstage/deutschland-spricht-2026-tausende-diskutieren-ueber-politik-und-gesellschaft-a-d52e6703-4c17-4ea4-a60f-d181d53c0338",
+     "outlet": "spiegel.de",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "German",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "DE",
+     "relatedCountries": [
+      "DE"
+     ],
+     "startedAt": "2026-07-28T08:30:00Z",
+     "durationHours": null
+    },
     {
      "id": "w-344f28ff9a",
      "kind": "WIKI",
@@ -1448,6 +1573,223 @@
      "durationHours": null
     },
     {
+     "id": "n-9e83950cbb",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Deutschland spricht 2026 : Melden Sie sich hier an",
+      "en": "Deutschland spricht 2026 : Melden Sie sich hier an"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 96,
+     "url": "https://www.spiegel.de/backstage/deutschland-spricht-2026-melden-sie-sich-hier-an-a-43c53415-ff81-43c7-b5a1-472a66ffcb9b",
+     "outlet": "spiegel.de",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "German",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "DE",
+     "relatedCountries": [
+      "DE"
+     ],
+     "startedAt": "2026-07-28T08:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-fedbe1fd4b",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Iran : Zwei weitere Hinrichtungen nach Massenprotesten im Januar",
+      "en": "Iran : Zwei weitere Hinrichtungen nach Massenprotesten im Januar"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 92,
+     "url": "https://www.spiegel.de/ausland/iran-zwei-weitere-hinrichtungen-nach-massenprotesten-im-januar-a-8c157354-11c9-4412-a2a9-b743589daab2",
+     "outlet": "spiegel.de",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "German",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "DE",
+     "relatedCountries": [
+      "DE"
+     ],
+     "startedAt": "2026-07-28T08:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-189f2eb126",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Katzen putzen sich gegenseitig : Ist das wirklich ein Liebesbeweis ?",
+      "en": "Katzen putzen sich gegenseitig : Ist das wirklich ein Liebesbeweis ?"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 88,
+     "url": "https://www.bild.de/leben-wissen/haustiere/katzen-putzen-sich-gegenseitig-ist-das-wirklich-ein-liebesbeweis-6a608dd6ea7bf3843138ab6e",
+     "outlet": "bild.de",
+     "publishedAt": "2026-07-28T07:30:00Z",
+     "language": "German",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "DE",
+     "relatedCountries": [
+      "DE"
+     ],
+     "startedAt": "2026-07-28T07:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-ddb803c440",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Martenstein : Auch Köln ist für Hape Kerkeling nicht sicher",
+      "en": "Martenstein : Auch Köln ist für Hape Kerkeling nicht sicher"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "CULTURE",
+     "score": 84,
+     "url": "https://www.bild.de/politik/meinung-kommentare-kolumnen/martenstein-auch-koeln-ist-fuer-hape-kerkeling-nicht-sicher-6a67558e8405ab7d4b7164f8",
+     "outlet": "bild.de",
+     "publishedAt": "2026-07-28T07:30:00Z",
+     "language": "German",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "DE",
+     "relatedCountries": [
+      "DE"
+     ],
+     "startedAt": "2026-07-28T07:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-7d18d0f7eb",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Star - Moderatorin Guthrie spricht zu Entführern ihrer Mutter : „ Ich flehe euch an ! | Unterhaltung",
+      "en": "Star - Moderatorin Guthrie spricht zu Entführern ihrer Mutter : „ Ich flehe euch an ! | Unterhaltung"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "ENTERTAINMENT",
+     "score": 80,
+     "url": "https://www.bild.de/unterhaltung/stars-und-leute/star-moderatorin-guthrie-spricht-zu-entfuehrern-ihrer-mutter-ich-flehe-euch-an-6a682493a17ee9f1dfd80f99",
+     "outlet": "bild.de",
+     "publishedAt": "2026-07-28T07:30:00Z",
+     "language": "German",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "DE",
+     "relatedCountries": [
+      "DE"
+     ],
+     "startedAt": "2026-07-28T07:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-d1ed9790fa",
+     "kind": "NEWS",
+     "title": {
+      "ja": "CSD - Anschlag in Berlin : Dobrindt fordert Präventivhaft und Fußfesseln",
+      "en": "CSD - Anschlag in Berlin : Dobrindt fordert Präventivhaft und Fußfesseln"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 76,
+     "url": "https://www.t-online.de/nachrichten/deutschland/innenpolitik/id_101362954/csd-anschlag-in-berlin-dobrindt-fordert-praeventivhaft-und-fussfesseln.html",
+     "outlet": "t-online.de",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "German",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "DE",
+     "relatedCountries": [
+      "DE"
+     ],
+     "startedAt": "2026-07-28T08:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-2e4cc66556",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Hitzefalle Wohnmobil : Diese Tricks helfen Campern bei hohen Temperaturen",
+      "en": "Hitzefalle Wohnmobil : Diese Tricks helfen Campern bei hohen Temperaturen"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 72,
+     "url": "https://www.t-online.de/mobilitaet/wohnmobile/id_101269190/hitzefalle-wohnmobil-diese-tricks-helfen-campern-bei-hohen-temperaturen.html",
+     "outlet": "t-online.de",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "German",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "DE",
+     "relatedCountries": [
+      "DE"
+     ],
+     "startedAt": "2026-07-28T08:30:00Z",
+     "durationHours": null
+    },
+    {
      "id": "w-e9e3fa4c98",
      "kind": "WIKI",
      "title": {
@@ -1477,6 +1819,37 @@
       "DE"
      ],
      "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "n-a4f4538cc1",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Iran - Krieg aktuell : Trumps Rückhalt für Iran - Krieg schwindet in den united states",
+      "en": "Iran - Krieg aktuell : Trumps Rückhalt für Iran - Krieg schwindet in den united states"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 68,
+     "url": "https://www.t-online.de/nachrichten/ausland/krisen/id_101351188/iran-krieg-aktuell-trumps-rueckhalt-fuer-iran-krieg-schwindet-in-den-usa.html",
+     "outlet": "t-online.de",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "German",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "DE",
+     "relatedCountries": [
+      "DE"
+     ],
+     "startedAt": "2026-07-28T08:30:00Z",
      "durationHours": null
     },
     {
@@ -1705,7 +2078,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "EG",
      "relatedCountries": [
       "EG"
@@ -1768,7 +2141,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "EG",
      "relatedCountries": [
       "EG"
@@ -1799,7 +2172,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "EG",
      "relatedCountries": [
       "EG"
@@ -1830,7 +2203,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "EG",
      "relatedCountries": [
       "EG"
@@ -1861,7 +2234,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "EG",
      "relatedCountries": [
       "EG"
@@ -1892,7 +2265,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "EG",
      "relatedCountries": [
       "EG"
@@ -2982,7 +3355,6 @@
      "origin": "JP",
      "relatedCountries": [
       "JP",
-      "SG",
       "TW",
       "HK"
      ],
@@ -3377,13 +3749,12 @@
      "sources": [
       "WIKIPEDIA"
      ],
-     "scope": "GLOBAL",
+     "scope": "LOCAL",
      "change": 0,
      "status": "stable",
      "origin": "ID",
      "relatedCountries": [
-      "ID",
-      "SG"
+      "ID"
      ],
      "startedAt": null,
      "durationHours": null
@@ -3595,13 +3966,12 @@
      "sources": [
       "WIKIPEDIA"
      ],
-     "scope": "GLOBAL",
+     "scope": "LOCAL",
      "change": 0,
      "status": "stable",
      "origin": "IN",
      "relatedCountries": [
-      "IN",
-      "SG"
+      "IN"
      ],
      "startedAt": null,
      "durationHours": null
@@ -4050,11 +4420,42 @@
   },
   {
    "code": "JP",
-   "activityScore": 76,
+   "activityScore": 99,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
+    {
+     "id": "n-394b1daffc",
+     "kind": "NEWS",
+     "title": {
+      "ja": "日本の位置情報サービス （ LBS ） 市場 ： 市場需要 、 市場シェア 、 トレンド 、 成長 、 市場機会 、 およびインサイト分析 （ 2026年～2036年 ）",
+      "en": "日本の位置情報サービス （ LBS ） 市場 ： 市場需要 、 市場シェア 、 トレンド 、 成長 、 市場機会 、 およびインサイト分析 （ 2026年～2036年 ）"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "BUSINESS",
+     "score": 100,
+     "url": "https://japan.cnet.com/release/31192746/",
+     "outlet": "japan.cnet.com",
+     "publishedAt": "2026-07-28T09:45:00Z",
+     "language": "Japanese",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "JP",
+     "relatedCountries": [
+      "JP"
+     ],
+     "startedAt": "2026-07-28T09:45:00Z",
+     "durationHours": null
+    },
     {
      "id": "w-8c085ceb19",
      "kind": "WIKI",
@@ -4083,11 +4484,258 @@
      "origin": "JP",
      "relatedCountries": [
       "JP",
-      "SG",
       "TW",
       "HK"
      ],
      "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "n-87e3a20788",
+     "kind": "NEWS",
+     "title": {
+      "ja": "HNS 2026 | Huawei 、 南部アフリカ向けにアップグレード版 「 Xinghe AIキャンパスソリューション 」 を発表",
+      "en": "HNS 2026 | Huawei 、 南部アフリカ向けにアップグレード版 「 Xinghe AIキャンパスソリューション 」 を発表"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "TECH",
+     "score": 96,
+     "url": "https://japan.cnet.com/release/31192741/",
+     "outlet": "japan.cnet.com",
+     "publishedAt": "2026-07-28T09:45:00Z",
+     "language": "Japanese",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "JP",
+     "relatedCountries": [
+      "JP"
+     ],
+     "startedAt": "2026-07-28T09:45:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-4391ad5d67",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Cloud - Clone 、 全系統多種初代神経細胞ラインナップのグローバルローンチを予定",
+      "en": "Cloud - Clone 、 全系統多種初代神経細胞ラインナップのグローバルローンチを予定"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 92,
+     "url": "https://japan.cnet.com/release/31192734/",
+     "outlet": "japan.cnet.com",
+     "publishedAt": "2026-07-28T09:45:00Z",
+     "language": "Japanese",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "JP",
+     "relatedCountries": [
+      "JP"
+     ],
+     "startedAt": "2026-07-28T09:45:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-ca0e213f3d",
+     "kind": "NEWS",
+     "title": {
+      "ja": "早期では症状が出ない 「 大腸がん 」。 消化器内科医が解説する検診の重要性",
+      "en": "早期では症状が出ない 「 大腸がん 」。 消化器内科医が解説する検診の重要性"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 88,
+     "url": "https://news.livedoor.com/article/detail/31928328/",
+     "outlet": "news.livedoor.com",
+     "publishedAt": "2026-07-28T07:30:00Z",
+     "language": "Japanese",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "JP",
+     "relatedCountries": [
+      "JP"
+     ],
+     "startedAt": "2026-07-28T07:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-dc648d4f31",
+     "kind": "NEWS",
+     "title": {
+      "ja": "朝のコンビニで 「 トイレ汚いから使えない 」 店員女性が絶句した惨状 「 もう二度と汚さないで欲しいです 」",
+      "en": "朝のコンビニで 「 トイレ汚いから使えない 」 店員女性が絶句した惨状 「 もう二度と汚さないで欲しいです 」"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 84,
+     "url": "https://news.livedoor.com/article/detail/31927598/",
+     "outlet": "news.livedoor.com",
+     "publishedAt": "2026-07-28T05:00:00Z",
+     "language": "Japanese",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "JP",
+     "relatedCountries": [
+      "JP"
+     ],
+     "startedAt": "2026-07-28T05:00:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-97c33037a7",
+     "kind": "NEWS",
+     "title": {
+      "ja": "阪神OBバース氏 佐藤輝に3冠王への心構え伝授 「 何が起こっても自分のペースで 」 森下との相乗効果も期待",
+      "en": "阪神OBバース氏 佐藤輝に3冠王への心構え伝授 「 何が起こっても自分のペースで 」 森下との相乗効果も期待"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 80,
+     "url": "https://news.livedoor.com/article/detail/31927441/",
+     "outlet": "news.livedoor.com",
+     "publishedAt": "2026-07-27T23:00:00Z",
+     "language": "Japanese",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "JP",
+     "relatedCountries": [
+      "JP"
+     ],
+     "startedAt": "2026-07-27T23:00:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-ffb6f6bfbc",
+     "kind": "NEWS",
+     "title": {
+      "ja": "5匹目のミジンコはやや飛び出したの巻 | Oh ！ エルちゃんのダイエットブログ",
+      "en": "5匹目のミジンコはやや飛び出したの巻 | Oh ！ エルちゃんのダイエットブログ"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 76,
+     "url": "https://ameblo.jp/murako-diet/entry-12973803687.html",
+     "outlet": "ameblo.jp",
+     "publishedAt": "2026-07-28T12:00:00Z",
+     "language": "Japanese",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "JP",
+     "relatedCountries": [
+      "JP"
+     ],
+     "startedAt": "2026-07-28T12:00:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-30dadb6792",
+     "kind": "NEWS",
+     "title": {
+      "ja": "運命すぎる出会いが … | あいのりクロの 「 こいたん 」 オフィシャルブログ Powered by Ameba",
+      "en": "運命すぎる出会いが … | あいのりクロの 「 こいたん 」 オフィシャルブログ Powered by Ameba"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 72,
+     "url": "https://ameblo.jp/watajima/entry-12974034533.html",
+     "outlet": "ameblo.jp",
+     "publishedAt": "2026-07-28T12:00:00Z",
+     "language": "Japanese",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "JP",
+     "relatedCountries": [
+      "JP"
+     ],
+     "startedAt": "2026-07-28T12:00:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-e13c700b40",
+     "kind": "NEWS",
+     "title": {
+      "ja": "カウンセリングBSJ with ののこ | イクラの雑記 ＠ KOREA",
+      "en": "カウンセリングBSJ with ののこ | イクラの雑記 ＠ KOREA"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 68,
+     "url": "https://ameblo.jp/ikuraebimaguro/entry-12973779693.html",
+     "outlet": "ameblo.jp",
+     "publishedAt": "2026-07-28T03:30:00Z",
+     "language": "Japanese",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "JP",
+     "relatedCountries": [
+      "JP"
+     ],
+     "startedAt": "2026-07-28T03:30:00Z",
      "durationHours": null
     },
     {
@@ -4584,11 +5232,42 @@
   },
   {
    "code": "MX",
-   "activityScore": 86,
+   "activityScore": 99,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
+    {
+     "id": "n-8db4bff2d6",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Vozinha enfrenta inesperado problema en Colo Colo : no podría usar su apodo en la camiseta",
+      "en": "Vozinha enfrenta inesperado problema en Colo Colo : no podría usar su apodo en la camiseta"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 100,
+     "url": "https://www.sdpnoticias.com/deportes/vozinha-enfrenta-inesperado-problema-en-colo-colo-no-podria-usar-su-apodo-en-la-camiseta/",
+     "outlet": "sdpnoticias.com",
+     "publishedAt": "2026-07-28T02:45:00Z",
+     "language": "Spanish",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "MX",
+     "relatedCountries": [
+      "MX"
+     ],
+     "startedAt": "2026-07-28T02:45:00Z",
+     "durationHours": null
+    },
     {
      "id": "w-6e07b31e76",
      "kind": "WIKI",
@@ -4619,6 +5298,68 @@
       "MX"
      ],
      "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "n-455db33165",
+     "kind": "NEWS",
+     "title": {
+      "ja": "¿ Quién fue Samara Colina Borja ? Activista feminista de Guanajuato",
+      "en": "¿ Quién fue Samara Colina Borja ? Activista feminista de Guanajuato"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 96,
+     "url": "https://www.sdpnoticias.com/estados/quien-fue-samara-colina-borja-activista-feminista-de-guanajuato/",
+     "outlet": "sdpnoticias.com",
+     "publishedAt": "2026-07-28T02:45:00Z",
+     "language": "Spanish",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "MX",
+     "relatedCountries": [
+      "MX"
+     ],
+     "startedAt": "2026-07-28T02:45:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-d97b6ce37d",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Reportan nuevo conato de incendio en la Refinería Olmeca de Dos Bocas",
+      "en": "Reportan nuevo conato de incendio en la Refinería Olmeca de Dos Bocas"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 92,
+     "url": "https://www.sdpnoticias.com/estados/reportan-nuevo-conato-de-incendio-en-la-refineria-olmeca-de-dos-bocas/",
+     "outlet": "sdpnoticias.com",
+     "publishedAt": "2026-07-28T02:45:00Z",
+     "language": "Spanish",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "MX",
+     "relatedCountries": [
+      "MX"
+     ],
+     "startedAt": "2026-07-28T02:45:00Z",
      "durationHours": null
     },
     {
@@ -5022,12 +5763,13 @@
      "sources": [
       "WIKIPEDIA"
      ],
-     "scope": "LOCAL",
+     "scope": "GLOBAL",
      "change": 0,
      "status": "stable",
      "origin": "NG",
      "relatedCountries": [
-      "NG"
+      "NG",
+      "SG"
      ],
      "startedAt": null,
      "durationHours": null
@@ -6018,7 +6760,8 @@
      "relatedCountries": [
       "US",
       "CA",
-      "PH"
+      "PH",
+      "SG"
      ],
      "startedAt": null,
      "durationHours": null
@@ -6329,42 +7072,11 @@
   },
   {
    "code": "SE",
-   "activityScore": 99,
+   "activityScore": 80,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
-    {
-     "id": "n-dd92ff6ba6",
-     "kind": "NEWS",
-     "title": {
-      "ja": "En anhållen efter misstänkt mord i Uppsala",
-      "en": "En anhållen efter misstänkt mord i Uppsala"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 100,
-     "url": "https://www.aftonbladet.se/nyheter/a/0prW5A/en-anhallen-efter-misstankt-mord-i-uppsala",
-     "outlet": "aftonbladet.se",
-     "publishedAt": "2026-07-28T09:15:00Z",
-     "language": "Swedish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "SE",
-     "relatedCountries": [
-      "SE"
-     ],
-     "startedAt": "2026-07-28T09:15:00Z",
-     "durationHours": null
-    },
     {
      "id": "w-195b6f8e83",
      "kind": "WIKI",
@@ -6395,285 +7107,6 @@
       "SE"
      ],
      "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "n-d91b42589b",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Tsunamivarning efter kraftig jordbävning i Japan",
-      "en": "Tsunamivarning efter kraftig jordbävning i Japan"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WEATHER",
-     "score": 96,
-     "url": "https://www.aftonbladet.se/nyheter/a/ExBvea/tsunamivarning-efter-kraftig-jordbavning-i-japan",
-     "outlet": "aftonbladet.se",
-     "publishedAt": "2026-07-28T09:15:00Z",
-     "language": "Swedish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "SE",
-     "relatedCountries": [
-      "SE"
-     ],
-     "startedAt": "2026-07-28T09:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-4b2cbfcf5f",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Man livshotande skadad efter kollision",
-      "en": "Man livshotande skadad efter kollision"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 92,
-     "url": "https://www.aftonbladet.se/nyheter/a/Gx6O99/man-livshotande-skadad-efter-kollision",
-     "outlet": "aftonbladet.se",
-     "publishedAt": "2026-07-28T09:15:00Z",
-     "language": "Swedish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "SE",
-     "relatedCountries": [
-      "SE"
-     ],
-     "startedAt": "2026-07-28T09:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-1d4b3f1930",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Vittnet om artisten :  Var djävulskt våldsam  | Nöje",
-      "en": "Vittnet om artisten :  Var djävulskt våldsam  | Nöje"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "CULTURE",
-     "score": 88,
-     "url": "https://www.expressen.se/noje/vittnet-om-artisten-var-djavulskt-valdsam/",
-     "outlet": "expressen.se",
-     "publishedAt": "2026-07-28T09:00:00Z",
-     "language": "Swedish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "SE",
-     "relatedCountries": [
-      "SE"
-     ],
-     "startedAt": "2026-07-28T09:00:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-b7005cd69f",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Ville stoppa Håkan Hellström i SVT : s Allsång på Skansen",
-      "en": "Ville stoppa Håkan Hellström i SVT : s Allsång på Skansen"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 84,
-     "url": "https://www.expressen.se/noje/tv-och-streaming/ville-stoppa-hakan-hellstrom-i-svts-allsang-pa-skansen/",
-     "outlet": "expressen.se",
-     "publishedAt": "2026-07-28T09:00:00Z",
-     "language": "Swedish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "SE",
-     "relatedCountries": [
-      "SE"
-     ],
-     "startedAt": "2026-07-28T09:00:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-d33b4944ad",
-     "kind": "NEWS",
-     "title": {
-      "ja": "SIMON MOSER : Vem skar bort Tunströms kuk ?",
-      "en": "SIMON MOSER : Vem skar bort Tunströms kuk ?"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WORLD",
-     "score": 80,
-     "url": "https://www.expressen.se/kultur/vem-skar-bort-tunstroms-kuk/",
-     "outlet": "expressen.se",
-     "publishedAt": "2026-07-28T04:30:00Z",
-     "language": "Swedish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "SE",
-     "relatedCountries": [
-      "SE"
-     ],
-     "startedAt": "2026-07-28T04:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-46d338448d",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Debatt om klimatkrisen splittrar i Spanien – Senaste nytt om väderläget i världen",
-      "en": "Debatt om klimatkrisen splittrar i Spanien – Senaste nytt om väderläget i världen"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 76,
-     "url": "https://www.svt.se/vader/vaderlaget-i-varlden-folj-senaste-nytt?inlagg=52e4588dfb6460a3f95977d986e52431",
-     "outlet": "svt.se",
-     "publishedAt": "2026-07-28T04:00:00Z",
-     "language": "Swedish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "SE",
-     "relatedCountries": [
-      "SE"
-     ],
-     "startedAt": "2026-07-28T04:00:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-17af2edc2c",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Ryssland : Moskva under attack – Senaste nytt om kriget i Ukraina",
-      "en": "Ryssland : Moskva under attack – Senaste nytt om kriget i Ukraina"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WEATHER",
-     "score": 72,
-     "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=4c8442e5f28d0499fdf6d23e1cceb3aa",
-     "outlet": "svt.se",
-     "publishedAt": "2026-07-28T04:00:00Z",
-     "language": "Swedish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "SE",
-     "relatedCountries": [
-      "SE"
-     ],
-     "startedAt": "2026-07-28T04:00:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-45c01a50ab",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Stenkastning och bränder på Västbanken – Senaste nytt om kriget i Gaza",
-      "en": "Stenkastning och bränder på Västbanken – Senaste nytt om kriget i Gaza"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "BUSINESS",
-     "score": 68,
-     "url": "https://www.svt.se/nyheter/utrikes/senaste-nytt-om-kriget-i-mellanostern?inlagg=834ee9673653a806b01699bca06c445b",
-     "outlet": "svt.se",
-     "publishedAt": "2026-07-28T04:00:00Z",
-     "language": "Swedish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "SE",
-     "relatedCountries": [
-      "SE"
-     ],
-     "startedAt": "2026-07-28T04:00:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-26ff5e2827",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Ledare : Det finns bara en vinnare på L och SD : s kärleksaffär",
-      "en": "Ledare : Det finns bara en vinnare på L och SD : s kärleksaffär"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 64,
-     "url": "https://www.dn.se/ledare/detta-ar-anledningen-bakom-liberalernas-och-sverigedemokraternas-karleksaffar/",
-     "outlet": "dn.se",
-     "publishedAt": "2026-07-28T04:30:00Z",
-     "language": "Swedish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "SE",
-     "relatedCountries": [
-      "SE"
-     ],
-     "startedAt": "2026-07-28T04:30:00Z",
      "durationHours": null
     },
     {
@@ -6920,10 +7353,10 @@
   },
   {
    "code": "SG",
-   "activityScore": 76,
+   "activityScore": 77,
    "risingCount": 0,
    "wikiPerCountry": true,
-   "wikiDate": "2026-07-27",
+   "wikiDate": "2026-07-26",
    "topics": [
     {
      "id": "w-66b27417d3",
@@ -6939,7 +7372,7 @@
      "category": "OTHER",
      "score": 100,
      "url": "https://en.wikipedia.org/wiki/.xyz",
-     "views": 32400,
+     "views": 30200,
      "rank": 1,
      "project": "en.wikipedia",
      "publishedAt": null,
@@ -6973,9 +7406,9 @@
       "en": ""
      },
      "category": "ENTERTAINMENT",
-     "score": 30,
+     "score": 32,
      "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
-     "views": 8500,
+     "views": 9800,
      "rank": 2,
      "project": "en.wikipedia",
      "publishedAt": null,
@@ -6984,7 +7417,7 @@
       "WIKIPEDIA"
      ],
      "scope": "GLOBAL",
-     "change": 0,
+     "change": 6.7,
      "status": "stable",
      "origin": "US",
      "relatedCountries": [
@@ -7008,106 +7441,6 @@
      "durationHours": null
     },
     {
-     "id": "w-50aa2fe209",
-     "kind": "WIKI",
-     "title": {
-      "ja": "Streamwaves",
-      "en": "Streamwaves"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 30,
-     "url": "https://en.wikipedia.org/wiki/Streamwaves",
-     "views": 7000,
-     "rank": 3,
-     "project": "en.wikipedia",
-     "publishedAt": null,
-     "keywords": [],
-     "sources": [
-      "WIKIPEDIA"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "stable",
-     "origin": "SG",
-     "relatedCountries": [
-      "SG"
-     ],
-     "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "w-8c085ceb19",
-     "kind": "WIKI",
-     "title": {
-      "ja": "東野圭吾",
-      "en": "東野圭吾"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 30,
-     "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E9%87%8E%E5%9C%AD%E5%90%BE",
-     "views": 4700,
-     "rank": 4,
-     "project": "zh.wikipedia",
-     "publishedAt": null,
-     "keywords": [],
-     "sources": [
-      "WIKIPEDIA"
-     ],
-     "scope": "GLOBAL",
-     "change": 0,
-     "status": "stable",
-     "origin": "JP",
-     "relatedCountries": [
-      "JP",
-      "SG",
-      "TW",
-      "HK"
-     ],
-     "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "w-111dca77ec",
-     "kind": "WIKI",
-     "title": {
-      "ja": "2026 ASEAN Championship",
-      "en": "2026 ASEAN Championship"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "SPORTS",
-     "score": 30,
-     "url": "https://en.wikipedia.org/wiki/2026_ASEAN_Championship",
-     "views": 2900,
-     "rank": 5,
-     "project": "en.wikipedia",
-     "publishedAt": null,
-     "keywords": [],
-     "sources": [
-      "WIKIPEDIA"
-     ],
-     "scope": "GLOBAL",
-     "change": 0,
-     "status": "stable",
-     "origin": "ID",
-     "relatedCountries": [
-      "ID",
-      "SG"
-     ],
-     "startedAt": null,
-     "durationHours": null
-    },
-    {
      "id": "w-91f9b3d429",
      "kind": "WIKI",
      "title": {
@@ -7121,8 +7454,8 @@
      "category": "OTHER",
      "score": 30,
      "url": "https://en.wikipedia.org/wiki/Agent_Kim_Reactivated",
-     "views": 2500,
-     "rank": 6,
+     "views": 4600,
+     "rank": 3,
      "project": "en.wikipedia",
      "publishedAt": null,
      "keywords": [],
@@ -7141,20 +7474,117 @@
      "durationHours": null
     },
     {
-     "id": "w-4cf11fe9ad",
+     "id": "w-e40586c301",
      "kind": "WIKI",
      "title": {
-      "ja": "ASEAN Championship",
-      "en": "ASEAN Championship"
+      "ja": "Tham Luang cave rescue",
+      "en": "Tham Luang cave rescue"
      },
      "summary": {
       "ja": "",
       "en": ""
      },
-     "category": "SPORTS",
+     "category": "OTHER",
      "score": 30,
-     "url": "https://en.wikipedia.org/wiki/ASEAN_Championship",
-     "views": 2000,
+     "url": "https://en.wikipedia.org/wiki/Tham_Luang_cave_rescue",
+     "views": 3700,
+     "rank": 4,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "SG",
+     "relatedCountries": [
+      "SG"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-9aae6a6b71",
+     "kind": "WIKI",
+     "title": {
+      "ja": "wiki.phtml",
+      "en": "wiki.phtml"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://de.wikipedia.org/wiki/wiki.phtml",
+     "views": 3400,
+     "rank": 5,
+     "project": "de.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "SG",
+     "relatedCountries": [
+      "SG"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-b610a23f74",
+     "kind": "WIKI",
+     "title": {
+      "ja": "David Jonsson",
+      "en": "David Jonsson"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://en.wikipedia.org/wiki/David_Jonsson",
+     "views": 3200,
+     "rank": 6,
+     "project": "en.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "GLOBAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "NG",
+     "relatedCountries": [
+      "NG",
+      "SG"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-e959d86928",
+     "kind": "WIKI",
+     "title": {
+      "ja": "Thirteen Lives",
+      "en": "Thirteen Lives"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://en.wikipedia.org/wiki/Thirteen_Lives",
+     "views": 3200,
      "rank": 7,
      "project": "en.wikipedia",
      "publishedAt": null,
@@ -7164,7 +7594,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "stable",
+     "status": "emerging",
      "origin": "SG",
      "relatedCountries": [
       "SG"
@@ -7173,11 +7603,11 @@
      "durationHours": null
     },
     {
-     "id": "w-a82aba0e18",
+     "id": "w-a021c096c2",
      "kind": "WIKI",
      "title": {
-      "ja": "Jana Nayagan",
-      "en": "Jana Nayagan"
+      "ja": "Odyssey",
+      "en": "Odyssey"
      },
      "summary": {
       "ja": "",
@@ -7185,8 +7615,8 @@
      },
      "category": "OTHER",
      "score": 30,
-     "url": "https://en.wikipedia.org/wiki/Jana_Nayagan",
-     "views": 2000,
+     "url": "https://en.wikipedia.org/wiki/Odyssey",
+     "views": 2500,
      "rank": 8,
      "project": "en.wikipedia",
      "publishedAt": null,
@@ -7196,10 +7626,12 @@
      ],
      "scope": "GLOBAL",
      "change": 0,
-     "status": "stable",
-     "origin": "IN",
+     "status": "emerging",
+     "origin": "US",
      "relatedCountries": [
-      "IN",
+      "US",
+      "CA",
+      "PH",
       "SG"
      ],
      "startedAt": null,
@@ -7209,11 +7641,42 @@
   },
   {
    "code": "TH",
-   "activityScore": 89,
+   "activityScore": 99,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
+    {
+     "id": "n-705c23a2ae",
+     "kind": "NEWS",
+     "title": {
+      "ja": "HENRY First Dates จีบซ้ำซ้ำ เฮนรี่จำไม่ได้ เรื่องย่อหนังไทยรีเมก 50 First Dates",
+      "en": "HENRY First Dates จีบซ้ำซ้ำ เฮนรี่จำไม่ได้ เรื่องย่อหนังไทยรีเมก 50 First Dates"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 100,
+     "url": "https://movie.kapook.com/view302688.html",
+     "outlet": "movie.kapook.com",
+     "publishedAt": "2026-07-28T09:30:00Z",
+     "language": "Thai",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "TH",
+     "relatedCountries": [
+      "TH"
+     ],
+     "startedAt": "2026-07-28T09:30:00Z",
+     "durationHours": null
+    },
     {
      "id": "w-19851504e7",
      "kind": "WIKI",
@@ -7244,6 +7707,99 @@
       "TH"
      ],
      "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "n-4e710b9f9a",
+     "kind": "NEWS",
+     "title": {
+      "ja": "เก็บถาด KFC ดราม่าสนั่น เจอด่าแรง สันดาน กินเหมือนหมูหมา ควรเก็บเองไหม ?",
+      "en": "เก็บถาด KFC ดราม่าสนั่น เจอด่าแรง สันดาน กินเหมือนหมูหมา ควรเก็บเองไหม ?"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 96,
+     "url": "https://hilight.kapook.com/view/254319",
+     "outlet": "hilight.kapook.com",
+     "publishedAt": "2026-07-28T05:45:00Z",
+     "language": "Thai",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "TH",
+     "relatedCountries": [
+      "TH"
+     ],
+     "startedAt": "2026-07-28T05:45:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-a707a1ddb1",
+     "kind": "NEWS",
+     "title": {
+      "ja": "ดูดวงรายวัน 28 กรกฎาคม 2569",
+      "en": "ดูดวงรายวัน 28 กรกฎาคม 2569"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 92,
+     "url": "https://horoscope.kapook.com/view302762.html",
+     "outlet": "horoscope.kapook.com",
+     "publishedAt": "2026-07-28T02:15:00Z",
+     "language": "Thai",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "TH",
+     "relatedCountries": [
+      "TH"
+     ],
+     "startedAt": "2026-07-28T02:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-17b17c54ab",
+     "kind": "NEWS",
+     "title": {
+      "ja": "วิธีใช้เครื่องฟอกอากาศให้ได้ผล ลด PM2 . 5 ไม่ใช่แค่เปิดทิ้งไว้",
+      "en": "วิธีใช้เครื่องฟอกอากาศให้ได้ผล ลด PM2 . 5 ไม่ใช่แค่เปิดทิ้งไว้"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 88,
+     "url": "https://home.kapook.com/view302711.html",
+     "outlet": "home.kapook.com",
+     "publishedAt": "2026-07-28T02:15:00Z",
+     "language": "Thai",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "TH",
+     "relatedCountries": [
+      "TH"
+     ],
+     "startedAt": "2026-07-28T02:15:00Z",
      "durationHours": null
     },
     {
@@ -7279,6 +7835,68 @@
      "durationHours": null
     },
     {
+     "id": "n-8158501340",
+     "kind": "NEWS",
+     "title": {
+      "ja": "eSIM คืออะไร ? วิธีใช้ eSIM สำหรับเที่ยวต่างประเทศ พร้อมคู่มือมือใหม่ก่อนเดินทาง",
+      "en": "eSIM คืออะไร ? วิธีใช้ eSIM สำหรับเที่ยวต่างประเทศ พร้อมคู่มือมือใหม่ก่อนเดินทาง"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 84,
+     "url": "https://travel.kapook.com/view302745.html",
+     "outlet": "travel.kapook.com",
+     "publishedAt": "2026-07-28T02:15:00Z",
+     "language": "Thai",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "TH",
+     "relatedCountries": [
+      "TH"
+     ],
+     "startedAt": "2026-07-28T02:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-d0ff53b589",
+     "kind": "NEWS",
+     "title": {
+      "ja": "อาหารกลางวันเด็ก แม่ระบายค่าเทอม 2 หมื่น ค่าอาหารแยก ทำไมได้ของแบบนี้",
+      "en": "อาหารกลางวันเด็ก แม่ระบายค่าเทอม 2 หมื่น ค่าอาหารแยก ทำไมได้ของแบบนี้"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 80,
+     "url": "https://hilight.kapook.com/view/254320",
+     "outlet": "hilight.kapook.com",
+     "publishedAt": "2026-07-28T09:30:00Z",
+     "language": "Thai",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "TH",
+     "relatedCountries": [
+      "TH"
+     ],
+     "startedAt": "2026-07-28T09:30:00Z",
+     "durationHours": null
+    },
+    {
      "id": "w-7425e8c27d",
      "kind": "WIKI",
      "title": {
@@ -7308,6 +7926,130 @@
       "TH"
      ],
      "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "n-829e363052",
+     "kind": "NEWS",
+     "title": {
+      "ja": "น้องโพธิ์ ลูกดารา ป่วยเข้าโรงพยาบาล เป็นเคสหายาก 5 %",
+      "en": "น้องโพธิ์ ลูกดารา ป่วยเข้าโรงพยาบาล เป็นเคสหายาก 5 %"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 76,
+     "url": "https://women.kapook.com/view302767.html",
+     "outlet": "women.kapook.com",
+     "publishedAt": "2026-07-28T09:30:00Z",
+     "language": "Thai",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "TH",
+     "relatedCountries": [
+      "TH"
+     ],
+     "startedAt": "2026-07-28T09:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-31fecb1bd8",
+     "kind": "NEWS",
+     "title": {
+      "ja": "ไวรัล อดีตผัวเมีย ร้องไห้ กอดกันหย่าหน้าอำเภอ พบ ฝ่ายชายขับรถกลับบ้าน ร้องไห้ไปด้วย",
+      "en": "ไวรัล อดีตผัวเมีย ร้องไห้ กอดกันหย่าหน้าอำเภอ พบ ฝ่ายชายขับรถกลับบ้าน ร้องไห้ไปด้วย"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 72,
+     "url": "https://hilight.kapook.com/view/214694",
+     "outlet": "hilight.kapook.com",
+     "publishedAt": "2026-07-28T09:30:00Z",
+     "language": "Thai",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "TH",
+     "relatedCountries": [
+      "TH"
+     ],
+     "startedAt": "2026-07-28T09:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-5e6d589be0",
+     "kind": "NEWS",
+     "title": {
+      "ja": "นก อุษณีย์ เซอร์ไพรส์คุกเข่าขอ ม่วย นิธิตรา แต่งงาน กลางเทศกาลดอกไม้ไฟญี่ปุ่น",
+      "en": "นก อุษณีย์ เซอร์ไพรส์คุกเข่าขอ ม่วย นิธิตรา แต่งงาน กลางเทศกาลดอกไม้ไฟญี่ปุ่น"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 68,
+     "url": "https://women.kapook.com/view302766.html",
+     "outlet": "women.kapook.com",
+     "publishedAt": "2026-07-28T09:30:00Z",
+     "language": "Thai",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "TH",
+     "relatedCountries": [
+      "TH"
+     ],
+     "startedAt": "2026-07-28T09:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-b79839330b",
+     "kind": "NEWS",
+     "title": {
+      "ja": "สุนารี ราชสีมา เข้าโรงพยาบาล ปวดท้องอย่างหนัก ก่อนส่องกล้องเจอสิ่งผิดปกติ",
+      "en": "สุนารี ราชสีมา เข้าโรงพยาบาล ปวดท้องอย่างหนัก ก่อนส่องกล้องเจอสิ่งผิดปกติ"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 64,
+     "url": "https://women.kapook.com/view302764.html",
+     "outlet": "women.kapook.com",
+     "publishedAt": "2026-07-28T05:45:00Z",
+     "language": "Thai",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "TH",
+     "relatedCountries": [
+      "TH"
+     ],
+     "startedAt": "2026-07-28T05:45:00Z",
      "durationHours": null
     },
     {
@@ -7492,11 +8234,42 @@
   },
   {
    "code": "TR",
-   "activityScore": 81,
+   "activityScore": 99,
    "risingCount": 0,
    "wikiPerCountry": false,
    "wikiDate": "2026-07-27",
    "topics": [
+    {
+     "id": "n-617d8d9ae7",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Aksarayda şiddet uygulandığı iddia edilen otizmli çocuk yoğun bakıma alındı",
+      "en": "Aksarayda şiddet uygulandığı iddia edilen otizmli çocuk yoğun bakıma alındı"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 100,
+     "url": "https://www.ensonhaber.com/aksarayda-siddet-uygulandigi-iddia-edilen-otizmli-cocuk-yogun-bakima-alindi-h1553065",
+     "outlet": "ensonhaber.com",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "Turkish",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "TR",
+     "relatedCountries": [
+      "TR"
+     ],
+     "startedAt": "2026-07-28T08:30:00Z",
+     "durationHours": null
+    },
     {
      "id": "w-f33ae65c31",
      "kind": "WIKI",
@@ -7530,6 +8303,68 @@
      "durationHours": null
     },
     {
+     "id": "n-81557c250e",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Trabzonspor , Rene Mitongoyla anlaştı",
+      "en": "Trabzonspor , Rene Mitongoyla anlaştı"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 96,
+     "url": "https://www.ensonhaber.com/trabzonspor-rene-mitongoyla-anlasti-h1553063",
+     "outlet": "ensonhaber.com",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "Turkish",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "TR",
+     "relatedCountries": [
+      "TR"
+     ],
+     "startedAt": "2026-07-28T08:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-0b95fe35d5",
+     "kind": "NEWS",
+     "title": {
+      "ja": "CHP İstanbul İl Başkanlığı  nın X hesabı , Yeni Parti tarafından çalındı",
+      "en": "CHP İstanbul İl Başkanlığı  nın X hesabı , Yeni Parti tarafından çalındı"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "BUSINESS",
+     "score": 92,
+     "url": "https://www.ensonhaber.com/chp-istanbul-il-baskanliginin-x-hesabi-yeni-parti-tarafindan-calindi-h1553084",
+     "outlet": "ensonhaber.com",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "Turkish",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "TR",
+     "relatedCountries": [
+      "TR"
+     ],
+     "startedAt": "2026-07-28T08:30:00Z",
+     "durationHours": null
+    },
+    {
      "id": "w-e2732fce7b",
      "kind": "WIKI",
      "title": {
@@ -7552,7 +8387,7 @@
       "WIKIPEDIA"
      ],
      "scope": "LOCAL",
-     "change": -12.5,
+     "change": 0,
      "status": "stable",
      "origin": "TR",
      "relatedCountries": [
@@ -7585,7 +8420,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "TR",
      "relatedCountries": [
       "TR"
@@ -7617,7 +8452,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "TR",
      "relatedCountries": [
       "TR"
@@ -7648,8 +8483,8 @@
       "WIKIPEDIA"
      ],
      "scope": "LOCAL",
-     "change": -38.8,
-     "status": "declining",
+     "change": 0,
+     "status": "stable",
      "origin": "TR",
      "relatedCountries": [
       "TR"
@@ -7680,8 +8515,8 @@
       "WIKIPEDIA"
      ],
      "scope": "LOCAL",
-     "change": -49.2,
-     "status": "declining",
+     "change": 0,
+     "status": "stable",
      "origin": "TR",
      "relatedCountries": [
       "TR"
@@ -7712,8 +8547,8 @@
       "WIKIPEDIA"
      ],
      "scope": "LOCAL",
-     "change": -40,
-     "status": "declining",
+     "change": 0,
+     "status": "stable",
      "origin": "TR",
      "relatedCountries": [
       "TR"
@@ -7745,7 +8580,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "TR",
      "relatedCountries": [
       "TR"
@@ -7790,7 +8625,6 @@
      "origin": "JP",
      "relatedCountries": [
       "JP",
-      "SG",
       "TW",
       "HK"
      ],
@@ -8173,7 +9007,8 @@
      "relatedCountries": [
       "US",
       "CA",
-      "PH"
+      "PH",
+      "SG"
      ],
      "startedAt": null,
      "durationHours": null

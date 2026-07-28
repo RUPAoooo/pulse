@@ -1,6 +1,1337 @@
 {
- "updatedAt": "2026-07-28T14:49:08.066Z",
+ "updatedAt": "2026-07-28T15:59:19.679Z",
  "snapshots": [
+  {
+   "at": "2026-07-28T15:59:19.679Z",
+   "countries": {
+    "AR": {
+     "activityScore": 99,
+     "risingCount": 0,
+     "topics": {
+      "n-8975d3d3d2": {
+       "score": 100,
+       "change": 0
+      },
+      "w-99a661139b": {
+       "score": 100,
+       "change": 0
+      },
+      "n-af7dbd75ee": {
+       "score": 96,
+       "change": 0
+      },
+      "n-3903728bef": {
+       "score": 92,
+       "change": 0
+      },
+      "w-719d82db1f": {
+       "score": 76,
+       "change": 0
+      },
+      "w-07b3de9070": {
+       "score": 71,
+       "change": 0
+      },
+      "w-eb9c8a3c80": {
+       "score": 39,
+       "change": 0
+      },
+      "w-c14d1766b3": {
+       "score": 36,
+       "change": 0
+      },
+      "w-822c947688": {
+       "score": 31,
+       "change": 0
+      },
+      "w-044b0b750e": {
+       "score": 30,
+       "change": 0
+      },
+      "w-f99e22181d": {
+       "score": 30,
+       "change": 0
+      }
+     }
+    },
+    "AU": {
+     "activityScore": 91,
+     "risingCount": 0,
+     "topics": {
+      "w-6d8fa4ae76": {
+       "score": 100,
+       "change": 0
+      },
+      "w-909799ec4d": {
+       "score": 85,
+       "change": 0
+      },
+      "w-8cca0ef8af": {
+       "score": 70,
+       "change": 0
+      },
+      "w-30660ec9e1": {
+       "score": 62,
+       "change": 0
+      },
+      "w-dec2d01459": {
+       "score": 52,
+       "change": 0
+      },
+      "w-25fee78551": {
+       "score": 46,
+       "change": 0
+      },
+      "w-8978ebda2a": {
+       "score": 45,
+       "change": 0
+      },
+      "w-f59b18bae2": {
+       "score": 38,
+       "change": 0
+      }
+     }
+    },
+    "BR": {
+     "activityScore": 96,
+     "risingCount": 0,
+     "topics": {
+      "w-822c947688": {
+       "score": 100,
+       "change": 0
+      },
+      "w-73d5e96e4d": {
+       "score": 96,
+       "change": 0
+      },
+      "w-044b0b750e": {
+       "score": 92,
+       "change": 0
+      },
+      "w-32c93aab5f": {
+       "score": 80,
+       "change": 0
+      },
+      "w-66b27417d3": {
+       "score": 59,
+       "change": 0
+      },
+      "w-ab0ddc029a": {
+       "score": 59,
+       "change": 0
+      },
+      "w-f4c668fc54": {
+       "score": 45,
+       "change": 0
+      },
+      "w-8b377c2bd5": {
+       "score": 43,
+       "change": 0
+      }
+     }
+    },
+    "CA": {
+     "activityScore": 79,
+     "risingCount": 0,
+     "topics": {
+      "w-909799ec4d": {
+       "score": 100,
+       "change": 0
+      },
+      "w-a021c096c2": {
+       "score": 44,
+       "change": 0
+      },
+      "w-15165417d4": {
+       "score": 35,
+       "change": 0
+      },
+      "w-b8cac78d22": {
+       "score": 30,
+       "change": 0
+      },
+      "w-b94ac5f50c": {
+       "score": 30,
+       "change": 0
+      },
+      "w-b330122db8": {
+       "score": 30,
+       "change": 0
+      },
+      "w-8f462ab9c0": {
+       "score": 30,
+       "change": 0
+      },
+      "w-94a279bfaa": {
+       "score": 30,
+       "change": 0
+      }
+     }
+    },
+    "CH": {
+     "activityScore": 94,
+     "risingCount": 0,
+     "topics": {
+      "w-23d42790b0": {
+       "score": 100,
+       "change": 0
+      },
+      "w-b6311849e4": {
+       "score": 100,
+       "change": 0
+      },
+      "w-344f28ff9a": {
+       "score": 77,
+       "change": 0
+      },
+      "w-179d27f3c5": {
+       "score": 73,
+       "change": 0
+      },
+      "w-9c8356f7ee": {
+       "score": 73,
+       "change": 0
+      },
+      "w-909799ec4d": {
+       "score": 60,
+       "change": 0
+      },
+      "w-6b196cb029": {
+       "score": 53,
+       "change": 0
+      },
+      "w-b0ecf9e121": {
+       "score": 40,
+       "change": 0
+      }
+     }
+    },
+    "DE": {
+     "activityScore": 99,
+     "risingCount": 0,
+     "topics": {
+      "n-88f3ba1d85": {
+       "score": 100,
+       "change": 0
+      },
+      "w-344f28ff9a": {
+       "score": 100,
+       "change": 0
+      },
+      "n-9e83950cbb": {
+       "score": 96,
+       "change": 0
+      },
+      "n-fedbe1fd4b": {
+       "score": 92,
+       "change": 0
+      },
+      "n-189f2eb126": {
+       "score": 88,
+       "change": 0
+      },
+      "n-ddb803c440": {
+       "score": 84,
+       "change": 0
+      },
+      "n-7d18d0f7eb": {
+       "score": 80,
+       "change": 0
+      },
+      "n-d1ed9790fa": {
+       "score": 76,
+       "change": 0
+      },
+      "n-2e4cc66556": {
+       "score": 72,
+       "change": 0
+      },
+      "w-e9e3fa4c98": {
+       "score": 72,
+       "change": 0
+      },
+      "n-a4f4538cc1": {
+       "score": 68,
+       "change": 0
+      },
+      "w-e4e40037b0": {
+       "score": 67,
+       "change": 0
+      },
+      "w-179d27f3c5": {
+       "score": 55,
+       "change": 0
+      },
+      "w-aeea96e81f": {
+       "score": 53,
+       "change": 0
+      },
+      "w-23d42790b0": {
+       "score": 52,
+       "change": 0
+      },
+      "w-420d98f9e4": {
+       "score": 37,
+       "change": 0
+      },
+      "w-a2e780aa8b": {
+       "score": 35,
+       "change": 0
+      }
+     }
+    },
+    "EG": {
+     "activityScore": 99,
+     "risingCount": 0,
+     "topics": {
+      "n-b524c663e5": {
+       "score": 100,
+       "change": 0
+      },
+      "w-cedda4b096": {
+       "score": 100,
+       "change": 0
+      },
+      "n-865c83ad93": {
+       "score": 96,
+       "change": 0
+      },
+      "n-9aa2dbf575": {
+       "score": 92,
+       "change": 0
+      },
+      "n-049ec4f389": {
+       "score": 88,
+       "change": 0
+      },
+      "n-0014b898a7": {
+       "score": 84,
+       "change": 0
+      },
+      "n-b2b76793db": {
+       "score": 80,
+       "change": 0
+      },
+      "w-796d14426c": {
+       "score": 38,
+       "change": 0
+      },
+      "w-66e47a8474": {
+       "score": 30,
+       "change": 0
+      },
+      "w-c54361dd27": {
+       "score": 30,
+       "change": 0
+      },
+      "w-48ab9c8563": {
+       "score": 30,
+       "change": 0
+      },
+      "w-cf9a53b152": {
+       "score": 30,
+       "change": 0
+      },
+      "w-836999e3ec": {
+       "score": 30,
+       "change": 0
+      },
+      "w-82e96b061a": {
+       "score": 30,
+       "change": 0
+      }
+     }
+    },
+    "ES": {
+     "activityScore": 87,
+     "risingCount": 0,
+     "topics": {
+      "w-c73015ed2c": {
+       "score": 100,
+       "change": 0
+      },
+      "w-b5b7bdc2c1": {
+       "score": 71,
+       "change": 0
+      },
+      "w-719d82db1f": {
+       "score": 59,
+       "change": 0
+      },
+      "w-79a6db2a36": {
+       "score": 53,
+       "change": 0
+      },
+      "w-a7672bcf0c": {
+       "score": 39,
+       "change": 0
+      },
+      "w-fb09604847": {
+       "score": 36,
+       "change": 0
+      },
+      "w-271d42f648": {
+       "score": 34,
+       "change": 0
+      },
+      "w-d2d298e9f7": {
+       "score": 33,
+       "change": 0
+      }
+     }
+    },
+    "FR": {
+     "activityScore": 89,
+     "risingCount": 0,
+     "topics": {
+      "w-8b377c2bd5": {
+       "score": 100,
+       "change": 0
+      },
+      "w-c794f81f99": {
+       "score": 70,
+       "change": 0
+      },
+      "w-45f89e8f66": {
+       "score": 67,
+       "change": 0
+      },
+      "w-d2d298e9f7": {
+       "score": 63,
+       "change": 0
+      },
+      "w-e4612d93e2": {
+       "score": 57,
+       "change": 0
+      },
+      "w-a4a736285e": {
+       "score": 54,
+       "change": 0
+      },
+      "w-047de93347": {
+       "score": 48,
+       "change": 0
+      },
+      "w-cb95e2b1f8": {
+       "score": 47,
+       "change": 0
+      }
+     }
+    },
+    "GB": {
+     "activityScore": 77,
+     "risingCount": 0,
+     "topics": {
+      "w-6d8fa4ae76": {
+       "score": 100,
+       "change": 0
+      },
+      "w-8978ebda2a": {
+       "score": 39,
+       "change": 0
+      },
+      "w-bf7be8240a": {
+       "score": 30,
+       "change": 0
+      },
+      "w-f59b18bae2": {
+       "score": 30,
+       "change": 0
+      },
+      "w-909799ec4d": {
+       "score": 30,
+       "change": 0
+      },
+      "w-3651e566ed": {
+       "score": 30,
+       "change": 0
+      },
+      "w-0e40452ee5": {
+       "score": 30,
+       "change": 0
+      },
+      "w-90619c5c2e": {
+       "score": 30,
+       "change": 0
+      }
+     }
+    },
+    "HK": {
+     "activityScore": 77,
+     "risingCount": 0,
+     "topics": {
+      "w-8c085ceb19": {
+       "score": 100,
+       "change": 0
+      },
+      "w-03fa1cea7b": {
+       "score": 37,
+       "change": 0
+      },
+      "w-fb6fec97db": {
+       "score": 30,
+       "change": 0
+      },
+      "w-4b6e454967": {
+       "score": 30,
+       "change": 0
+      },
+      "w-f147aae92f": {
+       "score": 30,
+       "change": 0
+      },
+      "w-dc43f64d3b": {
+       "score": 30,
+       "change": 0
+      },
+      "w-3223ddfeed": {
+       "score": 30,
+       "change": 0
+      },
+      "w-8928b59e34": {
+       "score": 30,
+       "change": 0
+      }
+     }
+    },
+    "ID": {
+     "activityScore": 85,
+     "risingCount": 0,
+     "topics": {
+      "w-8de3593d09": {
+       "score": 100,
+       "change": 0
+      },
+      "w-d9776f05a5": {
+       "score": 65,
+       "change": 0
+      },
+      "w-a882f143d6": {
+       "score": 56,
+       "change": 0
+      },
+      "w-14be3586a5": {
+       "score": 48,
+       "change": 0
+      },
+      "w-111dca77ec": {
+       "score": 33,
+       "change": 0
+      },
+      "w-2da5c3f82b": {
+       "score": 30,
+       "change": 0
+      },
+      "w-909799ec4d": {
+       "score": 30,
+       "change": 0
+      },
+      "w-d2a29ba8a5": {
+       "score": 30,
+       "change": 0
+      }
+     }
+    },
+    "IN": {
+     "activityScore": 95,
+     "risingCount": 0,
+     "topics": {
+      "w-07d3ce04bd": {
+       "score": 100,
+       "change": 0
+      },
+      "w-25fee78551": {
+       "score": 95,
+       "change": 0
+      },
+      "w-a82aba0e18": {
+       "score": 81,
+       "change": 0
+      },
+      "w-909799ec4d": {
+       "score": 80,
+       "change": 0
+      },
+      "w-d079ec2d49": {
+       "score": 77,
+       "change": 0
+      },
+      "w-b60d121b43": {
+       "score": 62,
+       "change": 0
+      },
+      "w-af507f148d": {
+       "score": 34,
+       "change": 0
+      },
+      "w-b9e180ccd3": {
+       "score": 34,
+       "change": 0
+      }
+     }
+    },
+    "IT": {
+     "activityScore": 79,
+     "risingCount": 0,
+     "topics": {
+      "w-b6311849e4": {
+       "score": 100,
+       "change": 0
+      },
+      "w-e385078a38": {
+       "score": 43,
+       "change": 0
+      },
+      "w-32d17d38d0": {
+       "score": 38,
+       "change": 0
+      },
+      "w-319670e008": {
+       "score": 33,
+       "change": 0
+      },
+      "w-e8a5b3e1e5": {
+       "score": 30,
+       "change": 0
+      },
+      "w-580d09903b": {
+       "score": 30,
+       "change": 0
+      },
+      "w-ef6e4bbdd6": {
+       "score": 30,
+       "change": 0
+      },
+      "w-e305d83b0a": {
+       "score": 30,
+       "change": 0
+      }
+     }
+    },
+    "JP": {
+     "activityScore": 99,
+     "risingCount": 0,
+     "topics": {
+      "n-394b1daffc": {
+       "score": 100,
+       "change": 0
+      },
+      "w-8c085ceb19": {
+       "score": 100,
+       "change": 0
+      },
+      "n-87e3a20788": {
+       "score": 96,
+       "change": 0
+      },
+      "n-4391ad5d67": {
+       "score": 92,
+       "change": 0
+      },
+      "n-ca0e213f3d": {
+       "score": 88,
+       "change": 0
+      },
+      "n-dc648d4f31": {
+       "score": 84,
+       "change": 0
+      },
+      "n-97c33037a7": {
+       "score": 80,
+       "change": 0
+      },
+      "n-ffb6f6bfbc": {
+       "score": 76,
+       "change": 0
+      },
+      "n-30dadb6792": {
+       "score": 72,
+       "change": 0
+      },
+      "n-e13c700b40": {
+       "score": 68,
+       "change": 0
+      },
+      "w-6ea8feed7e": {
+       "score": 30,
+       "change": 0
+      },
+      "w-8928b59e34": {
+       "score": 30,
+       "change": 0
+      },
+      "w-aaa6321c4e": {
+       "score": 30,
+       "change": 0
+      },
+      "w-86fde882b2": {
+       "score": 30,
+       "change": 0
+      },
+      "w-72f9cfe6c0": {
+       "score": 30,
+       "change": 0
+      },
+      "w-2d2cc22070": {
+       "score": 30,
+       "change": 0
+      },
+      "w-2635ecb6ab": {
+       "score": 30,
+       "change": 0
+      }
+     }
+    },
+    "KR": {
+     "activityScore": 80,
+     "risingCount": 0,
+     "topics": {
+      "w-d963ca6526": {
+       "score": 100,
+       "change": 0
+      },
+      "w-01a237c986": {
+       "score": 47,
+       "change": 0
+      },
+      "w-84dfeb147b": {
+       "score": 41,
+       "change": 0
+      },
+      "w-fb1e500615": {
+       "score": 37,
+       "change": 0
+      },
+      "w-5376436a89": {
+       "score": 30,
+       "change": 0
+      },
+      "w-db5ce4809b": {
+       "score": 30,
+       "change": 0
+      },
+      "w-0487e47b46": {
+       "score": 30,
+       "change": 0
+      },
+      "w-a3b60cf462": {
+       "score": 30,
+       "change": 0
+      }
+     }
+    },
+    "MX": {
+     "activityScore": 99,
+     "risingCount": 0,
+     "topics": {
+      "n-8db4bff2d6": {
+       "score": 100,
+       "change": 0
+      },
+      "w-6e07b31e76": {
+       "score": 100,
+       "change": 0
+      },
+      "n-455db33165": {
+       "score": 96,
+       "change": 0
+      },
+      "n-d97b6ce37d": {
+       "score": 92,
+       "change": 0
+      },
+      "w-719d82db1f": {
+       "score": 68,
+       "change": 0
+      },
+      "w-69c40f92d0": {
+       "score": 55,
+       "change": 0
+      },
+      "w-2859159dfa": {
+       "score": 55,
+       "change": 0
+      },
+      "w-e6dfec3e18": {
+       "score": 45,
+       "change": 0
+      },
+      "w-f99e22181d": {
+       "score": 39,
+       "change": 0
+      },
+      "w-31a589e747": {
+       "score": 36,
+       "change": 0
+      },
+      "w-166d6e8e61": {
+       "score": 33,
+       "change": 0
+      }
+     }
+    },
+    "NG": {
+     "activityScore": 88,
+     "risingCount": 0,
+     "topics": {
+      "w-c73015ed2c": {
+       "score": 100,
+       "change": 0
+      },
+      "w-8ef2afa7a5": {
+       "score": 72,
+       "change": 0
+      },
+      "w-909799ec4d": {
+       "score": 68,
+       "change": 0
+      },
+      "w-f3faa7271a": {
+       "score": 56,
+       "change": 0
+      },
+      "w-b610a23f74": {
+       "score": 48,
+       "change": 0
+      }
+     }
+    },
+    "NL": {
+     "activityScore": 77,
+     "risingCount": 0,
+     "topics": {
+      "w-0341a11fd2": {
+       "score": 100,
+       "change": 0
+      },
+      "w-8b377c2bd5": {
+       "score": 34,
+       "change": 0
+      },
+      "w-c45a33258c": {
+       "score": 30,
+       "change": 0
+      },
+      "w-825b35e127": {
+       "score": 30,
+       "change": 0
+      },
+      "w-9c6982513a": {
+       "score": 30,
+       "change": 0
+      },
+      "w-133e39a0ec": {
+       "score": 30,
+       "change": 0
+      },
+      "w-aec3f3c763": {
+       "score": 30,
+       "change": 0
+      },
+      "w-ea0ccf8eb5": {
+       "score": 30,
+       "change": 0
+      }
+     }
+    },
+    "NO": {
+     "activityScore": 76,
+     "risingCount": 0,
+     "topics": {
+      "w-4916ff9267": {
+       "score": 100,
+       "change": 0
+      },
+      "w-d926ad8044": {
+       "score": 30,
+       "change": 0
+      },
+      "w-909799ec4d": {
+       "score": 30,
+       "change": 0
+      },
+      "w-a33cbe7696": {
+       "score": 30,
+       "change": 0
+      },
+      "w-1d9841ae73": {
+       "score": 30,
+       "change": 0
+      }
+     }
+    },
+    "NZ": {
+     "activityScore": 92,
+     "risingCount": 0,
+     "topics": {
+      "w-58ece5bafb": {
+       "score": 100,
+       "change": 0
+      },
+      "w-909799ec4d": {
+       "score": 84,
+       "change": 0
+      },
+      "w-744416b3d7": {
+       "score": 79,
+       "change": 0
+      },
+      "w-e4cc1f4179": {
+       "score": 63,
+       "change": 0
+      },
+      "w-6d8fa4ae76": {
+       "score": 63,
+       "change": 0
+      },
+      "w-8e2faf4f59": {
+       "score": 58,
+       "change": 0
+      },
+      "w-25fee78551": {
+       "score": 53,
+       "change": 0
+      },
+      "w-91a97104bc": {
+       "score": 47,
+       "change": 0
+      }
+     }
+    },
+    "PH": {
+     "activityScore": 89,
+     "risingCount": 0,
+     "topics": {
+      "w-909799ec4d": {
+       "score": 100,
+       "change": 0
+      },
+      "w-66b27417d3": {
+       "score": 94,
+       "change": 0
+      },
+      "w-ab0ddc029a": {
+       "score": 57,
+       "change": 0
+      },
+      "w-bec0fe81a8": {
+       "score": 49,
+       "change": 0
+      },
+      "w-91f9b3d429": {
+       "score": 30,
+       "change": 0
+      },
+      "w-1d8cc43c60": {
+       "score": 30,
+       "change": 0
+      },
+      "w-a021c096c2": {
+       "score": 30,
+       "change": 0
+      },
+      "w-044b0b750e": {
+       "score": 30,
+       "change": 0
+      }
+     }
+    },
+    "PL": {
+     "activityScore": 83,
+     "risingCount": 0,
+     "topics": {
+      "w-80a8f8362e": {
+       "score": 100,
+       "change": 0
+      },
+      "w-1bf32b2803": {
+       "score": 51,
+       "change": 0
+      },
+      "w-6e7d9ec2f4": {
+       "score": 50,
+       "change": 0
+      },
+      "w-b3ee261b75": {
+       "score": 44,
+       "change": 0
+      },
+      "w-6a1cef2a3d": {
+       "score": 44,
+       "change": 0
+      },
+      "w-e3c78a643b": {
+       "score": 42,
+       "change": 0
+      },
+      "w-c45a33258c": {
+       "score": 38,
+       "change": 0
+      },
+      "w-189cb2ef32": {
+       "score": 37,
+       "change": 0
+      }
+     }
+    },
+    "SE": {
+     "activityScore": 80,
+     "risingCount": 0,
+     "topics": {
+      "w-195b6f8e83": {
+       "score": 100,
+       "change": 0
+      },
+      "w-0d3c5dd04f": {
+       "score": 59,
+       "change": 0
+      },
+      "w-31adfb3cda": {
+       "score": 34,
+       "change": 0
+      },
+      "w-909799ec4d": {
+       "score": 32,
+       "change": 0
+      },
+      "w-82044cf340": {
+       "score": 30,
+       "change": 0
+      },
+      "w-c45a33258c": {
+       "score": 30,
+       "change": 0
+      },
+      "w-9fbf56840f": {
+       "score": 30,
+       "change": 0
+      },
+      "w-863c2e5d3d": {
+       "score": 30,
+       "change": 0
+      }
+     }
+    },
+    "SG": {
+     "activityScore": 77,
+     "risingCount": 0,
+     "topics": {
+      "w-66b27417d3": {
+       "score": 100,
+       "change": 0
+      },
+      "w-909799ec4d": {
+       "score": 32,
+       "change": 6.7
+      },
+      "w-91f9b3d429": {
+       "score": 30,
+       "change": 0
+      },
+      "w-e40586c301": {
+       "score": 30,
+       "change": 0
+      },
+      "w-9aae6a6b71": {
+       "score": 30,
+       "change": 0
+      },
+      "w-b610a23f74": {
+       "score": 30,
+       "change": 0
+      },
+      "w-e959d86928": {
+       "score": 30,
+       "change": 0
+      },
+      "w-a021c096c2": {
+       "score": 30,
+       "change": 0
+      }
+     }
+    },
+    "TH": {
+     "activityScore": 99,
+     "risingCount": 0,
+     "topics": {
+      "n-705c23a2ae": {
+       "score": 100,
+       "change": 0
+      },
+      "w-19851504e7": {
+       "score": 100,
+       "change": 0
+      },
+      "n-4e710b9f9a": {
+       "score": 96,
+       "change": 0
+      },
+      "n-a707a1ddb1": {
+       "score": 92,
+       "change": 0
+      },
+      "n-17b17c54ab": {
+       "score": 88,
+       "change": 0
+      },
+      "w-a3df4bcd94": {
+       "score": 86,
+       "change": 0
+      },
+      "n-8158501340": {
+       "score": 84,
+       "change": 0
+      },
+      "n-d0ff53b589": {
+       "score": 80,
+       "change": 0
+      },
+      "w-7425e8c27d": {
+       "score": 78,
+       "change": 0
+      },
+      "n-829e363052": {
+       "score": 76,
+       "change": 0
+      },
+      "n-31fecb1bd8": {
+       "score": 72,
+       "change": 0
+      },
+      "n-5e6d589be0": {
+       "score": 68,
+       "change": 0
+      },
+      "n-b79839330b": {
+       "score": 64,
+       "change": 0
+      },
+      "w-650fee1d91": {
+       "score": 42,
+       "change": 0
+      },
+      "w-66b27417d3": {
+       "score": 30,
+       "change": 0
+      },
+      "w-10e8b86866": {
+       "score": 30,
+       "change": 0
+      },
+      "w-909799ec4d": {
+       "score": 30,
+       "change": 0
+      },
+      "w-08519444b5": {
+       "score": 30,
+       "change": 0
+      }
+     }
+    },
+    "TR": {
+     "activityScore": 99,
+     "risingCount": 0,
+     "topics": {
+      "n-617d8d9ae7": {
+       "score": 100,
+       "change": 0
+      },
+      "w-f33ae65c31": {
+       "score": 100,
+       "change": 0
+      },
+      "n-81557c250e": {
+       "score": 96,
+       "change": 0
+      },
+      "n-0b95fe35d5": {
+       "score": 92,
+       "change": 0
+      },
+      "w-e2732fce7b": {
+       "score": 56,
+       "change": 0
+      },
+      "w-50df3c257d": {
+       "score": 43,
+       "change": 0
+      },
+      "w-5a8335ebce": {
+       "score": 30,
+       "change": 0
+      },
+      "w-2c38fd5604": {
+       "score": 30,
+       "change": 0
+      },
+      "w-9303a9c305": {
+       "score": 30,
+       "change": 0
+      },
+      "w-8dba82780c": {
+       "score": 30,
+       "change": 0
+      },
+      "w-132e198539": {
+       "score": 30,
+       "change": 0
+      }
+     }
+    },
+    "TW": {
+     "activityScore": 82,
+     "risingCount": 0,
+     "topics": {
+      "w-8c085ceb19": {
+       "score": 100,
+       "change": 0
+      },
+      "w-03fa1cea7b": {
+       "score": 63,
+       "change": 0
+      },
+      "w-fb6fec97db": {
+       "score": 39,
+       "change": 0
+      },
+      "w-4b6e454967": {
+       "score": 34,
+       "change": 0
+      },
+      "w-dc43f64d3b": {
+       "score": 30,
+       "change": 0
+      },
+      "w-3ec879b23b": {
+       "score": 30,
+       "change": 0
+      },
+      "w-309d0b7f60": {
+       "score": 30,
+       "change": 0
+      },
+      "w-2b4e89a736": {
+       "score": 30,
+       "change": 0
+      }
+     }
+    },
+    "US": {
+     "activityScore": 83,
+     "risingCount": 0,
+     "topics": {
+      "w-909799ec4d": {
+       "score": 100,
+       "change": 0
+      },
+      "w-a5228b887b": {
+       "score": 60,
+       "change": 0
+      },
+      "w-9fc8ff9e83": {
+       "score": 47,
+       "change": 0
+      },
+      "w-a021c096c2": {
+       "score": 44,
+       "change": 0
+      },
+      "w-15165417d4": {
+       "score": 37,
+       "change": 0
+      },
+      "w-00b2c1aa95": {
+       "score": 36,
+       "change": 0
+      },
+      "w-67dcc2f0c9": {
+       "score": 33,
+       "change": 0
+      },
+      "w-3d7923325b": {
+       "score": 32,
+       "change": 0
+      }
+     }
+    },
+    "VN": {
+     "activityScore": 80,
+     "risingCount": 0,
+     "topics": {
+      "w-99fd6ca036": {
+       "score": 100,
+       "change": 0
+      },
+      "w-184846aed4": {
+       "score": 53,
+       "change": 0
+      },
+      "w-aae326f9d2": {
+       "score": 41,
+       "change": 0
+      },
+      "w-ce27105041": {
+       "score": 30,
+       "change": 0
+      },
+      "w-ea0041028c": {
+       "score": 30,
+       "change": 0
+      },
+      "w-728e464c0e": {
+       "score": 30,
+       "change": 0
+      },
+      "w-f6b73bf52f": {
+       "score": 30,
+       "change": 0
+      },
+      "w-3f1a6b012f": {
+       "score": 30,
+       "change": 0
+      }
+     }
+    },
+    "ZA": {
+     "activityScore": 81,
+     "risingCount": 0,
+     "topics": {
+      "w-7cb9be8b08": {
+       "score": 100,
+       "change": 0
+      },
+      "w-cd460f3007": {
+       "score": 64,
+       "change": 0
+      },
+      "w-909799ec4d": {
+       "score": 38,
+       "change": 0
+      },
+      "w-822c947688": {
+       "score": 32,
+       "change": 0
+      },
+      "w-044b0b750e": {
+       "score": 31,
+       "change": 0
+      },
+      "w-66b27417d3": {
+       "score": 30,
+       "change": 0
+      },
+      "w-898480b350": {
+       "score": 30,
+       "change": 0
+      },
+      "w-8b377c2bd5": {
+       "score": 30,
+       "change": 0
+      }
+     }
+    }
+   }
+  },
   {
    "at": "2026-07-28T14:49:08.066Z",
    "countries": {
@@ -11206,11 +12537,23 @@
    "shortLabel": "NOW",
    "countries": {
     "AR": {
-     "activityScore": 87,
+     "activityScore": 99,
      "risingCount": 0,
      "topics": {
+      "n-8975d3d3d2": {
+       "score": 100,
+       "change": 0
+      },
       "w-99a661139b": {
        "score": 100,
+       "change": 0
+      },
+      "n-af7dbd75ee": {
+       "score": 96,
+       "change": 0
+      },
+      "n-3903728bef": {
+       "score": 92,
        "change": 0
       },
       "w-719d82db1f": {
@@ -11396,15 +12739,51 @@
      }
     },
     "DE": {
-     "activityScore": 88,
+     "activityScore": 99,
      "risingCount": 0,
      "topics": {
+      "n-88f3ba1d85": {
+       "score": 100,
+       "change": 0
+      },
       "w-344f28ff9a": {
        "score": 100,
        "change": 0
       },
+      "n-9e83950cbb": {
+       "score": 96,
+       "change": 0
+      },
+      "n-fedbe1fd4b": {
+       "score": 92,
+       "change": 0
+      },
+      "n-189f2eb126": {
+       "score": 88,
+       "change": 0
+      },
+      "n-ddb803c440": {
+       "score": 84,
+       "change": 0
+      },
+      "n-7d18d0f7eb": {
+       "score": 80,
+       "change": 0
+      },
+      "n-d1ed9790fa": {
+       "score": 76,
+       "change": 0
+      },
+      "n-2e4cc66556": {
+       "score": 72,
+       "change": 0
+      },
       "w-e9e3fa4c98": {
        "score": 72,
+       "change": 0
+      },
+      "n-a4f4538cc1": {
+       "score": 68,
        "change": 0
       },
       "w-e4e40037b0": {
@@ -11762,11 +13141,47 @@
      }
     },
     "JP": {
-     "activityScore": 76,
+     "activityScore": 99,
      "risingCount": 0,
      "topics": {
+      "n-394b1daffc": {
+       "score": 100,
+       "change": 0
+      },
       "w-8c085ceb19": {
        "score": 100,
+       "change": 0
+      },
+      "n-87e3a20788": {
+       "score": 96,
+       "change": 0
+      },
+      "n-4391ad5d67": {
+       "score": 92,
+       "change": 0
+      },
+      "n-ca0e213f3d": {
+       "score": 88,
+       "change": 0
+      },
+      "n-dc648d4f31": {
+       "score": 84,
+       "change": 0
+      },
+      "n-97c33037a7": {
+       "score": 80,
+       "change": 0
+      },
+      "n-ffb6f6bfbc": {
+       "score": 76,
+       "change": 0
+      },
+      "n-30dadb6792": {
+       "score": 72,
+       "change": 0
+      },
+      "n-e13c700b40": {
+       "score": 68,
        "change": 0
       },
       "w-6ea8feed7e": {
@@ -11838,11 +13253,23 @@
      }
     },
     "MX": {
-     "activityScore": 86,
+     "activityScore": 99,
      "risingCount": 0,
      "topics": {
+      "n-8db4bff2d6": {
+       "score": 100,
+       "change": 0
+      },
       "w-6e07b31e76": {
        "score": 100,
+       "change": 0
+      },
+      "n-455db33165": {
+       "score": 96,
+       "change": 0
+      },
+      "n-d97b6ce37d": {
+       "score": 92,
        "change": 0
       },
       "w-719d82db1f": {
@@ -12080,51 +13507,11 @@
      }
     },
     "SE": {
-     "activityScore": 99,
+     "activityScore": 80,
      "risingCount": 0,
      "topics": {
-      "n-dd92ff6ba6": {
-       "score": 100,
-       "change": 0
-      },
       "w-195b6f8e83": {
        "score": 100,
-       "change": 0
-      },
-      "n-d91b42589b": {
-       "score": 96,
-       "change": 0
-      },
-      "n-4b2cbfcf5f": {
-       "score": 92,
-       "change": 0
-      },
-      "n-1d4b3f1930": {
-       "score": 88,
-       "change": 0
-      },
-      "n-b7005cd69f": {
-       "score": 84,
-       "change": 0
-      },
-      "n-d33b4944ad": {
-       "score": 80,
-       "change": 0
-      },
-      "n-46d338448d": {
-       "score": 76,
-       "change": 0
-      },
-      "n-17af2edc2c": {
-       "score": 72,
-       "change": 0
-      },
-      "n-45c01a50ab": {
-       "score": 68,
-       "change": 0
-      },
-      "n-26ff5e2827": {
-       "score": 64,
        "change": 0
       },
       "w-0d3c5dd04f": {
@@ -12158,7 +13545,7 @@
      }
     },
     "SG": {
-     "activityScore": 76,
+     "activityScore": 77,
      "risingCount": 0,
      "topics": {
       "w-66b27417d3": {
@@ -12166,49 +13553,89 @@
        "change": 0
       },
       "w-909799ec4d": {
-       "score": 30,
-       "change": 0
-      },
-      "w-50aa2fe209": {
-       "score": 30,
-       "change": 0
-      },
-      "w-8c085ceb19": {
-       "score": 30,
-       "change": 0
-      },
-      "w-111dca77ec": {
-       "score": 30,
-       "change": 0
+       "score": 32,
+       "change": 6.7
       },
       "w-91f9b3d429": {
        "score": 30,
        "change": 0
       },
-      "w-4cf11fe9ad": {
+      "w-e40586c301": {
        "score": 30,
        "change": 0
       },
-      "w-a82aba0e18": {
+      "w-9aae6a6b71": {
+       "score": 30,
+       "change": 0
+      },
+      "w-b610a23f74": {
+       "score": 30,
+       "change": 0
+      },
+      "w-e959d86928": {
+       "score": 30,
+       "change": 0
+      },
+      "w-a021c096c2": {
        "score": 30,
        "change": 0
       }
      }
     },
     "TH": {
-     "activityScore": 89,
+     "activityScore": 99,
      "risingCount": 0,
      "topics": {
+      "n-705c23a2ae": {
+       "score": 100,
+       "change": 0
+      },
       "w-19851504e7": {
        "score": 100,
+       "change": 0
+      },
+      "n-4e710b9f9a": {
+       "score": 96,
+       "change": 0
+      },
+      "n-a707a1ddb1": {
+       "score": 92,
+       "change": 0
+      },
+      "n-17b17c54ab": {
+       "score": 88,
        "change": 0
       },
       "w-a3df4bcd94": {
        "score": 86,
        "change": 0
       },
+      "n-8158501340": {
+       "score": 84,
+       "change": 0
+      },
+      "n-d0ff53b589": {
+       "score": 80,
+       "change": 0
+      },
       "w-7425e8c27d": {
        "score": 78,
+       "change": 0
+      },
+      "n-829e363052": {
+       "score": 76,
+       "change": 0
+      },
+      "n-31fecb1bd8": {
+       "score": 72,
+       "change": 0
+      },
+      "n-5e6d589be0": {
+       "score": 68,
+       "change": 0
+      },
+      "n-b79839330b": {
+       "score": 64,
        "change": 0
       },
       "w-650fee1d91": {
@@ -12234,16 +13661,28 @@
      }
     },
     "TR": {
-     "activityScore": 81,
+     "activityScore": 99,
      "risingCount": 0,
      "topics": {
+      "n-617d8d9ae7": {
+       "score": 100,
+       "change": 0
+      },
       "w-f33ae65c31": {
        "score": 100,
        "change": 0
       },
+      "n-81557c250e": {
+       "score": 96,
+       "change": 0
+      },
+      "n-0b95fe35d5": {
+       "score": 92,
+       "change": 0
+      },
       "w-e2732fce7b": {
        "score": 56,
-       "change": -12.5
+       "change": 0
       },
       "w-50df3c257d": {
        "score": 43,
@@ -12255,15 +13694,15 @@
       },
       "w-2c38fd5604": {
        "score": 30,
-       "change": -38.8
+       "change": 0
       },
       "w-9303a9c305": {
        "score": 30,
-       "change": -49.2
+       "change": 0
       },
       "w-8dba82780c": {
        "score": 30,
-       "change": -40
+       "change": 0
       },
       "w-132e198539": {
        "score": 30,
@@ -12472,19 +13911,55 @@
      }
     },
     "AU": {
-     "activityScore": 91,
+     "activityScore": 99,
      "risingCount": 0,
      "topics": {
+      "n-63e83efb12": {
+       "score": 100,
+       "change": 0
+      },
       "w-6d8fa4ae76": {
        "score": 100,
+       "change": 0
+      },
+      "n-395402af38": {
+       "score": 96,
+       "change": 0
+      },
+      "n-7b9cd9fa65": {
+       "score": 92,
+       "change": 0
+      },
+      "n-fa50da8e30": {
+       "score": 88,
        "change": 0
       },
       "w-909799ec4d": {
        "score": 85,
        "change": 0
       },
+      "n-92fd036436": {
+       "score": 84,
+       "change": 0
+      },
+      "n-7d60d81ccb": {
+       "score": 80,
+       "change": 0
+      },
+      "n-b73b7da57a": {
+       "score": 76,
+       "change": 0
+      },
+      "n-8897f36c47": {
+       "score": 72,
+       "change": 0
+      },
       "w-8cca0ef8af": {
        "score": 70,
+       "change": 0
+      },
+      "n-d7123f6a05": {
+       "score": 68,
        "change": 0
       },
       "w-30660ec9e1": {
@@ -12510,63 +13985,23 @@
      }
     },
     "BR": {
-     "activityScore": 99,
+     "activityScore": 96,
      "risingCount": 0,
      "topics": {
-      "n-f8e1b50951": {
-       "score": 100,
-       "change": 0
-      },
       "w-822c947688": {
        "score": 100,
-       "change": 0
-      },
-      "n-31c4c663a7": {
-       "score": 96,
        "change": 0
       },
       "w-73d5e96e4d": {
        "score": 96,
        "change": 0
       },
-      "n-e005fb8dd7": {
-       "score": 92,
-       "change": 0
-      },
       "w-044b0b750e": {
        "score": 92,
        "change": 0
       },
-      "n-6f957d0e58": {
-       "score": 88,
-       "change": 0
-      },
-      "n-32e5540bcf": {
-       "score": 84,
-       "change": 0
-      },
-      "n-bf06d5c5b5": {
-       "score": 80,
-       "change": 0
-      },
       "w-32c93aab5f": {
        "score": 80,
-       "change": 0
-      },
-      "n-846a2b9f33": {
-       "score": 76,
-       "change": 0
-      },
-      "n-04cb9621e4": {
-       "score": 72,
-       "change": 0
-      },
-      "n-c9f93d7170": {
-       "score": 68,
-       "change": 0
-      },
-      "n-0c80e628c5": {
-       "score": 64,
        "change": 0
       },
       "w-66b27417d3": {
@@ -12778,59 +14213,19 @@
      }
     },
     "FR": {
-     "activityScore": 99,
+     "activityScore": 89,
      "risingCount": 0,
      "topics": {
-      "n-bd7a2c2f0f": {
-       "score": 100,
-       "change": 0
-      },
       "w-8b377c2bd5": {
        "score": 100,
-       "change": 0
-      },
-      "n-7a3ac34818": {
-       "score": 96,
-       "change": 0
-      },
-      "n-5783345e74": {
-       "score": 92,
-       "change": 0
-      },
-      "n-3b11e7571b": {
-       "score": 88,
-       "change": 0
-      },
-      "n-87bcfff004": {
-       "score": 84,
-       "change": 0
-      },
-      "n-916e61e373": {
-       "score": 80,
-       "change": 0
-      },
-      "n-7bb0d4e170": {
-       "score": 76,
-       "change": 0
-      },
-      "n-b2f5dfe1bd": {
-       "score": 72,
        "change": 0
       },
       "w-c794f81f99": {
        "score": 70,
        "change": 0
       },
-      "n-47517ae208": {
-       "score": 68,
-       "change": 0
-      },
       "w-45f89e8f66": {
        "score": 67,
-       "change": 0
-      },
-      "n-36fbdfb062": {
-       "score": 64,
        "change": 0
       },
       "w-d2d298e9f7": {
@@ -12856,23 +14251,11 @@
      }
     },
     "GB": {
-     "activityScore": 99,
+     "activityScore": 77,
      "risingCount": 0,
      "topics": {
-      "n-47bb2ee252": {
-       "score": 100,
-       "change": 0
-      },
       "w-6d8fa4ae76": {
        "score": 100,
-       "change": 0
-      },
-      "n-6ff7a264b1": {
-       "score": 96,
-       "change": 0
-      },
-      "n-1f881ca91c": {
-       "score": 92,
        "change": 0
       },
       "w-8978ebda2a": {
@@ -13134,23 +14517,11 @@
      }
     },
     "MX": {
-     "activityScore": 99,
+     "activityScore": 86,
      "risingCount": 0,
      "topics": {
-      "n-fbac5b365c": {
-       "score": 100,
-       "change": 0
-      },
       "w-6e07b31e76": {
        "score": 100,
-       "change": 0
-      },
-      "n-7baa3391ed": {
-       "score": 96,
-       "change": 0
-      },
-      "n-3ee281debd": {
-       "score": 92,
        "change": 0
       },
       "w-719d82db1f": {
@@ -13185,11 +14556,11 @@
     },
     "NG": {
      "activityScore": 88,
-     "risingCount": 2,
+     "risingCount": 0,
      "topics": {
       "w-c73015ed2c": {
        "score": 100,
-       "change": 33.3
+       "change": 0
       },
       "w-8ef2afa7a5": {
        "score": 72,
@@ -13197,7 +14568,7 @@
       },
       "w-909799ec4d": {
        "score": 68,
-       "change": 21.4
+       "change": 0
       },
       "w-f3faa7271a": {
        "score": 56,
@@ -13205,7 +14576,7 @@
       },
       "w-b610a23f74": {
        "score": 48,
-       "change": -52
+       "change": 0
       }
      }
     },
@@ -13274,15 +14645,39 @@
      }
     },
     "NZ": {
-     "activityScore": 92,
+     "activityScore": 99,
      "risingCount": 0,
      "topics": {
+      "n-cbdb85ba61": {
+       "score": 100,
+       "change": 0
+      },
       "w-58ece5bafb": {
        "score": 100,
        "change": 0
       },
+      "n-80f8ad944b": {
+       "score": 96,
+       "change": 0
+      },
+      "n-2a2dd8183d": {
+       "score": 92,
+       "change": 0
+      },
+      "n-92ded4ed28": {
+       "score": 88,
+       "change": 0
+      },
+      "n-83383d05d3": {
+       "score": 84,
+       "change": 0
+      },
       "w-909799ec4d": {
        "score": 84,
+       "change": 0
+      },
+      "n-ba3320d2b5": {
+       "score": 80,
        "change": 0
       },
       "w-744416b3d7": {
@@ -13313,19 +14708,19 @@
     },
     "PH": {
      "activityScore": 89,
-     "risingCount": 2,
+     "risingCount": 0,
      "topics": {
       "w-909799ec4d": {
        "score": 100,
-       "change": 81.8
+       "change": 0
       },
       "w-66b27417d3": {
        "score": 94,
-       "change": -6
+       "change": 0
       },
       "w-ab0ddc029a": {
        "score": 57,
-       "change": 90
+       "change": 0
       },
       "w-bec0fe81a8": {
        "score": 49,
@@ -13388,47 +14783,11 @@
      }
     },
     "SE": {
-     "activityScore": 99,
+     "activityScore": 80,
      "risingCount": 0,
      "topics": {
-      "n-a8b2dba0a7": {
-       "score": 100,
-       "change": 0
-      },
       "w-195b6f8e83": {
        "score": 100,
-       "change": 0
-      },
-      "n-fb569211aa": {
-       "score": 96,
-       "change": 0
-      },
-      "n-ef09a71e37": {
-       "score": 92,
-       "change": 0
-      },
-      "n-8744ba243c": {
-       "score": 88,
-       "change": 0
-      },
-      "n-8e44d497f7": {
-       "score": 84,
-       "change": 0
-      },
-      "n-936da4ffd0": {
-       "score": 80,
-       "change": 0
-      },
-      "n-e3e0211bba": {
-       "score": 76,
-       "change": 0
-      },
-      "n-6b5fdc415d": {
-       "score": 72,
-       "change": 0
-      },
-      "n-46d338448d": {
-       "score": 68,
        "change": 0
       },
       "w-0d3c5dd04f": {
@@ -13538,39 +14897,51 @@
      }
     },
     "TR": {
-     "activityScore": 81,
-     "risingCount": 0,
+     "activityScore": 99,
+     "risingCount": 3,
      "topics": {
+      "n-21018c3676": {
+       "score": 100,
+       "change": 0
+      },
       "w-f33ae65c31": {
        "score": 100,
        "change": 0
       },
+      "n-f8ab83a1c6": {
+       "score": 96,
+       "change": 0
+      },
+      "n-5204e4d6db": {
+       "score": 92,
+       "change": 0
+      },
+      "w-89c216c7ce": {
+       "score": 68,
+       "change": 0
+      },
       "w-e2732fce7b": {
-       "score": 56,
-       "change": 0
-      },
-      "w-50df3c257d": {
-       "score": 43,
-       "change": 0
-      },
-      "w-5a8335ebce": {
-       "score": 30,
-       "change": 0
-      },
-      "w-2c38fd5604": {
-       "score": 30,
-       "change": 0
+       "score": 64,
+       "change": 14.3
       },
       "w-9303a9c305": {
-       "score": 30,
+       "score": 59,
+       "change": 96.7
+      },
+      "w-8d472616a3": {
+       "score": 55,
        "change": 0
       },
       "w-8dba82780c": {
-       "score": 30,
-       "change": 0
+       "score": 50,
+       "change": 66.7
       },
-      "w-132e198539": {
-       "score": 30,
+      "w-2c38fd5604": {
+       "score": 49,
+       "change": 63.3
+      },
+      "w-5e8516ad02": {
+       "score": 37,
        "change": 0
       }
      }
@@ -13614,11 +14985,35 @@
      }
     },
     "US": {
-     "activityScore": 83,
+     "activityScore": 99,
      "risingCount": 0,
      "topics": {
+      "n-d258311f6c": {
+       "score": 100,
+       "change": 0
+      },
       "w-909799ec4d": {
        "score": 100,
+       "change": 0
+      },
+      "n-80c9ea3f32": {
+       "score": 96,
+       "change": 0
+      },
+      "n-6c78fd2746": {
+       "score": 92,
+       "change": 0
+      },
+      "n-36e416fea4": {
+       "score": 88,
+       "change": 0
+      },
+      "n-23dcd31ffd": {
+       "score": 84,
+       "change": 0
+      },
+      "n-1dbe92d77d": {
+       "score": 80,
        "change": 0
       },
       "w-a5228b887b": {
@@ -13652,11 +15047,23 @@
      }
     },
     "VN": {
-     "activityScore": 80,
+     "activityScore": 99,
      "risingCount": 0,
      "topics": {
+      "n-9612e71154": {
+       "score": 100,
+       "change": 0
+      },
       "w-99fd6ca036": {
        "score": 100,
+       "change": 0
+      },
+      "n-446f351a68": {
+       "score": 96,
+       "change": 0
+      },
+      "n-9c01057c8f": {
+       "score": 92,
        "change": 0
       },
       "w-184846aed4": {
@@ -13730,31 +15137,19 @@
    }
   },
   {
-   "offsetHours": 6,
+   "offsetHours": 12,
    "label": {
-    "ja": "6時間前",
-    "en": "6H ago"
+    "ja": "12時間前",
+    "en": "12H ago"
    },
-   "shortLabel": "6H",
+   "shortLabel": "12H",
    "countries": {
     "AR": {
-     "activityScore": 99,
+     "activityScore": 87,
      "risingCount": 0,
      "topics": {
-      "n-bcbf508377": {
-       "score": 100,
-       "change": 0
-      },
       "w-99a661139b": {
        "score": 100,
-       "change": 0
-      },
-      "n-82897d511d": {
-       "score": 96,
-       "change": 0
-      },
-      "n-648c6ae53e": {
-       "score": 92,
        "change": 0
       },
       "w-719d82db1f": {
@@ -13971,11 +15366,11 @@
        "score": 80,
        "change": 0
       },
-      "n-ada9e345e0": {
+      "n-0fa1379c2f": {
        "score": 76,
        "change": 0
       },
-      "n-ae9f1010ba": {
+      "n-e6c201ac86": {
        "score": 72,
        "change": 0
       },
@@ -13983,7 +15378,7 @@
        "score": 72,
        "change": 0
       },
-      "n-0f5277b4da": {
+      "n-217699a572": {
        "score": 68,
        "change": 0
       },
@@ -14015,7 +15410,7 @@
     },
     "EG": {
      "activityScore": 77,
-     "risingCount": 0,
+     "risingCount": 1,
      "topics": {
       "w-cedda4b096": {
        "score": 100,
@@ -14023,7 +15418,7 @@
       },
       "w-796d14426c": {
        "score": 38,
-       "change": 0
+       "change": 15.2
       },
       "w-66e47a8474": {
        "score": 30,
@@ -14149,7 +15544,7 @@
       },
       "w-909799ec4d": {
        "score": 30,
-       "change": 0
+       "change": -70
       },
       "w-3651e566ed": {
        "score": 30,
@@ -14161,7 +15556,7 @@
       },
       "w-90619c5c2e": {
        "score": 30,
-       "change": 0
+       "change": -44.4
       }
      }
     },
@@ -14175,15 +15570,15 @@
       },
       "w-03fa1cea7b": {
        "score": 37,
-       "change": 0
+       "change": -63
       },
       "w-fb6fec97db": {
        "score": 30,
-       "change": 0
+       "change": -38.8
       },
       "w-4b6e454967": {
        "score": 30,
-       "change": 0
+       "change": -18.9
       },
       "w-f147aae92f": {
        "score": 30,
@@ -14191,1297 +15586,13 @@
       },
       "w-dc43f64d3b": {
        "score": 30,
-       "change": 0
+       "change": -16.7
       },
       "w-3223ddfeed": {
        "score": 30,
        "change": 0
       },
       "w-8928b59e34": {
-       "score": 30,
-       "change": 0
-      }
-     }
-    },
-    "ID": {
-     "activityScore": 85,
-     "risingCount": 0,
-     "topics": {
-      "w-8de3593d09": {
-       "score": 100,
-       "change": 0
-      },
-      "w-d9776f05a5": {
-       "score": 65,
-       "change": 0
-      },
-      "w-a882f143d6": {
-       "score": 56,
-       "change": 0
-      },
-      "w-14be3586a5": {
-       "score": 48,
-       "change": 0
-      },
-      "w-111dca77ec": {
-       "score": 33,
-       "change": 0
-      },
-      "w-2da5c3f82b": {
-       "score": 30,
-       "change": 0
-      },
-      "w-909799ec4d": {
-       "score": 30,
-       "change": 0
-      },
-      "w-d2a29ba8a5": {
-       "score": 30,
-       "change": 0
-      }
-     }
-    },
-    "IN": {
-     "activityScore": 95,
-     "risingCount": 4,
-     "topics": {
-      "w-07d3ce04bd": {
-       "score": 100,
-       "change": 233.3
-      },
-      "w-25fee78551": {
-       "score": 95,
-       "change": 216.7
-      },
-      "w-a82aba0e18": {
-       "score": 81,
-       "change": 170
-      },
-      "w-909799ec4d": {
-       "score": 80,
-       "change": 166.7
-      },
-      "w-d079ec2d49": {
-       "score": 77,
-       "change": -23
-      },
-      "w-b60d121b43": {
-       "score": 62,
-       "change": 0
-      },
-      "w-af507f148d": {
-       "score": 34,
-       "change": 13.3
-      },
-      "w-b9e180ccd3": {
-       "score": 34,
-       "change": 0
-      }
-     }
-    },
-    "IT": {
-     "activityScore": 79,
-     "risingCount": 0,
-     "topics": {
-      "w-b6311849e4": {
-       "score": 100,
-       "change": 0
-      },
-      "w-e385078a38": {
-       "score": 43,
-       "change": 0
-      },
-      "w-32d17d38d0": {
-       "score": 38,
-       "change": 0
-      },
-      "w-319670e008": {
-       "score": 33,
-       "change": 0
-      },
-      "w-e8a5b3e1e5": {
-       "score": 30,
-       "change": 0
-      },
-      "w-580d09903b": {
-       "score": 30,
-       "change": 0
-      },
-      "w-ef6e4bbdd6": {
-       "score": 30,
-       "change": 0
-      },
-      "w-e305d83b0a": {
-       "score": 30,
-       "change": 0
-      }
-     }
-    },
-    "JP": {
-     "activityScore": 76,
-     "risingCount": 0,
-     "topics": {
-      "w-8c085ceb19": {
-       "score": 100,
-       "change": 0
-      },
-      "w-6ea8feed7e": {
-       "score": 30,
-       "change": 0
-      },
-      "w-8928b59e34": {
-       "score": 30,
-       "change": 0
-      },
-      "w-aaa6321c4e": {
-       "score": 30,
-       "change": 0
-      },
-      "w-86fde882b2": {
-       "score": 30,
-       "change": 0
-      },
-      "w-72f9cfe6c0": {
-       "score": 30,
-       "change": 0
-      },
-      "w-2d2cc22070": {
-       "score": 30,
-       "change": 0
-      },
-      "w-2635ecb6ab": {
-       "score": 30,
-       "change": 0
-      }
-     }
-    },
-    "KR": {
-     "activityScore": 99,
-     "risingCount": 0,
-     "topics": {
-      "n-5376436a89": {
-       "score": 100,
-       "change": 0
-      },
-      "w-d963ca6526": {
-       "score": 100,
-       "change": 0
-      },
-      "n-c82a5c7c33": {
-       "score": 96,
-       "change": 0
-      },
-      "n-c53ace7a59": {
-       "score": 92,
-       "change": 0
-      },
-      "n-83c67a42fb": {
-       "score": 88,
-       "change": 0
-      },
-      "n-d0f5c9e6ed": {
-       "score": 84,
-       "change": 0
-      },
-      "n-9b7a210123": {
-       "score": 80,
-       "change": 0
-      },
-      "n-7745963234": {
-       "score": 76,
-       "change": 0
-      },
-      "n-87393d53dc": {
-       "score": 72,
-       "change": 0
-      },
-      "n-5b67378648": {
-       "score": 68,
-       "change": 0
-      },
-      "w-01a237c986": {
-       "score": 47,
-       "change": 0
-      },
-      "w-84dfeb147b": {
-       "score": 41,
-       "change": 0
-      },
-      "w-fb1e500615": {
-       "score": 37,
-       "change": 0
-      },
-      "w-5376436a89": {
-       "score": 30,
-       "change": 0
-      },
-      "w-db5ce4809b": {
-       "score": 30,
-       "change": 0
-      },
-      "w-0487e47b46": {
-       "score": 30,
-       "change": 0
-      },
-      "w-a3b60cf462": {
-       "score": 30,
-       "change": 0
-      }
-     }
-    },
-    "MX": {
-     "activityScore": 86,
-     "risingCount": 0,
-     "topics": {
-      "w-6e07b31e76": {
-       "score": 100,
-       "change": 0
-      },
-      "w-719d82db1f": {
-       "score": 68,
-       "change": 0
-      },
-      "w-69c40f92d0": {
-       "score": 55,
-       "change": 0
-      },
-      "w-2859159dfa": {
-       "score": 55,
-       "change": 0
-      },
-      "w-e6dfec3e18": {
-       "score": 45,
-       "change": 0
-      },
-      "w-f99e22181d": {
-       "score": 39,
-       "change": 0
-      },
-      "w-31a589e747": {
-       "score": 36,
-       "change": 0
-      },
-      "w-166d6e8e61": {
-       "score": 33,
-       "change": 0
-      }
-     }
-    },
-    "NG": {
-     "activityScore": 86,
-     "risingCount": 1,
-     "topics": {
-      "w-b610a23f74": {
-       "score": 100,
-       "change": 108.3
-      },
-      "w-c73015ed2c": {
-       "score": 75,
-       "change": -25
-      },
-      "w-909799ec4d": {
-       "score": 56,
-       "change": -17.6
-      },
-      "w-66b27417d3": {
-       "score": 42,
-       "change": 0
-      },
-      "w-e34d743e21": {
-       "score": 33,
-       "change": 0
-      }
-     }
-    },
-    "NL": {
-     "activityScore": 77,
-     "risingCount": 0,
-     "topics": {
-      "w-0341a11fd2": {
-       "score": 100,
-       "change": 0
-      },
-      "w-8b377c2bd5": {
-       "score": 34,
-       "change": 0
-      },
-      "w-c45a33258c": {
-       "score": 30,
-       "change": 0
-      },
-      "w-825b35e127": {
-       "score": 30,
-       "change": 0
-      },
-      "w-9c6982513a": {
-       "score": 30,
-       "change": 0
-      },
-      "w-133e39a0ec": {
-       "score": 30,
-       "change": 0
-      },
-      "w-aec3f3c763": {
-       "score": 30,
-       "change": 0
-      },
-      "w-ea0ccf8eb5": {
-       "score": 30,
-       "change": 0
-      }
-     }
-    },
-    "NO": {
-     "activityScore": 76,
-     "risingCount": 0,
-     "topics": {
-      "w-4916ff9267": {
-       "score": 100,
-       "change": 0
-      },
-      "w-909799ec4d": {
-       "score": 30,
-       "change": 0
-      },
-      "w-d926ad8044": {
-       "score": 30,
-       "change": 0
-      },
-      "w-a33cbe7696": {
-       "score": 30,
-       "change": 0
-      },
-      "w-0a92e9e0dd": {
-       "score": 30,
-       "change": 0
-      },
-      "w-a021c096c2": {
-       "score": 30,
-       "change": 0
-      },
-      "w-ce80eed025": {
-       "score": 30,
-       "change": 0
-      }
-     }
-    },
-    "NZ": {
-     "activityScore": 92,
-     "risingCount": 1,
-     "topics": {
-      "w-58ece5bafb": {
-       "score": 100,
-       "change": 0
-      },
-      "w-909799ec4d": {
-       "score": 84,
-       "change": -16
-      },
-      "w-744416b3d7": {
-       "score": 79,
-       "change": 0
-      },
-      "w-e4cc1f4179": {
-       "score": 63,
-       "change": 0
-      },
-      "w-6d8fa4ae76": {
-       "score": 63,
-       "change": 6.8
-      },
-      "w-8e2faf4f59": {
-       "score": 58,
-       "change": 0
-      },
-      "w-25fee78551": {
-       "score": 53,
-       "change": 76.7
-      },
-      "w-91a97104bc": {
-       "score": 47,
-       "change": 0
-      }
-     }
-    },
-    "PH": {
-     "activityScore": 79,
-     "risingCount": 0,
-     "topics": {
-      "w-66b27417d3": {
-       "score": 100,
-       "change": 6.4
-      },
-      "w-909799ec4d": {
-       "score": 55,
-       "change": -45
-      },
-      "w-91f9b3d429": {
-       "score": 30,
-       "change": 0
-      },
-      "w-b610a23f74": {
-       "score": 30,
-       "change": 0
-      },
-      "w-ab0ddc029a": {
-       "score": 30,
-       "change": -47.4
-      },
-      "w-a021c096c2": {
-       "score": 30,
-       "change": 0
-      },
-      "w-bd4dad9cee": {
-       "score": 30,
-       "change": 0
-      },
-      "w-3cbc6d76a9": {
-       "score": 30,
-       "change": 0
-      }
-     }
-    },
-    "PL": {
-     "activityScore": 83,
-     "risingCount": 0,
-     "topics": {
-      "w-80a8f8362e": {
-       "score": 100,
-       "change": 0
-      },
-      "w-1bf32b2803": {
-       "score": 51,
-       "change": 0
-      },
-      "w-6e7d9ec2f4": {
-       "score": 50,
-       "change": 0
-      },
-      "w-b3ee261b75": {
-       "score": 44,
-       "change": 0
-      },
-      "w-6a1cef2a3d": {
-       "score": 44,
-       "change": 0
-      },
-      "w-e3c78a643b": {
-       "score": 42,
-       "change": 0
-      },
-      "w-c45a33258c": {
-       "score": 38,
-       "change": 0
-      },
-      "w-189cb2ef32": {
-       "score": 37,
-       "change": 0
-      }
-     }
-    },
-    "SE": {
-     "activityScore": 99,
-     "risingCount": 0,
-     "topics": {
-      "n-a8b2dba0a7": {
-       "score": 100,
-       "change": 0
-      },
-      "w-195b6f8e83": {
-       "score": 100,
-       "change": 0
-      },
-      "n-fb569211aa": {
-       "score": 96,
-       "change": 0
-      },
-      "n-ef09a71e37": {
-       "score": 92,
-       "change": 0
-      },
-      "n-8744ba243c": {
-       "score": 88,
-       "change": 0
-      },
-      "n-b20aed658a": {
-       "score": 84,
-       "change": 0
-      },
-      "n-c345c47b74": {
-       "score": 80,
-       "change": 0
-      },
-      "n-e3e0211bba": {
-       "score": 76,
-       "change": 0
-      },
-      "n-381fde6449": {
-       "score": 72,
-       "change": 0
-      },
-      "n-a4cf8e5e84": {
-       "score": 68,
-       "change": 0
-      },
-      "w-0d3c5dd04f": {
-       "score": 59,
-       "change": 0
-      },
-      "w-31adfb3cda": {
-       "score": 34,
-       "change": 0
-      },
-      "w-909799ec4d": {
-       "score": 32,
-       "change": 0
-      },
-      "w-82044cf340": {
-       "score": 30,
-       "change": 0
-      },
-      "w-c45a33258c": {
-       "score": 30,
-       "change": 0
-      },
-      "w-9fbf56840f": {
-       "score": 30,
-       "change": 0
-      },
-      "w-863c2e5d3d": {
-       "score": 30,
-       "change": 0
-      }
-     }
-    },
-    "SG": {
-     "activityScore": 76,
-     "risingCount": 0,
-     "topics": {
-      "w-66b27417d3": {
-       "score": 100,
-       "change": 0
-      },
-      "w-909799ec4d": {
-       "score": 30,
-       "change": 0
-      },
-      "w-50aa2fe209": {
-       "score": 30,
-       "change": 0
-      },
-      "w-8c085ceb19": {
-       "score": 30,
-       "change": 0
-      },
-      "w-111dca77ec": {
-       "score": 30,
-       "change": 0
-      },
-      "w-91f9b3d429": {
-       "score": 30,
-       "change": 0
-      },
-      "w-4cf11fe9ad": {
-       "score": 30,
-       "change": 0
-      },
-      "w-a82aba0e18": {
-       "score": 30,
-       "change": 0
-      }
-     }
-    },
-    "TH": {
-     "activityScore": 89,
-     "risingCount": 0,
-     "topics": {
-      "w-19851504e7": {
-       "score": 100,
-       "change": 0
-      },
-      "w-a3df4bcd94": {
-       "score": 86,
-       "change": 0
-      },
-      "w-7425e8c27d": {
-       "score": 78,
-       "change": 0
-      },
-      "w-650fee1d91": {
-       "score": 42,
-       "change": 0
-      },
-      "w-66b27417d3": {
-       "score": 30,
-       "change": 0
-      },
-      "w-10e8b86866": {
-       "score": 30,
-       "change": 0
-      },
-      "w-909799ec4d": {
-       "score": 30,
-       "change": 0
-      },
-      "w-08519444b5": {
-       "score": 30,
-       "change": 0
-      }
-     }
-    },
-    "TR": {
-     "activityScore": 81,
-     "risingCount": 0,
-     "topics": {
-      "w-f33ae65c31": {
-       "score": 100,
-       "change": 0
-      },
-      "w-e2732fce7b": {
-       "score": 56,
-       "change": 0
-      },
-      "w-50df3c257d": {
-       "score": 43,
-       "change": 0
-      },
-      "w-5a8335ebce": {
-       "score": 30,
-       "change": 0
-      },
-      "w-2c38fd5604": {
-       "score": 30,
-       "change": 0
-      },
-      "w-9303a9c305": {
-       "score": 30,
-       "change": 0
-      },
-      "w-8dba82780c": {
-       "score": 30,
-       "change": 0
-      },
-      "w-132e198539": {
-       "score": 30,
-       "change": 0
-      }
-     }
-    },
-    "TW": {
-     "activityScore": 82,
-     "risingCount": 0,
-     "topics": {
-      "w-8c085ceb19": {
-       "score": 100,
-       "change": 0
-      },
-      "w-03fa1cea7b": {
-       "score": 63,
-       "change": 0
-      },
-      "w-fb6fec97db": {
-       "score": 39,
-       "change": 0
-      },
-      "w-4b6e454967": {
-       "score": 34,
-       "change": 0
-      },
-      "w-dc43f64d3b": {
-       "score": 30,
-       "change": 0
-      },
-      "w-3ec879b23b": {
-       "score": 30,
-       "change": 0
-      },
-      "w-309d0b7f60": {
-       "score": 30,
-       "change": 0
-      },
-      "w-2b4e89a736": {
-       "score": 30,
-       "change": 0
-      }
-     }
-    },
-    "US": {
-     "activityScore": 83,
-     "risingCount": 0,
-     "topics": {
-      "w-909799ec4d": {
-       "score": 100,
-       "change": 0
-      },
-      "w-a5228b887b": {
-       "score": 60,
-       "change": 0
-      },
-      "w-9fc8ff9e83": {
-       "score": 47,
-       "change": 0
-      },
-      "w-a021c096c2": {
-       "score": 44,
-       "change": 0
-      },
-      "w-15165417d4": {
-       "score": 37,
-       "change": 0
-      },
-      "w-00b2c1aa95": {
-       "score": 36,
-       "change": 0
-      },
-      "w-67dcc2f0c9": {
-       "score": 33,
-       "change": 0
-      },
-      "w-3d7923325b": {
-       "score": 32,
-       "change": 0
-      }
-     }
-    },
-    "VN": {
-     "activityScore": 80,
-     "risingCount": 0,
-     "topics": {
-      "w-99fd6ca036": {
-       "score": 100,
-       "change": 0
-      },
-      "w-184846aed4": {
-       "score": 53,
-       "change": 0
-      },
-      "w-aae326f9d2": {
-       "score": 41,
-       "change": 0
-      },
-      "w-ce27105041": {
-       "score": 30,
-       "change": 0
-      },
-      "w-ea0041028c": {
-       "score": 30,
-       "change": 0
-      },
-      "w-728e464c0e": {
-       "score": 30,
-       "change": 0
-      },
-      "w-f6b73bf52f": {
-       "score": 30,
-       "change": 0
-      },
-      "w-3f1a6b012f": {
-       "score": 30,
-       "change": 0
-      }
-     }
-    },
-    "ZA": {
-     "activityScore": 81,
-     "risingCount": 0,
-     "topics": {
-      "w-7cb9be8b08": {
-       "score": 100,
-       "change": 0
-      },
-      "w-cd460f3007": {
-       "score": 64,
-       "change": 0
-      },
-      "w-909799ec4d": {
-       "score": 38,
-       "change": 0
-      },
-      "w-822c947688": {
-       "score": 32,
-       "change": 0
-      },
-      "w-044b0b750e": {
-       "score": 31,
-       "change": 0
-      },
-      "w-66b27417d3": {
-       "score": 30,
-       "change": 0
-      },
-      "w-898480b350": {
-       "score": 30,
-       "change": 0
-      },
-      "w-8b377c2bd5": {
-       "score": 30,
-       "change": 0
-      }
-     }
-    }
-   }
-  },
-  {
-   "offsetHours": 12,
-   "label": {
-    "ja": "12時間前",
-    "en": "12H ago"
-   },
-   "shortLabel": "12H",
-   "countries": {
-    "AR": {
-     "activityScore": 87,
-     "risingCount": 0,
-     "topics": {
-      "w-99a661139b": {
-       "score": 100,
-       "change": 0
-      },
-      "w-719d82db1f": {
-       "score": 76,
-       "change": 0
-      },
-      "w-07b3de9070": {
-       "score": 71,
-       "change": 0
-      },
-      "w-eb9c8a3c80": {
-       "score": 39,
-       "change": 0
-      },
-      "w-c14d1766b3": {
-       "score": 36,
-       "change": 0
-      },
-      "w-822c947688": {
-       "score": 31,
-       "change": 0
-      },
-      "w-044b0b750e": {
-       "score": 30,
-       "change": 0
-      },
-      "w-f99e22181d": {
-       "score": 30,
-       "change": 0
-      }
-     }
-    },
-    "AU": {
-     "activityScore": 91,
-     "risingCount": 1,
-     "topics": {
-      "w-6d8fa4ae76": {
-       "score": 100,
-       "change": 0
-      },
-      "w-909799ec4d": {
-       "score": 85,
-       "change": -15
-      },
-      "w-8cca0ef8af": {
-       "score": 70,
-       "change": 118.8
-      },
-      "w-30660ec9e1": {
-       "score": 62,
-       "change": 0
-      },
-      "w-dec2d01459": {
-       "score": 52,
-       "change": 0
-      },
-      "w-25fee78551": {
-       "score": 46,
-       "change": 12.2
-      },
-      "w-8978ebda2a": {
-       "score": 45,
-       "change": 0
-      },
-      "w-f59b18bae2": {
-       "score": 38,
-       "change": 0
-      }
-     }
-    },
-    "BR": {
-     "activityScore": 99,
-     "risingCount": 0,
-     "topics": {
-      "n-1173bec53b": {
-       "score": 100,
-       "change": 0
-      },
-      "w-822c947688": {
-       "score": 100,
-       "change": 0
-      },
-      "n-652a6f690b": {
-       "score": 96,
-       "change": 0
-      },
-      "w-73d5e96e4d": {
-       "score": 96,
-       "change": 0
-      },
-      "n-f8e1b50951": {
-       "score": 92,
-       "change": 0
-      },
-      "w-044b0b750e": {
-       "score": 92,
-       "change": 0
-      },
-      "n-31c4c663a7": {
-       "score": 88,
-       "change": 0
-      },
-      "n-e005fb8dd7": {
-       "score": 84,
-       "change": 0
-      },
-      "n-6f957d0e58": {
-       "score": 80,
-       "change": 0
-      },
-      "w-32c93aab5f": {
-       "score": 80,
-       "change": 0
-      },
-      "n-32e5540bcf": {
-       "score": 76,
-       "change": 0
-      },
-      "n-bf06d5c5b5": {
-       "score": 72,
-       "change": 0
-      },
-      "n-e0b9c065a5": {
-       "score": 68,
-       "change": 0
-      },
-      "n-846a2b9f33": {
-       "score": 64,
-       "change": 0
-      },
-      "w-66b27417d3": {
-       "score": 59,
-       "change": 0
-      },
-      "w-ab0ddc029a": {
-       "score": 59,
-       "change": 0
-      },
-      "w-f4c668fc54": {
-       "score": 45,
-       "change": 0
-      },
-      "w-8b377c2bd5": {
-       "score": 43,
-       "change": 0
-      }
-     }
-    },
-    "CA": {
-     "activityScore": 79,
-     "risingCount": 0,
-     "topics": {
-      "w-909799ec4d": {
-       "score": 100,
-       "change": 0
-      },
-      "w-a021c096c2": {
-       "score": 44,
-       "change": 0
-      },
-      "w-15165417d4": {
-       "score": 35,
-       "change": 0
-      },
-      "w-b8cac78d22": {
-       "score": 30,
-       "change": 0
-      },
-      "w-b94ac5f50c": {
-       "score": 30,
-       "change": 0
-      },
-      "w-b330122db8": {
-       "score": 30,
-       "change": 0
-      },
-      "w-8f462ab9c0": {
-       "score": 30,
-       "change": 0
-      },
-      "w-94a279bfaa": {
-       "score": 30,
-       "change": 0
-      }
-     }
-    },
-    "CH": {
-     "activityScore": 94,
-     "risingCount": 0,
-     "topics": {
-      "w-23d42790b0": {
-       "score": 100,
-       "change": 0
-      },
-      "w-b6311849e4": {
-       "score": 100,
-       "change": 0
-      },
-      "w-344f28ff9a": {
-       "score": 77,
-       "change": 0
-      },
-      "w-179d27f3c5": {
-       "score": 73,
-       "change": 0
-      },
-      "w-9c8356f7ee": {
-       "score": 73,
-       "change": 0
-      },
-      "w-909799ec4d": {
-       "score": 60,
-       "change": 0
-      },
-      "w-6b196cb029": {
-       "score": 53,
-       "change": 0
-      },
-      "w-b0ecf9e121": {
-       "score": 40,
-       "change": 0
-      }
-     }
-    },
-    "DE": {
-     "activityScore": 88,
-     "risingCount": 0,
-     "topics": {
-      "w-344f28ff9a": {
-       "score": 100,
-       "change": 0
-      },
-      "w-e9e3fa4c98": {
-       "score": 72,
-       "change": -28
-      },
-      "w-e4e40037b0": {
-       "score": 67,
-       "change": 0
-      },
-      "w-179d27f3c5": {
-       "score": 55,
-       "change": 0
-      },
-      "w-aeea96e81f": {
-       "score": 53,
-       "change": 0
-      },
-      "w-23d42790b0": {
-       "score": 52,
-       "change": -31.6
-      },
-      "w-420d98f9e4": {
-       "score": 37,
-       "change": -14
-      },
-      "w-a2e780aa8b": {
-       "score": 35,
-       "change": -38.6
-      }
-     }
-    },
-    "EG": {
-     "activityScore": 77,
-     "risingCount": 0,
-     "topics": {
-      "w-cedda4b096": {
-       "score": 100,
-       "change": 0
-      },
-      "w-796d14426c": {
-       "score": 33,
-       "change": 0
-      },
-      "w-66e47a8474": {
-       "score": 30,
-       "change": 0
-      },
-      "w-cf9a53b152": {
-       "score": 30,
-       "change": 0
-      },
-      "w-836999e3ec": {
-       "score": 30,
-       "change": 0
-      },
-      "w-48ab9c8563": {
-       "score": 30,
-       "change": 0
-      },
-      "w-f0f8d6c9d6": {
-       "score": 30,
-       "change": 0
-      },
-      "w-c54361dd27": {
-       "score": 30,
-       "change": 0
-      }
-     }
-    },
-    "ES": {
-     "activityScore": 87,
-     "risingCount": 0,
-     "topics": {
-      "w-c73015ed2c": {
-       "score": 100,
-       "change": 0
-      },
-      "w-b5b7bdc2c1": {
-       "score": 71,
-       "change": 0
-      },
-      "w-719d82db1f": {
-       "score": 59,
-       "change": 0
-      },
-      "w-79a6db2a36": {
-       "score": 53,
-       "change": 0
-      },
-      "w-a7672bcf0c": {
-       "score": 39,
-       "change": 0
-      },
-      "w-fb09604847": {
-       "score": 36,
-       "change": 0
-      },
-      "w-271d42f648": {
-       "score": 34,
-       "change": 0
-      },
-      "w-d2d298e9f7": {
-       "score": 33,
-       "change": 0
-      }
-     }
-    },
-    "FR": {
-     "activityScore": 89,
-     "risingCount": 1,
-     "topics": {
-      "w-8b377c2bd5": {
-       "score": 100,
-       "change": 42.9
-      },
-      "w-c794f81f99": {
-       "score": 70,
-       "change": 0
-      },
-      "w-45f89e8f66": {
-       "score": 67,
-       "change": 0
-      },
-      "w-d2d298e9f7": {
-       "score": 63,
-       "change": -36.4
-      },
-      "w-e4612d93e2": {
-       "score": 57,
-       "change": 1.8
-      },
-      "w-a4a736285e": {
-       "score": 54,
-       "change": 0
-      },
-      "w-047de93347": {
-       "score": 48,
-       "change": 0
-      },
-      "w-cb95e2b1f8": {
-       "score": 47,
-       "change": 0
-      }
-     }
-    },
-    "GB": {
-     "activityScore": 82,
-     "risingCount": 1,
-     "topics": {
-      "w-909799ec4d": {
-       "score": 100,
-       "change": 0
-      },
-      "w-90619c5c2e": {
-       "score": 54,
-       "change": 3.8
-      },
-      "w-a021c096c2": {
-       "score": 43,
-       "change": -2.3
-      },
-      "w-e34d743e21": {
-       "score": 43,
-       "change": 0
-      },
-      "w-fd634fb355": {
-       "score": 40,
-       "change": 0
-      },
-      "w-259f0b4a22": {
-       "score": 39,
-       "change": 18.2
-      },
-      "w-591606c6e4": {
-       "score": 39,
-       "change": 0
-      },
-      "w-05c36e606f": {
-       "score": 36,
-       "change": -23.4
-      }
-     }
-    },
-    "HK": {
-     "activityScore": 80,
-     "risingCount": 0,
-     "topics": {
-      "w-03fa1cea7b": {
-       "score": 100,
-       "change": 0
-      },
-      "w-fb6fec97db": {
-       "score": 49,
-       "change": 0
-      },
-      "w-4b6e454967": {
-       "score": 37,
-       "change": 0
-      },
-      "w-dc43f64d3b": {
-       "score": 36,
-       "change": 0
-      },
-      "w-bae25376f3": {
-       "score": 30,
-       "change": 0
-      },
-      "w-2d80dcfbca": {
-       "score": 30,
-       "change": 0
-      },
-      "w-f147aae92f": {
-       "score": 30,
-       "change": 0
-      },
-      "w-309d0b7f60": {
        "score": 30,
        "change": 0
       }
@@ -15632,30 +15743,66 @@
      }
     },
     "IT": {
-     "activityScore": 80,
-     "risingCount": 0,
+     "activityScore": 99,
+     "risingCount": 1,
      "topics": {
+      "n-b0eef7c0cf": {
+       "score": 100,
+       "change": 0
+      },
       "w-b6311849e4": {
        "score": 100,
        "change": 0
       },
-      "w-32d17d38d0": {
-       "score": 59,
+      "n-d94fb08d6d": {
+       "score": 96,
        "change": 0
       },
-      "w-e8a5b3e1e5": {
-       "score": 30,
+      "n-78442e8010": {
+       "score": 92,
        "change": 0
       },
-      "w-8adbb07a16": {
-       "score": 30,
+      "n-015e03c9bb": {
+       "score": 88,
+       "change": 0
+      },
+      "n-8293d29419": {
+       "score": 84,
+       "change": 0
+      },
+      "n-f5440dc40a": {
+       "score": 80,
+       "change": 0
+      },
+      "n-06752945ea": {
+       "score": 76,
+       "change": 0
+      },
+      "n-149a43403c": {
+       "score": 72,
+       "change": 0
+      },
+      "n-2771a1228e": {
+       "score": 68,
+       "change": 0
+      },
+      "n-ddf3ac6207": {
+       "score": 64,
        "change": 0
       },
       "w-e385078a38": {
-       "score": 30,
+       "score": 43,
+       "change": 43.3
+      },
+      "w-32d17d38d0": {
+       "score": 38,
+       "change": -35.6
+      },
+      "w-319670e008": {
+       "score": 33,
        "change": 0
       },
-      "w-b330122db8": {
+      "w-e8a5b3e1e5": {
        "score": 30,
        "change": 0
       },
@@ -15663,7 +15810,11 @@
        "score": 30,
        "change": 0
       },
-      "w-d2d298e9f7": {
+      "w-ef6e4bbdd6": {
+       "score": 30,
+       "change": 0
+      },
+      "w-e305d83b0a": {
        "score": 30,
        "change": 0
       }
@@ -15679,7 +15830,7 @@
       },
       "w-6ea8feed7e": {
        "score": 30,
-       "change": -70
+       "change": 0
       },
       "w-8928b59e34": {
        "score": 30,
@@ -15687,11 +15838,11 @@
       },
       "w-aaa6321c4e": {
        "score": 30,
-       "change": -23.1
+       "change": 0
       },
       "w-86fde882b2": {
        "score": 30,
-       "change": -11.8
+       "change": 0
       },
       "w-72f9cfe6c0": {
        "score": 30,
@@ -15717,15 +15868,15 @@
       },
       "w-01a237c986": {
        "score": 47,
-       "change": -9.6
+       "change": 0
       },
       "w-84dfeb147b": {
        "score": 41,
-       "change": -18
+       "change": 0
       },
       "w-fb1e500615": {
        "score": 37,
-       "change": 12.1
+       "change": 0
       },
       "w-5376436a89": {
        "score": 30,
@@ -15848,11 +15999,51 @@
      }
     },
     "NO": {
-     "activityScore": 76,
+     "activityScore": 99,
      "risingCount": 0,
      "topics": {
+      "n-487c5eeaeb": {
+       "score": 100,
+       "change": 0
+      },
       "w-4916ff9267": {
        "score": 100,
+       "change": 0
+      },
+      "n-6ba3740158": {
+       "score": 96,
+       "change": 0
+      },
+      "n-5744f49d45": {
+       "score": 92,
+       "change": 0
+      },
+      "n-25f3fd5b62": {
+       "score": 88,
+       "change": 0
+      },
+      "n-ab9ca0a786": {
+       "score": 84,
+       "change": 0
+      },
+      "n-3501cb7844": {
+       "score": 80,
+       "change": 0
+      },
+      "n-2909d4a7ad": {
+       "score": 76,
+       "change": 0
+      },
+      "n-c54be7b6fd": {
+       "score": 72,
+       "change": 0
+      },
+      "n-af2c60be91": {
+       "score": 68,
+       "change": 0
+      },
+      "n-d48601af5d": {
+       "score": 64,
        "change": 0
       },
       "w-d926ad8044": {
@@ -15874,39 +16065,63 @@
      }
     },
     "NZ": {
-     "activityScore": 86,
+     "activityScore": 99,
      "risingCount": 0,
      "topics": {
-      "w-909799ec4d": {
+      "n-33490ea130": {
        "score": 100,
        "change": 0
       },
-      "w-d079ec2d49": {
-       "score": 71,
+      "w-58ece5bafb": {
+       "score": 100,
        "change": 0
       },
-      "w-66b27417d3": {
-       "score": 56,
+      "n-cbdb85ba61": {
+       "score": 96,
        "change": 0
       },
-      "w-b610a23f74": {
-       "score": 50,
+      "n-80f8ad944b": {
+       "score": 92,
        "change": 0
       },
-      "w-00b2c1aa95": {
-       "score": 41,
+      "n-4b271a5245": {
+       "score": 88,
        "change": 0
       },
-      "w-a021c096c2": {
-       "score": 37,
+      "n-97e2114eac": {
+       "score": 84,
        "change": 0
       },
-      "w-a82aba0e18": {
-       "score": 30,
+      "w-909799ec4d": {
+       "score": 84,
+       "change": -16
+      },
+      "n-ad461883f1": {
+       "score": 80,
        "change": 0
       },
-      "w-8283bc093c": {
-       "score": 30,
+      "w-744416b3d7": {
+       "score": 79,
+       "change": 0
+      },
+      "w-e4cc1f4179": {
+       "score": 63,
+       "change": 0
+      },
+      "w-6d8fa4ae76": {
+       "score": 63,
+       "change": 0
+      },
+      "w-8e2faf4f59": {
+       "score": 58,
+       "change": 0
+      },
+      "w-25fee78551": {
+       "score": 53,
+       "change": 0
+      },
+      "w-91a97104bc": {
+       "score": 47,
        "change": 0
       }
      }
@@ -15988,51 +16203,11 @@
      }
     },
     "SE": {
-     "activityScore": 99,
+     "activityScore": 80,
      "risingCount": 0,
      "topics": {
-      "n-a8b2dba0a7": {
-       "score": 100,
-       "change": 0
-      },
       "w-195b6f8e83": {
        "score": 100,
-       "change": 0
-      },
-      "n-fb569211aa": {
-       "score": 96,
-       "change": 0
-      },
-      "n-ef09a71e37": {
-       "score": 92,
-       "change": 0
-      },
-      "n-a42ec38a08": {
-       "score": 88,
-       "change": 0
-      },
-      "n-8744ba243c": {
-       "score": 84,
-       "change": 0
-      },
-      "n-b20aed658a": {
-       "score": 80,
-       "change": 0
-      },
-      "n-e3e0211bba": {
-       "score": 76,
-       "change": 0
-      },
-      "n-381fde6449": {
-       "score": 72,
-       "change": 0
-      },
-      "n-a4cf8e5e84": {
-       "score": 68,
-       "change": 0
-      },
-      "n-df9bba9b1b": {
-       "score": 64,
        "change": 0
       },
       "w-0d3c5dd04f": {
@@ -16142,11 +16317,23 @@
      }
     },
     "TR": {
-     "activityScore": 88,
+     "activityScore": 99,
      "risingCount": 0,
      "topics": {
+      "n-47855ad9a9": {
+       "score": 100,
+       "change": 0
+      },
       "w-f33ae65c31": {
        "score": 100,
+       "change": 0
+      },
+      "n-57ffa148a6": {
+       "score": 96,
+       "change": 0
+      },
+      "n-d800d45b57": {
+       "score": 92,
        "change": 0
       },
       "w-89c216c7ce": {
@@ -16219,7 +16406,7 @@
     },
     "US": {
      "activityScore": 83,
-     "risingCount": 2,
+     "risingCount": 0,
      "topics": {
       "w-909799ec4d": {
        "score": 100,
@@ -16227,15 +16414,15 @@
       },
       "w-a5228b887b": {
        "score": 60,
-       "change": 15.4
+       "change": 0
       },
       "w-9fc8ff9e83": {
        "score": 47,
-       "change": 56.7
+       "change": 0
       },
       "w-a021c096c2": {
        "score": 44,
-       "change": -8.3
+       "change": 0
       },
       "w-15165417d4": {
        "score": 37,
@@ -16243,11 +16430,11 @@
       },
       "w-00b2c1aa95": {
        "score": 36,
-       "change": -62.5
+       "change": 0
       },
       "w-67dcc2f0c9": {
        "score": 33,
-       "change": 10
+       "change": 0
       },
       "w-3d7923325b": {
        "score": 32,
@@ -16256,22 +16443,26 @@
      }
     },
     "VN": {
-     "activityScore": 78,
-     "risingCount": 0,
+     "activityScore": 80,
+     "risingCount": 1,
      "topics": {
       "w-99fd6ca036": {
        "score": 100,
        "change": 0
       },
       "w-184846aed4": {
-       "score": 45,
+       "score": 53,
+       "change": 17.8
+      },
+      "w-aae326f9d2": {
+       "score": 41,
        "change": 0
       },
       "w-ce27105041": {
        "score": 30,
        "change": 0
       },
-      "w-80dc1f8552": {
+      "w-ea0041028c": {
        "score": 30,
        "change": 0
       },
@@ -16279,26 +16470,62 @@
        "score": 30,
        "change": 0
       },
-      "w-d926ad8044": {
-       "score": 30,
-       "change": 0
-      },
       "w-f6b73bf52f": {
        "score": 30,
        "change": 0
       },
-      "w-120c0b6192": {
+      "w-3f1a6b012f": {
        "score": 30,
        "change": 0
       }
      }
     },
     "ZA": {
-     "activityScore": 81,
+     "activityScore": 99,
      "risingCount": 0,
      "topics": {
+      "n-a573e2df15": {
+       "score": 100,
+       "change": 0
+      },
       "w-7cb9be8b08": {
        "score": 100,
+       "change": 0
+      },
+      "n-6838c4e504": {
+       "score": 96,
+       "change": 0
+      },
+      "n-91670c3030": {
+       "score": 92,
+       "change": 0
+      },
+      "n-f2744c900b": {
+       "score": 88,
+       "change": 0
+      },
+      "n-69191cfe0e": {
+       "score": 84,
+       "change": 0
+      },
+      "n-4522e7b214": {
+       "score": 80,
+       "change": 0
+      },
+      "n-0bc6619cef": {
+       "score": 76,
+       "change": 0
+      },
+      "n-41ef0ab587": {
+       "score": 72,
+       "change": 0
+      },
+      "n-f201f96719": {
+       "score": 68,
+       "change": 0
+      },
+      "n-aa1057c572": {
+       "score": 64,
        "change": 0
       },
       "w-cd460f3007": {

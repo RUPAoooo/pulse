@@ -1,118 +1,325 @@
 {
- "fetchedAt": "2026-07-28T14:49:08.020Z",
+ "fetchedAt": "2026-07-28T15:59:19.633Z",
  "source": "GDELT DOC 2.0 API",
  "countries": [
   {
-   "code": "SE",
+   "code": "JP",
    "articles": [
     {
      "rank": 1,
-     "title": "En anhållen efter misstänkt mord i Uppsala",
-     "outlet": "aftonbladet.se",
-     "url": "https://www.aftonbladet.se/nyheter/a/0prW5A/en-anhallen-efter-misstankt-mord-i-uppsala",
-     "publishedAt": "2026-07-28T09:15:00Z",
-     "language": "Swedish",
-     "country": "SE",
-     "category": "OTHER",
+     "title": "日本の位置情報サービス （ LBS ） 市場 ： 市場需要 、 市場シェア 、 トレンド 、 成長 、 市場機会 、 およびインサイト分析 （ 2026年～2036年 ）",
+     "outlet": "japan.cnet.com",
+     "url": "https://japan.cnet.com/release/31192746/",
+     "publishedAt": "2026-07-28T09:45:00Z",
+     "language": "Japanese",
+     "country": "JP",
+     "category": "BUSINESS",
      "source": "GDELT"
     },
     {
      "rank": 2,
-     "title": "Tsunamivarning efter kraftig jordbävning i Japan",
-     "outlet": "aftonbladet.se",
-     "url": "https://www.aftonbladet.se/nyheter/a/ExBvea/tsunamivarning-efter-kraftig-jordbavning-i-japan",
-     "publishedAt": "2026-07-28T09:15:00Z",
-     "language": "Swedish",
-     "country": "SE",
-     "category": "WEATHER",
+     "title": "HNS 2026 | Huawei 、 南部アフリカ向けにアップグレード版 「 Xinghe AIキャンパスソリューション 」 を発表",
+     "outlet": "japan.cnet.com",
+     "url": "https://japan.cnet.com/release/31192741/",
+     "publishedAt": "2026-07-28T09:45:00Z",
+     "language": "Japanese",
+     "country": "JP",
+     "category": "TECH",
      "source": "GDELT"
     },
     {
      "rank": 3,
-     "title": "Man livshotande skadad efter kollision",
-     "outlet": "aftonbladet.se",
-     "url": "https://www.aftonbladet.se/nyheter/a/Gx6O99/man-livshotande-skadad-efter-kollision",
-     "publishedAt": "2026-07-28T09:15:00Z",
-     "language": "Swedish",
-     "country": "SE",
+     "title": "Cloud - Clone 、 全系統多種初代神経細胞ラインナップのグローバルローンチを予定",
+     "outlet": "japan.cnet.com",
+     "url": "https://japan.cnet.com/release/31192734/",
+     "publishedAt": "2026-07-28T09:45:00Z",
+     "language": "Japanese",
+     "country": "JP",
      "category": "OTHER",
      "source": "GDELT"
     },
     {
      "rank": 4,
-     "title": "Vittnet om artisten :  Var djävulskt våldsam  | Nöje",
-     "outlet": "expressen.se",
-     "url": "https://www.expressen.se/noje/vittnet-om-artisten-var-djavulskt-valdsam/",
-     "publishedAt": "2026-07-28T09:00:00Z",
-     "language": "Swedish",
-     "country": "SE",
-     "category": "CULTURE",
+     "title": "早期では症状が出ない 「 大腸がん 」。 消化器内科医が解説する検診の重要性",
+     "outlet": "news.livedoor.com",
+     "url": "https://news.livedoor.com/article/detail/31928328/",
+     "publishedAt": "2026-07-28T07:30:00Z",
+     "language": "Japanese",
+     "country": "JP",
+     "category": "OTHER",
      "source": "GDELT"
     },
     {
      "rank": 5,
-     "title": "Ville stoppa Håkan Hellström i SVT : s Allsång på Skansen",
-     "outlet": "expressen.se",
-     "url": "https://www.expressen.se/noje/tv-och-streaming/ville-stoppa-hakan-hellstrom-i-svts-allsang-pa-skansen/",
-     "publishedAt": "2026-07-28T09:00:00Z",
-     "language": "Swedish",
-     "country": "SE",
+     "title": "朝のコンビニで 「 トイレ汚いから使えない 」 店員女性が絶句した惨状 「 もう二度と汚さないで欲しいです 」",
+     "outlet": "news.livedoor.com",
+     "url": "https://news.livedoor.com/article/detail/31927598/",
+     "publishedAt": "2026-07-28T05:00:00Z",
+     "language": "Japanese",
+     "country": "JP",
      "category": "OTHER",
      "source": "GDELT"
     },
     {
      "rank": 6,
-     "title": "SIMON MOSER : Vem skar bort Tunströms kuk ?",
-     "outlet": "expressen.se",
-     "url": "https://www.expressen.se/kultur/vem-skar-bort-tunstroms-kuk/",
-     "publishedAt": "2026-07-28T04:30:00Z",
-     "language": "Swedish",
-     "country": "SE",
-     "category": "WORLD",
+     "title": "阪神OBバース氏 佐藤輝に3冠王への心構え伝授 「 何が起こっても自分のペースで 」 森下との相乗効果も期待",
+     "outlet": "news.livedoor.com",
+     "url": "https://news.livedoor.com/article/detail/31927441/",
+     "publishedAt": "2026-07-27T23:00:00Z",
+     "language": "Japanese",
+     "country": "JP",
+     "category": "OTHER",
      "source": "GDELT"
     },
     {
      "rank": 7,
-     "title": "Debatt om klimatkrisen splittrar i Spanien – Senaste nytt om väderläget i världen",
-     "outlet": "svt.se",
-     "url": "https://www.svt.se/vader/vaderlaget-i-varlden-folj-senaste-nytt?inlagg=52e4588dfb6460a3f95977d986e52431",
-     "publishedAt": "2026-07-28T04:00:00Z",
-     "language": "Swedish",
-     "country": "SE",
+     "title": "5匹目のミジンコはやや飛び出したの巻 | Oh ！ エルちゃんのダイエットブログ",
+     "outlet": "ameblo.jp",
+     "url": "https://ameblo.jp/murako-diet/entry-12973803687.html",
+     "publishedAt": "2026-07-28T12:00:00Z",
+     "language": "Japanese",
+     "country": "JP",
      "category": "OTHER",
      "source": "GDELT"
     },
     {
      "rank": 8,
-     "title": "Ryssland : Moskva under attack – Senaste nytt om kriget i Ukraina",
-     "outlet": "svt.se",
-     "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=4c8442e5f28d0499fdf6d23e1cceb3aa",
-     "publishedAt": "2026-07-28T04:00:00Z",
-     "language": "Swedish",
-     "country": "SE",
-     "category": "WEATHER",
+     "title": "運命すぎる出会いが … | あいのりクロの 「 こいたん 」 オフィシャルブログ Powered by Ameba",
+     "outlet": "ameblo.jp",
+     "url": "https://ameblo.jp/watajima/entry-12974034533.html",
+     "publishedAt": "2026-07-28T12:00:00Z",
+     "language": "Japanese",
+     "country": "JP",
+     "category": "OTHER",
      "source": "GDELT"
     },
     {
      "rank": 9,
-     "title": "Stenkastning och bränder på Västbanken – Senaste nytt om kriget i Gaza",
-     "outlet": "svt.se",
-     "url": "https://www.svt.se/nyheter/utrikes/senaste-nytt-om-kriget-i-mellanostern?inlagg=834ee9673653a806b01699bca06c445b",
-     "publishedAt": "2026-07-28T04:00:00Z",
-     "language": "Swedish",
-     "country": "SE",
-     "category": "BUSINESS",
+     "title": "カウンセリングBSJ with ののこ | イクラの雑記 ＠ KOREA",
+     "outlet": "ameblo.jp",
+     "url": "https://ameblo.jp/ikuraebimaguro/entry-12973779693.html",
+     "publishedAt": "2026-07-28T03:30:00Z",
+     "language": "Japanese",
+     "country": "JP",
+     "category": "OTHER",
+     "source": "GDELT"
+    }
+   ]
+  },
+  {
+   "code": "DE",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "Deutschland spricht 2026 : Tausende diskutieren über Politik und Gesellschaft",
+     "outlet": "spiegel.de",
+     "url": "https://www.spiegel.de/backstage/deutschland-spricht-2026-tausende-diskutieren-ueber-politik-und-gesellschaft-a-d52e6703-4c17-4ea4-a60f-d181d53c0338",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "German",
+     "country": "DE",
+     "category": "WORLD",
      "source": "GDELT"
     },
     {
-     "rank": 10,
-     "title": "Ledare : Det finns bara en vinnare på L och SD : s kärleksaffär",
-     "outlet": "dn.se",
-     "url": "https://www.dn.se/ledare/detta-ar-anledningen-bakom-liberalernas-och-sverigedemokraternas-karleksaffar/",
-     "publishedAt": "2026-07-28T04:30:00Z",
-     "language": "Swedish",
-     "country": "SE",
+     "rank": 2,
+     "title": "Deutschland spricht 2026 : Melden Sie sich hier an",
+     "outlet": "spiegel.de",
+     "url": "https://www.spiegel.de/backstage/deutschland-spricht-2026-melden-sie-sich-hier-an-a-43c53415-ff81-43c7-b5a1-472a66ffcb9b",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "German",
+     "country": "DE",
      "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 3,
+     "title": "Iran : Zwei weitere Hinrichtungen nach Massenprotesten im Januar",
+     "outlet": "spiegel.de",
+     "url": "https://www.spiegel.de/ausland/iran-zwei-weitere-hinrichtungen-nach-massenprotesten-im-januar-a-8c157354-11c9-4412-a2a9-b743589daab2",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "German",
+     "country": "DE",
+     "category": "WORLD",
+     "source": "GDELT"
+    },
+    {
+     "rank": 4,
+     "title": "Katzen putzen sich gegenseitig : Ist das wirklich ein Liebesbeweis ?",
+     "outlet": "bild.de",
+     "url": "https://www.bild.de/leben-wissen/haustiere/katzen-putzen-sich-gegenseitig-ist-das-wirklich-ein-liebesbeweis-6a608dd6ea7bf3843138ab6e",
+     "publishedAt": "2026-07-28T07:30:00Z",
+     "language": "German",
+     "country": "DE",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 5,
+     "title": "Martenstein : Auch Köln ist für Hape Kerkeling nicht sicher",
+     "outlet": "bild.de",
+     "url": "https://www.bild.de/politik/meinung-kommentare-kolumnen/martenstein-auch-koeln-ist-fuer-hape-kerkeling-nicht-sicher-6a67558e8405ab7d4b7164f8",
+     "publishedAt": "2026-07-28T07:30:00Z",
+     "language": "German",
+     "country": "DE",
+     "category": "CULTURE",
+     "source": "GDELT"
+    },
+    {
+     "rank": 6,
+     "title": "Star - Moderatorin Guthrie spricht zu Entführern ihrer Mutter : „ Ich flehe euch an ! | Unterhaltung",
+     "outlet": "bild.de",
+     "url": "https://www.bild.de/unterhaltung/stars-und-leute/star-moderatorin-guthrie-spricht-zu-entfuehrern-ihrer-mutter-ich-flehe-euch-an-6a682493a17ee9f1dfd80f99",
+     "publishedAt": "2026-07-28T07:30:00Z",
+     "language": "German",
+     "country": "DE",
+     "category": "ENTERTAINMENT",
+     "source": "GDELT"
+    },
+    {
+     "rank": 7,
+     "title": "CSD - Anschlag in Berlin : Dobrindt fordert Präventivhaft und Fußfesseln",
+     "outlet": "t-online.de",
+     "url": "https://www.t-online.de/nachrichten/deutschland/innenpolitik/id_101362954/csd-anschlag-in-berlin-dobrindt-fordert-praeventivhaft-und-fussfesseln.html",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "German",
+     "country": "DE",
+     "category": "WORLD",
+     "source": "GDELT"
+    },
+    {
+     "rank": 8,
+     "title": "Hitzefalle Wohnmobil : Diese Tricks helfen Campern bei hohen Temperaturen",
+     "outlet": "t-online.de",
+     "url": "https://www.t-online.de/mobilitaet/wohnmobile/id_101269190/hitzefalle-wohnmobil-diese-tricks-helfen-campern-bei-hohen-temperaturen.html",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "German",
+     "country": "DE",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 9,
+     "title": "Iran - Krieg aktuell : Trumps Rückhalt für Iran - Krieg schwindet in den united states",
+     "outlet": "t-online.de",
+     "url": "https://www.t-online.de/nachrichten/ausland/krisen/id_101351188/iran-krieg-aktuell-trumps-rueckhalt-fuer-iran-krieg-schwindet-in-den-usa.html",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "German",
+     "country": "DE",
+     "category": "WORLD",
+     "source": "GDELT"
+    }
+   ]
+  },
+  {
+   "code": "MX",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "Vozinha enfrenta inesperado problema en Colo Colo : no podría usar su apodo en la camiseta",
+     "outlet": "sdpnoticias.com",
+     "url": "https://www.sdpnoticias.com/deportes/vozinha-enfrenta-inesperado-problema-en-colo-colo-no-podria-usar-su-apodo-en-la-camiseta/",
+     "publishedAt": "2026-07-28T02:45:00Z",
+     "language": "Spanish",
+     "country": "MX",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 2,
+     "title": "¿ Quién fue Samara Colina Borja ? Activista feminista de Guanajuato",
+     "outlet": "sdpnoticias.com",
+     "url": "https://www.sdpnoticias.com/estados/quien-fue-samara-colina-borja-activista-feminista-de-guanajuato/",
+     "publishedAt": "2026-07-28T02:45:00Z",
+     "language": "Spanish",
+     "country": "MX",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 3,
+     "title": "Reportan nuevo conato de incendio en la Refinería Olmeca de Dos Bocas",
+     "outlet": "sdpnoticias.com",
+     "url": "https://www.sdpnoticias.com/estados/reportan-nuevo-conato-de-incendio-en-la-refineria-olmeca-de-dos-bocas/",
+     "publishedAt": "2026-07-28T02:45:00Z",
+     "language": "Spanish",
+     "country": "MX",
+     "category": "WORLD",
+     "source": "GDELT"
+    }
+   ]
+  },
+  {
+   "code": "AR",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "Netanyahu se reúne con Trump en la Casa Blanca para abordar la guerra con Irán , Gaza y el acuerdo de seguridad con Líbano",
+     "outlet": "infobae.com",
+     "url": "https://www.infobae.com/america/mundo/2026/07/28/netanyahu-se-reune-con-trump-en-la-casa-blanca-para-abordar-la-guerra-con-iran-gaza-y-el-acuerdo-de-seguridad-con-libano/",
+     "publishedAt": "2026-07-28T07:30:00Z",
+     "language": "Spanish",
+     "country": "AR",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 2,
+     "title": "Zelensky se reúne con Trump en Washington para reforzar el apoyo de Estados Unidos frente a Rusia en plena escalada militar",
+     "outlet": "infobae.com",
+     "url": "https://www.infobae.com/america/mundo/2026/07/28/zelensky-se-reune-con-trump-en-washington-para-reforzar-el-apoyo-de-estados-unidos-frente-a-rusia-en-plena-escalada-militar/",
+     "publishedAt": "2026-07-28T07:30:00Z",
+     "language": "Spanish",
+     "country": "AR",
+     "category": "WORLD",
+     "source": "GDELT"
+    },
+    {
+     "rank": 3,
+     "title": "Un terremoto de magnitud 7 , 1 golpeó el suroeste de Japón : las autoridades levantaron la alerta de tsunami",
+     "outlet": "infobae.com",
+     "url": "https://www.infobae.com/america/mundo/2026/07/28/un-terremoto-de-magnitud-71-sacudio-el-suroeste-de-japon-las-autoridades-emitieron-una-alerta-de-tsunami/",
+     "publishedAt": "2026-07-28T09:45:00Z",
+     "language": "Spanish",
+     "country": "AR",
+     "category": "WEATHER",
+     "source": "GDELT"
+    }
+   ]
+  },
+  {
+   "code": "TR",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "Aksarayda şiddet uygulandığı iddia edilen otizmli çocuk yoğun bakıma alındı",
+     "outlet": "ensonhaber.com",
+     "url": "https://www.ensonhaber.com/aksarayda-siddet-uygulandigi-iddia-edilen-otizmli-cocuk-yogun-bakima-alindi-h1553065",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "Turkish",
+     "country": "TR",
+     "category": "WORLD",
+     "source": "GDELT"
+    },
+    {
+     "rank": 2,
+     "title": "Trabzonspor , Rene Mitongoyla anlaştı",
+     "outlet": "ensonhaber.com",
+     "url": "https://www.ensonhaber.com/trabzonspor-rene-mitongoyla-anlasti-h1553063",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "Turkish",
+     "country": "TR",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 3,
+     "title": "CHP İstanbul İl Başkanlığı  nın X hesabı , Yeni Parti tarafından çalındı",
+     "outlet": "ensonhaber.com",
+     "url": "https://www.ensonhaber.com/chp-istanbul-il-baskanliginin-x-hesabi-yeni-parti-tarafindan-calindi-h1553084",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "Turkish",
+     "country": "TR",
+     "category": "BUSINESS",
      "source": "GDELT"
     }
    ]
@@ -183,6 +390,121 @@
      "publishedAt": "2026-07-28T09:15:00Z",
      "language": "Arabic",
      "country": "EG",
+     "category": "OTHER",
+     "source": "GDELT"
+    }
+   ]
+  },
+  {
+   "code": "TH",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "HENRY First Dates จีบซ้ำซ้ำ เฮนรี่จำไม่ได้ เรื่องย่อหนังไทยรีเมก 50 First Dates",
+     "outlet": "movie.kapook.com",
+     "url": "https://movie.kapook.com/view302688.html",
+     "publishedAt": "2026-07-28T09:30:00Z",
+     "language": "Thai",
+     "country": "TH",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 2,
+     "title": "เก็บถาด KFC ดราม่าสนั่น เจอด่าแรง สันดาน กินเหมือนหมูหมา ควรเก็บเองไหม ?",
+     "outlet": "hilight.kapook.com",
+     "url": "https://hilight.kapook.com/view/254319",
+     "publishedAt": "2026-07-28T05:45:00Z",
+     "language": "Thai",
+     "country": "TH",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 3,
+     "title": "ดูดวงรายวัน 28 กรกฎาคม 2569",
+     "outlet": "horoscope.kapook.com",
+     "url": "https://horoscope.kapook.com/view302762.html",
+     "publishedAt": "2026-07-28T02:15:00Z",
+     "language": "Thai",
+     "country": "TH",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 4,
+     "title": "วิธีใช้เครื่องฟอกอากาศให้ได้ผล ลด PM2 . 5 ไม่ใช่แค่เปิดทิ้งไว้",
+     "outlet": "home.kapook.com",
+     "url": "https://home.kapook.com/view302711.html",
+     "publishedAt": "2026-07-28T02:15:00Z",
+     "language": "Thai",
+     "country": "TH",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 5,
+     "title": "eSIM คืออะไร ? วิธีใช้ eSIM สำหรับเที่ยวต่างประเทศ พร้อมคู่มือมือใหม่ก่อนเดินทาง",
+     "outlet": "travel.kapook.com",
+     "url": "https://travel.kapook.com/view302745.html",
+     "publishedAt": "2026-07-28T02:15:00Z",
+     "language": "Thai",
+     "country": "TH",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 6,
+     "title": "อาหารกลางวันเด็ก แม่ระบายค่าเทอม 2 หมื่น ค่าอาหารแยก ทำไมได้ของแบบนี้",
+     "outlet": "hilight.kapook.com",
+     "url": "https://hilight.kapook.com/view/254320",
+     "publishedAt": "2026-07-28T09:30:00Z",
+     "language": "Thai",
+     "country": "TH",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 7,
+     "title": "น้องโพธิ์ ลูกดารา ป่วยเข้าโรงพยาบาล เป็นเคสหายาก 5 %",
+     "outlet": "women.kapook.com",
+     "url": "https://women.kapook.com/view302767.html",
+     "publishedAt": "2026-07-28T09:30:00Z",
+     "language": "Thai",
+     "country": "TH",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 8,
+     "title": "ไวรัล อดีตผัวเมีย ร้องไห้ กอดกันหย่าหน้าอำเภอ พบ ฝ่ายชายขับรถกลับบ้าน ร้องไห้ไปด้วย",
+     "outlet": "hilight.kapook.com",
+     "url": "https://hilight.kapook.com/view/214694",
+     "publishedAt": "2026-07-28T09:30:00Z",
+     "language": "Thai",
+     "country": "TH",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 9,
+     "title": "นก อุษณีย์ เซอร์ไพรส์คุกเข่าขอ ม่วย นิธิตรา แต่งงาน กลางเทศกาลดอกไม้ไฟญี่ปุ่น",
+     "outlet": "women.kapook.com",
+     "url": "https://women.kapook.com/view302766.html",
+     "publishedAt": "2026-07-28T09:30:00Z",
+     "language": "Thai",
+     "country": "TH",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 10,
+     "title": "สุนารี ราชสีมา เข้าโรงพยาบาล ปวดท้องอย่างหนัก ก่อนส่องกล้องเจอสิ่งผิดปกติ",
+     "outlet": "women.kapook.com",
+     "url": "https://women.kapook.com/view302764.html",
+     "publishedAt": "2026-07-28T05:45:00Z",
+     "language": "Thai",
+     "country": "TH",
      "category": "OTHER",
      "source": "GDELT"
     }
