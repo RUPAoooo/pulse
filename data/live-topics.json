@@ -1,9 +1,9 @@
 {
- "updatedAt": "2026-07-27T23:32:09.495Z",
+ "updatedAt": "2026-07-28T00:38:05.288Z",
  "source": "live",
- "fingerprint": "e19ba6c4b61573b3e1b850a2ba0aa04f191f3517",
+ "fingerprint": "76538be2302f9ee0d1b2667a30735c3efec890fd",
  "wikiPerCountry": true,
- "newsSource": null,
+ "newsSource": "GDELT DOC 2.0 API",
  "wikiSource": "Wikimedia Pageviews API",
  "countries": [
   {
@@ -37,7 +37,7 @@
      ],
      "scope": "GLOBAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "US",
      "relatedCountries": [
       "US",
@@ -72,7 +72,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "AU",
      "relatedCountries": [
       "AU"
@@ -104,7 +104,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "AU",
      "relatedCountries": [
       "AU"
@@ -136,7 +136,7 @@
      ],
      "scope": "GLOBAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "AU",
      "relatedCountries": [
       "US",
@@ -170,7 +170,7 @@
      ],
      "scope": "GLOBAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "AU",
      "relatedCountries": [
       "IN",
@@ -203,7 +203,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "AU",
      "relatedCountries": [
       "AU"
@@ -235,7 +235,7 @@
      ],
      "scope": "GLOBAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "US",
      "relatedCountries": [
       "US",
@@ -269,7 +269,7 @@
      ],
      "scope": "GLOBAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "US",
      "relatedCountries": [
       "US",
@@ -302,7 +302,7 @@
      ],
      "scope": "GLOBAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "GB",
      "relatedCountries": [
       "GB",
@@ -335,7 +335,7 @@
      ],
      "scope": "GLOBAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "GB",
      "relatedCountries": [
       "GB",
@@ -348,11 +348,42 @@
   },
   {
    "code": "DE",
-   "activityScore": 89,
+   "activityScore": 99,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-26",
    "topics": [
+    {
+     "id": "n-2732322280",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Rapper Prinz Pi beendet seine Karriere : » In den Steaming - Kosmos passt meine Musik einfach nicht «",
+      "en": "Rapper Prinz Pi beendet seine Karriere : » In den Steaming - Kosmos passt meine Musik einfach nicht «"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "TECH",
+     "score": 100,
+     "url": "https://www.spiegel.de/kultur/rapper-prinz-pi-beendet-seine-karriere-in-den-steaming-kosmos-passt-meine-musik-einfach-nicht-a-f7373c34-dfb8-4701-94b5-f1972bd8121d",
+     "outlet": "spiegel.de",
+     "publishedAt": "2026-07-27T14:00:00Z",
+     "language": "German",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "DE",
+     "relatedCountries": [
+      "DE"
+     ],
+     "startedAt": "2026-07-27T14:00:00Z",
+     "durationHours": null
+    },
     {
      "id": "w-e9e3fa4c98",
      "kind": "WIKI",
@@ -377,12 +408,198 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "DE",
      "relatedCountries": [
       "DE"
      ],
      "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "n-594135ac2a",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Porsche baut weitere 5000 Stellen ab",
+      "en": "Porsche baut weitere 5000 Stellen ab"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 96,
+     "url": "https://www.spiegel.de/wirtschaft/unternehmen/porsche-baut-weitere-5000-stellen-ab-a-c7217215-0e12-4428-996f-cd2731779394",
+     "outlet": "spiegel.de",
+     "publishedAt": "2026-07-27T14:00:00Z",
+     "language": "German",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "DE",
+     "relatedCountries": [
+      "DE"
+     ],
+     "startedAt": "2026-07-27T14:00:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-7534a14630",
+     "kind": "NEWS",
+     "title": {
+      "ja": "2025 wurden deutlich weniger Minderjährige in Obhut genommen als im Vorjahr",
+      "en": "2025 wurden deutlich weniger Minderjährige in Obhut genommen als im Vorjahr"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 92,
+     "url": "https://www.spiegel.de/panorama/justiz/2025-wurden-deutlich-weniger-minderjaehrige-in-obhut-genommen-als-im-vorjahr-a-b7057f75-b858-4f0c-9f79-a44c53a04e0f",
+     "outlet": "spiegel.de",
+     "publishedAt": "2026-07-27T10:15:00Z",
+     "language": "German",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "DE",
+     "relatedCountries": [
+      "DE"
+     ],
+     "startedAt": "2026-07-27T10:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-9a917ee27f",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Entgleisung : Trump vergleicht CNN - Star mit Transsexueller",
+      "en": "Entgleisung : Trump vergleicht CNN - Star mit Transsexueller"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "ENTERTAINMENT",
+     "score": 88,
+     "url": "https://www.bild.de/politik/ausland-und-internationales/entgleisung-trump-vergleicht-cnn-star-mit-transsexueller-6a669558fe2765826e0fe5ab",
+     "outlet": "bild.de",
+     "publishedAt": "2026-07-27T01:00:00Z",
+     "language": "German",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "DE",
+     "relatedCountries": [
+      "DE"
+     ],
+     "startedAt": "2026-07-27T01:00:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-b3f45bc0aa",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Putin will weitere 30 . 000 Nordkoreaner im Ukraine - Krieg verheizen",
+      "en": "Putin will weitere 30 . 000 Nordkoreaner im Ukraine - Krieg verheizen"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WEATHER",
+     "score": 84,
+     "url": "https://www.bild.de/politik/ausland-und-internationales/putin-will-weitere-30-000-nordkoreaner-im-ukraine-krieg-verheizen-6a668472fe2765826e0fe57f",
+     "outlet": "bild.de",
+     "publishedAt": "2026-07-27T01:00:00Z",
+     "language": "German",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "DE",
+     "relatedCountries": [
+      "DE"
+     ],
+     "startedAt": "2026-07-27T01:00:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-5eea564910",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Hoppermann soll neue CDU - Generalsekretärin werden",
+      "en": "Hoppermann soll neue CDU - Generalsekretärin werden"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 80,
+     "url": "https://www.bild.de/politik/hoppermann-soll-neue-cdu-generalsekretaerin-werden-6a671ad6dc2b0bab191a7cbd",
+     "outlet": "bild.de",
+     "publishedAt": "2026-07-27T10:15:00Z",
+     "language": "German",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "DE",
+     "relatedCountries": [
+      "DE"
+     ],
+     "startedAt": "2026-07-27T10:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-0fa1379c2f",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Ratten im WC : Können Schädlinge so in die Wohnung gelangen ?",
+      "en": "Ratten im WC : Können Schädlinge so in die Wohnung gelangen ?"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 76,
+     "url": "https://www.t-online.de/heim-garten/garten/tiere/schaedlinge/id_100590164/ratten-im-wc-koennen-schaedlinge-so-in-die-wohnung-gelangen-.html",
+     "outlet": "t-online.de",
+     "publishedAt": "2026-07-27T07:00:00Z",
+     "language": "German",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "DE",
+     "relatedCountries": [
+      "DE"
+     ],
+     "startedAt": "2026-07-27T07:00:00Z",
      "durationHours": null
     },
     {
@@ -409,12 +626,74 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "DE",
      "relatedCountries": [
       "DE"
      ],
      "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "n-e6c201ac86",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Krieg in Nahost | Huthi - Angriffe drosseln Schiffsverkehr im Roten Meer",
+      "en": "Krieg in Nahost | Huthi - Angriffe drosseln Schiffsverkehr im Roten Meer"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 72,
+     "url": "https://www.t-online.de/nachrichten/ausland/krisen/id_101351188/krieg-in-nahost-huthi-angriffe-drosseln-schiffsverkehr-im-roten-meer.html",
+     "outlet": "t-online.de",
+     "publishedAt": "2026-07-27T07:00:00Z",
+     "language": "German",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "DE",
+     "relatedCountries": [
+      "DE"
+     ],
+     "startedAt": "2026-07-27T07:00:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-217699a572",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Toast Hawaii : Warum der Kult - Toast nichts mit Hawaii zu tun hat",
+      "en": "Toast Hawaii : Warum der Kult - Toast nichts mit Hawaii zu tun hat"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "TECH",
+     "score": 68,
+     "url": "https://www.t-online.de/leben/essen-und-trinken/essen/id_101353620/toast-hawaii-warum-der-kult-toast-nichts-mit-hawaii-zu-tun-hat.html",
+     "outlet": "t-online.de",
+     "publishedAt": "2026-07-27T07:00:00Z",
+     "language": "German",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "DE",
+     "relatedCountries": [
+      "DE"
+     ],
+     "startedAt": "2026-07-27T07:00:00Z",
      "durationHours": null
     },
     {
@@ -441,7 +720,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "DE",
      "relatedCountries": [
       "DE"
@@ -473,7 +752,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "DE",
      "relatedCountries": [
       "DE"
@@ -505,7 +784,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "DE",
      "relatedCountries": [
       "DE"
@@ -537,7 +816,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "DE",
      "relatedCountries": [
       "DE"
@@ -569,7 +848,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "DE",
      "relatedCountries": [
       "DE"
@@ -601,7 +880,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "DE",
      "relatedCountries": [
       "DE"
@@ -633,7 +912,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "DE",
      "relatedCountries": [
       "DE"
@@ -665,7 +944,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "DE",
      "relatedCountries": [
       "DE"
@@ -706,7 +985,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "FR",
      "relatedCountries": [
       "FR"
@@ -738,7 +1017,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "FR",
      "relatedCountries": [
       "FR"
@@ -770,7 +1049,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "FR",
      "relatedCountries": [
       "FR"
@@ -802,7 +1081,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "FR",
      "relatedCountries": [
       "FR"
@@ -834,7 +1113,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "FR",
      "relatedCountries": [
       "FR"
@@ -866,7 +1145,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "FR",
      "relatedCountries": [
       "FR"
@@ -898,7 +1177,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "FR",
      "relatedCountries": [
       "FR"
@@ -930,7 +1209,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "FR",
      "relatedCountries": [
       "FR"
@@ -962,7 +1241,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "FR",
      "relatedCountries": [
       "FR"
@@ -994,7 +1273,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "FR",
      "relatedCountries": [
       "FR"
@@ -1035,7 +1314,7 @@
      ],
      "scope": "GLOBAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "US",
      "relatedCountries": [
       "US",
@@ -1070,7 +1349,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "GB",
      "relatedCountries": [
       "GB"
@@ -1102,7 +1381,7 @@
      ],
      "scope": "GLOBAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "US",
      "relatedCountries": [
       "US",
@@ -1136,7 +1415,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "GB",
      "relatedCountries": [
       "GB"
@@ -1168,7 +1447,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "GB",
      "relatedCountries": [
       "GB"
@@ -1200,7 +1479,7 @@
      ],
      "scope": "GLOBAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "AU",
      "relatedCountries": [
       "US",
@@ -1234,7 +1513,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "GB",
      "relatedCountries": [
       "GB"
@@ -1266,7 +1545,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "GB",
      "relatedCountries": [
       "GB"
@@ -1298,7 +1577,7 @@
      ],
      "scope": "GLOBAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "GB",
      "relatedCountries": [
       "GB",
@@ -1331,7 +1610,7 @@
      ],
      "scope": "GLOBAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "GB",
      "relatedCountries": [
       "GB",
@@ -1373,7 +1652,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "IN",
      "relatedCountries": [
       "IN"
@@ -1405,7 +1684,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "IN",
      "relatedCountries": [
       "IN"
@@ -1437,7 +1716,7 @@
      ],
      "scope": "GLOBAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "US",
      "relatedCountries": [
       "US",
@@ -1472,7 +1751,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "IN",
      "relatedCountries": [
       "IN"
@@ -1504,7 +1783,7 @@
      ],
      "scope": "GLOBAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "AU",
      "relatedCountries": [
       "IN",
@@ -1537,7 +1816,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "IN",
      "relatedCountries": [
       "IN"
@@ -1569,7 +1848,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "IN",
      "relatedCountries": [
       "IN"
@@ -1601,7 +1880,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "IN",
      "relatedCountries": [
       "IN"
@@ -1633,7 +1912,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "IN",
      "relatedCountries": [
       "IN"
@@ -1665,7 +1944,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "IN",
      "relatedCountries": [
       "IN"
@@ -1706,7 +1985,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "JP",
      "relatedCountries": [
       "JP"
@@ -1738,7 +2017,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "JP",
      "relatedCountries": [
       "JP"
@@ -1770,7 +2049,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "JP",
      "relatedCountries": [
       "JP"
@@ -1802,7 +2081,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "JP",
      "relatedCountries": [
       "JP"
@@ -1834,7 +2113,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "JP",
      "relatedCountries": [
       "JP"
@@ -1866,7 +2145,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "JP",
      "relatedCountries": [
       "JP"
@@ -1898,7 +2177,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "JP",
      "relatedCountries": [
       "JP"
@@ -1930,7 +2209,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "JP",
      "relatedCountries": [
       "JP"
@@ -1962,7 +2241,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "JP",
      "relatedCountries": [
       "JP"
@@ -1994,7 +2273,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "JP",
      "relatedCountries": [
       "JP"
@@ -2035,7 +2314,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "KR",
      "relatedCountries": [
       "KR"
@@ -2067,7 +2346,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "KR",
      "relatedCountries": [
       "KR"
@@ -2099,7 +2378,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "KR",
      "relatedCountries": [
       "KR"
@@ -2131,7 +2410,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "KR",
      "relatedCountries": [
       "KR"
@@ -2163,7 +2442,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "KR",
      "relatedCountries": [
       "KR"
@@ -2195,7 +2474,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "KR",
      "relatedCountries": [
       "KR"
@@ -2227,7 +2506,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "KR",
      "relatedCountries": [
       "KR"
@@ -2259,7 +2538,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "KR",
      "relatedCountries": [
       "KR"
@@ -2291,7 +2570,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "KR",
      "relatedCountries": [
       "KR"
@@ -2323,7 +2602,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "KR",
      "relatedCountries": [
       "KR"
@@ -2364,7 +2643,7 @@
      ],
      "scope": "GLOBAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "US",
      "relatedCountries": [
       "US",
@@ -2399,7 +2678,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "US",
      "relatedCountries": [
       "US"
@@ -2431,7 +2710,7 @@
      ],
      "scope": "GLOBAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "US",
      "relatedCountries": [
       "US",
@@ -2465,7 +2744,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "US",
      "relatedCountries": [
       "US"
@@ -2497,7 +2776,7 @@
      ],
      "scope": "GLOBAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "AU",
      "relatedCountries": [
       "US",
@@ -2531,7 +2810,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "US",
      "relatedCountries": [
       "US"
@@ -2563,7 +2842,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "US",
      "relatedCountries": [
       "US"
@@ -2595,7 +2874,7 @@
      ],
      "scope": "GLOBAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "US",
      "relatedCountries": [
       "US",
@@ -2628,7 +2907,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "US",
      "relatedCountries": [
       "US"
@@ -2660,7 +2939,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "US",
      "relatedCountries": [
       "US"

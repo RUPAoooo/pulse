@@ -1,0 +1,110 @@
+{
+ "fetchedAt": "2026-07-28T00:38:05.240Z",
+ "source": "GDELT DOC 2.0 API",
+ "countries": [
+  {
+   "code": "DE",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "Rapper Prinz Pi beendet seine Karriere : » In den Steaming - Kosmos passt meine Musik einfach nicht «",
+     "outlet": "spiegel.de",
+     "url": "https://www.spiegel.de/kultur/rapper-prinz-pi-beendet-seine-karriere-in-den-steaming-kosmos-passt-meine-musik-einfach-nicht-a-f7373c34-dfb8-4701-94b5-f1972bd8121d",
+     "publishedAt": "2026-07-27T14:00:00Z",
+     "language": "German",
+     "country": "DE",
+     "category": "TECH",
+     "source": "GDELT"
+    },
+    {
+     "rank": 2,
+     "title": "Porsche baut weitere 5000 Stellen ab",
+     "outlet": "spiegel.de",
+     "url": "https://www.spiegel.de/wirtschaft/unternehmen/porsche-baut-weitere-5000-stellen-ab-a-c7217215-0e12-4428-996f-cd2731779394",
+     "publishedAt": "2026-07-27T14:00:00Z",
+     "language": "German",
+     "country": "DE",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 3,
+     "title": "2025 wurden deutlich weniger Minderjährige in Obhut genommen als im Vorjahr",
+     "outlet": "spiegel.de",
+     "url": "https://www.spiegel.de/panorama/justiz/2025-wurden-deutlich-weniger-minderjaehrige-in-obhut-genommen-als-im-vorjahr-a-b7057f75-b858-4f0c-9f79-a44c53a04e0f",
+     "publishedAt": "2026-07-27T10:15:00Z",
+     "language": "German",
+     "country": "DE",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 4,
+     "title": "Entgleisung : Trump vergleicht CNN - Star mit Transsexueller",
+     "outlet": "bild.de",
+     "url": "https://www.bild.de/politik/ausland-und-internationales/entgleisung-trump-vergleicht-cnn-star-mit-transsexueller-6a669558fe2765826e0fe5ab",
+     "publishedAt": "2026-07-27T01:00:00Z",
+     "language": "German",
+     "country": "DE",
+     "category": "ENTERTAINMENT",
+     "source": "GDELT"
+    },
+    {
+     "rank": 5,
+     "title": "Putin will weitere 30 . 000 Nordkoreaner im Ukraine - Krieg verheizen",
+     "outlet": "bild.de",
+     "url": "https://www.bild.de/politik/ausland-und-internationales/putin-will-weitere-30-000-nordkoreaner-im-ukraine-krieg-verheizen-6a668472fe2765826e0fe57f",
+     "publishedAt": "2026-07-27T01:00:00Z",
+     "language": "German",
+     "country": "DE",
+     "category": "WEATHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 6,
+     "title": "Hoppermann soll neue CDU - Generalsekretärin werden",
+     "outlet": "bild.de",
+     "url": "https://www.bild.de/politik/hoppermann-soll-neue-cdu-generalsekretaerin-werden-6a671ad6dc2b0bab191a7cbd",
+     "publishedAt": "2026-07-27T10:15:00Z",
+     "language": "German",
+     "country": "DE",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 7,
+     "title": "Ratten im WC : Können Schädlinge so in die Wohnung gelangen ?",
+     "outlet": "t-online.de",
+     "url": "https://www.t-online.de/heim-garten/garten/tiere/schaedlinge/id_100590164/ratten-im-wc-koennen-schaedlinge-so-in-die-wohnung-gelangen-.html",
+     "publishedAt": "2026-07-27T07:00:00Z",
+     "language": "German",
+     "country": "DE",
+     "category": "WORLD",
+     "source": "GDELT"
+    },
+    {
+     "rank": 8,
+     "title": "Krieg in Nahost | Huthi - Angriffe drosseln Schiffsverkehr im Roten Meer",
+     "outlet": "t-online.de",
+     "url": "https://www.t-online.de/nachrichten/ausland/krisen/id_101351188/krieg-in-nahost-huthi-angriffe-drosseln-schiffsverkehr-im-roten-meer.html",
+     "publishedAt": "2026-07-27T07:00:00Z",
+     "language": "German",
+     "country": "DE",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 9,
+     "title": "Toast Hawaii : Warum der Kult - Toast nichts mit Hawaii zu tun hat",
+     "outlet": "t-online.de",
+     "url": "https://www.t-online.de/leben/essen-und-trinken/essen/id_101353620/toast-hawaii-warum-der-kult-toast-nichts-mit-hawaii-zu-tun-hat.html",
+     "publishedAt": "2026-07-27T07:00:00Z",
+     "language": "German",
+     "country": "DE",
+     "category": "TECH",
+     "source": "GDELT"
+    }
+   ]
+  }
+ ]
+}
