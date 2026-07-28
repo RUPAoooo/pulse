@@ -89,55 +89,26 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
     ['100%', 'var(--atmo)', '0'],
   ]);
 
-  /* A slow, low-frequency noise field, blurred until it reads as mist rather
-     than as noise. Rendered once — it never animates. */
-  const mist = el('filter', {
-    id: 'wp-mist', x: '-8%', y: '-14%', width: '116%', height: '128%',
-    'color-interpolation-filters': 'linearRGB',
-  });
-  mist.append(el('feTurbulence', {
-    type: 'fractalNoise', baseFrequency: '0.0075 0.014', numOctaves: '3',
-    seed: '11', result: 'n',
-  }));
-  mist.append(el('feColorMatrix', {
-    in: 'n', type: 'matrix', result: 'm',
-    values: [
-      '0 0 0 0 0.18',
-      '0 0 0 0 0.42',
-      '0 0 0 0 0.85',
-      '1.45 0.9 0 0 -0.87',
-    ].join(' '),
-  }));
-  mist.append(el('feGaussianBlur', { in: 'm', stdDeviation: '11' }));
+  /* Three large, soft light fields stand in for dawn on the water. They are
+     plain gradients on purpose: anything with noise in it reads as dirt on the
+     screen rather than as light. */
+  const dawn = stops(el('radialGradient', { id: 'wp-dawn', cx: '50%', cy: '50%', r: '50%' }), [
+    ['0%', 'var(--dawn)', '0.20'],
+    ['42%', 'var(--dawn)', '0.07'],
+    ['100%', 'var(--dawn)', '0'],
+  ]);
 
-  const swirl = el('filter', {
-    id: 'wp-swirl', x: '-10%', y: '-16%', width: '120%', height: '132%',
-    'color-interpolation-filters': 'linearRGB',
-  });
-  swirl.append(el('feTurbulence', {
-    type: 'fractalNoise', baseFrequency: '0.004 0.009', numOctaves: '2',
-    seed: '4', result: 'n',
-  }));
-  swirl.append(el('feColorMatrix', {
-    in: 'n', type: 'matrix', result: 'm',
-    values: [
-      '0 0 0 0 0.95',
-      '0 0 0 0 0.55',
-      '0 0 0 0 0.28',
-      '1.15 0.75 0 0 -1.02',
-    ].join(' '),
-  }));
-  swirl.append(el('feGaussianBlur', { in: 'm', stdDeviation: '16' }));
+  const violet = stops(el('radialGradient', { id: 'wp-violet', cx: '50%', cy: '50%', r: '50%' }), [
+    ['0%', 'var(--violet)', '0.14'],
+    ['48%', 'var(--violet)', '0.05'],
+    ['100%', 'var(--violet)', '0'],
+  ]);
 
-  /* Coastline relief: the same path drawn twice, once pushed down as shadow. */
-  const relief = el('filter', {
-    id: 'wp-relief', x: '-4%', y: '-8%', width: '108%', height: '116%',
-    'color-interpolation-filters': 'sRGB',
-  });
-  relief.append(el('feDropShadow', {
-    dx: '0', dy: '0.9', stdDeviation: '1.1',
-    'flood-color': '#020610', 'flood-opacity': '0.85',
-  }));
+  const bloom = stops(el('radialGradient', { id: 'wp-bloom', cx: '50%', cy: '50%', r: '50%' }), [
+    ['0%', 'var(--bloom)', '0.20'],
+    ['46%', 'var(--bloom)', '0.07'],
+    ['100%', 'var(--bloom)', '0'],
+  ]);
 
   const soften = el('filter', {
     id: 'wp-soften', x: '-14%', y: '-34%', width: '128%', height: '168%',
@@ -149,19 +120,20 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
     id: 'wp-city', x: '-60%', y: '-60%', width: '220%', height: '220%',
     'color-interpolation-filters': 'sRGB',
   });
-  cityBlur.append(el('feGaussianBlur', { stdDeviation: '2.2' }));
+  cityBlur.append(el('feGaussianBlur', { stdDeviation: '2.6' }));
 
-  defs.append(ocean, halo, daylight, warm, nightFill, vignette, atmo, mist, swirl, relief, soften, cityBlur);
+  defs.append(ocean, halo, daylight, warm, nightFill, vignette, atmo, dawn, violet, bloom, soften, cityBlur);
   svg.append(defs);
 
   /* The sea doubles as the hit-test backdrop for the whole canvas. */
   svg.append(el('rect', { class: 'map-sea', x: 0, y: 0, width: W, height: H, fill: 'url(#wp-ocean)' }));
-  svg.append(el('rect', {
-    class: 'map-mist', x: -40, y: -40, width: W + 80, height: H + 80, filter: 'url(#wp-mist)',
-  }));
-  svg.append(el('rect', {
-    class: 'map-swirl', x: -40, y: -40, width: W + 80, height: H + 80, filter: 'url(#wp-swirl)',
-  }));
+  const glowLayer = el('g', { class: 'layer-glow' });
+  glowLayer.append(
+    el('ellipse', { class: 'sea-glow', cx: W * 0.62, cy: H * 0.44, rx: W * 0.56, ry: H * 0.95, fill: 'url(#wp-bloom)' }),
+    el('ellipse', { class: 'sea-glow', cx: W * 0.33, cy: H * 0.52, rx: W * 0.36, ry: H * 0.78, fill: 'url(#wp-violet)' }),
+    el('ellipse', { class: 'sea-glow', cx: W * 0.14, cy: H * 0.42, rx: W * 0.32, ry: H * 0.66, fill: 'url(#wp-dawn)' }),
+  );
+  svg.append(glowLayer);
   svg.append(el('rect', { class: 'map-atmo', x: 0, y: 0, width: W, height: H, fill: 'url(#wp-atmo)' }));
 
   const dayLayer = el('g', { class: 'layer-day' });
@@ -201,11 +173,7 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
   /* Coastline and internal borders are separate strokes so the coast can read
      brighter than a border without the two fighting each other. */
   if (geo.borders) lineLayer.append(el('path', { class: 'borderline', d: geo.borders }));
-  if (geo.coast) {
-    lineLayer.append(el('path', { class: 'coast-shadow', d: geo.coast }));
-    lineLayer.append(el('path', { class: 'coastline', d: geo.coast }));
-    lineLayer.append(el('path', { class: 'coast-light', d: geo.coast }));
-  }
+  if (geo.coast) lineLayer.append(el('path', { class: 'coastline', d: geo.coast }));
 
   /* A country too small for the 3-degree source grid has no polygon — fall
      back to the centroid recorded in data/countries.json so it still glows. */
@@ -291,10 +259,10 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
   const cities = CITIES.map(([lon, lat, weight], i) => {
     const { x, y } = project(lon, lat);
     const bloom = el('circle', {
-      class: 'city-bloom', cx: x, cy: y, r: (2.6 + weight * 3.4).toFixed(2),
+      class: 'city-bloom', cx: x, cy: y, r: (3.4 + weight * 5.2).toFixed(2),
     });
     const dot = el('circle', {
-      class: 'city', cx: x, cy: y, r: (0.75 + weight * 0.95).toFixed(2),
+      class: 'city', cx: x, cy: y, r: (1.15 + weight * 1.25).toFixed(2),
     });
     for (const node of [bloom, dot]) {
       node.style.setProperty('--w', weight.toFixed(2));

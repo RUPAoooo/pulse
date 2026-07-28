@@ -37,20 +37,10 @@
 
 .map-sea { }                       /* painted with the ocean gradient in map.js */
 
-/* Two static noise fields blurred into haze: a cool one across the whole sea
-   and a warm one that only reads on the lit side. Rendered once, never
-   animated, and both are switched off on small screens. */
-.map-mist {
-  pointer-events: none;
-  opacity: 0.45;
-  mix-blend-mode: screen;
-}
-
-.map-swirl {
-  pointer-events: none;
-  opacity: 0.3;
-  mix-blend-mode: screen;
-}
+/* Dawn on the water: three large soft fields, no texture. Anything with grain
+   in it reads as a dirty screen rather than as light. */
+.layer-glow { pointer-events: none; mix-blend-mode: screen; }
+.sea-glow { pointer-events: none; }
 
 .map-atmo { pointer-events: none; }
 .map-vignette { pointer-events: none; }
@@ -90,37 +80,22 @@
 
 .layer-line { pointer-events: none; }
 
-/* The coast is drawn three times — a dropped shadow, the line itself and a
-   thin highlight lifted a fraction upwards — so the land reads as sitting a
-   little above the water. */
-.coast-shadow {
-  fill: none;
-  stroke: rgba(2, 6, 16, 0.9);
-  stroke-width: 1.9;
-  stroke-linejoin: round;
-  stroke-linecap: round;
-  vector-effect: non-scaling-stroke;
-  transform: translateY(0.7px);
+/* The land casts its shadow outwards only — a drop-shadow on the filled
+   shapes falls behind them, so nothing darkens the interior and the continents
+   sit slightly above the water instead of being pressed into it. */
+.layer-land {
+  filter:
+    drop-shadow(0 1.4px 2.2px rgba(2, 6, 16, 0.85))
+    drop-shadow(0 0 5px rgba(96, 152, 224, 0.22));
 }
 
 .coastline {
   fill: none;
-  stroke: rgba(168, 204, 250, 0.46);
-  stroke-width: 0.6;
+  stroke: rgba(186, 216, 255, 0.5);
+  stroke-width: 0.55;
   stroke-linejoin: round;
   stroke-linecap: round;
   vector-effect: non-scaling-stroke;
-  filter: url(#wp-relief);
-}
-
-.coast-light {
-  fill: none;
-  stroke: rgba(226, 240, 255, 0.34);
-  stroke-width: 0.4;
-  stroke-linejoin: round;
-  stroke-linecap: round;
-  vector-effect: non-scaling-stroke;
-  transform: translateY(-0.45px);
 }
 
 /* Internal borders stay a hint, never a graphic in their own right. */
@@ -152,20 +127,20 @@
 
 .city {
   --w: 0.7;
-  fill: #fff2d8;
-  opacity: calc(0.04 + var(--w) * 0.04);
+  fill: #fff4dd;
+  opacity: calc(0.07 + var(--w) * 0.06);
   transition: opacity 1.4s var(--ease);
 }
 
 .city-bloom {
   --w: 0.7;
   fill: var(--city);
-  opacity: 0;
+  opacity: calc(0.03 + var(--w) * 0.03);
   transition: opacity 1.4s var(--ease);
 }
 
-.city.is-night { opacity: calc(0.34 + var(--w) * 0.5); }
-.city-bloom.is-night { opacity: calc(0.14 + var(--w) * 0.22); }
+.city.is-night { opacity: calc(0.6 + var(--w) * 0.4); }
+.city-bloom.is-night { opacity: calc(0.26 + var(--w) * 0.3); }
 
 @media (prefers-reduced-motion: no-preference) {
   .city.is-night { animation: citybreath 9s var(--ease) infinite; }
@@ -174,8 +149,8 @@
 .layer-city { mix-blend-mode: screen; }
 
 @keyframes citybreath {
-  0%, 100% { opacity: calc(0.22 + var(--w) * 0.34); }
-  50%      { opacity: calc(0.3 + var(--w) * 0.5); }
+  0%, 100% { opacity: calc(0.5 + var(--w) * 0.32); }
+  50%      { opacity: calc(0.68 + var(--w) * 0.32); }
 }
 
 /* ---------------------------------------------------------------- labels */

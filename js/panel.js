@@ -47,10 +47,15 @@ export function flagNode(code, cls = 'flag') {
   const span = h('span', cls);
   span.dataset.code = code ?? '';
   if (supportsFlagEmoji()) {
+    span.classList.add('is-emoji');
     span.textContent = flagEmoji(code);
   } else {
     span.classList.add('is-chip');
     span.textContent = String(code ?? '').slice(0, 2).toUpperCase();
+    /* a deterministic band colour keeps the chips distinguishable at a glance */
+    const cc = String(code ?? 'XX').toUpperCase();
+    const hue = ((cc.charCodeAt(0) * 37 + (cc.charCodeAt(1) || 0) * 11) % 360);
+    span.style.setProperty('--h', String(hue));
   }
   return span;
 }
@@ -189,29 +194,35 @@ function meter(value) {
   return wrap;
 }
 
+/** Two letters that stand for a headline: initials, or the first ideographs. */
+function initialsFor(text) {
+  const raw = String(text || '').trim();
+  if (!raw) return '\u00b7\u00b7';
+  if (/[\u3040-\u30ff\u3400-\u9fff]/.test(raw)) {
+    return raw.replace(/[\s\u3000「」『』（）()]/g, '').slice(0, 2) || '\u00b7\u00b7';
+  }
+  const words = raw.split(/[\s\-_.]+/).filter(Boolean);
+  if (words.length >= 2) return (words[0][0] + words[1][0]).toUpperCase();
+  return raw.slice(0, 2).toUpperCase();
+}
+
 /**
- * The little square to the left of a row. Nothing is fetched from an API:
- * a news row asks the publisher's own site for its favicon, a Wikipedia row
- * gets the Wikipedia mark, and anything that fails falls back to the category
- * tile that was there before — so the layout never shifts.
+ * The square to the left of a row. Nothing is fetched from an API: a news row
+ * asks the publisher's own site for its favicon, and every row already has a
+ * readable placeholder underneath — the publisher's initials for news, the
+ * article's own initials for Wikipedia — tinted by category. Nothing shifts
+ * when an icon fails to load.
  */
 function thumbnail(topic) {
   const box = h('span', 'mono t-thumb');
   box.dataset.cat = topic.category;
   box.setAttribute('aria-hidden', 'true');
 
-  const mark = h('span', 't-mark', CAT_MARK[topic.category] ?? '\u00b7\u00b7');
-  box.append(mark);
-
-  if (topic.kind === 'WIKI') {
-    box.classList.add('is-wiki');
-    mark.textContent = 'W';
-    return box;
-  }
-
-  if (topic.kind === 'NEWS' && topic.url) {
+  if (topic.kind === 'NEWS') {
+    box.classList.add('is-news');
+    box.append(h('span', 't-mark', initialsFor(topic.outlet || pick(topic.title))));
     let origin = null;
-    try { origin = new URL(topic.url).origin; } catch { origin = null; }
+    try { origin = new URL(topic.url ?? '').origin; } catch { origin = null; }
     if (origin) {
       const img = document.createElement('img');
       img.className = 't-favicon';
@@ -226,7 +237,17 @@ function thumbnail(topic) {
       img.src = `${origin}/favicon.ico`;
       box.append(img);
     }
+    return box;
   }
+
+  if (topic.kind === 'WIKI') {
+    box.classList.add('is-wiki');
+    box.append(h('span', 't-mark', initialsFor(pick(topic.title))));
+    box.append(h('i', 't-badge', 'W'));       // small corner mark, not the whole tile
+    return box;
+  }
+
+  box.append(h('span', 't-mark', CAT_MARK[topic.category] ?? '\u00b7\u00b7'));
   return box;
 }
 

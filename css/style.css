@@ -21,7 +21,10 @@
 
   --land:      #202c3d;   /* countries without data */
   --land-2:    #19222f;   /* land the trend feed does not cover */
-  --city:      #ffc98a;   /* night-side city lights, used nowhere else */
+  --city:      #ffc07a;   /* night-side city lights, used nowhere else */
+  --dawn:      #ff9a52;   /* the low sun on the water */
+  --violet:    #8f7ad8;
+  --bloom:     #3d8ef0;
   --label:     #cfdcec;
   --glow:      #9cc4ff;   /* the cold light of activity */
   --glow-2:    #d7e8ff;
@@ -56,11 +59,11 @@ html, body { height: 100%; margin: 0; }
 
 body {
   background:
-    radial-gradient(38% 46% at 15% 44%, rgba(255, 142, 86, 0.10), transparent 70%),
-    radial-gradient(52% 58% at 48% 46%, rgba(52, 151, 255, 0.15), transparent 72%),
-    radial-gradient(46% 52% at 78% 58%, rgba(30, 80, 180, 0.11), transparent 70%),
-    radial-gradient(90% 60% at 50% 108%, rgba(6, 16, 34, 0.9), transparent 60%),
-    linear-gradient(135deg, #050914 0%, #071427 45%, #02040a 100%);
+    radial-gradient(44% 54% at 13% 40%, rgba(255, 154, 82, 0.13), transparent 72%),
+    radial-gradient(40% 50% at 30% 50%, rgba(143, 122, 216, 0.10), transparent 74%),
+    radial-gradient(58% 62% at 58% 46%, rgba(61, 142, 240, 0.15), transparent 74%),
+    radial-gradient(90% 62% at 50% 110%, rgba(4, 10, 24, 0.92), transparent 62%),
+    linear-gradient(128deg, #050b18 0%, #08182f 44%, #02040a 100%);
   color: var(--text);
   font-family: var(--sans);
   font-size: 14px;
@@ -436,16 +439,23 @@ body.panel-open .tl { padding-right: calc(var(--panel-w) + 46px); }
 .flag { display: inline-flex; align-items: center; justify-content: center; line-height: 1; }
 
 .flag.is-chip {
+  --h: 210;
+  position: relative;
   font-family: var(--mono);
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.04em;
-  border-radius: 4px;
-  border: 1px solid rgba(160, 196, 245, 0.28);
-  background: linear-gradient(160deg, rgba(180, 214, 255, 0.2), rgba(120, 160, 220, 0.06));
-  color: var(--glow-2);
+  border-radius: 3px;
+  border: 1px solid rgba(200, 224, 255, 0.32);
+  background:
+    linear-gradient(105deg,
+      hsl(var(--h) 62% 52% / 0.85) 0 38%,
+      hsl(calc(var(--h) + 40) 55% 34% / 0.85) 38% 100%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.28), 0 1px 3px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.75);
   padding: 0 4px;
-  min-width: 2.1em;
-  height: 1.45em;
+  min-width: 2.3em;
+  height: 1.55em;
   font-size: 0.62em;
 }
 
@@ -610,39 +620,61 @@ body.panel-open .tl { padding-right: calc(var(--panel-w) + 46px); }
     linear-gradient(150deg, rgba(180, 214, 255, 0.16), rgba(156, 196, 255, 0.02));
   box-shadow: inset 0 1px 0 rgba(198, 224, 255, 0.12);
   color: var(--glow-2);
-  font-size: 10px;
-  letter-spacing: 0.08em;
+  font-size: 12px;
+  letter-spacing: 0.02em;
 }
 
 .t-mark { transition: opacity 0.3s var(--ease); }
 
+/* category tints, so a list of rows is never one flat colour */
+.t-thumb[data-cat="TECH"], .t-thumb[data-cat="SCIENCE"] {
+  background: linear-gradient(150deg, rgba(120, 176, 255, 0.24), rgba(120, 176, 255, 0.03));
+  color: #cfe2ff;
+}
+.t-thumb[data-cat="SPORTS"], .t-thumb[data-cat="WEATHER"] {
+  background: linear-gradient(150deg, rgba(104, 214, 178, 0.22), rgba(104, 214, 178, 0.03));
+  color: #bff0dc;
+}
+.t-thumb[data-cat="CULTURE"], .t-thumb[data-cat="ENTERTAINMENT"] {
+  background: linear-gradient(150deg, rgba(168, 138, 232, 0.24), rgba(168, 138, 232, 0.03));
+  color: #ddd0ff;
+}
+.t-thumb[data-cat="BUSINESS"] {
+  background: linear-gradient(150deg, rgba(230, 186, 110, 0.24), rgba(230, 186, 110, 0.03));
+  color: #f4dfb8;
+}
+.t-thumb[data-cat="POLITICS"], .t-thumb[data-cat="WORLD"] {
+  background: linear-gradient(150deg, rgba(232, 142, 132, 0.2), rgba(232, 142, 132, 0.03));
+  color: #f6d3ce;
+}
+
 /* the publisher's own favicon, once it has actually loaded */
 .t-favicon {
   position: absolute;
-  width: 20px; height: 20px;
+  inset: 0;
+  margin: auto;
+  width: 22px; height: 22px;
   object-fit: contain;
   opacity: 0;
   transition: opacity 0.4s var(--ease);
-  filter: saturate(0.85) brightness(1.05) drop-shadow(0 1px 2px rgba(0, 0, 0, 0.6));
+  filter: saturate(0.9) brightness(1.06) drop-shadow(0 1px 2px rgba(0, 0, 0, 0.65));
 }
 
-.t-thumb.has-icon .t-favicon { opacity: 0.92; }
+.t-thumb.has-icon .t-favicon { opacity: 0.95; }
 .t-thumb.has-icon .t-mark { opacity: 0; }
 
-.t-thumb.is-wiki {
-  background: linear-gradient(150deg, rgba(226, 236, 250, 0.16), rgba(226, 236, 250, 0.02));
-  color: #e6edf7;
+.t-thumb.is-wiki { font-family: Georgia, "Times New Roman", serif; font-size: 14px; }
+
+/* Wikipedia rows keep a small corner mark instead of a whole logo tile */
+.t-badge {
+  position: absolute;
+  right: 2px; bottom: 1px;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 17px;
-  letter-spacing: 0;
-}
-.t-thumb[data-cat="SPORTS"], .t-thumb[data-cat="WEATHER"] {
-  background: linear-gradient(150deg, rgba(127, 217, 255, 0.16), rgba(127, 217, 255, 0.02));
-  color: var(--cyan);
-}
-.t-thumb[data-cat="ENTERTAINMENT"], .t-thumb[data-cat="CULTURE"] {
-  background: linear-gradient(150deg, rgba(224, 168, 120, 0.14), rgba(224, 168, 120, 0.02));
-  color: var(--warm);
+  font-style: normal;
+  font-size: 9px;
+  line-height: 1;
+  color: rgba(232, 240, 250, 0.72);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
 }
 
 .t-body { min-width: 0; flex: 1; }
