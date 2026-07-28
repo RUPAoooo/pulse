@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-28T05:56:41.640Z",
+ "updatedAt": "2026-07-28T08:13:32.768Z",
  "status": "success",
  "message": "Live data generated for all 31 countries.",
  "hasData": true,
@@ -37,10 +37,10 @@
   "NZ"
  ],
  "counts": {
-  "wikimediaItems": 242,
-  "newsItems": 27,
+  "wikimediaItems": 244,
+  "newsItems": 30,
   "countriesWithData": 31,
-  "topicsGenerated": 269,
+  "topicsGenerated": 274,
   "countriesAttempted": 31
  },
  "successfulCountries": [
@@ -85,7 +85,7 @@
    "wikiDate": "2026-07-27",
    "state": "wiki-only",
    "errors": [
-    "HTTP 429"
+    "fetch failed"
    ]
   },
   "US": {
@@ -95,7 +95,7 @@
    "wikiDate": "2026-07-27",
    "state": "wiki-only",
    "errors": [
-    "This operation was aborted"
+    "HTTP 429"
    ]
   },
   "GB": {
@@ -105,7 +105,7 @@
    "wikiDate": "2026-07-27",
    "state": "wiki-only",
    "errors": [
-    "fetch failed"
+    "HTTP 429"
    ]
   },
   "FR": {
@@ -119,32 +119,30 @@
    ]
   },
   "DE": {
-   "news": 0,
+   "news": 9,
    "wiki": 8,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
-   "state": "wiki-only",
-   "errors": [
-    "HTTP 429"
-   ]
-  },
-  "KR": {
-   "news": 0,
-   "wiki": 8,
-   "wikiPerCountry": true,
-   "wikiDate": "2026-07-27",
-   "state": "wiki-only",
-   "errors": [
-    "HTTP 429"
-   ]
-  },
-  "IN": {
-   "news": 7,
-   "wiki": 8,
-   "wikiPerCountry": true,
-   "wikiDate": "2026-07-26",
    "state": "ok",
    "errors": []
+  },
+  "KR": {
+   "news": 9,
+   "wiki": 8,
+   "wikiPerCountry": true,
+   "wikiDate": "2026-07-27",
+   "state": "ok",
+   "errors": []
+  },
+  "IN": {
+   "news": 0,
+   "wiki": 8,
+   "wikiPerCountry": true,
+   "wikiDate": "2026-07-27",
+   "state": "wiki-only",
+   "errors": [
+    "HTTP 429"
+   ]
   },
   "AU": {
    "news": 0,
@@ -153,7 +151,7 @@
    "wikiDate": "2026-07-27",
    "state": "wiki-only",
    "errors": [
-    "fetch failed"
+    "This operation was aborted"
    ]
   },
   "CA": {
@@ -187,14 +185,12 @@
    ]
   },
   "AR": {
-   "news": 0,
+   "news": 3,
    "wiki": 8,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
-   "state": "wiki-only",
-   "errors": [
-    "HTTP 429"
-   ]
+   "state": "ok",
+   "errors": []
   },
   "ES": {
    "news": 0,
@@ -223,27 +219,25 @@
    "wikiDate": "2026-07-27",
    "state": "wiki-only",
    "errors": [
-    "HTTP 429"
+    "fetch failed"
    ]
   },
   "SE": {
-   "news": 0,
+   "news": 9,
    "wiki": 8,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
-   "state": "wiki-only",
-   "errors": [
-    "HTTP 429"
-   ]
+   "state": "ok",
+   "errors": []
   },
   "NO": {
    "news": 0,
-   "wiki": 5,
+   "wiki": 7,
    "wikiPerCountry": true,
-   "wikiDate": "2026-07-27",
+   "wikiDate": "2026-07-26",
    "state": "wiki-only",
    "errors": [
-    "HTTP 429"
+    "fetch failed"
    ]
   },
   "PL": {
@@ -253,7 +247,7 @@
    "wikiDate": "2026-07-27",
    "state": "wiki-only",
    "errors": [
-    "HTTP 429"
+    "fetch failed"
    ]
   },
   "CH": {
@@ -277,12 +271,14 @@
    ]
   },
   "ZA": {
-   "news": 10,
+   "news": 0,
    "wiki": 8,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
-   "state": "ok",
-   "errors": []
+   "state": "wiki-only",
+   "errors": [
+    "HTTP 429"
+   ]
   },
   "EG": {
    "news": 0,
@@ -298,7 +294,7 @@
    "news": 0,
    "wiki": 5,
    "wikiPerCountry": true,
-   "wikiDate": "2026-07-27",
+   "wikiDate": "2026-07-26",
    "state": "wiki-only",
    "errors": [
     "HTTP 429"
@@ -311,7 +307,7 @@
    "wikiDate": "2026-07-27",
    "state": "wiki-only",
    "errors": [
-    "HTTP 429"
+    "fetch failed"
    ]
   },
   "TH": {
@@ -321,7 +317,7 @@
    "wikiDate": "2026-07-27",
    "state": "wiki-only",
    "errors": [
-    "HTTP 429"
+    "fetch failed"
    ]
   },
   "VN": {
@@ -331,16 +327,18 @@
    "wikiDate": "2026-07-27",
    "state": "wiki-only",
    "errors": [
-    "HTTP 429"
+    "fetch failed"
    ]
   },
   "PH": {
-   "news": 10,
+   "news": 0,
    "wiki": 8,
    "wikiPerCountry": true,
-   "wikiDate": "2026-07-27",
-   "state": "ok",
-   "errors": []
+   "wikiDate": "2026-07-26",
+   "state": "wiki-only",
+   "errors": [
+    "HTTP 429"
+   ]
   },
   "SG": {
    "news": 0,
@@ -349,7 +347,7 @@
    "wikiDate": "2026-07-27",
    "state": "wiki-only",
    "errors": [
-    "HTTP 429"
+    "fetch failed"
    ]
   },
   "TW": {
@@ -375,7 +373,7 @@
   "NZ": {
    "news": 0,
    "wiki": 8,
-   "wikiPerCountry": false,
+   "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "state": "wiki-only",
    "errors": [
@@ -387,17 +385,17 @@
   {
    "country": "JP",
    "source": "news",
-   "message": "HTTP 429"
+   "message": "fetch failed"
   },
   {
    "country": "US",
    "source": "news",
-   "message": "This operation was aborted"
+   "message": "HTTP 429"
   },
   {
    "country": "GB",
    "source": "news",
-   "message": "fetch failed"
+   "message": "HTTP 429"
   },
   {
    "country": "FR",
@@ -405,19 +403,14 @@
    "message": "HTTP 429"
   },
   {
-   "country": "DE",
-   "source": "news",
-   "message": "HTTP 429"
-  },
-  {
-   "country": "KR",
+   "country": "IN",
    "source": "news",
    "message": "HTTP 429"
   },
   {
    "country": "AU",
    "source": "news",
-   "message": "fetch failed"
+   "message": "This operation was aborted"
   },
   {
    "country": "CA",
@@ -435,11 +428,6 @@
    "message": "HTTP 429"
   },
   {
-   "country": "AR",
-   "source": "news",
-   "message": "HTTP 429"
-  },
-  {
    "country": "ES",
    "source": "news",
    "message": "HTTP 429"
@@ -452,22 +440,17 @@
   {
    "country": "NL",
    "source": "news",
-   "message": "HTTP 429"
-  },
-  {
-   "country": "SE",
-   "source": "news",
-   "message": "HTTP 429"
+   "message": "fetch failed"
   },
   {
    "country": "NO",
    "source": "news",
-   "message": "HTTP 429"
+   "message": "fetch failed"
   },
   {
    "country": "PL",
    "source": "news",
-   "message": "HTTP 429"
+   "message": "fetch failed"
   },
   {
    "country": "CH",
@@ -476,6 +459,11 @@
   },
   {
    "country": "TR",
+   "source": "news",
+   "message": "HTTP 429"
+  },
+  {
+   "country": "ZA",
    "source": "news",
    "message": "HTTP 429"
   },
@@ -492,22 +480,27 @@
   {
    "country": "ID",
    "source": "news",
-   "message": "HTTP 429"
+   "message": "fetch failed"
   },
   {
    "country": "TH",
    "source": "news",
-   "message": "HTTP 429"
+   "message": "fetch failed"
   },
   {
    "country": "VN",
+   "source": "news",
+   "message": "fetch failed"
+  },
+  {
+   "country": "PH",
    "source": "news",
    "message": "HTTP 429"
   },
   {
    "country": "SG",
    "source": "news",
-   "message": "HTTP 429"
+   "message": "fetch failed"
   },
   {
    "country": "TW",

@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-28T05:51:19.099Z",
+ "fetchedAt": "2026-07-28T08:07:10.751Z",
  "source": "Wikimedia Pageviews API",
  "countries": [
   {
@@ -438,71 +438,71 @@
    "code": "IN",
    "perCountry": true,
    "project": "en.wikipedia",
-   "date": "2026-07-26",
+   "date": "2026-07-27",
    "articles": [
     {
      "rank": 1,
-     "title": "Pralhad Joshi",
-     "views": 445100,
-     "url": "https://en.wikipedia.org/wiki/Pralhad_Joshi",
-     "project": "en.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 2,
-     "title": "Jana Nayagan",
-     "views": 110800,
-     "url": "https://en.wikipedia.org/wiki/Jana_Nayagan",
-     "project": "en.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 3,
-     "title": "The Odyssey (2026 film)",
-     "views": 103800,
-     "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
-     "project": "en.wikipedia",
-     "category": "ENTERTAINMENT"
-    },
-    {
-     "rank": 4,
-     "title": "Dharmendra Pradhan",
-     "views": 89700,
-     "url": "https://en.wikipedia.org/wiki/Dharmendra_Pradhan",
-     "project": "en.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 5,
-     "title": "2026 Commonwealth Games",
-     "views": 88000,
-     "url": "https://en.wikipedia.org/wiki/2026_Commonwealth_Games",
-     "project": "en.wikipedia",
-     "category": "ENTERTAINMENT"
-    },
-    {
-     "rank": 6,
-     "title": "Abhijeet Dipke",
-     "views": 81400,
-     "url": "https://en.wikipedia.org/wiki/Abhijeet_Dipke",
-     "project": "en.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 7,
      "title": "India at the 2026 Commonwealth Games",
-     "views": 80700,
+     "views": 110400,
      "url": "https://en.wikipedia.org/wiki/India_at_the_2026_Commonwealth_Games",
      "project": "en.wikipedia",
      "category": "ENTERTAINMENT"
     },
     {
-     "rank": 8,
-     "title": "प्रह्लाद जोशी",
-     "views": 65100,
-     "url": "https://hi.wikipedia.org/wiki/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B9%E0%A5%8D%E0%A4%B2%E0%A4%BE%E0%A4%A6_%E0%A4%9C%E0%A5%8B%E0%A4%B6%E0%A5%80",
-     "project": "hi.wikipedia",
+     "rank": 2,
+     "title": "2026 Commonwealth Games",
+     "views": 104500,
+     "url": "https://en.wikipedia.org/wiki/2026_Commonwealth_Games",
+     "project": "en.wikipedia",
+     "category": "ENTERTAINMENT"
+    },
+    {
+     "rank": 3,
+     "title": "Jana Nayagan",
+     "views": 89500,
+     "url": "https://en.wikipedia.org/wiki/Jana_Nayagan",
+     "project": "en.wikipedia",
      "category": "OTHER"
+    },
+    {
+     "rank": 4,
+     "title": "The Odyssey (2026 film)",
+     "views": 88500,
+     "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
+     "project": "en.wikipedia",
+     "category": "ENTERTAINMENT"
+    },
+    {
+     "rank": 5,
+     "title": "Pralhad Joshi",
+     "views": 85200,
+     "url": "https://en.wikipedia.org/wiki/Pralhad_Joshi",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 6,
+     "title": ".xxx",
+     "views": 68400,
+     "url": "https://en.wikipedia.org/wiki/.xxx",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 7,
+     "title": "Abhijeet Dipke",
+     "views": 37900,
+     "url": "https://en.wikipedia.org/wiki/Abhijeet_Dipke",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 8,
+     "title": "2026 Commonwealth Games medal table",
+     "views": 37400,
+     "url": "https://en.wikipedia.org/wiki/2026_Commonwealth_Games_medal_table",
+     "project": "en.wikipedia",
+     "category": "ENTERTAINMENT"
     }
    ]
   },
@@ -1158,18 +1158,26 @@
    "code": "NO",
    "perCountry": true,
    "project": "no.wikipedia",
-   "date": "2026-07-27",
+   "date": "2026-07-26",
    "articles": [
     {
      "rank": 1,
      "title": "Forside",
-     "views": 14200,
+     "views": 14600,
      "url": "https://no.wikipedia.org/wiki/Forside",
      "project": "no.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 2,
+     "title": "The Odyssey (2026 film)",
+     "views": 2100,
+     "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
+     "project": "en.wikipedia",
+     "category": "ENTERTAINMENT"
+    },
+    {
+     "rank": 3,
      "title": "The Odyssey",
      "views": 1900,
      "url": "https://no.wikipedia.org/wiki/The_Odyssey",
@@ -1177,26 +1185,34 @@
      "category": "OTHER"
     },
     {
-     "rank": 3,
-     "title": "The Odyssey (2026 film)",
-     "views": 1800,
-     "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
-     "project": "en.wikipedia",
-     "category": "ENTERTAINMENT"
-    },
-    {
      "rank": 4,
      "title": "Odysseen",
-     "views": 1700,
+     "views": 1800,
      "url": "https://no.wikipedia.org/wiki/Odysseen",
      "project": "no.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 5,
-     "title": "Hebridene",
-     "views": 1500,
-     "url": "https://no.wikipedia.org/wiki/Hebridene",
+     "title": "New Hampshire",
+     "views": 1800,
+     "url": "https://en.wikipedia.org/wiki/New_Hampshire",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 6,
+     "title": "Odyssey",
+     "views": 1400,
+     "url": "https://en.wikipedia.org/wiki/Odyssey",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 7,
+     "title": "Robin Hood",
+     "views": 1300,
+     "url": "https://no.wikipedia.org/wiki/Robin_Hood",
      "project": "no.wikipedia",
      "category": "OTHER"
     }
@@ -1566,45 +1582,45 @@
    "code": "NG",
    "perCountry": true,
    "project": "en.wikipedia",
-   "date": "2026-07-27",
+   "date": "2026-07-26",
    "articles": [
     {
      "rank": 1,
-     "title": "Yan Diomande",
-     "views": 2500,
-     "url": "https://en.wikipedia.org/wiki/Yan_Diomande",
+     "title": "David Jonsson",
+     "views": 3600,
+     "url": "https://en.wikipedia.org/wiki/David_Jonsson",
      "project": "en.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 2,
-     "title": "Danny Welbeck",
-     "views": 1800,
-     "url": "https://en.wikipedia.org/wiki/Danny_Welbeck",
+     "title": "Yan Diomande",
+     "views": 2700,
+     "url": "https://en.wikipedia.org/wiki/Yan_Diomande",
      "project": "en.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 3,
      "title": "The Odyssey (2026 film)",
-     "views": 1700,
+     "views": 2000,
      "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
      "project": "en.wikipedia",
      "category": "ENTERTAINMENT"
     },
     {
      "rank": 4,
-     "title": "XHamster",
-     "views": 1400,
-     "url": "https://en.wikipedia.org/wiki/XHamster",
+     "title": ".xyz",
+     "views": 1500,
+     "url": "https://en.wikipedia.org/wiki/.xyz",
      "project": "en.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 5,
-     "title": "David Jonsson",
+     "title": "Kristian Prenga",
      "views": 1200,
-     "url": "https://en.wikipedia.org/wiki/David_Jonsson",
+     "url": "https://en.wikipedia.org/wiki/Kristian_Prenga",
      "project": "en.wikipedia",
      "category": "OTHER"
     }
@@ -1830,70 +1846,70 @@
    "code": "PH",
    "perCountry": true,
    "project": "en.wikipedia",
-   "date": "2026-07-27",
+   "date": "2026-07-26",
    "articles": [
     {
      "rank": 1,
-     "title": "The Odyssey (2026 film)",
-     "views": 12600,
-     "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
-     "project": "en.wikipedia",
-     "category": "ENTERTAINMENT"
-    },
-    {
-     "rank": 2,
      "title": ".xyz",
-     "views": 11900,
+     "views": 27700,
      "url": "https://en.wikipedia.org/wiki/.xyz",
      "project": "en.wikipedia",
      "category": "OTHER"
     },
     {
+     "rank": 2,
+     "title": "The Odyssey (2026 film)",
+     "views": 15300,
+     "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
+     "project": "en.wikipedia",
+     "category": "ENTERTAINMENT"
+    },
+    {
      "rank": 3,
-     "title": "ChatGPT",
-     "views": 7200,
-     "url": "https://en.wikipedia.org/wiki/ChatGPT",
-     "project": "en.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 4,
-     "title": "2026 State of the Nation Address (Philippines)",
-     "views": 6200,
-     "url": "https://en.wikipedia.org/wiki/2026_State_of_the_Nation_Address_(Philippines)",
-     "project": "en.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 5,
      "title": "Agent Kim Reactivated",
-     "views": 3700,
+     "views": 6900,
      "url": "https://en.wikipedia.org/wiki/Agent_Kim_Reactivated",
      "project": "en.wikipedia",
      "category": "OTHER"
     },
     {
-     "rank": 6,
-     "title": "Pax Silica",
-     "views": 3400,
-     "url": "https://en.wikipedia.org/wiki/Pax_Silica",
+     "rank": 4,
+     "title": "David Jonsson",
+     "views": 5900,
+     "url": "https://en.wikipedia.org/wiki/David_Jonsson",
      "project": "en.wikipedia",
      "category": "OTHER"
     },
     {
-     "rank": 7,
+     "rank": 5,
+     "title": "ChatGPT",
+     "views": 4600,
+     "url": "https://en.wikipedia.org/wiki/ChatGPT",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 6,
      "title": "Odyssey",
-     "views": 3100,
+     "views": 4200,
      "url": "https://en.wikipedia.org/wiki/Odyssey",
      "project": "en.wikipedia",
      "category": "OTHER"
     },
     {
+     "rank": 7,
+     "title": "Errol Spence Jr.",
+     "views": 4000,
+     "url": "https://en.wikipedia.org/wiki/Errol_Spence_Jr.",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
      "rank": 8,
-     "title": "特殊:近期變更",
-     "views": 3100,
-     "url": "https://hak.wikipedia.org/wiki/%E7%89%B9%E6%AE%8A%3A%E8%BF%91%E6%9C%9F%E8%AE%8A%E6%9B%B4",
-     "project": "hak.wikipedia",
+     "title": "Someone, Someday",
+     "views": 3600,
+     "url": "https://en.wikipedia.org/wiki/Someone%2C_Someday",
+     "project": "en.wikipedia",
      "category": "OTHER"
     }
    ]
@@ -2116,71 +2132,71 @@
   },
   {
    "code": "NZ",
-   "perCountry": false,
+   "perCountry": true,
    "project": "en.wikipedia",
    "date": "2026-07-27",
    "articles": [
     {
      "rank": 1,
+     "title": "Jim Hopkins",
+     "views": 3800,
+     "url": "https://en.wikipedia.org/wiki/Jim_Hopkins",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 2,
      "title": "The Odyssey (2026 film)",
-     "views": 581815,
+     "views": 3200,
      "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
      "project": "en.wikipedia",
      "category": "ENTERTAINMENT"
     },
     {
-     "rank": 2,
-     "title": "Bill Oddie",
-     "views": 341705,
-     "url": "https://en.wikipedia.org/wiki/Bill_Oddie",
-     "project": "en.wikipedia",
-     "category": "POLITICS"
-    },
-    {
      "rank": 3,
-     "title": "Odyssey",
-     "views": 196939,
-     "url": "https://en.wikipedia.org/wiki/Odyssey",
+     "title": "Semisi Tupou Ta'eiloa",
+     "views": 3000,
+     "url": "https://en.wikipedia.org/wiki/Semisi_Tupou_Ta'eiloa",
      "project": "en.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 4,
-     "title": ".xyz",
-     "views": 177973,
-     "url": "https://en.wikipedia.org/wiki/.xyz",
-     "project": "en.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 5,
-     "title": "2026 Commonwealth Games",
-     "views": 158021,
-     "url": "https://en.wikipedia.org/wiki/2026_Commonwealth_Games",
+     "title": "MasterChef Australia series 18",
+     "views": 2400,
+     "url": "https://en.wikipedia.org/wiki/MasterChef_Australia_series_18",
      "project": "en.wikipedia",
      "category": "ENTERTAINMENT"
     },
     {
+     "rank": 5,
+     "title": "Bill Oddie",
+     "views": 2400,
+     "url": "https://en.wikipedia.org/wiki/Bill_Oddie",
+     "project": "en.wikipedia",
+     "category": "POLITICS"
+    },
+    {
      "rank": 6,
-     "title": "Deaths in 2026",
-     "views": 142478,
-     "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
+     "title": "Cracroft Caverns",
+     "views": 2200,
+     "url": "https://en.wikipedia.org/wiki/Cracroft_Caverns",
      "project": "en.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 7,
-     "title": "Graeme Garden",
-     "views": 129343,
-     "url": "https://en.wikipedia.org/wiki/Graeme_Garden",
+     "title": "2026 Commonwealth Games",
+     "views": 2000,
+     "url": "https://en.wikipedia.org/wiki/2026_Commonwealth_Games",
      "project": "en.wikipedia",
-     "category": "OTHER"
+     "category": "ENTERTAINMENT"
     },
     {
      "rank": 8,
-     "title": "AEW Redemption",
-     "views": 128764,
-     "url": "https://en.wikipedia.org/wiki/AEW_Redemption",
+     "title": "Siale Lauaki",
+     "views": 1800,
+     "url": "https://en.wikipedia.org/wiki/Siale_Lauaki",
      "project": "en.wikipedia",
      "category": "OTHER"
     }
