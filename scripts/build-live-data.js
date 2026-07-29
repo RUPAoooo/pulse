@@ -11,7 +11,9 @@
 const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
-const { COUNTRIES, LIMITS } = require('./config');
+const {
+  COUNTRIES, LIMITS, normaliseTitle, isBreakingNews,
+} = require('./config');
 
 const DATA = path.join(__dirname, '..', 'data');
 const F = {
@@ -48,22 +50,112 @@ function activityFromScores(scores) {
   if (!scores.length) return 0;
   const top = [...scores].sort((a, b) => b - a).slice(0, 4);
   const avg = top.reduce((a, b) => a + b, 0) / top.length;
-  return Math.round(0.55 * top[0] + 0.45 * avg);
+  return Math.min(100, Math.round(0.55 * top[0] + 0.45 * avg));
 }
 
-function statusFor(score, change, isNew) {
-  if (isNew) return 'emerging';
+function statusFor(topic, change, isNew, now = Date.now()) {
+  if (topic.kind === 'NEWS') {
+    const ageHours = topic.ageHours ?? ageHoursSince(topic.publishedAt, now);
+    if (ageHours <= 6 && topic.breaking) return 'emerging';
+    if (ageHours <= 6 && topic.sourceOutletCount >= 2) return 'rising';
+    if (ageHours <= 6 && isNew && topic.score >= 105) return 'emerging';
+    if (isNew) return 'stable';
+  } else if (isNew) {
+    return 'emerging';
+  }
   if (change >= 15) return 'rising';
   if (change <= -15) return 'declining';
-  if (score >= 85) return 'peak';
+  if (topic.score >= 85) return 'peak';
   return 'stable';
 }
 
 /* ------------------------------------------------------------------ shaping */
 
-function newsTopics(entry, keyOf) {
-  return (entry?.articles ?? []).map((a) => {
+function ageHoursSince(publishedAt, now = Date.now()) {
+  const published = new Date(publishedAt || 0).getTime();
+  if (!Number.isFinite(published) || published <= 0) return 24;
+  return Math.max(0, (now - published) / 3600000);
+}
+
+function freshnessBoostFor(ageHours) {
+  if (ageHours <= 2) return 30;
+  if (ageHours <= 6) return 22;
+  if (ageHours <= 12) return 12;
+  if (ageHours <= 24) return 4;
+  return 0;
+}
+
+const STOPWORDS = new Set([
+  'the', 'and', 'for', 'with', 'from', 'that', 'this', 'after', 'into',
+  'about', 'over', 'says', 'new', 'latest', 'news', '速報', '発表', 'について',
+]);
+
+function themeTokens(title) {
+  const text = normaliseTitle(title);
+  const out = new Set(
+    (text.match(/[a-z0-9]{3,}/g) || []).filter((word) => !STOPWORDS.has(word)),
+  );
+  for (const run of text.match(/[\u3040-\u30ff\u3400-\u9fff]{2,}/g) || []) {
+    for (let i = 0; i < run.length - 1; i += 1) out.add(run.slice(i, i + 2));
+  }
+  return out;
+}
+
+function sameTheme(a, b) {
+  const ak = normaliseTitle(a.title);
+  const bk = normaliseTitle(b.title);
+  if (ak === bk || (Math.min(ak.length, bk.length) >= 20 && (ak.includes(bk) || bk.includes(ak)))) {
+    return true;
+  }
+  const at = themeTokens(a.title);
+  const bt = themeTokens(b.title);
+  if (!at.size || !bt.size) return false;
+  let shared = 0;
+  for (const token of at) if (bt.has(token)) shared += 1;
+  const ratio = shared / Math.min(at.size, bt.size);
+  return shared >= 2 && ratio >= 0.3;
+}
+
+function coverageStats(article, articles) {
+  const related = articles.filter((candidate) => sameTheme(article, candidate));
+  const outlets = new Set(related.map((item) => item.outlet).filter(Boolean));
+  return {
+    coverageCount: Math.max(1, related.length),
+    sourceOutletCount: Math.max(1, outlets.size),
+  };
+}
+
+function coverageBoostFor(coverageCount, sourceOutletCount) {
+  const articleBoost = Math.min(6, Math.max(0, coverageCount - 1) * 2);
+  const outletBoost = Math.min(8, Math.max(0, sourceOutletCount - 1) * 4);
+  return Math.min(14, articleBoost + outletBoost);
+}
+
+function scoreNews(article, articles, now = Date.now()) {
+  const rank = Math.max(1, Number(article.rank) || 1);
+  const ageHours = ageHoursSince(article.publishedAt, now);
+  const baseRankScore = Math.max(0, 100 - (rank - 1) * 3);
+  const freshnessBoost = freshnessBoostFor(ageHours);
+  const breaking = isBreakingNews(article.title);
+  const breakingBoost = breaking ? 15 : 0;
+  const { coverageCount, sourceOutletCount } = coverageStats(article, articles);
+  const coverageBoost = coverageBoostFor(coverageCount, sourceOutletCount);
+  const rawScore = baseRankScore + freshnessBoost + breakingBoost + coverageBoost;
+  const score = Math.max(0, Math.min(
+    130,
+    Math.round((rawScore / 159) * 130),
+  ));
+  return {
+    score, rawScore, ageHours, baseRankScore, freshnessBoost, breaking,
+    breakingBoost, coverageCount, sourceOutletCount, coverageBoost,
+  };
+}
+
+function newsTopics(entry, keyOf, now = Date.now()) {
+  const articles = entry?.articles ?? [];
+  return articles.map((a) => {
     const key = keyOf(a.title);
+    const scoring = scoreNews(a, articles, now);
     return {
       id: idFor('n', key),
       key,
@@ -71,13 +163,22 @@ function newsTopics(entry, keyOf) {
       title: { ja: a.title, en: a.title },
       summary: { ja: '', en: '' },
       category: a.category || 'OTHER',
-      score: Math.max(40, 100 - (a.rank - 1) * 4),
+      score: scoring.score,
       url: a.url,
       outlet: a.outlet,
       publishedAt: a.publishedAt || null,
       language: a.language || null,
       keywords: [],
       sources: ['NEWS'],
+      ageHours: Math.round(scoring.ageHours * 10) / 10,
+      rawScore: scoring.rawScore,
+      baseRankScore: scoring.baseRankScore,
+      freshnessBoost: scoring.freshnessBoost,
+      breaking: scoring.breaking,
+      breakingBoost: scoring.breakingBoost,
+      coverageCount: scoring.coverageCount,
+      sourceOutletCount: scoring.sourceOutletCount,
+      coverageBoost: scoring.coverageBoost,
     };
   });
 }
@@ -108,10 +209,11 @@ function wikiTopics(entry, keyOf) {
 
 /* -------------------------------------------------------------------- build */
 
-function build() {
-  const news = readJSON(F.news);
-  const wiki = readJSON(F.wiki);
+function build(inputs = {}) {
+  const news = Object.prototype.hasOwnProperty.call(inputs, 'news') ? inputs.news : readJSON(F.news);
+  const wiki = Object.prototype.hasOwnProperty.call(inputs, 'wiki') ? inputs.wiki : readJSON(F.wiki);
   if (!news && !wiki) return { ok: false, reason: 'no fetched data on disk' };
+  const now = inputs.now ? new Date(inputs.now).getTime() : Date.now();
 
   const previous = readJSON(F.topics);
   const prevScores = new Map();          // `${code}|${id}` → score
@@ -119,7 +221,7 @@ function build() {
     for (const t of c.topics ?? []) prevScores.set(`${c.code}|${t.id}`, t.score);
   }
 
-  const keyOf = (title) => require('./config').normaliseTitle(title);
+  const keyOf = normaliseTitle;
   const byCountry = new Map();
 
   for (const { code } of COUNTRIES) {
@@ -127,7 +229,7 @@ function build() {
     const w = (wiki?.countries ?? []).find((c) => c.code === code);
     if (!n && !w) continue;
 
-    const topics = [...newsTopics(n, keyOf), ...wikiTopics(w, keyOf)];
+    const topics = [...newsTopics(n, keyOf, now), ...wikiTopics(w, keyOf)];
     if (!topics.length) continue;
 
     byCountry.set(code, {
@@ -165,7 +267,7 @@ function build() {
         ...rest,
         scope: codes.length >= 2 ? 'GLOBAL' : 'LOCAL',
         change,
-        status: statusFor(t.score, change, isNew),
+        status: statusFor(t, change, isNew, now),
         origin,
         relatedCountries: codes,
         startedAt: t.publishedAt,
@@ -176,7 +278,8 @@ function build() {
     countries.push({
       code,
       activityScore: activityFromScores(topics.map((t) => t.score)),
-      risingCount: topics.filter((t) => t.change >= 15).length,
+      risingCount: topics.filter((t) =>
+        t.change >= 15 || t.status === 'emerging' || t.status === 'rising').length,
       wikiPerCountry: c.wikiPerCountry,
       wikiDate: c.wikiDate,
       topics,
@@ -236,7 +339,9 @@ function buildTimeline(countries, nowISO) {
 function fingerprint(countries) {
   return crypto.createHash('sha1').update(JSON.stringify(countries.map((c) => ({
     code: c.code,
-    topics: c.topics.map((t) => [t.id, t.score]),
+    topics: c.topics.map((t) => [
+      t.id, t.score, t.status, t.change, t.title, t.url, t.outlet, t.publishedAt,
+    ]),
   })))).digest('hex');
 }
 
@@ -299,8 +404,14 @@ function writeStatus(status, message, extra = {}) {
 function run() {
   const nowISO = new Date().toISOString();
 
-  const wikiResult = readJSON(path.join(__dirname, '.wikimedia-result.json'), { ok: [], failed: [], items: 0 });
-  const newsResult = readJSON(path.join(__dirname, '.news-result.json'), { ok: [], failed: [], items: 0 });
+  const wikiResult = readJSON(
+    path.join(__dirname, '.wikimedia-result.json'),
+    { ok: [], failed: [], items: 0, missing: true },
+  );
+  const newsResult = readJSON(
+    path.join(__dirname, '.news-result.json'),
+    { ok: [], failed: [], items: 0, missing: true },
+  );
   const errors = [...(wikiResult.failed ?? []), ...(newsResult.failed ?? [])];
   const attempted = COUNTRIES.map((c) => c.code);
 
@@ -315,7 +426,11 @@ function run() {
   process.stdout.write(`  wikimedia items fetched: ${wikiResult.items ?? 0}\n`);
   process.stdout.write(`  news items fetched: ${newsResult.items ?? 0}\n`);
 
-  const result = build();
+  const result = build({
+    news: newsResult.missing || (newsResult.ok ?? []).length ? newsRaw : null,
+    wiki: wikiResult.missing || (wikiResult.ok ?? []).length ? wikiRaw : null,
+    now: nowISO,
+  });
 
   if (!result.ok) {
     // No usable input at all — say why, keep any previous live JSON in place.
@@ -344,41 +459,55 @@ function run() {
   }
 
   const successful = result.countries.map((c) => c.code);
-  const failedCountries = attempted.filter((c) => !successful.includes(c));
+  const countriesWithoutData = attempted.filter((c) => !successful.includes(c));
+  const sourceFailedCountries = [...new Set(
+    errors.map((error) => error.country).filter((code) => code && code !== '*'),
+  )];
+  const failedCountries = [...new Set([...countriesWithoutData, ...sourceFailedCountries])];
+  const partial = failedCountries.length > 0 || errors.length > 0;
   const topicsGenerated = result.countries.reduce((n, c) => n + c.topics.length, 0);
   const perCountryWiki = result.countries.every((c) => c.wikiPerCountry !== false);
 
-  /* Skip re-writing topics/timeline when the content is byte-for-byte the same,
-     but STILL refresh status so update-status.json always reflects this run. */
+  /* Refresh generatedAt and the rolling timeline on every run. The status file
+     already changes every run, so skipping these files only leaves Pages
+     presenting an older successful refresh. */
   const previous = readJSON(F.topics);
   const identical = previous && previous.fingerprint === fingerprint(result.countries);
 
-  if (identical) {
-    process.stdout.write('build: live-topics.json content identical to last run — not rewriting it\n');
-  } else {
-    fs.writeFileSync(F.topics, `${JSON.stringify({
-      updatedAt: nowISO,
-      source: 'live',
-      fingerprint: fingerprint(result.countries),
-      wikiPerCountry: perCountryWiki,
-      newsSource: result.news?.source ?? null,
-      wikiSource: result.wiki?.source ?? null,
-      countries: result.countries,
-    }, null, 1)}\n`);
-    process.stdout.write(`build wrote: ${path.relative(process.cwd(), F.topics)} `
-      + `(${successful.length} countries, ${topicsGenerated} topics)\n`);
+  fs.writeFileSync(F.topics, `${JSON.stringify({
+    updatedAt: nowISO,
+    source: 'live',
+    fingerprint: fingerprint(result.countries),
+    wikiPerCountry: perCountryWiki,
+    newsSource: result.news?.source ?? null,
+    wikiSource: result.wiki?.source ?? null,
+    countries: result.countries,
+  }, null, 1)}\n`);
+  process.stdout.write(`build wrote: ${path.relative(process.cwd(), F.topics)} `
+    + `(${successful.length} countries, ${topicsGenerated} topics`
+    + `${identical ? ', same ranking refreshed' : ''})\n`);
 
-    const { history, frames } = buildTimeline(result.countries, nowISO);
-    fs.writeFileSync(F.timeline, `${JSON.stringify({ ...history, frames }, null, 1)}\n`);
-    process.stdout.write(`build wrote: ${path.relative(process.cwd(), F.timeline)} (${frames.length} frames)\n`);
-  }
+  const { history, frames } = buildTimeline(result.countries, nowISO);
+  fs.writeFileSync(F.timeline, `${JSON.stringify({ ...history, frames }, null, 1)}\n`);
+  process.stdout.write(`build wrote: ${path.relative(process.cwd(), F.timeline)} (${frames.length} frames)\n`);
+
+  const jpNews = result.countries.find((country) => country.code === 'JP')
+    ?.topics.filter((topic) => topic.kind === 'NEWS') ?? [];
+  process.stdout.write(`  JP generated NEWS topics: ${jpNews.length}\n`);
+  process.stdout.write('  JP NEWS top 5:\n');
+  jpNews.slice(0, 5).forEach((topic, i) => {
+    process.stdout.write(
+      `    ${i + 1}. ${topic.title.ja} | score=${topic.score} | `
+      + `publishedAt=${topic.publishedAt ?? 'unknown'}\n`,
+    );
+  });
 
   writeStatus(
-    failedCountries.length === 0 ? 'success' : 'partial',
-    failedCountries.length === 0
+    partial ? 'partial' : 'success',
+    !partial
       ? `Live data generated for all ${successful.length} countries.`
       : `Live data generated for ${successful.length}/${attempted.length} countries; `
-        + `${failedCountries.join(', ')} failed and were skipped.`,
+        + `one or more sources failed for ${failedCountries.join(', ')}.`,
     {
       hasData: true,
       wikimediaItems: wikiResult.items ?? 0,
@@ -393,10 +522,10 @@ function run() {
   );
 
   process.stdout.write('build: generated files -----------------------------\n');
-  process.stdout.write(`  live-topics.json:   ${identical ? 'unchanged (identical)' : 'YES'}\n`);
+  process.stdout.write(`  live-topics.json:   YES${identical ? ' (same ranking, timestamp refreshed)' : ''}\n`);
   process.stdout.write(`  live-wikipedia.json: ${wikiRaw ? 'YES (by fetch-wikimedia.js)' : 'NO'}\n`);
   process.stdout.write(`  live-news.json:      ${newsRaw ? 'YES (by fetch-news.js)' : 'NO'}\n`);
-  process.stdout.write(`  live-timeline.json: ${identical ? 'unchanged' : 'YES'}\n`);
+  process.stdout.write('  live-timeline.json: YES\n');
   process.stdout.write('  update-status.json: YES\n');
   process.stdout.write(
     `build: ${successful.length}/${attempted.length} countries, ${topicsGenerated} topics\n`,
@@ -408,4 +537,7 @@ function run() {
 
 if (require.main === module) process.exitCode = run();
 
-module.exports = { build, buildTimeline, activityFromScores, statusFor, fingerprint, buildCountryStatus };
+module.exports = {
+  build, buildTimeline, activityFromScores, statusFor, fingerprint, buildCountryStatus,
+  ageHoursSince, freshnessBoostFor, sameTheme, coverageStats, coverageBoostFor, scoreNews,
+};

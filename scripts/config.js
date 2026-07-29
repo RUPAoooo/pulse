@@ -68,17 +68,32 @@ const COUNTRIES = [
 
 
 const LIMITS = {
-  newsPerCountry: 10,     // kept after dedupe
+  newsPerCountry: 12,     // kept after dedupe
+  newsRequestRecords: 100,
   wikiPerCountry: 8,
   maxPerDomain: 3,        // stops one outlet owning the list
   historyHours: 25,       // rolling window kept in live-timeline.json
   requestTimeoutMs: 20000,
+  requestRetries: 3,
+  requestRetryDelayMs: 4000,
   /* Pacing. With ~31 countries these keep one run comfortably inside the
      workflow timeout while staying polite to both APIs. */
-  newsDelayMs: 900,
+  newsDelayMs: 2500,
   wikiDelayMs: 250,
   wikiLookbackDays: 3,
 };
+
+const JP_DISASTER_TERMS = [
+  '地震', '津波', '台風', '豪雨', '噴火', '災害',
+  'earthquake', 'tsunami', 'typhoon', 'flood', 'eruption',
+];
+
+const BREAKING_TERMS = [
+  ...JP_DISASTER_TERMS,
+  '大規模事故', '緊急', '警報', '避難', '土砂災害', '洪水', '山火事',
+  'major accident', 'emergency', 'evacuation', 'landslide', 'wildfire',
+  'explosion', 'mass casualty',
+];
 
 const USER_AGENT =
   'WorldPulse/1.0 (https://github.com/RUPAoooo/pulse - static trend visualiser; contact via repository issues)';
@@ -143,20 +158,54 @@ function classify(title) {
   return 'OTHER';
 }
 
-/** fetch with a timeout and a descriptive User-Agent (Wikimedia requires one). */
+function isBreakingNews(title) {
+  const hay = normaliseTitle(title);
+  return BREAKING_TERMS.some((term) => hay.includes(normaliseTitle(term)));
+}
+
+function retryDelay(response, attempt) {
+  const retryAfter = response?.headers?.get?.('retry-after');
+  const seconds = Number(retryAfter);
+  if (Number.isFinite(seconds) && seconds > 0) return Math.min(30000, seconds * 1000);
+  const date = retryAfter ? new Date(retryAfter).getTime() : NaN;
+  if (Number.isFinite(date)) return Math.min(30000, Math.max(0, date - Date.now()));
+  return LIMITS.requestRetryDelayMs * (attempt + 1);
+}
+
+/** fetch with timeout, bounded retry and a descriptive User-Agent. */
 async function getText(url) {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), LIMITS.requestTimeoutMs);
-  try {
-    const res = await fetch(url, {
-      headers: { 'User-Agent': USER_AGENT, Accept: 'application/json' },
-      signal: controller.signal,
-    });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    return await res.text();
-  } finally {
-    clearTimeout(timer);
+  const attempts = Math.max(1, LIMITS.requestRetries ?? 3);
+  let lastError = null;
+
+  for (let attempt = 0; attempt < attempts; attempt += 1) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), LIMITS.requestTimeoutMs);
+    let response = null;
+    let retryable = true;
+    try {
+      response = await fetch(url, {
+        headers: { 'User-Agent': USER_AGENT, Accept: 'application/json' },
+        signal: controller.signal,
+      });
+      if (response.ok) return await response.text();
+      lastError = new Error(`HTTP ${response.status}`);
+      retryable = response.status === 429 || response.status >= 500;
+    } catch (error) {
+      lastError = error;
+    } finally {
+      clearTimeout(timer);
+    }
+
+    if (!retryable || attempt === attempts - 1) throw lastError;
+    const delay = retryDelay(response, attempt);
+    process.stdout.write(
+      `    request retry ${attempt + 1}/${attempts - 1} after `
+      + `${lastError?.message ?? 'request failure'} (${delay}ms)\n`,
+    );
+    await new Promise((resolve) => setTimeout(resolve, delay));
   }
+
+  throw lastError ?? new Error('request failed');
 }
 
 async function getJSON(url) {
@@ -170,5 +219,6 @@ async function getJSON(url) {
 
 module.exports = {
   COUNTRIES, LIMITS, CATEGORIES, CATEGORY_RULES, USER_AGENT,
-  normaliseTitle, classify, getText, getJSON,
+  JP_DISASTER_TERMS, BREAKING_TERMS,
+  normaliseTitle, classify, isBreakingNews, getText, getJSON,
 };

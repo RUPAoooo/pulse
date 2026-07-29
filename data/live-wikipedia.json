@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-29T00:46:51.926Z",
+ "fetchedAt": "2026-07-29T01:53:27.385Z",
  "source": "Wikimedia Pageviews API",
  "countries": [
   {
@@ -1350,71 +1350,71 @@
    "code": "TR",
    "perCountry": false,
    "project": "tr.wikipedia",
-   "date": "2026-07-27",
+   "date": "2026-07-26",
    "articles": [
     {
      "rank": 1,
      "title": "Anasayfa",
-     "views": 44529,
+     "views": 48495,
      "url": "https://tr.wikipedia.org/wiki/Anasayfa",
      "project": "tr.wikipedia",
      "category": "SCIENCE"
     },
     {
      "rank": 2,
+     "title": "FIVB Kadınlar Voleybol Milletler Ligi",
+     "views": 32940,
+     "url": "https://tr.wikipedia.org/wiki/FIVB_Kad%C4%B1nlar_Voleybol_Milletler_Ligi",
+     "project": "tr.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 3,
      "title": "Yeni Parti (2026)",
-     "views": 25026,
+     "views": 31119,
      "url": "https://tr.wikipedia.org/wiki/Yeni_Parti_(2026)",
      "project": "tr.wikipedia",
      "category": "BUSINESS"
     },
     {
-     "rank": 3,
-     "title": "Özel:Ara",
-     "views": 19067,
-     "url": "https://tr.wikipedia.org/wiki/%C3%96zel%3AAra",
-     "project": "tr.wikipedia",
-     "category": "OTHER"
-    },
-    {
      "rank": 4,
-     "title": "Seks ve Genç Kız (film)",
-     "views": 12814,
-     "url": "https://tr.wikipedia.org/wiki/Seks_ve_Gen%C3%A7_K%C4%B1z_(film)",
-     "project": "tr.wikipedia",
-     "category": "ENTERTAINMENT"
-    },
-    {
-     "rank": 5,
-     "title": "Melissa Vargas",
-     "views": 9435,
-     "url": "https://tr.wikipedia.org/wiki/Melissa_Vargas",
-     "project": "tr.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 6,
      "title": "Türkiye kadın millî voleybol takımı",
-     "views": 8264,
+     "views": 28662,
      "url": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_kad%C4%B1n_mill%C3%AE_voleybol_tak%C4%B1m%C4%B1",
      "project": "tr.wikipedia",
      "category": "OTHER"
     },
     {
-     "rank": 7,
+     "rank": 5,
+     "title": "Sinead Jack-Kısal",
+     "views": 26818,
+     "url": "https://tr.wikipedia.org/wiki/Sinead_Jack-K%C4%B1sal",
+     "project": "tr.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 6,
      "title": "FIVB Dünya Sıralaması",
-     "views": 7646,
+     "views": 24318,
      "url": "https://tr.wikipedia.org/wiki/FIVB_D%C3%BCnya_S%C4%B1ralamas%C4%B1",
      "project": "tr.wikipedia",
      "category": "OTHER"
     },
     {
-     "rank": 8,
-     "title": "Odyssey (film)",
-     "views": 7394,
-     "url": "https://tr.wikipedia.org/wiki/Odyssey_(film)",
+     "rank": 7,
+     "title": "Melissa Vargas",
+     "views": 23772,
+     "url": "https://tr.wikipedia.org/wiki/Melissa_Vargas",
      "project": "tr.wikipedia",
-     "category": "ENTERTAINMENT"
+     "category": "OTHER"
+    },
+    {
+     "rank": 8,
+     "title": "2026 FIVB Kadınlar Voleybol Milletler Ligi",
+     "views": 18054,
+     "url": "https://tr.wikipedia.org/wiki/2026_FIVB_Kad%C4%B1nlar_Voleybol_Milletler_Ligi",
+     "project": "tr.wikipedia",
+     "category": "OTHER"
     }
    ]
   },
@@ -1564,47 +1564,71 @@
   },
   {
    "code": "NG",
-   "perCountry": true,
+   "perCountry": false,
    "project": "en.wikipedia",
    "date": "2026-07-27",
    "articles": [
     {
      "rank": 1,
-     "title": "Yan Diomande",
-     "views": 2500,
-     "url": "https://en.wikipedia.org/wiki/Yan_Diomande",
-     "project": "en.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 2,
-     "title": "Danny Welbeck",
-     "views": 1800,
-     "url": "https://en.wikipedia.org/wiki/Danny_Welbeck",
-     "project": "en.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 3,
      "title": "The Odyssey (2026 film)",
-     "views": 1700,
+     "views": 581815,
      "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
      "project": "en.wikipedia",
      "category": "ENTERTAINMENT"
     },
     {
+     "rank": 2,
+     "title": "Bill Oddie",
+     "views": 341705,
+     "url": "https://en.wikipedia.org/wiki/Bill_Oddie",
+     "project": "en.wikipedia",
+     "category": "POLITICS"
+    },
+    {
+     "rank": 3,
+     "title": "Odyssey",
+     "views": 196939,
+     "url": "https://en.wikipedia.org/wiki/Odyssey",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
      "rank": 4,
-     "title": "XHamster",
-     "views": 1400,
-     "url": "https://en.wikipedia.org/wiki/XHamster",
+     "title": ".xyz",
+     "views": 177973,
+     "url": "https://en.wikipedia.org/wiki/.xyz",
      "project": "en.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 5,
-     "title": "David Jonsson",
-     "views": 1200,
-     "url": "https://en.wikipedia.org/wiki/David_Jonsson",
+     "title": "2026 Commonwealth Games",
+     "views": 158021,
+     "url": "https://en.wikipedia.org/wiki/2026_Commonwealth_Games",
+     "project": "en.wikipedia",
+     "category": "ENTERTAINMENT"
+    },
+    {
+     "rank": 6,
+     "title": "Deaths in 2026",
+     "views": 142478,
+     "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 7,
+     "title": "Graeme Garden",
+     "views": 129343,
+     "url": "https://en.wikipedia.org/wiki/Graeme_Garden",
+     "project": "en.wikipedia",
+     "category": "OTHER"
+    },
+    {
+     "rank": 8,
+     "title": "AEW Redemption",
+     "views": 128764,
+     "url": "https://en.wikipedia.org/wiki/AEW_Redemption",
      "project": "en.wikipedia",
      "category": "OTHER"
     }

@@ -10,7 +10,10 @@
 
 const fs = require('fs');
 const path = require('path');
-const { COUNTRIES, LIMITS, classify, normaliseTitle, getJSON } = require('./config');
+const {
+  COUNTRIES, LIMITS, JP_DISASTER_TERMS,
+  classify, normaliseTitle, getJSON,
+} = require('./config');
 
 const OUT = path.join(__dirname, '..', 'data', 'live-news.json');
 const API = 'https://api.gdeltproject.org/api/v2/doc/doc';
@@ -27,15 +30,17 @@ function outletFrom(domain) {
   return String(domain || '').replace(/^www\./, '');
 }
 
-function buildQuery(entry) {
-  const q = `sourcecountry:${entry.gdelt} sourcelang:${entry.lang}`;
+function buildQuery(entry, { disaster = false } = {}) {
+  const q = disaster
+    ? `sourcecountry:${entry.gdelt} (${JP_DISASTER_TERMS.join(' OR ')})`
+    : `sourcecountry:${entry.gdelt} sourcelang:${entry.lang}`;
   const params = new URLSearchParams({
     query: q,
     mode: 'ArtList',
     format: 'json',
-    maxrecords: '75',
+    maxrecords: String(LIMITS.newsRequestRecords ?? 100),
     timespan: '24h',
-    sort: 'HybridRel',
+    sort: 'DateDesc',
   });
   return `${API}?${params.toString()}`;
 }
@@ -74,36 +79,75 @@ function dedupe(articles, limit) {
   return out;
 }
 
-async function fetchCountry(entry) {
-  const url = buildQuery(entry);
-  process.stdout.write(`  ${entry.code} GDELT request: ${url}\n`);
+async function requestArticles(entry, options = {}) {
+  const label = options.disaster ? 'disaster' : 'latest';
+  const url = buildQuery(entry, options);
+  process.stdout.write(`  ${entry.code} GDELT ${label} request: ${url}\n`);
 
   let json;
   try {
     json = await getJSON(url);
-    process.stdout.write(`  ${entry.code} GDELT status: 200\n`);
+    process.stdout.write(`  ${entry.code} GDELT ${label} status: 200\n`);
   } catch (e) {
-    // Surface the HTTP status (getText throws "HTTP nnn") before re-throwing.
-    process.stdout.write(`  ${entry.code} GDELT status: ${e.message}\n`);
+    process.stdout.write(`  ${entry.code} GDELT ${label} status: ${e.message}\n`);
     throw e;
   }
 
   const raw = Array.isArray(json?.articles) ? json.articles : null;
   if (!raw) throw new Error('no articles array in response');
-  process.stdout.write(`  ${entry.code} GDELT raw articles: ${raw.length}\n`);
+  process.stdout.write(`  ${entry.code} GDELT ${label} raw articles: ${raw.length}\n`);
 
-  const shaped = raw.map((a) => ({
+  return raw.map((a, i) => ({
     title: String(a.title || '').trim(),
     url: a.url,
     domain: a.domain,
     language: a.language,
     sourceCountry: a.sourcecountry,
     publishedAt: parseSeenDate(a.seendate),
+    feedRank: i + 1,
+    queryType: label,
   })).filter((a) => a.title && a.url);
+}
+
+function publishedTime(article) {
+  const value = new Date(article.publishedAt || 0).getTime();
+  return Number.isFinite(value) ? value : 0;
+}
+
+async function fetchCountry(entry) {
+  const batches = [];
+  const errors = [];
+
+  try {
+    batches.push(await requestArticles(entry));
+  } catch (e) {
+    errors.push(`latest: ${e.message}`);
+  }
+
+  if (entry.code === 'JP') {
+    try {
+      batches.push(await requestArticles(entry, { disaster: true }));
+    } catch (e) {
+      errors.push(`disaster: ${e.message}`);
+    }
+  }
+
+  if (!batches.length) throw new Error(errors.join(' | ') || 'no GDELT response');
+
+  const shaped = batches.flat().sort((a, b) =>
+    publishedTime(b) - publishedTime(a)
+    || Number(b.queryType === 'disaster') - Number(a.queryType === 'disaster')
+    || a.feedRank - b.feedRank);
 
   const kept = dedupe(shaped, LIMITS.newsPerCountry);
   process.stdout.write(`  ${entry.code} GDELT after dedupe: ${kept.length}\n`);
   if (!kept.length) throw new Error('all articles filtered out by dedupe');
+
+  if (entry.code === 'JP') {
+    const acquired = batches.reduce((sum, batch) => sum + batch.length, 0);
+    process.stdout.write(`  JP GDELT acquired: ${acquired}\n`);
+    process.stdout.write(`  JP latest publishedAt: ${kept[0]?.publishedAt ?? 'unknown'}\n`);
+  }
 
   return {
     code: entry.code,
@@ -117,6 +161,7 @@ async function fetchCountry(entry) {
       country: entry.code,
       category: classify(a.title),
       source: 'GDELT',
+      queryType: a.queryType,
     })),
   };
 }
@@ -179,4 +224,6 @@ if (require.main === module) {
   });
 }
 
-module.exports = { run, dedupe, parseSeenDate, outletFrom, buildQuery };
+module.exports = {
+  run, dedupe, parseSeenDate, outletFrom, buildQuery, requestArticles, publishedTime,
+};
