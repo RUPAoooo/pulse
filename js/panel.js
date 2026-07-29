@@ -512,14 +512,14 @@ export function createPanel({ root, onClose, onTopicOpen, onTopicHover }) {
     const country = ctx.model.countries.get(code);
     const entry = ctx.state.get(code);
     const names = country?.name ?? { ja: code, en: code };
-    const primary = pick(names);
-    const secondary = names.en === primary ? (names.ja ?? code) : (names.en ?? code);
+    const primary = names.en ?? pick(names);
+    const secondary = names.ja ?? code;
     const tz = country?.tz ?? 'UTC';
 
     const { head, clockValue } = headerBar({
       flag: code,
       title: primary,
-      sub: `${secondary} · ${code}${country?.code3 ? ` / ${country.code3}` : ''}`,
+      sub: secondary,
       clock: fmtClock(new Date(), tz),
       date: fmtDate(new Date(), tz),
     });
@@ -585,7 +585,7 @@ export function createPanel({ root, onClose, onTopicOpen, onTopicHover }) {
 
     /* ---- topics --------------------------------------------------------- */
     const sections = topicSections(entry, filtered);
-    const limit = expanded ? 50 : (sections.length > 1 ? 4 : 6);
+    const limit = expanded ? 50 : 3;
 
     sections.forEach((sec) => {
       const section = h('section', 'p-topics');
