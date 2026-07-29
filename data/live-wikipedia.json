@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-07-28T20:38:31.034Z",
+ "fetchedAt": "2026-07-29T00:13:52.044Z",
  "source": "Wikimedia Pageviews API",
  "countries": [
   {
@@ -1158,26 +1158,18 @@
    "code": "NO",
    "perCountry": true,
    "project": "no.wikipedia",
-   "date": "2026-07-26",
+   "date": "2026-07-27",
    "articles": [
     {
      "rank": 1,
      "title": "Forside",
-     "views": 14600,
+     "views": 14200,
      "url": "https://no.wikipedia.org/wiki/Forside",
      "project": "no.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 2,
-     "title": "The Odyssey (2026 film)",
-     "views": 2100,
-     "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
-     "project": "en.wikipedia",
-     "category": "ENTERTAINMENT"
-    },
-    {
-     "rank": 3,
      "title": "The Odyssey",
      "views": 1900,
      "url": "https://no.wikipedia.org/wiki/The_Odyssey",
@@ -1185,34 +1177,26 @@
      "category": "OTHER"
     },
     {
+     "rank": 3,
+     "title": "The Odyssey (2026 film)",
+     "views": 1800,
+     "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
+     "project": "en.wikipedia",
+     "category": "ENTERTAINMENT"
+    },
+    {
      "rank": 4,
      "title": "Odysseen",
-     "views": 1800,
+     "views": 1700,
      "url": "https://no.wikipedia.org/wiki/Odysseen",
      "project": "no.wikipedia",
      "category": "OTHER"
     },
     {
      "rank": 5,
-     "title": "New Hampshire",
-     "views": 1800,
-     "url": "https://en.wikipedia.org/wiki/New_Hampshire",
-     "project": "en.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 6,
-     "title": "Odyssey",
-     "views": 1400,
-     "url": "https://en.wikipedia.org/wiki/Odyssey",
-     "project": "en.wikipedia",
-     "category": "OTHER"
-    },
-    {
-     "rank": 7,
-     "title": "Robin Hood",
-     "views": 1300,
-     "url": "https://no.wikipedia.org/wiki/Robin_Hood",
+     "title": "Hebridene",
+     "views": 1500,
+     "url": "https://no.wikipedia.org/wiki/Hebridene",
      "project": "no.wikipedia",
      "category": "OTHER"
     }

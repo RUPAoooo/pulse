@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-07-28T20:45:07.181Z",
+ "updatedAt": "2026-07-29T00:20:21.241Z",
  "source": "live",
- "fingerprint": "105a803541c16a8d7f45df098b42768045040ae6",
+ "fingerprint": "108a8b7a875c0ecc94c951f7b39b4ffec490fdd6",
  "wikiPerCountry": false,
  "newsSource": "GDELT DOC 2.0 API",
  "wikiSource": "Wikimedia Pageviews API",
@@ -281,42 +281,11 @@
   },
   {
    "code": "AU",
-   "activityScore": 99,
+   "activityScore": 91,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
-    {
-     "id": "n-5942c16449",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Pauline Hanson reveals Gina Rinehart paid for Italy flights and Dolce & Gabbana show",
-      "en": "Pauline Hanson reveals Gina Rinehart paid for Italy flights and Dolce & Gabbana show"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "TECH",
-     "score": 100,
-     "url": "https://www.abc.net.au/news/2026-07-28/hanson-reveals-rinehart-paid-for-italy-trip/106968518",
-     "outlet": "abc.net.au",
-     "publishedAt": "2026-07-28T09:15:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AU",
-     "relatedCountries": [
-      "AU"
-     ],
-     "startedAt": "2026-07-28T09:15:00Z",
-     "durationHours": null
-    },
     {
      "id": "w-6d8fa4ae76",
      "kind": "WIKI",
@@ -349,99 +318,6 @@
       "NZ"
      ],
      "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "n-f9819b88ee",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Ben Carroll walks into the top job just four months out from Victoria election",
-      "en": "Ben Carroll walks into the top job just four months out from Victoria election"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "POLITICS",
-     "score": 96,
-     "url": "https://www.abc.net.au/news/2026-07-28/ben-carroll-vic-labor-premier-analysis/106966210",
-     "outlet": "abc.net.au",
-     "publishedAt": "2026-07-28T09:15:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AU",
-     "relatedCountries": [
-      "AU"
-     ],
-     "startedAt": "2026-07-28T09:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-90d1e7333e",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Green energy funding snub for renewable - powered Bell Bay Aluminium smelter",
-      "en": "Green energy funding snub for renewable - powered Bell Bay Aluminium smelter"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WORLD",
-     "score": 92,
-     "url": "https://www.abc.net.au/news/2026-07-28/no-green-energy-funding-for-rio-tinto-bell-bay-smelter/106966502",
-     "outlet": "abc.net.au",
-     "publishedAt": "2026-07-28T04:30:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AU",
-     "relatedCountries": [
-      "AU"
-     ],
-     "startedAt": "2026-07-28T04:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-bbc3fb5266",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Property sector puts Ben Carroll on notice over Allan  damaging  reforms",
-      "en": "Property sector puts Ben Carroll on notice over Allan  damaging  reforms"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 88,
-     "url": "https://www.realestate.com.au/news/property-sector-puts-ben-carroll-on-notice-over-allans-damaging-reforms/",
-     "outlet": "realestate.com.au",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AU",
-     "relatedCountries": [
-      "AU"
-     ],
-     "startedAt": "2026-07-28T08:30:00Z",
      "durationHours": null
     },
     {
@@ -491,130 +367,6 @@
      "durationHours": null
     },
     {
-     "id": "n-c608261b9e",
-     "kind": "NEWS",
-     "title": {
-      "ja": "The $74k loan saving a 10 - minute check just uncovered",
-      "en": "The $74k loan saving a 10 - minute check just uncovered"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WORLD",
-     "score": 84,
-     "url": "https://www.realestate.com.au/news/the-74k-loan-saving-a-10minute-check-just-uncovered/",
-     "outlet": "realestate.com.au",
-     "publishedAt": "2026-07-28T05:00:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AU",
-     "relatedCountries": [
-      "AU"
-     ],
-     "startedAt": "2026-07-28T05:00:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-fa50da8e30",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Homes and fortune Peter Brock left behind - realestate . com . au",
-      "en": "Homes and fortune Peter Brock left behind - realestate . com . au"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WORLD",
-     "score": 80,
-     "url": "https://www.realestate.com.au/news/homes-and-fortune-peter-brock-left-behind/",
-     "outlet": "realestate.com.au",
-     "publishedAt": "2026-07-28T01:00:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AU",
-     "relatedCountries": [
-      "AU"
-     ],
-     "startedAt": "2026-07-28T01:00:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-e218a290ea",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Divided Liberals need a coalition with themselves , not One Nation",
-      "en": "Divided Liberals need a coalition with themselves , not One Nation"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 76,
-     "url": "https://www.smh.com.au/national/nsw/divided-liberals-need-a-coalition-with-themselves-not-one-nation-20260728-p60j61.html",
-     "outlet": "smh.com.au",
-     "publishedAt": "2026-07-28T09:15:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AU",
-     "relatedCountries": [
-      "AU"
-     ],
-     "startedAt": "2026-07-28T09:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-46682b5474",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Coronial inquest to probe death of cheerleader",
-      "en": "Coronial inquest to probe death of cheerleader"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 72,
-     "url": "https://www.smh.com.au/national/coronial-inquest-to-probe-death-of-cheerleader-20260728-p60jec.html",
-     "outlet": "smh.com.au",
-     "publishedAt": "2026-07-28T09:15:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AU",
-     "relatedCountries": [
-      "AU"
-     ],
-     "startedAt": "2026-07-28T09:15:00Z",
-     "durationHours": null
-    },
-    {
      "id": "w-8cca0ef8af",
      "kind": "WIKI",
      "title": {
@@ -644,37 +396,6 @@
       "AU"
      ],
      "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "n-76b155a5fb",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Moira Deeming resigns from Victorian Liberal Party",
-      "en": "Moira Deeming resigns from Victorian Liberal Party"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "POLITICS",
-     "score": 68,
-     "url": "https://www.smh.com.au/national/moira-deeming-resigns-from-victorian-liberal-party-20260728-p60jea.html",
-     "outlet": "smh.com.au",
-     "publishedAt": "2026-07-28T09:15:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "AU",
-     "relatedCountries": [
-      "AU"
-     ],
-     "startedAt": "2026-07-28T09:15:00Z",
      "durationHours": null
     },
     {
@@ -1203,7 +924,6 @@
      "relatedCountries": [
       "US",
       "CA",
-      "NO",
       "PH"
      ],
      "startedAt": null,
@@ -1406,11 +1126,42 @@
   },
   {
    "code": "CH",
-   "activityScore": 94,
+   "activityScore": 100,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
+    {
+     "id": "n-869a221b37",
+     "kind": "NEWS",
+     "title": {
+      "ja": "FC Thun in Zagreb : Millionen winken – Trainer kennt Champions - League - Prämie nicht",
+      "en": "FC Thun in Zagreb : Millionen winken – Trainer kennt Champions - League - Prämie nicht"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WEATHER",
+     "score": 100,
+     "url": "https://www.20min.ch/story/champions-league-thun-winken-millionen-coach-kennt-koenigsklassen-praemie-nicht-103609692",
+     "outlet": "20min.ch",
+     "publishedAt": "2026-07-28T05:15:00Z",
+     "language": "German",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "CH",
+     "relatedCountries": [
+      "CH"
+     ],
+     "startedAt": "2026-07-28T05:15:00Z",
+     "durationHours": null
+    },
     {
      "id": "w-23d42790b0",
      "kind": "WIKI",
@@ -1478,6 +1229,161 @@
      "durationHours": null
     },
     {
+     "id": "n-668909bf4e",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Saas - Fee VS : Georg füttert Murmeli und löst Shitstorm aus : « Gar nicht herzig »",
+      "en": "Saas - Fee VS : Georg füttert Murmeli und löst Shitstorm aus : « Gar nicht herzig »"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WEATHER",
+     "score": 96,
+     "url": "https://www.20min.ch/story/saas-fee-vs-georg-fuettert-murmeli-und-loest-shitstorm-aus-gar-nicht-herzig-103609491",
+     "outlet": "20min.ch",
+     "publishedAt": "2026-07-28T05:15:00Z",
+     "language": "German",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "CH",
+     "relatedCountries": [
+      "CH"
+     ],
+     "startedAt": "2026-07-28T05:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-eec2e3ef65",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Neue Regeln ab August : Littering - Bussen , Sunrise - Preise und AHV - Änderung",
+      "en": "Neue Regeln ab August : Littering - Bussen , Sunrise - Preise und AHV - Änderung"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 92,
+     "url": "https://www.20min.ch/story/neue-regeln-das-aendert-sich-im-august-in-der-schweiz-103609590",
+     "outlet": "20min.ch",
+     "publishedAt": "2026-07-28T05:15:00Z",
+     "language": "German",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "CH",
+     "relatedCountries": [
+      "CH"
+     ],
+     "startedAt": "2026-07-28T05:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-6e25e5b297",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Wie gut ist die Schweiz gegen Waldbrände gewappnet ?",
+      "en": "Wie gut ist die Schweiz gegen Waldbrände gewappnet ?"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "TECH",
+     "score": 88,
+     "url": "https://www.srf.ch/news/schweiz/anhaltende-trockenheit-wie-gut-ist-die-schweiz-gegen-waldbraende-gewappnet",
+     "outlet": "srf.ch",
+     "publishedAt": "2026-07-28T06:15:00Z",
+     "language": "German",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "CH",
+     "relatedCountries": [
+      "CH"
+     ],
+     "startedAt": "2026-07-28T06:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-8702c14fcb",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Schiff « Unterwalden » - Winston Churchill an Bord : Fünf Stationen im Leben des Dampfers",
+      "en": "Schiff « Unterwalden » - Winston Churchill an Bord : Fünf Stationen im Leben des Dampfers"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 84,
+     "url": "https://www.srf.ch/radio-srf-1/schiff-unterwalden-winston-churchill-an-bord-fuenf-stationen-im-leben-des-dampfers",
+     "outlet": "srf.ch",
+     "publishedAt": "2026-07-28T11:00:00Z",
+     "language": "German",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "CH",
+     "relatedCountries": [
+      "CH"
+     ],
+     "startedAt": "2026-07-28T11:00:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-54b933a3ac",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Von « Crashout » bis « Gute Käse »: Die Top 10 Jugendwörter 2026",
+      "en": "Von « Crashout » bis « Gute Käse »: Die Top 10 Jugendwörter 2026"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 80,
+     "url": "https://www.srf.ch/kultur/gesellschaft-religion/top-10-jugendwoerter-2026-wissen-sie-was-crashout-oder-gute-kaese-bedeutet",
+     "outlet": "srf.ch",
+     "publishedAt": "2026-07-28T11:00:00Z",
+     "language": "German",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "CH",
+     "relatedCountries": [
+      "CH"
+     ],
+     "startedAt": "2026-07-28T11:00:00Z",
+     "durationHours": null
+    },
+    {
      "id": "w-344f28ff9a",
      "kind": "WIKI",
      "title": {
@@ -1508,6 +1414,37 @@
       "CH"
      ],
      "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "n-adb848621d",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Flugpreise : 70 Prozent teurer seit 2021",
+      "en": "Flugpreise : 70 Prozent teurer seit 2021"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 76,
+     "url": "https://www.tagesanzeiger.ch/flugpreise-70-prozent-teurer-seit-2021-487408984991",
+     "outlet": "tagesanzeiger.ch",
+     "publishedAt": "2026-07-28T09:00:00Z",
+     "language": "German",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "CH",
+     "relatedCountries": [
+      "CH"
+     ],
+     "startedAt": "2026-07-28T09:00:00Z",
      "durationHours": null
     },
     {
@@ -1573,6 +1510,68 @@
       "CH"
      ],
      "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "n-d4f801d564",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Neutralitätsinitiative : Wichtigste Antworten zu Blochers Projekt",
+      "en": "Neutralitätsinitiative : Wichtigste Antworten zu Blochers Projekt"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 72,
+     "url": "https://www.tagesanzeiger.ch/neutralitaetsinitiative-wichtigste-antworten-zu-blochers-projekt-423960815562",
+     "outlet": "tagesanzeiger.ch",
+     "publishedAt": "2026-07-28T04:30:00Z",
+     "language": "German",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "CH",
+     "relatedCountries": [
+      "CH"
+     ],
+     "startedAt": "2026-07-28T04:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-280ca85d7b",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Ausgehtipps für die ganze Woche : Das läuft in Winterthur und Umgebung",
+      "en": "Ausgehtipps für die ganze Woche : Das läuft in Winterthur und Umgebung"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 68,
+     "url": "https://www.tagesanzeiger.ch/ausgehtipps-fuer-die-ganze-woche-das-laeuft-in-winterthur-und-umgebung-657649262712",
+     "outlet": "tagesanzeiger.ch",
+     "publishedAt": "2026-07-28T04:30:00Z",
+     "language": "German",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "CH",
+     "relatedCountries": [
+      "CH"
+     ],
+     "startedAt": "2026-07-28T04:30:00Z",
      "durationHours": null
     },
     {
@@ -1957,42 +1956,11 @@
   },
   {
    "code": "EG",
-   "activityScore": 99,
+   "activityScore": 77,
    "risingCount": 0,
    "wikiPerCountry": false,
    "wikiDate": "2026-07-27",
    "topics": [
-    {
-     "id": "n-b524c663e5",
-     "kind": "NEWS",
-     "title": {
-      "ja": "وظائف بمرتبات تصل لـ20 ألف جنيه .. قدم الآن",
-      "en": "وظائف بمرتبات تصل لـ20 ألف جنيه .. قدم الآن"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 100,
-     "url": "https://www.youm7.com/story/2026/7/28/%D9%88%D8%B8%D8%A7%D8%A6%D9%81-%D8%A8%D9%85%D8%B1%D8%AA%D8%A8%D8%A7%D8%AA-%D8%AA%D8%B5%D9%84-%D9%84%D9%8020-%D8%A3%D9%84%D9%81-%D8%AC%D9%86%D9%8A%D9%87-%D9%82%D8%AF%D9%85-%D8%A7%D9%84%D8%A2%D9%86/7494568",
-     "outlet": "youm7.com",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "Arabic",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "peak",
-     "origin": "EG",
-     "relatedCountries": [
-      "EG"
-     ],
-     "startedAt": "2026-07-28T08:30:00Z",
-     "durationHours": null
-    },
     {
      "id": "w-cedda4b096",
      "kind": "WIKI",
@@ -2023,161 +1991,6 @@
       "EG"
      ],
      "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "n-865c83ad93",
-     "kind": "NEWS",
-     "title": {
-      "ja": "حبس 3 مسؤولين 4 أيام في واقعة غرق طفل بحمام السباحة بنادى بالبدرشين",
-      "en": "حبس 3 مسؤولين 4 أيام في واقعة غرق طفل بحمام السباحة بنادى بالبدرشين"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 96,
-     "url": "https://www.youm7.com/story/2026/7/28/%D8%AD%D8%A8%D8%B3-3-%D9%85%D8%B3%D8%A4%D9%88%D9%84%D9%8A%D9%86-4-%D8%A3%D9%8A%D8%A7%D9%85-%D9%81%D9%8A-%D9%88%D8%A7%D9%82%D8%B9%D8%A9-%D8%BA%D8%B1%D9%82-%D8%B7%D9%81%D9%84-%D8%A8%D8%AD%D9%85%D8%A7%D9%85/7495504",
-     "outlet": "youm7.com",
-     "publishedAt": "2026-07-28T09:45:00Z",
-     "language": "Arabic",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "peak",
-     "origin": "EG",
-     "relatedCountries": [
-      "EG"
-     ],
-     "startedAt": "2026-07-28T09:45:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-9aa2dbf575",
-     "kind": "NEWS",
-     "title": {
-      "ja": "نيمار يقترب من الرحيل عن سانتوس - اليوم السابع",
-      "en": "نيمار يقترب من الرحيل عن سانتوس - اليوم السابع"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 92,
-     "url": "https://www.youm7.com/story/2026/7/28/%D9%86%D9%8A%D9%85%D8%A7%D8%B1-%D9%8A%D9%82%D8%AA%D8%B1%D8%A8-%D9%85%D9%86-%D8%A7%D9%84%D8%B1%D8%AD%D9%8A%D9%84-%D8%B9%D9%86-%D8%B3%D8%A7%D9%86%D8%AA%D9%88%D8%B3/7495347",
-     "outlet": "youm7.com",
-     "publishedAt": "2026-07-28T09:45:00Z",
-     "language": "Arabic",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "peak",
-     "origin": "EG",
-     "relatedCountries": [
-      "EG"
-     ],
-     "startedAt": "2026-07-28T09:45:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-049ec4f389",
-     "kind": "NEWS",
-     "title": {
-      "ja": "القائم بأعمال وزير الثقافة يستعرض ترتيبات معرض العلمين للكتاب مع اتحاد الناشرين",
-      "en": "القائم بأعمال وزير الثقافة يستعرض ترتيبات معرض العلمين للكتاب مع اتحاد الناشرين"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 88,
-     "url": "https://www.elwatannews.com/news/details/8328153",
-     "outlet": "elwatannews.com",
-     "publishedAt": "2026-07-28T09:15:00Z",
-     "language": "Arabic",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "peak",
-     "origin": "EG",
-     "relatedCountries": [
-      "EG"
-     ],
-     "startedAt": "2026-07-28T09:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-0014b898a7",
-     "kind": "NEWS",
-     "title": {
-      "ja": "نتيجة الثانوية العامة 2026 جاهزة والإعلان بات وشيكا .. التفاصيل الكاملة",
-      "en": "نتيجة الثانوية العامة 2026 جاهزة والإعلان بات وشيكا .. التفاصيل الكاملة"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 84,
-     "url": "https://www.elwatannews.com/news/details/8328075",
-     "outlet": "elwatannews.com",
-     "publishedAt": "2026-07-28T09:15:00Z",
-     "language": "Arabic",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "stable",
-     "origin": "EG",
-     "relatedCountries": [
-      "EG"
-     ],
-     "startedAt": "2026-07-28T09:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-b2b76793db",
-     "kind": "NEWS",
-     "title": {
-      "ja": "الفنانة رباب طارق تعلن تفاصيل جنازة والدها",
-      "en": "الفنانة رباب طارق تعلن تفاصيل جنازة والدها"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 80,
-     "url": "https://www.elwatannews.com/news/details/8328083",
-     "outlet": "elwatannews.com",
-     "publishedAt": "2026-07-28T09:15:00Z",
-     "language": "Arabic",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "stable",
-     "origin": "EG",
-     "relatedCountries": [
-      "EG"
-     ],
-     "startedAt": "2026-07-28T09:15:00Z",
      "durationHours": null
     },
     {
@@ -2677,11 +2490,42 @@
   },
   {
    "code": "FR",
-   "activityScore": 89,
+   "activityScore": 99,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
+    {
+     "id": "n-626ffd52e2",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Les polémiques sur le non - respect de la vie privée des lunettes connectées de Meta poussent Apple à la prudence",
+      "en": "Les polémiques sur le non - respect de la vie privée des lunettes connectées de Meta poussent Apple à la prudence"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "TECH",
+     "score": 100,
+     "url": "https://www.lefigaro.fr/secteur/high-tech/les-polemiques-sur-le-non-respect-de-la-vie-privee-des-lunettes-connectees-de-meta-poussent-apple-a-la-prudence-20260728",
+     "outlet": "lefigaro.fr",
+     "publishedAt": "2026-07-28T16:15:00Z",
+     "language": "French",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": "2026-07-28T16:15:00Z",
+     "durationHours": null
+    },
     {
      "id": "w-8b377c2bd5",
      "kind": "WIKI",
@@ -2718,6 +2562,223 @@
      "durationHours": null
     },
     {
+     "id": "n-e760eed2a1",
+     "kind": "NEWS",
+     "title": {
+      "ja": "TotalEnergies lance Cronos , le premier projet gazier à Chypre destiné à fournir lEurope",
+      "en": "TotalEnergies lance Cronos , le premier projet gazier à Chypre destiné à fournir lEurope"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "BUSINESS",
+     "score": 96,
+     "url": "https://www.lefigaro.fr/societes/totalenergies-lance-cronos-le-premier-projet-gazier-a-chypre-destine-a-fournir-l-europe-20260728",
+     "outlet": "lefigaro.fr",
+     "publishedAt": "2026-07-28T16:15:00Z",
+     "language": "French",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": "2026-07-28T16:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-bf34b6b32c",
+     "kind": "NEWS",
+     "title": {
+      "ja": "La Fed va - t - elle augmenter ses taux dintérêt ? Le brouillard règne avec limprévisible Kevin Warsh",
+      "en": "La Fed va - t - elle augmenter ses taux dintérêt ? Le brouillard règne avec limprévisible Kevin Warsh"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 92,
+     "url": "https://www.lefigaro.fr/conjoncture/la-fed-va-t-elle-augmenter-ses-taux-d-interet-le-brouillard-regne-avec-l-imprevisible-kevin-warsh-20260728",
+     "outlet": "lefigaro.fr",
+     "publishedAt": "2026-07-28T21:00:00Z",
+     "language": "French",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": "2026-07-28T21:00:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-e21ebca8d1",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Familles nombreuses :  Je me lance enfin , première remarquée pour Justine Dantan",
+      "en": "Familles nombreuses :  Je me lance enfin , première remarquée pour Justine Dantan"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 88,
+     "url": "https://www.allocine.fr:443/tvactu/articles/article-1000215223.html",
+     "outlet": "allocine.fr",
+     "publishedAt": "2026-07-28T10:45:00Z",
+     "language": "French",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": "2026-07-28T10:45:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-f0b3d47416",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Ce soir sur Netflix : le K - drama qui renouvelle la comédie romantique",
+      "en": "Ce soir sur Netflix : le K - drama qui renouvelle la comédie romantique"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "ENTERTAINMENT",
+     "score": 84,
+     "url": "https://www.allocine.fr:443/article/fichearticle_gen_carticle=1000202081.html",
+     "outlet": "allocine.fr",
+     "publishedAt": "2026-07-28T20:00:00Z",
+     "language": "French",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": "2026-07-28T20:00:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-543f54b454",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Noté 4 , 4 sur 5 , cest lun des meilleurs thrillers des années 2000 ... Et Joaquin Phoenix a passé le tournage à insulter cette légende du cinéma !",
+      "en": "Noté 4 , 4 sur 5 , cest lun des meilleurs thrillers des années 2000 ... Et Joaquin Phoenix a passé le tournage à insulter cette légende du cinéma !"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "ENTERTAINMENT",
+     "score": 80,
+     "url": "https://www.allocine.fr:443/article/fichearticle_gen_carticle=1000213598.html",
+     "outlet": "allocine.fr",
+     "publishedAt": "2026-07-28T20:00:00Z",
+     "language": "French",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": "2026-07-28T20:00:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-da2b36dd7c",
+     "kind": "NEWS",
+     "title": {
+      "ja": "LAS Monaco Basket va - t - elle sauver sa place en Betclic Elite ?",
+      "en": "LAS Monaco Basket va - t - elle sauver sa place en Betclic Elite ?"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 76,
+     "url": "https://www.lequipe.fr/Basket/Actualites/L-as-monaco-basket-va-t-elle-sauver-sa-place-en-betclic-elite/1707621",
+     "outlet": "lequipe.fr",
+     "publishedAt": "2026-07-28T21:00:00Z",
+     "language": "French",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": "2026-07-28T21:00:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-4609b85636",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Salaires et installations XXL : pourquoi la NCAA est le nouvel eldorado des jeunes basketteurs français",
+      "en": "Salaires et installations XXL : pourquoi la NCAA est le nouvel eldorado des jeunes basketteurs français"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "TECH",
+     "score": 72,
+     "url": "https://www.lequipe.fr/Basket/Article/Salaires-et-installations-xxl-pourquoi-la-ncaa-est-le-nouvel-eldorado-des-jeunes-basketteurs-francais/1707625",
+     "outlet": "lequipe.fr",
+     "publishedAt": "2026-07-28T21:00:00Z",
+     "language": "French",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": "2026-07-28T21:00:00Z",
+     "durationHours": null
+    },
+    {
      "id": "w-c794f81f99",
      "kind": "WIKI",
      "title": {
@@ -2750,6 +2811,37 @@
      "durationHours": null
     },
     {
+     "id": "n-6617f6db0a",
+     "kind": "NEWS",
+     "title": {
+      "ja": "« La pression est alimentée par ceux qui essaient de le courtiser » : Dominique Serieys fait le bilan du Tour de France et se montre confiant quant à lavenir de Paul Seixas",
+      "en": "« La pression est alimentée par ceux qui essaient de le courtiser » : Dominique Serieys fait le bilan du Tour de France et se montre confiant quant à lavenir de Paul Seixas"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "TECH",
+     "score": 68,
+     "url": "https://www.lequipe.fr/Cyclisme-sur-route/Actualites/-la-pression-est-alimentee-par-ceux-qui-essaient-de-le-courtiser-dominique-serieys-fait-le-bilan-du-tour-de-france-et-se-montre-confiant-quant-a-l-avenir-de-paul-seixas/1707506",
+     "outlet": "lequipe.fr",
+     "publishedAt": "2026-07-28T21:00:00Z",
+     "language": "French",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": "2026-07-28T21:00:00Z",
+     "durationHours": null
+    },
+    {
      "id": "w-45f89e8f66",
      "kind": "WIKI",
      "title": {
@@ -2779,6 +2871,37 @@
       "FR"
      ],
      "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "n-cdec97ecd8",
+     "kind": "NEWS",
+     "title": {
+      "ja": "« Comme The Voice » : votre Tesla va désormais juger vos talents de chanteur grâce à sa dernière mise à jour insolite",
+      "en": "« Comme The Voice » : votre Tesla va désormais juger vos talents de chanteur grâce à sa dernière mise à jour insolite"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "TECH",
+     "score": 64,
+     "url": "https://www.01net.com/actualites/the-voice-tesla-va-juger-talents-chanteur-mise-a-jour-insolite.html",
+     "outlet": "01net.com",
+     "publishedAt": "2026-07-28T07:30:00Z",
+     "language": "French",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "FR",
+     "relatedCountries": [
+      "FR"
+     ],
+     "startedAt": "2026-07-28T07:30:00Z",
      "durationHours": null
     },
     {
@@ -3502,42 +3625,11 @@
   },
   {
    "code": "ID",
-   "activityScore": 99,
+   "activityScore": 85,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
-    {
-     "id": "n-3ca31eca7f",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Tabligh Akbar di Masjid Raya Singkawang Perkuat Ukhuwah dan Toleransi dalam Bingkai NKRI",
-      "en": "Tabligh Akbar di Masjid Raya Singkawang Perkuat Ukhuwah dan Toleransi dalam Bingkai NKRI"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "TECH",
-     "score": 100,
-     "url": "https://pontianak.tribunnews.com/kalbar/1180600/tabligh-akbar-di-masjid-raya-singkawang-perkuat-ukhuwah-dan-toleransi-dalam-bingkai-nkri",
-     "outlet": "pontianak.tribunnews.com",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "Indonesian",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "ID",
-     "relatedCountries": [
-      "ID"
-     ],
-     "startedAt": "2026-07-28T08:30:00Z",
-     "durationHours": null
-    },
     {
      "id": "w-8de3593d09",
      "kind": "WIKI",
@@ -3571,254 +3663,6 @@
      "durationHours": null
     },
     {
-     "id": "n-ce6b48e9b0",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Bombana Menerima Dana Transfer ke Daerah 2026 Rp 355 Miliar , DAU Terbesar",
-      "en": "Bombana Menerima Dana Transfer ke Daerah 2026 Rp 355 Miliar , DAU Terbesar"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 96,
-     "url": "https://batam.tribunnews.com/news/690964/bombana-menerima-dana-transfer-ke-daerah-2026-rp-355-miliar-dau-terbesar",
-     "outlet": "batam.tribunnews.com",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "Indonesian",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "ID",
-     "relatedCountries": [
-      "ID"
-     ],
-     "startedAt": "2026-07-28T08:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-b7e7e8f57c",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Chat Lodewyk Pusung ke Istri Jadi Bukti Kejagung soal Peran Eks Wakil Kepala BGN dalam Korupsi MBG",
-      "en": "Chat Lodewyk Pusung ke Istri Jadi Bukti Kejagung soal Peran Eks Wakil Kepala BGN dalam Korupsi MBG"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WORLD",
-     "score": 92,
-     "url": "https://www.tribunnews.com/nasional/7860391/chat-lodewyk-pusung-ke-istri-jadi-bukti-kejagung-soal-peran-eks-wakil-kepala-bgn-dalam-korupsi-mbg",
-     "outlet": "tribunnews.com",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "Indonesian",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "ID",
-     "relatedCountries": [
-      "ID"
-     ],
-     "startedAt": "2026-07-28T08:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-761f093f90",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Sosok NA , Siswi SD di Padang Diduga Korban Bullying Meninggal di Hari Ultah , Minta Kue Cokelat",
-      "en": "Sosok NA , Siswi SD di Padang Diduga Korban Bullying Meninggal di Hari Ultah , Minta Kue Cokelat"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 88,
-     "url": "https://www.tribunnews.com/regional/7860385/sosok-na-siswi-sd-di-padang-diduga-korban-bullying-meninggal-di-hari-ultah-minta-kue-cokelat",
-     "outlet": "tribunnews.com",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "Indonesian",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "ID",
-     "relatedCountries": [
-      "ID"
-     ],
-     "startedAt": "2026-07-28T08:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-83cd6b04cb",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Chord Gitar Minang Timur - Atta Music feat Juan Reza , Cantik Manis Pipi Congka Adoh",
-      "en": "Chord Gitar Minang Timur - Atta Music feat Juan Reza , Cantik Manis Pipi Congka Adoh"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "ENTERTAINMENT",
-     "score": 84,
-     "url": "https://batam.tribunnews.com/musik/690970/chord-gitar-minang-timur-atta-music-feat-juan-reza-cantik-manis-pipi-congka-adoh",
-     "outlet": "batam.tribunnews.com",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "Indonesian",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "ID",
-     "relatedCountries": [
-      "ID"
-     ],
-     "startedAt": "2026-07-28T08:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-f80e353849",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Prediksi Skor Aston Villa vs Real Sociedad :  Head - to - head dan Statistik di Persiapan Pramusim",
-      "en": "Prediksi Skor Aston Villa vs Real Sociedad :  Head - to - head dan Statistik di Persiapan Pramusim"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 80,
-     "url": "https://jambi.tribunnews.com/superball/1201284/prediksi-skor-aston-villa-vs-real-sociedadhead-to-head-dan-statistik-di-persiapan-pramusim",
-     "outlet": "jambi.tribunnews.com",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "Indonesian",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "ID",
-     "relatedCountries": [
-      "ID"
-     ],
-     "startedAt": "2026-07-28T08:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-dde1d819cf",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Kota Bau - bau Dikucuri Dana Transfer ke Daerah 2026 Rp 312 Miliar , DAU Terbesar",
-      "en": "Kota Bau - bau Dikucuri Dana Transfer ke Daerah 2026 Rp 312 Miliar , DAU Terbesar"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 76,
-     "url": "https://batam.tribunnews.com/news/690957/kota-bau-bau-dikucuri-dana-transfer-ke-daerah-2026-rp-312-miliar-dau-terbesar",
-     "outlet": "batam.tribunnews.com",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "Indonesian",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "ID",
-     "relatedCountries": [
-      "ID"
-     ],
-     "startedAt": "2026-07-28T08:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-34999e0b2c",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Diputusin , Pria di Depok Aniaya Mantan Kekasih Sampai Mengancam :  Lo Tahu Kan Gue Orangnya !",
-      "en": "Diputusin , Pria di Depok Aniaya Mantan Kekasih Sampai Mengancam :  Lo Tahu Kan Gue Orangnya !"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "TECH",
-     "score": 72,
-     "url": "https://jakarta.tribunnews.com/bodetabek/439461/diputusin-pria-di-depok-aniaya-mantan-kekasih-sampai-mengancam-lo-tahu-kan-gue-orangnya",
-     "outlet": "jakarta.tribunnews.com",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "Indonesian",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "ID",
-     "relatedCountries": [
-      "ID"
-     ],
-     "startedAt": "2026-07-28T08:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-a8735c04ef",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Legislator PDIP Desak Pemerintah Pusat Cairkan DBH Jakarta , Sebut Anggaran Komisi D Defisit Rp 1 , 5 T",
-      "en": "Legislator PDIP Desak Pemerintah Pusat Cairkan DBH Jakarta , Sebut Anggaran Komisi D Defisit Rp 1 , 5 T"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "TECH",
-     "score": 68,
-     "url": "https://jakarta.tribunnews.com/jakarta/439467/legislator-pdip-desak-pemerintah-pusat-cairkan-dbh-jakarta-sebut-anggaran-komisi-d-defisit-rp-15-t",
-     "outlet": "jakarta.tribunnews.com",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "Indonesian",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "ID",
-     "relatedCountries": [
-      "ID"
-     ],
-     "startedAt": "2026-07-28T08:30:00Z",
-     "durationHours": null
-    },
-    {
      "id": "w-d9776f05a5",
      "kind": "WIKI",
      "title": {
@@ -3848,37 +3692,6 @@
       "ID"
      ],
      "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "n-b8238ead47",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Kantor Terbuat dari Peti Kemas di Penjaringan Jakut Kebakaran , Kerugian Capai Rp 60 Juta",
-      "en": "Kantor Terbuat dari Peti Kemas di Penjaringan Jakut Kebakaran , Kerugian Capai Rp 60 Juta"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "TECH",
-     "score": 64,
-     "url": "https://jakarta.tribunnews.com/jakarta/439463/kantor-terbuat-dari-peti-kemas-di-penjaringan-jakut-kebakaran-kerugian-capai-rp-60-juta",
-     "outlet": "jakarta.tribunnews.com",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "Indonesian",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "ID",
-     "relatedCountries": [
-      "ID"
-     ],
-     "startedAt": "2026-07-28T08:30:00Z",
      "durationHours": null
     },
     {
@@ -4374,11 +4187,42 @@
   },
   {
    "code": "IT",
-   "activityScore": 79,
+   "activityScore": 99,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
+    {
+     "id": "n-1ffa14279f",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Sondaggi politici , Futuro nazionale di Vannacci si avvicina a Forza Italia",
+      "en": "Sondaggi politici , Futuro nazionale di Vannacci si avvicina a Forza Italia"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 100,
+     "url": "https://www.repubblica.it/politica/2026/07/28/news/sondaggi_politici_futuro_nazionale_vannacci_forza_italia-425497246/",
+     "outlet": "repubblica.it",
+     "publishedAt": "2026-07-28T09:00:00Z",
+     "language": "Italian",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "IT",
+     "relatedCountries": [
+      "IT"
+     ],
+     "startedAt": "2026-07-28T09:00:00Z",
+     "durationHours": null
+    },
     {
      "id": "w-b6311849e4",
      "kind": "WIKI",
@@ -4410,6 +4254,254 @@
       "CH"
      ],
      "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "n-736fbf16c9",
+     "kind": "NEWS",
+     "title": {
+      "ja": "È morto Emidio Pepe , il rivoluzionario del vino abruzzese",
+      "en": "È morto Emidio Pepe , il rivoluzionario del vino abruzzese"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 96,
+     "url": "https://www.repubblica.it/il-gusto/2026/07/28/news/morto_emidio_pepe_il_rivoluzionario_del_vino_abruzzese-425497400/",
+     "outlet": "repubblica.it",
+     "publishedAt": "2026-07-28T09:45:00Z",
+     "language": "Italian",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "IT",
+     "relatedCountries": [
+      "IT"
+     ],
+     "startedAt": "2026-07-28T09:45:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-8c3afe0857",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Mari sempre più caldi , ora anche in profondità",
+      "en": "Mari sempre più caldi , ora anche in profondità"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 92,
+     "url": "https://www.repubblica.it/green-and-blue/2026/07/28/news/mare_caldo_greenpeace-425497287/",
+     "outlet": "repubblica.it",
+     "publishedAt": "2026-07-28T09:45:00Z",
+     "language": "Italian",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "IT",
+     "relatedCountries": [
+      "IT"
+     ],
+     "startedAt": "2026-07-28T09:45:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-306c9611b5",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Guerra Ucraina - Russia , le notizie in diretta | Oggi Zelensky incontra Trump alla Casa Bianca per rilanciare il sostegno allUcraina",
+      "en": "Guerra Ucraina - Russia , le notizie in diretta | Oggi Zelensky incontra Trump alla Casa Bianca per rilanciare il sostegno allUcraina"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WEATHER",
+     "score": 88,
+     "url": "https://www.corriere.it/esteri/diretta-live/26_luglio_28/ucraina-russia-news-guerra.shtml",
+     "outlet": "corriere.it",
+     "publishedAt": "2026-07-28T04:30:00Z",
+     "language": "Italian",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "IT",
+     "relatedCountries": [
+      "IT"
+     ],
+     "startedAt": "2026-07-28T04:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-c8361ccf96",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Il Quiz del Corriere del 28 luglio : in quale anno Fiat lanciò la Panda ?",
+      "en": "Il Quiz del Corriere del 28 luglio : in quale anno Fiat lanciò la Panda ?"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 84,
+     "url": "https://www.corriere.it/giochi/news/26_luglio_28/il-quiz-del-corriere-del-28-luglio-in-quale-anno-fiat-lancio-la-panda-1246176c-39a3-4529-be37-78ebb0a4bxlk.shtml",
+     "outlet": "corriere.it",
+     "publishedAt": "2026-07-28T04:30:00Z",
+     "language": "Italian",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "IT",
+     "relatedCountries": [
+      "IT"
+     ],
+     "startedAt": "2026-07-28T04:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-c0e2e925fd",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Laspetto buffo e simpatico di un simbolo portafortuna : la parola Apegramma di oggi | Giochi",
+      "en": "Laspetto buffo e simpatico di un simbolo portafortuna : la parola Apegramma di oggi | Giochi"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 80,
+     "url": "https://www.corriere.it/giochi/news/26_luglio_28/l-aspetto-buffo-e-simpatico-di-un-simbolo-portafortuna-la-parola-apegramma-di-oggi-62f30053-0fd0-40ee-8abe-16807b34cxlk.shtml",
+     "outlet": "corriere.it",
+     "publishedAt": "2026-07-28T04:30:00Z",
+     "language": "Italian",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "IT",
+     "relatedCountries": [
+      "IT"
+     ],
+     "startedAt": "2026-07-28T04:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-d5ea012c18",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Fanta - editoria : leonardino si pappa  repubblica ? –  il foglio  racconta le suggestioni di ...",
+      "en": "Fanta - editoria : leonardino si pappa  repubblica ? –  il foglio  racconta le suggestioni di ..."
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "TECH",
+     "score": 76,
+     "url": "https://www.dagospia.com/media-tv/fanta-editoria-leonardino-si-pappa-repubblica-il-foglio-racconta-481945",
+     "outlet": "dagospia.com",
+     "publishedAt": "2026-07-28T09:15:00Z",
+     "language": "Italian",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "IT",
+     "relatedCountries": [
+      "IT"
+     ],
+     "startedAt": "2026-07-28T09:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-91a717d013",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Forza , scienza ! - i ricercatori delluniversita  di miami hanno scoperto delle ...",
+      "en": "Forza , scienza ! - i ricercatori delluniversita  di miami hanno scoperto delle ..."
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 72,
+     "url": "https://www.dagospia.com/cronache/forza-scienza-i-ricercatori-dell-universita-miami-scoperto-delle-481914",
+     "outlet": "dagospia.com",
+     "publishedAt": "2026-07-28T09:15:00Z",
+     "language": "Italian",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "IT",
+     "relatedCountries": [
+      "IT"
+     ],
+     "startedAt": "2026-07-28T09:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-f0e9f86fa0",
+     "kind": "NEWS",
+     "title": {
+      "ja": "Con la bernardini de pace non c  È pace per leonardino – il tribunale di milano ordina a ..",
+      "en": "Con la bernardini de pace non c  È pace per leonardino – il tribunale di milano ordina a .."
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 68,
+     "url": "https://www.dagospia.com/business/bernardini-de-pace-non-c-e-pace-per-leonardino-tribunale-milano-ordina-481932",
+     "outlet": "dagospia.com",
+     "publishedAt": "2026-07-28T09:15:00Z",
+     "language": "Italian",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "IT",
+     "relatedCountries": [
+      "IT"
+     ],
+     "startedAt": "2026-07-28T09:15:00Z",
      "durationHours": null
     },
     {
@@ -4640,42 +4732,11 @@
   },
   {
    "code": "JP",
-   "activityScore": 99,
+   "activityScore": 76,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
-    {
-     "id": "n-394b1daffc",
-     "kind": "NEWS",
-     "title": {
-      "ja": "日本の位置情報サービス （ LBS ） 市場 ： 市場需要 、 市場シェア 、 トレンド 、 成長 、 市場機会 、 およびインサイト分析 （ 2026年～2036年 ）",
-      "en": "日本の位置情報サービス （ LBS ） 市場 ： 市場需要 、 市場シェア 、 トレンド 、 成長 、 市場機会 、 およびインサイト分析 （ 2026年～2036年 ）"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "BUSINESS",
-     "score": 100,
-     "url": "https://japan.cnet.com/release/31192746/",
-     "outlet": "japan.cnet.com",
-     "publishedAt": "2026-07-28T09:45:00Z",
-     "language": "Japanese",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "peak",
-     "origin": "JP",
-     "relatedCountries": [
-      "JP"
-     ],
-     "startedAt": "2026-07-28T09:45:00Z",
-     "durationHours": null
-    },
     {
      "id": "w-8c085ceb19",
      "kind": "WIKI",
@@ -4709,254 +4770,6 @@
       "HK"
      ],
      "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "n-87e3a20788",
-     "kind": "NEWS",
-     "title": {
-      "ja": "HNS 2026 | Huawei 、 南部アフリカ向けにアップグレード版 「 Xinghe AIキャンパスソリューション 」 を発表",
-      "en": "HNS 2026 | Huawei 、 南部アフリカ向けにアップグレード版 「 Xinghe AIキャンパスソリューション 」 を発表"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "TECH",
-     "score": 96,
-     "url": "https://japan.cnet.com/release/31192741/",
-     "outlet": "japan.cnet.com",
-     "publishedAt": "2026-07-28T09:45:00Z",
-     "language": "Japanese",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "peak",
-     "origin": "JP",
-     "relatedCountries": [
-      "JP"
-     ],
-     "startedAt": "2026-07-28T09:45:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-4391ad5d67",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Cloud - Clone 、 全系統多種初代神経細胞ラインナップのグローバルローンチを予定",
-      "en": "Cloud - Clone 、 全系統多種初代神経細胞ラインナップのグローバルローンチを予定"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 92,
-     "url": "https://japan.cnet.com/release/31192734/",
-     "outlet": "japan.cnet.com",
-     "publishedAt": "2026-07-28T09:45:00Z",
-     "language": "Japanese",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "peak",
-     "origin": "JP",
-     "relatedCountries": [
-      "JP"
-     ],
-     "startedAt": "2026-07-28T09:45:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-ca0e213f3d",
-     "kind": "NEWS",
-     "title": {
-      "ja": "早期では症状が出ない 「 大腸がん 」。 消化器内科医が解説する検診の重要性",
-      "en": "早期では症状が出ない 「 大腸がん 」。 消化器内科医が解説する検診の重要性"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 88,
-     "url": "https://news.livedoor.com/article/detail/31928328/",
-     "outlet": "news.livedoor.com",
-     "publishedAt": "2026-07-28T07:30:00Z",
-     "language": "Japanese",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "peak",
-     "origin": "JP",
-     "relatedCountries": [
-      "JP"
-     ],
-     "startedAt": "2026-07-28T07:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-dc648d4f31",
-     "kind": "NEWS",
-     "title": {
-      "ja": "朝のコンビニで 「 トイレ汚いから使えない 」 店員女性が絶句した惨状 「 もう二度と汚さないで欲しいです 」",
-      "en": "朝のコンビニで 「 トイレ汚いから使えない 」 店員女性が絶句した惨状 「 もう二度と汚さないで欲しいです 」"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 84,
-     "url": "https://news.livedoor.com/article/detail/31927598/",
-     "outlet": "news.livedoor.com",
-     "publishedAt": "2026-07-28T05:00:00Z",
-     "language": "Japanese",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "stable",
-     "origin": "JP",
-     "relatedCountries": [
-      "JP"
-     ],
-     "startedAt": "2026-07-28T05:00:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-97c33037a7",
-     "kind": "NEWS",
-     "title": {
-      "ja": "阪神OBバース氏 佐藤輝に3冠王への心構え伝授 「 何が起こっても自分のペースで 」 森下との相乗効果も期待",
-      "en": "阪神OBバース氏 佐藤輝に3冠王への心構え伝授 「 何が起こっても自分のペースで 」 森下との相乗効果も期待"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 80,
-     "url": "https://news.livedoor.com/article/detail/31927441/",
-     "outlet": "news.livedoor.com",
-     "publishedAt": "2026-07-27T23:00:00Z",
-     "language": "Japanese",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "stable",
-     "origin": "JP",
-     "relatedCountries": [
-      "JP"
-     ],
-     "startedAt": "2026-07-27T23:00:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-ffb6f6bfbc",
-     "kind": "NEWS",
-     "title": {
-      "ja": "5匹目のミジンコはやや飛び出したの巻 | Oh ！ エルちゃんのダイエットブログ",
-      "en": "5匹目のミジンコはやや飛び出したの巻 | Oh ！ エルちゃんのダイエットブログ"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 76,
-     "url": "https://ameblo.jp/murako-diet/entry-12973803687.html",
-     "outlet": "ameblo.jp",
-     "publishedAt": "2026-07-28T12:00:00Z",
-     "language": "Japanese",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "stable",
-     "origin": "JP",
-     "relatedCountries": [
-      "JP"
-     ],
-     "startedAt": "2026-07-28T12:00:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-30dadb6792",
-     "kind": "NEWS",
-     "title": {
-      "ja": "運命すぎる出会いが … | あいのりクロの 「 こいたん 」 オフィシャルブログ Powered by Ameba",
-      "en": "運命すぎる出会いが … | あいのりクロの 「 こいたん 」 オフィシャルブログ Powered by Ameba"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 72,
-     "url": "https://ameblo.jp/watajima/entry-12974034533.html",
-     "outlet": "ameblo.jp",
-     "publishedAt": "2026-07-28T12:00:00Z",
-     "language": "Japanese",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "stable",
-     "origin": "JP",
-     "relatedCountries": [
-      "JP"
-     ],
-     "startedAt": "2026-07-28T12:00:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-e13c700b40",
-     "kind": "NEWS",
-     "title": {
-      "ja": "カウンセリングBSJ with ののこ | イクラの雑記 ＠ KOREA",
-      "en": "カウンセリングBSJ with ののこ | イクラの雑記 ＠ KOREA"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 68,
-     "url": "https://ameblo.jp/ikuraebimaguro/entry-12973779693.html",
-     "outlet": "ameblo.jp",
-     "publishedAt": "2026-07-28T03:30:00Z",
-     "language": "Japanese",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "stable",
-     "origin": "JP",
-     "relatedCountries": [
-      "JP"
-     ],
-     "startedAt": "2026-07-28T03:30:00Z",
      "durationHours": null
     },
     {
@@ -5188,11 +5001,42 @@
   },
   {
    "code": "KR",
-   "activityScore": 80,
+   "activityScore": 99,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
+    {
+     "id": "n-5376436a89",
+     "kind": "NEWS",
+     "title": {
+      "ja": "히가시노 게이고",
+      "en": "히가시노 게이고"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 100,
+     "url": "https://terms.naver.com/entry.naver?docId=2078782&cid=44546&categoryId=44546",
+     "outlet": "terms.naver.com",
+     "publishedAt": "2026-07-28T05:45:00Z",
+     "language": "Korean",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "KR",
+     "relatedCountries": [
+      "KR"
+     ],
+     "startedAt": "2026-07-28T05:45:00Z",
+     "durationHours": null
+    },
     {
      "id": "w-d963ca6526",
      "kind": "WIKI",
@@ -5223,6 +5067,223 @@
       "KR"
      ],
      "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "n-d1962e7495",
+     "kind": "NEWS",
+     "title": {
+      "ja": "[ EXCLUSIVE ] [ SPECIAL RELAY INTERVIEW ] [ KR ] Meet idntt Dohun as he reflects on his journey in allkpop exclusive relay interview",
+      "en": "[ EXCLUSIVE ] [ SPECIAL RELAY INTERVIEW ] [ KR ] Meet idntt Dohun as he reflects on his journey in allkpop exclusive relay interview"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "WORLD",
+     "score": 96,
+     "url": "https://www.allkpop.com/article/2026/07/special-relay-interview-kr-meet-idntts-dohun-as-he-reflects-on-his-journey-in-allkpops-exclusive-relay-interview",
+     "outlet": "allkpop.com",
+     "publishedAt": "2026-07-28T19:30:00Z",
+     "language": "Korean",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "KR",
+     "relatedCountries": [
+      "KR"
+     ],
+     "startedAt": "2026-07-28T19:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-38e7610dd8",
+     "kind": "NEWS",
+     "title": {
+      "ja": "박홍근 , 첫 민주노총 방문 … 양경수 위원장  사회안전망 예산 늘려야",
+      "en": "박홍근 , 첫 민주노총 방문 … 양경수 위원장  사회안전망 예산 늘려야"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 92,
+     "url": "https://www.hani.co.kr/arti/society/labor/1270346.html",
+     "outlet": "hani.co.kr",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "Korean",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "KR",
+     "relatedCountries": [
+      "KR"
+     ],
+     "startedAt": "2026-07-28T08:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-2b122d7832",
+     "kind": "NEWS",
+     "title": {
+      "ja": "오태규 방문진 이사  졸속 임명  에  부실검증 추인한 법 개정을  지적 확산",
+      "en": "오태규 방문진 이사  졸속 임명  에  부실검증 추인한 법 개정을  지적 확산"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 88,
+     "url": "https://www.hani.co.kr/arti/society/media/1270341.html",
+     "outlet": "hani.co.kr",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "Korean",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "KR",
+     "relatedCountries": [
+      "KR"
+     ],
+     "startedAt": "2026-07-28T08:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-04d1bf4284",
+     "kind": "NEWS",
+     "title": {
+      "ja": "경찰 ,  중학생 성매매  혐의 최영중 전 청주시의원 구속영장 신청",
+      "en": "경찰 ,  중학생 성매매  혐의 최영중 전 청주시의원 구속영장 신청"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 84,
+     "url": "https://www.hani.co.kr/arti/area/chungcheong/1270335.html",
+     "outlet": "hani.co.kr",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "Korean",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "KR",
+     "relatedCountries": [
+      "KR"
+     ],
+     "startedAt": "2026-07-28T08:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-773c43d83d",
+     "kind": "NEWS",
+     "title": {
+      "ja": "제대로 된 보수  자처하는  명태균 게이트  연루자들",
+      "en": "제대로 된 보수  자처하는  명태균 게이트  연루자들"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 80,
+     "url": "https://h21.hani.co.kr/arti/politics/politics_general/59672.html",
+     "outlet": "h21.hani.co.kr",
+     "publishedAt": "2026-07-28T09:45:00Z",
+     "language": "Korean",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "KR",
+     "relatedCountries": [
+      "KR"
+     ],
+     "startedAt": "2026-07-28T09:45:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-0d12c7be35",
+     "kind": "NEWS",
+     "title": {
+      "ja": "소년범죄 정책 , 손가락만 보는 대통령",
+      "en": "소년범죄 정책 , 손가락만 보는 대통령"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "POLITICS",
+     "score": 76,
+     "url": "https://h21.hani.co.kr/arti/society/society_general/59676.html",
+     "outlet": "h21.hani.co.kr",
+     "publishedAt": "2026-07-28T09:45:00Z",
+     "language": "Korean",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "KR",
+     "relatedCountries": [
+      "KR"
+     ],
+     "startedAt": "2026-07-28T09:45:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-b4ca000367",
+     "kind": "NEWS",
+     "title": {
+      "ja": "과학으로 본  호프 , 허술하거나 앙상하거나",
+      "en": "과학으로 본  호프 , 허술하거나 앙상하거나"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 72,
+     "url": "https://h21.hani.co.kr/arti/culture/science/59656.html",
+     "outlet": "h21.hani.co.kr",
+     "publishedAt": "2026-07-28T04:00:00Z",
+     "language": "Korean",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "KR",
+     "relatedCountries": [
+      "KR"
+     ],
+     "startedAt": "2026-07-28T04:00:00Z",
      "durationHours": null
     },
     {
@@ -6178,7 +6239,7 @@
    "activityScore": 76,
    "risingCount": 0,
    "wikiPerCountry": true,
-   "wikiDate": "2026-07-26",
+   "wikiDate": "2026-07-27",
    "topics": [
     {
      "id": "w-4916ff9267",
@@ -6194,7 +6255,7 @@
      "category": "OTHER",
      "score": 100,
      "url": "https://no.wikipedia.org/wiki/Forside",
-     "views": 14600,
+     "views": 14200,
      "rank": 1,
      "project": "no.wikipedia",
      "publishedAt": null,
@@ -6205,6 +6266,38 @@
      "scope": "LOCAL",
      "change": 0,
      "status": "peak",
+     "origin": "NO",
+     "relatedCountries": [
+      "NO"
+     ],
+     "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "w-d926ad8044",
+     "kind": "WIKI",
+     "title": {
+      "ja": "The Odyssey",
+      "en": "The Odyssey"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 30,
+     "url": "https://no.wikipedia.org/wiki/The_Odyssey",
+     "views": 1900,
+     "rank": 2,
+     "project": "no.wikipedia",
+     "publishedAt": null,
+     "keywords": [],
+     "sources": [
+      "WIKIPEDIA"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "stable",
      "origin": "NO",
      "relatedCountries": [
       "NO"
@@ -6226,8 +6319,8 @@
      "category": "ENTERTAINMENT",
      "score": 30,
      "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
-     "views": 2100,
-     "rank": 2,
+     "views": 1800,
+     "rank": 3,
      "project": "en.wikipedia",
      "publishedAt": null,
      "keywords": [],
@@ -6259,38 +6352,6 @@
      "durationHours": null
     },
     {
-     "id": "w-d926ad8044",
-     "kind": "WIKI",
-     "title": {
-      "ja": "The Odyssey",
-      "en": "The Odyssey"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 30,
-     "url": "https://no.wikipedia.org/wiki/The_Odyssey",
-     "views": 1900,
-     "rank": 3,
-     "project": "no.wikipedia",
-     "publishedAt": null,
-     "keywords": [],
-     "sources": [
-      "WIKIPEDIA"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "stable",
-     "origin": "NO",
-     "relatedCountries": [
-      "NO"
-     ],
-     "startedAt": null,
-     "durationHours": null
-    },
-    {
      "id": "w-a33cbe7696",
      "kind": "WIKI",
      "title": {
@@ -6304,7 +6365,7 @@
      "category": "OTHER",
      "score": 30,
      "url": "https://no.wikipedia.org/wiki/Odysseen",
-     "views": 1800,
+     "views": 1700,
      "rank": 4,
      "project": "no.wikipedia",
      "publishedAt": null,
@@ -6323,11 +6384,11 @@
      "durationHours": null
     },
     {
-     "id": "w-0a92e9e0dd",
+     "id": "w-1d9841ae73",
      "kind": "WIKI",
      "title": {
-      "ja": "New Hampshire",
-      "en": "New Hampshire"
+      "ja": "Hebridene",
+      "en": "Hebridene"
      },
      "summary": {
       "ja": "",
@@ -6335,76 +6396,9 @@
      },
      "category": "OTHER",
      "score": 30,
-     "url": "https://en.wikipedia.org/wiki/New_Hampshire",
-     "views": 1800,
+     "url": "https://no.wikipedia.org/wiki/Hebridene",
+     "views": 1500,
      "rank": 5,
-     "project": "en.wikipedia",
-     "publishedAt": null,
-     "keywords": [],
-     "sources": [
-      "WIKIPEDIA"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "NO",
-     "relatedCountries": [
-      "NO"
-     ],
-     "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "w-a021c096c2",
-     "kind": "WIKI",
-     "title": {
-      "ja": "Odyssey",
-      "en": "Odyssey"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 30,
-     "url": "https://en.wikipedia.org/wiki/Odyssey",
-     "views": 1400,
-     "rank": 6,
-     "project": "en.wikipedia",
-     "publishedAt": null,
-     "keywords": [],
-     "sources": [
-      "WIKIPEDIA"
-     ],
-     "scope": "GLOBAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "US",
-     "relatedCountries": [
-      "US",
-      "CA",
-      "NO",
-      "PH"
-     ],
-     "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "w-ce80eed025",
-     "kind": "WIKI",
-     "title": {
-      "ja": "Robin Hood",
-      "en": "Robin Hood"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 30,
-     "url": "https://no.wikipedia.org/wiki/Robin_Hood",
-     "views": 1300,
-     "rank": 7,
      "project": "no.wikipedia",
      "publishedAt": null,
      "keywords": [],
@@ -6425,42 +6419,11 @@
   },
   {
    "code": "NZ",
-   "activityScore": 99,
+   "activityScore": 92,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
-    {
-     "id": "n-ac53cb55e3",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Support groups call on police to review former officer other cases after damning review",
-      "en": "Support groups call on police to review former officer other cases after damning review"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 100,
-     "url": "https://www.odt.co.nz/news/national/support-groups-call-on-police-to-review-former-officers-other-cases-after-damning-review-totgacom",
-     "outlet": "odt.co.nz",
-     "publishedAt": "2026-07-28T09:00:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "NZ",
-     "relatedCountries": [
-      "NZ"
-     ],
-     "startedAt": "2026-07-28T09:00:00Z",
-     "durationHours": null
-    },
     {
      "id": "w-58ece5bafb",
      "kind": "WIKI",
@@ -6491,130 +6454,6 @@
       "NZ"
      ],
      "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "n-c14a1f522c",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Giving back to the rescue chopper service that saved their lives",
-      "en": "Giving back to the rescue chopper service that saved their lives"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 96,
-     "url": "https://www.odt.co.nz/canterbury/christchurch/giving-back-to-the-rescue-chopper-service-that-saved-their-lives-uabic804",
-     "outlet": "odt.co.nz",
-     "publishedAt": "2026-07-28T04:30:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "NZ",
-     "relatedCountries": [
-      "NZ"
-     ],
-     "startedAt": "2026-07-28T04:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-cf66d93333",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Dunedin mosh pit poo  the size of a shoe  goes international",
-      "en": "Dunedin mosh pit poo  the size of a shoe  goes international"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WORLD",
-     "score": 92,
-     "url": "https://www.odt.co.nz/news/dunedin/dunedin-mosh-pit-poo-the-size-of-a-shoe-goes-international-b2jsnkoj",
-     "outlet": "odt.co.nz",
-     "publishedAt": "2026-07-28T04:30:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "NZ",
-     "relatedCountries": [
-      "NZ"
-     ],
-     "startedAt": "2026-07-28T04:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-bcdbb7998e",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Jenny Mollen has admitted she  severely depressed  following her split from husband Jason Biggs - 28 - Jul - 2026",
-      "en": "Jenny Mollen has admitted she  severely depressed  following her split from husband Jason Biggs - 28 - Jul - 2026"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 88,
-     "url": "https://home.nzcity.co.nz/news/article.aspx?id=450735&fm=psp,tst",
-     "outlet": "home.nzcity.co.nz",
-     "publishedAt": "2026-07-28T07:30:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "NZ",
-     "relatedCountries": [
-      "NZ"
-     ],
-     "startedAt": "2026-07-28T07:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-e11476201f",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Oprah Winfrey name was changed when she was a child because  nobody knew how to spell it  - 28 - Jul - 2026",
-      "en": "Oprah Winfrey name was changed when she was a child because  nobody knew how to spell it  - 28 - Jul - 2026"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 84,
-     "url": "https://home.nzcity.co.nz/news/article.aspx?id=450739&fm=psp,tst",
-     "outlet": "home.nzcity.co.nz",
-     "publishedAt": "2026-07-28T09:30:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "NZ",
-     "relatedCountries": [
-      "NZ"
-     ],
-     "startedAt": "2026-07-28T09:30:00Z",
      "durationHours": null
     },
     {
@@ -6661,37 +6500,6 @@
       "NZ"
      ],
      "startedAt": null,
-     "durationHours": null
-    },
-    {
-     "id": "n-c38262976b",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Success - for Supercar first New Zealand double - header weekends - 28 - Jul - 2026",
-      "en": "Success - for Supercar first New Zealand double - header weekends - 28 - Jul - 2026"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 80,
-     "url": "https://home.nzcity.co.nz/news/article.aspx?id=450840&fm=psp,tsf",
-     "outlet": "home.nzcity.co.nz",
-     "publishedAt": "2026-07-28T09:45:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "NZ",
-     "relatedCountries": [
-      "NZ"
-     ],
-     "startedAt": "2026-07-28T09:45:00Z",
      "durationHours": null
     },
     {
@@ -7140,7 +6948,6 @@
      "relatedCountries": [
       "US",
       "CA",
-      "NO",
       "PH"
      ],
      "startedAt": null,
@@ -7733,42 +7540,11 @@
   },
   {
    "code": "SG",
-   "activityScore": 99,
+   "activityScore": 76,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
-    {
-     "id": "n-685f7e29bc",
-     "kind": "NEWS",
-     "title": {
-      "ja": "ABSD deadline for large en bloc projects extended",
-      "en": "ABSD deadline for large en bloc projects extended"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 100,
-     "url": "https://www.straitstimes.com/singapore/absd-deadline-for-large-en-bloc-projects-extended-to-facilitate-redevelopment",
-     "outlet": "straitstimes.com",
-     "publishedAt": "2026-07-28T10:45:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "SG",
-     "relatedCountries": [
-      "SG"
-     ],
-     "startedAt": "2026-07-28T10:45:00Z",
-     "durationHours": null
-    },
     {
      "id": "w-66b27417d3",
      "kind": "WIKI",
@@ -7806,161 +7582,6 @@
      "durationHours": null
     },
     {
-     "id": "n-dfd6ebf111",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Shooting stars set to streak across Singapore sky on July 29 and 30",
-      "en": "Shooting stars set to streak across Singapore sky on July 29 and 30"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "ENTERTAINMENT",
-     "score": 96,
-     "url": "https://www.straitstimes.com/singapore/shooting-stars-set-to-streak-across-singapore-sky-on-july-29-30",
-     "outlet": "straitstimes.com",
-     "publishedAt": "2026-07-28T06:15:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "SG",
-     "relatedCountries": [
-      "SG"
-     ],
-     "startedAt": "2026-07-28T06:15:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-51e98d75f4",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Peru Fujimori takes power , extending Latin America rightward tilt",
-      "en": "Peru Fujimori takes power , extending Latin America rightward tilt"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WORLD",
-     "score": 92,
-     "url": "https://www.straitstimes.com/world/perus-fujimori-takes-power-extending-latin-americas-rightward-tilt",
-     "outlet": "straitstimes.com",
-     "publishedAt": "2026-07-28T10:45:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "SG",
-     "relatedCountries": [
-      "SG"
-     ],
-     "startedAt": "2026-07-28T10:45:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-5f27eae276",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Southern , central China brace for flood risk after typhoon",
-      "en": "Southern , central China brace for flood risk after typhoon"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WEATHER",
-     "score": 88,
-     "url": "https://www.asiaone.com/china/southern-central-china-brace-flood-risk-after-typhoon",
-     "outlet": "asiaone.com",
-     "publishedAt": "2026-07-28T10:45:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "SG",
-     "relatedCountries": [
-      "SG"
-     ],
-     "startedAt": "2026-07-28T10:45:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-777e675b1b",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Myanmar national to be charged for donating money to facilitate terror acts in Gaza",
-      "en": "Myanmar national to be charged for donating money to facilitate terror acts in Gaza"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 84,
-     "url": "https://www.asiaone.com/singapore/myanmar-man-terrorism-financing-charged-mha-isd",
-     "outlet": "asiaone.com",
-     "publishedAt": "2026-07-28T10:45:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "SG",
-     "relatedCountries": [
-      "SG"
-     ],
-     "startedAt": "2026-07-28T10:45:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-5343dad0e7",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Suspicious item found at Eunos multi - storey car park , police and SCDF called in",
-      "en": "Suspicious item found at Eunos multi - storey car park , police and SCDF called in"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WORLD",
-     "score": 80,
-     "url": "https://www.asiaone.com/singapore/suspicious-eunos-multi-storey-car-park-police-scdf-diana-pang",
-     "outlet": "asiaone.com",
-     "publishedAt": "2026-07-28T10:45:00Z",
-     "language": "English",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "emerging",
-     "origin": "SG",
-     "relatedCountries": [
-      "SG"
-     ],
-     "startedAt": "2026-07-28T10:45:00Z",
-     "durationHours": null
-    },
-    {
      "id": "w-909799ec4d",
      "kind": "WIKI",
      "title": {
@@ -7983,7 +7604,7 @@
       "WIKIPEDIA"
      ],
      "scope": "GLOBAL",
-     "change": -6.2,
+     "change": 0,
      "status": "stable",
      "origin": "US",
      "relatedCountries": [
@@ -8030,7 +7651,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "SG",
      "relatedCountries": [
       "SG"
@@ -8062,7 +7683,7 @@
      ],
      "scope": "GLOBAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "JP",
      "relatedCountries": [
       "JP",
@@ -8097,7 +7718,7 @@
      ],
      "scope": "GLOBAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "ID",
      "relatedCountries": [
       "ID",
@@ -8163,7 +7784,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "SG",
      "relatedCountries": [
       "SG"
@@ -8195,7 +7816,7 @@
      ],
      "scope": "GLOBAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "IN",
      "relatedCountries": [
       "IN",
@@ -8208,11 +7829,42 @@
   },
   {
    "code": "TH",
-   "activityScore": 89,
+   "activityScore": 99,
    "risingCount": 0,
    "wikiPerCountry": true,
    "wikiDate": "2026-07-27",
    "topics": [
+    {
+     "id": "n-705c23a2ae",
+     "kind": "NEWS",
+     "title": {
+      "ja": "HENRY First Dates จีบซ้ำซ้ำ เฮนรี่จำไม่ได้ เรื่องย่อหนังไทยรีเมก 50 First Dates",
+      "en": "HENRY First Dates จีบซ้ำซ้ำ เฮนรี่จำไม่ได้ เรื่องย่อหนังไทยรีเมก 50 First Dates"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 100,
+     "url": "https://movie.kapook.com/view302688.html",
+     "outlet": "movie.kapook.com",
+     "publishedAt": "2026-07-28T09:30:00Z",
+     "language": "Thai",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "TH",
+     "relatedCountries": [
+      "TH"
+     ],
+     "startedAt": "2026-07-28T09:30:00Z",
+     "durationHours": null
+    },
     {
      "id": "w-19851504e7",
      "kind": "WIKI",
@@ -8243,6 +7895,99 @@
       "TH"
      ],
      "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "n-4e710b9f9a",
+     "kind": "NEWS",
+     "title": {
+      "ja": "เก็บถาด KFC ดราม่าสนั่น เจอด่าแรง สันดาน กินเหมือนหมูหมา ควรเก็บเองไหม ?",
+      "en": "เก็บถาด KFC ดราม่าสนั่น เจอด่าแรง สันดาน กินเหมือนหมูหมา ควรเก็บเองไหม ?"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 96,
+     "url": "https://hilight.kapook.com/view/254319",
+     "outlet": "hilight.kapook.com",
+     "publishedAt": "2026-07-28T05:45:00Z",
+     "language": "Thai",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "TH",
+     "relatedCountries": [
+      "TH"
+     ],
+     "startedAt": "2026-07-28T05:45:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-a707a1ddb1",
+     "kind": "NEWS",
+     "title": {
+      "ja": "ดูดวงรายวัน 28 กรกฎาคม 2569",
+      "en": "ดูดวงรายวัน 28 กรกฎาคม 2569"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 92,
+     "url": "https://horoscope.kapook.com/view302762.html",
+     "outlet": "horoscope.kapook.com",
+     "publishedAt": "2026-07-28T02:15:00Z",
+     "language": "Thai",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "TH",
+     "relatedCountries": [
+      "TH"
+     ],
+     "startedAt": "2026-07-28T02:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-17b17c54ab",
+     "kind": "NEWS",
+     "title": {
+      "ja": "วิธีใช้เครื่องฟอกอากาศให้ได้ผล ลด PM2 . 5 ไม่ใช่แค่เปิดทิ้งไว้",
+      "en": "วิธีใช้เครื่องฟอกอากาศให้ได้ผล ลด PM2 . 5 ไม่ใช่แค่เปิดทิ้งไว้"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 88,
+     "url": "https://home.kapook.com/view302711.html",
+     "outlet": "home.kapook.com",
+     "publishedAt": "2026-07-28T02:15:00Z",
+     "language": "Thai",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "TH",
+     "relatedCountries": [
+      "TH"
+     ],
+     "startedAt": "2026-07-28T02:15:00Z",
      "durationHours": null
     },
     {
@@ -8278,6 +8023,68 @@
      "durationHours": null
     },
     {
+     "id": "n-8158501340",
+     "kind": "NEWS",
+     "title": {
+      "ja": "eSIM คืออะไร ? วิธีใช้ eSIM สำหรับเที่ยวต่างประเทศ พร้อมคู่มือมือใหม่ก่อนเดินทาง",
+      "en": "eSIM คืออะไร ? วิธีใช้ eSIM สำหรับเที่ยวต่างประเทศ พร้อมคู่มือมือใหม่ก่อนเดินทาง"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 84,
+     "url": "https://travel.kapook.com/view302745.html",
+     "outlet": "travel.kapook.com",
+     "publishedAt": "2026-07-28T02:15:00Z",
+     "language": "Thai",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "TH",
+     "relatedCountries": [
+      "TH"
+     ],
+     "startedAt": "2026-07-28T02:15:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-d0ff53b589",
+     "kind": "NEWS",
+     "title": {
+      "ja": "อาหารกลางวันเด็ก แม่ระบายค่าเทอม 2 หมื่น ค่าอาหารแยก ทำไมได้ของแบบนี้",
+      "en": "อาหารกลางวันเด็ก แม่ระบายค่าเทอม 2 หมื่น ค่าอาหารแยก ทำไมได้ของแบบนี้"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 80,
+     "url": "https://hilight.kapook.com/view/254320",
+     "outlet": "hilight.kapook.com",
+     "publishedAt": "2026-07-28T09:30:00Z",
+     "language": "Thai",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "TH",
+     "relatedCountries": [
+      "TH"
+     ],
+     "startedAt": "2026-07-28T09:30:00Z",
+     "durationHours": null
+    },
+    {
      "id": "w-7425e8c27d",
      "kind": "WIKI",
      "title": {
@@ -8307,6 +8114,130 @@
       "TH"
      ],
      "startedAt": null,
+     "durationHours": null
+    },
+    {
+     "id": "n-829e363052",
+     "kind": "NEWS",
+     "title": {
+      "ja": "น้องโพธิ์ ลูกดารา ป่วยเข้าโรงพยาบาล เป็นเคสหายาก 5 %",
+      "en": "น้องโพธิ์ ลูกดารา ป่วยเข้าโรงพยาบาล เป็นเคสหายาก 5 %"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 76,
+     "url": "https://women.kapook.com/view302767.html",
+     "outlet": "women.kapook.com",
+     "publishedAt": "2026-07-28T09:30:00Z",
+     "language": "Thai",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "TH",
+     "relatedCountries": [
+      "TH"
+     ],
+     "startedAt": "2026-07-28T09:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-31fecb1bd8",
+     "kind": "NEWS",
+     "title": {
+      "ja": "ไวรัล อดีตผัวเมีย ร้องไห้ กอดกันหย่าหน้าอำเภอ พบ ฝ่ายชายขับรถกลับบ้าน ร้องไห้ไปด้วย",
+      "en": "ไวรัล อดีตผัวเมีย ร้องไห้ กอดกันหย่าหน้าอำเภอ พบ ฝ่ายชายขับรถกลับบ้าน ร้องไห้ไปด้วย"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 72,
+     "url": "https://hilight.kapook.com/view/214694",
+     "outlet": "hilight.kapook.com",
+     "publishedAt": "2026-07-28T09:30:00Z",
+     "language": "Thai",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "TH",
+     "relatedCountries": [
+      "TH"
+     ],
+     "startedAt": "2026-07-28T09:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-5e6d589be0",
+     "kind": "NEWS",
+     "title": {
+      "ja": "นก อุษณีย์ เซอร์ไพรส์คุกเข่าขอ ม่วย นิธิตรา แต่งงาน กลางเทศกาลดอกไม้ไฟญี่ปุ่น",
+      "en": "นก อุษณีย์ เซอร์ไพรส์คุกเข่าขอ ม่วย นิธิตรา แต่งงาน กลางเทศกาลดอกไม้ไฟญี่ปุ่น"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 68,
+     "url": "https://women.kapook.com/view302766.html",
+     "outlet": "women.kapook.com",
+     "publishedAt": "2026-07-28T09:30:00Z",
+     "language": "Thai",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "TH",
+     "relatedCountries": [
+      "TH"
+     ],
+     "startedAt": "2026-07-28T09:30:00Z",
+     "durationHours": null
+    },
+    {
+     "id": "n-b79839330b",
+     "kind": "NEWS",
+     "title": {
+      "ja": "สุนารี ราชสีมา เข้าโรงพยาบาล ปวดท้องอย่างหนัก ก่อนส่องกล้องเจอสิ่งผิดปกติ",
+      "en": "สุนารี ราชสีมา เข้าโรงพยาบาล ปวดท้องอย่างหนัก ก่อนส่องกล้องเจอสิ่งผิดปกติ"
+     },
+     "summary": {
+      "ja": "",
+      "en": ""
+     },
+     "category": "OTHER",
+     "score": 64,
+     "url": "https://women.kapook.com/view302764.html",
+     "outlet": "women.kapook.com",
+     "publishedAt": "2026-07-28T05:45:00Z",
+     "language": "Thai",
+     "keywords": [],
+     "sources": [
+      "NEWS"
+     ],
+     "scope": "LOCAL",
+     "change": 0,
+     "status": "emerging",
+     "origin": "TH",
+     "relatedCountries": [
+      "TH"
+     ],
+     "startedAt": "2026-07-28T05:45:00Z",
      "durationHours": null
     },
     {
@@ -8491,42 +8422,11 @@
   },
   {
    "code": "TR",
-   "activityScore": 99,
-   "risingCount": 3,
+   "activityScore": 88,
+   "risingCount": 0,
    "wikiPerCountry": false,
    "wikiDate": "2026-07-26",
    "topics": [
-    {
-     "id": "n-617d8d9ae7",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Aksarayda şiddet uygulandığı iddia edilen otizmli çocuk yoğun bakıma alındı",
-      "en": "Aksarayda şiddet uygulandığı iddia edilen otizmli çocuk yoğun bakıma alındı"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "WORLD",
-     "score": 100,
-     "url": "https://www.ensonhaber.com/aksarayda-siddet-uygulandigi-iddia-edilen-otizmli-cocuk-yogun-bakima-alindi-h1553065",
-     "outlet": "ensonhaber.com",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "Turkish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "peak",
-     "origin": "TR",
-     "relatedCountries": [
-      "TR"
-     ],
-     "startedAt": "2026-07-28T08:30:00Z",
-     "durationHours": null
-    },
     {
      "id": "w-f33ae65c31",
      "kind": "WIKI",
@@ -8560,68 +8460,6 @@
      "durationHours": null
     },
     {
-     "id": "n-81557c250e",
-     "kind": "NEWS",
-     "title": {
-      "ja": "Trabzonspor , Rene Mitongoyla anlaştı",
-      "en": "Trabzonspor , Rene Mitongoyla anlaştı"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "OTHER",
-     "score": 96,
-     "url": "https://www.ensonhaber.com/trabzonspor-rene-mitongoyla-anlasti-h1553063",
-     "outlet": "ensonhaber.com",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "Turkish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "peak",
-     "origin": "TR",
-     "relatedCountries": [
-      "TR"
-     ],
-     "startedAt": "2026-07-28T08:30:00Z",
-     "durationHours": null
-    },
-    {
-     "id": "n-0b95fe35d5",
-     "kind": "NEWS",
-     "title": {
-      "ja": "CHP İstanbul İl Başkanlığı  nın X hesabı , Yeni Parti tarafından çalındı",
-      "en": "CHP İstanbul İl Başkanlığı  nın X hesabı , Yeni Parti tarafından çalındı"
-     },
-     "summary": {
-      "ja": "",
-      "en": ""
-     },
-     "category": "BUSINESS",
-     "score": 92,
-     "url": "https://www.ensonhaber.com/chp-istanbul-il-baskanliginin-x-hesabi-yeni-parti-tarafindan-calindi-h1553084",
-     "outlet": "ensonhaber.com",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "Turkish",
-     "keywords": [],
-     "sources": [
-      "NEWS"
-     ],
-     "scope": "LOCAL",
-     "change": 0,
-     "status": "peak",
-     "origin": "TR",
-     "relatedCountries": [
-      "TR"
-     ],
-     "startedAt": "2026-07-28T08:30:00Z",
-     "durationHours": null
-    },
-    {
      "id": "w-89c216c7ce",
      "kind": "WIKI",
      "title": {
@@ -8645,7 +8483,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "TR",
      "relatedCountries": [
       "TR"
@@ -8676,7 +8514,7 @@
       "WIKIPEDIA"
      ],
      "scope": "LOCAL",
-     "change": 14.3,
+     "change": 0,
      "status": "stable",
      "origin": "TR",
      "relatedCountries": [
@@ -8708,8 +8546,8 @@
       "WIKIPEDIA"
      ],
      "scope": "LOCAL",
-     "change": 96.7,
-     "status": "rising",
+     "change": 0,
+     "status": "stable",
      "origin": "TR",
      "relatedCountries": [
       "TR"
@@ -8741,7 +8579,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "TR",
      "relatedCountries": [
       "TR"
@@ -8772,8 +8610,8 @@
       "WIKIPEDIA"
      ],
      "scope": "LOCAL",
-     "change": 66.7,
-     "status": "rising",
+     "change": 0,
+     "status": "stable",
      "origin": "TR",
      "relatedCountries": [
       "TR"
@@ -8804,8 +8642,8 @@
       "WIKIPEDIA"
      ],
      "scope": "LOCAL",
-     "change": 63.3,
-     "status": "rising",
+     "change": 0,
+     "status": "stable",
      "origin": "TR",
      "relatedCountries": [
       "TR"
@@ -8837,7 +8675,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "stable",
      "origin": "TR",
      "relatedCountries": [
       "TR"
@@ -9265,7 +9103,6 @@
      "relatedCountries": [
       "US",
       "CA",
-      "NO",
       "PH"
      ],
      "startedAt": null,
@@ -9432,7 +9269,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "VN",
      "relatedCountries": [
       "VN"
@@ -9495,7 +9332,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "VN",
      "relatedCountries": [
       "VN"
@@ -9526,7 +9363,7 @@
      ],
      "scope": "LOCAL",
      "change": 0,
-     "status": "emerging",
+     "status": "peak",
      "origin": "VN",
      "relatedCountries": [
       "VN"

@@ -1,435 +1,534 @@
 {
- "fetchedAt": "2026-07-28T20:45:07.134Z",
+ "fetchedAt": "2026-07-29T00:20:21.196Z",
  "source": "GDELT DOC 2.0 API",
  "countries": [
   {
-   "code": "JP",
+   "code": "FR",
    "articles": [
     {
      "rank": 1,
-     "title": "日本の位置情報サービス （ LBS ） 市場 ： 市場需要 、 市場シェア 、 トレンド 、 成長 、 市場機会 、 およびインサイト分析 （ 2026年～2036年 ）",
-     "outlet": "japan.cnet.com",
-     "url": "https://japan.cnet.com/release/31192746/",
-     "publishedAt": "2026-07-28T09:45:00Z",
-     "language": "Japanese",
-     "country": "JP",
+     "title": "Les polémiques sur le non - respect de la vie privée des lunettes connectées de Meta poussent Apple à la prudence",
+     "outlet": "lefigaro.fr",
+     "url": "https://www.lefigaro.fr/secteur/high-tech/les-polemiques-sur-le-non-respect-de-la-vie-privee-des-lunettes-connectees-de-meta-poussent-apple-a-la-prudence-20260728",
+     "publishedAt": "2026-07-28T16:15:00Z",
+     "language": "French",
+     "country": "FR",
+     "category": "TECH",
+     "source": "GDELT"
+    },
+    {
+     "rank": 2,
+     "title": "TotalEnergies lance Cronos , le premier projet gazier à Chypre destiné à fournir lEurope",
+     "outlet": "lefigaro.fr",
+     "url": "https://www.lefigaro.fr/societes/totalenergies-lance-cronos-le-premier-projet-gazier-a-chypre-destine-a-fournir-l-europe-20260728",
+     "publishedAt": "2026-07-28T16:15:00Z",
+     "language": "French",
+     "country": "FR",
      "category": "BUSINESS",
      "source": "GDELT"
     },
     {
-     "rank": 2,
-     "title": "HNS 2026 | Huawei 、 南部アフリカ向けにアップグレード版 「 Xinghe AIキャンパスソリューション 」 を発表",
-     "outlet": "japan.cnet.com",
-     "url": "https://japan.cnet.com/release/31192741/",
-     "publishedAt": "2026-07-28T09:45:00Z",
-     "language": "Japanese",
-     "country": "JP",
-     "category": "TECH",
-     "source": "GDELT"
-    },
-    {
      "rank": 3,
-     "title": "Cloud - Clone 、 全系統多種初代神経細胞ラインナップのグローバルローンチを予定",
-     "outlet": "japan.cnet.com",
-     "url": "https://japan.cnet.com/release/31192734/",
-     "publishedAt": "2026-07-28T09:45:00Z",
-     "language": "Japanese",
-     "country": "JP",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 4,
-     "title": "早期では症状が出ない 「 大腸がん 」。 消化器内科医が解説する検診の重要性",
-     "outlet": "news.livedoor.com",
-     "url": "https://news.livedoor.com/article/detail/31928328/",
-     "publishedAt": "2026-07-28T07:30:00Z",
-     "language": "Japanese",
-     "country": "JP",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 5,
-     "title": "朝のコンビニで 「 トイレ汚いから使えない 」 店員女性が絶句した惨状 「 もう二度と汚さないで欲しいです 」",
-     "outlet": "news.livedoor.com",
-     "url": "https://news.livedoor.com/article/detail/31927598/",
-     "publishedAt": "2026-07-28T05:00:00Z",
-     "language": "Japanese",
-     "country": "JP",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 6,
-     "title": "阪神OBバース氏 佐藤輝に3冠王への心構え伝授 「 何が起こっても自分のペースで 」 森下との相乗効果も期待",
-     "outlet": "news.livedoor.com",
-     "url": "https://news.livedoor.com/article/detail/31927441/",
-     "publishedAt": "2026-07-27T23:00:00Z",
-     "language": "Japanese",
-     "country": "JP",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 7,
-     "title": "5匹目のミジンコはやや飛び出したの巻 | Oh ！ エルちゃんのダイエットブログ",
-     "outlet": "ameblo.jp",
-     "url": "https://ameblo.jp/murako-diet/entry-12973803687.html",
-     "publishedAt": "2026-07-28T12:00:00Z",
-     "language": "Japanese",
-     "country": "JP",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 8,
-     "title": "運命すぎる出会いが … | あいのりクロの 「 こいたん 」 オフィシャルブログ Powered by Ameba",
-     "outlet": "ameblo.jp",
-     "url": "https://ameblo.jp/watajima/entry-12974034533.html",
-     "publishedAt": "2026-07-28T12:00:00Z",
-     "language": "Japanese",
-     "country": "JP",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 9,
-     "title": "カウンセリングBSJ with ののこ | イクラの雑記 ＠ KOREA",
-     "outlet": "ameblo.jp",
-     "url": "https://ameblo.jp/ikuraebimaguro/entry-12973779693.html",
-     "publishedAt": "2026-07-28T03:30:00Z",
-     "language": "Japanese",
-     "country": "JP",
-     "category": "OTHER",
-     "source": "GDELT"
-    }
-   ]
-  },
-  {
-   "code": "AU",
-   "articles": [
-    {
-     "rank": 1,
-     "title": "Pauline Hanson reveals Gina Rinehart paid for Italy flights and Dolce & Gabbana show",
-     "outlet": "abc.net.au",
-     "url": "https://www.abc.net.au/news/2026-07-28/hanson-reveals-rinehart-paid-for-italy-trip/106968518",
-     "publishedAt": "2026-07-28T09:15:00Z",
-     "language": "English",
-     "country": "AU",
-     "category": "TECH",
-     "source": "GDELT"
-    },
-    {
-     "rank": 2,
-     "title": "Ben Carroll walks into the top job just four months out from Victoria election",
-     "outlet": "abc.net.au",
-     "url": "https://www.abc.net.au/news/2026-07-28/ben-carroll-vic-labor-premier-analysis/106966210",
-     "publishedAt": "2026-07-28T09:15:00Z",
-     "language": "English",
-     "country": "AU",
-     "category": "POLITICS",
-     "source": "GDELT"
-    },
-    {
-     "rank": 3,
-     "title": "Green energy funding snub for renewable - powered Bell Bay Aluminium smelter",
-     "outlet": "abc.net.au",
-     "url": "https://www.abc.net.au/news/2026-07-28/no-green-energy-funding-for-rio-tinto-bell-bay-smelter/106966502",
-     "publishedAt": "2026-07-28T04:30:00Z",
-     "language": "English",
-     "country": "AU",
+     "title": "La Fed va - t - elle augmenter ses taux dintérêt ? Le brouillard règne avec limprévisible Kevin Warsh",
+     "outlet": "lefigaro.fr",
+     "url": "https://www.lefigaro.fr/conjoncture/la-fed-va-t-elle-augmenter-ses-taux-d-interet-le-brouillard-regne-avec-l-imprevisible-kevin-warsh-20260728",
+     "publishedAt": "2026-07-28T21:00:00Z",
+     "language": "French",
+     "country": "FR",
      "category": "WORLD",
      "source": "GDELT"
     },
     {
      "rank": 4,
-     "title": "Property sector puts Ben Carroll on notice over Allan  damaging  reforms",
-     "outlet": "realestate.com.au",
-     "url": "https://www.realestate.com.au/news/property-sector-puts-ben-carroll-on-notice-over-allans-damaging-reforms/",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "English",
-     "country": "AU",
+     "title": "Familles nombreuses :  Je me lance enfin , première remarquée pour Justine Dantan",
+     "outlet": "allocine.fr",
+     "url": "https://www.allocine.fr:443/tvactu/articles/article-1000215223.html",
+     "publishedAt": "2026-07-28T10:45:00Z",
+     "language": "French",
+     "country": "FR",
      "category": "OTHER",
      "source": "GDELT"
     },
     {
      "rank": 5,
-     "title": "The $74k loan saving a 10 - minute check just uncovered",
-     "outlet": "realestate.com.au",
-     "url": "https://www.realestate.com.au/news/the-74k-loan-saving-a-10minute-check-just-uncovered/",
-     "publishedAt": "2026-07-28T05:00:00Z",
-     "language": "English",
-     "country": "AU",
-     "category": "WORLD",
-     "source": "GDELT"
-    },
-    {
-     "rank": 6,
-     "title": "Homes and fortune Peter Brock left behind - realestate . com . au",
-     "outlet": "realestate.com.au",
-     "url": "https://www.realestate.com.au/news/homes-and-fortune-peter-brock-left-behind/",
-     "publishedAt": "2026-07-28T01:00:00Z",
-     "language": "English",
-     "country": "AU",
-     "category": "WORLD",
-     "source": "GDELT"
-    },
-    {
-     "rank": 7,
-     "title": "Divided Liberals need a coalition with themselves , not One Nation",
-     "outlet": "smh.com.au",
-     "url": "https://www.smh.com.au/national/nsw/divided-liberals-need-a-coalition-with-themselves-not-one-nation-20260728-p60j61.html",
-     "publishedAt": "2026-07-28T09:15:00Z",
-     "language": "English",
-     "country": "AU",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 8,
-     "title": "Coronial inquest to probe death of cheerleader",
-     "outlet": "smh.com.au",
-     "url": "https://www.smh.com.au/national/coronial-inquest-to-probe-death-of-cheerleader-20260728-p60jec.html",
-     "publishedAt": "2026-07-28T09:15:00Z",
-     "language": "English",
-     "country": "AU",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 9,
-     "title": "Moira Deeming resigns from Victorian Liberal Party",
-     "outlet": "smh.com.au",
-     "url": "https://www.smh.com.au/national/moira-deeming-resigns-from-victorian-liberal-party-20260728-p60jea.html",
-     "publishedAt": "2026-07-28T09:15:00Z",
-     "language": "English",
-     "country": "AU",
-     "category": "POLITICS",
-     "source": "GDELT"
-    }
-   ]
-  },
-  {
-   "code": "TR",
-   "articles": [
-    {
-     "rank": 1,
-     "title": "Aksarayda şiddet uygulandığı iddia edilen otizmli çocuk yoğun bakıma alındı",
-     "outlet": "ensonhaber.com",
-     "url": "https://www.ensonhaber.com/aksarayda-siddet-uygulandigi-iddia-edilen-otizmli-cocuk-yogun-bakima-alindi-h1553065",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "Turkish",
-     "country": "TR",
-     "category": "WORLD",
-     "source": "GDELT"
-    },
-    {
-     "rank": 2,
-     "title": "Trabzonspor , Rene Mitongoyla anlaştı",
-     "outlet": "ensonhaber.com",
-     "url": "https://www.ensonhaber.com/trabzonspor-rene-mitongoyla-anlasti-h1553063",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "Turkish",
-     "country": "TR",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 3,
-     "title": "CHP İstanbul İl Başkanlığı  nın X hesabı , Yeni Parti tarafından çalındı",
-     "outlet": "ensonhaber.com",
-     "url": "https://www.ensonhaber.com/chp-istanbul-il-baskanliginin-x-hesabi-yeni-parti-tarafindan-calindi-h1553084",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "Turkish",
-     "country": "TR",
-     "category": "BUSINESS",
-     "source": "GDELT"
-    }
-   ]
-  },
-  {
-   "code": "EG",
-   "articles": [
-    {
-     "rank": 1,
-     "title": "وظائف بمرتبات تصل لـ20 ألف جنيه .. قدم الآن",
-     "outlet": "youm7.com",
-     "url": "https://www.youm7.com/story/2026/7/28/%D9%88%D8%B8%D8%A7%D8%A6%D9%81-%D8%A8%D9%85%D8%B1%D8%AA%D8%A8%D8%A7%D8%AA-%D8%AA%D8%B5%D9%84-%D9%84%D9%8020-%D8%A3%D9%84%D9%81-%D8%AC%D9%86%D9%8A%D9%87-%D9%82%D8%AF%D9%85-%D8%A7%D9%84%D8%A2%D9%86/7494568",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "Arabic",
-     "country": "EG",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 2,
-     "title": "حبس 3 مسؤولين 4 أيام في واقعة غرق طفل بحمام السباحة بنادى بالبدرشين",
-     "outlet": "youm7.com",
-     "url": "https://www.youm7.com/story/2026/7/28/%D8%AD%D8%A8%D8%B3-3-%D9%85%D8%B3%D8%A4%D9%88%D9%84%D9%8A%D9%86-4-%D8%A3%D9%8A%D8%A7%D9%85-%D9%81%D9%8A-%D9%88%D8%A7%D9%82%D8%B9%D8%A9-%D8%BA%D8%B1%D9%82-%D8%B7%D9%81%D9%84-%D8%A8%D8%AD%D9%85%D8%A7%D9%85/7495504",
-     "publishedAt": "2026-07-28T09:45:00Z",
-     "language": "Arabic",
-     "country": "EG",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 3,
-     "title": "نيمار يقترب من الرحيل عن سانتوس - اليوم السابع",
-     "outlet": "youm7.com",
-     "url": "https://www.youm7.com/story/2026/7/28/%D9%86%D9%8A%D9%85%D8%A7%D8%B1-%D9%8A%D9%82%D8%AA%D8%B1%D8%A8-%D9%85%D9%86-%D8%A7%D9%84%D8%B1%D8%AD%D9%8A%D9%84-%D8%B9%D9%86-%D8%B3%D8%A7%D9%86%D8%AA%D9%88%D8%B3/7495347",
-     "publishedAt": "2026-07-28T09:45:00Z",
-     "language": "Arabic",
-     "country": "EG",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 4,
-     "title": "القائم بأعمال وزير الثقافة يستعرض ترتيبات معرض العلمين للكتاب مع اتحاد الناشرين",
-     "outlet": "elwatannews.com",
-     "url": "https://www.elwatannews.com/news/details/8328153",
-     "publishedAt": "2026-07-28T09:15:00Z",
-     "language": "Arabic",
-     "country": "EG",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 5,
-     "title": "نتيجة الثانوية العامة 2026 جاهزة والإعلان بات وشيكا .. التفاصيل الكاملة",
-     "outlet": "elwatannews.com",
-     "url": "https://www.elwatannews.com/news/details/8328075",
-     "publishedAt": "2026-07-28T09:15:00Z",
-     "language": "Arabic",
-     "country": "EG",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 6,
-     "title": "الفنانة رباب طارق تعلن تفاصيل جنازة والدها",
-     "outlet": "elwatannews.com",
-     "url": "https://www.elwatannews.com/news/details/8328083",
-     "publishedAt": "2026-07-28T09:15:00Z",
-     "language": "Arabic",
-     "country": "EG",
-     "category": "OTHER",
-     "source": "GDELT"
-    }
-   ]
-  },
-  {
-   "code": "ID",
-   "articles": [
-    {
-     "rank": 1,
-     "title": "Tabligh Akbar di Masjid Raya Singkawang Perkuat Ukhuwah dan Toleransi dalam Bingkai NKRI",
-     "outlet": "pontianak.tribunnews.com",
-     "url": "https://pontianak.tribunnews.com/kalbar/1180600/tabligh-akbar-di-masjid-raya-singkawang-perkuat-ukhuwah-dan-toleransi-dalam-bingkai-nkri",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "Indonesian",
-     "country": "ID",
-     "category": "TECH",
-     "source": "GDELT"
-    },
-    {
-     "rank": 2,
-     "title": "Bombana Menerima Dana Transfer ke Daerah 2026 Rp 355 Miliar , DAU Terbesar",
-     "outlet": "batam.tribunnews.com",
-     "url": "https://batam.tribunnews.com/news/690964/bombana-menerima-dana-transfer-ke-daerah-2026-rp-355-miliar-dau-terbesar",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "Indonesian",
-     "country": "ID",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 3,
-     "title": "Chat Lodewyk Pusung ke Istri Jadi Bukti Kejagung soal Peran Eks Wakil Kepala BGN dalam Korupsi MBG",
-     "outlet": "tribunnews.com",
-     "url": "https://www.tribunnews.com/nasional/7860391/chat-lodewyk-pusung-ke-istri-jadi-bukti-kejagung-soal-peran-eks-wakil-kepala-bgn-dalam-korupsi-mbg",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "Indonesian",
-     "country": "ID",
-     "category": "WORLD",
-     "source": "GDELT"
-    },
-    {
-     "rank": 4,
-     "title": "Sosok NA , Siswi SD di Padang Diduga Korban Bullying Meninggal di Hari Ultah , Minta Kue Cokelat",
-     "outlet": "tribunnews.com",
-     "url": "https://www.tribunnews.com/regional/7860385/sosok-na-siswi-sd-di-padang-diduga-korban-bullying-meninggal-di-hari-ultah-minta-kue-cokelat",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "Indonesian",
-     "country": "ID",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 5,
-     "title": "Chord Gitar Minang Timur - Atta Music feat Juan Reza , Cantik Manis Pipi Congka Adoh",
-     "outlet": "batam.tribunnews.com",
-     "url": "https://batam.tribunnews.com/musik/690970/chord-gitar-minang-timur-atta-music-feat-juan-reza-cantik-manis-pipi-congka-adoh",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "Indonesian",
-     "country": "ID",
+     "title": "Ce soir sur Netflix : le K - drama qui renouvelle la comédie romantique",
+     "outlet": "allocine.fr",
+     "url": "https://www.allocine.fr:443/article/fichearticle_gen_carticle=1000202081.html",
+     "publishedAt": "2026-07-28T20:00:00Z",
+     "language": "French",
+     "country": "FR",
      "category": "ENTERTAINMENT",
      "source": "GDELT"
     },
     {
      "rank": 6,
-     "title": "Prediksi Skor Aston Villa vs Real Sociedad :  Head - to - head dan Statistik di Persiapan Pramusim",
-     "outlet": "jambi.tribunnews.com",
-     "url": "https://jambi.tribunnews.com/superball/1201284/prediksi-skor-aston-villa-vs-real-sociedadhead-to-head-dan-statistik-di-persiapan-pramusim",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "Indonesian",
-     "country": "ID",
-     "category": "OTHER",
+     "title": "Noté 4 , 4 sur 5 , cest lun des meilleurs thrillers des années 2000 ... Et Joaquin Phoenix a passé le tournage à insulter cette légende du cinéma !",
+     "outlet": "allocine.fr",
+     "url": "https://www.allocine.fr:443/article/fichearticle_gen_carticle=1000213598.html",
+     "publishedAt": "2026-07-28T20:00:00Z",
+     "language": "French",
+     "country": "FR",
+     "category": "ENTERTAINMENT",
      "source": "GDELT"
     },
     {
      "rank": 7,
-     "title": "Kota Bau - bau Dikucuri Dana Transfer ke Daerah 2026 Rp 312 Miliar , DAU Terbesar",
-     "outlet": "batam.tribunnews.com",
-     "url": "https://batam.tribunnews.com/news/690957/kota-bau-bau-dikucuri-dana-transfer-ke-daerah-2026-rp-312-miliar-dau-terbesar",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "Indonesian",
-     "country": "ID",
+     "title": "LAS Monaco Basket va - t - elle sauver sa place en Betclic Elite ?",
+     "outlet": "lequipe.fr",
+     "url": "https://www.lequipe.fr/Basket/Actualites/L-as-monaco-basket-va-t-elle-sauver-sa-place-en-betclic-elite/1707621",
+     "publishedAt": "2026-07-28T21:00:00Z",
+     "language": "French",
+     "country": "FR",
      "category": "OTHER",
      "source": "GDELT"
     },
     {
      "rank": 8,
-     "title": "Diputusin , Pria di Depok Aniaya Mantan Kekasih Sampai Mengancam :  Lo Tahu Kan Gue Orangnya !",
-     "outlet": "jakarta.tribunnews.com",
-     "url": "https://jakarta.tribunnews.com/bodetabek/439461/diputusin-pria-di-depok-aniaya-mantan-kekasih-sampai-mengancam-lo-tahu-kan-gue-orangnya",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "Indonesian",
-     "country": "ID",
+     "title": "Salaires et installations XXL : pourquoi la NCAA est le nouvel eldorado des jeunes basketteurs français",
+     "outlet": "lequipe.fr",
+     "url": "https://www.lequipe.fr/Basket/Article/Salaires-et-installations-xxl-pourquoi-la-ncaa-est-le-nouvel-eldorado-des-jeunes-basketteurs-francais/1707625",
+     "publishedAt": "2026-07-28T21:00:00Z",
+     "language": "French",
+     "country": "FR",
      "category": "TECH",
      "source": "GDELT"
     },
     {
      "rank": 9,
-     "title": "Legislator PDIP Desak Pemerintah Pusat Cairkan DBH Jakarta , Sebut Anggaran Komisi D Defisit Rp 1 , 5 T",
-     "outlet": "jakarta.tribunnews.com",
-     "url": "https://jakarta.tribunnews.com/jakarta/439467/legislator-pdip-desak-pemerintah-pusat-cairkan-dbh-jakarta-sebut-anggaran-komisi-d-defisit-rp-15-t",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "Indonesian",
-     "country": "ID",
+     "title": "« La pression est alimentée par ceux qui essaient de le courtiser » : Dominique Serieys fait le bilan du Tour de France et se montre confiant quant à lavenir de Paul Seixas",
+     "outlet": "lequipe.fr",
+     "url": "https://www.lequipe.fr/Cyclisme-sur-route/Actualites/-la-pression-est-alimentee-par-ceux-qui-essaient-de-le-courtiser-dominique-serieys-fait-le-bilan-du-tour-de-france-et-se-montre-confiant-quant-a-l-avenir-de-paul-seixas/1707506",
+     "publishedAt": "2026-07-28T21:00:00Z",
+     "language": "French",
+     "country": "FR",
      "category": "TECH",
      "source": "GDELT"
     },
     {
      "rank": 10,
-     "title": "Kantor Terbuat dari Peti Kemas di Penjaringan Jakut Kebakaran , Kerugian Capai Rp 60 Juta",
-     "outlet": "jakarta.tribunnews.com",
-     "url": "https://jakarta.tribunnews.com/jakarta/439463/kantor-terbuat-dari-peti-kemas-di-penjaringan-jakut-kebakaran-kerugian-capai-rp-60-juta",
-     "publishedAt": "2026-07-28T08:30:00Z",
-     "language": "Indonesian",
-     "country": "ID",
+     "title": "« Comme The Voice » : votre Tesla va désormais juger vos talents de chanteur grâce à sa dernière mise à jour insolite",
+     "outlet": "01net.com",
+     "url": "https://www.01net.com/actualites/the-voice-tesla-va-juger-talents-chanteur-mise-a-jour-insolite.html",
+     "publishedAt": "2026-07-28T07:30:00Z",
+     "language": "French",
+     "country": "FR",
      "category": "TECH",
+     "source": "GDELT"
+    }
+   ]
+  },
+  {
+   "code": "KR",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "히가시노 게이고",
+     "outlet": "terms.naver.com",
+     "url": "https://terms.naver.com/entry.naver?docId=2078782&cid=44546&categoryId=44546",
+     "publishedAt": "2026-07-28T05:45:00Z",
+     "language": "Korean",
+     "country": "KR",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 2,
+     "title": "[ EXCLUSIVE ] [ SPECIAL RELAY INTERVIEW ] [ KR ] Meet idntt Dohun as he reflects on his journey in allkpop exclusive relay interview",
+     "outlet": "allkpop.com",
+     "url": "https://www.allkpop.com/article/2026/07/special-relay-interview-kr-meet-idntts-dohun-as-he-reflects-on-his-journey-in-allkpops-exclusive-relay-interview",
+     "publishedAt": "2026-07-28T19:30:00Z",
+     "language": "Korean",
+     "country": "KR",
+     "category": "WORLD",
+     "source": "GDELT"
+    },
+    {
+     "rank": 3,
+     "title": "박홍근 , 첫 민주노총 방문 … 양경수 위원장  사회안전망 예산 늘려야",
+     "outlet": "hani.co.kr",
+     "url": "https://www.hani.co.kr/arti/society/labor/1270346.html",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "Korean",
+     "country": "KR",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 4,
+     "title": "오태규 방문진 이사  졸속 임명  에  부실검증 추인한 법 개정을  지적 확산",
+     "outlet": "hani.co.kr",
+     "url": "https://www.hani.co.kr/arti/society/media/1270341.html",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "Korean",
+     "country": "KR",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 5,
+     "title": "경찰 ,  중학생 성매매  혐의 최영중 전 청주시의원 구속영장 신청",
+     "outlet": "hani.co.kr",
+     "url": "https://www.hani.co.kr/arti/area/chungcheong/1270335.html",
+     "publishedAt": "2026-07-28T08:30:00Z",
+     "language": "Korean",
+     "country": "KR",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 6,
+     "title": "제대로 된 보수  자처하는  명태균 게이트  연루자들",
+     "outlet": "h21.hani.co.kr",
+     "url": "https://h21.hani.co.kr/arti/politics/politics_general/59672.html",
+     "publishedAt": "2026-07-28T09:45:00Z",
+     "language": "Korean",
+     "country": "KR",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 7,
+     "title": "소년범죄 정책 , 손가락만 보는 대통령",
+     "outlet": "h21.hani.co.kr",
+     "url": "https://h21.hani.co.kr/arti/society/society_general/59676.html",
+     "publishedAt": "2026-07-28T09:45:00Z",
+     "language": "Korean",
+     "country": "KR",
+     "category": "POLITICS",
+     "source": "GDELT"
+    },
+    {
+     "rank": 8,
+     "title": "과학으로 본  호프 , 허술하거나 앙상하거나",
+     "outlet": "h21.hani.co.kr",
+     "url": "https://h21.hani.co.kr/arti/culture/science/59656.html",
+     "publishedAt": "2026-07-28T04:00:00Z",
+     "language": "Korean",
+     "country": "KR",
+     "category": "OTHER",
+     "source": "GDELT"
+    }
+   ]
+  },
+  {
+   "code": "IT",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "Sondaggi politici , Futuro nazionale di Vannacci si avvicina a Forza Italia",
+     "outlet": "repubblica.it",
+     "url": "https://www.repubblica.it/politica/2026/07/28/news/sondaggi_politici_futuro_nazionale_vannacci_forza_italia-425497246/",
+     "publishedAt": "2026-07-28T09:00:00Z",
+     "language": "Italian",
+     "country": "IT",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 2,
+     "title": "È morto Emidio Pepe , il rivoluzionario del vino abruzzese",
+     "outlet": "repubblica.it",
+     "url": "https://www.repubblica.it/il-gusto/2026/07/28/news/morto_emidio_pepe_il_rivoluzionario_del_vino_abruzzese-425497400/",
+     "publishedAt": "2026-07-28T09:45:00Z",
+     "language": "Italian",
+     "country": "IT",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 3,
+     "title": "Mari sempre più caldi , ora anche in profondità",
+     "outlet": "repubblica.it",
+     "url": "https://www.repubblica.it/green-and-blue/2026/07/28/news/mare_caldo_greenpeace-425497287/",
+     "publishedAt": "2026-07-28T09:45:00Z",
+     "language": "Italian",
+     "country": "IT",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 4,
+     "title": "Guerra Ucraina - Russia , le notizie in diretta | Oggi Zelensky incontra Trump alla Casa Bianca per rilanciare il sostegno allUcraina",
+     "outlet": "corriere.it",
+     "url": "https://www.corriere.it/esteri/diretta-live/26_luglio_28/ucraina-russia-news-guerra.shtml",
+     "publishedAt": "2026-07-28T04:30:00Z",
+     "language": "Italian",
+     "country": "IT",
+     "category": "WEATHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 5,
+     "title": "Il Quiz del Corriere del 28 luglio : in quale anno Fiat lanciò la Panda ?",
+     "outlet": "corriere.it",
+     "url": "https://www.corriere.it/giochi/news/26_luglio_28/il-quiz-del-corriere-del-28-luglio-in-quale-anno-fiat-lancio-la-panda-1246176c-39a3-4529-be37-78ebb0a4bxlk.shtml",
+     "publishedAt": "2026-07-28T04:30:00Z",
+     "language": "Italian",
+     "country": "IT",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 6,
+     "title": "Laspetto buffo e simpatico di un simbolo portafortuna : la parola Apegramma di oggi | Giochi",
+     "outlet": "corriere.it",
+     "url": "https://www.corriere.it/giochi/news/26_luglio_28/l-aspetto-buffo-e-simpatico-di-un-simbolo-portafortuna-la-parola-apegramma-di-oggi-62f30053-0fd0-40ee-8abe-16807b34cxlk.shtml",
+     "publishedAt": "2026-07-28T04:30:00Z",
+     "language": "Italian",
+     "country": "IT",
+     "category": "WORLD",
+     "source": "GDELT"
+    },
+    {
+     "rank": 7,
+     "title": "Fanta - editoria : leonardino si pappa  repubblica ? –  il foglio  racconta le suggestioni di ...",
+     "outlet": "dagospia.com",
+     "url": "https://www.dagospia.com/media-tv/fanta-editoria-leonardino-si-pappa-repubblica-il-foglio-racconta-481945",
+     "publishedAt": "2026-07-28T09:15:00Z",
+     "language": "Italian",
+     "country": "IT",
+     "category": "TECH",
+     "source": "GDELT"
+    },
+    {
+     "rank": 8,
+     "title": "Forza , scienza ! - i ricercatori delluniversita  di miami hanno scoperto delle ...",
+     "outlet": "dagospia.com",
+     "url": "https://www.dagospia.com/cronache/forza-scienza-i-ricercatori-dell-universita-miami-scoperto-delle-481914",
+     "publishedAt": "2026-07-28T09:15:00Z",
+     "language": "Italian",
+     "country": "IT",
+     "category": "WORLD",
+     "source": "GDELT"
+    },
+    {
+     "rank": 9,
+     "title": "Con la bernardini de pace non c  È pace per leonardino – il tribunale di milano ordina a ..",
+     "outlet": "dagospia.com",
+     "url": "https://www.dagospia.com/business/bernardini-de-pace-non-c-e-pace-per-leonardino-tribunale-milano-ordina-481932",
+     "publishedAt": "2026-07-28T09:15:00Z",
+     "language": "Italian",
+     "country": "IT",
+     "category": "WORLD",
+     "source": "GDELT"
+    }
+   ]
+  },
+  {
+   "code": "CH",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "FC Thun in Zagreb : Millionen winken – Trainer kennt Champions - League - Prämie nicht",
+     "outlet": "20min.ch",
+     "url": "https://www.20min.ch/story/champions-league-thun-winken-millionen-coach-kennt-koenigsklassen-praemie-nicht-103609692",
+     "publishedAt": "2026-07-28T05:15:00Z",
+     "language": "German",
+     "country": "CH",
+     "category": "WEATHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 2,
+     "title": "Saas - Fee VS : Georg füttert Murmeli und löst Shitstorm aus : « Gar nicht herzig »",
+     "outlet": "20min.ch",
+     "url": "https://www.20min.ch/story/saas-fee-vs-georg-fuettert-murmeli-und-loest-shitstorm-aus-gar-nicht-herzig-103609491",
+     "publishedAt": "2026-07-28T05:15:00Z",
+     "language": "German",
+     "country": "CH",
+     "category": "WEATHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 3,
+     "title": "Neue Regeln ab August : Littering - Bussen , Sunrise - Preise und AHV - Änderung",
+     "outlet": "20min.ch",
+     "url": "https://www.20min.ch/story/neue-regeln-das-aendert-sich-im-august-in-der-schweiz-103609590",
+     "publishedAt": "2026-07-28T05:15:00Z",
+     "language": "German",
+     "country": "CH",
+     "category": "WORLD",
+     "source": "GDELT"
+    },
+    {
+     "rank": 4,
+     "title": "Wie gut ist die Schweiz gegen Waldbrände gewappnet ?",
+     "outlet": "srf.ch",
+     "url": "https://www.srf.ch/news/schweiz/anhaltende-trockenheit-wie-gut-ist-die-schweiz-gegen-waldbraende-gewappnet",
+     "publishedAt": "2026-07-28T06:15:00Z",
+     "language": "German",
+     "country": "CH",
+     "category": "TECH",
+     "source": "GDELT"
+    },
+    {
+     "rank": 5,
+     "title": "Schiff « Unterwalden » - Winston Churchill an Bord : Fünf Stationen im Leben des Dampfers",
+     "outlet": "srf.ch",
+     "url": "https://www.srf.ch/radio-srf-1/schiff-unterwalden-winston-churchill-an-bord-fuenf-stationen-im-leben-des-dampfers",
+     "publishedAt": "2026-07-28T11:00:00Z",
+     "language": "German",
+     "country": "CH",
+     "category": "WORLD",
+     "source": "GDELT"
+    },
+    {
+     "rank": 6,
+     "title": "Von « Crashout » bis « Gute Käse »: Die Top 10 Jugendwörter 2026",
+     "outlet": "srf.ch",
+     "url": "https://www.srf.ch/kultur/gesellschaft-religion/top-10-jugendwoerter-2026-wissen-sie-was-crashout-oder-gute-kaese-bedeutet",
+     "publishedAt": "2026-07-28T11:00:00Z",
+     "language": "German",
+     "country": "CH",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 7,
+     "title": "Flugpreise : 70 Prozent teurer seit 2021",
+     "outlet": "tagesanzeiger.ch",
+     "url": "https://www.tagesanzeiger.ch/flugpreise-70-prozent-teurer-seit-2021-487408984991",
+     "publishedAt": "2026-07-28T09:00:00Z",
+     "language": "German",
+     "country": "CH",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 8,
+     "title": "Neutralitätsinitiative : Wichtigste Antworten zu Blochers Projekt",
+     "outlet": "tagesanzeiger.ch",
+     "url": "https://www.tagesanzeiger.ch/neutralitaetsinitiative-wichtigste-antworten-zu-blochers-projekt-423960815562",
+     "publishedAt": "2026-07-28T04:30:00Z",
+     "language": "German",
+     "country": "CH",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 9,
+     "title": "Ausgehtipps für die ganze Woche : Das läuft in Winterthur und Umgebung",
+     "outlet": "tagesanzeiger.ch",
+     "url": "https://www.tagesanzeiger.ch/ausgehtipps-fuer-die-ganze-woche-das-laeuft-in-winterthur-und-umgebung-657649262712",
+     "publishedAt": "2026-07-28T04:30:00Z",
+     "language": "German",
+     "country": "CH",
+     "category": "WORLD",
+     "source": "GDELT"
+    }
+   ]
+  },
+  {
+   "code": "TH",
+   "articles": [
+    {
+     "rank": 1,
+     "title": "HENRY First Dates จีบซ้ำซ้ำ เฮนรี่จำไม่ได้ เรื่องย่อหนังไทยรีเมก 50 First Dates",
+     "outlet": "movie.kapook.com",
+     "url": "https://movie.kapook.com/view302688.html",
+     "publishedAt": "2026-07-28T09:30:00Z",
+     "language": "Thai",
+     "country": "TH",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 2,
+     "title": "เก็บถาด KFC ดราม่าสนั่น เจอด่าแรง สันดาน กินเหมือนหมูหมา ควรเก็บเองไหม ?",
+     "outlet": "hilight.kapook.com",
+     "url": "https://hilight.kapook.com/view/254319",
+     "publishedAt": "2026-07-28T05:45:00Z",
+     "language": "Thai",
+     "country": "TH",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 3,
+     "title": "ดูดวงรายวัน 28 กรกฎาคม 2569",
+     "outlet": "horoscope.kapook.com",
+     "url": "https://horoscope.kapook.com/view302762.html",
+     "publishedAt": "2026-07-28T02:15:00Z",
+     "language": "Thai",
+     "country": "TH",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 4,
+     "title": "วิธีใช้เครื่องฟอกอากาศให้ได้ผล ลด PM2 . 5 ไม่ใช่แค่เปิดทิ้งไว้",
+     "outlet": "home.kapook.com",
+     "url": "https://home.kapook.com/view302711.html",
+     "publishedAt": "2026-07-28T02:15:00Z",
+     "language": "Thai",
+     "country": "TH",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 5,
+     "title": "eSIM คืออะไร ? วิธีใช้ eSIM สำหรับเที่ยวต่างประเทศ พร้อมคู่มือมือใหม่ก่อนเดินทาง",
+     "outlet": "travel.kapook.com",
+     "url": "https://travel.kapook.com/view302745.html",
+     "publishedAt": "2026-07-28T02:15:00Z",
+     "language": "Thai",
+     "country": "TH",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 6,
+     "title": "อาหารกลางวันเด็ก แม่ระบายค่าเทอม 2 หมื่น ค่าอาหารแยก ทำไมได้ของแบบนี้",
+     "outlet": "hilight.kapook.com",
+     "url": "https://hilight.kapook.com/view/254320",
+     "publishedAt": "2026-07-28T09:30:00Z",
+     "language": "Thai",
+     "country": "TH",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 7,
+     "title": "น้องโพธิ์ ลูกดารา ป่วยเข้าโรงพยาบาล เป็นเคสหายาก 5 %",
+     "outlet": "women.kapook.com",
+     "url": "https://women.kapook.com/view302767.html",
+     "publishedAt": "2026-07-28T09:30:00Z",
+     "language": "Thai",
+     "country": "TH",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 8,
+     "title": "ไวรัล อดีตผัวเมีย ร้องไห้ กอดกันหย่าหน้าอำเภอ พบ ฝ่ายชายขับรถกลับบ้าน ร้องไห้ไปด้วย",
+     "outlet": "hilight.kapook.com",
+     "url": "https://hilight.kapook.com/view/214694",
+     "publishedAt": "2026-07-28T09:30:00Z",
+     "language": "Thai",
+     "country": "TH",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 9,
+     "title": "นก อุษณีย์ เซอร์ไพรส์คุกเข่าขอ ม่วย นิธิตรา แต่งงาน กลางเทศกาลดอกไม้ไฟญี่ปุ่น",
+     "outlet": "women.kapook.com",
+     "url": "https://women.kapook.com/view302766.html",
+     "publishedAt": "2026-07-28T09:30:00Z",
+     "language": "Thai",
+     "country": "TH",
+     "category": "OTHER",
+     "source": "GDELT"
+    },
+    {
+     "rank": 10,
+     "title": "สุนารี ราชสีมา เข้าโรงพยาบาล ปวดท้องอย่างหนัก ก่อนส่องกล้องเจอสิ่งผิดปกติ",
+     "outlet": "women.kapook.com",
+     "url": "https://women.kapook.com/view302764.html",
+     "publishedAt": "2026-07-28T05:45:00Z",
+     "language": "Thai",
+     "country": "TH",
+     "category": "OTHER",
      "source": "GDELT"
     }
    ]
@@ -468,148 +567,6 @@
      "language": "Vietnamese",
      "country": "VN",
      "category": "TECH",
-     "source": "GDELT"
-    }
-   ]
-  },
-  {
-   "code": "SG",
-   "articles": [
-    {
-     "rank": 1,
-     "title": "ABSD deadline for large en bloc projects extended",
-     "outlet": "straitstimes.com",
-     "url": "https://www.straitstimes.com/singapore/absd-deadline-for-large-en-bloc-projects-extended-to-facilitate-redevelopment",
-     "publishedAt": "2026-07-28T10:45:00Z",
-     "language": "English",
-     "country": "SG",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 2,
-     "title": "Shooting stars set to streak across Singapore sky on July 29 and 30",
-     "outlet": "straitstimes.com",
-     "url": "https://www.straitstimes.com/singapore/shooting-stars-set-to-streak-across-singapore-sky-on-july-29-30",
-     "publishedAt": "2026-07-28T06:15:00Z",
-     "language": "English",
-     "country": "SG",
-     "category": "ENTERTAINMENT",
-     "source": "GDELT"
-    },
-    {
-     "rank": 3,
-     "title": "Peru Fujimori takes power , extending Latin America rightward tilt",
-     "outlet": "straitstimes.com",
-     "url": "https://www.straitstimes.com/world/perus-fujimori-takes-power-extending-latin-americas-rightward-tilt",
-     "publishedAt": "2026-07-28T10:45:00Z",
-     "language": "English",
-     "country": "SG",
-     "category": "WORLD",
-     "source": "GDELT"
-    },
-    {
-     "rank": 4,
-     "title": "Southern , central China brace for flood risk after typhoon",
-     "outlet": "asiaone.com",
-     "url": "https://www.asiaone.com/china/southern-central-china-brace-flood-risk-after-typhoon",
-     "publishedAt": "2026-07-28T10:45:00Z",
-     "language": "English",
-     "country": "SG",
-     "category": "WEATHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 5,
-     "title": "Myanmar national to be charged for donating money to facilitate terror acts in Gaza",
-     "outlet": "asiaone.com",
-     "url": "https://www.asiaone.com/singapore/myanmar-man-terrorism-financing-charged-mha-isd",
-     "publishedAt": "2026-07-28T10:45:00Z",
-     "language": "English",
-     "country": "SG",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 6,
-     "title": "Suspicious item found at Eunos multi - storey car park , police and SCDF called in",
-     "outlet": "asiaone.com",
-     "url": "https://www.asiaone.com/singapore/suspicious-eunos-multi-storey-car-park-police-scdf-diana-pang",
-     "publishedAt": "2026-07-28T10:45:00Z",
-     "language": "English",
-     "country": "SG",
-     "category": "WORLD",
-     "source": "GDELT"
-    }
-   ]
-  },
-  {
-   "code": "NZ",
-   "articles": [
-    {
-     "rank": 1,
-     "title": "Support groups call on police to review former officer other cases after damning review",
-     "outlet": "odt.co.nz",
-     "url": "https://www.odt.co.nz/news/national/support-groups-call-on-police-to-review-former-officers-other-cases-after-damning-review-totgacom",
-     "publishedAt": "2026-07-28T09:00:00Z",
-     "language": "English",
-     "country": "NZ",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 2,
-     "title": "Giving back to the rescue chopper service that saved their lives",
-     "outlet": "odt.co.nz",
-     "url": "https://www.odt.co.nz/canterbury/christchurch/giving-back-to-the-rescue-chopper-service-that-saved-their-lives-uabic804",
-     "publishedAt": "2026-07-28T04:30:00Z",
-     "language": "English",
-     "country": "NZ",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 3,
-     "title": "Dunedin mosh pit poo  the size of a shoe  goes international",
-     "outlet": "odt.co.nz",
-     "url": "https://www.odt.co.nz/news/dunedin/dunedin-mosh-pit-poo-the-size-of-a-shoe-goes-international-b2jsnkoj",
-     "publishedAt": "2026-07-28T04:30:00Z",
-     "language": "English",
-     "country": "NZ",
-     "category": "WORLD",
-     "source": "GDELT"
-    },
-    {
-     "rank": 4,
-     "title": "Jenny Mollen has admitted she  severely depressed  following her split from husband Jason Biggs - 28 - Jul - 2026",
-     "outlet": "home.nzcity.co.nz",
-     "url": "https://home.nzcity.co.nz/news/article.aspx?id=450735&fm=psp,tst",
-     "publishedAt": "2026-07-28T07:30:00Z",
-     "language": "English",
-     "country": "NZ",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 5,
-     "title": "Oprah Winfrey name was changed when she was a child because  nobody knew how to spell it  - 28 - Jul - 2026",
-     "outlet": "home.nzcity.co.nz",
-     "url": "https://home.nzcity.co.nz/news/article.aspx?id=450739&fm=psp,tst",
-     "publishedAt": "2026-07-28T09:30:00Z",
-     "language": "English",
-     "country": "NZ",
-     "category": "OTHER",
-     "source": "GDELT"
-    },
-    {
-     "rank": 6,
-     "title": "Success - for Supercar first New Zealand double - header weekends - 28 - Jul - 2026",
-     "outlet": "home.nzcity.co.nz",
-     "url": "https://home.nzcity.co.nz/news/article.aspx?id=450840&fm=psp,tsf",
-     "publishedAt": "2026-07-28T09:45:00Z",
-     "language": "English",
-     "country": "NZ",
-     "category": "OTHER",
      "source": "GDELT"
     }
    ]
