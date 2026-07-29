@@ -4,16 +4,14 @@
 
 /* laptop: tighten the gutters and the panel */
 @media (max-width: 1440px) {
-  :root { --gut: 20px; --panel-w: 410px; }
-  .brand-en { font-size: 38px; }
-  .brand-ja { font-size: 12px; }
-  .tl-side { width: 170px; }
-  .panel { right: 20px; }
+  :root { --gut: 26px; --panel-w: 390px; }
+  .brand-en { font-size: 26px; }
+  .tl-side { width: 200px; }
 }
 
 /* narrow desktop: let the panel float over the map instead of squeezing it */
 @media (max-width: 1180px) {
-  :root { --panel-w: 360px; }
+  :root { --panel-w: 348px; }
   body.panel-open .stage,
   body.panel-open .tl { padding-right: 0; }
   .legend { display: none; }
@@ -22,31 +20,13 @@
 /* tablet */
 @media (max-width: 980px) {
   :root { --gut: 18px; }
-  #app {
-    width: 100%;
-    min-width: 0;
-    overflow: hidden;
-    grid-template-rows: auto 1fr auto;
-  }
-  .hdr, .stage, .tl, .rail, .rail-left, .rail-right, .map-wrap, .tl-panel {
-    width: 100%;
-    min-width: 0;
-    max-width: 100%;
-  }
   .hdr { flex-wrap: wrap; gap: 12px 18px; padding: 18px var(--gut) 12px; }
   .brand-copy { display: none; }
   .hdr-right { width: 100%; margin-left: 0; justify-content: space-between; }
   .dmode { flex: 1; min-width: 0; }
   .dm-warn { display: none; }
 
-  .rail {
-    position: static;
-    opacity: 1;
-    flex-wrap: wrap;
-    gap: 10px 16px;
-    padding: 0 var(--gut) 10px;
-  }
-  .rail-left { display: flex; }
+  .rail { flex-wrap: wrap; gap: 10px 16px; }
   .rail-right { margin-left: 0; width: 100%; }
   .country-select { flex: 1; max-width: none; }
 
@@ -79,8 +59,6 @@
   .rail-left { width: 100%; }
   .rail-label { display: none; }
   .chips {
-    width: 100%;
-    min-width: 0;
     flex-wrap: nowrap;
     overflow-x: auto;
     scrollbar-width: none;
@@ -119,7 +97,6 @@
   body.panel-open .stage, body.panel-open .tl { padding-right: 0; }
 
   .p-head { padding: 18px 18px 14px; flex-wrap: wrap; gap: 10px; }
-  .p-flag { width: 48px; height: 32px; }
   .p-name { font-size: 18px; }
   .p-time-v { font-size: 18px; }
   .p-score { margin: 14px 18px 0; padding: 18px; gap: 16px; }

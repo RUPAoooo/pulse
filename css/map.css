@@ -7,7 +7,7 @@
   flex: 1;
   min-height: 0;
   display: block;
-  padding: 0 var(--gut) 4px;
+  padding: 0 var(--gut) 8px;
 }
 
 /* the haze the map floats in — behind everything inside the container */
@@ -18,9 +18,9 @@
   z-index: 0;
   pointer-events: none;
   background:
-    radial-gradient(58% 66% at 54% 46%, rgba(77, 143, 224, 0.24), transparent 72%),
-    radial-gradient(42% 58% at 5% 45%, rgba(255, 176, 132, 0.18), transparent 74%);
-  filter: blur(20px);
+    radial-gradient(52% 62% at 50% 48%, rgba(77, 143, 224, 0.16), transparent 72%),
+    radial-gradient(30% 42% at 16% 46%, rgba(255, 150, 96, 0.07), transparent 74%);
+  filter: blur(26px);
 }
 
 .map-wrap > * { position: relative; z-index: 1; }
@@ -30,7 +30,7 @@
   height: 100%;
   display: block;
   touch-action: manipulation;
-  filter: drop-shadow(0 0 30px rgba(70, 128, 208, 0.24));
+  filter: drop-shadow(0 0 26px rgba(70, 128, 208, 0.18));
 }
 
 .world.is-pointing { cursor: pointer; }
@@ -63,7 +63,7 @@
    country lands on almost exactly the same tone as one without data. */
 .country.has-data {
   fill: var(--glow);
-  fill-opacity: calc(0.10 + var(--a) * 0.67);
+  fill-opacity: calc(0.13 + var(--a) * 0.74);
 }
 
 .country.is-hover { stroke: rgba(190, 218, 255, 0.5); }
@@ -73,7 +73,7 @@
 .country.is-selected { stroke: rgba(228, 241, 255, 0.92); stroke-width: 0.9; }
 .country.has-data.is-selected { fill: var(--glow-2); fill-opacity: calc(0.4 + var(--a) * 0.58); }
 
-.world.has-selection .country.has-data:not(.is-selected) { opacity: 0.82; }
+.world.has-selection .country.has-data:not(.is-selected) { opacity: 0.7; }
 .world.has-selection .country:not(.has-data) { opacity: 0.8; }
 
 /* ------------------------------------------------- coastline and borders */
@@ -86,13 +86,13 @@
 .layer-land {
   filter:
     drop-shadow(0 1.4px 2.2px rgba(2, 6, 16, 0.85))
-    drop-shadow(0 0 7px rgba(96, 152, 224, 0.28));
+    drop-shadow(0 0 5px rgba(96, 152, 224, 0.22));
 }
 
 .coastline {
   fill: none;
-  stroke: rgba(202, 225, 255, 0.58);
-  stroke-width: 0.48;
+  stroke: rgba(202, 225, 255, 0.5);
+  stroke-width: 0.55;
   stroke-linejoin: round;
   stroke-linecap: round;
   vector-effect: non-scaling-stroke;
@@ -101,8 +101,8 @@
 /* Internal borders stay a hint, never a graphic in their own right. */
 .borderline {
   fill: none;
-  stroke: rgba(155, 188, 230, 0.30);
-  stroke-width: 0.42;
+  stroke: rgba(155, 188, 230, 0.16);
+  stroke-width: 0.5;
   stroke-dasharray: 3 3;
   stroke-linecap: round;
   vector-effect: non-scaling-stroke;
@@ -142,7 +142,7 @@
 .city-light-t2 { fill: var(--city-b); }
 .city-light-t3 { fill: var(--city-c); }
 
-.city-light.is-night { opacity: calc((0.62 + var(--w) * 0.34) * var(--o)); }
+.city-light.is-night { opacity: calc((0.48 + var(--w) * 0.38) * var(--o)); }
 
 @media (prefers-reduced-motion: no-preference) {
   .city-light.is-night { animation: citybreath 11s var(--ease) infinite; }
@@ -163,15 +163,14 @@
   stroke-width: 2.4;
   paint-order: stroke;
   font-family: var(--sans);
-  font-size: 10.5px;
-  font-weight: 500;
+  font-size: 9px;
   letter-spacing: 0.1em;
   text-anchor: middle;
   opacity: 0;
   transition: opacity 0.6s var(--ease);
 }
 
-.clabel.is-on { opacity: 0.94; }
+.clabel.is-on { opacity: 0.72; }
 .clabel.is-strong { opacity: 1; fill: #fff; }
 
 /* ------------------------------------------------------- halo and pulse */
@@ -181,15 +180,15 @@
 .halo { --a: 0; }
 .halo circle { transition: opacity 0.9s var(--ease); }
 
-.halo-glow { opacity: calc(0.24 + var(--a) * 0.72); }
+.halo-glow { opacity: calc(0.18 + var(--a) * 0.62); }
 .halo-outer {
   fill: none; stroke: var(--glow); stroke-width: 0.3;
   opacity: 0; vector-effect: non-scaling-stroke;
 }
-.halo.is-strong .halo-outer { opacity: calc(0.08 + var(--a) * 0.28); }
+.halo.is-strong .halo-outer { opacity: calc(var(--a) * 0.2); }
 .halo-ring {
-  fill: none; stroke: var(--glow); stroke-width: 0.55;
-  opacity: calc(0.08 + var(--a) * 0.44); vector-effect: non-scaling-stroke;
+  fill: none; stroke: var(--glow); stroke-width: 0.5;
+  opacity: calc(var(--a) * 0.34); vector-effect: non-scaling-stroke;
 }
 .halo-core {
   fill: var(--glow-2);
@@ -261,18 +260,18 @@
   stroke: var(--glow);
   stroke-width: 1.6;
   vector-effect: non-scaling-stroke;
-  opacity: 0.22;
+  opacity: 0.07;
   animation: linkfade 0.9s var(--ease) both;
 }
 
 .link {
   fill: none;
   stroke: var(--glow-2);
-  stroke-width: 0.62;
-  stroke-dasharray: 2 5;
+  stroke-width: 0.55;
+  stroke-dasharray: 2 8;
   stroke-linecap: round;
   vector-effect: non-scaling-stroke;
-  opacity: 0.82;
+  opacity: 0.5;
   animation: linkfade 0.8s var(--ease) both, linkflow 3.6s linear infinite;
 }
 
@@ -305,14 +304,14 @@
 .legend {
   position: absolute;
   left: calc(var(--gut) + 6px);
-  bottom: 24px;
-  width: 198px;
-  padding: 17px 20px 16px;
-  border: 1px solid rgba(184, 214, 252, 0.30);
+  bottom: 14px;
+  width: 214px;
+  padding: 15px 17px 14px;
+  border: 1px solid rgba(184, 214, 252, 0.14);
   border-radius: 13px;
   background:
     linear-gradient(135deg, rgba(180, 214, 255, 0.085), rgba(180, 214, 255, 0) 42%),
-    rgba(5, 12, 24, 0.70);
+    rgba(8, 13, 22, 0.58);
   box-shadow: inset 0 1px 0 rgba(198, 224, 255, 0.12), 0 14px 30px rgba(0, 0, 0, 0.35);
   backdrop-filter: blur(14px) saturate(125%);
   -webkit-backdrop-filter: blur(14px) saturate(125%);

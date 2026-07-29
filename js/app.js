@@ -46,7 +46,7 @@ const state = {
   model: null,
   offsetHours: 0,
   selected: null,
-  linksOn: true,
+  linksOn: false,
   hoverTopic: null,
   modalTopic: null,
 };

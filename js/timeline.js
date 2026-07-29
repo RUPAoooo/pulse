@@ -93,27 +93,11 @@ export function renderTimeline({ container, frames, onChange }) {
    */
   function drawWave() {
     columns.textContent = '';
-    const sourceValues = ordered.map((f) => {
+    const values = ordered.map((f) => {
       const list = Object.values(f.countries ?? {});
       if (!list.length) return 0;
       const sum = list.reduce((acc, c) => acc + (Number(c.activityScore) || 0), 0);
       return sum / list.length;
-    });
-    /* The source has only a handful of selectable frames. Interpolate a dense,
-       deterministic display series so the strip reads like the reference
-       pulse monitor without inventing additional selectable timestamps. */
-    const displayCount = Math.max(96, sourceValues.length);
-    const values = Array.from({ length: displayCount }, (_, i) => {
-      if (sourceValues.length < 2) return sourceValues[0] ?? 0;
-      const t = i / (displayCount - 1);
-      const at = t * (sourceValues.length - 1);
-      const lo = Math.floor(at);
-      const hi = Math.min(sourceValues.length - 1, lo + 1);
-      const mix = at - lo;
-      const base = sourceValues[lo] * (1 - mix) + sourceValues[hi] * mix;
-      const texture = 0.86 + Math.abs(Math.sin(i * 1.71)) * 0.24
-        + Math.sin(i * 0.37) * 0.08;
-      return base * texture;
     });
     const peak = Math.max(40, ...values);
     const n = Math.max(1, values.length - 1);
@@ -130,7 +114,7 @@ export function renderTimeline({ container, frames, onChange }) {
         columns.append(svgEl('circle', {
           class: `tl-dot${on ? ' is-on' : ''}`,
           cx: x.toFixed(1), cy: y, r: on ? 1.7 : 1.1,
-          style: `--i:${Math.round((i / n) * Math.max(0, ordered.length - 1))};--k:${k}`,
+          style: `--i:${i};--k:${k}`,
         }));
       }
     });

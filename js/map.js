@@ -47,10 +47,7 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
   });
 
   svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
-  /* The reference composition uses a tall, cinematic map surface rather than
-     a letterboxed 2.5:1 atlas. Fill the available stage so the continents,
-     lights and terminator occupy the whole left-hand canvas. */
-  svg.setAttribute('preserveAspectRatio', 'none');
+  svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
   svg.textContent = '';
 
   /* ------------------------------------------------------------------ defs */
@@ -204,8 +201,8 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
     const glow = el('circle', { cx, cy, r: 60, fill: 'url(#wp-halo)', class: 'halo-glow' });
     const outer = el('circle', { cx, cy, r: 22, class: 'halo-outer' });
     const ring = el('circle', { cx, cy, r: 14, class: 'halo-ring' });
-    const core = el('circle', { cx, cy, r: 4.8, class: 'halo-core country-pulse-core' });
-    const spark = el('circle', { cx, cy, r: 1.8, class: 'halo-spark' });
+    const core = el('circle', { cx, cy, r: 3.4, class: 'halo-core country-pulse-core' });
+    const spark = el('circle', { cx, cy, r: 1.4, class: 'halo-spark' });
     g.append(glow, outer, ring, core, spark);
     haloLayer.append(g);
     halos.set(country.code, { g, glow, outer, ring, core, cx, cy });
@@ -401,8 +398,8 @@ export function renderWorldMap({ svg, geo, countries, onHover, onSelect }) {
       h.g.classList.toggle('is-breathing', on && breathing.has(code) && !reduceMotion.matches);
       h.g.style.setProperty('--a', (a / 100).toFixed(3));
       h.glow.setAttribute('r', 17 + a * 0.45);
-      h.outer.setAttribute('r', 14 + a * 0.16);
-      h.ring.setAttribute('r', 7 + a * 0.07);
+      h.outer.setAttribute('r', 11 + a * 0.14);
+      h.ring.setAttribute('r', 5.5 + a * 0.055);
     }
     paintLabels();
   }
